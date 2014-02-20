@@ -1,3 +1,6 @@
+*.docset
+*.tgz
+
 *.gem
 *.rbc
 .bundle
