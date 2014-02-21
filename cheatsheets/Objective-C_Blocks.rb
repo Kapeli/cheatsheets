@@ -2,8 +2,7 @@ cheatsheet do
   title 'Objective-C Blocks'
   docset_file_name 'Objective-C_Blocks'
   keyword 'objc'
-  platform 'appledoc'
-  source_url 'https://github.com/Kapeli/cheatsheets#readme'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Block Syntax'

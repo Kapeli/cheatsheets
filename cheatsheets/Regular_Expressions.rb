@@ -2,7 +2,7 @@ cheatsheet do
   title 'Regular Expressions'
   docset_file_name 'Regular_Expressions'
   keyword 'regex'
-  source_url 'https://github.com/Kapeli/cheatsheets#readme'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Basic Syntax'
