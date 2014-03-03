@@ -9,15 +9,24 @@ cheatsheet do
 
     entry do
       name 'Object'
-      notes '`$result` (`$this`)'
+      notes '
+      ```
+      $result ($this)
+      ```'
     end
     entry do
       name 'Expectation'
-      notes '`should` or `shouldNot`'
+      notes '
+      ```
+      should or shouldNot
+      ```'
     end
     entry do
       name 'Matcher'
-      notes '`Be…()`'
+      notes '
+      ```
+      Be…()
+      ````'
     end
   end
 
@@ -228,7 +237,7 @@ cheatsheet do
   end
 
   notes <<-'END'
-    * This cheatsheet is based on a [gist](https://gist.github.com/pedroborges/9176252) from [Pedro Borges](https://github.com/pedroborges)
+    * Based on a [gist](https://gist.github.com/pedroborges/9176252) from [Pedro Borges](https://github.com/pedroborges)
     * Inspired by [Marcello Duarte](https://github.com/MarcelloDuarte/)'s PhpSpec 2.0 ilustrated by [examples slides](http://pt.slideshare.net/marcello.duarte/phpspec-20-ilustrated-by-examples)
     * Converted by [Jens Kohl](https://github.com/jk)
     

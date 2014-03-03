@@ -39,6 +39,6 @@ cheatsheet do
     end
   end
   notes <<-'END'
-    * Based on a [cheatsheet](http://fuckingblocksyntax.com/) by [Mike Walker](http://lazerwalker.com/)
+    * Based on a [cheat sheet](http://fuckingblocksyntax.com/) by [Mike Walker](http://lazerwalker.com/)
   END
 end
