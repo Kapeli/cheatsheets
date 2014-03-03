@@ -1,6 +1,6 @@
 cheatsheet do
-  title 'phpSpec 2.0'
-  docset_file_name 'phpspec_2.0'
+  title 'phpSpec'
+  docset_file_name 'phpSpec'
   keyword 'phpspec'
 
   category do
