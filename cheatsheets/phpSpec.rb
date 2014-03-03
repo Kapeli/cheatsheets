@@ -2,6 +2,7 @@ cheatsheet do
   title 'phpSpec'
   docset_file_name 'phpSpec'
   keyword 'phpspec'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'General'
@@ -26,9 +27,7 @@ cheatsheet do
     entry do
       name 'Identity (**===**)'
       notes <<-'END'
-        ```php
-        <?php
-
+        ```php?start_inline=1
         $this->method()->shouldReturn('something');
         $this->method()->shouldBe('something');
         $this->method()->shouldBeEqualTo('something');
@@ -40,9 +39,7 @@ cheatsheet do
     entry do
       name 'Comparison (**==**)'
       notes <<-'END'
-        ```php
-        <?php
-
+        ```php?start_inline=1
         $this->method()->shouldBeLike('something');
         ```
       END
@@ -51,9 +48,7 @@ cheatsheet do
     entry do
       name 'Throw'
       notes <<-'END'
-        ```php
-        <?php
-
+        ```php?start_inline=1
         $this->greet()->shouldBeAnInstanceOf('Greeting');
         $this->greet()->returnAnInstanceOf('Greeting');
         $this->greet()->haveType('Greeting');
@@ -66,9 +61,7 @@ cheatsheet do
       notes <<-'END'
         * has → have
         
-            ```php
-            <?php
-            
+            ```php?start_inline=1
             class ShoppingCartSpec extends ObjectBehavior
             {
               function it_is_created_empty()
@@ -84,9 +77,7 @@ cheatsheet do
             ```
         * is → be
         
-            ```php
-            <?php
-            
+            ```php?start_inline=1
             class LifeSpec extends ObjectBehavior
             {
               function it_is_simple()
@@ -107,9 +98,7 @@ cheatsheet do
     entry do
       name 'Inline'
       notes <<-'END'
-        ```php
-        <?php
-        
+        ```php?start_inline=1
         class NeoSpec extends ObjectBehavior
         {
           function it_should_be_the_one()
@@ -136,9 +125,7 @@ cheatsheet do
     
     entry do
       notes <<-'END'
-        ```php
-        <?php
-        
+        ```php?start_inline=1
         class SomeSpec extends ObjectBehavior
         {
             function let()
@@ -166,9 +153,7 @@ cheatsheet do
     
     entry do
       notes <<-'END'
-        ```php
-        <?php
-        
+        ```php?start_inline=1
         //...
         
         function let()
@@ -185,9 +170,7 @@ cheatsheet do
     
     entry do
       notes <<-'END'
-        ```php
-        <?php
-        
+        ```php?start_inline=1
         class SomeSpec extends ObjectBehavior
         {
             function let(Greeting $greeting)
@@ -212,9 +195,7 @@ cheatsheet do
     
     entry do
       notes <<-'END'
-        ```php
-        <?php
-        
+        ```php?start_inline=1
         class SomeSpec extends ObjectBehavior
         {
             function let(Greeter $greeter)
@@ -235,7 +216,6 @@ cheatsheet do
   end
 
   notes <<-'END'
-    * _Added `<?php` in some samples solely for syntax highligthing._
     * This cheatsheet is based on a [gist](https://gist.github.com/pedroborges/9176252) from [Pedro Borges](https://github.com/pedroborges)
     * Inspired by [Marcello Duarte](https://github.com/MarcelloDuarte/)'s PhpSpec 2.0 ilustrated by [examples slides](http://pt.slideshare.net/marcello.duarte/phpspec-20-ilustrated-by-examples)
     * Converted by [Jens Kohl](https://github.com/jk)
