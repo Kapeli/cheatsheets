@@ -49,6 +49,18 @@ cheatsheet do
       name 'Throw'
       notes <<-'END'
         ```php?start_inline=1
+        $this->shouldThrow('EndOfTheWorld')->duringGreet();
+        $this->shouldThrow('EndOfTheWorld')->during('greet');
+        $this->greet()->shouldThrow(new \Exception)->duringGreet();
+        $this->greet()->shouldThrow(new \Exception)->during('greet', ['arguments']);
+        ```
+      END
+    end
+
+    entry do
+      name 'Type'
+      notes <<-'END'
+        ```php?start_inline=1
         $this->greet()->shouldBeAnInstanceOf('Greeting');
         $this->greet()->returnAnInstanceOf('Greeting');
         $this->greet()->haveType('Greeting');
