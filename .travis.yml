@@ -2,5 +2,7 @@ language: ruby
 rvm:
   - 1.9.3
   - 2.0.0
+notifications:
+  email: false
 install: gem install cheatset --no-ri --no-rdoc
 script: find cheatsheets -name "*.rb" | xargs -n 1 cheatset generate
