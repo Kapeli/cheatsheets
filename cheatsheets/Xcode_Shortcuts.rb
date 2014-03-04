@@ -6,91 +6,90 @@ cheatsheet do
 
 
   category do
-    id 'Navigation (Editor)'
+    id 'Editor Navigation'
     entry do
       command 'CMD+SHIFT+O'
-      name 'Open Quickly'
+      name 'Open quickly'
     end
     entry do
       command 'CMD+J'
-      name 'Move Focus to Editor'
+      name 'Move focus to editor'
     end
     entry do
       command 'CMD+CTRL+Arrow Up'
-      name 'Next Counterpart'
+      name 'Next counterpart'
     end
     entry do
       command 'CMD+CTRL+Arrow Down'
-      name 'Previous Counterpart'
+      name 'Previous counterpart'
     end
     entry do
       command 'CMD+CTRL+Arrow Left'
-      name 'Previous recent File'
+      name 'Previous recent file'
     end
     entry do
       command 'CMD+CTRL+Arrow Right'
-      name 'Next recent File'
+      name 'Next recent file'
     end
     entry do
       command 'CMD+Click'
-      name 'Definition of Symbol'
+      name 'Definition of symbol'
     end
     entry do
       command 'CMD+L'
-      name 'Go to Line'
+      name 'Go to line'
     end
     entry do
       command 'CMD+ALT+Arrow Left'
-      name 'Fold Section'
+      name 'Fold section'
     end
     entry do
       command 'CMD+CTRL+Arrow Right'
-      name 'Unfold Section'
+      name 'Unfold section'
     end
   end
-
 
   category do
     id 'Editing'
     entry do
       command 'CMD+ALT+Return'
-      name 'Show Assistant Editor'
+      name 'Show assistant editor'
     end
     entry do
       command 'CMD+Return'
-      name 'Hide Assistant Editor'
+      name 'Hide assistant editor'
     end
     entry do
       command 'CTRL+Space'
-      name 'Toggle Completion'
+      name 'Toggle completion'
     end
     entry do
       command 'CMD+CTRL+E'
-      name 'Edit all in Scope'
+      name 'Edit all in scope'
     end
     entry do
       command 'CMD+]'
-      name 'Indent Selection'
+      name 'Increase indentation'
     end
     entry do
       command 'CMD+['
-      name 'Outdent Selection'
+      name 'Decrease indentation'
     end
     entry do
       command 'CTRL+I'
-      name 'Fix Indentation'
+      name 'Fix indentation'
     end
     entry do
       command 'CMD+/'
-      name 'Comment / Uncomment'
+      name 'Comment or uncomment'
     end
     entry do
       command 'CMD+ALT+['
-      name 'Move Line up'
+      name 'Move line up'
     end
     entry do
       command 'CMD+ALT+]'
-      name 'Move Line down'
+      name 'Move line down'
     end
   end
 
@@ -99,36 +98,19 @@ cheatsheet do
     id 'Search'
     entry do
       command 'CMD+F'
-      name 'Find in File'
+      name 'Find in file'
     end
     entry do
       command 'CMD+ALT+F'
-      name 'Find & Replace in File'
+      name 'Find and replace in file'
     end
     entry do
       command 'CMD+SHIFT+F'
-      name 'Find in Project'
+      name 'Find in project'
     end
     entry do
       command 'CMD+ALT+SHIFT+F'
-      name 'Find & Replace in Project'
-    end
-  end
-
-
-  category do
-    id 'Tabs'
-    entry do
-      command 'CMD+T'
-      name 'New Tab'
-    end
-    entry do
-      command 'CMD+}'
-      name 'Previous Tab'
-    end
-    entry do
-      command 'CMD+{'
-      name 'Next Tab'
+      name 'Find and replace in project'
     end
   end
 
@@ -137,80 +119,75 @@ cheatsheet do
     id 'Navigator'
     entry do
       command 'CMD+0'
-      name 'Show / Hide Navigator'
+      name 'Show or hide navigator'
     end
     entry do
       command 'CMD+1'
-      name 'Project Navigator'
+      name 'Project navigator'
     end
     entry do
       command 'CMD+2'
-      name 'Symbol Navigator'
+      name 'Symbol navigator'
     end
     entry do
       command 'CMD+3'
-      name 'Find Navigator'
+      name 'Find navigator'
     end
     entry do
       command 'CMD+4'
-      name 'Issue Navigator'
+      name 'Issue navigator'
     end
     entry do
       command 'CMD+5'
-      name 'Test Navigator'
+      name 'Test navigator'
     end
     entry do
       command 'CMD+6'
-      name 'Debug Navigator'
+      name 'Debug navigator'
     end
     entry do
       command 'CMD+7'
-      name 'Breakpoint Navigator'
+      name 'Breakpoint navigator'
     end
     entry do
       command 'CMD+8'
-      name 'Log Navigator'
+      name 'Log navigator'
     end
     entry do
       command 'ALT+Click'
-      name 'Open in Assistant Navigator'
+      name 'Open in assistant navigator'
     end
     entry do
       command 'SHIFT+ALT+Click'
-      name 'decide where to open'
+      name 'Decide where to open'
     end
   end
-
 
   category do
     id 'Debugging'
     entry do
       command 'CMD+SHIFT+Y'
-      name 'Toggle Debug Area'
+      name 'Toggle debug area'
     end
     entry do
       command 'CMD+\''
-      name 'Next Issue'
+      name 'Next issue'
     end
     entry do
       command 'CMD+"'
-      name 'Previous Issue'
+      name 'Previous issue'
     end
     entry do
-      command 'CMD+\ '
-      name 'Add Breakpoint'
+      command 'CMD+\\'
+      name 'Add breakpoint'
     end
     entry do
       command 'CMD+Y'
-      name 'Toggle Breakpoints'
-    end
-    entry do
-      command 'CMD+\''
-      name 'Next Issue'
+      name 'Toggle breakpoints'
     end
     entry do
       command 'CMD+K'
-      name 'Clear Console'
+      name 'Clear console'
     end
   end
 
@@ -218,20 +195,18 @@ cheatsheet do
   category do
     id 'Documentation'
     entry do
-      command 'CMD+ALT+? '
-      name 'Show Documentation'
+      command 'CMD+ALT+?'
+      name 'Show documentation'
     end
     entry do
-      command 'CMD+ALT+CTRL+\ '
-      name 'Show Documentation for Selection'
+      command 'ALT+Click'
+      command 'CMD+CTRL+?'
+      name 'Show quick help for symbol'
     end
     entry do
-      command 'ALT+Click '
-      name 'Show Help for clicked Symbol'
-    end
-    entry do
-      command 'ALT+DoubleClick '
-      name 'Show Documentation for clicked Symbol'
+      command 'ALT+Double Click'
+      command 'CMD+CTRL+ALT+/'
+      name 'Show documentation for symbol'
     end
   end
 
@@ -239,20 +214,24 @@ cheatsheet do
   category do
     id 'Build & Run'
     entry do
-      command 'CMD+B '
+      command 'CMD+B'
       name 'Build'
     end
     entry do
-      command 'CMD+R '
-      name 'R'
+      command 'CMD+R'
+      name 'Run'
     end
     entry do
-      command 'CMD+. '
+      command 'CMD+.'
       name 'Stop'
     end
     entry do
-      command 'CMD+SHIFT+B '
+      command 'CMD+SHIFT+B'
       name 'Analyze'
+    end
+    entry do
+      command 'CMD+I'
+      name 'Profile'
     end
     entry do
       command 'CMD+U'
@@ -260,7 +239,7 @@ cheatsheet do
     end
     entry do
       command 'CMD+SHIFT+K'
-      name 'Build'
+      name 'Clean'
     end
   end
 
@@ -268,48 +247,48 @@ cheatsheet do
   category do
     id 'Utilities'
     entry do
-      command 'CMD+ALT+0 '
-      name 'Show/Hide'
+      command 'CMD+ALT+0'
+      name 'Show or hide'
     end
     entry do
       command 'CMD+ALT+1'
-      name 'File Inspector'
+      name 'File inspector'
     end
     entry do
       command 'CMD+ALT+2'
-      name 'Quick Help Inspector'
+      name 'Quick help inspector'
     end
     entry do
       command 'CMD+ALT+3'
-      name 'Identity Inspector'
+      name 'Identity inspector'
     end
     entry do
       command 'CMD+ALT+4'
-      name 'Attributes Inspector'
+      name 'Attributes inspector'
     end
     entry do
       command 'CMD+ALT+5'
-      name 'Size Inspector'
+      name 'Size inspector'
     end
     entry do
       command 'CMD+ALT+6'
-      name 'Connections Inspector'
+      name 'Connections inspector'
     end
     entry do
-      command 'CTRL+ALT+CMD+1'
-      name 'File Template Library'
+      command 'CMD+CTRL+ALT+1'
+      name 'File template library'
     end
     entry do
-      command 'CTRL+ALT+CMD+2'
-      name 'Code Snippet Library'
+      command 'CMD+CTRL+ALT+2'
+      name 'Code snippet library'
     end
     entry do
-      command 'CTRL+ALT+CMD+3'
-      name 'Object Library'
+      command 'CMD+CTRL+ALT+3'
+      name 'Object library'
     end
     entry do
-      command 'CTRL+ALT+CMD+4'
-      name 'Media Library'
+      command 'CMD+CTRL+ALT+4'
+      name 'Media library'
     end
   end
 end

@@ -35,7 +35,7 @@ cheatsheet do
       name 'Switch between tabs and tool window'
     end
     entry do
-      command 'SHIFT+CMD+A'
+      command 'CMD+SHIFT+A'
       name 'Find action'
     end
   end
