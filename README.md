@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Kapeli/cheatsheets.png?branch=master)](https://travis-ci.org/Kapeli/cheatsheets)
+
 Dash Cheat Sheets
 ===========
 
