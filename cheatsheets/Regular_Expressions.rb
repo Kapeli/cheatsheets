@@ -203,7 +203,7 @@ cheatsheet do
     entry do
       command '\\'
       name 'Escape following character'
-      notes '`\\` is used to escape any of the following metacharacters: `{}[]()^$.|*+?\\`.'
+      notes 'Used to escape any of the following metacharacters: `{}[]()^$.|*+?\\`.'
     end    
     entry do
       command '\Q'

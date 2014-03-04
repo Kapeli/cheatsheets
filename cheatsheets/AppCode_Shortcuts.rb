@@ -4,40 +4,39 @@ cheatsheet do
   keyword 'appcode'
   source_url 'http://cheat.kapeli.com'
 
-
   category do
     id 'General'
     entry do
-      command 'Cmd + 0 ... Cmd + 9'
-      name 'Open corresponding tool Window'
+      command 'CMD+0...CMD+9'
+      name 'Open corresponding tool window'
     end
     entry do
-      command 'Cmd + Alt + Y'
+      command 'CMD+ALT+Y'
       name 'Synchronize'
     end
     entry do
-      command 'Cmd + Shift + F12'
-      name 'Toggle maximizing Editor'
+      command 'CMD+SHIFT+F12'
+      name 'Toggle maximizing editor'
     end
     entry do
-      command 'Alt + Shift + F'
-      name 'Add to Favorites'
+      command 'ALT+SHIFT+F'
+      name 'Add to favorites'
     end
     entry do
-      command 'Alt + Shift + I'
-      name 'Inspect current File with current Profile'
+      command 'ALT+SHIFT+I'
+      name 'Inspect current file with current profile'
     end
     entry do
-      command 'Ctrl + §'
-      name 'Quick switch current Scheme'
+      command 'CTRL+§'
+      name 'Quick switch current scheme'
     end
     entry do
-      command 'Ctrl + Tab'
-      name 'Switch between Tabs and tool Window'
+      command 'CTRL+Tab'
+      name 'Switch between tabs and tool window'
     end
     entry do
-      command 'Shift + Cmd + A'
-      name 'Find Action'
+      command 'SHIFT+CMD+A'
+      name 'Find action'
     end
   end
 
@@ -45,170 +44,174 @@ cheatsheet do
   category do
     id 'Editing'
     entry do
-      command 'Ctrl + Space'
-      name 'Basic Code completion (the Name of any Class, Method or Variable)'
+      command 'CTRL+Space'
+      name 'Basic code completion'
+      notes 'Name of any class, method or variable'
     end
     entry do
-      command 'Ctrl + Shift + Space'
-      name 'Smart Code completion (filters the List of Methods and Variables by expected Type)'
+      command 'CTRL+SHIFT+Space'
+      name 'Smart code completion'
+      notes 'Filters the list of methods and variables by expected type'
     end
     entry do
-      command 'Cmd + Shift + Enter'
-      name 'Complete Statement'
+      command 'CMD+SHIFT+Enter'
+      name 'Complete statement'
     end
     entry do
-      command 'Ctrl + j'
-      name 'Quick Documentation lookup'
+      command 'CTRL+J'
+      name 'Quick documentation lookup'
     end
     entry do
-      command 'Shift + F1'
-      name 'External Doc'
+      command 'SHIFT+F1'
+      name 'External documentation lookup'
     end
     entry do
-      command 'Cmd + mouse over code'
-      name 'Brief Info'
+      command 'CMD+mouse over code'
+      name 'Brief info'
     end
     entry do
-      command 'Cmd + F1'
-      name 'Show description of Error or Warning at Caret'
+      command 'CMD+F1'
+      name 'Show description of error or warning at caret'
     end
     entry do
-      command 'Cmd + N'
-      command 'Ctrl + Enter'
-      command 'Ctrl + N'
-      name 'Generate Code (initWith..., Properties, etc)'
+      command 'CMD+N'
+      command 'CTRL+N'
+      command 'CTRL+Enter'
+      name 'Generate code'
+      notes '`initWith...`, properties, etc.'
     end
     entry do
-      command 'Ctrl + O'
-      name 'Override Methods'
+      command 'CTRL+O'
+      name 'Override methods'
     end
     entry do
-      command 'Ctrl + I'
-      name 'Implement Methods'
+      command 'CTRL+I'
+      name 'Implement methods'
     end
     entry do
-      command 'Cmd + Alt + T'
-      name 'Surround with... (if..else, for, @try..@catch, @synchronized, etc.)'
+      command 'CMD+ALT+T'
+      name 'Surround with...'
+      notes '`if...else`, `for`, `@try...@catch`, `@synchronized`, etc.'
     end
     entry do
-      command 'Cmd + /'
-      name 'Comment/uncommment with Line Comment'
+      command 'CMD+/'
+      name 'Comment or uncommment with line comment'
     end
     entry do
-      command 'Cmd + Alt + /'
-      name 'Comment/uncommment with Block Comment'
+      command 'CMD+ALT+/'
+      name 'Comment or uncommment with block comment'
     end
     entry do
-      command 'Alt + Arrow up'
-      name 'Select successively increasing Code Blocks'
+      command 'ALT+Arrow Up'
+      name 'Select successively increasing code blocks'
     end
     entry do
-      command 'Alt + Arrow down'
-      name 'Decrease current Selection to previous State'
+      command 'ALT+Arrow Down'
+      name 'Decrease current selection to previous state'
     end
     entry do
-      command 'Ctrl + Shift + Q'
-      name 'Context Info'
+      command 'CTRL+SHIFT+Q'
+      name 'Context info'
     end
     entry do
-      command 'Alt + Enter'
-      name 'Show intention Actions and Quick-fixes'
+      command 'ALT+Enter'
+      name 'Show intention actions and quick-fixes'
     end
     entry do
-      command 'Cmd + Alt + L'
-      name 'Reformat Code'
+      command 'CMD+ALT+L'
+      name 'Reformat code'
     end
     entry do
-      command 'Ctrl + Alt + O'
-      name 'Optimize Imports'
+      command 'CTRL+ALT+O'
+      name 'Optimize imports'
     end
     entry do
-      command 'Ctrl + Alt + I'
-      name 'Auto-ident Line(s)'
+      command 'CTRL+ALT+I'
+      name 'Auto-ident lines'
     end
     entry do
       command 'Tab'
-      name 'Indent selected Lines'
+      name 'Indent selected lines'
     end
     entry do
-      command 'Shift + Tab'
-      name 'Unindent selected Lines'
+      command 'SHIFT+Tab'
+      name 'Unindent selected lines'
     end
     entry do
-      command 'Cmd + X'
-      name 'Cut current Line or selected Block to Clipboard'
+      command 'CMD+X'
+      name 'Cut current line or selected block to clipboard'
     end
     entry do
-      command 'Cmd + C'
-      name 'Copy current Line or selected Block to Clipboard'
+      command 'CMD+C'
+      name 'Copy current line or selected block to clipboard'
     end
     entry do
-      command 'Cmd + V'
-      name 'Paste from Clipboard'
+      command 'CMD+V'
+      name 'Paste from clipboard'
     end
     entry do
-      command 'Cmd + Shift + V'
-      name 'Paste from recent Buffers'
+      command 'CMD+SHIFT+V'
+      name 'Paste from recent buffers'
     end
     entry do
-      command 'Cmd + D'
-      name 'Duplicate current Line or selected Block'
+      command 'CMD+D'
+      name 'Duplicate current line or selected block'
     end
     entry do
-      command 'Cmd + Backspace'
-      name 'Delete Line at Caret'
+      command 'CMD+Backspace'
+      name 'Delete line at caret'
     end
     entry do
-      command 'Ctrl + Shift + J'
-      name 'Smart Line join'
+      command 'CTRL+SHIFT+J'
+      name 'Smart line join'
     end
     entry do
-      command 'Cmd + Enter'
-      name 'Smart Line split'
+      command 'CMD+Enter'
+      name 'Smart line split'
     end
     entry do
-      command 'Shift + Enter'
-      name 'Start new Line'
+      command 'SHIFT+Enter'
+      name 'Start new line'
     end
     entry do
-      command 'Cmd + Shift + U'
-      name 'Toggle Case for Word at Caret or selected Block'
+      command 'CMD+SHIFT+U'
+      name 'Toggle case for word at caret or selected block'
     end
     entry do
-      command 'Cmd + Shift + ]'
-      name 'Select till code Block end'
+      command 'CMD+SHIFT+]'
+      name 'Select until code block end'
     end
     entry do
-      command 'Cmd + Shift + ['
-      name 'Select till code Block start'
+      command 'CMD+SHIFT+['
+      name 'Select until code block start'
     end
     entry do
-      command 'Alt + Delete'
-      name 'Delete to Word end'
+      command 'ALT+Delete'
+      name 'Delete to word end'
     end
     entry do
-      command 'Alt + Backspace'
-      name 'Delete to Word start'
+      command 'ALT+Backspace'
+      name 'Delete to word start'
     end
     entry do
-      command 'Cmd + "+"'
-      name 'Expand code Block'
+      command 'CMD+"+"'
+      name 'Expand code block'
     end
     entry do
-      command 'Cmd + "-"'
-      name 'Collapse code Block'
+      command 'CMD+"-"'
+      name 'Collapse code block'
     end
     entry do
-      command 'Cmd + Shift + "+"'
+      command 'CMD+SHIFT+"+"'
       name 'Expand all'
     end
     entry do
-      command 'Cmd + Shift + "-"'
+      command 'CMD+SHIFT+"-"'
       name 'Collapse all'
     end
     entry do
-      command 'Cmd + W'
-      name 'Close active Editor Tab'
+      command 'CMD+W'
+      name 'Close active editor tab'
     end
   end
 
@@ -216,28 +219,28 @@ cheatsheet do
   category do
     id 'Search/Replace'
     entry do
-      command 'Cmd + F'
+      command 'CMD+F'
       name 'Find'
     end
     entry do
-      command 'Cmd + G'
+      command 'CMD+G'
       name 'Find next'
     end
     entry do
-      command 'Cmd + Shift + G'
+      command 'CMD+SHIFT+G'
       name 'Find previous'
     end
     entry do
-      command 'Cmd + R'
+      command 'CMD+R'
       name 'Replace'
     end
     entry do
-      command 'Cmd + Shift + F'
-      name 'Find in Path'
+      command 'CMD+SHIFT+F'
+      name 'Find in path'
     end
     entry do
-      command 'Cmd + Shift + R'
-      name 'Replace in Path'
+      command 'CMD+SHIFT+R'
+      name 'Replace in path'
     end
   end
 
@@ -245,19 +248,19 @@ cheatsheet do
   category do
     id 'Usage Search'
     entry do
-      command 'Alt + F7'
+      command 'ALT+F7'
       name 'Find usage'
     end
     entry do
-      command 'Cmd + F7'
-      name 'Find usage in File'
+      command 'CMD+F7'
+      name 'Find usage in file'
     end
     entry do
-      command 'Cmd + Shift + F7'
-      name 'Highlight usage in File'
+      command 'CMD+SHIFT+F7'
+      name 'Highlight usage in file'
     end
     entry do
-      command 'Cmd + Alt + F7'
+      command 'CMD+ALT+F7'
       name 'Show usage'
     end
   end
@@ -266,28 +269,28 @@ cheatsheet do
   category do
     id 'Compile and Run'
     entry do
-      command 'Cmd + F9'
-      name 'Build Project'
+      command 'CMD+F9'
+      name 'Build project'
     end
     entry do
-      command 'Ctrl + Alt + R'
-      name 'Select Configuration and run'
-    end
-    entry do
-      command 'Ctrl + Alt + D'
-      name 'Select Cofiguration and debug'
-    end
-    entry do
-      command 'Ctrl + R'
+      command 'CTRL+R'
       name 'Run'
     end
     entry do
-      command 'Ctrl + D'
+      command 'CTRL+ALT+R'
+      name 'Select configuration and run'
+    end
+    entry do
+      command 'CTRL+D'
       name 'Debug'
     end
     entry do
-      command 'Ctrl + Shift + R'
-      name 'Run Context Configuration from Editor'
+      command 'CTRL+ALT+D'
+      name 'Select cofiguration and debug'
+    end
+    entry do
+      command 'CTRL+SHIFT+R'
+      name 'Run rontext configuration from editor'
     end
   end
 
@@ -303,32 +306,32 @@ cheatsheet do
       name 'Step into'
     end
     entry do
-      command 'Shift + F7'
+      command 'SHIFT+F7'
       name 'Smart step into'
     end
     entry do
-      command 'Shift + F8'
+      command 'SHIFT+F8'
       name 'Step out'
     end
     entry do
-      command 'Alt + F9'
+      command 'ALT+F9'
       name 'Run to cursor'
     end
     entry do
-      command 'Alt + F8'
-      name 'Evaluate Expression'
+      command 'ALT+F8'
+      name 'Evaluate expression'
     end
     entry do
-      command 'Cmd + Alt + R'
-      name 'Resume Program'
+      command 'CMD+ALT+R'
+      name 'Resume program'
     end
     entry do
-      command 'Cmd + F8'
-      name 'Toggle Breakpoint'
+      command 'CMD+F8'
+      name 'Toggle breakpoint'
     end
     entry do
-      command 'Cmd + Shift + F8'
-      name 'View Breakpoints'
+      command 'CMD+SHIFT+F8'
+      name 'View breakpoints'
     end
   end
 
@@ -336,156 +339,156 @@ cheatsheet do
   category do
     id 'Navigation'
     entry do
-      command 'Cmd + O'
-      name 'Go to Class'
+      command 'CMD+O'
+      name 'Go to class'
     end
     entry do
-      command 'Cmd + Shift + O'
-      name 'Go to File'
+      command 'CMD+SHIFT+O'
+      name 'Go to file'
     end
     entry do
-      command 'Cmd + Alt + O'
-      name 'Go to Symbol'
+      command 'CMD+ALT+O'
+      name 'Go to symbol'
     end
     entry do
-      command 'Ctrl + Arrow left'
-      name 'Go to previous Editor Tab'
+      command 'CTRL+Arrow Left'
+      name 'Go to previous editor tab'
     end
     entry do
-      command 'Ctrl + Arrow right'
-      name 'Go to next Editor Tab'
+      command 'CTRL+Arrow Right'
+      name 'Go to next editor tab'
     end
     entry do
       command 'F12'
-      name 'Go to back to previous Tool Window'
+      name 'Go back to previous tool window'
     end
     entry do
       command 'Esc'
-      name 'Go to Editor (from Tool Window)'
+      name 'Go to editor (from tool window)'
     end
     entry do
-      command 'Shift + Esc'
+      command 'SHIFT+Esc'
       name 'Hide active or last active Window'
     end
     entry do
-      command 'Cmd + Shift + F4'
-      name 'Close active run/messages/find/... tab'
+      command 'CMD+SHIFT+F4'
+      name 'Close active tab'
     end
     entry do
-      command 'Cmd + L'
-      name 'Go to Line'
+      command 'CMD+L'
+      name 'Go to line'
     end
     entry do
-      command 'Cmd + E'
-      name 'Recent Files Popup'
+      command 'CMD+E'
+      name 'Recent files popup'
     end
     entry do
-      command 'Cmd + Alt + Arrow left'
+      command 'CMD+ALT+Arrow Left'
       name 'Navigate back'
     end
     entry do
-      command 'Cmd + Alt + Arrow right'
+      command 'CMD+ALT+Arrow Right'
       name 'Navigate forward'
     end
     entry do
-      command 'Cmd + Shift + Delete'
-      name 'Navigate to last edit Location'
+      command 'CMD+SHIFT+Delete'
+      name 'Navigate to last edit location'
     end
     entry do
-      command 'Cmd + Alt + Arrow left'
+      command 'CMD+ALT+Arrow Left'
       name 'Navigate back'
     end
     entry do
-      command 'Alt + F1'
-      name 'Select current File or Symbol in any View'
+      command 'ALT+F1'
+      name 'Select current file or symbol in any view'
     end
     entry do
-      command 'Cmd + Ctrl + Arrow up'
-      name 'Go to related Header or Source File'
+      command 'CMD+CTRL+Arrow Up'
+      name 'Go to related header or source file'
     end
     entry do
-      command 'Cmd + B'
-      name 'Go to Definition'
+      command 'CMD+B'
+      name 'Go to definition'
     end
     entry do
-      command 'Cmd + Alt + B'
-      name 'Go to Implementation(s)'
+      command 'CMD+ALT+B'
+      name 'Go to implementation(s)'
     end
     entry do
-      command 'Alt + Space'
-      name 'Open quick definition loockup'
+      command 'ALT+Space'
+      name 'Open quick definition lookup'
     end
     entry do
-      command 'Ctrl + Shift + B'
-      name 'Go to Type declaration'
+      command 'CTRL+SHIFT+B'
+      name 'Go to type declaration'
     end
     entry do
-      command 'Cmd + U'
-      name 'Go to super-method/ super-class'
+      command 'CMD+U'
+      name 'Go to super-method or super-class'
     end
     entry do
-      command 'Ctrl + Arrow up'
-      name 'Go to previous Method'
+      command 'CTRL+Arrow Up'
+      name 'Go to previous method'
     end
     entry do
-      command 'Ctrl+ Arrow down'
-      name 'Go to next Method'
+      command 'CTRL+Arrow Down'
+      name 'Go to next method'
     end
     entry do
-      command 'Cmd + ['
-      name 'Move to code Block start'
+      command 'CMD+['
+      name 'Move to code block start'
     end
     entry do
-      command 'Cmd + ]'
-      name 'Move to code Block end'
+      command 'CMD+]'
+      name 'Move to code block end'
     end
     entry do
-      command 'Cmd + F12'
-      name 'File structure Popup'
+      command 'CMD+F12'
+      name 'File structure popup'
     end
     entry do
-      command 'Control + H'
-      name 'Type Hierarchy'
+      command 'Control+H'
+      name 'Type hierarchy'
     end
     entry do
-      command 'Cmd + Shift + H'
-      name 'Method Hierarchy'
+      command 'CMD+SHIFT+H'
+      name 'Method hierarchy'
     end
     entry do
-      command 'Ctrl + Alt + H'
-      name 'Call Hierarchy'
+      command 'CTRL+ALT+H'
+      name 'Call hierarchy'
     end
     entry do
       command 'F2'
-      name 'Next highlighted Error'
+      name 'Next highlighted error'
     end
     entry do
-      command 'Shift + F2'
-      name 'Previous highlighted Error'
+      command 'SHIFT+F2'
+      name 'Previous highlighted error'
     end
     entry do
       command 'F4'
-      name 'Edit Source'
+      name 'Edit source'
     end
     entry do
-      command 'Cmd + Arrow down'
-      name 'View Source'
+      command 'CMD+Arrow Down'
+      name 'View source'
     end
     entry do
       command 'F3'
-      name 'Toggle Bookmark'
+      name 'Toggle bookmark'
     end
     entry do
-      command 'Alt + F3'
-      name 'Toogle Bookmark with Mnemonic'
+      command 'ALT+F3'
+      name 'Toogle bookmark with mnemonic'
     end
     entry do
-      command 'Ctrl + 0 ... Ctrl + 9'
-      name 'Go to numbered Bookmark'
+      command 'CTRL+0...CTRL+9'
+      name 'Go to numbered bookmark'
     end
     entry do
-      command 'Cmd + F3'
-      name 'Show Bookmarks'
+      command 'CMD+F3'
+      name 'Show bookmarks'
     end
   end
 
@@ -493,8 +496,8 @@ cheatsheet do
   category do
     id 'Refactoring'
     entry do
-      command 'Ctrl + T'
-      name 'Refactor This'
+      command 'CTRL+T'
+      name 'Refactor this'
     end
     entry do
       command 'F5'
@@ -505,44 +508,44 @@ cheatsheet do
       name 'Move'
     end
     entry do
-      command 'Cmd + Delete'
+      command 'CMD+Delete'
       name 'Safe delete'
     end
     entry do
-      command 'Shift + F6'
+      command 'SHIFT+F6'
       name 'Rename'
     end
     entry do
-      command 'Cmd + F6'
-      name 'Change Signature'
+      command 'CMD+F6'
+      name 'Change signature'
     end
     entry do
-      command 'Cmd + Alt + N'
+      command 'CMD+ALT+N'
       name 'Inline'
     end
     entry do
-      command 'Cmd + Alt + M'
-      name 'Extract Method'
+      command 'CMD+ALT+M'
+      name 'Extract method'
     end
     entry do
-      command 'Cmd + Alt + V'
-      name 'Introduce Variable'
+      command 'CMD+ALT+V'
+      name 'Introduce variable'
     end
     entry do
-      command 'Cmd + Alt + P'
-      name 'Introduce Parameter'
+      command 'CMD+ALT+P'
+      name 'Introduce parameter'
     end
     entry do
-      command 'Cmd + Alt E'
-      name 'Introduce Property'
+      command 'CMD+ALT+E'
+      name 'Introduce property'
     end
     entry do
-      command 'Cmd + Alt + C'
-      name 'Introduce Constant'
+      command 'CMD+ALT+C'
+      name 'Introduce constant'
     end
     entry do
-      command 'Cmd + Alt + I'
-      name 'Introduce Instance Variable'
+      command 'CMD+ALT+I'
+      name 'Introduce instance variable'
     end
   end
 
@@ -550,20 +553,20 @@ cheatsheet do
   category do
     id 'VCS / Local History'
     entry do
-      command 'Cmd + K'
-      name 'Commit Project to VCS'
+      command 'CMD+K'
+      name 'Commit project to VCS'
     end
     entry do
-      command 'Cmd + T'
-      name 'Update Project from VCS'
+      command 'CMD+T'
+      name 'Update project from VCS'
     end
     entry do
-      command 'Alt + Shift + C'
-      name 'View Recent Changes'
+      command 'ALT+SHIFT+C'
+      name 'View recent changes'
     end
       entry do
-      command 'Ctrl + V'
-      name 'VCS quick Popup'
+      command 'CTRL+V'
+      name 'VCS quick popup'
     end
   end
 
@@ -571,12 +574,12 @@ cheatsheet do
   category do
     id 'Live Templates'
     entry do
-      command 'Cmd + Alt + J'
-      name 'Surround with Live Template'
+      command 'CMD+ALT+J'
+      name 'Surround with live template'
     end
     entry do
-      command 'Cmd + J'
-      name 'Insert Live Template'
+      command 'CMD+J'
+      name 'Insert live template'
     end
   end
 
