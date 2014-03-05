@@ -23,6 +23,6 @@ Try to use [Title Case](http://en.wikipedia.org/wiki/Letter_case#Title_case) onl
 
 **3. Keyboard shortcuts**
 
-Keyboard modifiers should be listed in this order: `CMD-SHIFT-CTRL-ALT`. If you don't agree with this order, discuss it [here](https://github.com/Kapeli/cheatsheets/issues/7).
+Keyboard modifiers should be listed in this order: `CMD+SHIFT+CTRL+ALT`. If you don't agree with this order, discuss it [here](https://github.com/Kapeli/cheatsheets/issues/7).
 
 [![Build Status](https://travis-ci.org/Kapeli/cheatsheets.png?branch=master)](https://travis-ci.org/Kapeli/cheatsheets)
