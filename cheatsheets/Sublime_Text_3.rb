@@ -11,7 +11,7 @@ cheatsheet do
 			name 'Command Palette'
 			notes "
 				```
-				⌘ + ⇧ + P
+				Command + Shift + P
 				```"
 		end
 
@@ -19,7 +19,7 @@ cheatsheet do
 			name 'Goto Anything'
 			notes "
 				```
-				⌘ + P
+				Command + P
 				```
 			"
 		end
@@ -28,7 +28,7 @@ cheatsheet do
 			name 'Goto Symbol'
 			notes "
 				```
-				⌘ + R
+				Command + R
 				```
 			"
 		end
@@ -37,7 +37,7 @@ cheatsheet do
 			name 'New File'
 			notes "
 				```
-				⌘ + N
+				Command + N
 				```
 			"
 		end
@@ -46,7 +46,7 @@ cheatsheet do
 			name 'Save File'
 			notes "
 				```
-				⌘ + S
+				Command + S
 				```
 			"
 		end
@@ -55,7 +55,7 @@ cheatsheet do
 			name 'Save File As'
 			notes "
 				```
-				⌘ + ⇧ + S
+				Command + Shift + S
 				```"
 		end
 
@@ -63,7 +63,7 @@ cheatsheet do
 			name 'Save All'
 			notes "
 				```
-				⌘ + ⌥ + S
+				Command + Option + S
 				```"
 		end
 
@@ -71,7 +71,7 @@ cheatsheet do
 			name 'Open File'
 			notes "
 				```
-				⌘ + O
+				Command + O
 				```"
 		end
 
@@ -79,7 +79,7 @@ cheatsheet do
 			name 'Close File'
 			notes "
 				```
-				⌘ + W
+				Command + W
 				```"
 		end
 
@@ -87,7 +87,7 @@ cheatsheet do
 			name 'Reopen Closed File'
 			notes "
 				```
-				⌘ + ⇧ + T
+				Command + Shift + T
 				```"
 		end
 
@@ -95,7 +95,7 @@ cheatsheet do
 			name 'New Window'
 			notes "
 				```
-				⌘ + ⇧ + N
+				Command + Shift + N
 				```"
 		end
 
@@ -103,7 +103,7 @@ cheatsheet do
 			name 'Close Window'
 			notes "
 				```
-				⌘ + ⇧ + W
+				Command + Shift + W
 				```"
 		end
 
@@ -111,7 +111,7 @@ cheatsheet do
 			name 'Show Sidebar'
 			notes "
 				```
-				⌘ + K, ⌘ + B
+				Command + K, Command + B
 				```"
 		end
 
@@ -119,7 +119,7 @@ cheatsheet do
 			name 'Show Console'
 			notes "
 				```
-				⌃ + `
+				Control + `
 				```"
 		end
 
@@ -127,7 +127,7 @@ cheatsheet do
 			name 'Enter Full Screen'
 			notes "
 				```
-				⌘ + ⌃ + F
+				Command + Control + F
 				```"
 		end
 
@@ -135,7 +135,7 @@ cheatsheet do
 			name 'Enter Distra­ction Free Mode'
 			notes "
 				```
-				⌘ + ⌃ + ⇧ + F
+				Command + Control + Shift + F
 				```"
 		end
 	end
@@ -147,7 +147,7 @@ cheatsheet do
 			name 'Undo'
 			notes "
 				```
-				⌘ + Z
+				Command + Z
 				```"
 		end
 
@@ -155,7 +155,7 @@ cheatsheet do
 			name 'Redo'
 			notes "
 				```
-				⌘ + ⇧ + Z
+				Command + Shift + Z
 				```"
 		end
 
@@ -163,7 +163,7 @@ cheatsheet do
 			name 'Repeat'
 			notes "
 				```
-				⌘ + Y
+				Command + Y
 				```"
 		end
 
@@ -171,7 +171,7 @@ cheatsheet do
 			name 'Copy'
 			notes "
 				```
-				⌘ + C
+				Command + C
 				```"
 		end
 
@@ -179,7 +179,7 @@ cheatsheet do
 			name 'Yank (inserts the text that’s on top of the kill ring)'
 			notes "
 				```
-				⌘ + Y
+				Command + Y
 				```"
 		end
 
@@ -187,7 +187,7 @@ cheatsheet do
 			name 'Cut'
 			notes "
 				```
-				⌘ + X
+				Command + X
 				```"
 		end
 
@@ -195,7 +195,7 @@ cheatsheet do
 			name 'Paste'
 			notes "
 				```
-				⌘ + V
+				Command + V
 				```"
 		end
 
@@ -203,7 +203,7 @@ cheatsheet do
 			name 'Paste and Indent'
 			notes "
 				```
-				⌘ + ⇧ + V
+				Command + Shift + V
 				```"
 		end
 
@@ -211,7 +211,7 @@ cheatsheet do
 			name 'Indent'
 			notes "
 				```
-				⌘ + ]
+				Command + ]
 				```"
 		end
 
@@ -219,7 +219,7 @@ cheatsheet do
 			name 'Unindent'
 			notes "
 				```
-				⌘ + [
+				Command + [
 				```"
 		end
 
@@ -227,7 +227,7 @@ cheatsheet do
 			name 'Swap Line Up/Down'
 			notes "
 				```
-				⌘ + ⌃ + ↑/↓
+				Command + Control + ↑/↓
 				```"
 		end
 
@@ -235,7 +235,7 @@ cheatsheet do
 			name 'Duplicate Line'
 			notes "
 				```
-				⌘ + ⇧ + D
+				Command + Shift + D
 				```"
 		end
 
@@ -243,7 +243,7 @@ cheatsheet do
 			name 'Delete (kill) Line'
 			notes "
 				```
-				⌃ + ⇧ + K
+				Control + Shift + K
 				```"
 		end
 
@@ -251,7 +251,7 @@ cheatsheet do
 			name 'Join Lines'
 			notes "
 				```
-				⌘ + J
+				Command + J
 				```"
 		end
 
@@ -259,7 +259,7 @@ cheatsheet do
 			name 'Toggle Comment'
 			notes "
 				```
-				⌘ + /
+				Command + /
 				```"
 		end
 
@@ -267,7 +267,7 @@ cheatsheet do
 			name 'Toggle Block Comment'
 			notes "
 				```
-				⌘ + ⌥ + /
+				Command + Option + /
 				```"
 		end
 
@@ -275,7 +275,7 @@ cheatsheet do
 			name 'Insert Line Before'
 			notes "
 				```
-				⌘ + ⇧ + ↩
+				Command + Shift + ↩
 				```"
 		end
 
@@ -283,7 +283,7 @@ cheatsheet do
 			name 'Insert Line After'
 			notes "
 				```
-				⌘ + ↩
+				Command + ↩
 				```"
 		end
 
@@ -291,7 +291,7 @@ cheatsheet do
 			name 'Delete to Beginning of Line'
 			notes "
 				```
-				⌘ + ⌫
+				Command + ⌫
 				```"
 		end
 
@@ -299,7 +299,7 @@ cheatsheet do
 			name 'Delete to End of Line'
 			notes "
 				```
-				⌃ + K
+				Control + K
 				```"
 		end
 
@@ -307,7 +307,7 @@ cheatsheet do
 			name 'Move to Beginning of Line'
 			notes "
 				```
-				⌃ + A
+				Control + A
 				```"
 		end
 
@@ -315,7 +315,7 @@ cheatsheet do
 			name 'Move to End of Line'
 			notes "
 				```
-				⌃ + E
+				Control + E
 				```"
 		end
 
@@ -323,7 +323,7 @@ cheatsheet do
 			name '(Previous) Move Up'
 			notes "
 				```
-				⌃ + P
+				Control + P
 				```"
 		end
 
@@ -331,7 +331,7 @@ cheatsheet do
 			name '(Forward) Move Right'
 			notes "
 				```
-				⌃ + F
+				Control + F
 				```"
 		end
 
@@ -339,7 +339,7 @@ cheatsheet do
 			name '(Next) Move Down'
 			notes "
 				```
-				⌃ + N
+				Control + N
 				```"
 		end
 
@@ -347,7 +347,7 @@ cheatsheet do
 			name '(Back) Move Left'
 			notes "
 				```
-				⌃ + B
+				Control + B
 				```"
 		end
 
@@ -355,7 +355,7 @@ cheatsheet do
 			name 'Transpose (swap two characters or words; buggy behaviour)'
 			notes "
 				```
-				⌃ + T
+				Control + T
 				```"
 		end
 
@@ -363,7 +363,7 @@ cheatsheet do
 			name 'Close Tag'
 			notes "
 				```
-				⌘ + ⌥ + .
+				Command + Option + .
 				```"
 		end
 
@@ -371,7 +371,7 @@ cheatsheet do
 			name 'Wrap Selection with Tag'
 			notes "
 				```
-				⌃ + ⇧ + W
+				Control + Shift + W
 				```"
 		end
 
@@ -379,7 +379,7 @@ cheatsheet do
 			name 'Convert Selected Text to Uppercase'
 			notes "
 				```
-				⌘ + K, ⌘ + U
+				Command + K, Command + U
 				```"
 		end
 
@@ -387,7 +387,7 @@ cheatsheet do
 			name 'Convert Selected Text to Lowercase'
 			notes "
 				```
-				⌘ + K, ⌘ + L
+				Command + K, Command + L
 				```"
 		end
 
@@ -395,7 +395,7 @@ cheatsheet do
 			name 'Wrap Paragraph at Ruler'
 			notes "
 				```
-				⌘ + ⌥ + Q
+				Command + Option + Q
 				```"
 		end
 
@@ -411,7 +411,7 @@ cheatsheet do
 			name 'Sort Lines (Case Sensitive)'
 			notes "
 				```
-				⌃ + F5
+				Control + F5
 				```"
 		end
 
@@ -419,7 +419,7 @@ cheatsheet do
 			name 'Goto Line'
 			notes "
 				```
-				⌃ + G
+				Control + G
 				```"
 		end
 
@@ -427,7 +427,7 @@ cheatsheet do
 			name 'Jump to Matching Brackets (does not work with HTML/XML tags)'
 			notes "
 				```
-				⌃ + M
+				Control + M
 				```"
 		end
 
@@ -435,7 +435,7 @@ cheatsheet do
 			name 'Scroll to Selection (centers the screen to cursor)'
 			notes "
 				```
-				⌃ + L
+				Control + L
 				```"
 		end
 
@@ -443,7 +443,7 @@ cheatsheet do
 			name 'Scroll Line Up/Down'
 			notes "
 				```
-				⌃ + ⌥ + ↑/↓
+				Control + Option + ↑/↓
 				```"
 		end
 
@@ -451,7 +451,7 @@ cheatsheet do
 				name 'Record Macro'
 				notes "
 					```
-					⌃ + Q
+					Control + Q
 					```"
 		end
 
@@ -459,7 +459,7 @@ cheatsheet do
 			name 'Playback Macro'
 			notes "
 				```
-				⌃ + ⇧ + Q
+				Control + Shift + Q
 				```"
 		end
 	end
@@ -471,7 +471,7 @@ cheatsheet do
 			name 'Undo'
 			notes "
 				```
-				⌘ + U
+				Command + U
 				```"
 		end
 
@@ -479,7 +479,7 @@ cheatsheet do
 			name 'Soft Undo'
 			notes "
 				```
-				⌘ + ⇧ + U
+				Command + Shift + U
 				```"
 		end
 
@@ -487,7 +487,7 @@ cheatsheet do
 			name 'Split Selection Into Lines (inserts multiple cursors)'
 			notes "
 				```
-				⌘ + ⇧ + L
+				Command + Shift + L
 				```"
 		end
 
@@ -495,7 +495,7 @@ cheatsheet do
 			name 'Add Previo­us/Next Line (inserts multiple cursors)'
 			notes "
 				```
-				⌃ + ⇧ + ↑/↓
+				Control + Shift + ↑/↓
 				```"
 		end
 
@@ -511,7 +511,7 @@ cheatsheet do
 			name 'Select All'
 			notes "
 				```
-				⌘ + A
+				Command + A
 				```"
 		end
 
@@ -519,7 +519,7 @@ cheatsheet do
 			name 'Expand Selection to Word'
 			notes "
 				```
-				⌘ + D
+				Command + D
 				```"
 		end
 
@@ -527,7 +527,7 @@ cheatsheet do
 			name 'Expand Selection to Line'
 			notes "
 				```
-				⌘ + L
+				Command + L
 				```"
 		end
 
@@ -535,7 +535,7 @@ cheatsheet do
 			name 'Expand Selection to Tag (HTML/XML)'
 			notes "
 				```
-				⌘ + ⇧ + A
+				Command + Shift + A
 				```"
 		end
 
@@ -543,7 +543,7 @@ cheatsheet do
 			name 'Expand Selection to Scope'
 			notes "
 				```
-				⌘ + ⇧ + Space
+				Command + Shift + Space
 				```"
 		end
 
@@ -551,7 +551,7 @@ cheatsheet do
 			name 'Expand Selection to Brackets'
 			notes "
 				```
-				⌃ + ⇧ + M
+				Control + Shift + M
 				```"
 		end
 
@@ -559,7 +559,7 @@ cheatsheet do
 			name 'Expand Selection to Indent­ation'
 			notes "
 				```
-				⌘ + ⇧ + J
+				Command + Shift + J
 				```"
 		end
 	end
@@ -571,7 +571,7 @@ cheatsheet do
 			name 'Find'
 			notes "
 				```
-				⌘ +
+				Command +
 				```"
 		end
 
@@ -579,7 +579,7 @@ cheatsheet do
 			name 'Find Next'
 			notes "
 				```
-				⌘ + G
+				Command + G
 				```"
 		end
 
@@ -587,7 +587,7 @@ cheatsheet do
 			name 'Find Previous'
 			notes "
 				```
-				⌘ + ⇧ + G
+				Command + Shift + G
 				```"
 		end
 
@@ -595,7 +595,7 @@ cheatsheet do
 			name 'Increm­ental Find'
 			notes "
 				```
-				⌘ + I
+				Command + I
 				```"
 		end
 
@@ -603,7 +603,7 @@ cheatsheet do
 			name 'Replace'
 			notes "
 				```
-				⌘ + ⌥ + F
+				Command + Option + F
 				```"
 		end
 
@@ -611,7 +611,7 @@ cheatsheet do
 			name 'Replace Next'
 			notes "
 				```
-				⌘ + ⌥ + E
+				Command + Option + E
 				```"
 		end
 
@@ -619,7 +619,7 @@ cheatsheet do
 			name 'Quick Find (searches for the word under the cursor)'
 			notes "
 				```
-				⌘ + ⌥ + G
+				Command + Option + G
 				```"
 		end
 
@@ -627,7 +627,7 @@ cheatsheet do
 			name 'Quick Find All (selects all occurences of the word under the cursor)'
 			notes "
 				```
-				⌘ + ⌃ + G
+				Command + Control + G
 				```"
 		end
 
@@ -635,7 +635,7 @@ cheatsheet do
 			name 'Use Selection for Find'
 			notes "
 				```
-				⌘ + E
+				Command + E
 				```"
 		end
 
@@ -643,7 +643,7 @@ cheatsheet do
 			name 'Use Selection for Replace'
 			notes "
 				```
-				⌘ + ⇧ + E
+				Command + Shift + E
 				```"
 		end
 
@@ -651,7 +651,7 @@ cheatsheet do
 			name 'Find in Files (all open files)'
 			notes "
 				```
-				⌘ + ⇧ + F
+				Command + Shift + F
 				```"
 		end
 
@@ -667,7 +667,7 @@ cheatsheet do
 			name 'Previous Result (file search results)'
 			notes "
 				```
-				⇧ + F4
+				Shift + F4
 				```"
 		end
 	end
@@ -679,7 +679,7 @@ cheatsheet do
 			name 'Fold (selec­tion)'
 			notes "
 				```
-				⌘ + ⌥ + [
+				Command + Option + [
 				```"
 		end
 
@@ -687,7 +687,7 @@ cheatsheet do
 			name 'Unfold'
 			notes "
 				```
-				⌘ + ⌥ + ]
+				Command + Option + ]
 				```"
 		end
 
@@ -695,7 +695,7 @@ cheatsheet do
 			name 'Unfold All'
 			notes "
 				```
-				⌘ + K, ⌘ + J
+				Command + K, Command + J
 				```"
 		end
 
@@ -703,7 +703,7 @@ cheatsheet do
 			name 'Fold All'
 			notes "
 				```
-				⌘ + K, ⌘ + 1
+				Command + K, Command + 1
 				```"
 		end
 
@@ -711,7 +711,7 @@ cheatsheet do
 			name 'Fold Level 2-9'
 			notes "
 				```
-				⌘ + K, ⌘ + 2-9
+				Command + K, Command + 2-9
 				```"
 		end
 
@@ -719,7 +719,7 @@ cheatsheet do
 			name 'Fold Tag Attributes (HTML/XML)'
 			notes "
 				```
-				⌘ + K, ⌘ + T
+				Command + K, Command + T
 				```"
 		end
 	end
@@ -731,7 +731,7 @@ cheatsheet do
 			name 'Set Mark'
 			notes "
 				```
-				⌘ + K, ⌘ + Space
+				Command + K, Command + Space
 				```"
 		end
 
@@ -739,7 +739,7 @@ cheatsheet do
 			name 'Select to Mark'
 			notes "
 				```
-				⌘ + K, ⌘ + A
+				Command + K, Command + A
 				```"
 		end
 
@@ -747,7 +747,7 @@ cheatsheet do
 			name 'Delete to Mark'
 			notes "
 				```
-				⌘ + K, ⌘ + W
+				Command + K, Command + W
 				```"
 		end
 
@@ -755,7 +755,7 @@ cheatsheet do
 			name 'Swap with Mark'
 			notes "
 				```
-				⌘ + K, ⌘ + X
+				Command + K, Command + X
 				```"
 		end
 
@@ -763,7 +763,7 @@ cheatsheet do
 			name 'Clear to Mark'
 			notes "
 				```
-				⌘ + K, ⌘ + G
+				Command + K, Command + G
 				```"
 		end
 
@@ -771,7 +771,7 @@ cheatsheet do
 			name 'Toggle Bookmark'
 			notes "
 				```
-				⌘ + F2
+				Command + F2
 				```"
 		end
 
@@ -787,7 +787,7 @@ cheatsheet do
 			name 'Previous Bookmark'
 			notes "
 				```
-				⇧ + F2
+				Shift + F2
 				```"
 		end
 
@@ -795,7 +795,7 @@ cheatsheet do
 			name 'Clear Bookmarks'
 			notes "
 				```
-				⌘ + ⇧ + F2
+				Command + Shift + F2
 				```"
 		end
 	end
@@ -815,7 +815,7 @@ cheatsheet do
 			name 'Next Misspe­lling'
 			notes "
 				```
-				⌃ + F6
+				Control + F6
 				```"
 		end
 
@@ -823,7 +823,7 @@ cheatsheet do
 			name 'Previous Misspe­lling'
 			notes "
 				```
-				⌃ + ⇧ + F6
+				Control + Shift + F6
 				```"
 		end
 
@@ -831,7 +831,7 @@ cheatsheet do
 			name 'Build'
 			notes "
 				```
-				⌘ + B
+				Command + B
 				```"
 		end
 
@@ -839,7 +839,7 @@ cheatsheet do
 			name 'Show Comple­tions'
 			notes "
 				```
-				⌃ + Space
+				Control + Space
 				```"
 		end
 
@@ -847,7 +847,7 @@ cheatsheet do
 			name 'Special Characters'
 			notes "
 				```
-				⌘ + ⌥ + T
+				Command + Option + T
 				```"
 		end
 	end
