@@ -10,7 +10,7 @@ cheatsheet do
 		entry do
 			name 'Command Palette'
 			notes "
-				'''
+				```
 				⌘ + ⇧ + P
 				```"
 		end
