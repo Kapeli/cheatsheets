@@ -16,6 +16,10 @@ cheatsheet do
       name 'Move focus to editor'
     end
     entry do
+      command 'CMD+SHIFT+J'
+      name 'Select current file in project navigator'
+    end
+    entry do
       command 'CMD+CTRL+Arrow Up'
       name 'Next counterpart'
     end
