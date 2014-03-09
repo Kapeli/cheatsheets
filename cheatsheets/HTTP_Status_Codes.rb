@@ -4,7 +4,7 @@ cheatsheet do
   keyword 'httpstatus'
 
   introduction <<-INTRO
-HTTP status codes and their respective Rails shortcuts (if available). For example, `:not_found` can be used instead of `404` in a render call:
+HTTP status codes and their respective Rails symbol representations (if available). For example, `:not_found` can be used instead of `404` in a render call:
 
 ```ruby
 render :file => '404.html.erb', :status => :not_found
