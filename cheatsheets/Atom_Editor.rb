@@ -177,7 +177,7 @@ cheatsheet do
   end
 
   notes <<-'END'
-    * Based on the cheat sheet from [Bugshot](https://bugsnag.com/blog/atom-editor-cheat-sheet)
+    * Based on the cheat sheet from [Bugsnag](https://bugsnag.com/blog/atom-editor-cheat-sheet)
     * Converted by [Dominic Damian](https://github.com/domjitsu).
   END
 end
