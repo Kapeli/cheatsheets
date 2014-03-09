@@ -7,7 +7,7 @@ cheatsheet do
   category do
     id 'General'
     entry do
-      command 'CMD+0...CMD+9'
+      command 'CMD+0-9'
       name 'Open corresponding tool window'
     end
     entry do
