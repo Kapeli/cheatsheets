@@ -99,12 +99,14 @@ INTRO
 
     entry do
       command '208'
+      command ':already_reported'
       name '208 Already Reported'
       notes 'WebDAV - [RFC 5842](https://tools.ietf.org/html/rfc5842). The members of a DAV binding have already been enumerated in a previous reply to this request, and are not being included again.'
     end
 
     entry do
       command '226'
+      command ':im_used'
       name '226 IM Used'
       notes '[RFC 3229](https://tools.ietf.org/html/rfc3229). The server has fulfilled a GET request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance.'
     end
@@ -157,6 +159,7 @@ INTRO
 
     entry do
       command '306'
+      command ':reserved'
       name '306 Switch Proxy'
       notes 'Deprecated in HTTP 1.1. Used to mean that subsequent requests should be sent using the specified proxy.'
     end
@@ -170,6 +173,7 @@ INTRO
 
     entry do
       command '308'
+      command ':permanent_redirect'
       name '308 Permanent Redirect'
       notes 'Experimental. The request and all future requests should be repeated with the URI provided in the response. The HTTP method is not allowed to be changed in the subsequent request.'
     end
@@ -386,6 +390,7 @@ INTRO
 
     entry do
       command '506'
+      command ':variant_also_negotiates'
       name '506 Variant Also Negotiates'
       notes "Transparent content negotiation for the request results in a circular reference."
     end
@@ -399,6 +404,7 @@ INTRO
 
     entry do
       command '508'
+      command ':loop_detected'
       name '508 Loop Detected'
       notes "WebDAV - [RFC 5842](https://tools.ietf.org/html/rfc5842). The server detected an infinite loop in the request."
     end
@@ -412,6 +418,7 @@ INTRO
 
     entry do
       command '511'
+      command ':network_authentication_required'
       name '511 Network Authentication Required'
       notes "[RFC 6585](https://tools.ietf.org/html/rfc6585). The client must authenticate with the network before sending requests."
     end
