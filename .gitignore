@@ -20,3 +20,5 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+.DS_STORE
