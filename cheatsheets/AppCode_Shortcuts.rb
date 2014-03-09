@@ -217,7 +217,7 @@ cheatsheet do
 
 
   category do
-    id 'Search/Replace'
+    id 'Search / Replace'
     entry do
       command 'CMD+F'
       name 'Find'

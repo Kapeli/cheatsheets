@@ -21,7 +21,9 @@ All the `categories`, `commands` and `names` in your cheat sheet will be inserte
 
 Try to use [Title Case](http://en.wikipedia.org/wiki/Letter_case#Title_case) only for `categories`. This also applies to menu item names, which you should convert to [Normal/Sentence case](http://en.wikipedia.org/wiki/Letter_case#Sentence_case). If you don't agree with this, discuss it [here](https://github.com/Kapeli/cheatsheets/issues/8).
 
-**3. Keyboard shortcuts**
+**3. Keyboard shortcuts (if any)**
+
+Try not to include really common keyboard shortcuts (e.g. Copy, Paste, Undo, Select All).
 
 Keyboard modifiers should be listed in this order: `CMD+CTRL+SHIFT+ALT`. If you don't agree with this order, discuss it [here](https://github.com/Kapeli/cheatsheets/issues/7).
 

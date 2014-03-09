@@ -84,7 +84,7 @@ cheatsheet do
 
         entry do
             name 'Enter distra­ction free mode'
-            command 'CMD+SHIFT+CTRL+F'
+            command 'CMD+CTRL+SHIFT+F'
         end
     end
 
