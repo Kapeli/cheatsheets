@@ -1,5 +1,5 @@
 cheatsheet do
-  title 'AppCode Shortcuts'
+  title 'AppCode'
   docset_file_name 'AppCode_Shortcuts'
   keyword 'appcode'
   source_url 'http://cheat.kapeli.com'

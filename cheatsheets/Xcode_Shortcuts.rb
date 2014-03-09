@@ -1,9 +1,8 @@
 cheatsheet do
-  title 'Xcode Shortcuts'
+  title 'Xcode'
   docset_file_name 'Xcode_Shortcuts'
   keyword 'xcode'
   source_url 'http://cheat.kapeli.com'
-
 
   category do
     id 'Editor Navigation'
