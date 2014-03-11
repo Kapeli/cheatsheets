@@ -1,7 +1,7 @@
 cheatsheet do
   title 'HTML Entities'
   docset_file_name 'HTML_Entities'
-  keyword 'html'
+  keyword 'htmle'
   source_url 'http://cheat.kapeli.com'
   
   style '
