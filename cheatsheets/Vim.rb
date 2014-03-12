@@ -281,7 +281,8 @@ cheatsheet do
         end
         entry do
             command ':[range]y[ank] [x] {count}'
-            name 'Yank {count} lines, starting with last line number in \[range\] (default: current line), [into register x]'
+            name 'Yank {count} lines, starting with last line number in \[range\], [into register x]'
+            notes 'Default: current line'
         end
         entry do
             command '["x]p'
@@ -301,11 +302,13 @@ cheatsheet do
         end
         entry do
             command ':[line]pu[t] [x]'
-            name 'Put the text [from register x] after \[line\] (default current line)'
+            name 'Put the text [from register x] after \[line\]'
+            notes 'Default: current line'
         end
         entry do
             command ':[line]pu[t]! [x]'
-            name 'Put the text [from register x] before \[line\] (default current line)'
+            name 'Put the text [from register x] before \[line\]'
+            notes 'Default: current line'
         end
     end
 
@@ -450,11 +453,13 @@ cheatsheet do
         end
         entry do
             command '<C-End> or G'
-            name 'Goto line [count], default last line, on the first non-blank character'
+            name 'Goto line [count] on the first non-blank character'
+            notes 'Default: last line'
         end
         entry do
             command '<C-Home>  or gg'
-            name 'Goto line [count], default first line, on the first non-blank character'
+            name 'Goto line [count] on the first non-blank character'
+            notes 'Default: first line'
         end
         entry do
             command '<S-Right>  or w'
@@ -550,12 +555,9 @@ cheatsheet do
         end
         entry do
             command ':[range]ma[rk] {a-zA-Z}'
+            command ':[range]k{a-zA-Z}'
             name 'Set mark {a-zA-Z} at last line number in [range], column 0'
             notes 'Default is cursor line'
-        end
-        entry do
-            command ':[range]k{a-zA-Z}'
-            name 'Same as :mark, but the space before the mark name can be omitted'
         end
         entry do
             command '\'{a-z}'
