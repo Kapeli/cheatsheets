@@ -163,7 +163,15 @@ cheatsheet do
       git branch -d <branch>
       ```"
     end
-    
+
+    entry do
+      name 'Delete a remote branch'
+      notes "
+      ```
+      git push <remote> :<branch>
+      ```"
+    end
+
     entry do
       name 'Tag the current commit'
       notes "
@@ -207,7 +215,15 @@ cheatsheet do
       git fetch <remote>
       ```"
     end
-    
+
+    entry do
+      name "Download all changes from remote, but don't merge into HEAD and clean up Deleted branch from origin."
+      notes "
+      ```
+      git fetch -p <remote>
+      ```"
+    end
+
     entry do
       name 'Download changes and directly merge into HEAD'
       notes "
