@@ -578,5 +578,8 @@ cheatsheet do
       name 'Insert live template'
     end
   end
-
+  notes <<-'END'
+    * Based on the cheat sheet from [PhpStorm Default Keymap](http://www.jetbrains.com/phpstorm/documentation/PhpStorm_ReferenceCard.pdf).
+    * Converted and extended by [Vexus2](https://github.com/vexus2).
+  END
 end
