@@ -1,7 +1,7 @@
 cheatsheet do
     title 'Vim'
     docset_file_name 'Vim'
-    keyword 'vim'
+    keyword 'vimc'
     source_url 'http://cheat.kapeli.com'
     
     category do
