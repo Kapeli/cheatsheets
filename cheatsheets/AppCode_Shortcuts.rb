@@ -290,7 +290,7 @@ cheatsheet do
     end
     entry do
       command 'CTRL+SHIFT+R'
-      name 'Run rontext configuration from editor'
+      name 'Run context configuration from editor'
     end
   end
 
