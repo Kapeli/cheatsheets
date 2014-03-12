@@ -217,7 +217,7 @@ cheatsheet do
     end
 
     entry do
-      name "Download all changes from remote, but don't merge into HEAD and clean up Deleted branch from origin."
+      name "Download all changes from remote, but don't merge into HEAD and clean up deleted branches from origin"
       notes "
       ```
       git fetch -p <remote>

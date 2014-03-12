@@ -1,6 +1,7 @@
 *.docset
 *.tgz
 Makefile
+*.codekit
 
 *.gem
 *.rbc
