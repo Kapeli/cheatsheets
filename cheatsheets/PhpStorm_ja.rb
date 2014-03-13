@@ -7,39 +7,39 @@ cheatsheet do
   category do
     id 'General'
     entry do
-      command 'CMD+0-9'
+      command '⌘+0-9'
       name 'ツールウィンドウを開く'
     end
     entry do
-      command 'CMD+ALT+Y'
+      command '⌘+⌥+Y'
       name '同期'
     end
     entry do
-      command 'CMD+SHIFT+F12'
+      command '⌘+⇧+F12'
       name 'すべてのツールウィンドウを開く/閉じる'
     end
     entry do
-      command 'ALT+SHIFT+F'
+      command '⌥+⇧+F'
       name 'お気に入りに追加'
     end
     entry do
-      command 'ALT+SHIFT+I'
+      command '⌥+⇧+I'
       name '現在のプロファイルでファイル内を検査'
     end
     entry do
-      command 'CTRL+§'
+      command '^+§'
       name 'スキーマ変更メニュー表示'
     end
     entry do
-      command 'CTRL+Tab'
+      command '^+Tab'
       name 'タブ/ツールウィンドウ間移動'
     end
     entry do
-      command 'CMD+SHIFT+A'
+      command '⌘+⇧+A'
       name 'アクションを探す'
     end
     entry do
-      command 'Shift+Shift'
+      command '⇧+⇧'
       name 'どこでも検索'
     end
   end
@@ -48,89 +48,89 @@ cheatsheet do
   category do
     id 'Editing'
     entry do
-      command 'CTRL+Space'
+      command '^+Space'
       name 'コード補完(ベーシック)'
       notes '変数やクラス名、メソッド名のコード補完'
     end
     entry do
-      command 'CTRL+SHIFT+Space'
+      command '^+⇧+Space'
       name 'コード補完(スマート)'
       notes '定義されているメソッドや適切な変数、クラスをコード補完'
     end
     entry do
-      command 'CMD+SHIFT+Enter'
+      command '⌘+⇧+Enter'
       name '現在のステートメントを完了'
     end
     entry do
-      command 'CTRL+J'
+      command '^+J'
       name 'クイックドキュメントを表示'
     end
     entry do
-      command 'SHIFT+F1'
+      command '⇧+F1'
       name '外部ドキュメントを表示'
     end
     entry do
-      command 'CMD+mouse over code'
+      command '⌘+mouse over code'
       name '概要を表示'
     end
     entry do
-      command 'CMD+F1'
+      command '⌘+F1'
       name 'カーソル位置のエラー概要を表示'
     end
     entry do
-      command 'CMD+N'
-      command 'CTRL+N'
-      command 'CTRL+Enter'
+      command '⌘+N'
+      command '^+N'
+      command '^+Enter'
       name 'コード生成'
       notes 'アクセサ、コンストラクタなど'
     end
     entry do
-      command 'CTRL+O'
+      command '^+O'
       name 'オーバーロードできるメソッドを表示'
     end
     entry do
-      command 'CTRL+I'
+      command '^+I'
       name 'インプリメントできるメソッドを表示'
     end
     entry do
-      command 'CMD+ALT+T'
+      command '⌘+⌥+T'
       name 'コードを囲む'
       notes '`if..else`, `try..catch`, `for` など'
     end
     entry do
-      command 'CMD+/'
+      command '⌘+/'
       name 'コメントイン/コメントアウト'
     end
     entry do
-      command 'CMD+ALT+/'
+      command '⌘+⌥+/'
       name 'ブロックコメントのコメントイン/コメントアウト'
     end
     entry do
-      command 'Ctrl+W'
+      command '^+W'
       name 'カーソル下の単語/ブロック単位で範囲選択を広げる'
     end
     entry do
-      command 'Ctrl+Shift+W'
+      command '^+⇧+W'
       name 'カーソル下の単語/ブロック単位で範囲選択を狭める'
     end
     entry do
-      command 'CTRL+SHIFT+Q'
+      command '^+⇧+Q'
       name 'コンテキストを表示'
     end
     entry do
-      command 'ALT+Enter'
+      command '⌥+Enter'
       name '検査結果及びクイックフィックスを表示'
     end
     entry do
-      command 'CMD+ALT+L'
+      command '⌘+⌥+L'
       name 'コードフォーマットの実施'
     end
     entry do
-      command 'CTRL+ALT+O'
+      command '^+⌥+O'
       name 'インポートの最適化'
     end
     entry do
-      command 'CTRL+ALT+I'
+      command '^+⌥+I'
       name '行の自動インデント'
     end
     entry do
@@ -138,83 +138,83 @@ cheatsheet do
       name '現在の行を1つインデントを増やす'
     end
     entry do
-      command 'SHIFT+Tab'
+      command '⇧+Tab'
       name '現在の行を1つインデントを減らす'
     end
     entry do
-      command 'CMD+X'
+      command '⌘+X'
       name '選択範囲 または 現在の行を切り取り'
     end
     entry do
-      command 'CMD+C'
+      command '⌘+C'
       name '選択範囲 または 現在の行をコピー'
     end
     entry do
-      command 'CMD+V'
+      command '⌘+V'
       name 'クリップボードから貼り付け'
     end
     entry do
-      command 'CMD+SHIFT+V'
+      command '⌘+⇧+V'
       name 'バッファから貼り付け'
     end
     entry do
-      command 'CMD+D'
+      command '⌘+D'
       name '選択範囲 または 現在の行を複製'
     end
     entry do
-      command 'CMD+Backspace'
+      command '⌘+Backspace'
       name '削除'
     end
     entry do
-      command 'CTRL+SHIFT+J'
+      command '^+⇧+J'
       name '下の行との連結'
     end
     entry do
-      command 'CMD+Enter'
+      command '⌘+Enter'
       name '現在の行を分割'
     end
     entry do
-      command 'SHIFT+Enter'
+      command '⇧+Enter'
       name '新しい行に移動'
     end
     entry do
-      command 'CMD+SHIFT+U'
+      command '⌘+⇧+U'
       name '選択範囲を大文字/小文字を切り替え'
     end
     entry do
-      command 'CMD+SHIFT+]'
+      command '⌘+⇧+]'
       name '現在のブロックの末尾に移動'
     end
     entry do
-      command 'CMD+SHIFT+['
+      command '⌘+⇧+['
       name '現在のブロックの先頭に移動'
     end
     entry do
-      command 'ALT+Delete'
+      command '⌥+Delete'
       name 'カーソルから行末まで削除'
     end
     entry do
-      command 'ALT+Backspace'
+      command '⌥+Backspace'
       name 'カーソルから行頭まで削除'
     end
     entry do
-      command 'CMD+"+"'
+      command '⌘+"+"'
       name 'コードブロックを展開する'
     end
     entry do
-      command 'CMD+"-"'
+      command '⌘+"-"'
       name 'コードブロックをたたむ'
     end
     entry do
-      command 'CMD+SHIFT+"+"'
+      command '⌘+⇧+"+"'
       name 'すべてのコードブロックを展開する'
     end
     entry do
-      command 'CMD+SHIFT+"-"'
+      command '⌘+⇧+"-"'
       name 'すべてのコードブロックをたたむ'
     end
     entry do
-      command 'CMD+W'
+      command '⌘+W'
       name '現在のタブを閉じる'
     end
   end
@@ -223,27 +223,27 @@ cheatsheet do
   category do
     id 'Search / Replace'
     entry do
-      command 'CMD+F'
+      command '⌘+F'
       name '検索'
     end
     entry do
-      command 'CMD+G'
+      command '⌘+G'
       name '次を検索'
     end
     entry do
-      command 'CMD+SHIFT+G'
+      command '⌘+⇧+G'
       name '前を検索'
     end
     entry do
-      command 'CMD+R'
+      command '⌘+R'
       name '置換'
     end
     entry do
-      command 'CMD+SHIFT+F'
+      command '⌘+⇧+F'
       name 'プロジェクト全体から検索'
     end
     entry do
-      command 'CMD+SHIFT+R'
+      command '⌘+⇧+R'
       name 'プロジェクト全体から置換'
     end
   end
@@ -252,19 +252,19 @@ cheatsheet do
   category do
     id 'Usage Search'
     entry do
-      command 'ALT+F7'
+      command '⌥+F7'
       name '利用箇所を検索'
     end
     entry do
-      command 'CMD+F7'
+      command '⌘+F7'
       name 'ファイル内の利用箇所を検索'
     end
     entry do
-      command 'CMD+SHIFT+F7'
+      command '⌘+⇧+F7'
       name 'ファイル内の利用箇所をハイライト表示'
     end
     entry do
-      command 'CMD+ALT+F7'
+      command '⌘+⌥+F7'
       name '利用箇所を表示'
     end
   end
@@ -273,27 +273,27 @@ cheatsheet do
   category do
     id 'Compile and Run'
     entry do
-      command 'CMD+F9'
+      command '⌘+F9'
       name 'プロジェクトをビルド'
     end
     entry do
-      command 'CTRL+R'
+      command '^+R'
       name '実行'
     end
     entry do
-      command 'CTRL+ALT+R'
+      command '^+⌥+R'
       name '設定を選択して実行'
     end
     entry do
-      command 'CTRL+D'
+      command '^+D'
       name 'デバッグ'
     end
     entry do
-      command 'CTRL+ALT+D'
+      command '^+⌥+D'
       name '設定を選択してデバッグ'
     end
     entry do
-      command 'CTRL+SHIFT+R'
+      command '^+⇧+R'
       name 'エディタのコンテキストを選択して実行'
     end
   end
@@ -310,31 +310,31 @@ cheatsheet do
       name 'ステップイン'
     end
     entry do
-      command 'SHIFT+F7'
+      command '⇧+F7'
       name 'スマートステップイン'
     end
     entry do
-      command 'SHIFT+F8'
+      command '⇧+F8'
       name 'ステップアウト'
     end
     entry do
-      command 'ALT+F9'
+      command '⌥+F9'
       name 'カーソル位置までステップオーバー'
     end
     entry do
-      command 'ALT+F8'
+      command '⌥+F8'
       name 'コードの動的実行'
     end
     entry do
-      command 'CMD+ALT+R'
+      command '⌘+⌥+R'
       name 'プログラムの再開'
     end
     entry do
-      command 'CMD+F8'
+      command '⌘+F8'
       name 'ブレイクポイントをトグル'
     end
     entry do
-      command 'CMD+SHIFT+F8'
+      command '⌘+⇧+F8'
       name '全ブレイクポイントを表示'
     end
   end
@@ -343,23 +343,23 @@ cheatsheet do
   category do
     id 'Navigation'
     entry do
-      command 'CMD+O'
+      command '⌘+O'
       name 'クラスを検索'
     end
     entry do
-      command 'CMD+SHIFT+O'
+      command '⌘+⇧+O'
       name 'ファイルを検索'
     end
     entry do
-      command 'CMD+ALT+O'
+      command '⌘+⌥+O'
       name 'シンボルを検索'
     end
     entry do
-      command 'CTRL+Arrow Left'
+      command '^+Arrow Left'
       name '次のタブへ移動'
     end
     entry do
-      command 'CTRL+Arrow Right'
+      command '^+Arrow Right'
       name '前のタブに移動'
     end
     entry do
@@ -371,75 +371,75 @@ cheatsheet do
       name 'ツールウィンドウからエディタへ移動'
     end
     entry do
-      command 'SHIFT+Esc'
+      command '⇧+Esc'
       name '現在のアクティブ または 1つ前のアクティブウィンドウを非表示'
     end
     entry do
-      command 'CMD+SHIFT+F4'
+      command '⌘+⇧+F4'
       name '現在のタブを閉じる'
     end
     entry do
-      command 'CMD+L'
+      command '⌘+L'
       name '指定した行に移動'
     end
     entry do
-      command 'CMD+E'
+      command '⌘+E'
       name '直近に開いたファイル一覧を表示'
     end
     entry do
-      command 'CMD+ALT+Arrow Left'
+      command '⌘+⌥+Arrow Left'
       name '直前のカーソル位置へ移動'
     end
     entry do
-      command 'CMD+ALT+Arrow Right'
+      command '⌘+⌥+Arrow Right'
       name '直後のカーソル位置へ移動'
     end
     entry do
-      command 'CMD+SHIFT+Delete'
+      command '⌘+⇧+Delete'
       name '最後に編集した行へ移動'
     end
     entry do
-      command 'CMD+ALT+Arrow Left'
+      command '⌘+⌥+Arrow Left'
       name '直前のカーソル位置へ移動'
     end
     entry do
-      command 'ALT+F1'
+      command '⌥+F1'
       name '現在のファイルを○○で開く'
     end
     entry do
-      command 'CMD+B'
+      command '⌘+B'
       name '定義元に移動'
     end
     entry do
-      command 'CMD+ALT+B'
+      command '⌘+⌥+B'
       name '実装クラスへ移動'
     end
     entry do
-      command 'CTRL+SHIFT+B'
+      command '^+⇧+B'
       name 'クラスの定義元に移動'
     end
     entry do
-      command 'CMD+U'
+      command '⌘+U'
       name 'スーパークラス/スーパーメソッドに移動'
     end
     entry do
-      command 'CTRL+Arrow Up'
+      command '^+Arrow Up'
       name '1つ手前のメソッドに移動'
     end
     entry do
-      command 'CTRL+Arrow Down'
+      command '^+Arrow Down'
       name '1つ先のメソッドに移動'
     end
     entry do
-      command 'CMD+['
+      command '⌘+['
       name 'コードブロックの先頭に移動'
     end
     entry do
-      command 'CMD+]'
+      command '⌘+]'
       name 'コードブロックの末尾に移動'
     end
     entry do
-      command 'CMD+F12'
+      command '⌘+F12'
       name 'ファイル構造をポップアップ表示'
     end
     entry do
@@ -447,11 +447,11 @@ cheatsheet do
       name 'クラスの階層構造を表示'
     end
     entry do
-      command 'CMD+SHIFT+H'
+      command '⌘+⇧+H'
       name 'メソッドの階層構造を表示'
     end
     entry do
-      command 'CTRL+ALT+H'
+      command '^+⌥+H'
       name 'コール状態の階層構造を表示'
     end
     entry do
@@ -459,7 +459,7 @@ cheatsheet do
       name '次のエラーに移動'
     end
     entry do
-      command 'SHIFT+F2'
+      command '⇧+F2'
       name '前のエラーに移動'
     end
     entry do
@@ -467,7 +467,7 @@ cheatsheet do
       name 'ファイルを開く'
     end
     entry do
-      command 'CMD+Arrow Down'
+      command '⌘+Arrow Down'
       name 'ファイルを開く'
     end
     entry do
@@ -475,15 +475,15 @@ cheatsheet do
       name '数字でブックマークをつける/はずす'
     end
     entry do
-      command 'ALT+F3'
+      command '⌥+F3'
       name '数字/文字列でのブックマークをつける/はずす'
     end
     entry do
-      command 'CTRL+0...CTRL+9'
+      command '^+0...^+9'
       name '数字でのブックマークへ移動'
     end
     entry do
-      command 'CMD+F3'
+      command '⌘+F3'
       name 'ブックマーク一覧をポップアップ表示'
     end
   end
@@ -492,7 +492,7 @@ cheatsheet do
   category do
     id 'Refactoring'
     entry do
-      command 'CTRL+T'
+      command '^+T'
       name 'カーソル位置をリファクタリング'
     end
     entry do
@@ -504,43 +504,43 @@ cheatsheet do
       name '移動'
     end
     entry do
-      command 'CMD+Delete'
+      command '⌘+Delete'
       name 'セーフデリート'
     end
     entry do
-      command 'SHIFT+F6'
+      command '⇧+F6'
       name '名前変更'
     end
     entry do
-      command 'CMD+F6'
+      command '⌘+F6'
       name 'シグネチャ変更'
     end
     entry do
-      command 'CMD+ALT+N'
+      command '⌘+⌥+N'
       name 'インライン'
     end
     entry do
-      command 'CMD+ALT+M'
+      command '⌘+⌥+M'
       name 'メソッドを抜き出す'
     end
     entry do
-      command 'CMD+ALT+V'
+      command '⌘+⌥+V'
       name '変数を追加'
     end
     entry do
-      command 'CMD+ALT+P'
+      command '⌘+⌥+P'
       name 'パラメータを追加'
     end
     entry do
-      command 'CMD+ALT+E'
+      command '⌘+⌥+E'
       name 'プロパティを追加'
     end
     entry do
-      command 'CMD+ALT+C'
+      command '⌘+⌥+C'
       name '定数を追加'
     end
     entry do
-      command 'CMD+ALT+I'
+      command '⌘+⌥+I'
       name 'インスタンス変数を追加'
     end
   end
@@ -549,19 +549,19 @@ cheatsheet do
   category do
     id 'VCS / Local History'
     entry do
-      command 'CMD+K'
+      command '⌘+K'
       name 'コミット'
     end
     entry do
-      command 'CMD+T'
+      command '⌘+T'
       name 'アップデート'
     end
     entry do
-      command 'ALT+SHIFT+C'
+      command '⌥+⇧+C'
       name '変更箇所を表示'
     end
       entry do
-      command 'CTRL+V'
+      command '^+V'
       name 'VCS操作をポップアップ'
     end
   end
@@ -570,11 +570,11 @@ cheatsheet do
   category do
     id 'Live Templates'
     entry do
-      command 'CMD+ALT+J'
+      command '⌘+⌥+J'
       name 'スニペットで包む'
     end
     entry do
-      command 'CMD+J'
+      command '⌘+J'
       name 'スニペットを挿入'
     end
   end

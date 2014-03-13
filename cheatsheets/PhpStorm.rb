@@ -7,39 +7,39 @@ cheatsheet do
   category do
     id 'General'
     entry do
-      command 'CMD+0-9'
+      command '⌘+0-9'
       name 'Open corresponding tool window'
     end
     entry do
-      command 'CMD+ALT+Y'
+      command '⌘+⌥+Y'
       name 'Synchronize'
     end
     entry do
-      command 'CMD+SHIFT+F12'
+      command '⌘+⇧+F12'
       name 'Toggle maximizing editor'
     end
     entry do
-      command 'ALT+SHIFT+F'
+      command '⌥+⇧+F'
       name 'Add to favorites'
     end
     entry do
-      command 'ALT+SHIFT+I'
+      command '⌥+⇧+I'
       name 'Inspect current file with current profile'
     end
     entry do
-      command 'CTRL+§'
+      command '^+§'
       name 'Quick switch current scheme'
     end
     entry do
-      command 'CTRL+Tab'
+      command '^+Tab'
       name 'Switch between tabs and tool window'
     end
     entry do
-      command 'CMD+SHIFT+A'
+      command '⌘+⇧+A'
       name 'Find action'
     end
     entry do
-      command 'Shift+Shift'
+      command '⇧+⇧'
       name 'Search Everywhere'
     end
   end
@@ -48,89 +48,89 @@ cheatsheet do
   category do
     id 'Editing'
     entry do
-      command 'CTRL+Space'
+      command '^+Space'
       name 'Basic code completion'
       notes 'Name of any class, method or variable'
     end
     entry do
-      command 'CTRL+SHIFT+Space'
+      command '^+⇧+Space'
       name 'Smart code completion'
       notes 'Filters the list of methods and variables by expected type'
     end
     entry do
-      command 'CMD+SHIFT+Enter'
+      command '⌘+⇧+Enter'
       name 'Complete statement'
     end
     entry do
-      command 'CTRL+J'
+      command '^+J'
       name 'Quick documentation lookup'
     end
     entry do
-      command 'SHIFT+F1'
+      command '⇧+F1'
       name 'External documentation lookup'
     end
     entry do
-      command 'CMD+mouse over code'
+      command '⌘+mouse over code'
       name 'Brief info'
     end
     entry do
-      command 'CMD+F1'
+      command '⌘+F1'
       name 'Show description of error or warning at caret'
     end
     entry do
-      command 'CMD+N'
-      command 'CTRL+N'
-      command 'CTRL+Enter'
+      command '⌘+N'
+      command '^+N'
+      command '^+Enter'
       name 'Generate code'
       notes 'Getters, Setters, Constructors'
     end
     entry do
-      command 'CTRL+O'
+      command '^+O'
       name 'Override methods'
     end
     entry do
-      command 'CTRL+I'
+      command '^+I'
       name 'Implement methods'
     end
     entry do
-      command 'CMD+ALT+T'
+      command '⌘+⌥+T'
       name 'Surround with...'
       notes '`if..else`, `try..catch`, `for` etc'
     end
     entry do
-      command 'CMD+/'
+      command '⌘+/'
       name 'Comment or uncommment with line comment'
     end
     entry do
-      command 'CMD+ALT+/'
+      command '⌘+⌥+/'
       name 'Comment or uncommment with block comment'
     end
     entry do
-      command 'Ctrl+W'
+      command '^+W'
       name 'Select successively increasing code blocks'
     end
     entry do
-      command 'Ctrl+Shift+W'
+      command '^+⇧+W'
       name 'Decrease current selection to previous state'
     end
     entry do
-      command 'CTRL+SHIFT+Q'
+      command '^+⇧+Q'
       name 'Context info'
     end
     entry do
-      command 'ALT+Enter'
+      command '⌥+Enter'
       name 'Show intention actions and quick-fixes'
     end
     entry do
-      command 'CMD+ALT+L'
+      command '⌘+⌥+L'
       name 'Reformat code'
     end
     entry do
-      command 'CTRL+ALT+O'
+      command '^+⌥+O'
       name 'Optimize imports'
     end
     entry do
-      command 'CTRL+ALT+I'
+      command '^+⌥+I'
       name 'Auto-ident lines'
     end
     entry do
@@ -138,83 +138,83 @@ cheatsheet do
       name 'Indent selected lines'
     end
     entry do
-      command 'SHIFT+Tab'
+      command '⇧+Tab'
       name 'Unindent selected lines'
     end
     entry do
-      command 'CMD+X'
+      command '⌘+X'
       name 'Cut current line or selected block to clipboard'
     end
     entry do
-      command 'CMD+C'
+      command '⌘+C'
       name 'Copy current line or selected block to clipboard'
     end
     entry do
-      command 'CMD+V'
+      command '⌘+V'
       name 'Paste from clipboard'
     end
     entry do
-      command 'CMD+SHIFT+V'
+      command '⌘+⇧+V'
       name 'Paste from recent buffers'
     end
     entry do
-      command 'CMD+D'
+      command '⌘+D'
       name 'Duplicate current line or selected block'
     end
     entry do
-      command 'CMD+Backspace'
+      command '⌘+Backspace'
       name 'Delete line at caret'
     end
     entry do
-      command 'CTRL+SHIFT+J'
+      command '^+⇧+J'
       name 'Smart line join'
     end
     entry do
-      command 'CMD+Enter'
+      command '⌘+Enter'
       name 'Smart line split'
     end
     entry do
-      command 'SHIFT+Enter'
+      command '⇧+Enter'
       name 'Start new line'
     end
     entry do
-      command 'CMD+SHIFT+U'
+      command '⌘+⇧+U'
       name 'Toggle case for word at caret or selected block'
     end
     entry do
-      command 'CMD+SHIFT+]'
+      command '⌘+⇧+]'
       name 'Select until code block end'
     end
     entry do
-      command 'CMD+SHIFT+['
+      command '⌘+⇧+['
       name 'Select until code block start'
     end
     entry do
-      command 'ALT+Delete'
+      command '⌥+Delete'
       name 'Delete to word end'
     end
     entry do
-      command 'ALT+Backspace'
+      command '⌥+Backspace'
       name 'Delete to word start'
     end
     entry do
-      command 'CMD+"+"'
+      command '⌘+"+"'
       name 'Expand code block'
     end
     entry do
-      command 'CMD+"-"'
+      command '⌘+"-"'
       name 'Collapse code block'
     end
     entry do
-      command 'CMD+SHIFT+"+"'
+      command '⌘+⇧+"+"'
       name 'Expand all'
     end
     entry do
-      command 'CMD+SHIFT+"-"'
+      command '⌘+⇧+"-"'
       name 'Collapse all'
     end
     entry do
-      command 'CMD+W'
+      command '⌘+W'
       name 'Close active editor tab'
     end
   end
@@ -223,27 +223,27 @@ cheatsheet do
   category do
     id 'Search / Replace'
     entry do
-      command 'CMD+F'
+      command '⌘+F'
       name 'Find'
     end
     entry do
-      command 'CMD+G'
+      command '⌘+G'
       name 'Find next'
     end
     entry do
-      command 'CMD+SHIFT+G'
+      command '⌘+⇧+G'
       name 'Find previous'
     end
     entry do
-      command 'CMD+R'
+      command '⌘+R'
       name 'Replace'
     end
     entry do
-      command 'CMD+SHIFT+F'
+      command '⌘+⇧+F'
       name 'Find in path'
     end
     entry do
-      command 'CMD+SHIFT+R'
+      command '⌘+⇧+R'
       name 'Replace in path'
     end
   end
@@ -252,19 +252,19 @@ cheatsheet do
   category do
     id 'Usage Search'
     entry do
-      command 'ALT+F7'
+      command '⌥+F7'
       name 'Find usage'
     end
     entry do
-      command 'CMD+F7'
+      command '⌘+F7'
       name 'Find usage in file'
     end
     entry do
-      command 'CMD+SHIFT+F7'
+      command '⌘+⇧+F7'
       name 'Highlight usage in file'
     end
     entry do
-      command 'CMD+ALT+F7'
+      command '⌘+⌥+F7'
       name 'Show usage'
     end
   end
@@ -273,27 +273,27 @@ cheatsheet do
   category do
     id 'Compile and Run'
     entry do
-      command 'CMD+F9'
+      command '⌘+F9'
       name 'Build project'
     end
     entry do
-      command 'CTRL+R'
+      command '^+R'
       name 'Run'
     end
     entry do
-      command 'CTRL+ALT+R'
+      command '^+⌥+R'
       name 'Select configuration and run'
     end
     entry do
-      command 'CTRL+D'
+      command '^+D'
       name 'Debug'
     end
     entry do
-      command 'CTRL+ALT+D'
+      command '^+⌥+D'
       name 'Select cofiguration and debug'
     end
     entry do
-      command 'CTRL+SHIFT+R'
+      command '^+⇧+R'
       name 'Run context configuration from editor'
     end
   end
@@ -310,31 +310,31 @@ cheatsheet do
       name 'Step into'
     end
     entry do
-      command 'SHIFT+F7'
+      command '⇧+F7'
       name 'Smart step into'
     end
     entry do
-      command 'SHIFT+F8'
+      command '⇧+F8'
       name 'Step out'
     end
     entry do
-      command 'ALT+F9'
+      command '⌥+F9'
       name 'Run to cursor'
     end
     entry do
-      command 'ALT+F8'
+      command '⌥+F8'
       name 'Evaluate expression'
     end
     entry do
-      command 'CMD+ALT+R'
+      command '⌘+⌥+R'
       name 'Resume program'
     end
     entry do
-      command 'CMD+F8'
+      command '⌘+F8'
       name 'Toggle breakpoint'
     end
     entry do
-      command 'CMD+SHIFT+F8'
+      command '⌘+⇧+F8'
       name 'View breakpoints'
     end
   end
@@ -343,23 +343,23 @@ cheatsheet do
   category do
     id 'Navigation'
     entry do
-      command 'CMD+O'
+      command '⌘+O'
       name 'Go to class'
     end
     entry do
-      command 'CMD+SHIFT+O'
+      command '⌘+⇧+O'
       name 'Go to file'
     end
     entry do
-      command 'CMD+ALT+O'
+      command '⌘+⌥+O'
       name 'Go to symbol'
     end
     entry do
-      command 'CTRL+Arrow Left'
+      command '^+Arrow Left'
       name 'Go to previous editor tab'
     end
     entry do
-      command 'CTRL+Arrow Right'
+      command '^+Arrow Right'
       name 'Go to next editor tab'
     end
     entry do
@@ -371,75 +371,75 @@ cheatsheet do
       name 'Go to editor (from tool window)'
     end
     entry do
-      command 'SHIFT+Esc'
+      command '⇧+Esc'
       name 'Hide active or last active Window'
     end
     entry do
-      command 'CMD+SHIFT+F4'
+      command '⌘+⇧+F4'
       name 'Close active tab'
     end
     entry do
-      command 'CMD+L'
+      command '⌘+L'
       name 'Go to line'
     end
     entry do
-      command 'CMD+E'
+      command '⌘+E'
       name 'Recent files popup'
     end
     entry do
-      command 'CMD+ALT+Arrow Left'
+      command '⌘+⌥+Arrow Left'
       name 'Navigate back'
     end
     entry do
-      command 'CMD+ALT+Arrow Right'
+      command '⌘+⌥+Arrow Right'
       name 'Navigate forward'
     end
     entry do
-      command 'CMD+SHIFT+Delete'
+      command '⌘+⇧+Delete'
       name 'Navigate to last edit location'
     end
     entry do
-      command 'CMD+ALT+Arrow Left'
+      command '⌘+⌥+Arrow Left'
       name 'Navigate back'
     end
     entry do
-      command 'ALT+F1'
+      command '⌥+F1'
       name 'Select current file or symbol in any view'
     end
     entry do
-      command 'CMD+B'
+      command '⌘+B'
       name 'Go to definition'
     end
     entry do
-      command 'CMD+ALT+B'
+      command '⌘+⌥+B'
       name 'Go to implementation(s)'
     end
     entry do
-      command 'CTRL+SHIFT+B'
+      command '^+⇧+B'
       name 'Go to type declaration'
     end
     entry do
-      command 'CMD+U'
+      command '⌘+U'
       name 'Go to super-method or super-class'
     end
     entry do
-      command 'CTRL+Arrow Up'
+      command '^+Arrow Up'
       name 'Go to previous method'
     end
     entry do
-      command 'CTRL+Arrow Down'
+      command '^+Arrow Down'
       name 'Go to next method'
     end
     entry do
-      command 'CMD+['
+      command '⌘+['
       name 'Move to code block start'
     end
     entry do
-      command 'CMD+]'
+      command '⌘+]'
       name 'Move to code block end'
     end
     entry do
-      command 'CMD+F12'
+      command '⌘+F12'
       name 'File structure popup'
     end
     entry do
@@ -447,11 +447,11 @@ cheatsheet do
       name 'Type hierarchy'
     end
     entry do
-      command 'CMD+SHIFT+H'
+      command '⌘+⇧+H'
       name 'Method hierarchy'
     end
     entry do
-      command 'CTRL+ALT+H'
+      command '^+⌥+H'
       name 'Call hierarchy'
     end
     entry do
@@ -459,7 +459,7 @@ cheatsheet do
       name 'Next highlighted error'
     end
     entry do
-      command 'SHIFT+F2'
+      command '⇧+F2'
       name 'Previous highlighted error'
     end
     entry do
@@ -467,7 +467,7 @@ cheatsheet do
       name 'Edit source'
     end
     entry do
-      command 'CMD+Arrow Down'
+      command '⌘+Arrow Down'
       name 'View source'
     end
     entry do
@@ -475,15 +475,15 @@ cheatsheet do
       name 'Toggle bookmark'
     end
     entry do
-      command 'ALT+F3'
+      command '⌥+F3'
       name 'Toogle bookmark with mnemonic'
     end
     entry do
-      command 'CTRL+0...CTRL+9'
+      command '^+0...^+9'
       name 'Go to numbered bookmark'
     end
     entry do
-      command 'CMD+F3'
+      command '⌘+F3'
       name 'Show bookmarks'
     end
   end
@@ -492,7 +492,7 @@ cheatsheet do
   category do
     id 'Refactoring'
     entry do
-      command 'CTRL+T'
+      command '^+T'
       name 'Refactor this'
     end
     entry do
@@ -504,43 +504,43 @@ cheatsheet do
       name 'Move'
     end
     entry do
-      command 'CMD+Delete'
+      command '⌘+Delete'
       name 'Safe delete'
     end
     entry do
-      command 'SHIFT+F6'
+      command '⇧+F6'
       name 'Rename'
     end
     entry do
-      command 'CMD+F6'
+      command '⌘+F6'
       name 'Change signature'
     end
     entry do
-      command 'CMD+ALT+N'
+      command '⌘+⌥+N'
       name 'Inline'
     end
     entry do
-      command 'CMD+ALT+M'
+      command '⌘+⌥+M'
       name 'Extract method'
     end
     entry do
-      command 'CMD+ALT+V'
+      command '⌘+⌥+V'
       name 'Introduce variable'
     end
     entry do
-      command 'CMD+ALT+P'
+      command '⌘+⌥+P'
       name 'Introduce parameter'
     end
     entry do
-      command 'CMD+ALT+E'
+      command '⌘+⌥+E'
       name 'Introduce property'
     end
     entry do
-      command 'CMD+ALT+C'
+      command '⌘+⌥+C'
       name 'Introduce constant'
     end
     entry do
-      command 'CMD+ALT+I'
+      command '⌘+⌥+I'
       name 'Introduce instance variable'
     end
   end
@@ -549,19 +549,19 @@ cheatsheet do
   category do
     id 'VCS / Local History'
     entry do
-      command 'CMD+K'
+      command '⌘+K'
       name 'Commit project to VCS'
     end
     entry do
-      command 'CMD+T'
+      command '⌘+T'
       name 'Update project from VCS'
     end
     entry do
-      command 'ALT+SHIFT+C'
+      command '⌥+⇧+C'
       name 'View recent changes'
     end
       entry do
-      command 'CTRL+V'
+      command '^+V'
       name 'VCS quick popup'
     end
   end
@@ -570,11 +570,11 @@ cheatsheet do
   category do
     id 'Live Templates'
     entry do
-      command 'CMD+ALT+J'
+      command '⌘+⌥+J'
       name 'Surround with live template'
     end
     entry do
-      command 'CMD+J'
+      command '⌘+J'
       name 'Insert live template'
     end
   end
