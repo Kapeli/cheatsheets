@@ -113,7 +113,7 @@ cheatsheet do
 
         entry do
             name 'Yank'
-            command 'CMD+Y'
+            command 'CTRL+Y'
             notes 'Inserts the text that’s on top of the kill ring'
         end
 
