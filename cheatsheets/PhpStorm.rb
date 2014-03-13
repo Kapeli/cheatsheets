@@ -1,6 +1,6 @@
 cheatsheet do
   title 'PhpStorm'
-  docset_file_name 'PhpStorm_Shortcuts'
+  docset_file_name 'PhpStorm'
   keyword 'pstorm'
   source_url 'http://cheat.kapeli.com'
 
@@ -39,7 +39,7 @@ cheatsheet do
       name 'Find action'
     end
     entry do
-      command 'Shift+Shift'
+      command 'SHIFT+SHIFT'
       name 'Search Everywhere'
     end
   end
@@ -82,7 +82,7 @@ cheatsheet do
       command 'CTRL+N'
       command 'CTRL+Enter'
       name 'Generate code'
-      notes 'Getters, Setters, Constructors'
+      notes 'Getters, setters, constructors'
     end
     entry do
       command 'CTRL+O'
@@ -106,11 +106,11 @@ cheatsheet do
       name 'Comment or uncommment with block comment'
     end
     entry do
-      command 'Ctrl+W'
+      command 'CTRL+W'
       name 'Select successively increasing code blocks'
     end
     entry do
-      command 'Ctrl+Shift+W'
+      command 'CTRL+SHIFT+W'
       name 'Decrease current selection to previous state'
     end
     entry do
@@ -443,7 +443,7 @@ cheatsheet do
       name 'File structure popup'
     end
     entry do
-      command 'Control+H'
+      command 'CTRL+H'
       name 'Type hierarchy'
     end
     entry do

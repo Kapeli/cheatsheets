@@ -211,7 +211,7 @@ cheatsheet do
       name '2-4 column layout'
     end
     entry do
-      command 'CMD+SHIFT+ALT+2-3'
+      command 'CMD+ALT+SHIFT+2-3'
       name '2-3 row layout'
     end
     entry do

@@ -103,11 +103,11 @@ cheatsheet do
       name 'Unfold current code block'
     end
     entry do
-      command 'CMD+SHIFT+ALT+['
+      command 'CMD+ALT+SHIFT+['
       name 'Fold all code blocks'
     end
     entry do
-      command 'CMD+SHIFT+ALT+]'
+      command 'CMD+ALT+SHIFT+]'
       name 'Unfold all code blocks'
     end
     entry do
@@ -183,11 +183,11 @@ cheatsheet do
       name 'Select current line'
     end
     entry do
-      command 'SHIFT+ALT+Arrow Left'
+      command 'ALT+SHIFT+Arrow Left'
       name 'Select to beginning of word'
     end
     entry do
-      command 'SHIFT+ALT+Arrow Right'
+      command 'ALT+SHIFT+Arrow Right'
       name 'Select to end of word'
     end
     entry do

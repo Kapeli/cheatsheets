@@ -161,7 +161,7 @@ cheatsheet do
       name 'Open in assistant navigator'
     end
     entry do
-      command 'SHIFT+ALT+Click'
+      command 'ALT+SHIFT+Click'
       name 'Decide where to open'
     end
   end
