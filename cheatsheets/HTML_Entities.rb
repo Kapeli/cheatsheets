@@ -16,7 +16,12 @@ cheatsheet do
   
   category do
     id 'Entities'
-
+    header 'Char'
+    header 'Dec'
+    header 'Hex'
+    header 'Entity'
+    header 'Name'
+    
     entry do
       td_command ''
       td_command '&#32'

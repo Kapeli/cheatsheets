@@ -177,7 +177,7 @@ cheatsheet do
     end
 
     category do
-        id 'Changing or Replacing Text'
+        id 'Changing / Replacing Text'
         entry do
             command 'r{char}'
             name 'Replace the character under the cursor with {char}'
@@ -409,7 +409,8 @@ cheatsheet do
             To the leftmost non-blank character of the current line that is on the screen when lines don\'t wrap (\'wrap\' off). Differs from `^` when the first non-blank character of the line is not on the screen'
         end
         entry do
-            command 'g$ or g<End>'
+            command 'g$'
+            command 'g<End>'
             name 'To the last character of the screen line and [count - 1] screen lines downward (inclusive) when lines wrap (\'wrap\' on). Differs from `$` when a line is wider than the screen. 
 
             To the rightmost character of the current line that is visible on the screen when lines don\'t wrap (\'wrap\' off). Differs from `$` when the last character of the line is not on the screen or when a count is used'
@@ -443,7 +444,9 @@ cheatsheet do
             name '[count] lines upward, on the first non-blank character (linewise)'
         end
         entry do
-            command '+ or CTRL-M or <CR>'
+            command '+'
+            command 'CTRL-M'
+            command '<CR>'
             name '[count] lines downward, on the first non-blank character
             (linewise)'
         end
@@ -452,21 +455,25 @@ cheatsheet do
             name '[count] - 1 lines downward, on the first non-blank character (linewise)'
         end
         entry do
-            command '<C-End> or G'
+            command '<C-End>'
+            command 'G'
             name 'Goto line [count] on the first non-blank character'
             notes 'Default: last line'
         end
         entry do
-            command '<C-Home>  or gg'
+            command '<C-Home>'
+            command 'gg'
             name 'Goto line [count] on the first non-blank character'
             notes 'Default: first line'
         end
         entry do
-            command '<S-Right>  or w'
+            command '<S-Right>'
+            command 'w'
             name '[count] words forward'
         end
         entry do
-            command '<C-Right>  or W'
+            command '<C-Right>'
+            command 'W'
             name '[count] WORDS forward'
         end
         entry do
@@ -478,11 +485,13 @@ cheatsheet do
             name 'Forward to the end of WORD [count]'
         end
         entry do
-            command '<S-Left>  or b'
+            command '<S-Left>'
+            command 'b'
             name '[count] words backward'
         end
         entry do
-            command '<C-Left>  or B'
+            command '<C-Left>'
+            command 'B'
             name '[count] WORDS backward'
         end
         entry do
@@ -549,7 +558,8 @@ cheatsheet do
             notes 'Does not move the cursor, this is not a motion command'
         end
         entry do
-            command 'm\'  or m\`'
+            command 'm\''
+            command 'm\`'
             name 'Set the previous context mark'
             notes 'This can be jumped to with the `\'\'` or ``` `` ``` command. Does not move the cursor, this is not a motion command'
         end

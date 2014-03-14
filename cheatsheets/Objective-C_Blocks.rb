@@ -3,7 +3,7 @@ cheatsheet do
   docset_file_name 'Objective-C_Blocks'
   keyword 'objc'
   source_url 'http://cheat.kapeli.com'
-
+  
   category do
     id 'Block Syntax'
     entry do
