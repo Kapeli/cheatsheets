@@ -93,6 +93,26 @@ cheatsheet do
   end
 
   category do
+    id 'Git Integration'
+    entry do
+      command 'CMD+SHIFT+B'
+      name 'Git Status List'
+    end
+    entry do
+      command 'ALT+CMD+Z'
+      name 'Checkout Head Revision'
+    end
+    entry do
+      command 'ALT+G+↓'
+      name 'Move To Next Diff'
+    end
+    entry do
+      command 'ALT+G+↑'
+      name 'Move To Prev Diff'
+    end
+  end
+
+  category do
     id 'Folding'
     entry do
       command 'CMD+CTRL+['
