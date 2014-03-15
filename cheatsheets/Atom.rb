@@ -96,19 +96,19 @@ cheatsheet do
     id 'Git Integration'
     entry do
       command 'CMD+SHIFT+B'
-      name 'Git Status List'
+      name 'Git status list'
     end
     entry do
-      command 'ALT+CMD+Z'
-      name 'Checkout Head Revision'
+      command 'CMD+ALT+Z'
+      name 'Checkout head revision'
     end
     entry do
-      command 'ALT+G+↓'
-      name 'Move To Next Diff'
+      command 'ALT+G+Arrow Down'
+      name 'Move to next diff'
     end
     entry do
-      command 'ALT+G+↑'
-      name 'Move To Prev Diff'
+      command 'ALT+G+Arrow Up'
+      name 'Move to previous diff'
     end
   end
 
