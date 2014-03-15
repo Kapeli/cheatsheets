@@ -19,11 +19,11 @@ cheatsheet do
       name 'Unindent'
     end
     entry do
-      command 'CMD+CTRL+Up Arrow'
+      command 'CMD+CTRL+Arrow Up'
       name 'Swap line up'
     end
     entry do
-      command 'CMD+CTRL+Down Arrow'
+      command 'CMD+CTRL+Arrow Down'
       name 'Swap line down'
     end    
     entry do
@@ -35,11 +35,11 @@ cheatsheet do
       name 'Join lines'
     end
     entry do
-      command 'CMD+Left Arrow'
+      command 'CMD+Arrow Left'
       name 'Beginning of line'
     end
     entry do
-      command 'CMD+Right Arrow'
+      command 'CMD+Arrow Right'
       name 'End of line'
     end
     entry do
@@ -101,11 +101,11 @@ cheatsheet do
       name 'Split into lines'
     end
     entry do
-      command 'CTRL+SHIFT+Up Arrow'
+      command 'CTRL+SHIFT+Arrow Up'
       name 'Add previous line'
     end
     entry do
-      command 'CTRL+SHIFT+Down Arrow'
+      command 'CTRL+SHIFT+Arrow Down'
       name 'Add next line'
     end
     entry do
@@ -247,15 +247,15 @@ cheatsheet do
       name 'Go to line'
     end
     entry do
-      command 'CMD+ALT+Right Arrow'
+      command 'CMD+ALT+Arrow Right'
       name 'Next file'
     end
     entry do
-      command 'CMD+ALT+Left Arrow'
+      command 'CMD+ALT+Arrow Left'
       name 'Previous file'
     end
     entry do
-      command 'CMD+ALT+Up Arrow'
+      command 'CMD+ALT+Arrow Up'
       name 'Switch header / implementation'
     end
     entry do
@@ -267,11 +267,11 @@ cheatsheet do
       name 'Scroll to selection'
     end
     entry do
-      command 'CTRL+ALT+Up Arrow'
+      command 'CTRL+ALT+Arrow Up'
       name 'Scroll line up'
     end
     entry do
-      command 'CTRL+ALT+Down Arrow'
+      command 'CTRL+ALT+Arrow Down'
       name 'Scroll line down'
     end
     entry do

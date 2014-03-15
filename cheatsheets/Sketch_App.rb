@@ -13,7 +13,7 @@ cheatsheet do
         end
 
         entry do
-            name 'Rounded Rectangle'
+            name 'Rounded rectangle'
             command 'U'
         end
 
@@ -23,7 +23,7 @@ cheatsheet do
         end
 
         entry do
-            name 'Vector Point'
+            name 'Vector point'
             command 'V'
         end
 
@@ -42,63 +42,63 @@ cheatsheet do
         id 'Canvas View'
 
         entry do
-            name 'Zoom In'
-            command 'CMD(+)+'
+            name 'Zoom in'
+            command 'CMD+"+"'
         end
 
         entry do
-            name 'Zoom Out'
-            command 'CMD(+)-'
+            name 'Zoom out'
+            command 'CMD+"-"'
         end
 
         entry do
-            name 'Actual Size'
+            name 'Actual size'
             command 'CMD+0'
         end
 
         entry do
-            name 'Center Canvas'
+            name 'Center canvas'
             command 'CMD+1'
         end
 
         entry do
-            name 'Center Selection'
+            name 'Center selection'
             command 'CMD+3'
         end
 
         entry do
-            name 'Zoom Selection'
+            name 'Zoom selection'
             command 'CMD+2'
         end
 
         entry do
-            name 'Toggle Rulers'
-            command 'CONTROL+R'
+            name 'Toggle rulers'
+            command 'CTRL+R'
         end
 
         entry do
-            name 'Toggle Grid'
-            command 'CONTROL+G'
+            name 'Toggle grid'
+            command 'CTRL+G'
         end
 
         entry do
-            name 'Toggle Layer Guides'
-            command 'CONTROL+L'
+            name 'Toggle layer guides'
+            command 'CTRL+L'
         end
 
         entry do
-            name 'Toggle Pixels'
-            command 'CONTROL+P'
+            name 'Toggle pixels'
+            command 'CTRL+P'
         end
 
         entry do
-            name 'Toggle Selection Handles'
-            command 'CONTROL+H'
+            name 'Toggle selection handles'
+            command 'CTRL+H'
         end
 
         entry do
-            name 'Toggle Pixel Grid'
-            command 'CONTROL+H'
+            name 'Toggle pixel grid'
+            command 'CTRL+H'
         end
     end
 
@@ -106,28 +106,28 @@ cheatsheet do
         id 'Window'
 
         entry do
-            name 'Toggle Layers List'
-            command 'ALT+CMD+1'
+            name 'Toggle layers list'
+            command 'CMD+ALT+1'
         end
 
         entry do
-            name 'Toggle Inpector'
-            command 'ALT+CMD+2'
+            name 'Toggle inpector'
+            command 'CMD+ALT+2'
         end
 
         entry do
-            name 'Toggle Layers, Inspector'
-            command 'ALT+CMD+3'
+            name 'Toggle layers, inspector'
+            command 'CMD+ALT+3'
         end
 
         entry do
-            name 'Toggle Toolbar'
-            command 'ALT+CMD+T'
+            name 'Toggle toolbar'
+            command 'CMD+ALT+T'
         end
 
         entry do
             name 'Fullscreen'
-            command 'CONTROL+CMD+F'
+            command 'CMD+CTRL+F'
         end
     end
 
@@ -135,28 +135,29 @@ cheatsheet do
         id 'Editing Shapes'
 
         entry do
-            name 'Use as Mask span (Works for Layers & Groups)'
-            command 'CONTROL+CMD+M'
+            name 'Use as mask span'
+            command 'CMD+CTRL+M'
+            notes 'Works for layers and groups'
         end
 
         entry do
             name 'Union'
-            command 'ALT+CMD+U'
+            command 'CMD+ALT+U'
         end
 
         entry do
             name 'Substract'
-            command 'ALT+CMD+S'
+            command 'CMD+ALT+S'
         end
 
          entry do
             name 'Intersect'
-            command 'ALT+CMD+I'
+            command 'CMD+ALT+I'
         end
 
         entry do
             name 'Difference'
-            command 'ALT+CMD+X'
+            command 'CMD+ALT+X'
         end
     end
 
@@ -164,38 +165,39 @@ cheatsheet do
         id 'Editing Layers'
 
         entry do
-            name 'Keep Current Selection'
+            name 'Keep current selection'
             command 'A'
         end
 
         entry do
-            name 'Show Distance to other Layers'
+            name 'Show distance to other layers'
             command 'ALT'
         end
         
         entry do
-            name 'Show Distance to other Layers inside Group'
-            command 'ALT+CMD'
+            name 'Show distance to other layers inside group'
+            command 'CMD+ALT'
         end
 
         entry do
-            name 'Duplicate (Repeat with ⌘D)'
+            name 'Duplicate'
             command 'ALT+Drag'
+            notes 'Repeat with `CMD+D`'
         end
 
         entry do
-            name 'Copy Style'
-            command 'ALT+CMD+C'
+            name 'Copy style'
+            command 'CMD+ALT+C'
         end
 
         entry do
-            name 'Paste Style'
-            command 'ALT+CMD+V'
+            name 'Paste style'
+            command 'CMD+ALT+V'
         end
 
         entry do
-            name 'Color Picker'
-            command 'CONTROL+C'
+            name 'Color picker'
+            command 'CTRL+C'
         end
 
         entry do
@@ -205,16 +207,16 @@ cheatsheet do
 
         entry do
             name 'Rotate'
-            command 'SHIFT+CMD+R'
+            command 'CMD+SHIFT+R'
         end
 
         entry do
-            name 'Toggle Fill'
+            name 'Toggle fill'
             command 'F'
         end
 
         entry do
-            name 'Toggle Border'
+            name 'Toggle border'
             command 'B'
         end
     end
@@ -223,33 +225,33 @@ cheatsheet do
         id 'Arranging Layers, Groups and Artboards'
 
         entry do
-            name 'Bring Forward'
-            command 'ALT+CMD+↑'
+            name 'Bring forward'
+            command 'CMD+ALT+Arrow Up'
         end
 
         entry do
-            name 'Bring to Front'
-            command 'CONTROL+ALT+CMD+↑'
+            name 'Bring to front'
+            command 'CMD+CTRL+ALT+Arrow Up'
         end
 
         entry do
-            name 'Send Backward'
-            command 'ALT+CMD+↓'
+            name 'Send backward'
+            command 'CMD+ALT+Arrow Down'
         end
 
         entry do
-            name 'Send to Back'
-            command 'CONTROL+ALT+CMD+↓'
+            name 'Send to back'
+            command 'CMD+CTRL+ALT+Arrow Down'
         end
 
         entry do
             name 'Hide'
-            command 'SHIFT+CMD+H'
+            command 'CMD+SHIFT+H'
         end
 
         entry do
             name 'Lock'
-            command 'SHIFT+CMD+L'
+            command 'CMD+SHIFT+L'
         end
 
         entry do
@@ -258,32 +260,32 @@ cheatsheet do
         end
 
         entry do
-            name 'Group Layers'
+            name 'Group layers'
             command 'CMD+G'
         end
 
         entry do
-            name 'Ungroup Layers'
-            command 'SHIFT+CMD+G'
+            name 'Ungroup layers'
+            command 'CMD+SHIFT+G'
         end
 
         entry do
-            name 'Select Above Layer'
-            command 'SHIFT+TAB'
+            name 'Select above layer'
+            command 'SHIFT+Tab'
         end
 
         entry do
-            name 'Select Layer Below'
-            command 'TAB'
+            name 'Select layer below'
+            command 'Tab'
         end
 
         entry do
-            name 'Select Parent Artboard'
-            command 'ESC'
+            name 'Select parent artboard'
+            command 'Esc'
         end
 
         entry do
-            name 'Find Layer by Name'
+            name 'Find layer by name'
             command 'CMD+F'
         end
     end

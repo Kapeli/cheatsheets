@@ -285,12 +285,12 @@ cheatsheet do
 
         entry do
             name 'Scroll line up'
-            command 'CTRL+ALT+Up Arrow'
+            command 'CTRL+ALT+Arrow Up'
         end
 
         entry do
             name 'Scroll line down'
-            command 'CTRL+ALT+Down Arrow'
+            command 'CTRL+ALT+Arrow Down'
         end
 
         entry do
@@ -324,12 +324,12 @@ cheatsheet do
 
         entry do
             name 'Add next line'
-            command 'CTRL+SHIFT+Down Arrow'
+            command 'CTRL+SHIFT+Arrow Down'
         end
 
         entry do
             name 'Add previo­us line'
-            command 'CTRL+SHIFT+Up Arrow'
+            command 'CTRL+SHIFT+Arrow Up'
         end
 
         entry do

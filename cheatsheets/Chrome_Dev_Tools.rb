@@ -109,7 +109,7 @@ cheatsheet do
 
         entry do
             name 'Accept suggestion'
-            command 'Right Arrow'
+            command 'Arrow Right'
         end
 
         entry do
@@ -128,18 +128,18 @@ cheatsheet do
 
         entry do
             name 'Navigate elements'
-            command 'Up Arrow'
-            command 'Down Arrow'
+            command 'Arrow Up'
+            command 'Arrow Down'
         end
 
         entry do
             name 'Expand'
-            command 'Right Arrow'
+            command 'Arrow Right'
         end
 
         entry do
             name 'Collapse'
-            command 'Left Arrow'
+            command 'Arrow Left'
         end
 
         entry do
@@ -173,32 +173,32 @@ cheatsheet do
 
         entry do
             name 'Next property'
-            command 'Right Arrow'
+            command 'Arrow Right'
         end
 
         entry do
             name 'Previous property'
-            command 'SHIFT+Right Arrow'
+            command 'SHIFT+Arrow Right'
         end
 
         entry do
             name 'Increment value by 1'
-            command 'Up Arrow'
+            command 'Arrow Up'
         end
 
         entry do
             name 'Decrement value by 1'
-            command 'Down Arrow'
+            command 'Arrow Down'
         end
 
         entry do
             name 'Increment value by 10'
-            command 'SHIFT+Up Arrrow'
+            command 'SHIFT+Arrow Up'
         end
 
         entry do
             name 'Decrement value by 10'
-            command 'SHIFT+Down Arrow'
+            command 'SHIFT+Arrow Down'
         end
 
         entry do
@@ -213,12 +213,12 @@ cheatsheet do
     
         entry do
             name 'Increment value by 0.1'
-            command 'ALT+Up Arrow'
+            command 'ALT+Arrow Up'
         end
 
         entry do
             name 'Decrement value by 0.1'
-            command 'ALT+Down Arrow'
+            command 'ALT+Arrow Down'
         end
 
     end
@@ -290,12 +290,12 @@ cheatsheet do
 
         entry do
             name 'Increment CSS unit by 1'
-            command 'ALT+Up Arrow'
+            command 'ALT+Arrow Up'
         end
 
         entry do
             name 'Decrement CSS unit by 1'
-            command 'ALT+Down Arrow'
+            command 'ALT+Arrow Down'
         end
 
         entry do
