@@ -133,12 +133,12 @@ cheatsheet do
         end
 
         entry do
-            name 'Expand'
+            name 'Expand node'
             command 'Arrow Right'
         end
 
         entry do
-            name 'Collapse'
+            name 'Collapse node'
             command 'Arrow Left'
         end
 
