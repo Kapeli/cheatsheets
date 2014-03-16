@@ -172,13 +172,13 @@ cheatsheet do
         end
 
         entry do
-            name 'Next property'
-            command 'Arrow Right'
+            name 'Edit next property'
+            command 'Tab'
         end
 
         entry do
-            name 'Previous property'
-            command 'SHIFT+Arrow Right'
+            name 'Edit previous property'
+            command 'SHIFT+Tab'
         end
 
         entry do
