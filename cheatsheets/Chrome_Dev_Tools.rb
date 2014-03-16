@@ -47,8 +47,23 @@ cheatsheet do
         end
 
         entry do
+            name 'Jump to panel 1-9'
+            command 'CMD+1-9'
+        end
+
+        entry do
             name 'Show console'
             command 'CTRL+~'
+        end
+
+        entry do
+            name 'Refresh the page'
+            command 'CMD+R'
+        end
+
+        entry do
+            name 'Refresh the page ignoring cached content'
+            command 'CMD+SHIFT+R'
         end
 
         entry do
@@ -96,6 +111,12 @@ cheatsheet do
             command 'F1'
             command 'SHIFT+?'
         end
+
+        entry do
+            name 'Hide general settings'
+            command 'Esc'
+        end
+        
     end
 
     category do
@@ -105,6 +126,16 @@ cheatsheet do
             name 'Clear console'
             command 'CMD+K'
             command 'CTRL+L'
+        end
+
+        entry do
+            name 'Next suggestion'
+            command 'Tab'
+        end
+
+        entry do
+            name 'Previous suggestion'
+            command 'SHIFT+Tab'
         end
 
         entry do
@@ -121,6 +152,17 @@ cheatsheet do
             name 'Previous command'
             command 'ALT+P'
         end
+
+        entry do
+            name 'Multi-line entry'
+            command 'CTRL+Return'
+        end
+
+        entry do
+            name 'Execute'
+            command 'Return'
+        end
+
     end
 
     category do
