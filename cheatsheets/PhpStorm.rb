@@ -58,7 +58,7 @@ cheatsheet do
       notes 'Filters the list of methods and variables by expected type'
     end
     entry do
-      command 'CMD+SHIFT+Enter'
+      command 'CMD+SHIFT+Return'
       name 'Complete statement'
     end
     entry do
@@ -80,7 +80,7 @@ cheatsheet do
     entry do
       command 'CMD+N'
       command 'CTRL+N'
-      command 'CTRL+Enter'
+      command 'CTRL+Return'
       name 'Generate code'
       notes 'Getters, setters, constructors'
     end
@@ -118,7 +118,7 @@ cheatsheet do
       name 'Context info'
     end
     entry do
-      command 'ALT+Enter'
+      command 'ALT+Return'
       name 'Show intention actions and quick-fixes'
     end
     entry do
@@ -170,11 +170,11 @@ cheatsheet do
       name 'Smart line join'
     end
     entry do
-      command 'CMD+Enter'
+      command 'CMD+Return'
       name 'Smart line split'
     end
     entry do
-      command 'SHIFT+Enter'
+      command 'SHIFT+Return'
       name 'Start new line'
     end
     entry do

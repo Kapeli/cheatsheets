@@ -163,11 +163,11 @@ cheatsheet do
       name 'Outdent current line'
     end
     entry do
-      command 'CMD+Enter'
+      command 'CMD+Return'
       name 'Insert newline after current line'
     end
     entry do
-      command 'CMD+SHIFT+Enter'
+      command 'CMD+SHIFT+Return'
       name 'Insert newline before current line'
     end
     entry do

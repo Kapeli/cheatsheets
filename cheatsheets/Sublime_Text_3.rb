@@ -179,12 +179,12 @@ cheatsheet do
 
         entry do
             name 'Insert line before'
-            command 'CMD+SHIFT+Enter'
+            command 'CMD+SHIFT+Return'
         end
 
         entry do
             name 'Insert line after'
-            command 'CMD+Enter'
+            command 'CMD+Return'
         end
 
         entry do

@@ -186,7 +186,7 @@ cheatsheet do
 
         entry do
             name 'Edit attribute'
-            command 'Enter'
+            command 'Return'
         end
 
         entry do
