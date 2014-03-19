@@ -270,7 +270,7 @@ INTRO
     entry do
       command ':expectation_failed'
       name '417 Expectation failed'
-      notes "The client has asked for a portion of the resource but the server cannot supply that portion."
+      notes "The server cannot meet the requirements of the Expect request-header field."
     end
 
     entry do
