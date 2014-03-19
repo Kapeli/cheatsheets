@@ -8,33 +8,33 @@ cheatsheet do
 
     entry do 
       command 'C-a'
-      notes 'beginning-of-line'
-      name 'Move to the beginning of line.'
+      notes '`beginning-of-line`'
+      name 'Move to the beginning of line'
     end
     entry do 
       command 'C-e'
-      notes 'end-of-line'
-      name 'Move to the end of line.'
+      notes '`end-of-line`'
+      name 'Move to the end of line'
     end
     entry do 
       command 'C-f'
-      notes 'forward-char'
-      name 'Move forward a character.'
+      notes '`forward-char`'
+      name 'Move forward a character'
     end
     entry do 
       command 'C-b'
-      notes 'backward-char'
-      name 'Move back a character.'
+      notes '`backward-char`'
+      name 'Move back a character'
     end
     entry do 
       command 'M-f'
-      notes 'forward-word'
-      name 'Move forward a word.'
+      notes '`forward-word`'
+      name 'Move forward a word'
     end
     entry do 
       command 'M-b'
-      notes 'backward-word'
-      name 'Move backward a word.'
+      notes '`backward-word`'
+      name 'Move backward a word'
     end
   end
 
@@ -44,50 +44,50 @@ cheatsheet do
 
     entry do
       command 'C-d'
-      notes 'delete-char'
-      name 'Delete one character at point.'
+      notes '`delete-char`'
+      name 'Delete one character at point'
     end
     entry do
       command 'Rubout'
-      notes 'backward-delete-char'
-      name 'Delete one character backward.'
+      notes '`backward-delete-char`'
+      name 'Delete one character backward'
     end
     entry do
       command 'C-q'
       command 'C-v'
-      notes 'quoted-insert'
-      name 'Quoted insert.'
+      notes '`quoted-insert`'
+      name 'Quoted insert'
     end
     entry do
       command 'M-TAB'
       command 'M-C-i'
-      notes 'tab-insert'
-      name 'Insert a tab character.'
+      notes '`tab-insert`'
+      name 'Insert a tab character'
     end
     entry do
       command 'C-t'
-      notes 'transpose-chars'
-      name 'Exchange the char before cursor with the character at cursor.'
+      notes '`transpose-chars`'
+      name 'Exchange the char before cursor with the character at cursor'
     end
     entry do
       command 'M-t'
-      notes 'transpose-words'
-      name 'Exchange the word before cursor with the word at cursor.'
+      notes '`transpose-words`'
+      name 'Exchange the word before cursor with the word at cursor'
     end
     entry do
       command 'M-u'
-      notes 'upcase-word'
-      name 'Uppercase the current word.'
+      notes '`upcase-word`'
+      name 'Uppercase the current word'
     end
     entry do
       command 'M-l'
-      notes 'downcase-word'
-      name 'Lowercase the current word.'
+      notes '`downcase-word`'
+      name 'Lowercase the current word'
     end
     entry do
       command 'M-c'
-      notes 'capitalize-word'
-      name 'Capitalize the current word.'
+      notes '`capitalize-word`'
+      name 'Capitalize the current word'
     end
   end
 
@@ -97,48 +97,48 @@ cheatsheet do
 
     entry do 
       command 'C-k'
-      notes 'kill-line'
-      name 'Kill the text from point to the end of the line.'
+      notes '`kill-line`'
+      name 'Kill the text from point to the end of the line'
     end
     entry do 
       command 'C-x Rubout '
-      notes 'backward-kill-line'
-      name 'Kill backward to the beginning of the line.'
+      notes '`backward-kill-line`'
+      name 'Kill backward to the beginning of the line'
     end
     entry do 
       command 'C-u'
-      notes 'unix-line-discard'
-      name 'Kill backward from point to the beginning of the line.'
+      notes '`unix-line-discard`'
+      name 'Kill backward from point to the beginning of the line'
     end
     entry do 
       command 'M-d'
-      notes 'kill-word'
-      name 'Kill from point to the end of the current word.'
+      notes '`kill-word`'
+      name 'Kill from point to the end of the current word'
     end
     entry do 
       command 'M-Rubout'
-      notes 'backward-kill-word'
-      name 'Kill the word behind point.'
+      notes '`backward-kill-word`'
+      name 'Kill the word behind point'
     end
     entry do 
       command 'C-w'
-      notes 'unix-word-rubout'
-      name 'Kill the word behind point, using white space as a word boundary.'
+      notes '`unix-word-rubout`'
+      name 'Kill the word behind point, using white space as a word boundary'
     end
     entry do 
       command 'M-\ '
-      notes 'delete-horizontal-space'
-      name 'Delete all spaces and tabs around point.'
+      notes '`delete-horizontal-space`'
+      name 'Delete all spaces and tabs around point'
     end
     entry do 
       command 'C-y'
-      notes 'yank'
-      name 'Yank the top of the kill ring into the buffer at point.'
+      notes '`yank`'
+      name 'Yank the top of the kill ring into the buffer at point'
     end
     entry do 
       command 'M-y'
-      notes 'yank-pop'
-      name 'Rotate the kill ring, and yank the new top.'
+      notes '`yank-pop`'
+      name 'Rotate the kill ring, and yank the new top'
     end
   end
 
@@ -147,18 +147,18 @@ cheatsheet do
 
     entry do 
       command 'C-x ('
-      notes 'start-kbd-macro'
-      name 'Begin saving the chars typed into the current keyboard macro.'
+      notes '`start-kbd-macro`'
+      name 'Begin saving the chars typed into the current keyboard macro'
     end
     entry do 
       command 'C-x )'
-      notes 'end-kbd-macro'
-      name 'End saving the chars typed into the current keyboard macro.'
+      notes '`end-kbd-macro`'
+      name 'End saving the chars typed into the current keyboard macro'
     end
     entry do 
       command 'C-x e'
-      notes 'call-last-kbd-macro'
-      name 'Re-execute the last keyboard macro defined.'
+      notes '`call-last-kbd-macro`'
+      name 'Re-execute the last keyboard macro defined'
     end
   end
 
@@ -167,18 +167,18 @@ cheatsheet do
 
     entry do 
       command 'TAB'
-      notes 'complete'
-      name 'Attempt to perform completion on the text before point.'
+      notes '`complete`'
+      name 'Attempt to perform completion on the text before point'
     end
     entry do 
       command 'M-?'
-      notes 'possible-completions'
+      notes '`possible-completions`'
       name 'List the possible completions of the text before point. '
     end
     entry do 
       command 'M-*'
-      notes 'insert-completions'
-      name 'Insert all completions of the text before point generated by possible-completions.'
+      notes '`insert-completions`'
+      name 'Insert all completions of the text before point generated by possible-completions'
     end
   end
 
@@ -188,59 +188,59 @@ cheatsheet do
 
     entry do
       command 'Return'
-      notes 'accept-line'
-      name 'Accept the line regardless of where the cursor is.'
+      notes '`accept-line`'
+      name 'Accept the line regardless of where the cursor is'
     end
     entry do
       command 'C-p'
-      notes 'previous-history'
-      name 'Fetch the previous command from the history list.'
+      notes '`previous-history`'
+      name 'Fetch the previous command from the history list'
     end
     entry do
       command 'C-n'
-      notes 'next-history'
-      name 'Fetch the next command from the history list.'
+      notes '`next-history`'
+      name 'Fetch the next command from the history list'
     end
     entry do
       command 'M-<'
-      notes 'beginning-of- history'
-      name 'Move to the first line in the history.'
+      notes '`beginning-of-history`'
+      name 'Move to the first line in the history'
     end
     entry do
       command 'M->'
-      notes 'end-of-history'
-      name 'Move to the end of the input history.'
+      notes '`end-of-history`'
+      name 'Move to the end of the input history'
     end
     entry do
       command 'C-r'
-      notes 'reverse-search-history'
-      name 'Search backward starting at the current line (incremental).'
+      notes '`reverse-search-history`'
+      name 'Search backward starting at the current line (incremental)'
     end
     entry do
       command 'C-s'
-      notes 'forward-search-history'
-      name 'Search forward starting at the current line (incremental).'
+      notes '`forward-search-history`'
+      name 'Search forward starting at the current line (incremental)'
     end
     entry do
       command 'M-p'
-      notes 'non-incremental-reverse-search-history'
-      name 'Search backward using non-incremental search.'
+      notes '`non-incremental-reverse-search-history`'
+      name 'Search backward using non-incremental search'
     end
     entry do
       command 'M-n'
-      notes 'non-incremental-forward-search-history'
-      name 'Search forward using non-incremental search.'
+      notes '`non-incremental-forward-search-history`'
+      name 'Search forward using non-incremental search'
     end
     entry do
       command 'M-C-y'
-      notes 'yank-nth-arg'
-      name 'Insert the n-th argument to the previous command at point.'
+      notes '`yank-nth-arg`'
+      name 'Insert the n-th argument to the previous command at point'
     end
     entry do
-      command 'M-.' 
+      command 'M-' 
       command 'M-_'
-      notes 'yank-last-arg'
-      name 'Insert the last argument to the  previous command.'
+      notes '`yank-last-arg`'
+      name 'Insert the last argument to the  previous command'
     end
   end
 
@@ -251,82 +251,82 @@ cheatsheet do
     entry do
       command 'C-x'
       command 'C-r'
-      notes 're-read-init-file'
+      notes '`re-read-init-file`'
       name 'Read and execute the contents of inputrc file. '
     end
     entry do
       command 'C-g'
-      notes 'abort'
-      name 'Abort the current editing command and ring the terminals bell.'
+      notes '`abort`'
+      name 'Abort the current editing command and ring the terminals bell'
     end
     entry do
       command 'M-a' 
       command 'M-b'
-      notes 'do-uppercase-version'
-      name 'If the metafield char x is lowercase run the command that is bound to uppercase char.'
+      notes '`do-uppercase-version`'
+      name 'If the metafield char x is lowercase run the command that is bound to uppercase char'
     end
     entry do
       command 'ESC'
-      notes 'prefix-meta'
+      notes '`prefix-meta`'
       name 'Metafy the next character typed. For example, ESC-p is equivalent to Meta-p'
     end
     entry do
       command 'C-_'
       command 'C-x'
       command 'C-u'
-      notes 'undo'
-      name 'Incremental undo, separately remembered for each line.'
+      notes '`undo`'
+      name 'Incremental undo, separately remembered for each line'
     end
     entry do
       command 'M-r'
-      notes 'revert-line'
-      name 'Undo all changes made to this line.'
+      notes '`revert-line`'
+      name 'Undo all changes made to this line'
     end
     entry do
       command 'M-&'
-      notes 'tilde-expand'
-      name 'Perform tilde expansion on the current word.'
+      notes '`tilde-expand`'
+      name 'Perform tilde expansion on the current word'
     end
     entry do
       command 'C-@'
       command 'M-<space>'
-      notes 'set-mark'
-      name 'Set the mark to the point.'
+      notes '`set-mark`'
+      name 'Set the mark to the point'
     end
     entry do
       command 'C-x C-x'
-      notes 'exchange-point-and-mark'
-      name 'Swap the point with the mark.'
+      notes '`exchange-point-and-mark`'
+      name 'Swap the point with the mark'
     end
     entry do
       command 'C-]'
-      notes 'character-search'
+      notes '`character-search`'
       name 'Move to the next occurance of current character under cursor. '
     end
     entry do
       command 'M-C-]'
-      notes 'character-search-backward '
-      name 'Move to the previous occurrence of current character under cursor.'
+      notes '`character-search-backward `'
+      name 'Move to the previous occurrence of current character under cursor'
     end
     entry do
       command 'M-#'
-      notes 'insert-comment'
-      name 'Without argument line is commented, with argument uncommented (if it was commented).'
+      notes '`insert-comment`'
+      name 'Without argument line is commented, with argument uncommented (if it was commented)'
     end
     entry do
       command 'C-e'
-      notes 'emacs-editing-mode'
-      name 'When in vi mode, switch to emacs mode.'
+      notes '`emacs-editing-mode`'
+      name 'When in vi mode, switch to emacs mode'
     end
     entry do
       command 'M-C-j'
-      notes 'vi-editing-mode'
-      name 'When in emacs mode, switch to vi mode.'
+      notes '`vi-editing-mode`'
+      name 'When in emacs mode, switch to vi mode'
     end
     entry do
       command 'M-0, M-1,'
-      notes 'digit-argument'
-      name 'Specify the digit to the argument.'
+      notes '`digit-argument`'
+      name 'Specify the digit to the argument'
     end
   end
 

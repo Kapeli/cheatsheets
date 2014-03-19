@@ -25,7 +25,7 @@ cheatsheet do
       name 'Matcher'
       notes '
       ```
-      Be…()
+      Be...()
       ````'
     end
   end
