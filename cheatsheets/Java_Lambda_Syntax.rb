@@ -1,7 +1,7 @@
 cheatsheet do
   title 'Java Lambda Syntax'
   docset_file_name 'Java_Lambda_Syntax'
-  keyword 'java'
+  keyword 'javal'
   source_url 'http://cheat.kapeli.com'
 
   category do
