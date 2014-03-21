@@ -2,6 +2,7 @@ cheatsheet do
   title 'Emacs'
   docset_file_name 'Emacs'
   keyword 'emacs'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Motion'
