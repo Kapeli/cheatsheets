@@ -5,167 +5,167 @@ cheatsheet do
   source_url 'http://cheat.kapeli.com'
 
   category do
-    id 'Getting started'
+    id 'Getting Started'
 
     entry do
-      name 'tmux'
-      command 'start new'
+      name 'Start new'
+      command 'tmux'
     end
 
     entry do
-      name 'start new with session name:'
+      name 'Start new with session name'
       command 'tmux new -s myname'
     end
 
     entry do
-      name 'attach'
-      command 'tmux a  #  (or at, or attach)'
+      name 'Attach'
+      command 'tmux a'
+      command 'tmux at'
+      command 'tmux attach'
     end
 
     entry do
-      name 'attach to named:'
+      name 'Attach to named'
       command 'tmux a -t myname'
     end
 
     entry do
-      name 'list sessions:'
+      name 'List sessions'
       command 'tmux ls'
     end
 
     entry do
-      name 'kill session:'
+      name 'Kill session'
       command 'tmux kill-session -t myname'
-    end
-
-    entry do
-      notes 'In tmux, hit the prefix `ctrl+b` (my modified prefix is ctrl+a) and then:'
     end
   end
 
   category do
     id 'Sessions'
-
     entry do
-      command ':new<CR>'
-      name  'new session'
+      command 'PREFIX-:new<CR>'
+      name 'New session'
     end
 
     entry do
-      command 's'
-      name  'list sessions'
+      command 'PREFIX-s'
+      name 'List sessions'
     end
 
     entry do
-      command '$'
-      name  'name session'
-    end
-  end
-
-  category do
-    id 'Windows (tabs)'
-
-    entry do
-      command 'c'
-      name  'new window'
-    end
-
-    entry do
-      command 'w'
-      name  'list windows'
-    end
-
-    entry do
-      command 'f'
-      name  'find window'
-    end
-
-    entry do
-      command ','
-      name  'name window'
-    end
-
-    entry do
-      command '&'
-      name  'kill window'
+      command 'PREFIX-$'
+      name 'Name session'
     end
   end
 
   category do
-    id 'Panes (splits)'
+    id 'Windows (Tabs)'
 
     entry do
-      command '%'
-      name  'vertical split'
+      command 'PREFIX-c'
+      name 'New window'
     end
 
     entry do
-      command '"'
-      name  'horizontal split'
+      command 'PREFIX-w'
+      name 'List windows'
+    end
+
+    entry do
+      command 'PREFIX-f'
+      name 'Find window'
+    end
+
+    entry do
+      command 'PREFIX-,'
+      name 'Name window'
+    end
+
+    entry do
+      command 'PREFIX-&'
+      name 'Kill window'
+    end
+  end
+
+  category do
+    id 'Panes (Splits)'
+
+    entry do
+      command 'PREFIX-%'
+      name 'Vertical split'
+    end
+
+    entry do
+      command 'PREFIX-"'
+      name 'Horizontal split'
     end
 
 
     entry do
-      command 'o'
-      name 'swap panes'
+      command 'PREFIX-o'
+      name 'Swap panes'
     end
 
     entry do
-      command 'q'
-      name 'show pane numbers'
+      command 'PREFIX-q'
+      name 'Show pane numbers'
     end
 
     entry do
-      command 'x'
-      name 'kill pane'
+      command 'PREFIX-x'
+      name 'Kill pane'
     end
 
     entry do
-      command '+'
-      name 'break pane into window (e.g. to select text by mouse to copy)'
+      command 'PREFIX-"+"'
+      name 'Break pane into window (e.g. to select text by mouse to copy)'
     end
 
     entry do
-      command '-'
-      name 'restore pane from window'
+      command 'PREFIX-"-"'
+      name 'Restore pane from window'
     end
 
     entry do
-      command ' '
-      name 'space - toggle between layouts'
+      command 'PREFIX-Space'
+      name 'Toggle between layouts'
     end
 
     entry do
-      command 'PREFIX'
-      name 'q (Show pane numbers, when the numbers show up type the key to goto that pane)'
+      command 'PREFIX-Q'
+      name 'Show pane numbers'
+      notes 'When the numbers show up type the key to go to that pane'
     end
 
     entry do
-      command 'PREFIX'
-      name '{ (Move the current pane left)'
+      command 'PREFIX-{'
+      name 'Move the current pane left'
     end
 
     entry do
-      command 'PREFIX'
-      name '} (Move the current pane right)'
+      command 'PREFIX-}'
+      name 'Move the current pane right'
     end
   end
 
 
 
   category do
-    id 'Copy mode'
+    id 'Copy Mode'
 
     entry do
       notes <<-'END'
-        Pressing PREFIX [ places us in Copy mode. We can then use our movement keys to move our cursor around the screen. By default, the arrow keys work. we set our configuration file to use Vim keys for moving between windows and resizing panes so we wouldn’t have to take our hands off the home row. tmux has a vi mode for working with the buffer as well. To enable it, add this line to .tmux.conf:
+        Pressing `PREFIX-[` places us in Copy mode. We can then use our movement keys to move our cursor around the screen. By default, the arrow keys work. We set our configuration file to use Vim keys for moving between windows and resizing panes so we wouldn’t have to take our hands off the home row. tmux has a vi mode for working with the buffer as well. To enable it, add this line to .tmux.conf:
 
+        ```
         setw -g mode-keys vi
+        ```
 
-        With this option set, we can use h, j, k, and l to move around our buffer.
+        With this option set, we can use `h`, `j`, `k`, and `l` to move around our buffer.
 
-        To get out of Copy mode, we just press the ENTER key. Moving around one character at a time isn’t very efficient. Since we enabled vi mode, we can also use some other visible shortcuts to move around the buffer.
+        To get out of Copy mode, we just press the `Enter` key. Moving around one character at a time isn’t very efficient. Since we enabled vi mode, we can also use some other visible shortcuts to move around the buffer.
 
-        For example, we can use "w" to jump to the next word and "b" to jump back one word. And we can use "f", followed by any character, to jump to that character on the same line, and "F" to jump backwards on the line.
+        For example, we can use `w` to jump to the next word and `b` to jump back one word. And we can use `f`, followed by any character, to jump to that character on the same line, and `F` to jump backwards on the line.
       END
     end
 
@@ -176,7 +176,7 @@ cheatsheet do
 
     entry do
       name 'Clear selection'
-      command  'Escape'
+      command  'Esc'
     end
 
     entry do
@@ -281,12 +281,14 @@ cheatsheet do
 
     entry do
       name 'Scroll down'
-      command 'C-Down or J'
+      command 'C-Down'
+      command 'J'
     end
 
     entry do
       name 'Scroll up'
-      command 'C-Up or K'
+      command 'C-Up'
+      command 'K'
     end
 
     entry do
@@ -317,26 +319,26 @@ cheatsheet do
 
 
   category do
-    id 'Misc'
+    id 'Miscellaneous'
 
     entry do
       command 'd'
-      name  'detach'
+      name 'Detach'
     end
 
     entry do
       command 't'
-      name 'big clock'
+      name 'Big clock'
     end
 
     entry do
       command '?'
-      name 'list shortcuts'
+      name 'List shortcuts'
     end
 
     entry do
       command ':'
-      name 'prompt'
+      name 'Prompt'
     end
   end
 end
