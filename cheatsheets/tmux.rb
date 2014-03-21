@@ -1,7 +1,7 @@
 cheatsheet do
   title 'tmux'
   docset_file_name 'tmux'
-  keyword 'tmuxc'
+  keyword 'tmux'
   source_url 'http://cheat.kapeli.com'
 
   category do
