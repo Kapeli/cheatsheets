@@ -1,8 +1,8 @@
 cheatsheet do
-  title 'Git-flow'
-  docset_file_name 'Git-flow'
-  keyword 'git-flow'
-  source_url 'https://github.com/robertwalker/dash_cheatsets'
+  title 'Git Flow'
+  docset_file_name 'Git_Flow'
+  keyword 'gitflow'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Create'
