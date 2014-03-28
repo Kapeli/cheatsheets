@@ -364,7 +364,7 @@ cheatsheet do
         entry do
             command 'l'
             command '<Right>'
-            command '<Space'
+            command '<Space>'
             name '[count] characters to the right (exclusive)'
         end
         entry do
