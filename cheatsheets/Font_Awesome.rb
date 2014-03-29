@@ -51,7 +51,7 @@ class Category
 end
 
 # path to resources
-RES_DIR = File.expand_path(File.join(File.dirname(ARGV[1]), "../resources/Font_Awesome"))
+RES_DIR = File.expand_path("../resources/Font_Awesome", __FILE__)
 
 # checkout dir of Font-Awesome official repository
 FA_SRC_DIR = File.join(RES_DIR, "Font-Awesome")
@@ -59,8 +59,8 @@ FA_SRC_DIR = File.join(RES_DIR, "Font-Awesome")
 # path to store assets
 ASSETS_DIR = File.join(RES_DIR, "assets")
 
-config = YAML.load_file File.expand_path(File.join(FA_SRC_DIR, "_config.yml"))
-icons = (YAML.load_file File.expand_path(File.join(FA_SRC_DIR, config['icon_meta'])))['icons']
+config = YAML.load_file File.join(FA_SRC_DIR, "_config.yml")
+icons = (YAML.load_file File.join(FA_SRC_DIR, config['icon_meta']))['icons']
           .map { |icon| Icon.new(icon) }
 
 fontawesome = config['fontawesome']
@@ -68,8 +68,8 @@ fontawesome = config['fontawesome']
 Category.import(icons)
 
 # Copy Assets to assets/
-FileUtils.cp_r File.join(FA_SRC_DIR, 'css', 'font-awesome.css'), File.join(ASSETS_DIR, 'css/')
-FileUtils.cp_r File.join(FA_SRC_DIR, 'fonts', 'fontawesome-webfont.woff'), File.join(ASSETS_DIR, 'fonts/')
+FileUtils.cp File.join(FA_SRC_DIR, 'css', 'font-awesome.css'), File.join(ASSETS_DIR, 'css/')
+FileUtils.cp File.join(FA_SRC_DIR, 'fonts', 'fontawesome-webfont.woff'), File.join(ASSETS_DIR, 'fonts/')
 
 # Generate Dash Cheatsheet
 cheatsheet do
