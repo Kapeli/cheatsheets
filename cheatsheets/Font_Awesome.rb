@@ -1,3 +1,5 @@
+# Generation instructions at https://github.com/Kapeli/cheatsheets/pull/32
+
 require 'yaml'
 require 'fileutils'
 
@@ -73,27 +75,22 @@ FileUtils.cp File.join(FA_SRC_DIR, 'fonts', 'fontawesome-webfont.woff'), File.jo
 
 # Generate Dash Cheatsheet
 cheatsheet do
-  title "Font Awesome #{fontawesome['version']}"
+  title "Font Awesome"
   docset_file_name 'Font_Awesome'
-  
   keyword 'fa'
   resources ASSETS_DIR
-
-  source_url 'https://github.com/Kapeli/cheatsheets'
+  source_url 'http://cheat.kapeli.com'
 
   style <<-EOS
     @import 'assets/css/font-awesome.css';
 
     td.command {
-      text-align: left;
+      text-align: right;
+      vertical-align:middle;
     }
 
     td.description .name {
       display: none;
-    }
-
-    .iterate-icons td.command {
-      width: 16em;
     }
 
     .single-icon td.description {
@@ -101,8 +98,9 @@ cheatsheet do
       text-align: center;
     }
 
-    .example-single-command td.command,
-    .example-single-command td.td_command:nth-child(1) {
+
+    .example-single-command.category-layouts td.command,
+    .example-single-command.category-layouts td.td_command:nth-child(1) {
       width: 12em;
     }
 
@@ -118,7 +116,7 @@ cheatsheet do
   EOS
 
   introduction <<-EOS
-  ## Basic Example
+  ## Basic example
 
   ```html
   <i class="fa fa-camera-retro"></i>
@@ -132,50 +130,50 @@ cheatsheet do
 
     entry do
       td_command ""
-      name "Normal Size"
+      name "Normal size"
       notes "<i class='fa fa-camera-retro'></i>"
 
-      td_notes "Normal Size"
+      td_notes "Normal size"
     end
 
     entry do
       command "fa-lg"
-      name "33% Larger"
+      name "33% larger"
       notes "<i class='fa fa-camera-retro fa-lg'></i>"
 
-      td_notes "33% Larger"
+      td_notes "33% larger"
     end
 
     entry do
       command "fa-2x"
-      name "2x Large"
+      name "2x large"
       notes "<i class='fa fa-camera-retro fa-2x'></i>"
 
-      td_notes "2x Large"
+      td_notes "2x large"
     end
 
     entry do
       command "fa-3x"
-      name "3x Large"
+      name "3x large"
       notes "<i class='fa fa-camera-retro fa-3x'></i>"
 
-      td_notes "3x Large"
+      td_notes "3x large"
     end
 
     entry do
       command "fa-4x"
-      name "4x Large"
+      name "4x large"
       notes "<i class='fa fa-camera-retro fa-4x'></i>"
 
-      td_notes "4x Large"
+      td_notes "4x large"
     end
 
     entry do
       command "fa-5x"
-      name "5x Large"
+      name "5x large"
       notes "<i class='fa fa-camera-retro fa-5x'></i>"
 
-      td_notes "5x Large"
+      td_notes "5x large"
     end
   end
 
@@ -186,13 +184,13 @@ cheatsheet do
     entry do
       command "fa-inverse"
 
-      name "Inverse Color (White)"
+      name "Inverse color"
 
       notes <<-EOS
         <p style='background-color: aliceblue'><i class="fa fa-tags fa-fw fa-2x fa-inverse"></i></p>
       EOS
 
-      td_notes "Inverse Color (White)"
+      td_notes "Inverse color (white)"
     end
 
     entry do
@@ -203,7 +201,7 @@ cheatsheet do
         <i class="fa fa-tags fa-fw fa-2x" style="color: #bada55"></i>
       EOS
 
-      td_notes "Apply CSS `color: ` property to change color."
+      td_notes "Apply CSS `color:` property to change color"
     end
   end
 
@@ -214,7 +212,7 @@ cheatsheet do
 
     entry do
       command "fa-fw"
-      name "Fixed Width"
+      name "Fixed width"
 
       notes <<-EOS
         <p><i class='fa fa-desktop fa-2x fa-fw' style="background-color: aliceblue;"></i></p>
@@ -222,7 +220,7 @@ cheatsheet do
       EOS
 
       td_notes <<-EOS
-      Fixed Width Icons
+      Fixed width icons
       EOS
     end
 
@@ -230,7 +228,7 @@ cheatsheet do
       command "fa-ul"
       command "fa-li"
 
-      name "List Icons"
+      name "List icons"
 
       notes <<-EOS
       <ul class="fa-ul">
@@ -241,7 +239,7 @@ cheatsheet do
       EOS
 
       td_notes <<-EOS
-      List Icons (replace default bullets in `<ul>`)
+      List icons (replace default bullets in `<ul>`)
 
       ```html
       <ul class="fa-ul">
@@ -263,7 +261,7 @@ cheatsheet do
       EOS
 
       td_notes <<-EOS
-      Bordered Icons
+      Bordered icons
       EOS
     end
 
@@ -271,19 +269,18 @@ cheatsheet do
       command "pull-left"
       command "pull-right"
 
-      name "Pull Left / Right"
+      name "Pull left or right"
 
       notes <<-EOS
       <i class="fa fa-quote-left pull-left fa-lg fa-border"></i>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Lorem ipsum
       EOS
 
       td_notes <<-EOS
-      Use Pull Left / Right to make it floating
+      Use pull left or right to make it float
 
       ```html
-      <i class="fa fa-quote-left pull-left fa-border"></i>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      <i class="fa fa-quote-left pull-left fa-border"></i>Lorem ipsum
       ```
       EOS
     end
@@ -333,19 +330,19 @@ cheatsheet do
     entry do
       command "fa-flip-horizontal"
 
-      name "Flip Horizontally"
+      name "Flip horizontally"
       notes "<i class='fa fa-2x fa-fw fa-music fa-flip-horizontal'></i>"
 
-      td_notes "Flip Horizontally"
+      td_notes "Flip horizontally"
     end
 
     entry do
       command "fa-flip-vertical"
 
-      name "Filp Vertically"
+      name "Filp vertically"
       notes "<i class='fa fa-2x fa-fw fa-music fa-flip-vertical'></i>"
 
-      td_notes "Filp Vertically"
+      td_notes "Filp vertically"
     end
   end
 
@@ -357,7 +354,7 @@ cheatsheet do
     entry do
       command "fa-stack"
 
-      name "Stacking Example 1"
+      name "Stacking example 1"
 
       notes <<-EOS
         <span class="fa-stack fa-lg">
@@ -377,7 +374,7 @@ cheatsheet do
     end
 
     entry do
-      name "Stacking Example 2"
+      name "Stacking example 2"
       td_command ""
 
       notes <<-EOS
@@ -398,7 +395,7 @@ cheatsheet do
     end
 
     entry do
-      name "Stacking Example 3"
+      name "Stacking example 3"
       td_command ""
 
       notes <<-EOS
@@ -419,7 +416,7 @@ cheatsheet do
     end
 
     entry do
-      name "Stacking Example 4"
+      name "Stacking example 4"
       td_command ""
 
       notes <<-EOS
@@ -462,10 +459,10 @@ cheatsheet do
         entry do
           command "fa-#{icon.id}"
 
-          name icon.name
+          name icon.name.capitalize
           notes "<i class='fa fa-#{icon.id} fa-2x fa-fw'></i>"
 
-          td_notes icon.name
+          td_notes icon.name.capitalize
 
           icon.aliases.each do |alias_id|
             command "fa-#{alias_id}"
