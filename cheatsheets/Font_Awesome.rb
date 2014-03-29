@@ -53,7 +53,7 @@ class Category
 end
 
 # path to resources
-RES_DIR = File.expand_path("../resources/Font_Awesome", File.dirname(ARGV[1]))
+RES_DIR = File.expand_path("../resources/Font_Awesome", File.dirname(__FILE__))
 
 # checkout dir of Font-Awesome official repository
 FA_SRC_DIR = File.join(RES_DIR, "Font-Awesome")
@@ -459,10 +459,15 @@ cheatsheet do
         entry do
           command "fa-#{icon.id}"
 
-          name icon.name.capitalize
+          standardised_name = icon.name
+          if icon.name[0] == icon.name[0].downcase
+            standardised_name.capitalize!
+          end
+
+          name standardised_name
           notes "<i class='fa fa-#{icon.id} fa-2x fa-fw'></i>"
 
-          td_notes icon.name.capitalize
+          td_notes standardised_name
 
           icon.aliases.each do |alias_id|
             command "fa-#{alias_id}"
