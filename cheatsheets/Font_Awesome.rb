@@ -51,7 +51,8 @@ class Category
 end
 
 # path to resources
-RES_DIR = File.join(File.expand_path(File.dirname(__FILE__)), "resources", "Font_Awesome")
+RES_DIR = File.expand_path("../resources/Font_Awesome", __FILE__)
+puts RES_DIR
 
 # checkout dir of Font-Awesome official repository
 FA_SRC_DIR = File.join(RES_DIR, "Font-Awesome")
