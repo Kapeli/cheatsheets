@@ -55,11 +55,7 @@ cheatsheet do
 			name 'Switch cell to Markdown/LaTeX mode'
 		end
 		entry do
-			command '1'
-			command '2'
-			command '4'
-			command '5'
-			command '6'
+			command '1..6'
 			name 'Switch cell to Heading of respective level (1-6)'
 		end	
 		entry do
