@@ -1,11 +1,12 @@
 cheatsheet do
 	title 'iPython Notebook'
-	docset_file_name 'ipynb'
+	docset_file_name 'iPython_Notebook'
 	keyword 'ipynb'
 	introduction 'iPython Notebook has two sets of keyboard shorcuts. Edit mode is active when the cursor is in a cell and the cell has a green border. Command mode is active when the cell has a grey border and the editing cursor is not inside any cell.'
-	
+	source_url 'http://cheat.kapeli.com'
+
 	category do
-		id 'Active in both modes'
+		id 'Active in Both Modes'
 		entry do
 			command 'CTRL+Enter'
 			name 'Run cell'
@@ -29,12 +30,12 @@ cheatsheet do
 	category do
 		id 'Edit Mode'
 		entry do
-			command 'ESC'
+			command 'Esc'
 			command 'CTRL+M'
 			name 'Command mode'
 		end
 		entry do
-			command 'ALT+-'
+			command 'ALT+"-"'
 			name 'Split Cell'
 		end
 	end
@@ -62,12 +63,12 @@ cheatsheet do
 			name 'Switch cell to Heading of respective level (1-6)'
 		end	
 		entry do
-			command 'UP'
+			command 'Arrow Up'
 			command 'K'
 			name 'Go to cell above'
 		end
 		entry do
-			command 'DOWN'
+			command 'Arrow Down'
 			command 'J'
 			name 'Go to cell below'
 		end
@@ -130,5 +131,7 @@ cheatsheet do
 			name 'Restart kernel'
 		end
 	end
-notes 'Keyboard shortcuts found in [this ipython notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/User%20Interface.ipynb)'
+	notes <<-'END'
+	  * Based on a [iPython Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/User%20Interface.ipynb)
+	END
 end
