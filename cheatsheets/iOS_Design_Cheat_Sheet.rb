@@ -258,7 +258,7 @@ cheatsheet do
   end
 
 
-# ~~~~~~~~~~~~ Table - Common Icons ~~~~~~~~~~~~
+# ~~~~~~~~~~~~ Table - Default Font Sizes ~~~~~~~~~~~~
   category do
     id 'Default Font Sizes'
  	header 'Default Font Size'
