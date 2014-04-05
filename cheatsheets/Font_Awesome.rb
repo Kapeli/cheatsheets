@@ -115,13 +115,16 @@ cheatsheet do
     }
   EOS
 
-  introduction <<-EOS
-  ## Basic example
-
-  ```html
-  <i class="fa fa-camera-retro"></i>
-  ```
-  EOS
+  category do
+    id "Basic Usage"
+    entry do
+      notes <<-EOS
+      ```html
+      <i class="fa fa-camera-retro"></i>
+      ```
+      EOS
+    end
+  end
 
   category do
     id "Larger Icons"
