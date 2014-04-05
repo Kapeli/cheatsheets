@@ -1,6 +1,6 @@
 cheatsheet do
   title 'LLDB Commands'
-  docset_file_name 'LLDB Commands'
+  docset_file_name 'LLDB_Commands'
   keyword 'lldb'
   source_url 'http://cheat.kapeli.com'
   
@@ -8,7 +8,7 @@ cheatsheet do
     id 'Execution Commands'
 
     entry do
-      name 'Launch a process no arguments'
+      name 'Launch a process with no arguments'
       notes '
       ```
       (lldb) process launch
@@ -19,7 +19,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Launch a process with arguments <args>'
+      name 'Launch a process with arguments `<args>`'
       notes '
       ```
       (lldb) process launch -- <args>
@@ -29,7 +29,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Launch a process for with arguments a.out 1 2 3 without having to supply the args every time'
+      name 'Launch a process for with arguments `a.out 1 2 3` without having to supply the args every time'
       notes '
       ```
       % lldb -- a.out 1 2 3
@@ -38,7 +38,8 @@ cheatsheet do
       (lldb) run
       ...
       ```
-      or  
+      or:
+
       ```
       (lldb) settings set target.run-args 1 2 3
       (lldb) run
@@ -50,7 +51,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Launch a process with arguments in new terminal window (Mac OS X only)'
+      name 'Launch a process with arguments in new terminal window (OS X only)'
       notes '
       ```
       (lldb) process launch --tty -- <args>
@@ -60,7 +61,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Launch a process with arguments in existing terminal /dev/ttys006 (Mac OS X only)'
+      name 'Launch a process with arguments in existing terminal `/dev/ttys006` (OS X only)'
       notes '
       ```
       (lldb) process launch --tty=/dev/ttys006 -- <args>
@@ -110,7 +111,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Attach to a process with process ID 123'
+      name 'Attach to a process with process ID `123`'
       notes '
       ```
       (lldb) process attach --pid 123  
@@ -120,7 +121,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Attach to a process named "a.out"'
+      name 'Attach to a process named `a.out`'
       notes '
       ```
       (lldb) process attach --name a.out
@@ -130,7 +131,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Wait for a process named "a.out" to launch and attach'
+      name 'Wait for a process named `a.out` to launch and attach'
       notes '
       ```
       (lldb) process attach --name a.out --waitfor
@@ -140,7 +141,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Attach to a remote gdb protocol server running on system "eorgadd", port 8000.'
+      name 'Attach to a remote gdb protocol server running on system `eorgadd`, port 8000.'
       notes '
       ```
       (lldb) gdb-remote eorgadd:8000
@@ -158,7 +159,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Attach to a Darwin kernel in kdp mode on system "eorgadd"'
+      name 'Attach to a Darwin kernel in kdp mode on system `eorgadd`'
       notes '
       ```
       (lldb) kdp-remote eorgadd
@@ -246,7 +247,7 @@ cheatsheet do
     id 'Breakpoint Commands'
     
     entry do
-      name 'Set a breakpoint at all functions named **main**'
+      name 'Set a breakpoint at all functions named `main`'
       notes '
       ```
       (lldb) breakpoint set --name main
@@ -257,7 +258,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Set a breakpoint in file **test.c** at line **12**'
+      name 'Set a breakpoint in file `test.c` at line `12`'
       notes '
       ```
       (lldb) breakpoint set --file test.c --line 12
@@ -268,7 +269,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Set a breakpoint at all C++ methods whose basename is **main**'
+      name 'Set a breakpoint at all C++ methods whose basename is `main`'
       notes '
       ```
       (lldb) breakpoint set --method main
@@ -278,7 +279,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Set a breakpoint at and object C function: `-[NSString stringWithFormat:]`'
+      name 'Set a breakpoint at an Objective-C method: `-[NSString stringWithFormat:]`'
       notes '
       ```
       (lldb) breakpoint set --name "-[NSString stringWithFormat:]"
@@ -288,7 +289,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Set a breakpoint at all Objective C methods whose selector is **count**'
+      name 'Set a breakpoint at all Objective-C methods whose selector is `count`'
       notes '
       ```
       (lldb) breakpoint set --selector count
@@ -308,7 +309,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Ensure that breakpoints by file and line work for #included .c/.cpp/.m files'
+      name 'Ensure that breakpoints by file and line work for `#included .c, .cpp or .m` files'
       notes '
       ```
       (lldb) settings set target.inline-breakpoint-strategy always
@@ -372,8 +373,10 @@ cheatsheet do
     end
     
     entry do
-      name "Set a watchpoint on a memory location when it is written into. The size of the region to watch for defaults to the pointer size if no '-x byte_size' is specified. This command takes raw input, evaluated as an expression returning an unsigned integer pointing to the start of the region, after the '--' option terminator"
+      name "Set a watchpoint on a memory location when it is written into"
       notes '
+      The size of the region to watch for defaults to the pointer size if no `-x byte_size` is specified. This command takes raw input, evaluated as an expression returning an unsigned integer pointing to the start of the region, after the `--` option terminator
+      
       ```
       (lldb) watchpoint set expression -- my_ptr
       (lldb) wa s e -- my_ptr
@@ -445,7 +448,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Show the contents of local variable "bar"'
+      name 'Show the contents of local variable `bar`'
       notes '
       ```
       (lldb) frame variable bar
@@ -456,7 +459,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Show the contents of local variable "bar" formatted as hex'
+      name 'Show the contents of local variable `bar` formatted as hex'
       notes '
       ```
       (lldb) frame variable --format x bar
@@ -466,7 +469,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Show the contents of global variable "baz"'
+      name 'Show the contents of global variable `baz`'
       notes '
       ```
       (lldb) target variable baz
@@ -486,7 +489,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Display a the variable "argc" and "argv" every time you stop'
+      name 'Display a the variable `argc` and `argv` every time you stop'
       notes '
       ```
       (lldb) target stop-hook add --one-liner "frame variable argc argv"
@@ -498,7 +501,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Display a the variable "argc" and "argv" only when you stop in the function named **main**'
+      name 'Display a the variable `argc` and `argv` only when you stop in the function named `main`'
       notes '
       ```
       (lldb) target stop-hook add --name main --one-liner "frame variable argc argv"
@@ -508,7 +511,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Display the variable "*this" only when you stop in c class named **MyClass**'
+      name 'Display the variable `*this` only when you stop in C class named `MyClass`'
       notes '
       ```
       (lldb) target stop-hook add --classname MyClass --one-liner "frame variable *this"
@@ -527,7 +530,8 @@ cheatsheet do
       ```
       (lldb) expr (int) printf ("Print nine: %d.", 4 + 5)
       ```
-      or using the print alias:  
+      or using the print alias:
+
       ```
       (lldb) print (int) printf ("Print nine: %d.", 4 + 5)
       ```
@@ -538,6 +542,7 @@ cheatsheet do
       name 'Creating and assigning a value to a convenience variable'
       notes '
       In lldb you evaluate a variable declaration expression as you would write it in C:
+
       ```
       (lldb) expr unsigned int $foo = 5
       ```
@@ -545,12 +550,13 @@ cheatsheet do
     end
     
     entry do
-      name 'Printing the ObjC "description" of an object'
+      name 'Printing the Objective-C `description` of an object'
       notes '
       ```
       (lldb) expr -o -- [SomeClass returnAnObject]
       ```
-      or using the po alias:  
+      or using the po alias:
+
       ```
       (lldb) po [SomeClass returnAnObject]
       ```
@@ -564,7 +570,8 @@ cheatsheet do
       (lldb) expr -d 1 -- [SomeClass returnAnObject]
       (lldb) expr -d 1 -- someCPPObjectPtrOrReference
       ```
-      or set dynamic type printing to be the default:  
+      or set dynamic type printing to be the default:
+
       ```
       (lldb) settings set target.prefer-dynamic run-target
       ```
@@ -688,7 +695,7 @@ cheatsheet do
     end
     
     entry do
-      name "Write a new decimal value '123' to the current thread register 'rax'"
+      name "Write a new decimal value `123` to the current thread register `rax`"
       notes '
       ```
       (lldb) register write rax 123
@@ -697,8 +704,10 @@ cheatsheet do
     end
     
     entry do
-      name 'Skip 8 bytes ahead of the current program counter (instruction pointer). Note that we use backticks to evaluate an expression and insert the scalar result in LLDB'
+      name 'Skip 8 bytes ahead of the current program counter (instruction pointer)'
       notes '
+      Note that we use backticks to evaluate an expression and insert the scalar result in LLDB
+
       ```
       (lldb) register write pc `$pc+8`
       ```
@@ -706,14 +715,17 @@ cheatsheet do
     end
     
     entry do
-      name 'Show the general purpose registers for the current thread formatted as **signed decimal**. LLDB tries to use the same format characters as `printf(3)` when possible. Type "help format" to see the full list of format specifiers.'
+      name 'Show the general purpose registers for the current thread formatted as **signed decimal**'
       notes "
+      LLDB tries to use the same format characters as `printf(3)` when possible. Type `help format` to see the full list of format specifiers
+      
       ```
       (lldb) register read --format i
       (lldb) re r -f i
       ```
       
-      LLDB now supports the GDB shorthand format syntax but there can't be space after the command:  
+      LLDB now supports the GDB shorthand format syntax but there can't be a space after the command:
+
       ```
       (lldb) register read/d
       ```
@@ -731,7 +743,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Show the values for the registers named "rax", "rsp" and "rbp" in the current thread'
+      name 'Show the values for the registers named `rax`, `rsp` and `rbp` in the current thread'
       notes '
       ```
       (lldb) register read rax rsp rbp
@@ -740,14 +752,15 @@ cheatsheet do
     end
     
     entry do
-      name 'Show the values for the register named "rax" in the current thread formatted as **binary**'
+      name 'Show the values for the register named `rax` in the current thread formatted as **binary**'
       notes "
       ```
       (lldb) register read --format binary rax
       (lldb) re r -f b rax
       ```
       
-      LLDB now supports the GDB shorthand format syntax but there can't be space after the command:  
+      LLDB now supports the GDB shorthand format syntax but there can't be a space after the command:  
+
       ```
       (lldb) register read/t rax
       (lldb) p/t $rax
@@ -756,7 +769,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Read memory from address 0xbffff3c0 and show 4 hex uint32_t values'
+      name 'Read memory from address `0xbffff3c0` and show `4 hex uint32_t` values'
       notes "
       ```
       (lldb) memory read --size 4 --format x --count 4 0xbffff3c0
@@ -764,7 +777,8 @@ cheatsheet do
       (lldb) x -s4 -fx -c4 0xbffff3c0
       ```
       
-      LLDB now supports the GDB shorthand format syntax but there can't be space after the command:  
+      LLDB now supports the GDB shorthand format syntax but there can't be a space after the command:
+
       ```
       (lldb) memory read/4xw 0xbffff3c0
       (lldb) x/4xw 0xbffff3c0
@@ -774,13 +788,14 @@ cheatsheet do
     end
     
     entry do
-      name 'Read memory starting at the expression "argv[0]"'
+      name 'Read memory starting at the expression `argv[0]`'
       notes '
       ```
       (lldb) memory read `argv[0]`
       ```
       
-      NOTE: any command can inline a scalar expression result (as long as the target is stopped) using backticks around any expression:  
+      Note: any command can inline a scalar expression result (as long as the target is stopped) using backticks around any expression:
+
       ```
       (lldb) memory read --size `sizeof(int)` `argv[0]`
       ```
@@ -788,7 +803,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Read 512 bytes of memory from address 0xbffff3c0 and save results to a local file as **text**'
+      name 'Read 512 bytes of memory from address `0xbffff3c0` and save results to a local file as **text**'
       notes '
       ```
       (lldb) memory read --outfile /tmp/mem.txt --count 512 0xbffff3c0  
@@ -799,7 +814,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Save binary memory data starting at 0x1000 and ending at 0x2000 to a file'
+      name 'Save binary memory data starting at `0x1000` and ending at `0x2000` to a file'
       notes '
       ```
       (lldb) memory read --outfile /tmp/mem.bin --binary 0x1000 0x2000
@@ -809,7 +824,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Get information about a specific heap allocation (available on Mac OS X only)'
+      name 'Get information about a specific heap allocation (available on OS X only)'
       notes '
       ```
       (lldb) command script import lldb.macosx.heap
@@ -820,7 +835,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Get information about a specific heap allocation and cast the result to any dynamic type that can be deduced (available on Mac OS X only)'
+      name 'Get information about a specific heap allocation and cast the result to any dynamic type that can be deduced (available on OS X only)'
       notes '
       ```
       (lldb) command script import lldb.macosx.heap
@@ -830,7 +845,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Find all heap blocks that contain a pointer specified by an expression EXPR (available on Mac OS X only)'
+      name 'Find all heap blocks that contain a pointer specified by an expression `EXPR` (available on OS X only)'
       notes '
       ```
       (lldb) command script import lldb.macosx.heap
@@ -840,7 +855,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Find all heap blocks that contain a C string anywhere in the block (available on Mac OS X only)'
+      name 'Find all heap blocks that contain a C string anywhere in the block (available on OS X only)'
       notes '
       ```
       (lldb) command script import lldb.macosx.heap
@@ -860,7 +875,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Disassemble any functions named *main*'
+      name 'Disassemble any functions named `main`'
       notes '
       ```
       (lldb) disassemble --name main
@@ -921,7 +936,7 @@ cheatsheet do
   end
   
   category do
-    id 'Executable and Shared Library Query Commands'
+    id 'Executable & Shared Library Query Commands'
     
     entry do
       name 'List the main executable and all dependent shared libraries'
@@ -946,43 +961,46 @@ cheatsheet do
       name 'Look up functions matching a regular expression in a binary'
       notes '
       This one finds debug symbols:  
+
       ```
       (lldb) image lookup -r -n <FUNC_REGEX>
       ```
       
       This one finds non-debug symbols:  
+
       ```
       (lldb) image lookup -r -s <FUNC_REGEX>
       ```
       
-      Provide a list of binaries as arguments to limit the search.
+      Provide a list of binaries as arguments to limit the search
       '
     end
     
     entry do
-      name 'Find full souce line information'
+      name 'Find full source line information'
       notes '
-      This one is a bit messy at present. Do:  
+      This one is a bit messy at present:
+
       ```
       (lldb) image lookup -v --address 0x1ec4
       ```
       
-      and look for the LineEntry line, which will have the full source path and line range information.
+      and look for the `LineEntry` line, which will have the full source path and line range information
       '
     end
     
     entry do
-      name 'Look up information for an address in **a.out** only'
+      name 'Look up information for an address in `a.out` only'
       notes '
       ```
-    	(lldb) image lookup --address 0x1ec4 a.out
+      (lldb) image lookup --address 0x1ec4 a.out
       (lldb) im loo -a 0x1ec4 a.out
       ```
       '
     end
     
     entry do
-      name 'Look up information for for a type *Point* by name'
+      name 'Look up information for for a type `Point` by name'
       notes '
       ```
       (lldb) image lookup --type Point
@@ -1001,7 +1019,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Dump all sections in the **a.out** module'
+      name 'Dump all sections in the `a.out` module'
       notes '
       ```
       (lldb) image dump sections a.out
@@ -1019,7 +1037,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Dump all symbols in **a.out** and **liba.so**'
+      name 'Dump all symbols in `a.out` and `liba.so`'
       notes '
       ```
       (lldb) image dump symtab a.out liba.so
@@ -1041,14 +1059,16 @@ cheatsheet do
     end
     
     entry do
-      name "Remap source file pathnames for the debug session. If your source files are no longer located in the same location as when the program was built --- maybe the program was built on a different computer --- you need to tell the debugger how to find the sources at their local file path instead of the build system's file path."
-      notes '
+      name "Remap source file pathnames for the debug session"
+      notes "
+      If your source files are no longer located in the same location as when the program was built (maybe the program was built on a different computer) you need to tell the debugger how to find the sources at their local file path instead of the build system's file path
+
       ```
       (lldb) settings set target.source-map /buildbot/path /my/path
       ```
-      '
+      "
     end
   end
   
-  notes 'Based on the [GDB to LLDB command map](http://lldb.llvm.org/lldb-gdb.html) page on the [LLVM](http://llvm.org) website'
+  notes '* Based on the [GDB to LLDB command map](http://lldb.llvm.org/lldb-gdb.html) page on the [LLVM](http://llvm.org) website'
 end
