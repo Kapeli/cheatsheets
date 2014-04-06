@@ -47,6 +47,54 @@ cheatsheet do
     end
 
     entry do
+      td_command '“'
+      td_command '&#8220;'
+      td_command '&#x201C;'
+      td_command '&ldquo;'
+      name 'Left double quotation mark'
+    end
+
+    entry do
+      td_command '”'
+      td_command '&#8221;'
+      td_command '&#x0x201D;'
+      td_command '&rdquo;'
+      name 'Right double quotation mark'
+    end
+
+    entry do
+      td_command '‘'
+      td_command '&#8216;'
+      td_command '&#x2018;'
+      td_command '&lsquo;'
+      name 'Left single quotation mark'
+    end
+
+    entry do
+      td_command '’'
+      td_command '&#8217;'
+      td_command '&#x2019;'
+      td_command '&rsquo;'
+      name 'Right single quotation mark'
+    end
+
+    entry do
+      td_command '′'
+      td_command '&#8242;'
+      td_command '&#x2032;'
+      td_command '&prime;'
+      name 'Prime = minutes = feet'
+    end
+
+    entry do
+      td_command '″'
+      td_command '&#8243;'
+      td_command '&#x0x2033;'
+      td_command '&Prime;'
+      name 'Double prime = seconds = inches'
+    end
+
+    entry do
       td_command '#'
       td_command '&#35'
       td_command '&#0023'
@@ -135,11 +183,35 @@ cheatsheet do
     end
 
     entry do
+      td_command '–'
+      td_command '&#8211;'
+      td_command '&#x2013;'
+      td_command '&ndash;'
+      name 'En dash'
+    end
+
+    entry do
+      td_command '—'
+      td_command '&#8212;'
+      td_command '&#x2014;'
+      td_command '&mdash;'
+      name 'Em dash'
+    end
+
+    entry do
       td_command '.'
       td_command '&#46'
       td_command '&#002E'
       td_command ''
       name 'Full stop'
+    end
+
+    entry do
+      td_command '…'
+      td_command '&#8230;'
+      td_command '&#x2026;'
+      td_command '&hellip;'
+      name 'Horizontal ellipsis'
     end
 
     entry do
