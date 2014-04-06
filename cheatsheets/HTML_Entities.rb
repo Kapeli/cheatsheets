@@ -83,7 +83,7 @@ cheatsheet do
       td_command '&#8242;'
       td_command '&#x2032;'
       td_command '&prime;'
-      name 'Prime = minutes = feet'
+      name 'Prime, minutes or feet'
     end
 
     entry do
@@ -91,7 +91,7 @@ cheatsheet do
       td_command '&#8243;'
       td_command '&#x0x2033;'
       td_command '&Prime;'
-      name 'Double prime = seconds = inches'
+      name 'Double prime, seconds or inches'
     end
 
     entry do
