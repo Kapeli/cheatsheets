@@ -931,7 +931,8 @@ cheatsheet do
       X-WebKit-CSP: default-src "self"
       ```
       END
-      name 'Content-Security-Policy,<br>X-Content-Security-Policy,<br>X-WebKit-CSP (Responses)'
+      name 'Content-Security-Policy,<br>X-Content-Security-Policy,<br>X-WebKit-CSP'
+      index_name 'Content-Security-Policy, X-Content-Security-Policy, X-WebKit-CSP (Responses)'
     end
 
     entry do
