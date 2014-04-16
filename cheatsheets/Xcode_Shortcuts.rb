@@ -19,6 +19,10 @@ cheatsheet do
       name 'Select current file in project navigator'
     end
     entry do
+      command 'CMD+OPT+SHIFT+Z'
+      name 'View counterpart in assistant editor'
+    end
+    entry do
       command 'CMD+CTRL+Arrow Up'
       name 'Next counterpart'
     end
