@@ -15,7 +15,7 @@ cheatsheet do
   end
 
   category do
-    id 'Working with databases'
+    id 'Working with Databases'
 
     entry do
       command '\c <database name>'
@@ -31,7 +31,7 @@ cheatsheet do
     end
     entry do
       command 'DROP DATABASE demodb1;'
-      name 'drop a database'
+      name 'Drop a database'
     end
   end
 
@@ -40,21 +40,21 @@ cheatsheet do
 
     entry do
       command '\l'
-      name 'List Databases'
+      name 'List databases'
     end
     entry do
       command '\du'
-      name 'List Roles'
+      name 'List roles'
       notes 'Think "describe users"'
     end
     entry do
       command '\dt'
-      name 'List Tables in a Connected DB'
+      name 'List tables in a connected DB'
       notes 'Think "describe tables"'
     end
     entry do
       command '\d <tablename>'
-      name 'List Columns on Table'
+      name 'List columns on table'
     end
   end
 
