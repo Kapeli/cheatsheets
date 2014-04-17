@@ -1,12 +1,11 @@
 cheatsheet do
-  title 'Postgres CLI'
-  docset_file_name 'postgres_cli'
+  title 'PostgreSQL CLI'
+  docset_file_name 'PostgreSQL_CLI'
   keyword 'postgres'
-
-  introduction 'Common commands on the Postgres CLI (psql)'  # Optional, can contain Markdown or HTML
+  source_url 'http://cheat.kapeli.com'
 
   category do
-    id 'Connecting to Postgres'
+    id 'Connecting to PostgreSQL'
 
     entry do
       command 'sudo -u postgres psql postgres'
@@ -36,7 +35,7 @@ cheatsheet do
   end
 
   category do
-    id 'List Information'  # Must be unique and is used as title of the category
+    id 'List Information'
 
     entry do
       command '\l'
