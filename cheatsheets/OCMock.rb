@@ -2,13 +2,15 @@ cheatsheet do
   title 'OCMock'
   docset_file_name 'OCMock'
   keyword 'objc'
-  source_url 'http://ocmock.org/features'
-    
+  source_url 'http://cheat.kapeli.com'
+  style 'td.description .name {font-weight:bold}'
+
+
   category do
     id 'Features'
     
     entry do
-        name 'Class Mocks'
+        name 'Class mocks'
         notes <<-'END'
         ```objc
         id mock = [OCMockObject mockForClass:[SomeClass class]];
@@ -19,7 +21,7 @@ cheatsheet do
     end
     
     entry do
-        name 'Expectations and Verification'
+        name 'Expectations and verification'
         notes <<-'END'
         ```objc
         [[mock expect] someMethod:someArgument];
@@ -112,7 +114,7 @@ cheatsheet do
     end
     
     entry do
-        name 'Class Methods'
+        name 'Class methods'
         notes <<-'END'
         ```objc
         [[[mock stub] andReturn:aValue] someClassMethod];
@@ -145,7 +147,7 @@ cheatsheet do
     end
     
     entry do
-        name 'Argument Constraints'
+        name 'Argument constraints'
         notes <<-'END'
         
         ```objc
@@ -197,7 +199,7 @@ cheatsheet do
     end
     
     entry do
-        name 'Nice Mocks/Failing Fast'
+        name 'Nice mocks/failing fast'
         notes <<-'END'        
         When a method is called on a mock object that has not been set up with either expect or stub the mock object will raise an exception. This fail-fast mode can be turned off by creating a "nice" mock:
         
@@ -216,7 +218,7 @@ cheatsheet do
     end
     
     entry do
-        name 'Protocol Mocks'
+        name 'Protocol mocks'
         notes <<-'END'
         ```objc
         id aMock = [OCMockObject mockForProtocol:@protocol(SomeProtocol)];
@@ -227,7 +229,7 @@ cheatsheet do
     end
     
     entry do
-        name 'Partial Mocks'
+        name 'Partial mocks'
         notes <<-'END'
         ```objc
         id aMock = [OCMockObject partialMockForObject:anObject];
@@ -248,7 +250,7 @@ cheatsheet do
     end
     
     entry do
-        name 'Observer Mocks'
+        name 'Observer mocks'
         notes <<-'END'
         ```objc
         id aMock = [OCMockObject observerMock];
@@ -274,7 +276,7 @@ cheatsheet do
     end
     
     entry do
-        name 'Instance-based Method Swizzling'
+        name 'Instance-based method swizzling'
         notes <<-'END'
         In a nutshell, Method Swizzling describes the replacement of a method implementation with a different implementation at runtime. Using partial mocks and the ``andCall:`` stub OCMock allows such replacements on a per-instance basis.
         
