@@ -89,7 +89,7 @@ cheatsheet do
                      onObject:anObject] someMethod:someArgument];
         ```
         
-        In this case the mock object will call ``aMethod:`` on ``anObject`` when ``someMethod:`` is called. The signature of the replacement method must be the same as that of the method that is replaced. Arguments will be passed and the return value of the replacement method is returned from the stubbed method.
+        In this case the mock object will call ``aMethod:`` on ``anObject`` when ``someMethod:`` is called. The signature of the replacement method must be the same as that of the method that is replaced. Arguments will be passed and the return value of the replacement method is returned from the stubbed method.
         
         If Objective-C blocks are available a block can be used to handle the invocation and set up a return value:
         
