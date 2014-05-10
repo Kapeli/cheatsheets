@@ -19,7 +19,7 @@ All the `categories`, `commands` and `names` in your cheat sheet will be inserte
 
 **2. Title Case**
 
-Try to use [Title Case](http://en.wikipedia.org/wiki/Letter_case#Title_case) **only** for `categories`, anything else should be [Normal/Sentence case](http://en.wikipedia.org/wiki/Letter_case#Sentence_case). This also applies to menu item names, which should be converted to [Normal/Sentence case](http://en.wikipedia.org/wiki/Letter_case#Sentence_case).
+Try to use [Title Case](http://en.wikipedia.org/wiki/Letter_case#Title_case) only for `categories`. Anything else should be [Normal/Sentence case](http://en.wikipedia.org/wiki/Letter_case#Sentence_case). This also applies to menu item names, which should be converted to [Normal/Sentence case](http://en.wikipedia.org/wiki/Letter_case#Sentence_case).
 
 **3. Keyboard shortcuts (if any)**
 
