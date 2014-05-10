@@ -18,6 +18,9 @@ cheatsheet do
       command 'CTRL+Space'
       name 'Show available auto-completions'
     end
+    entry do
+      command 'CTRL+SHIFT+L'
+      name 'Select Gramme (set/change syntax)'
   end
 
   category do
