@@ -78,7 +78,7 @@ cheatsheet do
     id 'Find Commands'
 
     entry do
-      name 'Find the view controllers whose class names match classNameRegex and puts the address of first on the clipboard.'
+      name 'Find the view controllers whose class names match `classNameRegex` and puts the address of first on the clipboard.'
       notes '
       ```
       (lldb) fvc <classNameRegex>
@@ -87,7 +87,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Find the views whose class names match classNameRegex and puts the address of first on the clipboard.'
+      name 'Find the views whose class names match `classNameRegex` and puts the address of first on the clipboard.'
       notes '
       ```
       (lldb) fv <classNameRegex>
@@ -96,7 +96,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Find the views whose accessibility labels match labelRegex and puts the address of the first result on the clipboard.'
+      name 'Find the views whose accessibility labels match `labelRegex` and puts the address of the first result on the clipboard.'
       notes '
       ```
       (lldb) fa11y <labelRegex>
@@ -153,8 +153,9 @@ cheatsheet do
     id 'Invocation Commands'
 
     entry do
-      name 'Print the stack frame, receiver, and arguments of the current invocation. It will fail to print all arguments if any arguments are variadic (varargs).\n\nNOTE: Sadly this is currently only implemented on x86.'
+      name 'Print the stack frame, receiver, and arguments of the current invocation. It will fail to print all arguments if any arguments are variadic (varargs).'
       notes '
+      NOTE: Sadly this is currently only implemented on x86.
       ```
       (lldb) pinvocation [--all]
       ```
