@@ -1,7 +1,7 @@
 cheatsheet do
     title 'LLDB to GDB Command Map'
     docset_file_name 'LLDB_to_GDB_Command_Map'
-    keyword 'gdblldb'
+    keyword 'lldbgdb'
     source_url 'http://cheat.kapeli.com'
     style <<-EOS
     pre {

@@ -10,7 +10,7 @@ cheatsheet do
     rails generate migration AddPartNumberToProducts
     ```
 
-    It will generate named migration:
+    It will generate a named migration:
 
     ```ruby
     class AddPartNumberToProducts < ActiveRecord::Migration
@@ -19,7 +19,7 @@ cheatsheet do
     end
     ```
 
-    Below naming convention for generate code of migrations automatically.
+    Below is the naming convention for generating code for migrations automatically.
   END
 
   category do

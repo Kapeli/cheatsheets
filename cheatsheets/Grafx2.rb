@@ -1,83 +1,80 @@
 cheatsheet do
-  title 'Grafx2'               # Will be displayed by Dash in the docset list
-  docset_file_name 'Grafx2'    # Used for the filename of the docset
-  keyword 'Grafx2'             # Used as the initial search keyword (listed in Preferences > Docsets)
-  # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
+  title 'Grafx2'
+  docset_file_name 'Grafx2'
+  keyword 'grafx2'
+  source_url 'http://cheat.kapeli.com'
 
-  introduction 'Grafx2 cheat sheet'  # Optional, can contain Markdown or HTML
-
-  # A cheat sheet must consist of categories
   category do
-    id 'Move'  # Must be unique and is used as title of the category
+    id 'Move'
 
     entry do
-      command 'Up'         # Optional
-      name 'Scroll up'    # A short name, can contain Markdown or HTML
-      notes 'Scrolls the picture up, both in magnify and normal mode. This hotkey cannot be removed.'      # Optional longer explanation, can contain Markdown or HTML
+      command 'Arrow Up'
+      name 'Scroll up'
+      notes 'Scrolls the picture up, both in magnify and normal mode. This hotkey cannot be removed.'
     end
 
     entry do
-      command 'Down'
+      command 'Arrow Down'
       name 'Scroll down'
       notes 'Scrolls the picture down, both in magnify and normal mode. This hotkey cannot be removed.'
     end
 
     entry do
-      command 'Left'
+      command 'Arrow Left'
       name 'Scroll left'
       notes 'Scrolls the picture to the left, both in magnify and normal mode. This hotkey cannot be removed.'
     end
 
     entry do
-      command 'Right'
+      command 'Arrow Right'
       name 'Scroll right'
       notes 'Scrolls the picture to the right, both in magnify and normal mode. This hotkey cannot be removed.'
     end
 
     entry do
-      command 'SHIFT+Up'
+      command 'SHIFT+Arrow Up'
       name 'Faster scroll up'
       notes 'Used to scroll upwards in the picture fast, either in magnify and normal mode.'
     end
 
     entry do
-      command 'SHIFT+Down'
+      command 'SHIFT+Arrow Down'
       name 'Faster scroll down'
       notes 'Used to scroll downwards in the picture fast, either in magnify and normal mode.'
     end
 
     entry do
-      command 'SHIFT+Left'
+      command 'SHIFT+Arrow Left'
       name 'Faster scroll left'
       notes 'Used to scroll to the left in the picture fast, either in magnify and normal mode.'
     end
 
     entry do
-      command 'SHIFT+Right'
+      command 'SHIFT+Arrow Right'
       name 'Faster scroll right'
       notes 'Used to scroll to the right in the picture fast, either in magnify and normal mode.'
     end
 
     entry do
-      command 'ALT+Up'
+      command 'ALT+Arrow Up'
       name 'Slower scroll up'
       notes 'Used to scroll upwards in the picture pixel by pixel, either in magnify and normal mode.'
     end
 
     entry do
-      command 'ALT+Down'
+      command 'ALT+Arrow Down'
       name 'Slower scroll down'
       notes 'Used to scroll downwards in the picture pixel by pixel, either in magnify andnormal mode. normal mode.'
     end
 
     entry do
-      command 'ALT+Left'
+      command 'ALT+Arrow Left'
       name 'Slower scroll left'
       notes 'Used to scroll to the left in the picture pixel by pixel, either in magnify and normal mode.'
     end
 
     entry do
-      command 'ALT+Right'
+      command 'ALT+Arrow Right'
       name 'Slower scroll right'
       notes 'Used to scroll to the right in the picture pixel by pixel, either in magnify and normal mode.'
     end
@@ -88,25 +85,25 @@ cheatsheet do
     id 'Mouse emulation'
 
     entry do
-      command 'CTRL+Up'
+      command 'CTRL+Arrow Up'
       name 'Move mouse cursor 1 pixel up'
       notes 'Used to simulate a very small mouse deplacement upwards. Its very useful when you want a ultra-high precision.'
     end
 
     entry do
-      command 'CTRL+Down'
+      command 'CTRL+Arrow Down'
       name 'Move mouse cursor 1 pixel down'
       notes 'Used to simulate a very small mouse deplacement downwards. Its very useful when you want a ultra-high precision.'
     end
 
     entry do
-      command 'CTRL+Left'
+      command 'CTRL+Arrow Left'
       name 'Move mouse cursor 1 pixel left'
       notes 'Used to simulate a very small mouse deplacement to the left. Its very useful when you want a ultra-high precision.'
     end
 
     entry do
-      command 'CTRL+Right'
+      command 'CTRL+Arrow Right'
       name 'Move mouse cursor 1 pixel right'
       notes 'Used to simulate a very small mouse deplacement to the right. Its very useful when you want a ultra-high precision.'
     end
@@ -187,169 +184,169 @@ cheatsheet do
     id 'Paint'
 
     entry do
-      command 'u'
+      command 'U'
       name 'Undo (Oops!)'
       notes 'Cancel the last action which modified the picture. This has no effect after a jump to the spare page, loading a picture or modifying its size.'
     end
 
     entry do
-      command 'SHIFT+u'
+      command 'SHIFT+U'
       name 'Redo'
       notes 'Redo the last undone action. This has no effect after a jump to the spare page, loading a picture or modifying its size.'
     end
 
     entry do
-      command 'd'
+      command 'D'
       name 'Freehand drawing'
       notes 'Set the drawing mode to the classical freehand one.'
     end
 
     entry do
-      command 'SHIFT+d'
+      command 'SHIFT+D'
       name 'Switch freehand drawing mode'
       notes 'Switch between the 3 ways to use freehand drawing. These modes are: continuous, discontinuous and point by point.'
     end
 
     entry do
-      command 'CTRL+d'
+      command 'CTRL+D'
       name 'Continuous freehand drawing'
       notes 'Switch directly to continuous freehand drawing mode.'
     end
 
     entry do
-      command 'l'
+      command 'L'
       name 'Line'
       notes 'Allows you to draw lines.'
     end
 
     entry do
-      command 'SHIFT+l'
+      command 'SHIFT+L'
       name 'Knotted lines'
       notes 'Allows you to draw linked lines. This mode can also be called "Polyline".'
     end
 
     entry do
-      command 'a'
+      command 'A'
       name 'Spray'
       notes 'Allows you to spray brushes randomly in the picture.'
     end
 
     entry do
-      command 'SHIFT+a'
+      command 'SHIFT+A'
       name 'Spray menu'
       notes 'Opens a menu in which you can configure the spray flow and size.'
     end
 
     entry do
-      command 'f'
+      command 'F'
       name 'Flood-fill'
       notes 'Allows you to fill an area of the picture made of pixels of the same color.'
     end
 
     entry do
-      command 'SHIFT+f'
+      command 'SHIFT+F'
       name 'Replace color'
       notes 'Allows you to replace all the pixels of the color pointed by the mouse with the fore-color or the back-color.'
     end
 
     entry do
-      command 'i'
+      command 'I'
       name 'Beziers curves'
       notes 'Allows you to draw Beziers curves.'
     end
 
     entry do
-      command 'SHIFT+i'
+      command 'SHIFT+I'
       name 'Beziers curve with 3 or 4 points'
       notes 'Allows you to choose whether you want to draw Beziers curves with 3 or 4 points.'
     end
 
     entry do
-      command 'r'
+      command 'R'
       name 'Empty rectangle'
       notes 'Allows you to draw a rectangle using the brush.'
     end
 
     entry do
-      command 'SHIFT+r'
+      command 'SHIFT+R'
       name 'Filled rectangle'
       notes 'Allows you to draw a filled rectangle.'
     end
 
     entry do
-      command 'c'
+      command 'C'
       name 'Empty circle'
       notes 'Allows you to draw a circle using the brush.'
     end
 
     entry do
-      command 'CTRL+c'
+      command 'CTRL+C'
       name 'Empty ellipse'
       notes 'Allows you to draw an ellipse using the brush.'
     end
 
     entry do
-      command 'SHIFT+c'
+      command 'SHIFT+C'
       name 'Filled circle'
       notes 'Allows you to draw a filled circle.'
     end
 
     entry do
-      command 'CTRL+SHIFT+c'
+      command 'CTRL+SHIFT+C'
       name 'Filled ellipse'
       notes 'Allows you to draw a filled ellipse.'
     end
 
     entry do
-      command 'n'
+      command 'N'
       name 'Empty polygon'
       notes 'Allows you to draw a polygon using the brush.'
     end
 
     entry do
-      command 'CTRL+n'
+      command 'CTRL+N'
       name 'Empty "polyform"'
       notes 'Allows you to draw a freehand polygon using the brush.'
     end
 
     entry do
-      command 'SHIFT+n'
+      command 'SHIFT+N'
       name 'Filled polygon'
       notes 'Allows you to draw a filled polygon.'
     end
 
     entry do
-      command 'CTRL+SHIFT+n'
+      command 'CTRL+SHIFT+N'
       name 'Filled "polyform"'
       notes 'Allows you to draw a filled freehand polygon.'
     end
 
     entry do
-      command 'ALT+r'
+      command 'ALT+R'
       name 'Rectangle with gradation'
       notes 'Allows you to draw a rectangle with a color gradation.'
     end
 
     entry do
-      command 'ALT+g'
+      command 'ALT+G'
       name 'Gradation menu'
       notes 'Allows you to configure the way color gradations are calculated.'
     end
 
     entry do
-      command 'ALT+c'
+      command 'ALT+C'
       name 'Sphere with gradation'
       notes 'Allows you to draw a rectangle with a color gradation.'
     end
 
     entry do
-      command 'ALT+SHIFT+c'
+      command 'ALT+SHIFT+C'
       name 'Ellipse with gradation'
       notes 'Allows you to draw an ellipse filled with a color gradation.'
     end
 
     entry do
-      command 't'
+      command 'T'
       name 'Text'
       notes 'Opens a menu which permits you to type in a character string and to choose a font, and then creates a new user-defined brush fitting to your choices.'
     end
@@ -389,7 +386,7 @@ cheatsheet do
     id 'Effects'
 
     entry do
-      command 'e'
+      command 'E'
       name 'Drawing effects'
       notes 'Opens a menu where you can enable/disable and configure the drawing effects listed below.'
     end
@@ -443,31 +440,31 @@ cheatsheet do
     end
 
     entry do
-      command 'g'
+      command 'G'
       name 'Grid mode'
       notes 'Force the cursor to snap up grid points.'
     end
 
     entry do
-      command 'SHIFT+g'
+      command 'SHIFT+G'
       name 'Grid menu'
       notes 'Open a menu where you can configure the grid used by Grid mode.'
     end
 
     entry do
-      command 'CTRL+g'
+      command 'CTRL+G'
       name 'Sieve mode'
       notes 'Only draws pixels on certain positions matching with a sieve.'
     end
 
     entry do
-      command 'CTRL+SHIFT+g'
+      command 'CTRL+SHIFT+G'
       name 'Sieve menu'
       notes 'Opens a menu where you can configure the sieve.'
     end
 
     entry do
-      command 'CTRL+ALT+g'
+      command 'CTRL+ALT+G'
       name 'Invert sieve'
       notes 'Inverts the pattern defined in the Sieve menu.'
     end
@@ -503,13 +500,13 @@ cheatsheet do
     end
 
     entry do
-      command 'ALT+b'
+      command 'ALT+B'
       name 'Tiling mode'
       notes 'Puts parts of the brush where you draw.'
     end
 
     entry do
-      command 'ALT+SHIFT+b'
+      command 'ALT+SHIFT+B'
       name 'Tiling menu'
       notes 'Opens a menu where you can configure the origin of the tiling.'
     end
@@ -520,67 +517,67 @@ cheatsheet do
     id 'Brush'
 
     entry do
-      command 'b'
+      command 'B'
       name 'Classical brush grabbing'
       notes 'Allows you to pick a brush defined within a rectangle.'
     end
 
     entry do
-      command 'CTRL+b'
+      command 'CTRL+B'
       name '"Lasso" brush grabbing'
       notes 'Allows you to pick a brush defined within a freehand polygon.'
     end
 
     entry do
-      command 'SHIFT+b'
+      command 'SHIFT+B'
       name 'Get previous brush back'
       notes 'Restore the last user-defined brush.'
     end
 
     entry do
-      command 'x'
+      command 'X'
       name 'Horizontal brush flipping'
       notes 'Reverse brush horizontally.'
     end
 
     entry do
-      command 'y'
+      command 'Y'
       name 'Vertical brush flipping'
       notes 'Reverse brush vertically.'
     end
 
     entry do
-      command 'z'
+      command 'Z'
       name '90ø brush rotation'
       notes 'Rotate the user-defined brush by 90ø (counter-clockwise).'
     end
 
     entry do
-      command 'SHIFT+z'
+      command 'SHIFT+Z'
       name '180ø brush rotation'
       notes 'Rotate the user-defined brush by 180ø.'
     end
 
     entry do
-      command 's'
+      command 'S'
       name 'Strech brush'
       notes 'Allows you to resize the user-defined brush.'
     end
 
     entry do
-      command 'SHIFT+s'
+      command 'SHIFT+S'
       name 'Distort brush'
       notes 'Allows you to distort the user-defined brush.'
     end
 
     entry do
-      command 'o'
+      command 'O'
       name 'Outline brush'
       notes 'Outlines the user-defined brush with the fore color.'
     end
 
     entry do
-      command 'SHIFT+o'
+      command 'SHIFT+O'
       name 'Nibble brush'
       notes 'Deletes the borders of the user-defined brush. This does the opposite of the Outline option.'
     end
@@ -598,13 +595,13 @@ cheatsheet do
     end
 
     entry do
-      command 'w'
+      command 'W'
       name 'Rotate by any angle'
       notes 'Rotate the brush by an angle that you can define.'
     end
 
     entry do
-      command 'CTRL+ALT+b'
+      command 'CTRL+ALT+B'
       name 'Brush effects menu'
       notes 'Opens a menu which proposes different effects on the user-defined brush.'
     end
@@ -622,7 +619,7 @@ cheatsheet do
     end
 
     entry do
-      command 'CTRL+PgUp'
+      command 'CTRL+Page Up'
       name 'Top-right brush attachment point'
       notes 'Set the attachement of the user-defined brush to its top-right corner.'
     end
@@ -634,7 +631,7 @@ cheatsheet do
     end
 
     entry do
-      command 'CTRL+PgDn'
+      command 'CTRL+Page Down'
       name 'Bottom-right brush attachment point'
       notes 'Set the attachement of the user-defined brush to its bottom-right corner.'
     end
@@ -657,43 +654,43 @@ cheatsheet do
     end
 
     entry do
-      command 'p'
+      command 'P'
       name 'Palette menu'
       notes 'Opens a menu which allows you to modify the current palette.'
     end
 
     entry do
-      command 'SHIFT+p'
+      command 'SHIFT+P'
       name 'Secondary palette menu'
       notes 'Opens a menu which allows you to define color series and some tagged colors.'
     end
 
     entry do
-      command 'CTRL+p'
+      command 'CTRL+P'
       name 'Exclude colors menu'
       notes 'Opens a menu which allows you to define the colors you dont want to use in modes such as Smooth and Transparency, or when remapping a brush.'
     end
 
     entry do
-      command 'PgUp'
+      command 'Page Up'
       name 'Scroll palette to the left'
       notes 'Scroll palette in the tool bar to the left, column by column.'
     end
 
     entry do
-      command 'PgDn'
+      command 'Page Down'
       name 'Scroll palette to the right'
       notes 'Scroll palette in the tool bar to the right, column by column.'
     end
 
     entry do
-      command 'SHIFT+PgUp'
+      command 'SHIFT+Page Up'
       name 'Scroll palette to the left faster'
       notes 'Scroll palette in the tool bar to the left, 8 columns by 8 columns.'
     end
 
     entry do
-      command 'SHIFT+PgDn'
+      command 'SHIFT+Page Down'
       name 'Scroll palette to the right faster'
       notes 'Scroll palette in the tool bar to the right, 8 columns by 8 columns.'
     end
@@ -752,19 +749,19 @@ cheatsheet do
     id 'Zoom'
 
     entry do
-      command 'm'
+      command 'M'
       name 'Magnifier mode'
       notes 'Allows you to zoom into the picture.'
     end
 
     entry do
-      command 'SHIFT+m'
+      command 'SHIFT+M'
       name 'Zoom factor menu'
       notes 'Opens a menu where you can choose a magnifying factor.'
     end
 
     entry do
-      command 'KP Plus'
+      command 'KP +'
       name 'Zoom in'
       notes 'Increase magnifying factor.'
     end
@@ -781,7 +778,7 @@ cheatsheet do
     id 'Divers'
 
     entry do
-      command 'q'
+      command 'Q'
       name 'Quit program'
       notes 'Allows you to leave the program. If modifications were not saved, confirmation is asked.'
     end

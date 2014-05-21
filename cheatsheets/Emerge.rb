@@ -1,5 +1,5 @@
 cheatsheet do
-  title 'emerge'
+  title 'Emerge'
   docset_file_name 'Emerge'
   keyword 'emerge'
   source_url 'http://cheat.kapeli.com'
@@ -56,7 +56,7 @@ cheatsheet do
     end
     entry do
       command 'emerge -uDN --with-bdeps=y @world -a'
-      name 'Like above, except changes to USE flags will also be considered in determining what needs to be re-built'
+      name 'Like above, except changes to `USE` flags will also be considered in determining what needs to be re-built'
     end
   end
 
