@@ -3,955 +3,953 @@ cheatsheet do
   docset_file_name 'Emoji'
   keyword 'emoji'
   source_url 'http://cheat.kapeli.com'
-
-  introduction 'All the emoji'
   
     category do
     id 'People'
     
         entry do
       command ':smile:'
-      name    '<span style="font-size:2em;">😄 </span>SMILING FACE WITH OPEN MOUTH AND SMILING EYES'
+      name    '😄 Smiling face with open mouth and smiling eyes'
       notes   'Unified: `1F604`'
     end
     entry do
       command ':smiley:'
-      name    '<span style="font-size:2em;">😃 </span>SMILING FACE WITH OPEN MOUTH'
+      name    '😃 Smiling face with open mouth'
       notes   'Unified: `1F603`'
     end
     entry do
       command ':grinning:'
-      name    '<span style="font-size:2em;">😀 </span>GRINNING FACE'
+      name    '😀 Grinning face'
       notes   'Unified: `1F600`'
     end
     entry do
       command ':blush:'
-      name    '<span style="font-size:2em;">😊 </span>SMILING FACE WITH SMILING EYES'
+      name    '😊 Smiling face with smiling eyes'
       notes   'Unified: `1F60A`'
     end
     entry do
       command ':relaxed:'
-      name    '<span style="font-size:2em;">☺️ </span>WHITE SMILING FACE'
+      name    '☺️ White smiling face'
       notes   'Unified: `263A`'
     end
     entry do
       command ':wink:'
-      name    '<span style="font-size:2em;">😉 </span>WINKING FACE'
+      name    '😉 Winking face'
       notes   'Unified: `1F609`'
     end
     entry do
       command ':heart_eyes:'
-      name    '<span style="font-size:2em;">😍 </span>SMILING FACE WITH HEART-SHAPED EYES'
+      name    '😍 Smiling face with heart-shaped eyes'
       notes   'Unified: `1F60D`'
     end
     entry do
       command ':kissing_heart:'
-      name    '<span style="font-size:2em;">😘 </span>FACE THROWING A KISS'
+      name    '😘 Face throwing a kiss'
       notes   'Unified: `1F618`'
     end
     entry do
       command ':kissing_closed_eyes:'
-      name    '<span style="font-size:2em;">😚 </span>KISSING FACE WITH CLOSED EYES'
+      name    '😚 Kissing face with closed eyes'
       notes   'Unified: `1F61A`'
     end
     entry do
       command ':kissing:'
-      name    '<span style="font-size:2em;">😗 </span>KISSING FACE'
+      name    '😗 Kissing face'
       notes   'Unified: `1F617`'
     end
     entry do
       command ':kissing_smiling_eyes:'
-      name    '<span style="font-size:2em;">😙 </span>KISSING FACE WITH SMILING EYES'
+      name    '😙 Kissing face with smiling eyes'
       notes   'Unified: `1F619`'
     end
     entry do
       command ':stuck_out_tongue_winking_eye:'
-      name    '<span style="font-size:2em;">😜 </span>FACE WITH STUCK-OUT TONGUE AND WINKING EYE'
+      name    '😜 Face with stuck-out tongue and winking eye'
       notes   'Unified: `1F61C`'
     end
     entry do
       command ':stuck_out_tongue_closed_eyes:'
-      name    '<span style="font-size:2em;">😝 </span>FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES'
+      name    '😝 Face with stuck-out tongue and tightly-closed eyes'
       notes   'Unified: `1F61D`'
     end
     entry do
       command ':stuck_out_tongue:'
-      name    '<span style="font-size:2em;">😛 </span>FACE WITH STUCK-OUT TONGUE'
+      name    '😛 Face with stuck-out tongue'
       notes   'Unified: `1F61B`'
     end
     entry do
       command ':flushed:'
-      name    '<span style="font-size:2em;">😳 </span>FLUSHED FACE'
+      name    '😳 Flushed face'
       notes   'Unified: `1F633`'
     end
     entry do
       command ':grin:'
-      name    '<span style="font-size:2em;">😁 </span>GRINNING FACE WITH SMILING EYES'
+      name    '😁 Grinning face with smiling eyes'
       notes   'Unified: `1F601`'
     end
     entry do
       command ':pensive:'
-      name    '<span style="font-size:2em;">😔 </span>PENSIVE FACE'
+      name    '😔 Pensive face'
       notes   'Unified: `1F614`'
     end
     entry do
       command ':relieved:'
-      name    '<span style="font-size:2em;">😌 </span>RELIEVED FACE'
+      name    '😌 Relieved face'
       notes   'Unified: `1F60C`'
     end
     entry do
       command ':unamused:'
-      name    '<span style="font-size:2em;">😒 </span>UNAMUSED FACE'
+      name    '😒 Unamused face'
       notes   'Unified: `1F612`'
     end
     entry do
       command ':disappointed:'
-      name    '<span style="font-size:2em;">😞 </span>DISAPPOINTED FACE'
+      name    '😞 Disappointed face'
       notes   'Unified: `1F61E`'
     end
     entry do
       command ':persevere:'
-      name    '<span style="font-size:2em;">😣 </span>PERSEVERING FACE'
+      name    '😣 Persevering face'
       notes   'Unified: `1F623`'
     end
     entry do
       command ':cry:'
-      name    '<span style="font-size:2em;">😢 </span>CRYING FACE'
+      name    '😢 Crying face'
       notes   'Unified: `1F622`'
     end
     entry do
       command ':joy:'
-      name    '<span style="font-size:2em;">😂 </span>FACE WITH TEARS OF JOY'
+      name    '😂 Face with tears of joy'
       notes   'Unified: `1F602`'
     end
     entry do
       command ':sob:'
-      name    '<span style="font-size:2em;">😭 </span>LOUDLY CRYING FACE'
+      name    '😭 Loudly crying face'
       notes   'Unified: `1F62D`'
     end
     entry do
       command ':sleepy:'
-      name    '<span style="font-size:2em;">😪 </span>SLEEPY FACE'
+      name    '😪 Sleepy face'
       notes   'Unified: `1F62A`'
     end
     entry do
       command ':disappointed_relieved:'
-      name    '<span style="font-size:2em;">😥 </span>DISAPPOINTED BUT RELIEVED FACE'
+      name    '😥 Disappointed but relieved face'
       notes   'Unified: `1F625`'
     end
     entry do
       command ':cold_sweat:'
-      name    '<span style="font-size:2em;">😰 </span>FACE WITH OPEN MOUTH AND COLD SWEAT'
+      name    '😰 Face with open mouth and cold sweat'
       notes   'Unified: `1F630`'
     end
     entry do
       command ':sweat_smile:'
-      name    '<span style="font-size:2em;">😅 </span>SMILING FACE WITH OPEN MOUTH AND COLD SWEAT'
+      name    '😅 Smiling face with open mouth and cold sweat'
       notes   'Unified: `1F605`'
     end
     entry do
       command ':sweat:'
-      name    '<span style="font-size:2em;">😓 </span>FACE WITH COLD SWEAT'
+      name    '😓 Face with cold sweat'
       notes   'Unified: `1F613`'
     end
     entry do
       command ':weary:'
-      name    '<span style="font-size:2em;">😩 </span>WEARY FACE'
+      name    '😩 Weary face'
       notes   'Unified: `1F629`'
     end
     entry do
       command ':tired_face:'
-      name    '<span style="font-size:2em;">😫 </span>TIRED FACE'
+      name    '😫 Tired face'
       notes   'Unified: `1F62B`'
     end
     entry do
       command ':fearful:'
-      name    '<span style="font-size:2em;">😨 </span>FEARFUL FACE'
+      name    '😨 Fearful face'
       notes   'Unified: `1F628`'
     end
     entry do
       command ':scream:'
-      name    '<span style="font-size:2em;">😱 </span>FACE SCREAMING IN FEAR'
+      name    '😱 Face screaming in fear'
       notes   'Unified: `1F631`'
     end
     entry do
       command ':angry:'
-      name    '<span style="font-size:2em;">😠 </span>ANGRY FACE'
+      name    '😠 Angry face'
       notes   'Unified: `1F620`'
     end
     entry do
       command ':rage:'
-      name    '<span style="font-size:2em;">😡 </span>POUTING FACE'
+      name    '😡 Pouting face'
       notes   'Unified: `1F621`'
     end
     entry do
       command ':triumph:'
-      name    '<span style="font-size:2em;">😤 </span>FACE WITH LOOK OF TRIUMPH'
+      name    '😤 Face with look of triumph'
       notes   'Unified: `1F624`'
     end
     entry do
       command ':confounded:'
-      name    '<span style="font-size:2em;">😖 </span>CONFOUNDED FACE'
+      name    '😖 Confounded face'
       notes   'Unified: `1F616`'
     end
     entry do
       command ':laughing:'
-      name    '<span style="font-size:2em;">😆 </span>SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES'
+      name    '😆 Smiling face with open mouth and tightly-closed eyes'
       notes   'Unified: `1F606`'
     end
     entry do
       command ':yum:'
-      name    '<span style="font-size:2em;">😋 </span>FACE SAVOURING DELICIOUS FOOD'
+      name    '😋 Face savouring delicious food'
       notes   'Unified: `1F60B`'
     end
     entry do
       command ':mask:'
-      name    '<span style="font-size:2em;">😷 </span>FACE WITH MEDICAL MASK'
+      name    '😷 Face with medical mask'
       notes   'Unified: `1F637`'
     end
     entry do
       command ':sunglasses:'
-      name    '<span style="font-size:2em;">😎 </span>SMILING FACE WITH SUNGLASSES'
+      name    '😎 Smiling face with sunglasses'
       notes   'Unified: `1F60E`'
     end
     entry do
       command ':sleeping:'
-      name    '<span style="font-size:2em;">😴 </span>SLEEPING FACE'
+      name    '😴 Sleeping face'
       notes   'Unified: `1F634`'
     end
     entry do
       command ':dizzy_face:'
-      name    '<span style="font-size:2em;">😵 </span>DIZZY FACE'
+      name    '😵 Dizzy face'
       notes   'Unified: `1F635`'
     end
     entry do
       command ':astonished:'
-      name    '<span style="font-size:2em;">😲 </span>ASTONISHED FACE'
+      name    '😲 Astonished face'
       notes   'Unified: `1F632`'
     end
     entry do
       command ':worried:'
-      name    '<span style="font-size:2em;">😟 </span>WORRIED FACE'
+      name    '😟 Worried face'
       notes   'Unified: `1F61F`'
     end
     entry do
       command ':frowning:'
-      name    '<span style="font-size:2em;">😦 </span>FROWNING FACE WITH OPEN MOUTH'
+      name    '😦 Frowning face with open mouth'
       notes   'Unified: `1F626`'
     end
     entry do
       command ':anguished:'
-      name    '<span style="font-size:2em;">😧 </span>ANGUISHED FACE'
+      name    '😧 Anguished face'
       notes   'Unified: `1F627`'
     end
     entry do
       command ':smiling_imp:'
-      name    '<span style="font-size:2em;">😈 </span>SMILING FACE WITH HORNS'
+      name    '😈 Smiling face with horns'
       notes   'Unified: `1F608`'
     end
     entry do
       command ':imp:'
-      name    '<span style="font-size:2em;">👿 </span>IMP'
+      name    '👿 Imp'
       notes   'Unified: `1F47F`'
     end
     entry do
       command ':open_mouth:'
-      name    '<span style="font-size:2em;">😮 </span>FACE WITH OPEN MOUTH'
+      name    '😮 Face with open mouth'
       notes   'Unified: `1F62E`'
     end
     entry do
       command ':grimacing:'
-      name    '<span style="font-size:2em;">😬 </span>GRIMACING FACE'
+      name    '😬 Grimacing face'
       notes   'Unified: `1F62C`'
     end
     entry do
       command ':neutral_face:'
-      name    '<span style="font-size:2em;">😐 </span>NEUTRAL FACE'
+      name    '😐 Neutral face'
       notes   'Unified: `1F610`'
     end
     entry do
       command ':confused:'
-      name    '<span style="font-size:2em;">😕 </span>CONFUSED FACE'
+      name    '😕 Confused face'
       notes   'Unified: `1F615`'
     end
     entry do
       command ':hushed:'
-      name    '<span style="font-size:2em;">😯 </span>HUSHED FACE'
+      name    '😯 Hushed face'
       notes   'Unified: `1F62F`'
     end
     entry do
       command ':no_mouth:'
-      name    '<span style="font-size:2em;">😶 </span>FACE WITHOUT MOUTH'
+      name    '😶 Face without mouth'
       notes   'Unified: `1F636`'
     end
     entry do
       command ':innocent:'
-      name    '<span style="font-size:2em;">😇 </span>SMILING FACE WITH HALO'
+      name    '😇 Smiling face with halo'
       notes   'Unified: `1F607`'
     end
     entry do
       command ':smirk:'
-      name    '<span style="font-size:2em;">😏 </span>SMIRKING FACE'
+      name    '😏 Smirking face'
       notes   'Unified: `1F60F`'
     end
     entry do
       command ':expressionless:'
-      name    '<span style="font-size:2em;">😑 </span>EXPRESSIONLESS FACE'
+      name    '😑 Expressionless face'
       notes   'Unified: `1F611`'
     end
     entry do
       command ':man_with_gua_pi_mao:'
-      name    '<span style="font-size:2em;">👲 </span>MAN WITH GUA PI MAO'
+      name    '👲 Man with gua pi mao'
       notes   'Unified: `1F472`'
     end
     entry do
       command ':man_with_turban:'
-      name    '<span style="font-size:2em;">👳 </span>MAN WITH TURBAN'
+      name    '👳 Man with turban'
       notes   'Unified: `1F473`'
     end
     entry do
       command ':cop:'
-      name    '<span style="font-size:2em;">👮 </span>POLICE OFFICER'
+      name    '👮 Police officer'
       notes   'Unified: `1F46E`'
     end
     entry do
       command ':construction_worker:'
-      name    '<span style="font-size:2em;">👷 </span>CONSTRUCTION WORKER'
+      name    '👷 Construction worker'
       notes   'Unified: `1F477`'
     end
     entry do
       command ':guardsman:'
-      name    '<span style="font-size:2em;">💂 </span>GUARDSMAN'
+      name    '💂 Guardsman'
       notes   'Unified: `1F482`'
     end
     entry do
       command ':baby:'
-      name    '<span style="font-size:2em;">👶 </span>BABY'
+      name    '👶 Baby'
       notes   'Unified: `1F476`'
     end
     entry do
       command ':boy:'
-      name    '<span style="font-size:2em;">👦 </span>BOY'
+      name    '👦 Boy'
       notes   'Unified: `1F466`'
     end
     entry do
       command ':girl:'
-      name    '<span style="font-size:2em;">👧 </span>GIRL'
+      name    '👧 Girl'
       notes   'Unified: `1F467`'
     end
     entry do
       command ':man:'
-      name    '<span style="font-size:2em;">👨 </span>MAN'
+      name    '👨 Man'
       notes   'Unified: `1F468`'
     end
     entry do
       command ':woman:'
-      name    '<span style="font-size:2em;">👩 </span>WOMAN'
+      name    '👩 Woman'
       notes   'Unified: `1F469`'
     end
     entry do
       command ':older_man:'
-      name    '<span style="font-size:2em;">👴 </span>OLDER MAN'
+      name    '👴 Older man'
       notes   'Unified: `1F474`'
     end
     entry do
       command ':older_woman:'
-      name    '<span style="font-size:2em;">👵 </span>OLDER WOMAN'
+      name    '👵 Older woman'
       notes   'Unified: `1F475`'
     end
     entry do
       command ':person_with_blond_hair:'
-      name    '<span style="font-size:2em;">👱 </span>PERSON WITH BLOND HAIR'
+      name    '👱 Person with blond hair'
       notes   'Unified: `1F471`'
     end
     entry do
       command ':angel:'
-      name    '<span style="font-size:2em;">👼 </span>BABY ANGEL'
+      name    '👼 Baby angel'
       notes   'Unified: `1F47C`'
     end
     entry do
       command ':princess:'
-      name    '<span style="font-size:2em;">👸 </span>PRINCESS'
+      name    '👸 Princess'
       notes   'Unified: `1F478`'
     end
     entry do
       command ':smiley_cat:'
-      name    '<span style="font-size:2em;">😺 </span>SMILING CAT FACE WITH OPEN MOUTH'
+      name    '😺 Smiling cat face with open mouth'
       notes   'Unified: `1F63A`'
     end
     entry do
       command ':smile_cat:'
-      name    '<span style="font-size:2em;">😸 </span>GRINNING CAT FACE WITH SMILING EYES'
+      name    '😸 Grinning cat face with smiling eyes'
       notes   'Unified: `1F638`'
     end
     entry do
       command ':heart_eyes_cat:'
-      name    '<span style="font-size:2em;">😻 </span>SMILING CAT FACE WITH HEART-SHAPED EYES'
+      name    '😻 Smiling cat face with heart-shaped eyes'
       notes   'Unified: `1F63B`'
     end
     entry do
       command ':kissing_cat:'
-      name    '<span style="font-size:2em;">😽 </span>KISSING CAT FACE WITH CLOSED EYES'
+      name    '😽 Kissing cat face with closed eyes'
       notes   'Unified: `1F63D`'
     end
     entry do
       command ':smirk_cat:'
-      name    '<span style="font-size:2em;">😼 </span>CAT FACE WITH WRY SMILE'
+      name    '😼 Cat face with wry smile'
       notes   'Unified: `1F63C`'
     end
     entry do
       command ':scream_cat:'
-      name    '<span style="font-size:2em;">🙀 </span>WEARY CAT FACE'
+      name    '🙀 Weary cat face'
       notes   'Unified: `1F640`'
     end
     entry do
       command ':crying_cat_face:'
-      name    '<span style="font-size:2em;">😿 </span>CRYING CAT FACE'
+      name    '😿 Crying cat face'
       notes   'Unified: `1F63F`'
     end
     entry do
       command ':joy_cat:'
-      name    '<span style="font-size:2em;">😹 </span>CAT FACE WITH TEARS OF JOY'
+      name    '😹 Cat face with tears of joy'
       notes   'Unified: `1F639`'
     end
     entry do
       command ':pouting_cat:'
-      name    '<span style="font-size:2em;">😾 </span>POUTING CAT FACE'
+      name    '😾 Pouting cat face'
       notes   'Unified: `1F63E`'
     end
     entry do
       command ':japanese_ogre:'
-      name    '<span style="font-size:2em;">👹 </span>JAPANESE OGRE'
+      name    '👹 Japanese ogre'
       notes   'Unified: `1F479`'
     end
     entry do
       command ':japanese_goblin:'
-      name    '<span style="font-size:2em;">👺 </span>JAPANESE GOBLIN'
+      name    '👺 Japanese goblin'
       notes   'Unified: `1F47A`'
     end
     entry do
       command ':see_no_evil:'
-      name    '<span style="font-size:2em;">🙈 </span>SEE-NO-EVIL MONKEY'
+      name    '🙈 See-no-evil monkey'
       notes   'Unified: `1F648`'
     end
     entry do
       command ':hear_no_evil:'
-      name    '<span style="font-size:2em;">🙉 </span>HEAR-NO-EVIL MONKEY'
+      name    '🙉 Hear-no-evil monkey'
       notes   'Unified: `1F649`'
     end
     entry do
       command ':speak_no_evil:'
-      name    '<span style="font-size:2em;">🙊 </span>SPEAK-NO-EVIL MONKEY'
+      name    '🙊 Speak-no-evil monkey'
       notes   'Unified: `1F64A`'
     end
     entry do
       command ':skull:'
-      name    '<span style="font-size:2em;">💀 </span>SKULL'
+      name    '💀 Skull'
       notes   'Unified: `1F480`'
     end
     entry do
       command ':alien:'
-      name    '<span style="font-size:2em;">👽 </span>EXTRATERRESTRIAL ALIEN'
+      name    '👽 Extraterrestrial alien'
       notes   'Unified: `1F47D`'
     end
     entry do
       command ':hankey:'
-      name    '<span style="font-size:2em;">💩 </span>PILE OF POO'
+      name    '💩 Pile of poo'
       notes   'Unified: `1F4A9`'
     end
     entry do
       command ':fire:'
-      name    '<span style="font-size:2em;">🔥 </span>FIRE'
+      name    '🔥 Fire'
       notes   'Unified: `1F525`'
     end
     entry do
       command ':sparkles:'
-      name    '<span style="font-size:2em;">✨ </span>SPARKLES'
+      name    '✨ Sparkles'
       notes   'Unified: `2728`'
     end
     entry do
       command ':star2:'
-      name    '<span style="font-size:2em;">🌟 </span>GLOWING STAR'
+      name    '🌟 Glowing star'
       notes   'Unified: `1F31F`'
     end
     entry do
       command ':dizzy:'
-      name    '<span style="font-size:2em;">💫 </span>DIZZY SYMBOL'
+      name    '💫 Dizzy symbol'
       notes   'Unified: `1F4AB`'
     end
     entry do
       command ':boom:'
-      name    '<span style="font-size:2em;">💥 </span>COLLISION SYMBOL'
+      name    '💥 Collision symbol'
       notes   'Unified: `1F4A5`'
     end
     entry do
       command ':anger:'
-      name    '<span style="font-size:2em;">💢 </span>ANGER SYMBOL'
+      name    '💢 Anger symbol'
       notes   'Unified: `1F4A2`'
     end
     entry do
       command ':sweat_drops:'
-      name    '<span style="font-size:2em;">💦 </span>SPLASHING SWEAT SYMBOL'
+      name    '💦 Splashing sweat symbol'
       notes   'Unified: `1F4A6`'
     end
     entry do
       command ':droplet:'
-      name    '<span style="font-size:2em;">💧 </span>DROPLET'
+      name    '💧 Droplet'
       notes   'Unified: `1F4A7`'
     end
     entry do
       command ':zzz:'
-      name    '<span style="font-size:2em;">💤 </span>SLEEPING SYMBOL'
+      name    '💤 Sleeping symbol'
       notes   'Unified: `1F4A4`'
     end
     entry do
       command ':dash:'
-      name    '<span style="font-size:2em;">💨 </span>DASH SYMBOL'
+      name    '💨 Dash symbol'
       notes   'Unified: `1F4A8`'
     end
     entry do
       command ':ear:'
-      name    '<span style="font-size:2em;">👂 </span>EAR'
+      name    '👂 Ear'
       notes   'Unified: `1F442`'
     end
     entry do
       command ':eyes:'
-      name    '<span style="font-size:2em;">👀 </span>EYES'
+      name    '👀 Eyes'
       notes   'Unified: `1F440`'
     end
     entry do
       command ':nose:'
-      name    '<span style="font-size:2em;">👃 </span>NOSE'
+      name    '👃 Nose'
       notes   'Unified: `1F443`'
     end
     entry do
       command ':tongue:'
-      name    '<span style="font-size:2em;">👅 </span>TONGUE'
+      name    '👅 Tongue'
       notes   'Unified: `1F445`'
     end
     entry do
       command ':lips:'
-      name    '<span style="font-size:2em;">👄 </span>MOUTH'
+      name    '👄 Mouth'
       notes   'Unified: `1F444`'
     end
     entry do
       command ':+1:'
-      name    '<span style="font-size:2em;">👍 </span>THUMBS UP SIGN'
+      name    '👍 Thumbs up sign'
       notes   'Unified: `1F44D`'
     end
     entry do
       command ':-1:'
-      name    '<span style="font-size:2em;">👎 </span>THUMBS DOWN SIGN'
+      name    '👎 Thumbs down sign'
       notes   'Unified: `1F44E`'
     end
     entry do
       command ':ok_hand:'
-      name    '<span style="font-size:2em;">👌 </span>OK HAND SIGN'
+      name    '👌 Ok hand sign'
       notes   'Unified: `1F44C`'
     end
     entry do
       command ':facepunch:'
-      name    '<span style="font-size:2em;">👊 </span>FISTED HAND SIGN'
+      name    '👊 Fisted hand sign'
       notes   'Unified: `1F44A`'
     end
     entry do
       command ':fist:'
-      name    '<span style="font-size:2em;">✊ </span>RAISED FIST'
+      name    '✊ Raised fist'
       notes   'Unified: `270A`'
     end
     entry do
       command ':v:'
-      name    '<span style="font-size:2em;">✌️ </span>VICTORY HAND'
+      name    '✌️ Victory hand'
       notes   'Unified: `270C`'
     end
     entry do
       command ':wave:'
-      name    '<span style="font-size:2em;">👋 </span>WAVING HAND SIGN'
+      name    '👋 Waving hand sign'
       notes   'Unified: `1F44B`'
     end
     entry do
       command ':hand:'
-      name    '<span style="font-size:2em;">✋ </span>RAISED HAND'
+      name    '✋ Raised hand'
       notes   'Unified: `270B`'
     end
     entry do
       command ':open_hands:'
-      name    '<span style="font-size:2em;">👐 </span>OPEN HANDS SIGN'
+      name    '👐 Open hands sign'
       notes   'Unified: `1F450`'
     end
     entry do
       command ':point_up_2:'
-      name    '<span style="font-size:2em;">👆 </span>WHITE UP POINTING BACKHAND INDEX'
+      name    '👆 White up pointing backhand index'
       notes   'Unified: `1F446`'
     end
     entry do
       command ':point_down:'
-      name    '<span style="font-size:2em;">👇 </span>WHITE DOWN POINTING BACKHAND INDEX'
+      name    '👇 White down pointing backhand index'
       notes   'Unified: `1F447`'
     end
     entry do
       command ':point_right:'
-      name    '<span style="font-size:2em;">👉 </span>WHITE RIGHT POINTING BACKHAND INDEX'
+      name    '👉 White right pointing backhand index'
       notes   'Unified: `1F449`'
     end
     entry do
       command ':point_left:'
-      name    '<span style="font-size:2em;">👈 </span>WHITE LEFT POINTING BACKHAND INDEX'
+      name    '👈 White left pointing backhand index'
       notes   'Unified: `1F448`'
     end
     entry do
       command ':raised_hands:'
-      name    '<span style="font-size:2em;">🙌 </span>PERSON RAISING BOTH HANDS IN CELEBRATION'
+      name    '🙌 Person raising both hands in celebration'
       notes   'Unified: `1F64C`'
     end
     entry do
       command ':pray:'
-      name    '<span style="font-size:2em;">🙏 </span>PERSON WITH FOLDED HANDS'
+      name    '🙏 Person with folded hands'
       notes   'Unified: `1F64F`'
     end
     entry do
       command ':point_up:'
-      name    '<span style="font-size:2em;">☝️ </span>WHITE UP POINTING INDEX'
+      name    '☝️ White up pointing index'
       notes   'Unified: `261D`'
     end
     entry do
       command ':clap:'
-      name    '<span style="font-size:2em;">👏 </span>CLAPPING HANDS SIGN'
+      name    '👏 Clapping hands sign'
       notes   'Unified: `1F44F`'
     end
     entry do
       command ':muscle:'
-      name    '<span style="font-size:2em;">💪 </span>FLEXED BICEPS'
+      name    '💪 Flexed biceps'
       notes   'Unified: `1F4AA`'
     end
     entry do
       command ':walking:'
-      name    '<span style="font-size:2em;">🚶 </span>PEDESTRIAN'
+      name    '🚶 Pedestrian'
       notes   'Unified: `1F6B6`'
     end
     entry do
       command ':runner:'
-      name    '<span style="font-size:2em;">🏃 </span>RUNNER'
+      name    '🏃 Runner'
       notes   'Unified: `1F3C3`'
     end
     entry do
       command ':dancer:'
-      name    '<span style="font-size:2em;">💃 </span>DANCER'
+      name    '💃 Dancer'
       notes   'Unified: `1F483`'
     end
     entry do
       command ':couple:'
-      name    '<span style="font-size:2em;">👫 </span>MAN AND WOMAN HOLDING HANDS'
+      name    '👫 Man and woman holding hands'
       notes   'Unified: `1F46B`'
     end
     entry do
       command ':family:'
-      name    '<span style="font-size:2em;">👪 </span>FAMILY'
+      name    '👪 Family'
       notes   'Unified: `1F46A`'
     end
     entry do
       command ':two_men_holding_hands:'
-      name    '<span style="font-size:2em;">👬 </span>TWO MEN HOLDING HANDS'
+      name    '👬 Two men holding hands'
       notes   'Unified: `1F46C`'
     end
     entry do
       command ':two_women_holding_hands:'
-      name    '<span style="font-size:2em;">👭 </span>TWO WOMEN HOLDING HANDS'
+      name    '👭 Two women holding hands'
       notes   'Unified: `1F46D`'
     end
     entry do
       command ':couplekiss:'
-      name    '<span style="font-size:2em;">💏 </span>KISS'
+      name    '💏 Kiss'
       notes   'Unified: `1F48F`'
     end
     entry do
       command ':couple_with_heart:'
-      name    '<span style="font-size:2em;">💑 </span>COUPLE WITH HEART'
+      name    '💑 Couple with heart'
       notes   'Unified: `1F491`'
     end
     entry do
       command ':dancers:'
-      name    '<span style="font-size:2em;">👯 </span>WOMAN WITH BUNNY EARS'
+      name    '👯 Woman with bunny ears'
       notes   'Unified: `1F46F`'
     end
     entry do
       command ':ok_woman:'
-      name    '<span style="font-size:2em;">🙆 </span>FACE WITH OK GESTURE'
+      name    '🙆 Face with ok gesture'
       notes   'Unified: `1F646`'
     end
     entry do
       command ':no_good:'
-      name    '<span style="font-size:2em;">🙅 </span>FACE WITH NO GOOD GESTURE'
+      name    '🙅 Face with no good gesture'
       notes   'Unified: `1F645`'
     end
     entry do
       command ':information_desk_person:'
-      name    '<span style="font-size:2em;">💁 </span>INFORMATION DESK PERSON'
+      name    '💁 Information desk person'
       notes   'Unified: `1F481`'
     end
     entry do
       command ':raising_hand:'
-      name    '<span style="font-size:2em;">🙋 </span>HAPPY PERSON RAISING ONE HAND'
+      name    '🙋 Happy person raising one hand'
       notes   'Unified: `1F64B`'
     end
     entry do
       command ':massage:'
-      name    '<span style="font-size:2em;">💆 </span>FACE MASSAGE'
+      name    '💆 Face massage'
       notes   'Unified: `1F486`'
     end
     entry do
       command ':haircut:'
-      name    '<span style="font-size:2em;">💇 </span>HAIRCUT'
+      name    '💇 Haircut'
       notes   'Unified: `1F487`'
     end
     entry do
       command ':nail_care:'
-      name    '<span style="font-size:2em;">💅 </span>NAIL POLISH'
+      name    '💅 Nail polish'
       notes   'Unified: `1F485`'
     end
     entry do
       command ':bride_with_veil:'
-      name    '<span style="font-size:2em;">👰 </span>BRIDE WITH VEIL'
+      name    '👰 Bride with veil'
       notes   'Unified: `1F470`'
     end
     entry do
       command ':person_with_pouting_face:'
-      name    '<span style="font-size:2em;">🙎 </span>PERSON WITH POUTING FACE'
+      name    '🙎 Person with pouting face'
       notes   'Unified: `1F64E`'
     end
     entry do
       command ':person_frowning:'
-      name    '<span style="font-size:2em;">🙍 </span>PERSON FROWNING'
+      name    '🙍 Person frowning'
       notes   'Unified: `1F64D`'
     end
     entry do
       command ':bow:'
-      name    '<span style="font-size:2em;">🙇 </span>PERSON BOWING DEEPLY'
+      name    '🙇 Person bowing deeply'
       notes   'Unified: `1F647`'
     end
     entry do
       command ':tophat:'
-      name    '<span style="font-size:2em;">🎩 </span>TOP HAT'
+      name    '🎩 Top hat'
       notes   'Unified: `1F3A9`'
     end
     entry do
       command ':crown:'
-      name    '<span style="font-size:2em;">👑 </span>CROWN'
+      name    '👑 Crown'
       notes   'Unified: `1F451`'
     end
     entry do
       command ':womans_hat:'
-      name    '<span style="font-size:2em;">👒 </span>WOMANS HAT'
+      name    '👒 Womans hat'
       notes   'Unified: `1F452`'
     end
     entry do
       command ':athletic_shoe:'
-      name    '<span style="font-size:2em;">👟 </span>ATHLETIC SHOE'
+      name    '👟 Athletic shoe'
       notes   'Unified: `1F45F`'
     end
     entry do
       command ':mans_shoe:'
-      name    '<span style="font-size:2em;">👞 </span>MANS SHOE'
+      name    '👞 Mans shoe'
       notes   'Unified: `1F45E`'
     end
     entry do
       command ':sandal:'
-      name    '<span style="font-size:2em;">👡 </span>WOMANS SANDAL'
+      name    '👡 Womans sandal'
       notes   'Unified: `1F461`'
     end
     entry do
       command ':high_heel:'
-      name    '<span style="font-size:2em;">👠 </span>HIGH-HEELED SHOE'
+      name    '👠 High-heeled shoe'
       notes   'Unified: `1F460`'
     end
     entry do
       command ':boot:'
-      name    '<span style="font-size:2em;">👢 </span>WOMANS BOOTS'
+      name    '👢 Womans boots'
       notes   'Unified: `1F462`'
     end
     entry do
       command ':shirt:'
-      name    '<span style="font-size:2em;">👕 </span>T-SHIRT'
+      name    '👕 T-shirt'
       notes   'Unified: `1F455`'
     end
     entry do
       command ':necktie:'
-      name    '<span style="font-size:2em;">👔 </span>NECKTIE'
+      name    '👔 Necktie'
       notes   'Unified: `1F454`'
     end
     entry do
       command ':womans_clothes:'
-      name    '<span style="font-size:2em;">👚 </span>WOMANS CLOTHES'
+      name    '👚 Womans clothes'
       notes   'Unified: `1F45A`'
     end
     entry do
       command ':dress:'
-      name    '<span style="font-size:2em;">👗 </span>DRESS'
+      name    '👗 Dress'
       notes   'Unified: `1F457`'
     end
     entry do
       command ':running_shirt_with_sash:'
-      name    '<span style="font-size:2em;">🎽 </span>RUNNING SHIRT WITH SASH'
+      name    '🎽 Running shirt with sash'
       notes   'Unified: `1F3BD`'
     end
     entry do
       command ':jeans:'
-      name    '<span style="font-size:2em;">👖 </span>JEANS'
+      name    '👖 Jeans'
       notes   'Unified: `1F456`'
     end
     entry do
       command ':kimono:'
-      name    '<span style="font-size:2em;">👘 </span>KIMONO'
+      name    '👘 Kimono'
       notes   'Unified: `1F458`'
     end
     entry do
       command ':bikini:'
-      name    '<span style="font-size:2em;">👙 </span>BIKINI'
+      name    '👙 Bikini'
       notes   'Unified: `1F459`'
     end
     entry do
       command ':briefcase:'
-      name    '<span style="font-size:2em;">💼 </span>BRIEFCASE'
+      name    '💼 Briefcase'
       notes   'Unified: `1F4BC`'
     end
     entry do
       command ':handbag:'
-      name    '<span style="font-size:2em;">👜 </span>HANDBAG'
+      name    '👜 Handbag'
       notes   'Unified: `1F45C`'
     end
     entry do
       command ':pouch:'
-      name    '<span style="font-size:2em;">👝 </span>POUCH'
+      name    '👝 Pouch'
       notes   'Unified: `1F45D`'
     end
     entry do
       command ':purse:'
-      name    '<span style="font-size:2em;">👛 </span>PURSE'
+      name    '👛 Purse'
       notes   'Unified: `1F45B`'
     end
     entry do
       command ':eyeglasses:'
-      name    '<span style="font-size:2em;">👓 </span>EYEGLASSES'
+      name    '👓 Eyeglasses'
       notes   'Unified: `1F453`'
     end
     entry do
       command ':ribbon:'
-      name    '<span style="font-size:2em;">🎀 </span>RIBBON'
+      name    '🎀 Ribbon'
       notes   'Unified: `1F380`'
     end
     entry do
       command ':closed_umbrella:'
-      name    '<span style="font-size:2em;">🌂 </span>CLOSED UMBRELLA'
+      name    '🌂 Closed umbrella'
       notes   'Unified: `1F302`'
     end
     entry do
       command ':lipstick:'
-      name    '<span style="font-size:2em;">💄 </span>LIPSTICK'
+      name    '💄 Lipstick'
       notes   'Unified: `1F484`'
     end
     entry do
       command ':yellow_heart:'
-      name    '<span style="font-size:2em;">💛 </span>YELLOW HEART'
+      name    '💛 Yellow heart'
       notes   'Unified: `1F49B`'
     end
     entry do
       command ':blue_heart:'
-      name    '<span style="font-size:2em;">💙 </span>BLUE HEART'
+      name    '💙 Blue heart'
       notes   'Unified: `1F499`'
     end
     entry do
       command ':purple_heart:'
-      name    '<span style="font-size:2em;">💜 </span>PURPLE HEART'
+      name    '💜 Purple heart'
       notes   'Unified: `1F49C`'
     end
     entry do
       command ':green_heart:'
-      name    '<span style="font-size:2em;">💚 </span>GREEN HEART'
+      name    '💚 Green heart'
       notes   'Unified: `1F49A`'
     end
     entry do
       command ':heart:'
-      name    '<span style="font-size:2em;">❤️ </span>HEAVY BLACK HEART'
+      name    '❤️ Heavy black heart'
       notes   'Unified: `2764`'
     end
     entry do
       command ':broken_heart:'
-      name    '<span style="font-size:2em;">💔 </span>BROKEN HEART'
+      name    '💔 Broken heart'
       notes   'Unified: `1F494`'
     end
     entry do
       command ':heartpulse:'
-      name    '<span style="font-size:2em;">💗 </span>GROWING HEART'
+      name    '💗 Growing heart'
       notes   'Unified: `1F497`'
     end
     entry do
       command ':heartbeat:'
-      name    '<span style="font-size:2em;">💓 </span>BEATING HEART'
+      name    '💓 Beating heart'
       notes   'Unified: `1F493`'
     end
     entry do
       command ':two_hearts:'
-      name    '<span style="font-size:2em;">💕 </span>TWO HEARTS'
+      name    '💕 Two hearts'
       notes   'Unified: `1F495`'
     end
     entry do
       command ':sparkling_heart:'
-      name    '<span style="font-size:2em;">💖 </span>SPARKLING HEART'
+      name    '💖 Sparkling heart'
       notes   'Unified: `1F496`'
     end
     entry do
       command ':revolving_hearts:'
-      name    '<span style="font-size:2em;">💞 </span>REVOLVING HEARTS'
+      name    '💞 Revolving hearts'
       notes   'Unified: `1F49E`'
     end
     entry do
       command ':cupid:'
-      name    '<span style="font-size:2em;">💘 </span>HEART WITH ARROW'
+      name    '💘 Heart with arrow'
       notes   'Unified: `1F498`'
     end
     entry do
       command ':love_letter:'
-      name    '<span style="font-size:2em;">💌 </span>LOVE LETTER'
+      name    '💌 Love letter'
       notes   'Unified: `1F48C`'
     end
     entry do
       command ':kiss:'
-      name    '<span style="font-size:2em;">💋 </span>KISS MARK'
+      name    '💋 Kiss mark'
       notes   'Unified: `1F48B`'
     end
     entry do
       command ':ring:'
-      name    '<span style="font-size:2em;">💍 </span>RING'
+      name    '💍 Ring'
       notes   'Unified: `1F48D`'
     end
     entry do
       command ':gem:'
-      name    '<span style="font-size:2em;">💎 </span>GEM STONE'
+      name    '💎 Gem stone'
       notes   'Unified: `1F48E`'
     end
     entry do
       command ':bust_in_silhouette:'
-      name    '<span style="font-size:2em;">👤 </span>BUST IN SILHOUETTE'
+      name    '👤 Bust in silhouette'
       notes   'Unified: `1F464`'
     end
     entry do
       command ':busts_in_silhouette:'
-      name    '<span style="font-size:2em;">👥 </span>BUSTS IN SILHOUETTE'
+      name    '👥 Busts in silhouette'
       notes   'Unified: `1F465`'
     end
     entry do
       command ':speech_balloon:'
-      name    '<span style="font-size:2em;">💬 </span>SPEECH BALLOON'
+      name    '💬 Speech balloon'
       notes   'Unified: `1F4AC`'
     end
     entry do
       command ':footprints:'
-      name    '<span style="font-size:2em;">👣 </span>FOOTPRINTS'
+      name    '👣 Footprints'
       notes   'Unified: `1F463`'
     end
     entry do
       command ':thought_balloon:'
-      name    '<span style="font-size:2em;">💭 </span>THOUGHT BALLOON'
+      name    '💭 Thought balloon'
       notes   'Unified: `1F4AD`'
     end
 
@@ -961,582 +959,582 @@ cheatsheet do
     
         entry do
       command ':dog:'
-      name    '<span style="font-size:2em;">🐶 </span>DOG FACE'
+      name    '🐶 Dog face'
       notes   'Unified: `1F436`'
     end
     entry do
       command ':wolf:'
-      name    '<span style="font-size:2em;">🐺 </span>WOLF FACE'
+      name    '🐺 Wolf face'
       notes   'Unified: `1F43A`'
     end
     entry do
       command ':cat:'
-      name    '<span style="font-size:2em;">🐱 </span>CAT FACE'
+      name    '🐱 Cat face'
       notes   'Unified: `1F431`'
     end
     entry do
       command ':mouse:'
-      name    '<span style="font-size:2em;">🐭 </span>MOUSE FACE'
+      name    '🐭 Mouse face'
       notes   'Unified: `1F42D`'
     end
     entry do
       command ':hamster:'
-      name    '<span style="font-size:2em;">🐹 </span>HAMSTER FACE'
+      name    '🐹 Hamster face'
       notes   'Unified: `1F439`'
     end
     entry do
       command ':rabbit:'
-      name    '<span style="font-size:2em;">🐰 </span>RABBIT FACE'
+      name    '🐰 Rabbit face'
       notes   'Unified: `1F430`'
     end
     entry do
       command ':frog:'
-      name    '<span style="font-size:2em;">🐸 </span>FROG FACE'
+      name    '🐸 Frog face'
       notes   'Unified: `1F438`'
     end
     entry do
       command ':tiger:'
-      name    '<span style="font-size:2em;">🐯 </span>TIGER FACE'
+      name    '🐯 Tiger face'
       notes   'Unified: `1F42F`'
     end
     entry do
       command ':koala:'
-      name    '<span style="font-size:2em;">🐨 </span>KOALA'
+      name    '🐨 Koala'
       notes   'Unified: `1F428`'
     end
     entry do
       command ':bear:'
-      name    '<span style="font-size:2em;">🐻 </span>BEAR FACE'
+      name    '🐻 Bear face'
       notes   'Unified: `1F43B`'
     end
     entry do
       command ':pig:'
-      name    '<span style="font-size:2em;">🐷 </span>PIG FACE'
+      name    '🐷 Pig face'
       notes   'Unified: `1F437`'
     end
     entry do
       command ':pig_nose:'
-      name    '<span style="font-size:2em;">🐽 </span>PIG NOSE'
+      name    '🐽 Pig nose'
       notes   'Unified: `1F43D`'
     end
     entry do
       command ':cow:'
-      name    '<span style="font-size:2em;">🐮 </span>COW FACE'
+      name    '🐮 Cow face'
       notes   'Unified: `1F42E`'
     end
     entry do
       command ':boar:'
-      name    '<span style="font-size:2em;">🐗 </span>BOAR'
+      name    '🐗 Boar'
       notes   'Unified: `1F417`'
     end
     entry do
       command ':monkey_face:'
-      name    '<span style="font-size:2em;">🐵 </span>MONKEY FACE'
+      name    '🐵 Monkey face'
       notes   'Unified: `1F435`'
     end
     entry do
       command ':monkey:'
-      name    '<span style="font-size:2em;">🐒 </span>MONKEY'
+      name    '🐒 Monkey'
       notes   'Unified: `1F412`'
     end
     entry do
       command ':horse:'
-      name    '<span style="font-size:2em;">🐴 </span>HORSE FACE'
+      name    '🐴 Horse face'
       notes   'Unified: `1F434`'
     end
     entry do
       command ':sheep:'
-      name    '<span style="font-size:2em;">🐑 </span>SHEEP'
+      name    '🐑 Sheep'
       notes   'Unified: `1F411`'
     end
     entry do
       command ':elephant:'
-      name    '<span style="font-size:2em;">🐘 </span>ELEPHANT'
+      name    '🐘 Elephant'
       notes   'Unified: `1F418`'
     end
     entry do
       command ':panda_face:'
-      name    '<span style="font-size:2em;">🐼 </span>PANDA FACE'
+      name    '🐼 Panda face'
       notes   'Unified: `1F43C`'
     end
     entry do
       command ':penguin:'
-      name    '<span style="font-size:2em;">🐧 </span>PENGUIN'
+      name    '🐧 Penguin'
       notes   'Unified: `1F427`'
     end
     entry do
       command ':bird:'
-      name    '<span style="font-size:2em;">🐦 </span>BIRD'
+      name    '🐦 Bird'
       notes   'Unified: `1F426`'
     end
     entry do
       command ':baby_chick:'
-      name    '<span style="font-size:2em;">🐤 </span>BABY CHICK'
+      name    '🐤 Baby chick'
       notes   'Unified: `1F424`'
     end
     entry do
       command ':hatched_chick:'
-      name    '<span style="font-size:2em;">🐥 </span>FRONT-FACING BABY CHICK'
+      name    '🐥 Front-facing baby chick'
       notes   'Unified: `1F425`'
     end
     entry do
       command ':hatching_chick:'
-      name    '<span style="font-size:2em;">🐣 </span>HATCHING CHICK'
+      name    '🐣 Hatching chick'
       notes   'Unified: `1F423`'
     end
     entry do
       command ':chicken:'
-      name    '<span style="font-size:2em;">🐔 </span>CHICKEN'
+      name    '🐔 Chicken'
       notes   'Unified: `1F414`'
     end
     entry do
       command ':snake:'
-      name    '<span style="font-size:2em;">🐍 </span>SNAKE'
+      name    '🐍 Snake'
       notes   'Unified: `1F40D`'
     end
     entry do
       command ':turtle:'
-      name    '<span style="font-size:2em;">🐢 </span>TURTLE'
+      name    '🐢 Turtle'
       notes   'Unified: `1F422`'
     end
     entry do
       command ':bug:'
-      name    '<span style="font-size:2em;">🐛 </span>BUG'
+      name    '🐛 Bug'
       notes   'Unified: `1F41B`'
     end
     entry do
       command ':bee:'
-      name    '<span style="font-size:2em;">🐝 </span>HONEYBEE'
+      name    '🐝 Honeybee'
       notes   'Unified: `1F41D`'
     end
     entry do
       command ':ant:'
-      name    '<span style="font-size:2em;">🐜 </span>ANT'
+      name    '🐜 Ant'
       notes   'Unified: `1F41C`'
     end
     entry do
       command ':beetle:'
-      name    '<span style="font-size:2em;">🐞 </span>LADY BEETLE'
+      name    '🐞 Lady beetle'
       notes   'Unified: `1F41E`'
     end
     entry do
       command ':snail:'
-      name    '<span style="font-size:2em;">🐌 </span>SNAIL'
+      name    '🐌 Snail'
       notes   'Unified: `1F40C`'
     end
     entry do
       command ':octopus:'
-      name    '<span style="font-size:2em;">🐙 </span>OCTOPUS'
+      name    '🐙 Octopus'
       notes   'Unified: `1F419`'
     end
     entry do
       command ':shell:'
-      name    '<span style="font-size:2em;">🐚 </span>SPIRAL SHELL'
+      name    '🐚 Spiral shell'
       notes   'Unified: `1F41A`'
     end
     entry do
       command ':tropical_fish:'
-      name    '<span style="font-size:2em;">🐠 </span>TROPICAL FISH'
+      name    '🐠 Tropical fish'
       notes   'Unified: `1F420`'
     end
     entry do
       command ':fish:'
-      name    '<span style="font-size:2em;">🐟 </span>FISH'
+      name    '🐟 Fish'
       notes   'Unified: `1F41F`'
     end
     entry do
       command ':dolphin:'
-      name    '<span style="font-size:2em;">🐬 </span>DOLPHIN'
+      name    '🐬 Dolphin'
       notes   'Unified: `1F42C`'
     end
     entry do
       command ':whale:'
-      name    '<span style="font-size:2em;">🐳 </span>SPOUTING WHALE'
+      name    '🐳 Spouting whale'
       notes   'Unified: `1F433`'
     end
     entry do
       command ':whale2:'
-      name    '<span style="font-size:2em;">🐋 </span>WHALE'
+      name    '🐋 Whale'
       notes   'Unified: `1F40B`'
     end
     entry do
       command ':cow2:'
-      name    '<span style="font-size:2em;">🐄 </span>COW'
+      name    '🐄 Cow'
       notes   'Unified: `1F404`'
     end
     entry do
       command ':ram:'
-      name    '<span style="font-size:2em;">🐏 </span>RAM'
+      name    '🐏 Ram'
       notes   'Unified: `1F40F`'
     end
     entry do
       command ':rat:'
-      name    '<span style="font-size:2em;">🐀 </span>RAT'
+      name    '🐀 Rat'
       notes   'Unified: `1F400`'
     end
     entry do
       command ':water_buffalo:'
-      name    '<span style="font-size:2em;">🐃 </span>WATER BUFFALO'
+      name    '🐃 Water buffalo'
       notes   'Unified: `1F403`'
     end
     entry do
       command ':tiger2:'
-      name    '<span style="font-size:2em;">🐅 </span>TIGER'
+      name    '🐅 Tiger'
       notes   'Unified: `1F405`'
     end
     entry do
       command ':rabbit2:'
-      name    '<span style="font-size:2em;">🐇 </span>RABBIT'
+      name    '🐇 Rabbit'
       notes   'Unified: `1F407`'
     end
     entry do
       command ':dragon:'
-      name    '<span style="font-size:2em;">🐉 </span>DRAGON'
+      name    '🐉 Dragon'
       notes   'Unified: `1F409`'
     end
     entry do
       command ':racehorse:'
-      name    '<span style="font-size:2em;">🐎 </span>HORSE'
+      name    '🐎 Horse'
       notes   'Unified: `1F40E`'
     end
     entry do
       command ':goat:'
-      name    '<span style="font-size:2em;">🐐 </span>GOAT'
+      name    '🐐 Goat'
       notes   'Unified: `1F410`'
     end
     entry do
       command ':rooster:'
-      name    '<span style="font-size:2em;">🐓 </span>ROOSTER'
+      name    '🐓 Rooster'
       notes   'Unified: `1F413`'
     end
     entry do
       command ':dog2:'
-      name    '<span style="font-size:2em;">🐕 </span>DOG'
+      name    '🐕 Dog'
       notes   'Unified: `1F415`'
     end
     entry do
       command ':pig2:'
-      name    '<span style="font-size:2em;">🐖 </span>PIG'
+      name    '🐖 Pig'
       notes   'Unified: `1F416`'
     end
     entry do
       command ':mouse2:'
-      name    '<span style="font-size:2em;">🐁 </span>MOUSE'
+      name    '🐁 Mouse'
       notes   'Unified: `1F401`'
     end
     entry do
       command ':ox:'
-      name    '<span style="font-size:2em;">🐂 </span>OX'
+      name    '🐂 Ox'
       notes   'Unified: `1F402`'
     end
     entry do
       command ':dragon_face:'
-      name    '<span style="font-size:2em;">🐲 </span>DRAGON FACE'
+      name    '🐲 Dragon face'
       notes   'Unified: `1F432`'
     end
     entry do
       command ':blowfish:'
-      name    '<span style="font-size:2em;">🐡 </span>BLOWFISH'
+      name    '🐡 Blowfish'
       notes   'Unified: `1F421`'
     end
     entry do
       command ':crocodile:'
-      name    '<span style="font-size:2em;">🐊 </span>CROCODILE'
+      name    '🐊 Crocodile'
       notes   'Unified: `1F40A`'
     end
     entry do
       command ':camel:'
-      name    '<span style="font-size:2em;">🐫 </span>BACTRIAN CAMEL'
+      name    '🐫 Bactrian camel'
       notes   'Unified: `1F42B`'
     end
     entry do
       command ':dromedary_camel:'
-      name    '<span style="font-size:2em;">🐪 </span>DROMEDARY CAMEL'
+      name    '🐪 Dromedary camel'
       notes   'Unified: `1F42A`'
     end
     entry do
       command ':leopard:'
-      name    '<span style="font-size:2em;">🐆 </span>LEOPARD'
+      name    '🐆 Leopard'
       notes   'Unified: `1F406`'
     end
     entry do
       command ':cat2:'
-      name    '<span style="font-size:2em;">🐈 </span>CAT'
+      name    '🐈 Cat'
       notes   'Unified: `1F408`'
     end
     entry do
       command ':poodle:'
-      name    '<span style="font-size:2em;">🐩 </span>POODLE'
+      name    '🐩 Poodle'
       notes   'Unified: `1F429`'
     end
     entry do
       command ':feet:'
-      name    '<span style="font-size:2em;">🐾 </span>PAW PRINTS'
+      name    '🐾 Paw prints'
       notes   'Unified: `1F43E`'
     end
     entry do
       command ':bouquet:'
-      name    '<span style="font-size:2em;">💐 </span>BOUQUET'
+      name    '💐 Bouquet'
       notes   'Unified: `1F490`'
     end
     entry do
       command ':cherry_blossom:'
-      name    '<span style="font-size:2em;">🌸 </span>CHERRY BLOSSOM'
+      name    '🌸 Cherry blossom'
       notes   'Unified: `1F338`'
     end
     entry do
       command ':tulip:'
-      name    '<span style="font-size:2em;">🌷 </span>TULIP'
+      name    '🌷 Tulip'
       notes   'Unified: `1F337`'
     end
     entry do
       command ':four_leaf_clover:'
-      name    '<span style="font-size:2em;">🍀 </span>FOUR LEAF CLOVER'
+      name    '🍀 Four leaf clover'
       notes   'Unified: `1F340`'
     end
     entry do
       command ':rose:'
-      name    '<span style="font-size:2em;">🌹 </span>ROSE'
+      name    '🌹 Rose'
       notes   'Unified: `1F339`'
     end
     entry do
       command ':sunflower:'
-      name    '<span style="font-size:2em;">🌻 </span>SUNFLOWER'
+      name    '🌻 Sunflower'
       notes   'Unified: `1F33B`'
     end
     entry do
       command ':hibiscus:'
-      name    '<span style="font-size:2em;">🌺 </span>HIBISCUS'
+      name    '🌺 Hibiscus'
       notes   'Unified: `1F33A`'
     end
     entry do
       command ':maple_leaf:'
-      name    '<span style="font-size:2em;">🍁 </span>MAPLE LEAF'
+      name    '🍁 Maple leaf'
       notes   'Unified: `1F341`'
     end
     entry do
       command ':leaves:'
-      name    '<span style="font-size:2em;">🍃 </span>LEAF FLUTTERING IN WIND'
+      name    '🍃 Leaf fluttering in wind'
       notes   'Unified: `1F343`'
     end
     entry do
       command ':fallen_leaf:'
-      name    '<span style="font-size:2em;">🍂 </span>FALLEN LEAF'
+      name    '🍂 Fallen leaf'
       notes   'Unified: `1F342`'
     end
     entry do
       command ':herb:'
-      name    '<span style="font-size:2em;">🌿 </span>HERB'
+      name    '🌿 Herb'
       notes   'Unified: `1F33F`'
     end
     entry do
       command ':ear_of_rice:'
-      name    '<span style="font-size:2em;">🌾 </span>EAR OF RICE'
+      name    '🌾 Ear of rice'
       notes   'Unified: `1F33E`'
     end
     entry do
       command ':mushroom:'
-      name    '<span style="font-size:2em;">🍄 </span>MUSHROOM'
+      name    '🍄 Mushroom'
       notes   'Unified: `1F344`'
     end
     entry do
       command ':cactus:'
-      name    '<span style="font-size:2em;">🌵 </span>CACTUS'
+      name    '🌵 Cactus'
       notes   'Unified: `1F335`'
     end
     entry do
       command ':palm_tree:'
-      name    '<span style="font-size:2em;">🌴 </span>PALM TREE'
+      name    '🌴 Palm tree'
       notes   'Unified: `1F334`'
     end
     entry do
       command ':evergreen_tree:'
-      name    '<span style="font-size:2em;">🌲 </span>EVERGREEN TREE'
+      name    '🌲 Evergreen tree'
       notes   'Unified: `1F332`'
     end
     entry do
       command ':deciduous_tree:'
-      name    '<span style="font-size:2em;">🌳 </span>DECIDUOUS TREE'
+      name    '🌳 Deciduous tree'
       notes   'Unified: `1F333`'
     end
     entry do
       command ':chestnut:'
-      name    '<span style="font-size:2em;">🌰 </span>CHESTNUT'
+      name    '🌰 Chestnut'
       notes   'Unified: `1F330`'
     end
     entry do
       command ':seedling:'
-      name    '<span style="font-size:2em;">🌱 </span>SEEDLING'
+      name    '🌱 Seedling'
       notes   'Unified: `1F331`'
     end
     entry do
       command ':blossom:'
-      name    '<span style="font-size:2em;">🌼 </span>BLOSSOM'
+      name    '🌼 Blossom'
       notes   'Unified: `1F33C`'
     end
     entry do
       command ':globe_with_meridians:'
-      name    '<span style="font-size:2em;">🌐 </span>GLOBE WITH MERIDIANS'
+      name    '🌐 Globe with meridians'
       notes   'Unified: `1F310`'
     end
     entry do
       command ':sun_with_face:'
-      name    '<span style="font-size:2em;">🌞 </span>SUN WITH FACE'
+      name    '🌞 Sun with face'
       notes   'Unified: `1F31E`'
     end
     entry do
       command ':full_moon_with_face:'
-      name    '<span style="font-size:2em;">🌝 </span>FULL MOON WITH FACE'
+      name    '🌝 Full moon with face'
       notes   'Unified: `1F31D`'
     end
     entry do
       command ':new_moon_with_face:'
-      name    '<span style="font-size:2em;">🌚 </span>NEW MOON WITH FACE'
+      name    '🌚 New moon with face'
       notes   'Unified: `1F31A`'
     end
     entry do
       command ':new_moon:'
-      name    '<span style="font-size:2em;">🌑 </span>NEW MOON SYMBOL'
+      name    '🌑 New moon symbol'
       notes   'Unified: `1F311`'
     end
     entry do
       command ':waxing_crescent_moon:'
-      name    '<span style="font-size:2em;">🌒 </span>WAXING CRESCENT MOON SYMBOL'
+      name    '🌒 Waxing crescent moon symbol'
       notes   'Unified: `1F312`'
     end
     entry do
       command ':first_quarter_moon:'
-      name    '<span style="font-size:2em;">🌓 </span>FIRST QUARTER MOON SYMBOL'
+      name    '🌓 First quarter moon symbol'
       notes   'Unified: `1F313`'
     end
     entry do
       command ':moon:'
-      name    '<span style="font-size:2em;">🌔 </span>WAXING GIBBOUS MOON SYMBOL'
+      name    '🌔 Waxing gibbous moon symbol'
       notes   'Unified: `1F314`'
     end
     entry do
       command ':full_moon:'
-      name    '<span style="font-size:2em;">🌕 </span>FULL MOON SYMBOL'
+      name    '🌕 Full moon symbol'
       notes   'Unified: `1F315`'
     end
     entry do
       command ':waning_gibbous_moon:'
-      name    '<span style="font-size:2em;">🌖 </span>WANING GIBBOUS MOON SYMBOL'
+      name    '🌖 Waning gibbous moon symbol'
       notes   'Unified: `1F316`'
     end
     entry do
       command ':last_quarter_moon:'
-      name    '<span style="font-size:2em;">🌗 </span>LAST QUARTER MOON SYMBOL'
+      name    '🌗 Last quarter moon symbol'
       notes   'Unified: `1F317`'
     end
     entry do
       command ':waning_crescent_moon:'
-      name    '<span style="font-size:2em;">🌘 </span>WANING CRESCENT MOON SYMBOL'
+      name    '🌘 Waning crescent moon symbol'
       notes   'Unified: `1F318`'
     end
     entry do
       command ':last_quarter_moon_with_face:'
-      name    '<span style="font-size:2em;">🌜 </span>LAST QUARTER MOON WITH FACE'
+      name    '🌜 Last quarter moon with face'
       notes   'Unified: `1F31C`'
     end
     entry do
       command ':first_quarter_moon_with_face:'
-      name    '<span style="font-size:2em;">🌛 </span>FIRST QUARTER MOON WITH FACE'
+      name    '🌛 First quarter moon with face'
       notes   'Unified: `1F31B`'
     end
     entry do
       command ':crescent_moon:'
-      name    '<span style="font-size:2em;">🌙 </span>CRESCENT MOON'
+      name    '🌙 Crescent moon'
       notes   'Unified: `1F319`'
     end
     entry do
       command ':earth_africa:'
-      name    '<span style="font-size:2em;">🌍 </span>EARTH GLOBE EUROPE-AFRICA'
+      name    '🌍 Earth globe europe-africa'
       notes   'Unified: `1F30D`'
     end
     entry do
       command ':earth_americas:'
-      name    '<span style="font-size:2em;">🌎 </span>EARTH GLOBE AMERICAS'
+      name    '🌎 Earth globe americas'
       notes   'Unified: `1F30E`'
     end
     entry do
       command ':earth_asia:'
-      name    '<span style="font-size:2em;">🌏 </span>EARTH GLOBE ASIA-AUSTRALIA'
+      name    '🌏 Earth globe asia-australia'
       notes   'Unified: `1F30F`'
     end
     entry do
       command ':volcano:'
-      name    '<span style="font-size:2em;">🌋 </span>VOLCANO'
+      name    '🌋 Volcano'
       notes   'Unified: `1F30B`'
     end
     entry do
       command ':milky_way:'
-      name    '<span style="font-size:2em;">🌌 </span>MILKY WAY'
+      name    '🌌 Milky way'
       notes   'Unified: `1F30C`'
     end
     entry do
       command ':stars:'
-      name    '<span style="font-size:2em;">🌠 </span>SHOOTING STAR'
+      name    '🌠 Shooting star'
       notes   'Unified: `1F320`'
     end
     entry do
       command ':star:'
-      name    '<span style="font-size:2em;">⭐️ </span>WHITE MEDIUM STAR'
+      name    '⭐️ White medium star'
       notes   'Unified: `2B50`'
     end
     entry do
       command ':sunny:'
-      name    '<span style="font-size:2em;">☀️ </span>BLACK SUN WITH RAYS'
+      name    '☀️ Black sun with rays'
       notes   'Unified: `2600`'
     end
     entry do
       command ':partly_sunny:'
-      name    '<span style="font-size:2em;">⛅️ </span>SUN BEHIND CLOUD'
+      name    '⛅️ Sun behind cloud'
       notes   'Unified: `26C5`'
     end
     entry do
       command ':cloud:'
-      name    '<span style="font-size:2em;">☁️ </span>CLOUD'
+      name    '☁️ Cloud'
       notes   'Unified: `2601`'
     end
     entry do
       command ':zap:'
-      name    '<span style="font-size:2em;">⚡️ </span>HIGH VOLTAGE SIGN'
+      name    '⚡️ High voltage sign'
       notes   'Unified: `26A1`'
     end
     entry do
       command ':umbrella:'
-      name    '<span style="font-size:2em;">☔️ </span>UMBRELLA WITH RAIN DROPS'
+      name    '☔️ Umbrella with rain drops'
       notes   'Unified: `2614`'
     end
     entry do
       command ':snowflake:'
-      name    '<span style="font-size:2em;">❄️ </span>SNOWFLAKE'
+      name    '❄️ Snowflake'
       notes   'Unified: `2744`'
     end
     entry do
       command ':snowman:'
-      name    '<span style="font-size:2em;">⛄️ </span>SNOWMAN WITHOUT SNOW'
+      name    '⛄️ Snowman without snow'
       notes   'Unified: `26C4`'
     end
     entry do
       command ':cyclone:'
-      name    '<span style="font-size:2em;">🌀 </span>CYCLONE'
+      name    '🌀 Cyclone'
       notes   'Unified: `1F300`'
     end
     entry do
       command ':foggy:'
-      name    '<span style="font-size:2em;">🌁 </span>FOGGY'
+      name    '🌁 Foggy'
       notes   'Unified: `1F301`'
     end
     entry do
       command ':rainbow:'
-      name    '<span style="font-size:2em;">🌈 </span>RAINBOW'
+      name    '🌈 Rainbow'
       notes   'Unified: `1F308`'
     end
     entry do
       command ':ocean:'
-      name    '<span style="font-size:2em;">🌊 </span>WATER WAVE'
+      name    '🌊 Water wave'
       notes   'Unified: `1F30A`'
     end
 
@@ -1546,1152 +1544,1152 @@ cheatsheet do
     
         entry do
       command ':bamboo:'
-      name    '<span style="font-size:2em;">🎍 </span>PINE DECORATION'
+      name    '🎍 Pine decoration'
       notes   'Unified: `1F38D`'
     end
     entry do
       command ':gift_heart:'
-      name    '<span style="font-size:2em;">💝 </span>HEART WITH RIBBON'
+      name    '💝 Heart with ribbon'
       notes   'Unified: `1F49D`'
     end
     entry do
       command ':dolls:'
-      name    '<span style="font-size:2em;">🎎 </span>JAPANESE DOLLS'
+      name    '🎎 Japanese dolls'
       notes   'Unified: `1F38E`'
     end
     entry do
       command ':school_satchel:'
-      name    '<span style="font-size:2em;">🎒 </span>SCHOOL SATCHEL'
+      name    '🎒 School satchel'
       notes   'Unified: `1F392`'
     end
     entry do
       command ':mortar_board:'
-      name    '<span style="font-size:2em;">🎓 </span>GRADUATION CAP'
+      name    '🎓 Graduation cap'
       notes   'Unified: `1F393`'
     end
     entry do
       command ':flags:'
-      name    '<span style="font-size:2em;">🎏 </span>CARP STREAMER'
+      name    '🎏 Carp streamer'
       notes   'Unified: `1F38F`'
     end
     entry do
       command ':fireworks:'
-      name    '<span style="font-size:2em;">🎆 </span>FIREWORKS'
+      name    '🎆 Fireworks'
       notes   'Unified: `1F386`'
     end
     entry do
       command ':sparkler:'
-      name    '<span style="font-size:2em;">🎇 </span>FIREWORK SPARKLER'
+      name    '🎇 Firework sparkler'
       notes   'Unified: `1F387`'
     end
     entry do
       command ':wind_chime:'
-      name    '<span style="font-size:2em;">🎐 </span>WIND CHIME'
+      name    '🎐 Wind chime'
       notes   'Unified: `1F390`'
     end
     entry do
       command ':rice_scene:'
-      name    '<span style="font-size:2em;">🎑 </span>MOON VIEWING CEREMONY'
+      name    '🎑 Moon viewing ceremony'
       notes   'Unified: `1F391`'
     end
     entry do
       command ':jack_o_lantern:'
-      name    '<span style="font-size:2em;">🎃 </span>JACK-O-LANTERN'
+      name    '🎃 Jack-o-lantern'
       notes   'Unified: `1F383`'
     end
     entry do
       command ':ghost:'
-      name    '<span style="font-size:2em;">👻 </span>GHOST'
+      name    '👻 Ghost'
       notes   'Unified: `1F47B`'
     end
     entry do
       command ':santa:'
-      name    '<span style="font-size:2em;">🎅 </span>FATHER CHRISTMAS'
+      name    '🎅 Father christmas'
       notes   'Unified: `1F385`'
     end
     entry do
       command ':christmas_tree:'
-      name    '<span style="font-size:2em;">🎄 </span>CHRISTMAS TREE'
+      name    '🎄 Christmas tree'
       notes   'Unified: `1F384`'
     end
     entry do
       command ':gift:'
-      name    '<span style="font-size:2em;">🎁 </span>WRAPPED PRESENT'
+      name    '🎁 Wrapped present'
       notes   'Unified: `1F381`'
     end
     entry do
       command ':tanabata_tree:'
-      name    '<span style="font-size:2em;">🎋 </span>TANABATA TREE'
+      name    '🎋 Tanabata tree'
       notes   'Unified: `1F38B`'
     end
     entry do
       command ':tada:'
-      name    '<span style="font-size:2em;">🎉 </span>PARTY POPPER'
+      name    '🎉 Party popper'
       notes   'Unified: `1F389`'
     end
     entry do
       command ':confetti_ball:'
-      name    '<span style="font-size:2em;">🎊 </span>CONFETTI BALL'
+      name    '🎊 Confetti ball'
       notes   'Unified: `1F38A`'
     end
     entry do
       command ':balloon:'
-      name    '<span style="font-size:2em;">🎈 </span>BALLOON'
+      name    '🎈 Balloon'
       notes   'Unified: `1F388`'
     end
     entry do
       command ':crossed_flags:'
-      name    '<span style="font-size:2em;">🎌 </span>CROSSED FLAGS'
+      name    '🎌 Crossed flags'
       notes   'Unified: `1F38C`'
     end
     entry do
       command ':crystal_ball:'
-      name    '<span style="font-size:2em;">🔮 </span>CRYSTAL BALL'
+      name    '🔮 Crystal ball'
       notes   'Unified: `1F52E`'
     end
     entry do
       command ':movie_camera:'
-      name    '<span style="font-size:2em;">🎥 </span>MOVIE CAMERA'
+      name    '🎥 Movie camera'
       notes   'Unified: `1F3A5`'
     end
     entry do
       command ':camera:'
-      name    '<span style="font-size:2em;">📷 </span>CAMERA'
+      name    '📷 Camera'
       notes   'Unified: `1F4F7`'
     end
     entry do
       command ':video_camera:'
-      name    '<span style="font-size:2em;">📹 </span>VIDEO CAMERA'
+      name    '📹 Video camera'
       notes   'Unified: `1F4F9`'
     end
     entry do
       command ':vhs:'
-      name    '<span style="font-size:2em;">📼 </span>VIDEOCASSETTE'
+      name    '📼 Videocassette'
       notes   'Unified: `1F4FC`'
     end
     entry do
       command ':cd:'
-      name    '<span style="font-size:2em;">💿 </span>OPTICAL DISC'
+      name    '💿 Optical disc'
       notes   'Unified: `1F4BF`'
     end
     entry do
       command ':dvd:'
-      name    '<span style="font-size:2em;">📀 </span>DVD'
+      name    '📀 Dvd'
       notes   'Unified: `1F4C0`'
     end
     entry do
       command ':minidisc:'
-      name    '<span style="font-size:2em;">💽 </span>MINIDISC'
+      name    '💽 Minidisc'
       notes   'Unified: `1F4BD`'
     end
     entry do
       command ':floppy_disk:'
-      name    '<span style="font-size:2em;">💾 </span>FLOPPY DISK'
+      name    '💾 Floppy disk'
       notes   'Unified: `1F4BE`'
     end
     entry do
       command ':computer:'
-      name    '<span style="font-size:2em;">💻 </span>PERSONAL COMPUTER'
+      name    '💻 Personal computer'
       notes   'Unified: `1F4BB`'
     end
     entry do
       command ':iphone:'
-      name    '<span style="font-size:2em;">📱 </span>MOBILE PHONE'
+      name    '📱 Mobile phone'
       notes   'Unified: `1F4F1`'
     end
     entry do
       command ':phone:'
-      name    '<span style="font-size:2em;">☎️ </span>BLACK TELEPHONE'
+      name    '☎️ Black telephone'
       notes   'Unified: `260E`'
     end
     entry do
       command ':telephone_receiver:'
-      name    '<span style="font-size:2em;">📞 </span>TELEPHONE RECEIVER'
+      name    '📞 Telephone receiver'
       notes   'Unified: `1F4DE`'
     end
     entry do
       command ':pager:'
-      name    '<span style="font-size:2em;">📟 </span>PAGER'
+      name    '📟 Pager'
       notes   'Unified: `1F4DF`'
     end
     entry do
       command ':fax:'
-      name    '<span style="font-size:2em;">📠 </span>FAX MACHINE'
+      name    '📠 Fax machine'
       notes   'Unified: `1F4E0`'
     end
     entry do
       command ':satellite:'
-      name    '<span style="font-size:2em;">📡 </span>SATELLITE ANTENNA'
+      name    '📡 Satellite antenna'
       notes   'Unified: `1F4E1`'
     end
     entry do
       command ':tv:'
-      name    '<span style="font-size:2em;">📺 </span>TELEVISION'
+      name    '📺 Television'
       notes   'Unified: `1F4FA`'
     end
     entry do
       command ':radio:'
-      name    '<span style="font-size:2em;">📻 </span>RADIO'
+      name    '📻 Radio'
       notes   'Unified: `1F4FB`'
     end
     entry do
       command ':loud_sound:'
-      name    '<span style="font-size:2em;">🔊 </span>SPEAKER WITH THREE SOUND WAVES'
+      name    '🔊 Speaker with three sound waves'
       notes   'Unified: `1F50A`'
     end
     entry do
       command ':sound:'
-      name    '<span style="font-size:2em;">🔉 </span>SPEAKER WITH ONE SOUND WAVE'
+      name    '🔉 Speaker with one sound wave'
       notes   'Unified: `1F509`'
     end
     entry do
       command ':speaker:'
-      name    '<span style="font-size:2em;">🔈 </span>SPEAKER'
+      name    '🔈 Speaker'
       notes   'Unified: `1F508`'
     end
     entry do
       command ':mute:'
-      name    '<span style="font-size:2em;">🔇 </span>SPEAKER WITH CANCELLATION STROKE'
+      name    '🔇 Speaker with cancellation stroke'
       notes   'Unified: `1F507`'
     end
     entry do
       command ':bell:'
-      name    '<span style="font-size:2em;">🔔 </span>BELL'
+      name    '🔔 Bell'
       notes   'Unified: `1F514`'
     end
     entry do
       command ':no_bell:'
-      name    '<span style="font-size:2em;">🔕 </span>BELL WITH CANCELLATION STROKE'
+      name    '🔕 Bell with cancellation stroke'
       notes   'Unified: `1F515`'
     end
     entry do
       command ':loudspeaker:'
-      name    '<span style="font-size:2em;">📢 </span>PUBLIC ADDRESS LOUDSPEAKER'
+      name    '📢 Public address loudspeaker'
       notes   'Unified: `1F4E2`'
     end
     entry do
       command ':mega:'
-      name    '<span style="font-size:2em;">📣 </span>CHEERING MEGAPHONE'
+      name    '📣 Cheering megaphone'
       notes   'Unified: `1F4E3`'
     end
     entry do
       command ':hourglass_flowing_sand:'
-      name    '<span style="font-size:2em;">⏳ </span>HOURGLASS WITH FLOWING SAND'
+      name    '⏳ Hourglass with flowing sand'
       notes   'Unified: `23F3`'
     end
     entry do
       command ':hourglass:'
-      name    '<span style="font-size:2em;">⌛️ </span>HOURGLASS'
+      name    '⌛️ Hourglass'
       notes   'Unified: `231B`'
     end
     entry do
       command ':alarm_clock:'
-      name    '<span style="font-size:2em;">⏰ </span>ALARM CLOCK'
+      name    '⏰ Alarm clock'
       notes   'Unified: `23F0`'
     end
     entry do
       command ':watch:'
-      name    '<span style="font-size:2em;">⌚️ </span>WATCH'
+      name    '⌚️ Watch'
       notes   'Unified: `231A`'
     end
     entry do
       command ':unlock:'
-      name    '<span style="font-size:2em;">🔓 </span>OPEN LOCK'
+      name    '🔓 Open lock'
       notes   'Unified: `1F513`'
     end
     entry do
       command ':lock:'
-      name    '<span style="font-size:2em;">🔒 </span>LOCK'
+      name    '🔒 Lock'
       notes   'Unified: `1F512`'
     end
     entry do
       command ':lock_with_ink_pen:'
-      name    '<span style="font-size:2em;">🔏 </span>LOCK WITH INK PEN'
+      name    '🔏 Lock with ink pen'
       notes   'Unified: `1F50F`'
     end
     entry do
       command ':closed_lock_with_key:'
-      name    '<span style="font-size:2em;">🔐 </span>CLOSED LOCK WITH KEY'
+      name    '🔐 Closed lock with key'
       notes   'Unified: `1F510`'
     end
     entry do
       command ':key:'
-      name    '<span style="font-size:2em;">🔑 </span>KEY'
+      name    '🔑 Key'
       notes   'Unified: `1F511`'
     end
     entry do
       command ':mag_right:'
-      name    '<span style="font-size:2em;">🔎 </span>RIGHT-POINTING MAGNIFYING GLASS'
+      name    '🔎 Right-pointing magnifying glass'
       notes   'Unified: `1F50E`'
     end
     entry do
       command ':bulb:'
-      name    '<span style="font-size:2em;">💡 </span>ELECTRIC LIGHT BULB'
+      name    '💡 Electric light bulb'
       notes   'Unified: `1F4A1`'
     end
     entry do
       command ':flashlight:'
-      name    '<span style="font-size:2em;">🔦 </span>ELECTRIC TORCH'
+      name    '🔦 Electric torch'
       notes   'Unified: `1F526`'
     end
     entry do
       command ':high_brightness:'
-      name    '<span style="font-size:2em;">🔆 </span>HIGH BRIGHTNESS SYMBOL'
+      name    '🔆 High brightness symbol'
       notes   'Unified: `1F506`'
     end
     entry do
       command ':low_brightness:'
-      name    '<span style="font-size:2em;">🔅 </span>LOW BRIGHTNESS SYMBOL'
+      name    '🔅 Low brightness symbol'
       notes   'Unified: `1F505`'
     end
     entry do
       command ':electric_plug:'
-      name    '<span style="font-size:2em;">🔌 </span>ELECTRIC PLUG'
+      name    '🔌 Electric plug'
       notes   'Unified: `1F50C`'
     end
     entry do
       command ':battery:'
-      name    '<span style="font-size:2em;">🔋 </span>BATTERY'
+      name    '🔋 Battery'
       notes   'Unified: `1F50B`'
     end
     entry do
       command ':mag:'
-      name    '<span style="font-size:2em;">🔍 </span>LEFT-POINTING MAGNIFYING GLASS'
+      name    '🔍 Left-pointing magnifying glass'
       notes   'Unified: `1F50D`'
     end
     entry do
       command ':bathtub:'
-      name    '<span style="font-size:2em;">🛁 </span>BATHTUB'
+      name    '🛁 Bathtub'
       notes   'Unified: `1F6C1`'
     end
     entry do
       command ':bath:'
-      name    '<span style="font-size:2em;">🛀 </span>BATH'
+      name    '🛀 Bath'
       notes   'Unified: `1F6C0`'
     end
     entry do
       command ':shower:'
-      name    '<span style="font-size:2em;">🚿 </span>SHOWER'
+      name    '🚿 Shower'
       notes   'Unified: `1F6BF`'
     end
     entry do
       command ':toilet:'
-      name    '<span style="font-size:2em;">🚽 </span>TOILET'
+      name    '🚽 Toilet'
       notes   'Unified: `1F6BD`'
     end
     entry do
       command ':wrench:'
-      name    '<span style="font-size:2em;">🔧 </span>WRENCH'
+      name    '🔧 Wrench'
       notes   'Unified: `1F527`'
     end
     entry do
       command ':nut_and_bolt:'
-      name    '<span style="font-size:2em;">🔩 </span>NUT AND BOLT'
+      name    '🔩 Nut and bolt'
       notes   'Unified: `1F529`'
     end
     entry do
       command ':hammer:'
-      name    '<span style="font-size:2em;">🔨 </span>HAMMER'
+      name    '🔨 Hammer'
       notes   'Unified: `1F528`'
     end
     entry do
       command ':door:'
-      name    '<span style="font-size:2em;">🚪 </span>DOOR'
+      name    '🚪 Door'
       notes   'Unified: `1F6AA`'
     end
     entry do
       command ':smoking:'
-      name    '<span style="font-size:2em;">🚬 </span>SMOKING SYMBOL'
+      name    '🚬 Smoking symbol'
       notes   'Unified: `1F6AC`'
     end
     entry do
       command ':bomb:'
-      name    '<span style="font-size:2em;">💣 </span>BOMB'
+      name    '💣 Bomb'
       notes   'Unified: `1F4A3`'
     end
     entry do
       command ':gun:'
-      name    '<span style="font-size:2em;">🔫 </span>PISTOL'
+      name    '🔫 Pistol'
       notes   'Unified: `1F52B`'
     end
     entry do
       command ':hocho:'
-      name    '<span style="font-size:2em;">🔪 </span>HOCHO'
+      name    '🔪 Hocho'
       notes   'Unified: `1F52A`'
     end
     entry do
       command ':pill:'
-      name    '<span style="font-size:2em;">💊 </span>PILL'
+      name    '💊 Pill'
       notes   'Unified: `1F48A`'
     end
     entry do
       command ':syringe:'
-      name    '<span style="font-size:2em;">💉 </span>SYRINGE'
+      name    '💉 Syringe'
       notes   'Unified: `1F489`'
     end
     entry do
       command ':moneybag:'
-      name    '<span style="font-size:2em;">💰 </span>MONEY BAG'
+      name    '💰 Money bag'
       notes   'Unified: `1F4B0`'
     end
     entry do
       command ':yen:'
-      name    '<span style="font-size:2em;">💴 </span>BANKNOTE WITH YEN SIGN'
+      name    '💴 Banknote with yen sign'
       notes   'Unified: `1F4B4`'
     end
     entry do
       command ':dollar:'
-      name    '<span style="font-size:2em;">💵 </span>BANKNOTE WITH DOLLAR SIGN'
+      name    '💵 Banknote with dollar sign'
       notes   'Unified: `1F4B5`'
     end
     entry do
       command ':pound:'
-      name    '<span style="font-size:2em;">💷 </span>BANKNOTE WITH POUND SIGN'
+      name    '💷 Banknote with pound sign'
       notes   'Unified: `1F4B7`'
     end
     entry do
       command ':euro:'
-      name    '<span style="font-size:2em;">💶 </span>BANKNOTE WITH EURO SIGN'
+      name    '💶 Banknote with euro sign'
       notes   'Unified: `1F4B6`'
     end
     entry do
       command ':credit_card:'
-      name    '<span style="font-size:2em;">💳 </span>CREDIT CARD'
+      name    '💳 Credit card'
       notes   'Unified: `1F4B3`'
     end
     entry do
       command ':money_with_wings:'
-      name    '<span style="font-size:2em;">💸 </span>MONEY WITH WINGS'
+      name    '💸 Money with wings'
       notes   'Unified: `1F4B8`'
     end
     entry do
       command ':calling:'
-      name    '<span style="font-size:2em;">📲 </span>MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT'
+      name    '📲 Mobile phone with rightwards arrow at left'
       notes   'Unified: `1F4F2`'
     end
     entry do
       command ':e-mail:'
-      name    '<span style="font-size:2em;">📧 </span>E-MAIL SYMBOL'
+      name    '📧 E-mail symbol'
       notes   'Unified: `1F4E7`'
     end
     entry do
       command ':inbox_tray:'
-      name    '<span style="font-size:2em;">📥 </span>INBOX TRAY'
+      name    '📥 Inbox tray'
       notes   'Unified: `1F4E5`'
     end
     entry do
       command ':outbox_tray:'
-      name    '<span style="font-size:2em;">📤 </span>OUTBOX TRAY'
+      name    '📤 Outbox tray'
       notes   'Unified: `1F4E4`'
     end
     entry do
       command ':email:'
-      name    '<span style="font-size:2em;">✉️ </span>ENVELOPE'
+      name    '✉️ Envelope'
       notes   'Unified: `2709`'
     end
     entry do
       command ':envelope_with_arrow:'
-      name    '<span style="font-size:2em;">📩 </span>ENVELOPE WITH DOWNWARDS ARROW ABOVE'
+      name    '📩 Envelope with downwards arrow above'
       notes   'Unified: `1F4E9`'
     end
     entry do
       command ':incoming_envelope:'
-      name    '<span style="font-size:2em;">📨 </span>INCOMING ENVELOPE'
+      name    '📨 Incoming envelope'
       notes   'Unified: `1F4E8`'
     end
     entry do
       command ':postal_horn:'
-      name    '<span style="font-size:2em;">📯 </span>POSTAL HORN'
+      name    '📯 Postal horn'
       notes   'Unified: `1F4EF`'
     end
     entry do
       command ':mailbox:'
-      name    '<span style="font-size:2em;">📫 </span>CLOSED MAILBOX WITH RAISED FLAG'
+      name    '📫 Closed mailbox with raised flag'
       notes   'Unified: `1F4EB`'
     end
     entry do
       command ':mailbox_closed:'
-      name    '<span style="font-size:2em;">📪 </span>CLOSED MAILBOX WITH LOWERED FLAG'
+      name    '📪 Closed mailbox with lowered flag'
       notes   'Unified: `1F4EA`'
     end
     entry do
       command ':mailbox_with_mail:'
-      name    '<span style="font-size:2em;">📬 </span>OPEN MAILBOX WITH RAISED FLAG'
+      name    '📬 Open mailbox with raised flag'
       notes   'Unified: `1F4EC`'
     end
     entry do
       command ':mailbox_with_no_mail:'
-      name    '<span style="font-size:2em;">📭 </span>OPEN MAILBOX WITH LOWERED FLAG'
+      name    '📭 Open mailbox with lowered flag'
       notes   'Unified: `1F4ED`'
     end
     entry do
       command ':postbox:'
-      name    '<span style="font-size:2em;">📮 </span>POSTBOX'
+      name    '📮 Postbox'
       notes   'Unified: `1F4EE`'
     end
     entry do
       command ':package:'
-      name    '<span style="font-size:2em;">📦 </span>PACKAGE'
+      name    '📦 Package'
       notes   'Unified: `1F4E6`'
     end
     entry do
       command ':memo:'
-      name    '<span style="font-size:2em;">📝 </span>MEMO'
+      name    '📝 Memo'
       notes   'Unified: `1F4DD`'
     end
     entry do
       command ':page_facing_up:'
-      name    '<span style="font-size:2em;">📄 </span>PAGE FACING UP'
+      name    '📄 Page facing up'
       notes   'Unified: `1F4C4`'
     end
     entry do
       command ':page_with_curl:'
-      name    '<span style="font-size:2em;">📃 </span>PAGE WITH CURL'
+      name    '📃 Page with curl'
       notes   'Unified: `1F4C3`'
     end
     entry do
       command ':bookmark_tabs:'
-      name    '<span style="font-size:2em;">📑 </span>BOOKMARK TABS'
+      name    '📑 Bookmark tabs'
       notes   'Unified: `1F4D1`'
     end
     entry do
       command ':bar_chart:'
-      name    '<span style="font-size:2em;">📊 </span>BAR CHART'
+      name    '📊 Bar chart'
       notes   'Unified: `1F4CA`'
     end
     entry do
       command ':chart_with_upwards_trend:'
-      name    '<span style="font-size:2em;">📈 </span>CHART WITH UPWARDS TREND'
+      name    '📈 Chart with upwards trend'
       notes   'Unified: `1F4C8`'
     end
     entry do
       command ':chart_with_downwards_trend:'
-      name    '<span style="font-size:2em;">📉 </span>CHART WITH DOWNWARDS TREND'
+      name    '📉 Chart with downwards trend'
       notes   'Unified: `1F4C9`'
     end
     entry do
       command ':scroll:'
-      name    '<span style="font-size:2em;">📜 </span>SCROLL'
+      name    '📜 Scroll'
       notes   'Unified: `1F4DC`'
     end
     entry do
       command ':clipboard:'
-      name    '<span style="font-size:2em;">📋 </span>CLIPBOARD'
+      name    '📋 Clipboard'
       notes   'Unified: `1F4CB`'
     end
     entry do
       command ':date:'
-      name    '<span style="font-size:2em;">📅 </span>CALENDAR'
+      name    '📅 Calendar'
       notes   'Unified: `1F4C5`'
     end
     entry do
       command ':calendar:'
-      name    '<span style="font-size:2em;">📆 </span>TEAR-OFF CALENDAR'
+      name    '📆 Tear-off calendar'
       notes   'Unified: `1F4C6`'
     end
     entry do
       command ':card_index:'
-      name    '<span style="font-size:2em;">📇 </span>CARD INDEX'
+      name    '📇 Card index'
       notes   'Unified: `1F4C7`'
     end
     entry do
       command ':file_folder:'
-      name    '<span style="font-size:2em;">📁 </span>FILE FOLDER'
+      name    '📁 File folder'
       notes   'Unified: `1F4C1`'
     end
     entry do
       command ':open_file_folder:'
-      name    '<span style="font-size:2em;">📂 </span>OPEN FILE FOLDER'
+      name    '📂 Open file folder'
       notes   'Unified: `1F4C2`'
     end
     entry do
       command ':scissors:'
-      name    '<span style="font-size:2em;">✂️ </span>BLACK SCISSORS'
+      name    '✂️ Black scissors'
       notes   'Unified: `2702`'
     end
     entry do
       command ':pushpin:'
-      name    '<span style="font-size:2em;">📌 </span>PUSHPIN'
+      name    '📌 Pushpin'
       notes   'Unified: `1F4CC`'
     end
     entry do
       command ':paperclip:'
-      name    '<span style="font-size:2em;">📎 </span>PAPERCLIP'
+      name    '📎 Paperclip'
       notes   'Unified: `1F4CE`'
     end
     entry do
       command ':black_nib:'
-      name    '<span style="font-size:2em;">✒️ </span>BLACK NIB'
+      name    '✒️ Black nib'
       notes   'Unified: `2712`'
     end
     entry do
       command ':pencil2:'
-      name    '<span style="font-size:2em;">✏️ </span>PENCIL'
+      name    '✏️ Pencil'
       notes   'Unified: `270F`'
     end
     entry do
       command ':straight_ruler:'
-      name    '<span style="font-size:2em;">📏 </span>STRAIGHT RULER'
+      name    '📏 Straight ruler'
       notes   'Unified: `1F4CF`'
     end
     entry do
       command ':triangular_ruler:'
-      name    '<span style="font-size:2em;">📐 </span>TRIANGULAR RULER'
+      name    '📐 Triangular ruler'
       notes   'Unified: `1F4D0`'
     end
     entry do
       command ':closed_book:'
-      name    '<span style="font-size:2em;">📕 </span>CLOSED BOOK'
+      name    '📕 Closed book'
       notes   'Unified: `1F4D5`'
     end
     entry do
       command ':green_book:'
-      name    '<span style="font-size:2em;">📗 </span>GREEN BOOK'
+      name    '📗 Green book'
       notes   'Unified: `1F4D7`'
     end
     entry do
       command ':blue_book:'
-      name    '<span style="font-size:2em;">📘 </span>BLUE BOOK'
+      name    '📘 Blue book'
       notes   'Unified: `1F4D8`'
     end
     entry do
       command ':orange_book:'
-      name    '<span style="font-size:2em;">📙 </span>ORANGE BOOK'
+      name    '📙 Orange book'
       notes   'Unified: `1F4D9`'
     end
     entry do
       command ':notebook:'
-      name    '<span style="font-size:2em;">📓 </span>NOTEBOOK'
+      name    '📓 Notebook'
       notes   'Unified: `1F4D3`'
     end
     entry do
       command ':notebook_with_decorative_cover:'
-      name    '<span style="font-size:2em;">📔 </span>NOTEBOOK WITH DECORATIVE COVER'
+      name    '📔 Notebook with decorative cover'
       notes   'Unified: `1F4D4`'
     end
     entry do
       command ':ledger:'
-      name    '<span style="font-size:2em;">📒 </span>LEDGER'
+      name    '📒 Ledger'
       notes   'Unified: `1F4D2`'
     end
     entry do
       command ':books:'
-      name    '<span style="font-size:2em;">📚 </span>BOOKS'
+      name    '📚 Books'
       notes   'Unified: `1F4DA`'
     end
     entry do
       command ':book:'
-      name    '<span style="font-size:2em;">📖 </span>OPEN BOOK'
+      name    '📖 Open book'
       notes   'Unified: `1F4D6`'
     end
     entry do
       command ':bookmark:'
-      name    '<span style="font-size:2em;">🔖 </span>BOOKMARK'
+      name    '🔖 Bookmark'
       notes   'Unified: `1F516`'
     end
     entry do
       command ':name_badge:'
-      name    '<span style="font-size:2em;">📛 </span>NAME BADGE'
+      name    '📛 Name badge'
       notes   'Unified: `1F4DB`'
     end
     entry do
       command ':microscope:'
-      name    '<span style="font-size:2em;">🔬 </span>MICROSCOPE'
+      name    '🔬 Microscope'
       notes   'Unified: `1F52C`'
     end
     entry do
       command ':telescope:'
-      name    '<span style="font-size:2em;">🔭 </span>TELESCOPE'
+      name    '🔭 Telescope'
       notes   'Unified: `1F52D`'
     end
     entry do
       command ':newspaper:'
-      name    '<span style="font-size:2em;">📰 </span>NEWSPAPER'
+      name    '📰 Newspaper'
       notes   'Unified: `1F4F0`'
     end
     entry do
       command ':art:'
-      name    '<span style="font-size:2em;">🎨 </span>ARTIST PALETTE'
+      name    '🎨 Artist palette'
       notes   'Unified: `1F3A8`'
     end
     entry do
       command ':clapper:'
-      name    '<span style="font-size:2em;">🎬 </span>CLAPPER BOARD'
+      name    '🎬 Clapper board'
       notes   'Unified: `1F3AC`'
     end
     entry do
       command ':microphone:'
-      name    '<span style="font-size:2em;">🎤 </span>MICROPHONE'
+      name    '🎤 Microphone'
       notes   'Unified: `1F3A4`'
     end
     entry do
       command ':headphones:'
-      name    '<span style="font-size:2em;">🎧 </span>HEADPHONE'
+      name    '🎧 Headphone'
       notes   'Unified: `1F3A7`'
     end
     entry do
       command ':musical_score:'
-      name    '<span style="font-size:2em;">🎼 </span>MUSICAL SCORE'
+      name    '🎼 Musical score'
       notes   'Unified: `1F3BC`'
     end
     entry do
       command ':musical_note:'
-      name    '<span style="font-size:2em;">🎵 </span>MUSICAL NOTE'
+      name    '🎵 Musical note'
       notes   'Unified: `1F3B5`'
     end
     entry do
       command ':notes:'
-      name    '<span style="font-size:2em;">🎶 </span>MULTIPLE MUSICAL NOTES'
+      name    '🎶 Multiple musical notes'
       notes   'Unified: `1F3B6`'
     end
     entry do
       command ':musical_keyboard:'
-      name    '<span style="font-size:2em;">🎹 </span>MUSICAL KEYBOARD'
+      name    '🎹 Musical keyboard'
       notes   'Unified: `1F3B9`'
     end
     entry do
       command ':violin:'
-      name    '<span style="font-size:2em;">🎻 </span>VIOLIN'
+      name    '🎻 Violin'
       notes   'Unified: `1F3BB`'
     end
     entry do
       command ':trumpet:'
-      name    '<span style="font-size:2em;">🎺 </span>TRUMPET'
+      name    '🎺 Trumpet'
       notes   'Unified: `1F3BA`'
     end
     entry do
       command ':saxophone:'
-      name    '<span style="font-size:2em;">🎷 </span>SAXOPHONE'
+      name    '🎷 Saxophone'
       notes   'Unified: `1F3B7`'
     end
     entry do
       command ':guitar:'
-      name    '<span style="font-size:2em;">🎸 </span>GUITAR'
+      name    '🎸 Guitar'
       notes   'Unified: `1F3B8`'
     end
     entry do
       command ':space_invader:'
-      name    '<span style="font-size:2em;">👾 </span>ALIEN MONSTER'
+      name    '👾 Alien monster'
       notes   'Unified: `1F47E`'
     end
     entry do
       command ':video_game:'
-      name    '<span style="font-size:2em;">🎮 </span>VIDEO GAME'
+      name    '🎮 Video game'
       notes   'Unified: `1F3AE`'
     end
     entry do
       command ':black_joker:'
-      name    '<span style="font-size:2em;">🃏 </span>PLAYING CARD BLACK JOKER'
+      name    '🃏 Playing card black joker'
       notes   'Unified: `1F0CF`'
     end
     entry do
       command ':flower_playing_cards:'
-      name    '<span style="font-size:2em;">🎴 </span>FLOWER PLAYING CARDS'
+      name    '🎴 Flower playing cards'
       notes   'Unified: `1F3B4`'
     end
     entry do
       command ':mahjong:'
-      name    '<span style="font-size:2em;">🀄️ </span>MAHJONG TILE RED DRAGON'
+      name    '🀄️ Mahjong tile red dragon'
       notes   'Unified: `1F004`'
     end
     entry do
       command ':game_die:'
-      name    '<span style="font-size:2em;">🎲 </span>GAME DIE'
+      name    '🎲 Game die'
       notes   'Unified: `1F3B2`'
     end
     entry do
       command ':dart:'
-      name    '<span style="font-size:2em;">🎯 </span>DIRECT HIT'
+      name    '🎯 Direct hit'
       notes   'Unified: `1F3AF`'
     end
     entry do
       command ':football:'
-      name    '<span style="font-size:2em;">🏈 </span>AMERICAN FOOTBALL'
+      name    '🏈 American football'
       notes   'Unified: `1F3C8`'
     end
     entry do
       command ':basketball:'
-      name    '<span style="font-size:2em;">🏀 </span>BASKETBALL AND HOOP'
+      name    '🏀 Basketball and hoop'
       notes   'Unified: `1F3C0`'
     end
     entry do
       command ':soccer:'
-      name    '<span style="font-size:2em;">⚽️ </span>SOCCER BALL'
+      name    '⚽️ Soccer ball'
       notes   'Unified: `26BD`'
     end
     entry do
       command ':baseball:'
-      name    '<span style="font-size:2em;">⚾️ </span>BASEBALL'
+      name    '⚾️ Baseball'
       notes   'Unified: `26BE`'
     end
     entry do
       command ':tennis:'
-      name    '<span style="font-size:2em;">🎾 </span>TENNIS RACQUET AND BALL'
+      name    '🎾 Tennis racquet and ball'
       notes   'Unified: `1F3BE`'
     end
     entry do
       command ':8ball:'
-      name    '<span style="font-size:2em;">🎱 </span>BILLIARDS'
+      name    '🎱 Billiards'
       notes   'Unified: `1F3B1`'
     end
     entry do
       command ':rugby_football:'
-      name    '<span style="font-size:2em;">🏉 </span>RUGBY FOOTBALL'
+      name    '🏉 Rugby football'
       notes   'Unified: `1F3C9`'
     end
     entry do
       command ':bowling:'
-      name    '<span style="font-size:2em;">🎳 </span>BOWLING'
+      name    '🎳 Bowling'
       notes   'Unified: `1F3B3`'
     end
     entry do
       command ':golf:'
-      name    '<span style="font-size:2em;">⛳️ </span>FLAG IN HOLE'
+      name    '⛳️ Flag in hole'
       notes   'Unified: `26F3`'
     end
     entry do
       command ':mountain_bicyclist:'
-      name    '<span style="font-size:2em;">🚵 </span>MOUNTAIN BICYCLIST'
+      name    '🚵 Mountain bicyclist'
       notes   'Unified: `1F6B5`'
     end
     entry do
       command ':bicyclist:'
-      name    '<span style="font-size:2em;">🚴 </span>BICYCLIST'
+      name    '🚴 Bicyclist'
       notes   'Unified: `1F6B4`'
     end
     entry do
       command ':checkered_flag:'
-      name    '<span style="font-size:2em;">🏁 </span>CHEQUERED FLAG'
+      name    '🏁 Chequered flag'
       notes   'Unified: `1F3C1`'
     end
     entry do
       command ':horse_racing:'
-      name    '<span style="font-size:2em;">🏇 </span>HORSE RACING'
+      name    '🏇 Horse racing'
       notes   'Unified: `1F3C7`'
     end
     entry do
       command ':trophy:'
-      name    '<span style="font-size:2em;">🏆 </span>TROPHY'
+      name    '🏆 Trophy'
       notes   'Unified: `1F3C6`'
     end
     entry do
       command ':ski:'
-      name    '<span style="font-size:2em;">🎿 </span>SKI AND SKI BOOT'
+      name    '🎿 Ski and ski boot'
       notes   'Unified: `1F3BF`'
     end
     entry do
       command ':snowboarder:'
-      name    '<span style="font-size:2em;">🏂 </span>SNOWBOARDER'
+      name    '🏂 Snowboarder'
       notes   'Unified: `1F3C2`'
     end
     entry do
       command ':swimmer:'
-      name    '<span style="font-size:2em;">🏊 </span>SWIMMER'
+      name    '🏊 Swimmer'
       notes   'Unified: `1F3CA`'
     end
     entry do
       command ':surfer:'
-      name    '<span style="font-size:2em;">🏄 </span>SURFER'
+      name    '🏄 Surfer'
       notes   'Unified: `1F3C4`'
     end
     entry do
       command ':fishing_pole_and_fish:'
-      name    '<span style="font-size:2em;">🎣 </span>FISHING POLE AND FISH'
+      name    '🎣 Fishing pole and fish'
       notes   'Unified: `1F3A3`'
     end
     entry do
       command ':coffee:'
-      name    '<span style="font-size:2em;">☕️ </span>HOT BEVERAGE'
+      name    '☕️ Hot beverage'
       notes   'Unified: `2615`'
     end
     entry do
       command ':tea:'
-      name    '<span style="font-size:2em;">🍵 </span>TEACUP WITHOUT HANDLE'
+      name    '🍵 Teacup without handle'
       notes   'Unified: `1F375`'
     end
     entry do
       command ':sake:'
-      name    '<span style="font-size:2em;">🍶 </span>SAKE BOTTLE AND CUP'
+      name    '🍶 Sake bottle and cup'
       notes   'Unified: `1F376`'
     end
     entry do
       command ':baby_bottle:'
-      name    '<span style="font-size:2em;">🍼 </span>BABY BOTTLE'
+      name    '🍼 Baby bottle'
       notes   'Unified: `1F37C`'
     end
     entry do
       command ':beer:'
-      name    '<span style="font-size:2em;">🍺 </span>BEER MUG'
+      name    '🍺 Beer mug'
       notes   'Unified: `1F37A`'
     end
     entry do
       command ':beers:'
-      name    '<span style="font-size:2em;">🍻 </span>CLINKING BEER MUGS'
+      name    '🍻 Clinking beer mugs'
       notes   'Unified: `1F37B`'
     end
     entry do
       command ':cocktail:'
-      name    '<span style="font-size:2em;">🍸 </span>COCKTAIL GLASS'
+      name    '🍸 Cocktail glass'
       notes   'Unified: `1F378`'
     end
     entry do
       command ':tropical_drink:'
-      name    '<span style="font-size:2em;">🍹 </span>TROPICAL DRINK'
+      name    '🍹 Tropical drink'
       notes   'Unified: `1F379`'
     end
     entry do
       command ':wine_glass:'
-      name    '<span style="font-size:2em;">🍷 </span>WINE GLASS'
+      name    '🍷 Wine glass'
       notes   'Unified: `1F377`'
     end
     entry do
       command ':fork_and_knife:'
-      name    '<span style="font-size:2em;">🍴 </span>FORK AND KNIFE'
+      name    '🍴 Fork and knife'
       notes   'Unified: `1F374`'
     end
     entry do
       command ':pizza:'
-      name    '<span style="font-size:2em;">🍕 </span>SLICE OF PIZZA'
+      name    '🍕 Slice of pizza'
       notes   'Unified: `1F355`'
     end
     entry do
       command ':hamburger:'
-      name    '<span style="font-size:2em;">🍔 </span>HAMBURGER'
+      name    '🍔 Hamburger'
       notes   'Unified: `1F354`'
     end
     entry do
       command ':fries:'
-      name    '<span style="font-size:2em;">🍟 </span>FRENCH FRIES'
+      name    '🍟 French fries'
       notes   'Unified: `1F35F`'
     end
     entry do
       command ':poultry_leg:'
-      name    '<span style="font-size:2em;">🍗 </span>POULTRY LEG'
+      name    '🍗 Poultry leg'
       notes   'Unified: `1F357`'
     end
     entry do
       command ':meat_on_bone:'
-      name    '<span style="font-size:2em;">🍖 </span>MEAT ON BONE'
+      name    '🍖 Meat on bone'
       notes   'Unified: `1F356`'
     end
     entry do
       command ':spaghetti:'
-      name    '<span style="font-size:2em;">🍝 </span>SPAGHETTI'
+      name    '🍝 Spaghetti'
       notes   'Unified: `1F35D`'
     end
     entry do
       command ':curry:'
-      name    '<span style="font-size:2em;">🍛 </span>CURRY AND RICE'
+      name    '🍛 Curry and rice'
       notes   'Unified: `1F35B`'
     end
     entry do
       command ':fried_shrimp:'
-      name    '<span style="font-size:2em;">🍤 </span>FRIED SHRIMP'
+      name    '🍤 Fried shrimp'
       notes   'Unified: `1F364`'
     end
     entry do
       command ':bento:'
-      name    '<span style="font-size:2em;">🍱 </span>BENTO BOX'
+      name    '🍱 Bento box'
       notes   'Unified: `1F371`'
     end
     entry do
       command ':sushi:'
-      name    '<span style="font-size:2em;">🍣 </span>SUSHI'
+      name    '🍣 Sushi'
       notes   'Unified: `1F363`'
     end
     entry do
       command ':fish_cake:'
-      name    '<span style="font-size:2em;">🍥 </span>FISH CAKE WITH SWIRL DESIGN'
+      name    '🍥 Fish cake with swirl design'
       notes   'Unified: `1F365`'
     end
     entry do
       command ':rice_ball:'
-      name    '<span style="font-size:2em;">🍙 </span>RICE BALL'
+      name    '🍙 Rice ball'
       notes   'Unified: `1F359`'
     end
     entry do
       command ':rice_cracker:'
-      name    '<span style="font-size:2em;">🍘 </span>RICE CRACKER'
+      name    '🍘 Rice cracker'
       notes   'Unified: `1F358`'
     end
     entry do
       command ':rice:'
-      name    '<span style="font-size:2em;">🍚 </span>COOKED RICE'
+      name    '🍚 Cooked rice'
       notes   'Unified: `1F35A`'
     end
     entry do
       command ':ramen:'
-      name    '<span style="font-size:2em;">🍜 </span>STEAMING BOWL'
+      name    '🍜 Steaming bowl'
       notes   'Unified: `1F35C`'
     end
     entry do
       command ':stew:'
-      name    '<span style="font-size:2em;">🍲 </span>POT OF FOOD'
+      name    '🍲 Pot of food'
       notes   'Unified: `1F372`'
     end
     entry do
       command ':oden:'
-      name    '<span style="font-size:2em;">🍢 </span>ODEN'
+      name    '🍢 Oden'
       notes   'Unified: `1F362`'
     end
     entry do
       command ':dango:'
-      name    '<span style="font-size:2em;">🍡 </span>DANGO'
+      name    '🍡 Dango'
       notes   'Unified: `1F361`'
     end
     entry do
       command ':egg:'
-      name    '<span style="font-size:2em;">🍳 </span>COOKING'
+      name    '🍳 Cooking'
       notes   'Unified: `1F373`'
     end
     entry do
       command ':bread:'
-      name    '<span style="font-size:2em;">🍞 </span>BREAD'
+      name    '🍞 Bread'
       notes   'Unified: `1F35E`'
     end
     entry do
       command ':doughnut:'
-      name    '<span style="font-size:2em;">🍩 </span>DOUGHNUT'
+      name    '🍩 Doughnut'
       notes   'Unified: `1F369`'
     end
     entry do
       command ':custard:'
-      name    '<span style="font-size:2em;">🍮 </span>CUSTARD'
+      name    '🍮 Custard'
       notes   'Unified: `1F36E`'
     end
     entry do
       command ':icecream:'
-      name    '<span style="font-size:2em;">🍦 </span>SOFT ICE CREAM'
+      name    '🍦 Soft ice cream'
       notes   'Unified: `1F366`'
     end
     entry do
       command ':ice_cream:'
-      name    '<span style="font-size:2em;">🍨 </span>ICE CREAM'
+      name    '🍨 Ice cream'
       notes   'Unified: `1F368`'
     end
     entry do
       command ':shaved_ice:'
-      name    '<span style="font-size:2em;">🍧 </span>SHAVED ICE'
+      name    '🍧 Shaved ice'
       notes   'Unified: `1F367`'
     end
     entry do
       command ':birthday:'
-      name    '<span style="font-size:2em;">🎂 </span>BIRTHDAY CAKE'
+      name    '🎂 Birthday cake'
       notes   'Unified: `1F382`'
     end
     entry do
       command ':cake:'
-      name    '<span style="font-size:2em;">🍰 </span>SHORTCAKE'
+      name    '🍰 Shortcake'
       notes   'Unified: `1F370`'
     end
     entry do
       command ':cookie:'
-      name    '<span style="font-size:2em;">🍪 </span>COOKIE'
+      name    '🍪 Cookie'
       notes   'Unified: `1F36A`'
     end
     entry do
       command ':chocolate_bar:'
-      name    '<span style="font-size:2em;">🍫 </span>CHOCOLATE BAR'
+      name    '🍫 Chocolate bar'
       notes   'Unified: `1F36B`'
     end
     entry do
       command ':candy:'
-      name    '<span style="font-size:2em;">🍬 </span>CANDY'
+      name    '🍬 Candy'
       notes   'Unified: `1F36C`'
     end
     entry do
       command ':lollipop:'
-      name    '<span style="font-size:2em;">🍭 </span>LOLLIPOP'
+      name    '🍭 Lollipop'
       notes   'Unified: `1F36D`'
     end
     entry do
       command ':honey_pot:'
-      name    '<span style="font-size:2em;">🍯 </span>HONEY POT'
+      name    '🍯 Honey pot'
       notes   'Unified: `1F36F`'
     end
     entry do
       command ':apple:'
-      name    '<span style="font-size:2em;">🍎 </span>RED APPLE'
+      name    '🍎 Red apple'
       notes   'Unified: `1F34E`'
     end
     entry do
       command ':green_apple:'
-      name    '<span style="font-size:2em;">🍏 </span>GREEN APPLE'
+      name    '🍏 Green apple'
       notes   'Unified: `1F34F`'
     end
     entry do
       command ':tangerine:'
-      name    '<span style="font-size:2em;">🍊 </span>TANGERINE'
+      name    '🍊 Tangerine'
       notes   'Unified: `1F34A`'
     end
     entry do
       command ':lemon:'
-      name    '<span style="font-size:2em;">🍋 </span>LEMON'
+      name    '🍋 Lemon'
       notes   'Unified: `1F34B`'
     end
     entry do
       command ':cherries:'
-      name    '<span style="font-size:2em;">🍒 </span>CHERRIES'
+      name    '🍒 Cherries'
       notes   'Unified: `1F352`'
     end
     entry do
       command ':grapes:'
-      name    '<span style="font-size:2em;">🍇 </span>GRAPES'
+      name    '🍇 Grapes'
       notes   'Unified: `1F347`'
     end
     entry do
       command ':watermelon:'
-      name    '<span style="font-size:2em;">🍉 </span>WATERMELON'
+      name    '🍉 Watermelon'
       notes   'Unified: `1F349`'
     end
     entry do
       command ':strawberry:'
-      name    '<span style="font-size:2em;">🍓 </span>STRAWBERRY'
+      name    '🍓 Strawberry'
       notes   'Unified: `1F353`'
     end
     entry do
       command ':peach:'
-      name    '<span style="font-size:2em;">🍑 </span>PEACH'
+      name    '🍑 Peach'
       notes   'Unified: `1F351`'
     end
     entry do
       command ':melon:'
-      name    '<span style="font-size:2em;">🍈 </span>MELON'
+      name    '🍈 Melon'
       notes   'Unified: `1F348`'
     end
     entry do
       command ':banana:'
-      name    '<span style="font-size:2em;">🍌 </span>BANANA'
+      name    '🍌 Banana'
       notes   'Unified: `1F34C`'
     end
     entry do
       command ':pear:'
-      name    '<span style="font-size:2em;">🍐 </span>PEAR'
+      name    '🍐 Pear'
       notes   'Unified: `1F350`'
     end
     entry do
       command ':pineapple:'
-      name    '<span style="font-size:2em;">🍍 </span>PINEAPPLE'
+      name    '🍍 Pineapple'
       notes   'Unified: `1F34D`'
     end
     entry do
       command ':sweet_potato:'
-      name    '<span style="font-size:2em;">🍠 </span>ROASTED SWEET POTATO'
+      name    '🍠 Roasted sweet potato'
       notes   'Unified: `1F360`'
     end
     entry do
       command ':eggplant:'
-      name    '<span style="font-size:2em;">🍆 </span>AUBERGINE'
+      name    '🍆 Aubergine'
       notes   'Unified: `1F346`'
     end
     entry do
       command ':tomato:'
-      name    '<span style="font-size:2em;">🍅 </span>TOMATO'
+      name    '🍅 Tomato'
       notes   'Unified: `1F345`'
     end
     entry do
       command ':corn:'
-      name    '<span style="font-size:2em;">🌽 </span>EAR OF MAIZE'
+      name    '🌽 Ear of maize'
       notes   'Unified: `1F33D`'
     end
 
@@ -2701,507 +2699,507 @@ cheatsheet do
     
         entry do
       command ':house:'
-      name    '<span style="font-size:2em;">🏠 </span>HOUSE BUILDING'
+      name    '🏠 House building'
       notes   'Unified: `1F3E0`'
     end
     entry do
       command ':house_with_garden:'
-      name    '<span style="font-size:2em;">🏡 </span>HOUSE WITH GARDEN'
+      name    '🏡 House with garden'
       notes   'Unified: `1F3E1`'
     end
     entry do
       command ':school:'
-      name    '<span style="font-size:2em;">🏫 </span>SCHOOL'
+      name    '🏫 School'
       notes   'Unified: `1F3EB`'
     end
     entry do
       command ':office:'
-      name    '<span style="font-size:2em;">🏢 </span>OFFICE BUILDING'
+      name    '🏢 Office building'
       notes   'Unified: `1F3E2`'
     end
     entry do
       command ':post_office:'
-      name    '<span style="font-size:2em;">🏣 </span>JAPANESE POST OFFICE'
+      name    '🏣 Japanese post office'
       notes   'Unified: `1F3E3`'
     end
     entry do
       command ':hospital:'
-      name    '<span style="font-size:2em;">🏥 </span>HOSPITAL'
+      name    '🏥 Hospital'
       notes   'Unified: `1F3E5`'
     end
     entry do
       command ':bank:'
-      name    '<span style="font-size:2em;">🏦 </span>BANK'
+      name    '🏦 Bank'
       notes   'Unified: `1F3E6`'
     end
     entry do
       command ':convenience_store:'
-      name    '<span style="font-size:2em;">🏪 </span>CONVENIENCE STORE'
+      name    '🏪 Convenience store'
       notes   'Unified: `1F3EA`'
     end
     entry do
       command ':love_hotel:'
-      name    '<span style="font-size:2em;">🏩 </span>LOVE HOTEL'
+      name    '🏩 Love hotel'
       notes   'Unified: `1F3E9`'
     end
     entry do
       command ':hotel:'
-      name    '<span style="font-size:2em;">🏨 </span>HOTEL'
+      name    '🏨 Hotel'
       notes   'Unified: `1F3E8`'
     end
     entry do
       command ':wedding:'
-      name    '<span style="font-size:2em;">💒 </span>WEDDING'
+      name    '💒 Wedding'
       notes   'Unified: `1F492`'
     end
     entry do
       command ':church:'
-      name    '<span style="font-size:2em;">⛪️ </span>CHURCH'
+      name    '⛪️ Church'
       notes   'Unified: `26EA`'
     end
     entry do
       command ':department_store:'
-      name    '<span style="font-size:2em;">🏬 </span>DEPARTMENT STORE'
+      name    '🏬 Department store'
       notes   'Unified: `1F3EC`'
     end
     entry do
       command ':european_post_office:'
-      name    '<span style="font-size:2em;">🏤 </span>EUROPEAN POST OFFICE'
+      name    '🏤 European post office'
       notes   'Unified: `1F3E4`'
     end
     entry do
       command ':city_sunrise:'
-      name    '<span style="font-size:2em;">🌇 </span>SUNSET OVER BUILDINGS'
+      name    '🌇 Sunset over buildings'
       notes   'Unified: `1F307`'
     end
     entry do
       command ':city_sunset:'
-      name    '<span style="font-size:2em;">🌆 </span>CITYSCAPE AT DUSK'
+      name    '🌆 Cityscape at dusk'
       notes   'Unified: `1F306`'
     end
     entry do
       command ':japanese_castle:'
-      name    '<span style="font-size:2em;">🏯 </span>JAPANESE CASTLE'
+      name    '🏯 Japanese castle'
       notes   'Unified: `1F3EF`'
     end
     entry do
       command ':european_castle:'
-      name    '<span style="font-size:2em;">🏰 </span>EUROPEAN CASTLE'
+      name    '🏰 European castle'
       notes   'Unified: `1F3F0`'
     end
     entry do
       command ':tent:'
-      name    '<span style="font-size:2em;">⛺️ </span>TENT'
+      name    '⛺️ Tent'
       notes   'Unified: `26FA`'
     end
     entry do
       command ':factory:'
-      name    '<span style="font-size:2em;">🏭 </span>FACTORY'
+      name    '🏭 Factory'
       notes   'Unified: `1F3ED`'
     end
     entry do
       command ':tokyo_tower:'
-      name    '<span style="font-size:2em;">🗼 </span>TOKYO TOWER'
+      name    '🗼 Tokyo tower'
       notes   'Unified: `1F5FC`'
     end
     entry do
       command ':japan:'
-      name    '<span style="font-size:2em;">🗾 </span>SILHOUETTE OF JAPAN'
+      name    '🗾 Silhouette of japan'
       notes   'Unified: `1F5FE`'
     end
     entry do
       command ':mount_fuji:'
-      name    '<span style="font-size:2em;">🗻 </span>MOUNT FUJI'
+      name    '🗻 Mount fuji'
       notes   'Unified: `1F5FB`'
     end
     entry do
       command ':sunrise_over_mountains:'
-      name    '<span style="font-size:2em;">🌄 </span>SUNRISE OVER MOUNTAINS'
+      name    '🌄 Sunrise over mountains'
       notes   'Unified: `1F304`'
     end
     entry do
       command ':sunrise:'
-      name    '<span style="font-size:2em;">🌅 </span>SUNRISE'
+      name    '🌅 Sunrise'
       notes   'Unified: `1F305`'
     end
     entry do
       command ':night_with_stars:'
-      name    '<span style="font-size:2em;">🌃 </span>NIGHT WITH STARS'
+      name    '🌃 Night with stars'
       notes   'Unified: `1F303`'
     end
     entry do
       command ':statue_of_liberty:'
-      name    '<span style="font-size:2em;">🗽 </span>STATUE OF LIBERTY'
+      name    '🗽 Statue of liberty'
       notes   'Unified: `1F5FD`'
     end
     entry do
       command ':bridge_at_night:'
-      name    '<span style="font-size:2em;">🌉 </span>BRIDGE AT NIGHT'
+      name    '🌉 Bridge at night'
       notes   'Unified: `1F309`'
     end
     entry do
       command ':carousel_horse:'
-      name    '<span style="font-size:2em;">🎠 </span>CAROUSEL HORSE'
+      name    '🎠 Carousel horse'
       notes   'Unified: `1F3A0`'
     end
     entry do
       command ':ferris_wheel:'
-      name    '<span style="font-size:2em;">🎡 </span>FERRIS WHEEL'
+      name    '🎡 Ferris wheel'
       notes   'Unified: `1F3A1`'
     end
     entry do
       command ':fountain:'
-      name    '<span style="font-size:2em;">⛲️ </span>FOUNTAIN'
+      name    '⛲️ Fountain'
       notes   'Unified: `26F2`'
     end
     entry do
       command ':roller_coaster:'
-      name    '<span style="font-size:2em;">🎢 </span>ROLLER COASTER'
+      name    '🎢 Roller coaster'
       notes   'Unified: `1F3A2`'
     end
     entry do
       command ':ship:'
-      name    '<span style="font-size:2em;">🚢 </span>SHIP'
+      name    '🚢 Ship'
       notes   'Unified: `1F6A2`'
     end
     entry do
       command ':boat:'
-      name    '<span style="font-size:2em;">⛵️ </span>SAILBOAT'
+      name    '⛵️ Sailboat'
       notes   'Unified: `26F5`'
     end
     entry do
       command ':speedboat:'
-      name    '<span style="font-size:2em;">🚤 </span>SPEEDBOAT'
+      name    '🚤 Speedboat'
       notes   'Unified: `1F6A4`'
     end
     entry do
       command ':rowboat:'
-      name    '<span style="font-size:2em;">🚣 </span>ROWBOAT'
+      name    '🚣 Rowboat'
       notes   'Unified: `1F6A3`'
     end
     entry do
       command ':anchor:'
-      name    '<span style="font-size:2em;">⚓️ </span>ANCHOR'
+      name    '⚓️ Anchor'
       notes   'Unified: `2693`'
     end
     entry do
       command ':rocket:'
-      name    '<span style="font-size:2em;">🚀 </span>ROCKET'
+      name    '🚀 Rocket'
       notes   'Unified: `1F680`'
     end
     entry do
       command ':airplane:'
-      name    '<span style="font-size:2em;">✈️ </span>AIRPLANE'
+      name    '✈️ Airplane'
       notes   'Unified: `2708`'
     end
     entry do
       command ':seat:'
-      name    '<span style="font-size:2em;">💺 </span>SEAT'
+      name    '💺 Seat'
       notes   'Unified: `1F4BA`'
     end
     entry do
       command ':helicopter:'
-      name    '<span style="font-size:2em;">🚁 </span>HELICOPTER'
+      name    '🚁 Helicopter'
       notes   'Unified: `1F681`'
     end
     entry do
       command ':steam_locomotive:'
-      name    '<span style="font-size:2em;">🚂 </span>STEAM LOCOMOTIVE'
+      name    '🚂 Steam locomotive'
       notes   'Unified: `1F682`'
     end
     entry do
       command ':tram:'
-      name    '<span style="font-size:2em;">🚊 </span>TRAM'
+      name    '🚊 Tram'
       notes   'Unified: `1F68A`'
     end
     entry do
       command ':station:'
-      name    '<span style="font-size:2em;">🚉 </span>STATION'
+      name    '🚉 Station'
       notes   'Unified: `1F689`'
     end
     entry do
       command ':mountain_railway:'
-      name    '<span style="font-size:2em;">🚞 </span>MOUNTAIN RAILWAY'
+      name    '🚞 Mountain railway'
       notes   'Unified: `1F69E`'
     end
     entry do
       command ':train2:'
-      name    '<span style="font-size:2em;">🚆 </span>TRAIN'
+      name    '🚆 Train'
       notes   'Unified: `1F686`'
     end
     entry do
       command ':bullettrain_side:'
-      name    '<span style="font-size:2em;">🚄 </span>HIGH-SPEED TRAIN'
+      name    '🚄 High-speed train'
       notes   'Unified: `1F684`'
     end
     entry do
       command ':bullettrain_front:'
-      name    '<span style="font-size:2em;">🚅 </span>HIGH-SPEED TRAIN WITH BULLET NOSE'
+      name    '🚅 High-speed train with bullet nose'
       notes   'Unified: `1F685`'
     end
     entry do
       command ':light_rail:'
-      name    '<span style="font-size:2em;">🚈 </span>LIGHT RAIL'
+      name    '🚈 Light rail'
       notes   'Unified: `1F688`'
     end
     entry do
       command ':metro:'
-      name    '<span style="font-size:2em;">🚇 </span>METRO'
+      name    '🚇 Metro'
       notes   'Unified: `1F687`'
     end
     entry do
       command ':monorail:'
-      name    '<span style="font-size:2em;">🚝 </span>MONORAIL'
+      name    '🚝 Monorail'
       notes   'Unified: `1F69D`'
     end
     entry do
       command ':train:'
-      name    '<span style="font-size:2em;">🚋 </span>TRAM CAR'
+      name    '🚋 Tram car'
       notes   'Unified: `1F68B`'
     end
     entry do
       command ':railway_car:'
-      name    '<span style="font-size:2em;">🚃 </span>RAILWAY CAR'
+      name    '🚃 Railway car'
       notes   'Unified: `1F683`'
     end
     entry do
       command ':trolleybus:'
-      name    '<span style="font-size:2em;">🚎 </span>TROLLEYBUS'
+      name    '🚎 Trolleybus'
       notes   'Unified: `1F68E`'
     end
     entry do
       command ':bus:'
-      name    '<span style="font-size:2em;">🚌 </span>BUS'
+      name    '🚌 Bus'
       notes   'Unified: `1F68C`'
     end
     entry do
       command ':oncoming_bus:'
-      name    '<span style="font-size:2em;">🚍 </span>ONCOMING BUS'
+      name    '🚍 Oncoming bus'
       notes   'Unified: `1F68D`'
     end
     entry do
       command ':blue_car:'
-      name    '<span style="font-size:2em;">🚙 </span>RECREATIONAL VEHICLE'
+      name    '🚙 Recreational vehicle'
       notes   'Unified: `1F699`'
     end
     entry do
       command ':oncoming_automobile:'
-      name    '<span style="font-size:2em;">🚘 </span>ONCOMING AUTOMOBILE'
+      name    '🚘 Oncoming automobile'
       notes   'Unified: `1F698`'
     end
     entry do
       command ':car:'
-      name    '<span style="font-size:2em;">🚗 </span>AUTOMOBILE'
+      name    '🚗 Automobile'
       notes   'Unified: `1F697`'
     end
     entry do
       command ':taxi:'
-      name    '<span style="font-size:2em;">🚕 </span>TAXI'
+      name    '🚕 Taxi'
       notes   'Unified: `1F695`'
     end
     entry do
       command ':oncoming_taxi:'
-      name    '<span style="font-size:2em;">🚖 </span>ONCOMING TAXI'
+      name    '🚖 Oncoming taxi'
       notes   'Unified: `1F696`'
     end
     entry do
       command ':articulated_lorry:'
-      name    '<span style="font-size:2em;">🚛 </span>ARTICULATED LORRY'
+      name    '🚛 Articulated lorry'
       notes   'Unified: `1F69B`'
     end
     entry do
       command ':truck:'
-      name    '<span style="font-size:2em;">🚚 </span>DELIVERY TRUCK'
+      name    '🚚 Delivery truck'
       notes   'Unified: `1F69A`'
     end
     entry do
       command ':rotating_light:'
-      name    '<span style="font-size:2em;">🚨 </span>POLICE CARS REVOLVING LIGHT'
+      name    '🚨 Police cars revolving light'
       notes   'Unified: `1F6A8`'
     end
     entry do
       command ':police_car:'
-      name    '<span style="font-size:2em;">🚓 </span>POLICE CAR'
+      name    '🚓 Police car'
       notes   'Unified: `1F693`'
     end
     entry do
       command ':oncoming_police_car:'
-      name    '<span style="font-size:2em;">🚔 </span>ONCOMING POLICE CAR'
+      name    '🚔 Oncoming police car'
       notes   'Unified: `1F694`'
     end
     entry do
       command ':fire_engine:'
-      name    '<span style="font-size:2em;">🚒 </span>FIRE ENGINE'
+      name    '🚒 Fire engine'
       notes   'Unified: `1F692`'
     end
     entry do
       command ':ambulance:'
-      name    '<span style="font-size:2em;">🚑 </span>AMBULANCE'
+      name    '🚑 Ambulance'
       notes   'Unified: `1F691`'
     end
     entry do
       command ':minibus:'
-      name    '<span style="font-size:2em;">🚐 </span>MINIBUS'
+      name    '🚐 Minibus'
       notes   'Unified: `1F690`'
     end
     entry do
       command ':bike:'
-      name    '<span style="font-size:2em;">🚲 </span>BICYCLE'
+      name    '🚲 Bicycle'
       notes   'Unified: `1F6B2`'
     end
     entry do
       command ':aerial_tramway:'
-      name    '<span style="font-size:2em;">🚡 </span>AERIAL TRAMWAY'
+      name    '🚡 Aerial tramway'
       notes   'Unified: `1F6A1`'
     end
     entry do
       command ':suspension_railway:'
-      name    '<span style="font-size:2em;">🚟 </span>SUSPENSION RAILWAY'
+      name    '🚟 Suspension railway'
       notes   'Unified: `1F69F`'
     end
     entry do
       command ':mountain_cableway:'
-      name    '<span style="font-size:2em;">🚠 </span>MOUNTAIN CABLEWAY'
+      name    '🚠 Mountain cableway'
       notes   'Unified: `1F6A0`'
     end
     entry do
       command ':tractor:'
-      name    '<span style="font-size:2em;">🚜 </span>TRACTOR'
+      name    '🚜 Tractor'
       notes   'Unified: `1F69C`'
     end
     entry do
       command ':barber:'
-      name    '<span style="font-size:2em;">💈 </span>BARBER POLE'
+      name    '💈 Barber pole'
       notes   'Unified: `1F488`'
     end
     entry do
       command ':busstop:'
-      name    '<span style="font-size:2em;">🚏 </span>BUS STOP'
+      name    '🚏 Bus stop'
       notes   'Unified: `1F68F`'
     end
     entry do
       command ':ticket:'
-      name    '<span style="font-size:2em;">🎫 </span>TICKET'
+      name    '🎫 Ticket'
       notes   'Unified: `1F3AB`'
     end
     entry do
       command ':vertical_traffic_light:'
-      name    '<span style="font-size:2em;">🚦 </span>VERTICAL TRAFFIC LIGHT'
+      name    '🚦 Vertical traffic light'
       notes   'Unified: `1F6A6`'
     end
     entry do
       command ':traffic_light:'
-      name    '<span style="font-size:2em;">🚥 </span>HORIZONTAL TRAFFIC LIGHT'
+      name    '🚥 Horizontal traffic light'
       notes   'Unified: `1F6A5`'
     end
     entry do
       command ':warning:'
-      name    '<span style="font-size:2em;">⚠️ </span>WARNING SIGN'
+      name    '⚠️ Warning sign'
       notes   'Unified: `26A0`'
     end
     entry do
       command ':construction:'
-      name    '<span style="font-size:2em;">🚧 </span>CONSTRUCTION SIGN'
+      name    '🚧 Construction sign'
       notes   'Unified: `1F6A7`'
     end
     entry do
       command ':beginner:'
-      name    '<span style="font-size:2em;">🔰 </span>JAPANESE SYMBOL FOR BEGINNER'
+      name    '🔰 Japanese symbol for beginner'
       notes   'Unified: `1F530`'
     end
     entry do
       command ':fuelpump:'
-      name    '<span style="font-size:2em;">⛽️ </span>FUEL PUMP'
+      name    '⛽️ Fuel pump'
       notes   'Unified: `26FD`'
     end
     entry do
       command ':izakaya_lantern:'
-      name    '<span style="font-size:2em;">🏮 </span>IZAKAYA LANTERN'
+      name    '🏮 Izakaya lantern'
       notes   'Unified: `1F3EE`'
     end
     entry do
       command ':slot_machine:'
-      name    '<span style="font-size:2em;">🎰 </span>SLOT MACHINE'
+      name    '🎰 Slot machine'
       notes   'Unified: `1F3B0`'
     end
     entry do
       command ':hotsprings:'
-      name    '<span style="font-size:2em;">♨️ </span>HOT SPRINGS'
+      name    '♨️ Hot springs'
       notes   'Unified: `2668`'
     end
     entry do
       command ':moyai:'
-      name    '<span style="font-size:2em;">🗿 </span>MOYAI'
+      name    '🗿 Moyai'
       notes   'Unified: `1F5FF`'
     end
     entry do
       command ':circus_tent:'
-      name    '<span style="font-size:2em;">🎪 </span>CIRCUS TENT'
+      name    '🎪 Circus tent'
       notes   'Unified: `1F3AA`'
     end
     entry do
       command ':performing_arts:'
-      name    '<span style="font-size:2em;">🎭 </span>PERFORMING ARTS'
+      name    '🎭 Performing arts'
       notes   'Unified: `1F3AD`'
     end
     entry do
       command ':round_pushpin:'
-      name    '<span style="font-size:2em;">📍 </span>ROUND PUSHPIN'
+      name    '📍 Round pushpin'
       notes   'Unified: `1F4CD`'
     end
     entry do
       command ':triangular_flag_on_post:'
-      name    '<span style="font-size:2em;">🚩 </span>TRIANGULAR FLAG ON POST'
+      name    '🚩 Triangular flag on post'
       notes   'Unified: `1F6A9`'
     end
     entry do
       command ':jp:'
-      name    '<span style="font-size:2em;">🇯🇵 </span>REGIONAL INDICATOR SYMBOL LETTERS JP'
+      name    '🇯🇵 Regional indicator symbol letters JP'
       notes   'Unified: `1F1EF-1F1F5`'
     end
     entry do
       command ':kr:'
-      name    '<span style="font-size:2em;">🇰🇷 </span>REGIONAL INDICATOR SYMBOL LETTERS KR'
+      name    '🇰🇷 Regional indicator symbol letters KR'
       notes   'Unified: `1F1F0-1F1F7`'
     end
     entry do
       command ':de:'
-      name    '<span style="font-size:2em;">🇩🇪 </span>REGIONAL INDICATOR SYMBOL LETTERS DE'
+      name    '🇩🇪 Regional indicator symbol letters DE'
       notes   'Unified: `1F1E9-1F1EA`'
     end
     entry do
       command ':cn:'
-      name    '<span style="font-size:2em;">🇨🇳 </span>REGIONAL INDICATOR SYMBOL LETTERS CN'
+      name    '🇨🇳 Regional indicator symbol letters CN'
       notes   'Unified: `1F1E8-1F1F3`'
     end
     entry do
       command ':us:'
-      name    '<span style="font-size:2em;">🇺🇸 </span>REGIONAL INDICATOR SYMBOL LETTERS US'
+      name    '🇺🇸 Regional indicator symbol letters US'
       notes   'Unified: `1F1FA-1F1F8`'
     end
     entry do
       command ':fr:'
-      name    '<span style="font-size:2em;">🇫🇷 </span>REGIONAL INDICATOR SYMBOL LETTERS FR'
+      name    '🇫🇷 Regional indicator symbol letters FR'
       notes   'Unified: `1F1EB-1F1F7`'
     end
     entry do
       command ':es:'
-      name    '<span style="font-size:2em;">🇪🇸 </span>REGIONAL INDICATOR SYMBOL LETTERS ES'
+      name    '🇪🇸 Regional indicator symbol letters ES'
       notes   'Unified: `1F1EA-1F1F8`'
     end
     entry do
       command ':it:'
-      name    '<span style="font-size:2em;">🇮🇹 </span>REGIONAL INDICATOR SYMBOL LETTERS IT'
+      name    '🇮🇹 Regional indicator symbol letters IT'
       notes   'Unified: `1F1EE-1F1F9`'
     end
     entry do
       command ':ru:'
-      name    '<span style="font-size:2em;">🇷🇺 </span>REGIONAL INDICATOR SYMBOL LETTERS RU'
+      name    '🇷🇺 Regional indicator symbol letters RU'
       notes   'Unified: `1F1F7-1F1FA`'
     end
     entry do
       command ':gb:'
-      name    '<span style="font-size:2em;">🇬🇧 </span>REGIONAL INDICATOR SYMBOL LETTERS GB'
+      name    '🇬🇧 Regional indicator symbol letters GB'
       notes   'Unified: `1F1EC-1F1E7`'
     end
 
@@ -3209,1049 +3207,1049 @@ cheatsheet do
   category do
     id 'Symbols'
     
-        entry do
+    entry do
+      command ':zero:'
+      name    '0️⃣ Keycap 0'
+      notes   'Unified: `0030-20E3`'
+    end
+    entry do
       command ':one:'
-      name    '<span style="font-size:2em;">1️⃣ </span>KEYCAP 1'
+      name    '1️⃣ Keycap 1'
       notes   'Unified: `0031-20E3`'
     end
     entry do
       command ':two:'
-      name    '<span style="font-size:2em;">2️⃣ </span>KEYCAP 2'
+      name    '2️⃣ Keycap 2'
       notes   'Unified: `0032-20E3`'
     end
     entry do
       command ':three:'
-      name    '<span style="font-size:2em;">3️⃣ </span>KEYCAP 3'
+      name    '3️⃣ Keycap 3'
       notes   'Unified: `0033-20E3`'
     end
     entry do
       command ':four:'
-      name    '<span style="font-size:2em;">4️⃣ </span>KEYCAP 4'
+      name    '4️⃣ Keycap 4'
       notes   'Unified: `0034-20E3`'
     end
     entry do
       command ':five:'
-      name    '<span style="font-size:2em;">5️⃣ </span>KEYCAP 5'
+      name    '5️⃣ Keycap 5'
       notes   'Unified: `0035-20E3`'
     end
     entry do
       command ':six:'
-      name    '<span style="font-size:2em;">6️⃣ </span>KEYCAP 6'
+      name    '6️⃣ Keycap 6'
       notes   'Unified: `0036-20E3`'
     end
     entry do
       command ':seven:'
-      name    '<span style="font-size:2em;">7️⃣ </span>KEYCAP 7'
+      name    '7️⃣ Keycap 7'
       notes   'Unified: `0037-20E3`'
     end
     entry do
       command ':eight:'
-      name    '<span style="font-size:2em;">8️⃣ </span>KEYCAP 8'
+      name    '8️⃣ Keycap 8'
       notes   'Unified: `0038-20E3`'
     end
     entry do
       command ':nine:'
-      name    '<span style="font-size:2em;">9️⃣ </span>KEYCAP 9'
+      name    '9️⃣ Keycap 9'
       notes   'Unified: `0039-20E3`'
     end
     entry do
-      command ':zero:'
-      name    '<span style="font-size:2em;">0️⃣ </span>KEYCAP 0'
-      notes   'Unified: `0030-20E3`'
-    end
-    entry do
       command ':keycap_ten:'
-      name    '<span style="font-size:2em;">🔟 </span>KEYCAP TEN'
+      name    '🔟 Keycap ten'
       notes   'Unified: `1F51F`'
     end
     entry do
       command ':1234:'
-      name    '<span style="font-size:2em;">🔢 </span>INPUT SYMBOL FOR NUMBERS'
+      name    '🔢 Input symbol for numbers'
       notes   'Unified: `1F522`'
     end
     entry do
       command ':hash:'
-      name    '<span style="font-size:2em;">#️⃣ </span>HASH KEY'
+      name    '\#️⃣ Hash key'
       notes   'Unified: `0023-20E3`'
     end
     entry do
       command ':symbols:'
-      name    '<span style="font-size:2em;">🔣 </span>INPUT SYMBOL FOR SYMBOLS'
+      name    '🔣 Input symbol for symbols'
       notes   'Unified: `1F523`'
     end
     entry do
       command ':arrow_up:'
-      name    '<span style="font-size:2em;">⬆️ </span>UPWARDS BLACK ARROW'
+      name    '⬆️ Upwards black arrow'
       notes   'Unified: `2B06`'
     end
     entry do
       command ':arrow_down:'
-      name    '<span style="font-size:2em;">⬇️ </span>DOWNWARDS BLACK ARROW'
+      name    '⬇️ Downwards black arrow'
       notes   'Unified: `2B07`'
     end
     entry do
       command ':arrow_left:'
-      name    '<span style="font-size:2em;">⬅️ </span>LEFTWARDS BLACK ARROW'
+      name    '⬅️ Leftwards black arrow'
       notes   'Unified: `2B05`'
     end
     entry do
       command ':arrow_right:'
-      name    '<span style="font-size:2em;">➡️ </span>BLACK RIGHTWARDS ARROW'
+      name    '➡️ Black rightwards arrow'
       notes   'Unified: `27A1`'
     end
     entry do
       command ':capital_abcd:'
-      name    '<span style="font-size:2em;">🔠 </span>INPUT SYMBOL FOR LATIN CAPITAL LETTERS'
+      name    '🔠 Input symbol for latin capital letters'
       notes   'Unified: `1F520`'
     end
     entry do
       command ':abcd:'
-      name    '<span style="font-size:2em;">🔡 </span>INPUT SYMBOL FOR LATIN SMALL LETTERS'
+      name    '🔡 Input symbol for latin small letters'
       notes   'Unified: `1F521`'
     end
     entry do
       command ':abc:'
-      name    '<span style="font-size:2em;">🔤 </span>INPUT SYMBOL FOR LATIN LETTERS'
+      name    '🔤 Input symbol for latin letters'
       notes   'Unified: `1F524`'
     end
     entry do
       command ':arrow_upper_right:'
-      name    '<span style="font-size:2em;">↗️ </span>NORTH EAST ARROW'
+      name    '↗️ North east arrow'
       notes   'Unified: `2197`'
     end
     entry do
       command ':arrow_upper_left:'
-      name    '<span style="font-size:2em;">↖️ </span>NORTH WEST ARROW'
+      name    '↖️ North west arrow'
       notes   'Unified: `2196`'
     end
     entry do
       command ':arrow_lower_right:'
-      name    '<span style="font-size:2em;">↘️ </span>SOUTH EAST ARROW'
+      name    '↘️ South east arrow'
       notes   'Unified: `2198`'
     end
     entry do
       command ':arrow_lower_left:'
-      name    '<span style="font-size:2em;">↙️ </span>SOUTH WEST ARROW'
+      name    '↙️ South west arrow'
       notes   'Unified: `2199`'
     end
     entry do
       command ':left_right_arrow:'
-      name    '<span style="font-size:2em;">↔️ </span>LEFT RIGHT ARROW'
+      name    '↔️ Left right arrow'
       notes   'Unified: `2194`'
     end
     entry do
       command ':arrow_up_down:'
-      name    '<span style="font-size:2em;">↕️ </span>UP DOWN ARROW'
+      name    '↕️ Up down arrow'
       notes   'Unified: `2195`'
     end
     entry do
       command ':arrows_counterclockwise:'
-      name    '<span style="font-size:2em;">🔄 </span>ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS'
+      name    '🔄 Anticlockwise downwards and upwards open circle arrows'
       notes   'Unified: `1F504`'
     end
     entry do
       command ':arrow_backward:'
-      name    '<span style="font-size:2em;">◀️ </span>BLACK LEFT-POINTING TRIANGLE'
+      name    '◀️ Black left-pointing triangle'
       notes   'Unified: `25C0`'
     end
     entry do
       command ':arrow_forward:'
-      name    '<span style="font-size:2em;">▶️ </span>BLACK RIGHT-POINTING TRIANGLE'
+      name    '▶️ Black right-pointing triangle'
       notes   'Unified: `25B6`'
     end
     entry do
       command ':arrow_up_small:'
-      name    '<span style="font-size:2em;">🔼 </span>UP-POINTING SMALL RED TRIANGLE'
+      name    '🔼 Up-pointing small red triangle'
       notes   'Unified: `1F53C`'
     end
     entry do
       command ':arrow_down_small:'
-      name    '<span style="font-size:2em;">🔽 </span>DOWN-POINTING SMALL RED TRIANGLE'
+      name    '🔽 Down-pointing small red triangle'
       notes   'Unified: `1F53D`'
     end
     entry do
       command ':leftwards_arrow_with_hook:'
-      name    '<span style="font-size:2em;">↩️ </span>LEFTWARDS ARROW WITH HOOK'
+      name    '↩️ Leftwards arrow with hook'
       notes   'Unified: `21A9`'
     end
     entry do
       command ':arrow_right_hook:'
-      name    '<span style="font-size:2em;">↪️ </span>RIGHTWARDS ARROW WITH HOOK'
+      name    '↪️ Rightwards arrow with hook'
       notes   'Unified: `21AA`'
     end
     entry do
       command ':information_source:'
-      name    '<span style="font-size:2em;">ℹ️ </span>INFORMATION SOURCE'
+      name    'ℹ️ Information source'
       notes   'Unified: `2139`'
     end
     entry do
       command ':rewind:'
-      name    '<span style="font-size:2em;">⏪ </span>BLACK LEFT-POINTING DOUBLE TRIANGLE'
+      name    '⏪ Black left-pointing double triangle'
       notes   'Unified: `23EA`'
     end
     entry do
       command ':fast_forward:'
-      name    '<span style="font-size:2em;">⏩ </span>BLACK RIGHT-POINTING DOUBLE TRIANGLE'
+      name    '⏩ Black right-pointing double triangle'
       notes   'Unified: `23E9`'
     end
     entry do
       command ':arrow_double_up:'
-      name    '<span style="font-size:2em;">⏫ </span>BLACK UP-POINTING DOUBLE TRIANGLE'
+      name    '⏫ Black up-pointing double triangle'
       notes   'Unified: `23EB`'
     end
     entry do
       command ':arrow_double_down:'
-      name    '<span style="font-size:2em;">⏬ </span>BLACK DOWN-POINTING DOUBLE TRIANGLE'
+      name    '⏬ Black down-pointing double triangle'
       notes   'Unified: `23EC`'
     end
     entry do
       command ':arrow_heading_down:'
-      name    '<span style="font-size:2em;">⤵️ </span>ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS'
+      name    '⤵️ Arrow pointing rightwards then curving downwards'
       notes   'Unified: `2935`'
     end
     entry do
       command ':arrow_heading_up:'
-      name    '<span style="font-size:2em;">⤴️ </span>ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS'
+      name    '⤴️ Arrow pointing rightwards then curving upwards'
       notes   'Unified: `2934`'
     end
     entry do
       command ':ok:'
-      name    '<span style="font-size:2em;">🆗 </span>SQUARED OK'
+      name    '🆗 Squared ok'
       notes   'Unified: `1F197`'
     end
     entry do
       command ':twisted_rightwards_arrows:'
-      name    '<span style="font-size:2em;">🔀 </span>TWISTED RIGHTWARDS ARROWS'
+      name    '🔀 Twisted rightwards arrows'
       notes   'Unified: `1F500`'
     end
     entry do
       command ':repeat:'
-      name    '<span style="font-size:2em;">🔁 </span>CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS'
+      name    '🔁 Clockwise rightwards and leftwards open circle arrows'
       notes   'Unified: `1F501`'
     end
     entry do
       command ':repeat_one:'
-      name    '<span style="font-size:2em;">🔂 </span>CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY'
+      name    '🔂 Clockwise rightwards and leftwards open circle arrows with circled one overlay'
       notes   'Unified: `1F502`'
     end
     entry do
       command ':new:'
-      name    '<span style="font-size:2em;">🆕 </span>SQUARED NEW'
+      name    '🆕 Squared new'
       notes   'Unified: `1F195`'
     end
     entry do
       command ':up:'
-      name    '<span style="font-size:2em;">🆙 </span>SQUARED UP WITH EXCLAMATION MARK'
+      name    '🆙 Squared up with exclamation mark'
       notes   'Unified: `1F199`'
     end
     entry do
       command ':cool:'
-      name    '<span style="font-size:2em;">🆒 </span>SQUARED COOL'
+      name    '🆒 Squared cool'
       notes   'Unified: `1F192`'
     end
     entry do
       command ':free:'
-      name    '<span style="font-size:2em;">🆓 </span>SQUARED FREE'
+      name    '🆓 Squared free'
       notes   'Unified: `1F193`'
     end
     entry do
       command ':ng:'
-      name    '<span style="font-size:2em;">🆖 </span>SQUARED NG'
+      name    '🆖 Squared ng'
       notes   'Unified: `1F196`'
     end
     entry do
       command ':signal_strength:'
-      name    '<span style="font-size:2em;">📶 </span>ANTENNA WITH BARS'
+      name    '📶 Antenna with bars'
       notes   'Unified: `1F4F6`'
     end
     entry do
       command ':cinema:'
-      name    '<span style="font-size:2em;">🎦 </span>CINEMA'
+      name    '🎦 Cinema'
       notes   'Unified: `1F3A6`'
     end
     entry do
       command ':koko:'
-      name    '<span style="font-size:2em;">🈁 </span>SQUARED KATAKANA KOKO'
+      name    '🈁 Squared katakana koko'
       notes   'Unified: `1F201`'
     end
     entry do
       command ':u6307:'
-      name    '<span style="font-size:2em;">🈯️ </span>SQUARED CJK UNIFIED IDEOGRAPH-6307'
+      name    '🈯️ Squared CJK unified ideograph-6307'
       notes   'Unified: `1F22F`'
     end
     entry do
       command ':u7a7a:'
-      name    '<span style="font-size:2em;">🈳 </span>SQUARED CJK UNIFIED IDEOGRAPH-7A7A'
+      name    '🈳 Squared CJK unified ideograph-7A7A'
       notes   'Unified: `1F233`'
     end
     entry do
       command ':u6e80:'
-      name    '<span style="font-size:2em;">🈵 </span>SQUARED CJK UNIFIED IDEOGRAPH-6E80'
+      name    '🈵 Squared CJK unified ideograph-6E80'
       notes   'Unified: `1F235`'
     end
     entry do
       command ':u5408:'
-      name    '<span style="font-size:2em;">🈴 </span>SQUARED CJK UNIFIED IDEOGRAPH-5408'
+      name    '🈴 Squared CJK unified ideograph-5408'
       notes   'Unified: `1F234`'
     end
     entry do
       command ':u7981:'
-      name    '<span style="font-size:2em;">🈲 </span>SQUARED CJK UNIFIED IDEOGRAPH-7981'
+      name    '🈲 Squared CJK unified ideograph-7981'
       notes   'Unified: `1F232`'
     end
     entry do
       command ':ideograph_advantage:'
-      name    '<span style="font-size:2em;">🉐 </span>CIRCLED IDEOGRAPH ADVANTAGE'
+      name    '🉐 Circled ideograph advantage'
       notes   'Unified: `1F250`'
     end
     entry do
       command ':u5272:'
-      name    '<span style="font-size:2em;">🈹 </span>SQUARED CJK UNIFIED IDEOGRAPH-5272'
+      name    '🈹 Squared CJK unified ideograph-5272'
       notes   'Unified: `1F239`'
     end
     entry do
       command ':u55b6:'
-      name    '<span style="font-size:2em;">🈺 </span>SQUARED CJK UNIFIED IDEOGRAPH-55B6'
+      name    '🈺 Squared CJK unified ideograph-55B6'
       notes   'Unified: `1F23A`'
     end
     entry do
       command ':u6709:'
-      name    '<span style="font-size:2em;">🈶 </span>SQUARED CJK UNIFIED IDEOGRAPH-6709'
+      name    '🈶 Squared CJK unified ideograph-6709'
       notes   'Unified: `1F236`'
     end
     entry do
       command ':u7121:'
-      name    '<span style="font-size:2em;">🈚️ </span>SQUARED CJK UNIFIED IDEOGRAPH-7121'
+      name    '🈚️ Squared CJK unified ideograph-7121'
       notes   'Unified: `1F21A`'
     end
     entry do
       command ':restroom:'
-      name    '<span style="font-size:2em;">🚻 </span>RESTROOM'
+      name    '🚻 Restroom'
       notes   'Unified: `1F6BB`'
     end
     entry do
       command ':mens:'
-      name    '<span style="font-size:2em;">🚹 </span>MENS SYMBOL'
+      name    '🚹 Mens symbol'
       notes   'Unified: `1F6B9`'
     end
     entry do
       command ':womens:'
-      name    '<span style="font-size:2em;">🚺 </span>WOMENS SYMBOL'
+      name    '🚺 Womens symbol'
       notes   'Unified: `1F6BA`'
     end
     entry do
       command ':baby_symbol:'
-      name    '<span style="font-size:2em;">🚼 </span>BABY SYMBOL'
+      name    '🚼 Baby symbol'
       notes   'Unified: `1F6BC`'
     end
     entry do
       command ':wc:'
-      name    '<span style="font-size:2em;">🚾 </span>WATER CLOSET'
+      name    '🚾 Water closet'
       notes   'Unified: `1F6BE`'
     end
     entry do
       command ':potable_water:'
-      name    '<span style="font-size:2em;">🚰 </span>POTABLE WATER SYMBOL'
+      name    '🚰 Potable water symbol'
       notes   'Unified: `1F6B0`'
     end
     entry do
       command ':put_litter_in_its_place:'
-      name    '<span style="font-size:2em;">🚮 </span>PUT LITTER IN ITS PLACE SYMBOL'
+      name    '🚮 Put litter in its place symbol'
       notes   'Unified: `1F6AE`'
     end
     entry do
       command ':parking:'
-      name    '<span style="font-size:2em;">🅿️ </span>NEGATIVE SQUARED LATIN CAPITAL LETTER P'
+      name    '🅿️ Negative squared latin capital letter P'
       notes   'Unified: `1F17F`'
     end
     entry do
       command ':wheelchair:'
-      name    '<span style="font-size:2em;">♿️ </span>WHEELCHAIR SYMBOL'
+      name    '♿️ Wheelchair symbol'
       notes   'Unified: `267F`'
     end
     entry do
       command ':no_smoking:'
-      name    '<span style="font-size:2em;">🚭 </span>NO SMOKING SYMBOL'
+      name    '🚭 No smoking symbol'
       notes   'Unified: `1F6AD`'
     end
     entry do
       command ':u6708:'
-      name    '<span style="font-size:2em;">🈷 </span>SQUARED CJK UNIFIED IDEOGRAPH-6708'
+      name    '🈷 Squared CJK unified ideograph-6708'
       notes   'Unified: `1F237`'
     end
     entry do
       command ':u7533:'
-      name    '<span style="font-size:2em;">🈸 </span>SQUARED CJK UNIFIED IDEOGRAPH-7533'
+      name    '🈸 Squared CJK unified ideograph-7533'
       notes   'Unified: `1F238`'
     end
     entry do
       command ':sa:'
-      name    '<span style="font-size:2em;">🈂 </span>SQUARED KATAKANA SA'
+      name    '🈂 Squared katakana sa'
       notes   'Unified: `1F202`'
     end
     entry do
       command ':m:'
-      name    '<span style="font-size:2em;">Ⓜ️ </span>CIRCLED LATIN CAPITAL LETTER M'
+      name    'Ⓜ️ Circled latin capital letter M'
       notes   'Unified: `24C2`'
     end
     entry do
       command ':passport_control:'
-      name    '<span style="font-size:2em;">🛂 </span>PASSPORT CONTROL'
+      name    '🛂 Passport control'
       notes   'Unified: `1F6C2`'
     end
     entry do
       command ':baggage_claim:'
-      name    '<span style="font-size:2em;">🛄 </span>BAGGAGE CLAIM'
+      name    '🛄 Baggage claim'
       notes   'Unified: `1F6C4`'
     end
     entry do
       command ':left_luggage:'
-      name    '<span style="font-size:2em;">🛅 </span>LEFT LUGGAGE'
+      name    '🛅 Left luggage'
       notes   'Unified: `1F6C5`'
     end
     entry do
       command ':customs:'
-      name    '<span style="font-size:2em;">🛃 </span>CUSTOMS'
+      name    '🛃 Customs'
       notes   'Unified: `1F6C3`'
     end
     entry do
       command ':accept:'
-      name    '<span style="font-size:2em;">🉑 </span>CIRCLED IDEOGRAPH ACCEPT'
+      name    '🉑 Circled ideograph accept'
       notes   'Unified: `1F251`'
     end
     entry do
       command ':secret:'
-      name    '<span style="font-size:2em;">㊙️ </span>CIRCLED IDEOGRAPH SECRET'
+      name    '㊙️ Circled ideograph secret'
       notes   'Unified: `3299`'
     end
     entry do
       command ':congratulations:'
-      name    '<span style="font-size:2em;">㊗️ </span>CIRCLED IDEOGRAPH CONGRATULATION'
+      name    '㊗️ Circled ideograph congratulation'
       notes   'Unified: `3297`'
     end
     entry do
       command ':cl:'
-      name    '<span style="font-size:2em;">🆑 </span>SQUARED CL'
+      name    '🆑 Squared cl'
       notes   'Unified: `1F191`'
     end
     entry do
       command ':sos:'
-      name    '<span style="font-size:2em;">🆘 </span>SQUARED SOS'
+      name    '🆘 Squared SOS'
       notes   'Unified: `1F198`'
     end
     entry do
       command ':id:'
-      name    '<span style="font-size:2em;">🆔 </span>SQUARED ID'
+      name    '🆔 Squared id'
       notes   'Unified: `1F194`'
     end
     entry do
       command ':no_entry_sign:'
-      name    '<span style="font-size:2em;">🚫 </span>NO ENTRY SIGN'
+      name    '🚫 No entry sign'
       notes   'Unified: `1F6AB`'
     end
     entry do
       command ':underage:'
-      name    '<span style="font-size:2em;">🔞 </span>NO ONE UNDER EIGHTEEN SYMBOL'
+      name    '🔞 No one under eighteen symbol'
       notes   'Unified: `1F51E`'
     end
     entry do
       command ':no_mobile_phones:'
-      name    '<span style="font-size:2em;">📵 </span>NO MOBILE PHONES'
+      name    '📵 No mobile phones'
       notes   'Unified: `1F4F5`'
     end
     entry do
       command ':do_not_litter:'
-      name    '<span style="font-size:2em;">🚯 </span>DO NOT LITTER SYMBOL'
+      name    '🚯 Do not litter symbol'
       notes   'Unified: `1F6AF`'
     end
     entry do
       command ':non-potable_water:'
-      name    '<span style="font-size:2em;">🚱 </span>NON-POTABLE WATER SYMBOL'
+      name    '🚱 Non-potable water symbol'
       notes   'Unified: `1F6B1`'
     end
     entry do
       command ':no_bicycles:'
-      name    '<span style="font-size:2em;">🚳 </span>NO BICYCLES'
+      name    '🚳 No bicycles'
       notes   'Unified: `1F6B3`'
     end
     entry do
       command ':no_pedestrians:'
-      name    '<span style="font-size:2em;">🚷 </span>NO PEDESTRIANS'
+      name    '🚷 No pedestrians'
       notes   'Unified: `1F6B7`'
     end
     entry do
       command ':children_crossing:'
-      name    '<span style="font-size:2em;">🚸 </span>CHILDREN CROSSING'
+      name    '🚸 Children crossing'
       notes   'Unified: `1F6B8`'
     end
     entry do
       command ':no_entry:'
-      name    '<span style="font-size:2em;">⛔️ </span>NO ENTRY'
+      name    '⛔️ No entry'
       notes   'Unified: `26D4`'
     end
     entry do
       command ':eight_spoked_asterisk:'
-      name    '<span style="font-size:2em;">✳️ </span>EIGHT SPOKED ASTERISK'
+      name    '✳️ Eight spoked asterisk'
       notes   'Unified: `2733`'
     end
     entry do
       command ':sparkle:'
-      name    '<span style="font-size:2em;">❇️ </span>SPARKLE'
+      name    '❇️ Sparkle'
       notes   'Unified: `2747`'
     end
     entry do
       command ':negative_squared_cross_mark:'
-      name    '<span style="font-size:2em;">❎ </span>NEGATIVE SQUARED CROSS MARK'
+      name    '❎ Negative squared cross mark'
       notes   'Unified: `274E`'
     end
     entry do
       command ':white_check_mark:'
-      name    '<span style="font-size:2em;">✅ </span>WHITE HEAVY CHECK MARK'
+      name    '✅ White heavy check mark'
       notes   'Unified: `2705`'
     end
     entry do
       command ':eight_pointed_black_star:'
-      name    '<span style="font-size:2em;">✴️ </span>EIGHT POINTED BLACK STAR'
+      name    '✴️ Eight pointed black star'
       notes   'Unified: `2734`'
     end
     entry do
       command ':heart_decoration:'
-      name    '<span style="font-size:2em;">💟 </span>HEART DECORATION'
+      name    '💟 Heart decoration'
       notes   'Unified: `1F49F`'
     end
     entry do
       command ':vs:'
-      name    '<span style="font-size:2em;">🆚 </span>SQUARED VS'
+      name    '🆚 Squared vs'
       notes   'Unified: `1F19A`'
     end
     entry do
       command ':vibration_mode:'
-      name    '<span style="font-size:2em;">📳 </span>VIBRATION MODE'
+      name    '📳 Vibration mode'
       notes   'Unified: `1F4F3`'
     end
     entry do
       command ':mobile_phone_off:'
-      name    '<span style="font-size:2em;">📴 </span>MOBILE PHONE OFF'
+      name    '📴 Mobile phone off'
       notes   'Unified: `1F4F4`'
     end
     entry do
       command ':a:'
-      name    '<span style="font-size:2em;">🅰 </span>NEGATIVE SQUARED LATIN CAPITAL LETTER A'
+      name    '🅰 Negative squared latin capital letter A'
       notes   'Unified: `1F170`'
     end
     entry do
       command ':b:'
-      name    '<span style="font-size:2em;">🅱 </span>NEGATIVE SQUARED LATIN CAPITAL LETTER B'
+      name    '🅱 Negative squared latin capital letter B'
       notes   'Unified: `1F171`'
     end
     entry do
       command ':ab:'
-      name    '<span style="font-size:2em;">🆎 </span>NEGATIVE SQUARED AB'
+      name    '🆎 Negative squared AB'
       notes   'Unified: `1F18E`'
     end
     entry do
       command ':o2:'
-      name    '<span style="font-size:2em;">🅾 </span>NEGATIVE SQUARED LATIN CAPITAL LETTER O'
+      name    '🅾 Negative squared latin capital letter O'
       notes   'Unified: `1F17E`'
     end
     entry do
       command ':diamond_shape_with_a_dot_inside:'
-      name    '<span style="font-size:2em;">💠 </span>DIAMOND SHAPE WITH A DOT INSIDE'
+      name    '💠 Diamond shape with a dot inside'
       notes   'Unified: `1F4A0`'
     end
     entry do
       command ':loop:'
-      name    '<span style="font-size:2em;">➿ </span>DOUBLE CURLY LOOP'
+      name    '➿ Double curly loop'
       notes   'Unified: `27BF`'
     end
     entry do
       command ':recycle:'
-      name    '<span style="font-size:2em;">♻️ </span>BLACK UNIVERSAL RECYCLING SYMBOL'
+      name    '♻️ Black universal recycling symbol'
       notes   'Unified: `267B`'
     end
     entry do
       command ':aries:'
-      name    '<span style="font-size:2em;">♈️ </span>ARIES'
+      name    '♈️ Aries'
       notes   'Unified: `2648`'
     end
     entry do
       command ':taurus:'
-      name    '<span style="font-size:2em;">♉️ </span>TAURUS'
+      name    '♉️ Taurus'
       notes   'Unified: `2649`'
     end
     entry do
       command ':gemini:'
-      name    '<span style="font-size:2em;">♊️ </span>GEMINI'
+      name    '♊️ Gemini'
       notes   'Unified: `264A`'
     end
     entry do
       command ':cancer:'
-      name    '<span style="font-size:2em;">♋️ </span>CANCER'
+      name    '♋️ Cancer'
       notes   'Unified: `264B`'
     end
     entry do
       command ':leo:'
-      name    '<span style="font-size:2em;">♌️ </span>LEO'
+      name    '♌️ Leo'
       notes   'Unified: `264C`'
     end
     entry do
       command ':virgo:'
-      name    '<span style="font-size:2em;">♍️ </span>VIRGO'
+      name    '♍️ Virgo'
       notes   'Unified: `264D`'
     end
     entry do
       command ':libra:'
-      name    '<span style="font-size:2em;">♎️ </span>LIBRA'
+      name    '♎️ Libra'
       notes   'Unified: `264E`'
     end
     entry do
       command ':scorpius:'
-      name    '<span style="font-size:2em;">♏️ </span>SCORPIUS'
+      name    '♏️ Scorpius'
       notes   'Unified: `264F`'
     end
     entry do
       command ':sagittarius:'
-      name    '<span style="font-size:2em;">♐️ </span>SAGITTARIUS'
+      name    '♐️ Sagittarius'
       notes   'Unified: `2650`'
     end
     entry do
       command ':capricorn:'
-      name    '<span style="font-size:2em;">♑️ </span>CAPRICORN'
+      name    '♑️ Capricorn'
       notes   'Unified: `2651`'
     end
     entry do
       command ':aquarius:'
-      name    '<span style="font-size:2em;">♒️ </span>AQUARIUS'
+      name    '♒️ Aquarius'
       notes   'Unified: `2652`'
     end
     entry do
       command ':pisces:'
-      name    '<span style="font-size:2em;">♓️ </span>PISCES'
+      name    '♓️ Pisces'
       notes   'Unified: `2653`'
     end
     entry do
       command ':ophiuchus:'
-      name    '<span style="font-size:2em;">⛎ </span>OPHIUCHUS'
+      name    '⛎ Ophiuchus'
       notes   'Unified: `26CE`'
     end
     entry do
       command ':six_pointed_star:'
-      name    '<span style="font-size:2em;">🔯 </span>SIX POINTED STAR WITH MIDDLE DOT'
+      name    '🔯 Six pointed star with middle dot'
       notes   'Unified: `1F52F`'
     end
     entry do
       command ':atm:'
-      name    '<span style="font-size:2em;">🏧 </span>AUTOMATED TELLER MACHINE'
+      name    '🏧 Automated teller machine'
       notes   'Unified: `1F3E7`'
     end
     entry do
       command ':chart:'
-      name    '<span style="font-size:2em;">💹 </span>CHART WITH UPWARDS TREND AND YEN SIGN'
+      name    '💹 Chart with upwards trend and yen sign'
       notes   'Unified: `1F4B9`'
     end
     entry do
       command ':heavy_dollar_sign:'
-      name    '<span style="font-size:2em;">💲 </span>HEAVY DOLLAR SIGN'
+      name    '💲 Heavy dollar sign'
       notes   'Unified: `1F4B2`'
     end
     entry do
       command ':currency_exchange:'
-      name    '<span style="font-size:2em;">💱 </span>CURRENCY EXCHANGE'
+      name    '💱 Currency exchange'
       notes   'Unified: `1F4B1`'
     end
     entry do
       command ':copyright:'
-      name    '<span style="font-size:2em;">© </span>COPYRIGHT SIGN'
+      name    '© Copyright sign'
       notes   'Unified: `00A9`'
     end
     entry do
       command ':registered:'
-      name    '<span style="font-size:2em;">® </span>REGISTERED SIGN'
+      name    '® Registered sign'
       notes   'Unified: `00AE`'
     end
     entry do
       command ':tm:'
-      name    '<span style="font-size:2em;">™ </span>TRADE MARK SIGN'
+      name    '™ Trade mark sign'
       notes   'Unified: `2122`'
     end
     entry do
       command ':x:'
-      name    '<span style="font-size:2em;">❌ </span>CROSS MARK'
+      name    '❌ Cross mark'
       notes   'Unified: `274C`'
     end
     entry do
       command ':bangbang:'
-      name    '<span style="font-size:2em;">‼️ </span>DOUBLE EXCLAMATION MARK'
+      name    '‼️ Double exclamation mark'
       notes   'Unified: `203C`'
     end
     entry do
       command ':interrobang:'
-      name    '<span style="font-size:2em;">⁉️ </span>EXCLAMATION QUESTION MARK'
+      name    '⁉️ Exclamation question mark'
       notes   'Unified: `2049`'
     end
     entry do
       command ':exclamation:'
-      name    '<span style="font-size:2em;">❗️ </span>HEAVY EXCLAMATION MARK SYMBOL'
+      name    '❗️ Heavy exclamation mark symbol'
       notes   'Unified: `2757`'
     end
     entry do
       command ':question:'
-      name    '<span style="font-size:2em;">❓ </span>BLACK QUESTION MARK ORNAMENT'
+      name    '❓ Black question mark ornament'
       notes   'Unified: `2753`'
     end
     entry do
       command ':grey_exclamation:'
-      name    '<span style="font-size:2em;">❕ </span>WHITE EXCLAMATION MARK ORNAMENT'
+      name    '❕ White exclamation mark ornament'
       notes   'Unified: `2755`'
     end
     entry do
       command ':grey_question:'
-      name    '<span style="font-size:2em;">❔ </span>WHITE QUESTION MARK ORNAMENT'
+      name    '❔ White question mark ornament'
       notes   'Unified: `2754`'
     end
     entry do
       command ':o:'
-      name    '<span style="font-size:2em;">⭕️ </span>HEAVY LARGE CIRCLE'
+      name    '⭕️ Heavy large circle'
       notes   'Unified: `2B55`'
     end
     entry do
       command ':top:'
-      name    '<span style="font-size:2em;">🔝 </span>TOP WITH UPWARDS ARROW ABOVE'
+      name    '🔝 Top with upwards arrow above'
       notes   'Unified: `1F51D`'
     end
     entry do
       command ':end:'
-      name    '<span style="font-size:2em;">🔚 </span>END WITH LEFTWARDS ARROW ABOVE'
+      name    '🔚 End with leftwards arrow above'
       notes   'Unified: `1F51A`'
     end
     entry do
       command ':back:'
-      name    '<span style="font-size:2em;">🔙 </span>BACK WITH LEFTWARDS ARROW ABOVE'
+      name    '🔙 Back with leftwards arrow above'
       notes   'Unified: `1F519`'
     end
     entry do
       command ':on:'
-      name    '<span style="font-size:2em;">🔛 </span>ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE'
+      name    '🔛 On with exclamation mark with left right arrow above'
       notes   'Unified: `1F51B`'
     end
     entry do
       command ':soon:'
-      name    '<span style="font-size:2em;">🔜 </span>SOON WITH RIGHTWARDS ARROW ABOVE'
+      name    '🔜 Soon with rightwards arrow above'
       notes   'Unified: `1F51C`'
     end
     entry do
       command ':arrows_clockwise:'
-      name    '<span style="font-size:2em;">🔃 </span>CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS'
+      name    '🔃 Clockwise downwards and upwards open circle arrows'
       notes   'Unified: `1F503`'
     end
     entry do
       command ':clock12:'
-      name    '<span style="font-size:2em;">🕛 </span>CLOCK FACE TWELVE OCLOCK'
+      name    '🕛 Clock face twelve oclock'
       notes   'Unified: `1F55B`'
     end
     entry do
       command ':clock1230:'
-      name    '<span style="font-size:2em;">🕧 </span>CLOCK FACE TWELVE-THIRTY'
+      name    '🕧 Clock face twelve-thirty'
       notes   'Unified: `1F567`'
     end
     entry do
       command ':clock1:'
-      name    '<span style="font-size:2em;">🕐 </span>CLOCK FACE ONE OCLOCK'
+      name    '🕐 Clock face one oclock'
       notes   'Unified: `1F550`'
     end
     entry do
       command ':clock130:'
-      name    '<span style="font-size:2em;">🕜 </span>CLOCK FACE ONE-THIRTY'
+      name    '🕜 Clock face one-thirty'
       notes   'Unified: `1F55C`'
     end
     entry do
       command ':clock2:'
-      name    '<span style="font-size:2em;">🕑 </span>CLOCK FACE TWO OCLOCK'
+      name    '🕑 Clock face two oclock'
       notes   'Unified: `1F551`'
     end
     entry do
       command ':clock230:'
-      name    '<span style="font-size:2em;">🕝 </span>CLOCK FACE TWO-THIRTY'
+      name    '🕝 Clock face two-thirty'
       notes   'Unified: `1F55D`'
     end
     entry do
       command ':clock3:'
-      name    '<span style="font-size:2em;">🕒 </span>CLOCK FACE THREE OCLOCK'
+      name    '🕒 Clock face three oclock'
       notes   'Unified: `1F552`'
     end
     entry do
       command ':clock330:'
-      name    '<span style="font-size:2em;">🕞 </span>CLOCK FACE THREE-THIRTY'
+      name    '🕞 Clock face three-thirty'
       notes   'Unified: `1F55E`'
     end
     entry do
       command ':clock4:'
-      name    '<span style="font-size:2em;">🕓 </span>CLOCK FACE FOUR OCLOCK'
+      name    '🕓 Clock face four oclock'
       notes   'Unified: `1F553`'
     end
     entry do
       command ':clock430:'
-      name    '<span style="font-size:2em;">🕟 </span>CLOCK FACE FOUR-THIRTY'
+      name    '🕟 Clock face four-thirty'
       notes   'Unified: `1F55F`'
     end
     entry do
       command ':clock5:'
-      name    '<span style="font-size:2em;">🕔 </span>CLOCK FACE FIVE OCLOCK'
+      name    '🕔 Clock face five oclock'
       notes   'Unified: `1F554`'
     end
     entry do
       command ':clock530:'
-      name    '<span style="font-size:2em;">🕠 </span>CLOCK FACE FIVE-THIRTY'
+      name    '🕠 Clock face five-thirty'
       notes   'Unified: `1F560`'
     end
     entry do
       command ':clock6:'
-      name    '<span style="font-size:2em;">🕕 </span>CLOCK FACE SIX OCLOCK'
+      name    '🕕 Clock face six oclock'
       notes   'Unified: `1F555`'
     end
     entry do
       command ':clock7:'
-      name    '<span style="font-size:2em;">🕖 </span>CLOCK FACE SEVEN OCLOCK'
+      name    '🕖 Clock face seven oclock'
       notes   'Unified: `1F556`'
     end
     entry do
       command ':clock8:'
-      name    '<span style="font-size:2em;">🕗 </span>CLOCK FACE EIGHT OCLOCK'
+      name    '🕗 Clock face eight oclock'
       notes   'Unified: `1F557`'
     end
     entry do
       command ':clock9:'
-      name    '<span style="font-size:2em;">🕘 </span>CLOCK FACE NINE OCLOCK'
+      name    '🕘 Clock face nine oclock'
       notes   'Unified: `1F558`'
     end
     entry do
       command ':clock10:'
-      name    '<span style="font-size:2em;">🕙 </span>CLOCK FACE TEN OCLOCK'
+      name    '🕙 Clock face ten oclock'
       notes   'Unified: `1F559`'
     end
     entry do
       command ':clock11:'
-      name    '<span style="font-size:2em;">🕚 </span>CLOCK FACE ELEVEN OCLOCK'
+      name    '🕚 Clock face eleven oclock'
       notes   'Unified: `1F55A`'
     end
     entry do
       command ':clock630:'
-      name    '<span style="font-size:2em;">🕡 </span>CLOCK FACE SIX-THIRTY'
+      name    '🕡 Clock face six-thirty'
       notes   'Unified: `1F561`'
     end
     entry do
       command ':clock730:'
-      name    '<span style="font-size:2em;">🕢 </span>CLOCK FACE SEVEN-THIRTY'
+      name    '🕢 Clock face seven-thirty'
       notes   'Unified: `1F562`'
     end
     entry do
       command ':clock830:'
-      name    '<span style="font-size:2em;">🕣 </span>CLOCK FACE EIGHT-THIRTY'
+      name    '🕣 Clock face eight-thirty'
       notes   'Unified: `1F563`'
     end
     entry do
       command ':clock930:'
-      name    '<span style="font-size:2em;">🕤 </span>CLOCK FACE NINE-THIRTY'
+      name    '🕤 Clock face nine-thirty'
       notes   'Unified: `1F564`'
     end
     entry do
       command ':clock1030:'
-      name    '<span style="font-size:2em;">🕥 </span>CLOCK FACE TEN-THIRTY'
+      name    '🕥 Clock face ten-thirty'
       notes   'Unified: `1F565`'
     end
     entry do
       command ':clock1130:'
-      name    '<span style="font-size:2em;">🕦 </span>CLOCK FACE ELEVEN-THIRTY'
+      name    '🕦 Clock face eleven-thirty'
       notes   'Unified: `1F566`'
     end
     entry do
       command ':heavy_multiplication_x:'
-      name    '<span style="font-size:2em;">✖️ </span>HEAVY MULTIPLICATION X'
+      name    '✖️ Heavy multiplication x'
       notes   'Unified: `2716`'
     end
     entry do
       command ':heavy_plus_sign:'
-      name    '<span style="font-size:2em;">➕ </span>HEAVY PLUS SIGN'
+      name    '➕ Heavy plus sign'
       notes   'Unified: `2795`'
     end
     entry do
       command ':heavy_minus_sign:'
-      name    '<span style="font-size:2em;">➖ </span>HEAVY MINUS SIGN'
+      name    '➖ Heavy minus sign'
       notes   'Unified: `2796`'
     end
     entry do
       command ':heavy_division_sign:'
-      name    '<span style="font-size:2em;">➗ </span>HEAVY DIVISION SIGN'
+      name    '➗ Heavy division sign'
       notes   'Unified: `2797`'
     end
     entry do
       command ':spades:'
-      name    '<span style="font-size:2em;">♠️ </span>BLACK SPADE SUIT'
+      name    '♠️ Black spade suit'
       notes   'Unified: `2660`'
     end
     entry do
       command ':hearts:'
-      name    '<span style="font-size:2em;">♥️ </span>BLACK HEART SUIT'
+      name    '♥️ Black heart suit'
       notes   'Unified: `2665`'
     end
     entry do
       command ':clubs:'
-      name    '<span style="font-size:2em;">♣️ </span>BLACK CLUB SUIT'
+      name    '♣️ Black club suit'
       notes   'Unified: `2663`'
     end
     entry do
       command ':diamonds:'
-      name    '<span style="font-size:2em;">♦️ </span>BLACK DIAMOND SUIT'
+      name    '♦️ Black diamond suit'
       notes   'Unified: `2666`'
     end
     entry do
       command ':white_flower:'
-      name    '<span style="font-size:2em;">💮 </span>WHITE FLOWER'
+      name    '💮 White flower'
       notes   'Unified: `1F4AE`'
     end
     entry do
       command ':100:'
-      name    '<span style="font-size:2em;">💯 </span>HUNDRED POINTS SYMBOL'
+      name    '💯 Hundred points symbol'
       notes   'Unified: `1F4AF`'
     end
     entry do
       command ':heavy_check_mark:'
-      name    '<span style="font-size:2em;">✔️ </span>HEAVY CHECK MARK'
+      name    '✔️ Heavy check mark'
       notes   'Unified: `2714`'
     end
     entry do
       command ':ballot_box_with_check:'
-      name    '<span style="font-size:2em;">☑️ </span>BALLOT BOX WITH CHECK'
+      name    '☑️ Ballot box with check'
       notes   'Unified: `2611`'
     end
     entry do
       command ':radio_button:'
-      name    '<span style="font-size:2em;">🔘 </span>RADIO BUTTON'
+      name    '🔘 Radio button'
       notes   'Unified: `1F518`'
     end
     entry do
       command ':link:'
-      name    '<span style="font-size:2em;">🔗 </span>LINK SYMBOL'
+      name    '🔗 Link symbol'
       notes   'Unified: `1F517`'
     end
     entry do
       command ':curly_loop:'
-      name    '<span style="font-size:2em;">➰ </span>CURLY LOOP'
+      name    '➰ Curly loop'
       notes   'Unified: `27B0`'
     end
     entry do
       command ':wavy_dash:'
-      name    '<span style="font-size:2em;">〰 </span>WAVY DASH'
+      name    '〰 Wavy dash'
       notes   'Unified: `3030`'
     end
     entry do
       command ':part_alternation_mark:'
-      name    '<span style="font-size:2em;">〽️ </span>PART ALTERNATION MARK'
+      name    '〽️ Part alternation mark'
       notes   'Unified: `303D`'
     end
     entry do
       command ':trident:'
-      name    '<span style="font-size:2em;">🔱 </span>TRIDENT EMBLEM'
+      name    '🔱 Trident emblem'
       notes   'Unified: `1F531`'
     end
     entry do
       command ':black_medium_square:'
-      name    '<span style="font-size:2em;">◼️ </span>BLACK MEDIUM SQUARE'
+      name    '◼️ Black medium square'
       notes   'Unified: `25FC`'
     end
     entry do
       command ':white_medium_square:'
-      name    '<span style="font-size:2em;">◻️ </span>WHITE MEDIUM SQUARE'
+      name    '◻️ White medium square'
       notes   'Unified: `25FB`'
     end
     entry do
       command ':black_medium_small_square:'
-      name    '<span style="font-size:2em;">◾️ </span>BLACK MEDIUM SMALL SQUARE'
+      name    '◾️ Black medium small square'
       notes   'Unified: `25FE`'
     end
     entry do
       command ':white_medium_small_square:'
-      name    '<span style="font-size:2em;">◽️ </span>WHITE MEDIUM SMALL SQUARE'
+      name    '◽️ White medium small square'
       notes   'Unified: `25FD`'
     end
     entry do
       command ':black_small_square:'
-      name    '<span style="font-size:2em;">▪️ </span>BLACK SMALL SQUARE'
+      name    '▪️ Black small square'
       notes   'Unified: `25AA`'
     end
     entry do
       command ':white_small_square:'
-      name    '<span style="font-size:2em;">▫️ </span>WHITE SMALL SQUARE'
+      name    '▫️ White small square'
       notes   'Unified: `25AB`'
     end
     entry do
       command ':small_red_triangle:'
-      name    '<span style="font-size:2em;">🔺 </span>UP-POINTING RED TRIANGLE'
+      name    '🔺 Up-pointing red triangle'
       notes   'Unified: `1F53A`'
     end
     entry do
       command ':black_square_button:'
-      name    '<span style="font-size:2em;">🔲 </span>BLACK SQUARE BUTTON'
+      name    '🔲 Black square button'
       notes   'Unified: `1F532`'
     end
     entry do
       command ':white_square_button:'
-      name    '<span style="font-size:2em;">🔳 </span>WHITE SQUARE BUTTON'
+      name    '🔳 White square button'
       notes   'Unified: `1F533`'
     end
     entry do
       command ':black_circle:'
-      name    '<span style="font-size:2em;">⚫️ </span>MEDIUM BLACK CIRCLE'
+      name    '⚫️ Medium black circle'
       notes   'Unified: `26AB`'
     end
     entry do
       command ':white_circle:'
-      name    '<span style="font-size:2em;">⚪️ </span>MEDIUM WHITE CIRCLE'
+      name    '⚪️ Medium white circle'
       notes   'Unified: `26AA`'
     end
     entry do
       command ':red_circle:'
-      name    '<span style="font-size:2em;">🔴 </span>LARGE RED CIRCLE'
+      name    '🔴 Large red circle'
       notes   'Unified: `1F534`'
     end
     entry do
       command ':large_blue_circle:'
-      name    '<span style="font-size:2em;">🔵 </span>LARGE BLUE CIRCLE'
+      name    '🔵 Large blue circle'
       notes   'Unified: `1F535`'
     end
     entry do
       command ':small_red_triangle_down:'
-      name    '<span style="font-size:2em;">🔻 </span>DOWN-POINTING RED TRIANGLE'
+      name    '🔻 Down-pointing red triangle'
       notes   'Unified: `1F53B`'
     end
     entry do
       command ':white_large_square:'
-      name    '<span style="font-size:2em;">⬜️ </span>WHITE LARGE SQUARE'
+      name    '⬜️ White large square'
       notes   'Unified: `2B1C`'
     end
     entry do
       command ':black_large_square:'
-      name    '<span style="font-size:2em;">⬛️ </span>BLACK LARGE SQUARE'
+      name    '⬛️ Black large square'
       notes   'Unified: `2B1B`'
     end
     entry do
       command ':large_orange_diamond:'
-      name    '<span style="font-size:2em;">🔶 </span>LARGE ORANGE DIAMOND'
+      name    '🔶 Large orange diamond'
       notes   'Unified: `1F536`'
     end
     entry do
       command ':large_blue_diamond:'
-      name    '<span style="font-size:2em;">🔷 </span>LARGE BLUE DIAMOND'
+      name    '🔷 Large blue diamond'
       notes   'Unified: `1F537`'
     end
     entry do
       command ':small_orange_diamond:'
-      name    '<span style="font-size:2em;">🔸 </span>SMALL ORANGE DIAMOND'
+      name    '🔸 Small orange diamond'
       notes   'Unified: `1F538`'
     end
     entry do
       command ':small_blue_diamond:'
-      name    '<span style="font-size:2em;">🔹 </span>SMALL BLUE DIAMOND'
+      name    '🔹 Small blue diamond'
       notes   'Unified: `1F539`'
     end
 
@@ -4260,12 +4258,9 @@ cheatsheet do
   
   notes 'Information obtained from:
   
-https://bitbucket.org/grumdrig/emoji-list/
-
-https://github.com/arvida/emoji-cheat-sheet.com
-
-https://github.com/iamcal/emoji-data
-
-http://www.unicode.org/~scherer/emoji4unicode/snapshot/emojidata.html'
+* https://bitbucket.org/grumdrig/emoji-list/
+* https://github.com/arvida/emoji-cheat-sheet.com
+* https://github.com/iamcal/emoji-data
+* http://www.unicode.org/~scherer/emoji4unicode/snapshot/emojidata.html'
 
 end
