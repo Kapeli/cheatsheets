@@ -873,5 +873,5 @@ cheatsheet do
 
   end
 
-  notes 'Note : These are the default shortcuts. You can modify the actual shortcuts for your config in the helpscreen inside the program.'
+  notes 'These are the default shortcuts. You can modify the actual shortcuts for your config in the helpscreen inside the program.'
 end
