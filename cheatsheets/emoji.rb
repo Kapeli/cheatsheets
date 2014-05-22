@@ -7,1047 +7,952 @@ cheatsheet do
   introduction 'All the emoji'
   
     category do
-    id 'Symbols'
+    id 'People'
     
         entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">1⃣ </span>KEYCAP 1'
-      notes   '`1&#x20e3;`'
+      command ':smile:'
+      name    '<span style="font-size:2em;">😄 </span>SMILING FACE WITH OPEN MOUTH AND SMILING EYES'
+      notes   'Unified: `1F604`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">2⃣ </span>KEYCAP 2'
-      notes   '`2&#x20e3;`'
+      command ':smiley:'
+      name    '<span style="font-size:2em;">😃 </span>SMILING FACE WITH OPEN MOUTH'
+      notes   'Unified: `1F603`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">3⃣ </span>KEYCAP 3'
-      notes   '`3&#x20e3;`'
+      command ':grinning:'
+      name    '<span style="font-size:2em;">😀 </span>GRINNING FACE'
+      notes   'Unified: `1F600`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">4⃣ </span>KEYCAP 4'
-      notes   '`4&#x20e3;`'
+      command ':blush:'
+      name    '<span style="font-size:2em;">😊 </span>SMILING FACE WITH SMILING EYES'
+      notes   'Unified: `1F60A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">5⃣ </span>KEYCAP 5'
-      notes   '`5&#x20e3;`'
+      command ':relaxed:'
+      name    '<span style="font-size:2em;">☺️ </span>WHITE SMILING FACE'
+      notes   'Unified: `263A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">6⃣ </span>KEYCAP 6'
-      notes   '`6&#x20e3;`'
+      command ':wink:'
+      name    '<span style="font-size:2em;">😉 </span>WINKING FACE'
+      notes   'Unified: `1F609`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">7⃣ </span>KEYCAP 7'
-      notes   '`7&#x20e3;`'
+      command ':heart_eyes:'
+      name    '<span style="font-size:2em;">😍 </span>SMILING FACE WITH HEART-SHAPED EYES'
+      notes   'Unified: `1F60D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">8⃣ </span>KEYCAP 8'
-      notes   '`8&#x20e3;`'
+      command ':kissing_heart:'
+      name    '<span style="font-size:2em;">😘 </span>FACE THROWING A KISS'
+      notes   'Unified: `1F618`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">9⃣ </span>KEYCAP 9'
-      notes   '`9&#x20e3;`'
+      command ':kissing_closed_eyes:'
+      name    '<span style="font-size:2em;">😚 </span>KISSING FACE WITH CLOSED EYES'
+      notes   'Unified: `1F61A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">0⃣ </span>KEYCAP 0'
-      notes   '`0&#x20e3;`'
+      command ':kissing:'
+      name    '<span style="font-size:2em;">😗 </span>KISSING FACE'
+      notes   'Unified: `1F617`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔟 </span>KEYCAP TEN'
-      notes   '`&#x1f51f;`'
+      command ':kissing_smiling_eyes:'
+      name    '<span style="font-size:2em;">😙 </span>KISSING FACE WITH SMILING EYES'
+      notes   'Unified: `1F619`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔢 </span>INPUT SYMBOL FOR NUMBERS'
-      notes   '`&#x1f522;`'
+      command ':stuck_out_tongue_winking_eye:'
+      name    '<span style="font-size:2em;">😜 </span>FACE WITH STUCK-OUT TONGUE AND WINKING EYE'
+      notes   'Unified: `1F61C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔣 </span>INPUT SYMBOL FOR SYMBOLS'
-      notes   '`&#x1f523;`'
+      command ':stuck_out_tongue_closed_eyes:'
+      name    '<span style="font-size:2em;">😝 </span>FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES'
+      notes   'Unified: `1F61D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⬆ </span>UPWARDS BLACK ARROW'
-      notes   '`&#x2b06;`'
+      command ':stuck_out_tongue:'
+      name    '<span style="font-size:2em;">😛 </span>FACE WITH STUCK-OUT TONGUE'
+      notes   'Unified: `1F61B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⬇ </span>DOWNWARDS BLACK ARROW'
-      notes   '`&#x2b07;`'
+      command ':flushed:'
+      name    '<span style="font-size:2em;">😳 </span>FLUSHED FACE'
+      notes   'Unified: `1F633`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⬅ </span>LEFTWARDS BLACK ARROW'
-      notes   '`&#x2b05;`'
+      command ':grin:'
+      name    '<span style="font-size:2em;">😁 </span>GRINNING FACE WITH SMILING EYES'
+      notes   'Unified: `1F601`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">➡ </span>BLACK RIGHTWARDS ARROW'
-      notes   '`&#x27a1;`'
+      command ':pensive:'
+      name    '<span style="font-size:2em;">😔 </span>PENSIVE FACE'
+      notes   'Unified: `1F614`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔠 </span>INPUT SYMBOL FOR LATIN CAPITAL LETTERS'
-      notes   '`&#x1f520;`'
+      command ':relieved:'
+      name    '<span style="font-size:2em;">😌 </span>RELIEVED FACE'
+      notes   'Unified: `1F60C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔡 </span>INPUT SYMBOL FOR LATIN SMALL LETTERS'
-      notes   '`&#x1f521;`'
+      command ':unamused:'
+      name    '<span style="font-size:2em;">😒 </span>UNAMUSED FACE'
+      notes   'Unified: `1F612`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔤 </span>INPUT SYMBOL FOR LATIN LETTERS'
-      notes   '`&#x1f524;`'
+      command ':disappointed:'
+      name    '<span style="font-size:2em;">😞 </span>DISAPPOINTED FACE'
+      notes   'Unified: `1F61E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">↗ </span>NORTH EAST ARROW'
-      notes   '`&#x2197;`'
+      command ':persevere:'
+      name    '<span style="font-size:2em;">😣 </span>PERSEVERING FACE'
+      notes   'Unified: `1F623`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">↖ </span>NORTH WEST ARROW'
-      notes   '`&#x2196;`'
+      command ':cry:'
+      name    '<span style="font-size:2em;">😢 </span>CRYING FACE'
+      notes   'Unified: `1F622`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">↘ </span>SOUTH EAST ARROW'
-      notes   '`&#x2198;`'
+      command ':joy:'
+      name    '<span style="font-size:2em;">😂 </span>FACE WITH TEARS OF JOY'
+      notes   'Unified: `1F602`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">↙ </span>SOUTH WEST ARROW'
-      notes   '`&#x2199;`'
+      command ':sob:'
+      name    '<span style="font-size:2em;">😭 </span>LOUDLY CRYING FACE'
+      notes   'Unified: `1F62D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">↔ </span>LEFT RIGHT ARROW'
-      notes   '`&#x2194;`'
+      command ':sleepy:'
+      name    '<span style="font-size:2em;">😪 </span>SLEEPY FACE'
+      notes   'Unified: `1F62A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">↕ </span>UP DOWN ARROW'
-      notes   '`&#x2195;`'
+      command ':disappointed_relieved:'
+      name    '<span style="font-size:2em;">😥 </span>DISAPPOINTED BUT RELIEVED FACE'
+      notes   'Unified: `1F625`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔄 </span>ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS'
-      notes   '`&#x1f504;`'
+      command ':cold_sweat:'
+      name    '<span style="font-size:2em;">😰 </span>FACE WITH OPEN MOUTH AND COLD SWEAT'
+      notes   'Unified: `1F630`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">◀ </span>BLACK LEFT-POINTING TRIANGLE'
-      notes   '`&#x25c0;`'
+      command ':sweat_smile:'
+      name    '<span style="font-size:2em;">😅 </span>SMILING FACE WITH OPEN MOUTH AND COLD SWEAT'
+      notes   'Unified: `1F605`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">▶ </span>BLACK RIGHT-POINTING TRIANGLE'
-      notes   '`&#x25b6;`'
+      command ':sweat:'
+      name    '<span style="font-size:2em;">😓 </span>FACE WITH COLD SWEAT'
+      notes   'Unified: `1F613`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔼 </span>UP-POINTING SMALL RED TRIANGLE'
-      notes   '`&#x1f53c;`'
+      command ':weary:'
+      name    '<span style="font-size:2em;">😩 </span>WEARY FACE'
+      notes   'Unified: `1F629`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔽 </span>DOWN-POINTING SMALL RED TRIANGLE'
-      notes   '`&#x1f53d;`'
+      command ':tired_face:'
+      name    '<span style="font-size:2em;">😫 </span>TIRED FACE'
+      notes   'Unified: `1F62B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">↩ </span>LEFTWARDS ARROW WITH HOOK'
-      notes   '`&#x21a9;`'
+      command ':fearful:'
+      name    '<span style="font-size:2em;">😨 </span>FEARFUL FACE'
+      notes   'Unified: `1F628`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">↪ </span>RIGHTWARDS ARROW WITH HOOK'
-      notes   '`&#x21aa;`'
+      command ':scream:'
+      name    '<span style="font-size:2em;">😱 </span>FACE SCREAMING IN FEAR'
+      notes   'Unified: `1F631`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">ℹ </span>INFORMATION SOURCE'
-      notes   '`&#x2139;`'
+      command ':angry:'
+      name    '<span style="font-size:2em;">😠 </span>ANGRY FACE'
+      notes   'Unified: `1F620`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⏪ </span>BLACK LEFT-POINTING DOUBLE TRIANGLE'
-      notes   '`&#x23ea;`'
+      command ':rage:'
+      name    '<span style="font-size:2em;">😡 </span>POUTING FACE'
+      notes   'Unified: `1F621`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⏩ </span>BLACK RIGHT-POINTING DOUBLE TRIANGLE'
-      notes   '`&#x23e9;`'
+      command ':triumph:'
+      name    '<span style="font-size:2em;">😤 </span>FACE WITH LOOK OF TRIUMPH'
+      notes   'Unified: `1F624`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⏫ </span>BLACK UP-POINTING DOUBLE TRIANGLE'
-      notes   '`&#x23eb;`'
+      command ':confounded:'
+      name    '<span style="font-size:2em;">😖 </span>CONFOUNDED FACE'
+      notes   'Unified: `1F616`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⏬ </span>BLACK DOWN-POINTING DOUBLE TRIANGLE'
-      notes   '`&#x23ec;`'
+      command ':laughing:'
+      name    '<span style="font-size:2em;">😆 </span>SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES'
+      notes   'Unified: `1F606`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⤵ </span>ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS'
-      notes   '`&#x2935;`'
+      command ':yum:'
+      name    '<span style="font-size:2em;">😋 </span>FACE SAVOURING DELICIOUS FOOD'
+      notes   'Unified: `1F60B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⤴ </span>ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS'
-      notes   '`&#x2934;`'
+      command ':mask:'
+      name    '<span style="font-size:2em;">😷 </span>FACE WITH MEDICAL MASK'
+      notes   'Unified: `1F637`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🆗 </span>SQUARED OK'
-      notes   '`&#x1f197;`'
+      command ':sunglasses:'
+      name    '<span style="font-size:2em;">😎 </span>SMILING FACE WITH SUNGLASSES'
+      notes   'Unified: `1F60E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔀 </span>TWISTED RIGHTWARDS ARROWS'
-      notes   '`&#x1f500;`'
+      command ':sleeping:'
+      name    '<span style="font-size:2em;">😴 </span>SLEEPING FACE'
+      notes   'Unified: `1F634`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔁 </span>CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS'
-      notes   '`&#x1f501;`'
+      command ':dizzy_face:'
+      name    '<span style="font-size:2em;">😵 </span>DIZZY FACE'
+      notes   'Unified: `1F635`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔂 </span>CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY'
-      notes   '`&#x1f502;`'
+      command ':astonished:'
+      name    '<span style="font-size:2em;">😲 </span>ASTONISHED FACE'
+      notes   'Unified: `1F632`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🆕 </span>SQUARED NEW'
-      notes   '`&#x1f195;`'
+      command ':worried:'
+      name    '<span style="font-size:2em;">😟 </span>WORRIED FACE'
+      notes   'Unified: `1F61F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🆙 </span>SQUARED UP WITH EXCLAMATION MARK'
-      notes   '`&#x1f199;`'
+      command ':frowning:'
+      name    '<span style="font-size:2em;">😦 </span>FROWNING FACE WITH OPEN MOUTH'
+      notes   'Unified: `1F626`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🆒 </span>SQUARED COOL'
-      notes   '`&#x1f192;`'
+      command ':anguished:'
+      name    '<span style="font-size:2em;">😧 </span>ANGUISHED FACE'
+      notes   'Unified: `1F627`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🆓 </span>SQUARED FREE'
-      notes   '`&#x1f193;`'
+      command ':smiling_imp:'
+      name    '<span style="font-size:2em;">😈 </span>SMILING FACE WITH HORNS'
+      notes   'Unified: `1F608`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🆖 </span>SQUARED NG'
-      notes   '`&#x1f196;`'
+      command ':imp:'
+      name    '<span style="font-size:2em;">👿 </span>IMP'
+      notes   'Unified: `1F47F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">📶 </span>ANTENNA WITH BARS'
-      notes   '`&#x1f4f6;`'
+      command ':open_mouth:'
+      name    '<span style="font-size:2em;">😮 </span>FACE WITH OPEN MOUTH'
+      notes   'Unified: `1F62E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🎦 </span>CINEMA'
-      notes   '`&#x1f3a6;`'
+      command ':grimacing:'
+      name    '<span style="font-size:2em;">😬 </span>GRIMACING FACE'
+      notes   'Unified: `1F62C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🈁 </span>SQUARED KATAKANA KOKO'
-      notes   '`&#x1f201;`'
+      command ':neutral_face:'
+      name    '<span style="font-size:2em;">😐 </span>NEUTRAL FACE'
+      notes   'Unified: `1F610`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🈯 </span>SQUARED CJK UNIFIED IDEOGRAPH-6307'
-      notes   '`&#x1f22f;`'
+      command ':confused:'
+      name    '<span style="font-size:2em;">😕 </span>CONFUSED FACE'
+      notes   'Unified: `1F615`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🈳 </span>SQUARED CJK UNIFIED IDEOGRAPH-7A7A'
-      notes   '`&#x1f233;`'
+      command ':hushed:'
+      name    '<span style="font-size:2em;">😯 </span>HUSHED FACE'
+      notes   'Unified: `1F62F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🈵 </span>SQUARED CJK UNIFIED IDEOGRAPH-6E80'
-      notes   '`&#x1f235;`'
+      command ':no_mouth:'
+      name    '<span style="font-size:2em;">😶 </span>FACE WITHOUT MOUTH'
+      notes   'Unified: `1F636`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🈴 </span>SQUARED CJK UNIFIED IDEOGRAPH-5408'
-      notes   '`&#x1f234;`'
+      command ':innocent:'
+      name    '<span style="font-size:2em;">😇 </span>SMILING FACE WITH HALO'
+      notes   'Unified: `1F607`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🈲 </span>SQUARED CJK UNIFIED IDEOGRAPH-7981'
-      notes   '`&#x1f232;`'
+      command ':smirk:'
+      name    '<span style="font-size:2em;">😏 </span>SMIRKING FACE'
+      notes   'Unified: `1F60F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🉐 </span>CIRCLED IDEOGRAPH ADVANTAGE'
-      notes   '`&#x1f250;`'
+      command ':expressionless:'
+      name    '<span style="font-size:2em;">😑 </span>EXPRESSIONLESS FACE'
+      notes   'Unified: `1F611`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🈹 </span>SQUARED CJK UNIFIED IDEOGRAPH-5272'
-      notes   '`&#x1f239;`'
+      command ':man_with_gua_pi_mao:'
+      name    '<span style="font-size:2em;">👲 </span>MAN WITH GUA PI MAO'
+      notes   'Unified: `1F472`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🈺 </span>SQUARED CJK UNIFIED IDEOGRAPH-55B6'
-      notes   '`&#x1f23a;`'
+      command ':man_with_turban:'
+      name    '<span style="font-size:2em;">👳 </span>MAN WITH TURBAN'
+      notes   'Unified: `1F473`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🈶 </span>SQUARED CJK UNIFIED IDEOGRAPH-6709'
-      notes   '`&#x1f236;`'
+      command ':cop:'
+      name    '<span style="font-size:2em;">👮 </span>POLICE OFFICER'
+      notes   'Unified: `1F46E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🈚 </span>SQUARED CJK UNIFIED IDEOGRAPH-7121'
-      notes   '`&#x1f21a;`'
+      command ':construction_worker:'
+      name    '<span style="font-size:2em;">👷 </span>CONSTRUCTION WORKER'
+      notes   'Unified: `1F477`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚻 </span>RESTROOM'
-      notes   '`&#x1f6bb;`'
+      command ':guardsman:'
+      name    '<span style="font-size:2em;">💂 </span>GUARDSMAN'
+      notes   'Unified: `1F482`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚹 </span>MENS SYMBOL'
-      notes   '`&#x1f6b9;`'
+      command ':baby:'
+      name    '<span style="font-size:2em;">👶 </span>BABY'
+      notes   'Unified: `1F476`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚺 </span>WOMENS SYMBOL'
-      notes   '`&#x1f6ba;`'
+      command ':boy:'
+      name    '<span style="font-size:2em;">👦 </span>BOY'
+      notes   'Unified: `1F466`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚼 </span>BABY SYMBOL'
-      notes   '`&#x1f6bc;`'
+      command ':girl:'
+      name    '<span style="font-size:2em;">👧 </span>GIRL'
+      notes   'Unified: `1F467`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚾 </span>WATER CLOSET'
-      notes   '`&#x1f6be;`'
+      command ':man:'
+      name    '<span style="font-size:2em;">👨 </span>MAN'
+      notes   'Unified: `1F468`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚰 </span>POTABLE WATER SYMBOL'
-      notes   '`&#x1f6b0;`'
+      command ':woman:'
+      name    '<span style="font-size:2em;">👩 </span>WOMAN'
+      notes   'Unified: `1F469`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚮 </span>PUT LITTER IN ITS PLACE SYMBOL'
-      notes   '`&#x1f6ae;`'
+      command ':older_man:'
+      name    '<span style="font-size:2em;">👴 </span>OLDER MAN'
+      notes   'Unified: `1F474`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🅿 </span>NEGATIVE SQUARED LATIN CAPITAL LETTER P'
-      notes   '`&#x1f17f;`'
+      command ':older_woman:'
+      name    '<span style="font-size:2em;">👵 </span>OLDER WOMAN'
+      notes   'Unified: `1F475`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♿ </span>WHEELCHAIR SYMBOL'
-      notes   '`&#x267f;`'
+      command ':person_with_blond_hair:'
+      name    '<span style="font-size:2em;">👱 </span>PERSON WITH BLOND HAIR'
+      notes   'Unified: `1F471`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚭 </span>NO SMOKING SYMBOL'
-      notes   '`&#x1f6ad;`'
+      command ':angel:'
+      name    '<span style="font-size:2em;">👼 </span>BABY ANGEL'
+      notes   'Unified: `1F47C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🈷 </span>SQUARED CJK UNIFIED IDEOGRAPH-6708'
-      notes   '`&#x1f237;`'
+      command ':princess:'
+      name    '<span style="font-size:2em;">👸 </span>PRINCESS'
+      notes   'Unified: `1F478`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🈸 </span>SQUARED CJK UNIFIED IDEOGRAPH-7533'
-      notes   '`&#x1f238;`'
+      command ':smiley_cat:'
+      name    '<span style="font-size:2em;">😺 </span>SMILING CAT FACE WITH OPEN MOUTH'
+      notes   'Unified: `1F63A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🈂 </span>SQUARED KATAKANA SA'
-      notes   '`&#x1f202;`'
+      command ':smile_cat:'
+      name    '<span style="font-size:2em;">😸 </span>GRINNING CAT FACE WITH SMILING EYES'
+      notes   'Unified: `1F638`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">Ⓜ </span>CIRCLED LATIN CAPITAL LETTER M'
-      notes   '`&#x24c2;`'
+      command ':heart_eyes_cat:'
+      name    '<span style="font-size:2em;">😻 </span>SMILING CAT FACE WITH HEART-SHAPED EYES'
+      notes   'Unified: `1F63B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🛂 </span>PASSPORT CONTROL'
-      notes   '`&#x1f6c2;`'
+      command ':kissing_cat:'
+      name    '<span style="font-size:2em;">😽 </span>KISSING CAT FACE WITH CLOSED EYES'
+      notes   'Unified: `1F63D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🛄 </span>BAGGAGE CLAIM'
-      notes   '`&#x1f6c4;`'
+      command ':smirk_cat:'
+      name    '<span style="font-size:2em;">😼 </span>CAT FACE WITH WRY SMILE'
+      notes   'Unified: `1F63C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🛅 </span>LEFT LUGGAGE'
-      notes   '`&#x1f6c5;`'
+      command ':scream_cat:'
+      name    '<span style="font-size:2em;">🙀 </span>WEARY CAT FACE'
+      notes   'Unified: `1F640`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🛃 </span>CUSTOMS'
-      notes   '`&#x1f6c3;`'
+      command ':crying_cat_face:'
+      name    '<span style="font-size:2em;">😿 </span>CRYING CAT FACE'
+      notes   'Unified: `1F63F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🉑 </span>CIRCLED IDEOGRAPH ACCEPT'
-      notes   '`&#x1f251;`'
+      command ':joy_cat:'
+      name    '<span style="font-size:2em;">😹 </span>CAT FACE WITH TEARS OF JOY'
+      notes   'Unified: `1F639`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">㊙ </span>CIRCLED IDEOGRAPH SECRET'
-      notes   '`&#x3299;`'
+      command ':pouting_cat:'
+      name    '<span style="font-size:2em;">😾 </span>POUTING CAT FACE'
+      notes   'Unified: `1F63E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">㊗ </span>CIRCLED IDEOGRAPH CONGRATULATION'
-      notes   '`&#x3297;`'
+      command ':japanese_ogre:'
+      name    '<span style="font-size:2em;">👹 </span>JAPANESE OGRE'
+      notes   'Unified: `1F479`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🆑 </span>SQUARED CL'
-      notes   '`&#x1f191;`'
+      command ':japanese_goblin:'
+      name    '<span style="font-size:2em;">👺 </span>JAPANESE GOBLIN'
+      notes   'Unified: `1F47A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🆘 </span>SQUARED SOS'
-      notes   '`&#x1f198;`'
+      command ':see_no_evil:'
+      name    '<span style="font-size:2em;">🙈 </span>SEE-NO-EVIL MONKEY'
+      notes   'Unified: `1F648`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🆔 </span>SQUARED ID'
-      notes   '`&#x1f194;`'
+      command ':hear_no_evil:'
+      name    '<span style="font-size:2em;">🙉 </span>HEAR-NO-EVIL MONKEY'
+      notes   'Unified: `1F649`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚫 </span>NO ENTRY SIGN'
-      notes   '`&#x1f6ab;`'
+      command ':speak_no_evil:'
+      name    '<span style="font-size:2em;">🙊 </span>SPEAK-NO-EVIL MONKEY'
+      notes   'Unified: `1F64A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔞 </span>NO ONE UNDER EIGHTEEN SYMBOL'
-      notes   '`&#x1f51e;`'
+      command ':skull:'
+      name    '<span style="font-size:2em;">💀 </span>SKULL'
+      notes   'Unified: `1F480`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">📵 </span>NO MOBILE PHONES'
-      notes   '`&#x1f4f5;`'
+      command ':alien:'
+      name    '<span style="font-size:2em;">👽 </span>EXTRATERRESTRIAL ALIEN'
+      notes   'Unified: `1F47D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚯 </span>DO NOT LITTER SYMBOL'
-      notes   '`&#x1f6af;`'
+      command ':hankey:'
+      name    '<span style="font-size:2em;">💩 </span>PILE OF POO'
+      notes   'Unified: `1F4A9`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚱 </span>NON-POTABLE WATER SYMBOL'
-      notes   '`&#x1f6b1;`'
+      command ':fire:'
+      name    '<span style="font-size:2em;">🔥 </span>FIRE'
+      notes   'Unified: `1F525`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚳 </span>NO BICYCLES'
-      notes   '`&#x1f6b3;`'
+      command ':sparkles:'
+      name    '<span style="font-size:2em;">✨ </span>SPARKLES'
+      notes   'Unified: `2728`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚷 </span>NO PEDESTRIANS'
-      notes   '`&#x1f6b7;`'
+      command ':star2:'
+      name    '<span style="font-size:2em;">🌟 </span>GLOWING STAR'
+      notes   'Unified: `1F31F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚸 </span>CHILDREN CROSSING'
-      notes   '`&#x1f6b8;`'
+      command ':dizzy:'
+      name    '<span style="font-size:2em;">💫 </span>DIZZY SYMBOL'
+      notes   'Unified: `1F4AB`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⛔ </span>NO ENTRY'
-      notes   '`&#x26d4;`'
+      command ':boom:'
+      name    '<span style="font-size:2em;">💥 </span>COLLISION SYMBOL'
+      notes   'Unified: `1F4A5`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✳ </span>EIGHT SPOKED ASTERISK'
-      notes   '`&#x2733;`'
+      command ':anger:'
+      name    '<span style="font-size:2em;">💢 </span>ANGER SYMBOL'
+      notes   'Unified: `1F4A2`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">❇ </span>SPARKLE'
-      notes   '`&#x2747;`'
+      command ':sweat_drops:'
+      name    '<span style="font-size:2em;">💦 </span>SPLASHING SWEAT SYMBOL'
+      notes   'Unified: `1F4A6`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">❎ </span>NEGATIVE SQUARED CROSS MARK'
-      notes   '`&#x274e;`'
+      command ':droplet:'
+      name    '<span style="font-size:2em;">💧 </span>DROPLET'
+      notes   'Unified: `1F4A7`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✅ </span>WHITE HEAVY CHECK MARK'
-      notes   '`&#x2705;`'
+      command ':zzz:'
+      name    '<span style="font-size:2em;">💤 </span>SLEEPING SYMBOL'
+      notes   'Unified: `1F4A4`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✴ </span>EIGHT POINTED BLACK STAR'
-      notes   '`&#x2734;`'
+      command ':dash:'
+      name    '<span style="font-size:2em;">💨 </span>DASH SYMBOL'
+      notes   'Unified: `1F4A8`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💟 </span>HEART DECORATION'
-      notes   '`&#x1f49f;`'
+      command ':ear:'
+      name    '<span style="font-size:2em;">👂 </span>EAR'
+      notes   'Unified: `1F442`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🆚 </span>SQUARED VS'
-      notes   '`&#x1f19a;`'
+      command ':eyes:'
+      name    '<span style="font-size:2em;">👀 </span>EYES'
+      notes   'Unified: `1F440`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">📳 </span>VIBRATION MODE'
-      notes   '`&#x1f4f3;`'
+      command ':nose:'
+      name    '<span style="font-size:2em;">👃 </span>NOSE'
+      notes   'Unified: `1F443`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">📴 </span>MOBILE PHONE OFF'
-      notes   '`&#x1f4f4;`'
+      command ':tongue:'
+      name    '<span style="font-size:2em;">👅 </span>TONGUE'
+      notes   'Unified: `1F445`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🅰 </span>NEGATIVE SQUARED LATIN CAPITAL LETTER A'
-      notes   '`&#x1f170;`'
+      command ':lips:'
+      name    '<span style="font-size:2em;">👄 </span>MOUTH'
+      notes   'Unified: `1F444`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🅱 </span>NEGATIVE SQUARED LATIN CAPITAL LETTER B'
-      notes   '`&#x1f171;`'
+      command ':+1:'
+      name    '<span style="font-size:2em;">👍 </span>THUMBS UP SIGN'
+      notes   'Unified: `1F44D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🆎 </span>NEGATIVE SQUARED AB'
-      notes   '`&#x1f18e;`'
+      command ':-1:'
+      name    '<span style="font-size:2em;">👎 </span>THUMBS DOWN SIGN'
+      notes   'Unified: `1F44E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🅾 </span>NEGATIVE SQUARED LATIN CAPITAL LETTER O'
-      notes   '`&#x1f17e;`'
+      command ':ok_hand:'
+      name    '<span style="font-size:2em;">👌 </span>OK HAND SIGN'
+      notes   'Unified: `1F44C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💠 </span>DIAMOND SHAPE WITH A DOT INSIDE'
-      notes   '`&#x1f4a0;`'
+      command ':facepunch:'
+      name    '<span style="font-size:2em;">👊 </span>FISTED HAND SIGN'
+      notes   'Unified: `1F44A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">➿ </span>DOUBLE CURLY LOOP'
-      notes   '`&#x27bf;`'
+      command ':fist:'
+      name    '<span style="font-size:2em;">✊ </span>RAISED FIST'
+      notes   'Unified: `270A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♻ </span>BLACK UNIVERSAL RECYCLING SYMBOL'
-      notes   '`&#x267b;`'
+      command ':v:'
+      name    '<span style="font-size:2em;">✌️ </span>VICTORY HAND'
+      notes   'Unified: `270C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♈ </span>ARIES'
-      notes   '`&#x2648;`'
+      command ':wave:'
+      name    '<span style="font-size:2em;">👋 </span>WAVING HAND SIGN'
+      notes   'Unified: `1F44B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♉ </span>TAURUS'
-      notes   '`&#x2649;`'
+      command ':hand:'
+      name    '<span style="font-size:2em;">✋ </span>RAISED HAND'
+      notes   'Unified: `270B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♊ </span>GEMINI'
-      notes   '`&#x264a;`'
+      command ':open_hands:'
+      name    '<span style="font-size:2em;">👐 </span>OPEN HANDS SIGN'
+      notes   'Unified: `1F450`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♋ </span>CANCER'
-      notes   '`&#x264b;`'
+      command ':point_up_2:'
+      name    '<span style="font-size:2em;">👆 </span>WHITE UP POINTING BACKHAND INDEX'
+      notes   'Unified: `1F446`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♌ </span>LEO'
-      notes   '`&#x264c;`'
+      command ':point_down:'
+      name    '<span style="font-size:2em;">👇 </span>WHITE DOWN POINTING BACKHAND INDEX'
+      notes   'Unified: `1F447`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♍ </span>VIRGO'
-      notes   '`&#x264d;`'
+      command ':point_right:'
+      name    '<span style="font-size:2em;">👉 </span>WHITE RIGHT POINTING BACKHAND INDEX'
+      notes   'Unified: `1F449`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♎ </span>LIBRA'
-      notes   '`&#x264e;`'
+      command ':point_left:'
+      name    '<span style="font-size:2em;">👈 </span>WHITE LEFT POINTING BACKHAND INDEX'
+      notes   'Unified: `1F448`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♏ </span>SCORPIUS'
-      notes   '`&#x264f;`'
+      command ':raised_hands:'
+      name    '<span style="font-size:2em;">🙌 </span>PERSON RAISING BOTH HANDS IN CELEBRATION'
+      notes   'Unified: `1F64C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♐ </span>SAGITTARIUS'
-      notes   '`&#x2650;`'
+      command ':pray:'
+      name    '<span style="font-size:2em;">🙏 </span>PERSON WITH FOLDED HANDS'
+      notes   'Unified: `1F64F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♑ </span>CAPRICORN'
-      notes   '`&#x2651;`'
+      command ':point_up:'
+      name    '<span style="font-size:2em;">☝️ </span>WHITE UP POINTING INDEX'
+      notes   'Unified: `261D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♒ </span>AQUARIUS'
-      notes   '`&#x2652;`'
+      command ':clap:'
+      name    '<span style="font-size:2em;">👏 </span>CLAPPING HANDS SIGN'
+      notes   'Unified: `1F44F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♓ </span>PISCES'
-      notes   '`&#x2653;`'
+      command ':muscle:'
+      name    '<span style="font-size:2em;">💪 </span>FLEXED BICEPS'
+      notes   'Unified: `1F4AA`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⛎ </span>OPHIUCHUS'
-      notes   '`&#x26ce;`'
+      command ':walking:'
+      name    '<span style="font-size:2em;">🚶 </span>PEDESTRIAN'
+      notes   'Unified: `1F6B6`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔯 </span>SIX POINTED STAR WITH MIDDLE DOT'
-      notes   '`&#x1f52f;`'
+      command ':runner:'
+      name    '<span style="font-size:2em;">🏃 </span>RUNNER'
+      notes   'Unified: `1F3C3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🏧 </span>AUTOMATED TELLER MACHINE'
-      notes   '`&#x1f3e7;`'
+      command ':dancer:'
+      name    '<span style="font-size:2em;">💃 </span>DANCER'
+      notes   'Unified: `1F483`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💹 </span>CHART WITH UPWARDS TREND AND YEN SIGN'
-      notes   '`&#x1f4b9;`'
+      command ':couple:'
+      name    '<span style="font-size:2em;">👫 </span>MAN AND WOMAN HOLDING HANDS'
+      notes   'Unified: `1F46B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💲 </span>HEAVY DOLLAR SIGN'
-      notes   '`&#x1f4b2;`'
+      command ':family:'
+      name    '<span style="font-size:2em;">👪 </span>FAMILY'
+      notes   'Unified: `1F46A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💱 </span>CURRENCY EXCHANGE'
-      notes   '`&#x1f4b1;`'
+      command ':two_men_holding_hands:'
+      name    '<span style="font-size:2em;">👬 </span>TWO MEN HOLDING HANDS'
+      notes   'Unified: `1F46C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">© </span>COPYRIGHT SIGN'
-      notes   '`&#xa9;`'
+      command ':two_women_holding_hands:'
+      name    '<span style="font-size:2em;">👭 </span>TWO WOMEN HOLDING HANDS'
+      notes   'Unified: `1F46D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">® </span>REGISTERED SIGN'
-      notes   '`&#xae;`'
+      command ':couplekiss:'
+      name    '<span style="font-size:2em;">💏 </span>KISS'
+      notes   'Unified: `1F48F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">™ </span>TRADE MARK SIGN'
-      notes   '`&#x2122;`'
+      command ':couple_with_heart:'
+      name    '<span style="font-size:2em;">💑 </span>COUPLE WITH HEART'
+      notes   'Unified: `1F491`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">❌ </span>CROSS MARK'
-      notes   '`&#x274c;`'
+      command ':dancers:'
+      name    '<span style="font-size:2em;">👯 </span>WOMAN WITH BUNNY EARS'
+      notes   'Unified: `1F46F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">‼ </span>DOUBLE EXCLAMATION MARK'
-      notes   '`&#x203c;`'
+      command ':ok_woman:'
+      name    '<span style="font-size:2em;">🙆 </span>FACE WITH OK GESTURE'
+      notes   'Unified: `1F646`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⁉ </span>EXCLAMATION QUESTION MARK'
-      notes   '`&#x2049;`'
+      command ':no_good:'
+      name    '<span style="font-size:2em;">🙅 </span>FACE WITH NO GOOD GESTURE'
+      notes   'Unified: `1F645`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">❗ </span>HEAVY EXCLAMATION MARK SYMBOL'
-      notes   '`&#x2757;`'
+      command ':information_desk_person:'
+      name    '<span style="font-size:2em;">💁 </span>INFORMATION DESK PERSON'
+      notes   'Unified: `1F481`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">❓ </span>BLACK QUESTION MARK ORNAMENT'
-      notes   '`&#x2753;`'
+      command ':raising_hand:'
+      name    '<span style="font-size:2em;">🙋 </span>HAPPY PERSON RAISING ONE HAND'
+      notes   'Unified: `1F64B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">❕ </span>WHITE EXCLAMATION MARK ORNAMENT'
-      notes   '`&#x2755;`'
+      command ':massage:'
+      name    '<span style="font-size:2em;">💆 </span>FACE MASSAGE'
+      notes   'Unified: `1F486`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">❔ </span>WHITE QUESTION MARK ORNAMENT'
-      notes   '`&#x2754;`'
+      command ':haircut:'
+      name    '<span style="font-size:2em;">💇 </span>HAIRCUT'
+      notes   'Unified: `1F487`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⭕ </span>HEAVY LARGE CIRCLE'
-      notes   '`&#x2b55;`'
+      command ':nail_care:'
+      name    '<span style="font-size:2em;">💅 </span>NAIL POLISH'
+      notes   'Unified: `1F485`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔝 </span>TOP WITH UPWARDS ARROW ABOVE'
-      notes   '`&#x1f51d;`'
+      command ':bride_with_veil:'
+      name    '<span style="font-size:2em;">👰 </span>BRIDE WITH VEIL'
+      notes   'Unified: `1F470`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔚 </span>END WITH LEFTWARDS ARROW ABOVE'
-      notes   '`&#x1f51a;`'
+      command ':person_with_pouting_face:'
+      name    '<span style="font-size:2em;">🙎 </span>PERSON WITH POUTING FACE'
+      notes   'Unified: `1F64E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔙 </span>BACK WITH LEFTWARDS ARROW ABOVE'
-      notes   '`&#x1f519;`'
+      command ':person_frowning:'
+      name    '<span style="font-size:2em;">🙍 </span>PERSON FROWNING'
+      notes   'Unified: `1F64D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔛 </span>ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE'
-      notes   '`&#x1f51b;`'
+      command ':bow:'
+      name    '<span style="font-size:2em;">🙇 </span>PERSON BOWING DEEPLY'
+      notes   'Unified: `1F647`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔜 </span>SOON WITH RIGHTWARDS ARROW ABOVE'
-      notes   '`&#x1f51c;`'
+      command ':tophat:'
+      name    '<span style="font-size:2em;">🎩 </span>TOP HAT'
+      notes   'Unified: `1F3A9`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔃 </span>CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS'
-      notes   '`&#x1f503;`'
+      command ':crown:'
+      name    '<span style="font-size:2em;">👑 </span>CROWN'
+      notes   'Unified: `1F451`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕛 </span>CLOCK FACE TWELVE OCLOCK'
-      notes   '`&#x1f55b;`'
+      command ':womans_hat:'
+      name    '<span style="font-size:2em;">👒 </span>WOMANS HAT'
+      notes   'Unified: `1F452`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕧 </span>CLOCK FACE TWELVE-THIRTY'
-      notes   '`&#x1f567;`'
+      command ':athletic_shoe:'
+      name    '<span style="font-size:2em;">👟 </span>ATHLETIC SHOE'
+      notes   'Unified: `1F45F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕐 </span>CLOCK FACE ONE OCLOCK'
-      notes   '`&#x1f550;`'
+      command ':mans_shoe:'
+      name    '<span style="font-size:2em;">👞 </span>MANS SHOE'
+      notes   'Unified: `1F45E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕜 </span>CLOCK FACE ONE-THIRTY'
-      notes   '`&#x1f55c;`'
+      command ':sandal:'
+      name    '<span style="font-size:2em;">👡 </span>WOMANS SANDAL'
+      notes   'Unified: `1F461`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕑 </span>CLOCK FACE TWO OCLOCK'
-      notes   '`&#x1f551;`'
+      command ':high_heel:'
+      name    '<span style="font-size:2em;">👠 </span>HIGH-HEELED SHOE'
+      notes   'Unified: `1F460`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕝 </span>CLOCK FACE TWO-THIRTY'
-      notes   '`&#x1f55d;`'
+      command ':boot:'
+      name    '<span style="font-size:2em;">👢 </span>WOMANS BOOTS'
+      notes   'Unified: `1F462`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕒 </span>CLOCK FACE THREE OCLOCK'
-      notes   '`&#x1f552;`'
+      command ':shirt:'
+      name    '<span style="font-size:2em;">👕 </span>T-SHIRT'
+      notes   'Unified: `1F455`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕞 </span>CLOCK FACE THREE-THIRTY'
-      notes   '`&#x1f55e;`'
+      command ':necktie:'
+      name    '<span style="font-size:2em;">👔 </span>NECKTIE'
+      notes   'Unified: `1F454`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕓 </span>CLOCK FACE FOUR OCLOCK'
-      notes   '`&#x1f553;`'
+      command ':womans_clothes:'
+      name    '<span style="font-size:2em;">👚 </span>WOMANS CLOTHES'
+      notes   'Unified: `1F45A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕟 </span>CLOCK FACE FOUR-THIRTY'
-      notes   '`&#x1f55f;`'
+      command ':dress:'
+      name    '<span style="font-size:2em;">👗 </span>DRESS'
+      notes   'Unified: `1F457`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕔 </span>CLOCK FACE FIVE OCLOCK'
-      notes   '`&#x1f554;`'
+      command ':running_shirt_with_sash:'
+      name    '<span style="font-size:2em;">🎽 </span>RUNNING SHIRT WITH SASH'
+      notes   'Unified: `1F3BD`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕠 </span>CLOCK FACE FIVE-THIRTY'
-      notes   '`&#x1f560;`'
+      command ':jeans:'
+      name    '<span style="font-size:2em;">👖 </span>JEANS'
+      notes   'Unified: `1F456`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕕 </span>CLOCK FACE SIX OCLOCK'
-      notes   '`&#x1f555;`'
+      command ':kimono:'
+      name    '<span style="font-size:2em;">👘 </span>KIMONO'
+      notes   'Unified: `1F458`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕖 </span>CLOCK FACE SEVEN OCLOCK'
-      notes   '`&#x1f556;`'
+      command ':bikini:'
+      name    '<span style="font-size:2em;">👙 </span>BIKINI'
+      notes   'Unified: `1F459`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕗 </span>CLOCK FACE EIGHT OCLOCK'
-      notes   '`&#x1f557;`'
+      command ':briefcase:'
+      name    '<span style="font-size:2em;">💼 </span>BRIEFCASE'
+      notes   'Unified: `1F4BC`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕘 </span>CLOCK FACE NINE OCLOCK'
-      notes   '`&#x1f558;`'
+      command ':handbag:'
+      name    '<span style="font-size:2em;">👜 </span>HANDBAG'
+      notes   'Unified: `1F45C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕙 </span>CLOCK FACE TEN OCLOCK'
-      notes   '`&#x1f559;`'
+      command ':pouch:'
+      name    '<span style="font-size:2em;">👝 </span>POUCH'
+      notes   'Unified: `1F45D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕚 </span>CLOCK FACE ELEVEN OCLOCK'
-      notes   '`&#x1f55a;`'
+      command ':purse:'
+      name    '<span style="font-size:2em;">👛 </span>PURSE'
+      notes   'Unified: `1F45B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕡 </span>CLOCK FACE SIX-THIRTY'
-      notes   '`&#x1f561;`'
+      command ':eyeglasses:'
+      name    '<span style="font-size:2em;">👓 </span>EYEGLASSES'
+      notes   'Unified: `1F453`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕢 </span>CLOCK FACE SEVEN-THIRTY'
-      notes   '`&#x1f562;`'
+      command ':ribbon:'
+      name    '<span style="font-size:2em;">🎀 </span>RIBBON'
+      notes   'Unified: `1F380`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕣 </span>CLOCK FACE EIGHT-THIRTY'
-      notes   '`&#x1f563;`'
+      command ':closed_umbrella:'
+      name    '<span style="font-size:2em;">🌂 </span>CLOSED UMBRELLA'
+      notes   'Unified: `1F302`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕤 </span>CLOCK FACE NINE-THIRTY'
-      notes   '`&#x1f564;`'
+      command ':lipstick:'
+      name    '<span style="font-size:2em;">💄 </span>LIPSTICK'
+      notes   'Unified: `1F484`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕥 </span>CLOCK FACE TEN-THIRTY'
-      notes   '`&#x1f565;`'
+      command ':yellow_heart:'
+      name    '<span style="font-size:2em;">💛 </span>YELLOW HEART'
+      notes   'Unified: `1F49B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🕦 </span>CLOCK FACE ELEVEN-THIRTY'
-      notes   '`&#x1f566;`'
+      command ':blue_heart:'
+      name    '<span style="font-size:2em;">💙 </span>BLUE HEART'
+      notes   'Unified: `1F499`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✖ </span>HEAVY MULTIPLICATION X'
-      notes   '`&#x2716;`'
+      command ':purple_heart:'
+      name    '<span style="font-size:2em;">💜 </span>PURPLE HEART'
+      notes   'Unified: `1F49C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">➕ </span>HEAVY PLUS SIGN'
-      notes   '`&#x2795;`'
+      command ':green_heart:'
+      name    '<span style="font-size:2em;">💚 </span>GREEN HEART'
+      notes   'Unified: `1F49A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">➖ </span>HEAVY MINUS SIGN'
-      notes   '`&#x2796;`'
+      command ':heart:'
+      name    '<span style="font-size:2em;">❤️ </span>HEAVY BLACK HEART'
+      notes   'Unified: `2764`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">➗ </span>HEAVY DIVISION SIGN'
-      notes   '`&#x2797;`'
+      command ':broken_heart:'
+      name    '<span style="font-size:2em;">💔 </span>BROKEN HEART'
+      notes   'Unified: `1F494`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♠ </span>BLACK SPADE SUIT'
-      notes   '`&#x2660;`'
+      command ':heartpulse:'
+      name    '<span style="font-size:2em;">💗 </span>GROWING HEART'
+      notes   'Unified: `1F497`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♥ </span>BLACK HEART SUIT'
-      notes   '`&#x2665;`'
+      command ':heartbeat:'
+      name    '<span style="font-size:2em;">💓 </span>BEATING HEART'
+      notes   'Unified: `1F493`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♣ </span>BLACK CLUB SUIT'
-      notes   '`&#x2663;`'
+      command ':two_hearts:'
+      name    '<span style="font-size:2em;">💕 </span>TWO HEARTS'
+      notes   'Unified: `1F495`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♦ </span>BLACK DIAMOND SUIT'
-      notes   '`&#x2666;`'
+      command ':sparkling_heart:'
+      name    '<span style="font-size:2em;">💖 </span>SPARKLING HEART'
+      notes   'Unified: `1F496`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💮 </span>WHITE FLOWER'
-      notes   '`&#x1f4ae;`'
+      command ':revolving_hearts:'
+      name    '<span style="font-size:2em;">💞 </span>REVOLVING HEARTS'
+      notes   'Unified: `1F49E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💯 </span>HUNDRED POINTS SYMBOL'
-      notes   '`&#x1f4af;`'
+      command ':cupid:'
+      name    '<span style="font-size:2em;">💘 </span>HEART WITH ARROW'
+      notes   'Unified: `1F498`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✔ </span>HEAVY CHECK MARK'
-      notes   '`&#x2714;`'
+      command ':love_letter:'
+      name    '<span style="font-size:2em;">💌 </span>LOVE LETTER'
+      notes   'Unified: `1F48C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">☑ </span>BALLOT BOX WITH CHECK'
-      notes   '`&#x2611;`'
+      command ':kiss:'
+      name    '<span style="font-size:2em;">💋 </span>KISS MARK'
+      notes   'Unified: `1F48B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔘 </span>RADIO BUTTON'
-      notes   '`&#x1f518;`'
+      command ':ring:'
+      name    '<span style="font-size:2em;">💍 </span>RING'
+      notes   'Unified: `1F48D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔗 </span>LINK SYMBOL'
-      notes   '`&#x1f517;`'
+      command ':gem:'
+      name    '<span style="font-size:2em;">💎 </span>GEM STONE'
+      notes   'Unified: `1F48E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">➰ </span>CURLY LOOP'
-      notes   '`&#x27b0;`'
+      command ':bust_in_silhouette:'
+      name    '<span style="font-size:2em;">👤 </span>BUST IN SILHOUETTE'
+      notes   'Unified: `1F464`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">〰 </span>WAVY DASH'
-      notes   '`&#x3030;`'
+      command ':busts_in_silhouette:'
+      name    '<span style="font-size:2em;">👥 </span>BUSTS IN SILHOUETTE'
+      notes   'Unified: `1F465`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">〽 </span>PART ALTERNATION MARK'
-      notes   '`&#x303d;`'
+      command ':speech_balloon:'
+      name    '<span style="font-size:2em;">💬 </span>SPEECH BALLOON'
+      notes   'Unified: `1F4AC`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔱 </span>TRIDENT EMBLEM'
-      notes   '`&#x1f531;`'
+      command ':footprints:'
+      name    '<span style="font-size:2em;">👣 </span>FOOTPRINTS'
+      notes   'Unified: `1F463`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">◼ </span>BLACK MEDIUM SQUARE'
-      notes   '`&#x25fc;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">◻ </span>WHITE MEDIUM SQUARE'
-      notes   '`&#x25fb;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">◾ </span>BLACK MEDIUM SMALL SQUARE'
-      notes   '`&#x25fe;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">◽ </span>WHITE MEDIUM SMALL SQUARE'
-      notes   '`&#x25fd;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">▪ </span>BLACK SMALL SQUARE'
-      notes   '`&#x25aa;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">▫ </span>WHITE SMALL SQUARE'
-      notes   '`&#x25ab;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔺 </span>UP-POINTING RED TRIANGLE'
-      notes   '`&#x1f53a;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔲 </span>BLACK SQUARE BUTTON'
-      notes   '`&#x1f532;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔳 </span>WHITE SQUARE BUTTON'
-      notes   '`&#x1f533;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⚫ </span>MEDIUM BLACK CIRCLE'
-      notes   '`&#x26ab;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⚪ </span>MEDIUM WHITE CIRCLE'
-      notes   '`&#x26aa;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔴 </span>LARGE RED CIRCLE'
-      notes   '`&#x1f534;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔵 </span>LARGE BLUE CIRCLE'
-      notes   '`&#x1f535;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔻 </span>DOWN-POINTING RED TRIANGLE'
-      notes   '`&#x1f53b;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⬜ </span>WHITE LARGE SQUARE'
-      notes   '`&#x2b1c;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⬛ </span>BLACK LARGE SQUARE'
-      notes   '`&#x2b1b;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔶 </span>LARGE ORANGE DIAMOND'
-      notes   '`&#x1f536;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔷 </span>LARGE BLUE DIAMOND'
-      notes   '`&#x1f537;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔸 </span>SMALL ORANGE DIAMOND'
-      notes   '`&#x1f538;`'
-    end
-    entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔹 </span>SMALL BLUE DIAMOND'
-      notes   '`&#x1f539;`'
+      command ':thought_balloon:'
+      name    '<span style="font-size:2em;">💭 </span>THOUGHT BALLOON'
+      notes   'Unified: `1F4AD`'
     end
 
   end
@@ -1055,584 +960,584 @@ cheatsheet do
     id 'Nature'
     
         entry do
-      command ':code_here:'
+      command ':dog:'
       name    '<span style="font-size:2em;">🐶 </span>DOG FACE'
-      notes   '`&#x1f436;`'
+      notes   'Unified: `1F436`'
     end
     entry do
-      command ':code_here:'
+      command ':wolf:'
       name    '<span style="font-size:2em;">🐺 </span>WOLF FACE'
-      notes   '`&#x1f43a;`'
+      notes   'Unified: `1F43A`'
     end
     entry do
-      command ':code_here:'
+      command ':cat:'
       name    '<span style="font-size:2em;">🐱 </span>CAT FACE'
-      notes   '`&#x1f431;`'
+      notes   'Unified: `1F431`'
     end
     entry do
-      command ':code_here:'
+      command ':mouse:'
       name    '<span style="font-size:2em;">🐭 </span>MOUSE FACE'
-      notes   '`&#x1f42d;`'
+      notes   'Unified: `1F42D`'
     end
     entry do
-      command ':code_here:'
+      command ':hamster:'
       name    '<span style="font-size:2em;">🐹 </span>HAMSTER FACE'
-      notes   '`&#x1f439;`'
+      notes   'Unified: `1F439`'
     end
     entry do
-      command ':code_here:'
+      command ':rabbit:'
       name    '<span style="font-size:2em;">🐰 </span>RABBIT FACE'
-      notes   '`&#x1f430;`'
+      notes   'Unified: `1F430`'
     end
     entry do
-      command ':code_here:'
+      command ':frog:'
       name    '<span style="font-size:2em;">🐸 </span>FROG FACE'
-      notes   '`&#x1f438;`'
+      notes   'Unified: `1F438`'
     end
     entry do
-      command ':code_here:'
+      command ':tiger:'
       name    '<span style="font-size:2em;">🐯 </span>TIGER FACE'
-      notes   '`&#x1f42f;`'
+      notes   'Unified: `1F42F`'
     end
     entry do
-      command ':code_here:'
+      command ':koala:'
       name    '<span style="font-size:2em;">🐨 </span>KOALA'
-      notes   '`&#x1f428;`'
+      notes   'Unified: `1F428`'
     end
     entry do
-      command ':code_here:'
+      command ':bear:'
       name    '<span style="font-size:2em;">🐻 </span>BEAR FACE'
-      notes   '`&#x1f43b;`'
+      notes   'Unified: `1F43B`'
     end
     entry do
-      command ':code_here:'
+      command ':pig:'
       name    '<span style="font-size:2em;">🐷 </span>PIG FACE'
-      notes   '`&#x1f437;`'
+      notes   'Unified: `1F437`'
     end
     entry do
-      command ':code_here:'
+      command ':pig_nose:'
       name    '<span style="font-size:2em;">🐽 </span>PIG NOSE'
-      notes   '`&#x1f43d;`'
+      notes   'Unified: `1F43D`'
     end
     entry do
-      command ':code_here:'
+      command ':cow:'
       name    '<span style="font-size:2em;">🐮 </span>COW FACE'
-      notes   '`&#x1f42e;`'
+      notes   'Unified: `1F42E`'
     end
     entry do
-      command ':code_here:'
+      command ':boar:'
       name    '<span style="font-size:2em;">🐗 </span>BOAR'
-      notes   '`&#x1f417;`'
+      notes   'Unified: `1F417`'
     end
     entry do
-      command ':code_here:'
+      command ':monkey_face:'
       name    '<span style="font-size:2em;">🐵 </span>MONKEY FACE'
-      notes   '`&#x1f435;`'
+      notes   'Unified: `1F435`'
     end
     entry do
-      command ':code_here:'
+      command ':monkey:'
       name    '<span style="font-size:2em;">🐒 </span>MONKEY'
-      notes   '`&#x1f412;`'
+      notes   'Unified: `1F412`'
     end
     entry do
-      command ':code_here:'
+      command ':horse:'
       name    '<span style="font-size:2em;">🐴 </span>HORSE FACE'
-      notes   '`&#x1f434;`'
+      notes   'Unified: `1F434`'
     end
     entry do
-      command ':code_here:'
+      command ':sheep:'
       name    '<span style="font-size:2em;">🐑 </span>SHEEP'
-      notes   '`&#x1f411;`'
+      notes   'Unified: `1F411`'
     end
     entry do
-      command ':code_here:'
+      command ':elephant:'
       name    '<span style="font-size:2em;">🐘 </span>ELEPHANT'
-      notes   '`&#x1f418;`'
+      notes   'Unified: `1F418`'
     end
     entry do
-      command ':code_here:'
+      command ':panda_face:'
       name    '<span style="font-size:2em;">🐼 </span>PANDA FACE'
-      notes   '`&#x1f43c;`'
+      notes   'Unified: `1F43C`'
     end
     entry do
-      command ':code_here:'
+      command ':penguin:'
       name    '<span style="font-size:2em;">🐧 </span>PENGUIN'
-      notes   '`&#x1f427;`'
+      notes   'Unified: `1F427`'
     end
     entry do
-      command ':code_here:'
+      command ':bird:'
       name    '<span style="font-size:2em;">🐦 </span>BIRD'
-      notes   '`&#x1f426;`'
+      notes   'Unified: `1F426`'
     end
     entry do
-      command ':code_here:'
+      command ':baby_chick:'
       name    '<span style="font-size:2em;">🐤 </span>BABY CHICK'
-      notes   '`&#x1f424;`'
+      notes   'Unified: `1F424`'
     end
     entry do
-      command ':code_here:'
+      command ':hatched_chick:'
       name    '<span style="font-size:2em;">🐥 </span>FRONT-FACING BABY CHICK'
-      notes   '`&#x1f425;`'
+      notes   'Unified: `1F425`'
     end
     entry do
-      command ':code_here:'
+      command ':hatching_chick:'
       name    '<span style="font-size:2em;">🐣 </span>HATCHING CHICK'
-      notes   '`&#x1f423;`'
+      notes   'Unified: `1F423`'
     end
     entry do
-      command ':code_here:'
+      command ':chicken:'
       name    '<span style="font-size:2em;">🐔 </span>CHICKEN'
-      notes   '`&#x1f414;`'
+      notes   'Unified: `1F414`'
     end
     entry do
-      command ':code_here:'
+      command ':snake:'
       name    '<span style="font-size:2em;">🐍 </span>SNAKE'
-      notes   '`&#x1f40d;`'
+      notes   'Unified: `1F40D`'
     end
     entry do
-      command ':code_here:'
+      command ':turtle:'
       name    '<span style="font-size:2em;">🐢 </span>TURTLE'
-      notes   '`&#x1f422;`'
+      notes   'Unified: `1F422`'
     end
     entry do
-      command ':code_here:'
+      command ':bug:'
       name    '<span style="font-size:2em;">🐛 </span>BUG'
-      notes   '`&#x1f41b;`'
+      notes   'Unified: `1F41B`'
     end
     entry do
-      command ':code_here:'
+      command ':bee:'
       name    '<span style="font-size:2em;">🐝 </span>HONEYBEE'
-      notes   '`&#x1f41d;`'
+      notes   'Unified: `1F41D`'
     end
     entry do
-      command ':code_here:'
+      command ':ant:'
       name    '<span style="font-size:2em;">🐜 </span>ANT'
-      notes   '`&#x1f41c;`'
+      notes   'Unified: `1F41C`'
     end
     entry do
-      command ':code_here:'
+      command ':beetle:'
       name    '<span style="font-size:2em;">🐞 </span>LADY BEETLE'
-      notes   '`&#x1f41e;`'
+      notes   'Unified: `1F41E`'
     end
     entry do
-      command ':code_here:'
+      command ':snail:'
       name    '<span style="font-size:2em;">🐌 </span>SNAIL'
-      notes   '`&#x1f40c;`'
+      notes   'Unified: `1F40C`'
     end
     entry do
-      command ':code_here:'
+      command ':octopus:'
       name    '<span style="font-size:2em;">🐙 </span>OCTOPUS'
-      notes   '`&#x1f419;`'
+      notes   'Unified: `1F419`'
     end
     entry do
-      command ':code_here:'
+      command ':shell:'
       name    '<span style="font-size:2em;">🐚 </span>SPIRAL SHELL'
-      notes   '`&#x1f41a;`'
+      notes   'Unified: `1F41A`'
     end
     entry do
-      command ':code_here:'
+      command ':tropical_fish:'
       name    '<span style="font-size:2em;">🐠 </span>TROPICAL FISH'
-      notes   '`&#x1f420;`'
+      notes   'Unified: `1F420`'
     end
     entry do
-      command ':code_here:'
+      command ':fish:'
       name    '<span style="font-size:2em;">🐟 </span>FISH'
-      notes   '`&#x1f41f;`'
+      notes   'Unified: `1F41F`'
     end
     entry do
-      command ':code_here:'
+      command ':dolphin:'
       name    '<span style="font-size:2em;">🐬 </span>DOLPHIN'
-      notes   '`&#x1f42c;`'
+      notes   'Unified: `1F42C`'
     end
     entry do
-      command ':code_here:'
+      command ':whale:'
       name    '<span style="font-size:2em;">🐳 </span>SPOUTING WHALE'
-      notes   '`&#x1f433;`'
+      notes   'Unified: `1F433`'
     end
     entry do
-      command ':code_here:'
+      command ':whale2:'
       name    '<span style="font-size:2em;">🐋 </span>WHALE'
-      notes   '`&#x1f40b;`'
+      notes   'Unified: `1F40B`'
     end
     entry do
-      command ':code_here:'
+      command ':cow2:'
       name    '<span style="font-size:2em;">🐄 </span>COW'
-      notes   '`&#x1f404;`'
+      notes   'Unified: `1F404`'
     end
     entry do
-      command ':code_here:'
+      command ':ram:'
       name    '<span style="font-size:2em;">🐏 </span>RAM'
-      notes   '`&#x1f40f;`'
+      notes   'Unified: `1F40F`'
     end
     entry do
-      command ':code_here:'
+      command ':rat:'
       name    '<span style="font-size:2em;">🐀 </span>RAT'
-      notes   '`&#x1f400;`'
+      notes   'Unified: `1F400`'
     end
     entry do
-      command ':code_here:'
+      command ':water_buffalo:'
       name    '<span style="font-size:2em;">🐃 </span>WATER BUFFALO'
-      notes   '`&#x1f403;`'
+      notes   'Unified: `1F403`'
     end
     entry do
-      command ':code_here:'
+      command ':tiger2:'
       name    '<span style="font-size:2em;">🐅 </span>TIGER'
-      notes   '`&#x1f405;`'
+      notes   'Unified: `1F405`'
     end
     entry do
-      command ':code_here:'
+      command ':rabbit2:'
       name    '<span style="font-size:2em;">🐇 </span>RABBIT'
-      notes   '`&#x1f407;`'
+      notes   'Unified: `1F407`'
     end
     entry do
-      command ':code_here:'
+      command ':dragon:'
       name    '<span style="font-size:2em;">🐉 </span>DRAGON'
-      notes   '`&#x1f409;`'
+      notes   'Unified: `1F409`'
     end
     entry do
-      command ':code_here:'
+      command ':racehorse:'
       name    '<span style="font-size:2em;">🐎 </span>HORSE'
-      notes   '`&#x1f40e;`'
+      notes   'Unified: `1F40E`'
     end
     entry do
-      command ':code_here:'
+      command ':goat:'
       name    '<span style="font-size:2em;">🐐 </span>GOAT'
-      notes   '`&#x1f410;`'
+      notes   'Unified: `1F410`'
     end
     entry do
-      command ':code_here:'
+      command ':rooster:'
       name    '<span style="font-size:2em;">🐓 </span>ROOSTER'
-      notes   '`&#x1f413;`'
+      notes   'Unified: `1F413`'
     end
     entry do
-      command ':code_here:'
+      command ':dog2:'
       name    '<span style="font-size:2em;">🐕 </span>DOG'
-      notes   '`&#x1f415;`'
+      notes   'Unified: `1F415`'
     end
     entry do
-      command ':code_here:'
+      command ':pig2:'
       name    '<span style="font-size:2em;">🐖 </span>PIG'
-      notes   '`&#x1f416;`'
+      notes   'Unified: `1F416`'
     end
     entry do
-      command ':code_here:'
+      command ':mouse2:'
       name    '<span style="font-size:2em;">🐁 </span>MOUSE'
-      notes   '`&#x1f401;`'
+      notes   'Unified: `1F401`'
     end
     entry do
-      command ':code_here:'
+      command ':ox:'
       name    '<span style="font-size:2em;">🐂 </span>OX'
-      notes   '`&#x1f402;`'
+      notes   'Unified: `1F402`'
     end
     entry do
-      command ':code_here:'
+      command ':dragon_face:'
       name    '<span style="font-size:2em;">🐲 </span>DRAGON FACE'
-      notes   '`&#x1f432;`'
+      notes   'Unified: `1F432`'
     end
     entry do
-      command ':code_here:'
+      command ':blowfish:'
       name    '<span style="font-size:2em;">🐡 </span>BLOWFISH'
-      notes   '`&#x1f421;`'
+      notes   'Unified: `1F421`'
     end
     entry do
-      command ':code_here:'
+      command ':crocodile:'
       name    '<span style="font-size:2em;">🐊 </span>CROCODILE'
-      notes   '`&#x1f40a;`'
+      notes   'Unified: `1F40A`'
     end
     entry do
-      command ':code_here:'
+      command ':camel:'
       name    '<span style="font-size:2em;">🐫 </span>BACTRIAN CAMEL'
-      notes   '`&#x1f42b;`'
+      notes   'Unified: `1F42B`'
     end
     entry do
-      command ':code_here:'
+      command ':dromedary_camel:'
       name    '<span style="font-size:2em;">🐪 </span>DROMEDARY CAMEL'
-      notes   '`&#x1f42a;`'
+      notes   'Unified: `1F42A`'
     end
     entry do
-      command ':code_here:'
+      command ':leopard:'
       name    '<span style="font-size:2em;">🐆 </span>LEOPARD'
-      notes   '`&#x1f406;`'
+      notes   'Unified: `1F406`'
     end
     entry do
-      command ':code_here:'
+      command ':cat2:'
       name    '<span style="font-size:2em;">🐈 </span>CAT'
-      notes   '`&#x1f408;`'
+      notes   'Unified: `1F408`'
     end
     entry do
-      command ':code_here:'
+      command ':poodle:'
       name    '<span style="font-size:2em;">🐩 </span>POODLE'
-      notes   '`&#x1f429;`'
+      notes   'Unified: `1F429`'
     end
     entry do
-      command ':code_here:'
+      command ':feet:'
       name    '<span style="font-size:2em;">🐾 </span>PAW PRINTS'
-      notes   '`&#x1f43e;`'
+      notes   'Unified: `1F43E`'
     end
     entry do
-      command ':code_here:'
+      command ':bouquet:'
       name    '<span style="font-size:2em;">💐 </span>BOUQUET'
-      notes   '`&#x1f490;`'
+      notes   'Unified: `1F490`'
     end
     entry do
-      command ':code_here:'
+      command ':cherry_blossom:'
       name    '<span style="font-size:2em;">🌸 </span>CHERRY BLOSSOM'
-      notes   '`&#x1f338;`'
+      notes   'Unified: `1F338`'
     end
     entry do
-      command ':code_here:'
+      command ':tulip:'
       name    '<span style="font-size:2em;">🌷 </span>TULIP'
-      notes   '`&#x1f337;`'
+      notes   'Unified: `1F337`'
     end
     entry do
-      command ':code_here:'
+      command ':four_leaf_clover:'
       name    '<span style="font-size:2em;">🍀 </span>FOUR LEAF CLOVER'
-      notes   '`&#x1f340;`'
+      notes   'Unified: `1F340`'
     end
     entry do
-      command ':code_here:'
+      command ':rose:'
       name    '<span style="font-size:2em;">🌹 </span>ROSE'
-      notes   '`&#x1f339;`'
+      notes   'Unified: `1F339`'
     end
     entry do
-      command ':code_here:'
+      command ':sunflower:'
       name    '<span style="font-size:2em;">🌻 </span>SUNFLOWER'
-      notes   '`&#x1f33b;`'
+      notes   'Unified: `1F33B`'
     end
     entry do
-      command ':code_here:'
+      command ':hibiscus:'
       name    '<span style="font-size:2em;">🌺 </span>HIBISCUS'
-      notes   '`&#x1f33a;`'
+      notes   'Unified: `1F33A`'
     end
     entry do
-      command ':code_here:'
+      command ':maple_leaf:'
       name    '<span style="font-size:2em;">🍁 </span>MAPLE LEAF'
-      notes   '`&#x1f341;`'
+      notes   'Unified: `1F341`'
     end
     entry do
-      command ':code_here:'
+      command ':leaves:'
       name    '<span style="font-size:2em;">🍃 </span>LEAF FLUTTERING IN WIND'
-      notes   '`&#x1f343;`'
+      notes   'Unified: `1F343`'
     end
     entry do
-      command ':code_here:'
+      command ':fallen_leaf:'
       name    '<span style="font-size:2em;">🍂 </span>FALLEN LEAF'
-      notes   '`&#x1f342;`'
+      notes   'Unified: `1F342`'
     end
     entry do
-      command ':code_here:'
+      command ':herb:'
       name    '<span style="font-size:2em;">🌿 </span>HERB'
-      notes   '`&#x1f33f;`'
+      notes   'Unified: `1F33F`'
     end
     entry do
-      command ':code_here:'
+      command ':ear_of_rice:'
       name    '<span style="font-size:2em;">🌾 </span>EAR OF RICE'
-      notes   '`&#x1f33e;`'
+      notes   'Unified: `1F33E`'
     end
     entry do
-      command ':code_here:'
+      command ':mushroom:'
       name    '<span style="font-size:2em;">🍄 </span>MUSHROOM'
-      notes   '`&#x1f344;`'
+      notes   'Unified: `1F344`'
     end
     entry do
-      command ':code_here:'
+      command ':cactus:'
       name    '<span style="font-size:2em;">🌵 </span>CACTUS'
-      notes   '`&#x1f335;`'
+      notes   'Unified: `1F335`'
     end
     entry do
-      command ':code_here:'
+      command ':palm_tree:'
       name    '<span style="font-size:2em;">🌴 </span>PALM TREE'
-      notes   '`&#x1f334;`'
+      notes   'Unified: `1F334`'
     end
     entry do
-      command ':code_here:'
+      command ':evergreen_tree:'
       name    '<span style="font-size:2em;">🌲 </span>EVERGREEN TREE'
-      notes   '`&#x1f332;`'
+      notes   'Unified: `1F332`'
     end
     entry do
-      command ':code_here:'
+      command ':deciduous_tree:'
       name    '<span style="font-size:2em;">🌳 </span>DECIDUOUS TREE'
-      notes   '`&#x1f333;`'
+      notes   'Unified: `1F333`'
     end
     entry do
-      command ':code_here:'
+      command ':chestnut:'
       name    '<span style="font-size:2em;">🌰 </span>CHESTNUT'
-      notes   '`&#x1f330;`'
+      notes   'Unified: `1F330`'
     end
     entry do
-      command ':code_here:'
+      command ':seedling:'
       name    '<span style="font-size:2em;">🌱 </span>SEEDLING'
-      notes   '`&#x1f331;`'
+      notes   'Unified: `1F331`'
     end
     entry do
-      command ':code_here:'
+      command ':blossom:'
       name    '<span style="font-size:2em;">🌼 </span>BLOSSOM'
-      notes   '`&#x1f33c;`'
+      notes   'Unified: `1F33C`'
     end
     entry do
-      command ':code_here:'
+      command ':globe_with_meridians:'
       name    '<span style="font-size:2em;">🌐 </span>GLOBE WITH MERIDIANS'
-      notes   '`&#x1f310;`'
+      notes   'Unified: `1F310`'
     end
     entry do
-      command ':code_here:'
+      command ':sun_with_face:'
       name    '<span style="font-size:2em;">🌞 </span>SUN WITH FACE'
-      notes   '`&#x1f31e;`'
+      notes   'Unified: `1F31E`'
     end
     entry do
-      command ':code_here:'
+      command ':full_moon_with_face:'
       name    '<span style="font-size:2em;">🌝 </span>FULL MOON WITH FACE'
-      notes   '`&#x1f31d;`'
+      notes   'Unified: `1F31D`'
     end
     entry do
-      command ':code_here:'
+      command ':new_moon_with_face:'
       name    '<span style="font-size:2em;">🌚 </span>NEW MOON WITH FACE'
-      notes   '`&#x1f31a;`'
+      notes   'Unified: `1F31A`'
     end
     entry do
-      command ':code_here:'
+      command ':new_moon:'
       name    '<span style="font-size:2em;">🌑 </span>NEW MOON SYMBOL'
-      notes   '`&#x1f311;`'
+      notes   'Unified: `1F311`'
     end
     entry do
-      command ':code_here:'
+      command ':waxing_crescent_moon:'
       name    '<span style="font-size:2em;">🌒 </span>WAXING CRESCENT MOON SYMBOL'
-      notes   '`&#x1f312;`'
+      notes   'Unified: `1F312`'
     end
     entry do
-      command ':code_here:'
+      command ':first_quarter_moon:'
       name    '<span style="font-size:2em;">🌓 </span>FIRST QUARTER MOON SYMBOL'
-      notes   '`&#x1f313;`'
+      notes   'Unified: `1F313`'
     end
     entry do
-      command ':code_here:'
+      command ':moon:'
       name    '<span style="font-size:2em;">🌔 </span>WAXING GIBBOUS MOON SYMBOL'
-      notes   '`&#x1f314;`'
+      notes   'Unified: `1F314`'
     end
     entry do
-      command ':code_here:'
+      command ':full_moon:'
       name    '<span style="font-size:2em;">🌕 </span>FULL MOON SYMBOL'
-      notes   '`&#x1f315;`'
+      notes   'Unified: `1F315`'
     end
     entry do
-      command ':code_here:'
+      command ':waning_gibbous_moon:'
       name    '<span style="font-size:2em;">🌖 </span>WANING GIBBOUS MOON SYMBOL'
-      notes   '`&#x1f316;`'
+      notes   'Unified: `1F316`'
     end
     entry do
-      command ':code_here:'
+      command ':last_quarter_moon:'
       name    '<span style="font-size:2em;">🌗 </span>LAST QUARTER MOON SYMBOL'
-      notes   '`&#x1f317;`'
+      notes   'Unified: `1F317`'
     end
     entry do
-      command ':code_here:'
+      command ':waning_crescent_moon:'
       name    '<span style="font-size:2em;">🌘 </span>WANING CRESCENT MOON SYMBOL'
-      notes   '`&#x1f318;`'
+      notes   'Unified: `1F318`'
     end
     entry do
-      command ':code_here:'
+      command ':last_quarter_moon_with_face:'
       name    '<span style="font-size:2em;">🌜 </span>LAST QUARTER MOON WITH FACE'
-      notes   '`&#x1f31c;`'
+      notes   'Unified: `1F31C`'
     end
     entry do
-      command ':code_here:'
+      command ':first_quarter_moon_with_face:'
       name    '<span style="font-size:2em;">🌛 </span>FIRST QUARTER MOON WITH FACE'
-      notes   '`&#x1f31b;`'
+      notes   'Unified: `1F31B`'
     end
     entry do
-      command ':code_here:'
+      command ':crescent_moon:'
       name    '<span style="font-size:2em;">🌙 </span>CRESCENT MOON'
-      notes   '`&#x1f319;`'
+      notes   'Unified: `1F319`'
     end
     entry do
-      command ':code_here:'
+      command ':earth_africa:'
       name    '<span style="font-size:2em;">🌍 </span>EARTH GLOBE EUROPE-AFRICA'
-      notes   '`&#x1f30d;`'
+      notes   'Unified: `1F30D`'
     end
     entry do
-      command ':code_here:'
+      command ':earth_americas:'
       name    '<span style="font-size:2em;">🌎 </span>EARTH GLOBE AMERICAS'
-      notes   '`&#x1f30e;`'
+      notes   'Unified: `1F30E`'
     end
     entry do
-      command ':code_here:'
+      command ':earth_asia:'
       name    '<span style="font-size:2em;">🌏 </span>EARTH GLOBE ASIA-AUSTRALIA'
-      notes   '`&#x1f30f;`'
+      notes   'Unified: `1F30F`'
     end
     entry do
-      command ':code_here:'
+      command ':volcano:'
       name    '<span style="font-size:2em;">🌋 </span>VOLCANO'
-      notes   '`&#x1f30b;`'
+      notes   'Unified: `1F30B`'
     end
     entry do
-      command ':code_here:'
+      command ':milky_way:'
       name    '<span style="font-size:2em;">🌌 </span>MILKY WAY'
-      notes   '`&#x1f30c;`'
+      notes   'Unified: `1F30C`'
     end
     entry do
-      command ':code_here:'
+      command ':stars:'
       name    '<span style="font-size:2em;">🌠 </span>SHOOTING STAR'
-      notes   '`&#x1f320;`'
+      notes   'Unified: `1F320`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⭐ </span>WHITE MEDIUM STAR'
-      notes   '`&#x2b50;`'
+      command ':star:'
+      name    '<span style="font-size:2em;">⭐️ </span>WHITE MEDIUM STAR'
+      notes   'Unified: `2B50`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">☀ </span>BLACK SUN WITH RAYS'
-      notes   '`&#x2600;`'
+      command ':sunny:'
+      name    '<span style="font-size:2em;">☀️ </span>BLACK SUN WITH RAYS'
+      notes   'Unified: `2600`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⛅ </span>SUN BEHIND CLOUD'
-      notes   '`&#x26c5;`'
+      command ':partly_sunny:'
+      name    '<span style="font-size:2em;">⛅️ </span>SUN BEHIND CLOUD'
+      notes   'Unified: `26C5`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">☁ </span>CLOUD'
-      notes   '`&#x2601;`'
+      command ':cloud:'
+      name    '<span style="font-size:2em;">☁️ </span>CLOUD'
+      notes   'Unified: `2601`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⚡ </span>HIGH VOLTAGE SIGN'
-      notes   '`&#x26a1;`'
+      command ':zap:'
+      name    '<span style="font-size:2em;">⚡️ </span>HIGH VOLTAGE SIGN'
+      notes   'Unified: `26A1`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">☔ </span>UMBRELLA WITH RAIN DROPS'
-      notes   '`&#x2614;`'
+      command ':umbrella:'
+      name    '<span style="font-size:2em;">☔️ </span>UMBRELLA WITH RAIN DROPS'
+      notes   'Unified: `2614`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">❄ </span>SNOWFLAKE'
-      notes   '`&#x2744;`'
+      command ':snowflake:'
+      name    '<span style="font-size:2em;">❄️ </span>SNOWFLAKE'
+      notes   'Unified: `2744`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⛄ </span>SNOWMAN WITHOUT SNOW'
-      notes   '`&#x26c4;`'
+      command ':snowman:'
+      name    '<span style="font-size:2em;">⛄️ </span>SNOWMAN WITHOUT SNOW'
+      notes   'Unified: `26C4`'
     end
     entry do
-      command ':code_here:'
+      command ':cyclone:'
       name    '<span style="font-size:2em;">🌀 </span>CYCLONE'
-      notes   '`&#x1f300;`'
+      notes   'Unified: `1F300`'
     end
     entry do
-      command ':code_here:'
+      command ':foggy:'
       name    '<span style="font-size:2em;">🌁 </span>FOGGY'
-      notes   '`&#x1f301;`'
+      notes   'Unified: `1F301`'
     end
     entry do
-      command ':code_here:'
+      command ':rainbow:'
       name    '<span style="font-size:2em;">🌈 </span>RAINBOW'
-      notes   '`&#x1f308;`'
+      notes   'Unified: `1F308`'
     end
     entry do
-      command ':code_here:'
+      command ':ocean:'
       name    '<span style="font-size:2em;">🌊 </span>WATER WAVE'
-      notes   '`&#x1f30a;`'
+      notes   'Unified: `1F30A`'
     end
 
   end
@@ -1640,1154 +1545,1154 @@ cheatsheet do
     id 'Objects'
     
         entry do
-      command ':code_here:'
+      command ':bamboo:'
       name    '<span style="font-size:2em;">🎍 </span>PINE DECORATION'
-      notes   '`&#x1f38d;`'
+      notes   'Unified: `1F38D`'
     end
     entry do
-      command ':code_here:'
+      command ':gift_heart:'
       name    '<span style="font-size:2em;">💝 </span>HEART WITH RIBBON'
-      notes   '`&#x1f49d;`'
+      notes   'Unified: `1F49D`'
     end
     entry do
-      command ':code_here:'
+      command ':dolls:'
       name    '<span style="font-size:2em;">🎎 </span>JAPANESE DOLLS'
-      notes   '`&#x1f38e;`'
+      notes   'Unified: `1F38E`'
     end
     entry do
-      command ':code_here:'
+      command ':school_satchel:'
       name    '<span style="font-size:2em;">🎒 </span>SCHOOL SATCHEL'
-      notes   '`&#x1f392;`'
+      notes   'Unified: `1F392`'
     end
     entry do
-      command ':code_here:'
+      command ':mortar_board:'
       name    '<span style="font-size:2em;">🎓 </span>GRADUATION CAP'
-      notes   '`&#x1f393;`'
+      notes   'Unified: `1F393`'
     end
     entry do
-      command ':code_here:'
+      command ':flags:'
       name    '<span style="font-size:2em;">🎏 </span>CARP STREAMER'
-      notes   '`&#x1f38f;`'
+      notes   'Unified: `1F38F`'
     end
     entry do
-      command ':code_here:'
+      command ':fireworks:'
       name    '<span style="font-size:2em;">🎆 </span>FIREWORKS'
-      notes   '`&#x1f386;`'
+      notes   'Unified: `1F386`'
     end
     entry do
-      command ':code_here:'
+      command ':sparkler:'
       name    '<span style="font-size:2em;">🎇 </span>FIREWORK SPARKLER'
-      notes   '`&#x1f387;`'
+      notes   'Unified: `1F387`'
     end
     entry do
-      command ':code_here:'
+      command ':wind_chime:'
       name    '<span style="font-size:2em;">🎐 </span>WIND CHIME'
-      notes   '`&#x1f390;`'
+      notes   'Unified: `1F390`'
     end
     entry do
-      command ':code_here:'
+      command ':rice_scene:'
       name    '<span style="font-size:2em;">🎑 </span>MOON VIEWING CEREMONY'
-      notes   '`&#x1f391;`'
+      notes   'Unified: `1F391`'
     end
     entry do
-      command ':code_here:'
+      command ':jack_o_lantern:'
       name    '<span style="font-size:2em;">🎃 </span>JACK-O-LANTERN'
-      notes   '`&#x1f383;`'
+      notes   'Unified: `1F383`'
     end
     entry do
-      command ':code_here:'
+      command ':ghost:'
       name    '<span style="font-size:2em;">👻 </span>GHOST'
-      notes   '`&#x1f47b;`'
+      notes   'Unified: `1F47B`'
     end
     entry do
-      command ':code_here:'
+      command ':santa:'
       name    '<span style="font-size:2em;">🎅 </span>FATHER CHRISTMAS'
-      notes   '`&#x1f385;`'
+      notes   'Unified: `1F385`'
     end
     entry do
-      command ':code_here:'
+      command ':christmas_tree:'
       name    '<span style="font-size:2em;">🎄 </span>CHRISTMAS TREE'
-      notes   '`&#x1f384;`'
+      notes   'Unified: `1F384`'
     end
     entry do
-      command ':code_here:'
+      command ':gift:'
       name    '<span style="font-size:2em;">🎁 </span>WRAPPED PRESENT'
-      notes   '`&#x1f381;`'
+      notes   'Unified: `1F381`'
     end
     entry do
-      command ':code_here:'
+      command ':tanabata_tree:'
       name    '<span style="font-size:2em;">🎋 </span>TANABATA TREE'
-      notes   '`&#x1f38b;`'
+      notes   'Unified: `1F38B`'
     end
     entry do
-      command ':code_here:'
+      command ':tada:'
       name    '<span style="font-size:2em;">🎉 </span>PARTY POPPER'
-      notes   '`&#x1f389;`'
+      notes   'Unified: `1F389`'
     end
     entry do
-      command ':code_here:'
+      command ':confetti_ball:'
       name    '<span style="font-size:2em;">🎊 </span>CONFETTI BALL'
-      notes   '`&#x1f38a;`'
+      notes   'Unified: `1F38A`'
     end
     entry do
-      command ':code_here:'
+      command ':balloon:'
       name    '<span style="font-size:2em;">🎈 </span>BALLOON'
-      notes   '`&#x1f388;`'
+      notes   'Unified: `1F388`'
     end
     entry do
-      command ':code_here:'
+      command ':crossed_flags:'
       name    '<span style="font-size:2em;">🎌 </span>CROSSED FLAGS'
-      notes   '`&#x1f38c;`'
+      notes   'Unified: `1F38C`'
     end
     entry do
-      command ':code_here:'
+      command ':crystal_ball:'
       name    '<span style="font-size:2em;">🔮 </span>CRYSTAL BALL'
-      notes   '`&#x1f52e;`'
+      notes   'Unified: `1F52E`'
     end
     entry do
-      command ':code_here:'
+      command ':movie_camera:'
       name    '<span style="font-size:2em;">🎥 </span>MOVIE CAMERA'
-      notes   '`&#x1f3a5;`'
+      notes   'Unified: `1F3A5`'
     end
     entry do
-      command ':code_here:'
+      command ':camera:'
       name    '<span style="font-size:2em;">📷 </span>CAMERA'
-      notes   '`&#x1f4f7;`'
+      notes   'Unified: `1F4F7`'
     end
     entry do
-      command ':code_here:'
+      command ':video_camera:'
       name    '<span style="font-size:2em;">📹 </span>VIDEO CAMERA'
-      notes   '`&#x1f4f9;`'
+      notes   'Unified: `1F4F9`'
     end
     entry do
-      command ':code_here:'
+      command ':vhs:'
       name    '<span style="font-size:2em;">📼 </span>VIDEOCASSETTE'
-      notes   '`&#x1f4fc;`'
+      notes   'Unified: `1F4FC`'
     end
     entry do
-      command ':code_here:'
+      command ':cd:'
       name    '<span style="font-size:2em;">💿 </span>OPTICAL DISC'
-      notes   '`&#x1f4bf;`'
+      notes   'Unified: `1F4BF`'
     end
     entry do
-      command ':code_here:'
+      command ':dvd:'
       name    '<span style="font-size:2em;">📀 </span>DVD'
-      notes   '`&#x1f4c0;`'
+      notes   'Unified: `1F4C0`'
     end
     entry do
-      command ':code_here:'
+      command ':minidisc:'
       name    '<span style="font-size:2em;">💽 </span>MINIDISC'
-      notes   '`&#x1f4bd;`'
+      notes   'Unified: `1F4BD`'
     end
     entry do
-      command ':code_here:'
+      command ':floppy_disk:'
       name    '<span style="font-size:2em;">💾 </span>FLOPPY DISK'
-      notes   '`&#x1f4be;`'
+      notes   'Unified: `1F4BE`'
     end
     entry do
-      command ':code_here:'
+      command ':computer:'
       name    '<span style="font-size:2em;">💻 </span>PERSONAL COMPUTER'
-      notes   '`&#x1f4bb;`'
+      notes   'Unified: `1F4BB`'
     end
     entry do
-      command ':code_here:'
+      command ':iphone:'
       name    '<span style="font-size:2em;">📱 </span>MOBILE PHONE'
-      notes   '`&#x1f4f1;`'
+      notes   'Unified: `1F4F1`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">☎ </span>BLACK TELEPHONE'
-      notes   '`&#x260e;`'
+      command ':phone:'
+      name    '<span style="font-size:2em;">☎️ </span>BLACK TELEPHONE'
+      notes   'Unified: `260E`'
     end
     entry do
-      command ':code_here:'
+      command ':telephone_receiver:'
       name    '<span style="font-size:2em;">📞 </span>TELEPHONE RECEIVER'
-      notes   '`&#x1f4de;`'
+      notes   'Unified: `1F4DE`'
     end
     entry do
-      command ':code_here:'
+      command ':pager:'
       name    '<span style="font-size:2em;">📟 </span>PAGER'
-      notes   '`&#x1f4df;`'
+      notes   'Unified: `1F4DF`'
     end
     entry do
-      command ':code_here:'
+      command ':fax:'
       name    '<span style="font-size:2em;">📠 </span>FAX MACHINE'
-      notes   '`&#x1f4e0;`'
+      notes   'Unified: `1F4E0`'
     end
     entry do
-      command ':code_here:'
+      command ':satellite:'
       name    '<span style="font-size:2em;">📡 </span>SATELLITE ANTENNA'
-      notes   '`&#x1f4e1;`'
+      notes   'Unified: `1F4E1`'
     end
     entry do
-      command ':code_here:'
+      command ':tv:'
       name    '<span style="font-size:2em;">📺 </span>TELEVISION'
-      notes   '`&#x1f4fa;`'
+      notes   'Unified: `1F4FA`'
     end
     entry do
-      command ':code_here:'
+      command ':radio:'
       name    '<span style="font-size:2em;">📻 </span>RADIO'
-      notes   '`&#x1f4fb;`'
+      notes   'Unified: `1F4FB`'
     end
     entry do
-      command ':code_here:'
+      command ':loud_sound:'
       name    '<span style="font-size:2em;">🔊 </span>SPEAKER WITH THREE SOUND WAVES'
-      notes   '`&#x1f50a;`'
+      notes   'Unified: `1F50A`'
     end
     entry do
-      command ':code_here:'
+      command ':sound:'
       name    '<span style="font-size:2em;">🔉 </span>SPEAKER WITH ONE SOUND WAVE'
-      notes   '`&#x1f509;`'
+      notes   'Unified: `1F509`'
     end
     entry do
-      command ':code_here:'
+      command ':speaker:'
       name    '<span style="font-size:2em;">🔈 </span>SPEAKER'
-      notes   '`&#x1f508;`'
+      notes   'Unified: `1F508`'
     end
     entry do
-      command ':code_here:'
+      command ':mute:'
       name    '<span style="font-size:2em;">🔇 </span>SPEAKER WITH CANCELLATION STROKE'
-      notes   '`&#x1f507;`'
+      notes   'Unified: `1F507`'
     end
     entry do
-      command ':code_here:'
+      command ':bell:'
       name    '<span style="font-size:2em;">🔔 </span>BELL'
-      notes   '`&#x1f514;`'
+      notes   'Unified: `1F514`'
     end
     entry do
-      command ':code_here:'
+      command ':no_bell:'
       name    '<span style="font-size:2em;">🔕 </span>BELL WITH CANCELLATION STROKE'
-      notes   '`&#x1f515;`'
+      notes   'Unified: `1F515`'
     end
     entry do
-      command ':code_here:'
+      command ':loudspeaker:'
       name    '<span style="font-size:2em;">📢 </span>PUBLIC ADDRESS LOUDSPEAKER'
-      notes   '`&#x1f4e2;`'
+      notes   'Unified: `1F4E2`'
     end
     entry do
-      command ':code_here:'
+      command ':mega:'
       name    '<span style="font-size:2em;">📣 </span>CHEERING MEGAPHONE'
-      notes   '`&#x1f4e3;`'
+      notes   'Unified: `1F4E3`'
     end
     entry do
-      command ':code_here:'
+      command ':hourglass_flowing_sand:'
       name    '<span style="font-size:2em;">⏳ </span>HOURGLASS WITH FLOWING SAND'
-      notes   '`&#x23f3;`'
+      notes   'Unified: `23F3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⌛ </span>HOURGLASS'
-      notes   '`&#x231b;`'
+      command ':hourglass:'
+      name    '<span style="font-size:2em;">⌛️ </span>HOURGLASS'
+      notes   'Unified: `231B`'
     end
     entry do
-      command ':code_here:'
+      command ':alarm_clock:'
       name    '<span style="font-size:2em;">⏰ </span>ALARM CLOCK'
-      notes   '`&#x23f0;`'
+      notes   'Unified: `23F0`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⌚ </span>WATCH'
-      notes   '`&#x231a;`'
+      command ':watch:'
+      name    '<span style="font-size:2em;">⌚️ </span>WATCH'
+      notes   'Unified: `231A`'
     end
     entry do
-      command ':code_here:'
+      command ':unlock:'
       name    '<span style="font-size:2em;">🔓 </span>OPEN LOCK'
-      notes   '`&#x1f513;`'
+      notes   'Unified: `1F513`'
     end
     entry do
-      command ':code_here:'
+      command ':lock:'
       name    '<span style="font-size:2em;">🔒 </span>LOCK'
-      notes   '`&#x1f512;`'
+      notes   'Unified: `1F512`'
     end
     entry do
-      command ':code_here:'
+      command ':lock_with_ink_pen:'
       name    '<span style="font-size:2em;">🔏 </span>LOCK WITH INK PEN'
-      notes   '`&#x1f50f;`'
+      notes   'Unified: `1F50F`'
     end
     entry do
-      command ':code_here:'
+      command ':closed_lock_with_key:'
       name    '<span style="font-size:2em;">🔐 </span>CLOSED LOCK WITH KEY'
-      notes   '`&#x1f510;`'
+      notes   'Unified: `1F510`'
     end
     entry do
-      command ':code_here:'
+      command ':key:'
       name    '<span style="font-size:2em;">🔑 </span>KEY'
-      notes   '`&#x1f511;`'
+      notes   'Unified: `1F511`'
     end
     entry do
-      command ':code_here:'
+      command ':mag_right:'
       name    '<span style="font-size:2em;">🔎 </span>RIGHT-POINTING MAGNIFYING GLASS'
-      notes   '`&#x1f50e;`'
+      notes   'Unified: `1F50E`'
     end
     entry do
-      command ':code_here:'
+      command ':bulb:'
       name    '<span style="font-size:2em;">💡 </span>ELECTRIC LIGHT BULB'
-      notes   '`&#x1f4a1;`'
+      notes   'Unified: `1F4A1`'
     end
     entry do
-      command ':code_here:'
+      command ':flashlight:'
       name    '<span style="font-size:2em;">🔦 </span>ELECTRIC TORCH'
-      notes   '`&#x1f526;`'
+      notes   'Unified: `1F526`'
     end
     entry do
-      command ':code_here:'
+      command ':high_brightness:'
       name    '<span style="font-size:2em;">🔆 </span>HIGH BRIGHTNESS SYMBOL'
-      notes   '`&#x1f506;`'
+      notes   'Unified: `1F506`'
     end
     entry do
-      command ':code_here:'
+      command ':low_brightness:'
       name    '<span style="font-size:2em;">🔅 </span>LOW BRIGHTNESS SYMBOL'
-      notes   '`&#x1f505;`'
+      notes   'Unified: `1F505`'
     end
     entry do
-      command ':code_here:'
+      command ':electric_plug:'
       name    '<span style="font-size:2em;">🔌 </span>ELECTRIC PLUG'
-      notes   '`&#x1f50c;`'
+      notes   'Unified: `1F50C`'
     end
     entry do
-      command ':code_here:'
+      command ':battery:'
       name    '<span style="font-size:2em;">🔋 </span>BATTERY'
-      notes   '`&#x1f50b;`'
+      notes   'Unified: `1F50B`'
     end
     entry do
-      command ':code_here:'
+      command ':mag:'
       name    '<span style="font-size:2em;">🔍 </span>LEFT-POINTING MAGNIFYING GLASS'
-      notes   '`&#x1f50d;`'
+      notes   'Unified: `1F50D`'
     end
     entry do
-      command ':code_here:'
+      command ':bathtub:'
       name    '<span style="font-size:2em;">🛁 </span>BATHTUB'
-      notes   '`&#x1f6c1;`'
+      notes   'Unified: `1F6C1`'
     end
     entry do
-      command ':code_here:'
+      command ':bath:'
       name    '<span style="font-size:2em;">🛀 </span>BATH'
-      notes   '`&#x1f6c0;`'
+      notes   'Unified: `1F6C0`'
     end
     entry do
-      command ':code_here:'
+      command ':shower:'
       name    '<span style="font-size:2em;">🚿 </span>SHOWER'
-      notes   '`&#x1f6bf;`'
+      notes   'Unified: `1F6BF`'
     end
     entry do
-      command ':code_here:'
+      command ':toilet:'
       name    '<span style="font-size:2em;">🚽 </span>TOILET'
-      notes   '`&#x1f6bd;`'
+      notes   'Unified: `1F6BD`'
     end
     entry do
-      command ':code_here:'
+      command ':wrench:'
       name    '<span style="font-size:2em;">🔧 </span>WRENCH'
-      notes   '`&#x1f527;`'
+      notes   'Unified: `1F527`'
     end
     entry do
-      command ':code_here:'
+      command ':nut_and_bolt:'
       name    '<span style="font-size:2em;">🔩 </span>NUT AND BOLT'
-      notes   '`&#x1f529;`'
+      notes   'Unified: `1F529`'
     end
     entry do
-      command ':code_here:'
+      command ':hammer:'
       name    '<span style="font-size:2em;">🔨 </span>HAMMER'
-      notes   '`&#x1f528;`'
+      notes   'Unified: `1F528`'
     end
     entry do
-      command ':code_here:'
+      command ':door:'
       name    '<span style="font-size:2em;">🚪 </span>DOOR'
-      notes   '`&#x1f6aa;`'
+      notes   'Unified: `1F6AA`'
     end
     entry do
-      command ':code_here:'
+      command ':smoking:'
       name    '<span style="font-size:2em;">🚬 </span>SMOKING SYMBOL'
-      notes   '`&#x1f6ac;`'
+      notes   'Unified: `1F6AC`'
     end
     entry do
-      command ':code_here:'
+      command ':bomb:'
       name    '<span style="font-size:2em;">💣 </span>BOMB'
-      notes   '`&#x1f4a3;`'
+      notes   'Unified: `1F4A3`'
     end
     entry do
-      command ':code_here:'
+      command ':gun:'
       name    '<span style="font-size:2em;">🔫 </span>PISTOL'
-      notes   '`&#x1f52b;`'
+      notes   'Unified: `1F52B`'
     end
     entry do
-      command ':code_here:'
+      command ':hocho:'
       name    '<span style="font-size:2em;">🔪 </span>HOCHO'
-      notes   '`&#x1f52a;`'
+      notes   'Unified: `1F52A`'
     end
     entry do
-      command ':code_here:'
+      command ':pill:'
       name    '<span style="font-size:2em;">💊 </span>PILL'
-      notes   '`&#x1f48a;`'
+      notes   'Unified: `1F48A`'
     end
     entry do
-      command ':code_here:'
+      command ':syringe:'
       name    '<span style="font-size:2em;">💉 </span>SYRINGE'
-      notes   '`&#x1f489;`'
+      notes   'Unified: `1F489`'
     end
     entry do
-      command ':code_here:'
+      command ':moneybag:'
       name    '<span style="font-size:2em;">💰 </span>MONEY BAG'
-      notes   '`&#x1f4b0;`'
+      notes   'Unified: `1F4B0`'
     end
     entry do
-      command ':code_here:'
+      command ':yen:'
       name    '<span style="font-size:2em;">💴 </span>BANKNOTE WITH YEN SIGN'
-      notes   '`&#x1f4b4;`'
+      notes   'Unified: `1F4B4`'
     end
     entry do
-      command ':code_here:'
+      command ':dollar:'
       name    '<span style="font-size:2em;">💵 </span>BANKNOTE WITH DOLLAR SIGN'
-      notes   '`&#x1f4b5;`'
+      notes   'Unified: `1F4B5`'
     end
     entry do
-      command ':code_here:'
+      command ':pound:'
       name    '<span style="font-size:2em;">💷 </span>BANKNOTE WITH POUND SIGN'
-      notes   '`&#x1f4b7;`'
+      notes   'Unified: `1F4B7`'
     end
     entry do
-      command ':code_here:'
+      command ':euro:'
       name    '<span style="font-size:2em;">💶 </span>BANKNOTE WITH EURO SIGN'
-      notes   '`&#x1f4b6;`'
+      notes   'Unified: `1F4B6`'
     end
     entry do
-      command ':code_here:'
+      command ':credit_card:'
       name    '<span style="font-size:2em;">💳 </span>CREDIT CARD'
-      notes   '`&#x1f4b3;`'
+      notes   'Unified: `1F4B3`'
     end
     entry do
-      command ':code_here:'
+      command ':money_with_wings:'
       name    '<span style="font-size:2em;">💸 </span>MONEY WITH WINGS'
-      notes   '`&#x1f4b8;`'
+      notes   'Unified: `1F4B8`'
     end
     entry do
-      command ':code_here:'
+      command ':calling:'
       name    '<span style="font-size:2em;">📲 </span>MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT'
-      notes   '`&#x1f4f2;`'
+      notes   'Unified: `1F4F2`'
     end
     entry do
-      command ':code_here:'
+      command ':e-mail:'
       name    '<span style="font-size:2em;">📧 </span>E-MAIL SYMBOL'
-      notes   '`&#x1f4e7;`'
+      notes   'Unified: `1F4E7`'
     end
     entry do
-      command ':code_here:'
+      command ':inbox_tray:'
       name    '<span style="font-size:2em;">📥 </span>INBOX TRAY'
-      notes   '`&#x1f4e5;`'
+      notes   'Unified: `1F4E5`'
     end
     entry do
-      command ':code_here:'
+      command ':outbox_tray:'
       name    '<span style="font-size:2em;">📤 </span>OUTBOX TRAY'
-      notes   '`&#x1f4e4;`'
+      notes   'Unified: `1F4E4`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✉ </span>ENVELOPE'
-      notes   '`&#x2709;`'
+      command ':email:'
+      name    '<span style="font-size:2em;">✉️ </span>ENVELOPE'
+      notes   'Unified: `2709`'
     end
     entry do
-      command ':code_here:'
+      command ':envelope_with_arrow:'
       name    '<span style="font-size:2em;">📩 </span>ENVELOPE WITH DOWNWARDS ARROW ABOVE'
-      notes   '`&#x1f4e9;`'
+      notes   'Unified: `1F4E9`'
     end
     entry do
-      command ':code_here:'
+      command ':incoming_envelope:'
       name    '<span style="font-size:2em;">📨 </span>INCOMING ENVELOPE'
-      notes   '`&#x1f4e8;`'
+      notes   'Unified: `1F4E8`'
     end
     entry do
-      command ':code_here:'
+      command ':postal_horn:'
       name    '<span style="font-size:2em;">📯 </span>POSTAL HORN'
-      notes   '`&#x1f4ef;`'
+      notes   'Unified: `1F4EF`'
     end
     entry do
-      command ':code_here:'
+      command ':mailbox:'
       name    '<span style="font-size:2em;">📫 </span>CLOSED MAILBOX WITH RAISED FLAG'
-      notes   '`&#x1f4eb;`'
+      notes   'Unified: `1F4EB`'
     end
     entry do
-      command ':code_here:'
+      command ':mailbox_closed:'
       name    '<span style="font-size:2em;">📪 </span>CLOSED MAILBOX WITH LOWERED FLAG'
-      notes   '`&#x1f4ea;`'
+      notes   'Unified: `1F4EA`'
     end
     entry do
-      command ':code_here:'
+      command ':mailbox_with_mail:'
       name    '<span style="font-size:2em;">📬 </span>OPEN MAILBOX WITH RAISED FLAG'
-      notes   '`&#x1f4ec;`'
+      notes   'Unified: `1F4EC`'
     end
     entry do
-      command ':code_here:'
+      command ':mailbox_with_no_mail:'
       name    '<span style="font-size:2em;">📭 </span>OPEN MAILBOX WITH LOWERED FLAG'
-      notes   '`&#x1f4ed;`'
+      notes   'Unified: `1F4ED`'
     end
     entry do
-      command ':code_here:'
+      command ':postbox:'
       name    '<span style="font-size:2em;">📮 </span>POSTBOX'
-      notes   '`&#x1f4ee;`'
+      notes   'Unified: `1F4EE`'
     end
     entry do
-      command ':code_here:'
+      command ':package:'
       name    '<span style="font-size:2em;">📦 </span>PACKAGE'
-      notes   '`&#x1f4e6;`'
+      notes   'Unified: `1F4E6`'
     end
     entry do
-      command ':code_here:'
+      command ':memo:'
       name    '<span style="font-size:2em;">📝 </span>MEMO'
-      notes   '`&#x1f4dd;`'
+      notes   'Unified: `1F4DD`'
     end
     entry do
-      command ':code_here:'
+      command ':page_facing_up:'
       name    '<span style="font-size:2em;">📄 </span>PAGE FACING UP'
-      notes   '`&#x1f4c4;`'
+      notes   'Unified: `1F4C4`'
     end
     entry do
-      command ':code_here:'
+      command ':page_with_curl:'
       name    '<span style="font-size:2em;">📃 </span>PAGE WITH CURL'
-      notes   '`&#x1f4c3;`'
+      notes   'Unified: `1F4C3`'
     end
     entry do
-      command ':code_here:'
+      command ':bookmark_tabs:'
       name    '<span style="font-size:2em;">📑 </span>BOOKMARK TABS'
-      notes   '`&#x1f4d1;`'
+      notes   'Unified: `1F4D1`'
     end
     entry do
-      command ':code_here:'
+      command ':bar_chart:'
       name    '<span style="font-size:2em;">📊 </span>BAR CHART'
-      notes   '`&#x1f4ca;`'
+      notes   'Unified: `1F4CA`'
     end
     entry do
-      command ':code_here:'
+      command ':chart_with_upwards_trend:'
       name    '<span style="font-size:2em;">📈 </span>CHART WITH UPWARDS TREND'
-      notes   '`&#x1f4c8;`'
+      notes   'Unified: `1F4C8`'
     end
     entry do
-      command ':code_here:'
+      command ':chart_with_downwards_trend:'
       name    '<span style="font-size:2em;">📉 </span>CHART WITH DOWNWARDS TREND'
-      notes   '`&#x1f4c9;`'
+      notes   'Unified: `1F4C9`'
     end
     entry do
-      command ':code_here:'
+      command ':scroll:'
       name    '<span style="font-size:2em;">📜 </span>SCROLL'
-      notes   '`&#x1f4dc;`'
+      notes   'Unified: `1F4DC`'
     end
     entry do
-      command ':code_here:'
+      command ':clipboard:'
       name    '<span style="font-size:2em;">📋 </span>CLIPBOARD'
-      notes   '`&#x1f4cb;`'
+      notes   'Unified: `1F4CB`'
     end
     entry do
-      command ':code_here:'
+      command ':date:'
       name    '<span style="font-size:2em;">📅 </span>CALENDAR'
-      notes   '`&#x1f4c5;`'
+      notes   'Unified: `1F4C5`'
     end
     entry do
-      command ':code_here:'
+      command ':calendar:'
       name    '<span style="font-size:2em;">📆 </span>TEAR-OFF CALENDAR'
-      notes   '`&#x1f4c6;`'
+      notes   'Unified: `1F4C6`'
     end
     entry do
-      command ':code_here:'
+      command ':card_index:'
       name    '<span style="font-size:2em;">📇 </span>CARD INDEX'
-      notes   '`&#x1f4c7;`'
+      notes   'Unified: `1F4C7`'
     end
     entry do
-      command ':code_here:'
+      command ':file_folder:'
       name    '<span style="font-size:2em;">📁 </span>FILE FOLDER'
-      notes   '`&#x1f4c1;`'
+      notes   'Unified: `1F4C1`'
     end
     entry do
-      command ':code_here:'
+      command ':open_file_folder:'
       name    '<span style="font-size:2em;">📂 </span>OPEN FILE FOLDER'
-      notes   '`&#x1f4c2;`'
+      notes   'Unified: `1F4C2`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✂ </span>BLACK SCISSORS'
-      notes   '`&#x2702;`'
+      command ':scissors:'
+      name    '<span style="font-size:2em;">✂️ </span>BLACK SCISSORS'
+      notes   'Unified: `2702`'
     end
     entry do
-      command ':code_here:'
+      command ':pushpin:'
       name    '<span style="font-size:2em;">📌 </span>PUSHPIN'
-      notes   '`&#x1f4cc;`'
+      notes   'Unified: `1F4CC`'
     end
     entry do
-      command ':code_here:'
+      command ':paperclip:'
       name    '<span style="font-size:2em;">📎 </span>PAPERCLIP'
-      notes   '`&#x1f4ce;`'
+      notes   'Unified: `1F4CE`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✒ </span>BLACK NIB'
-      notes   '`&#x2712;`'
+      command ':black_nib:'
+      name    '<span style="font-size:2em;">✒️ </span>BLACK NIB'
+      notes   'Unified: `2712`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✏ </span>PENCIL'
-      notes   '`&#x270f;`'
+      command ':pencil2:'
+      name    '<span style="font-size:2em;">✏️ </span>PENCIL'
+      notes   'Unified: `270F`'
     end
     entry do
-      command ':code_here:'
+      command ':straight_ruler:'
       name    '<span style="font-size:2em;">📏 </span>STRAIGHT RULER'
-      notes   '`&#x1f4cf;`'
+      notes   'Unified: `1F4CF`'
     end
     entry do
-      command ':code_here:'
+      command ':triangular_ruler:'
       name    '<span style="font-size:2em;">📐 </span>TRIANGULAR RULER'
-      notes   '`&#x1f4d0;`'
+      notes   'Unified: `1F4D0`'
     end
     entry do
-      command ':code_here:'
+      command ':closed_book:'
       name    '<span style="font-size:2em;">📕 </span>CLOSED BOOK'
-      notes   '`&#x1f4d5;`'
+      notes   'Unified: `1F4D5`'
     end
     entry do
-      command ':code_here:'
+      command ':green_book:'
       name    '<span style="font-size:2em;">📗 </span>GREEN BOOK'
-      notes   '`&#x1f4d7;`'
+      notes   'Unified: `1F4D7`'
     end
     entry do
-      command ':code_here:'
+      command ':blue_book:'
       name    '<span style="font-size:2em;">📘 </span>BLUE BOOK'
-      notes   '`&#x1f4d8;`'
+      notes   'Unified: `1F4D8`'
     end
     entry do
-      command ':code_here:'
+      command ':orange_book:'
       name    '<span style="font-size:2em;">📙 </span>ORANGE BOOK'
-      notes   '`&#x1f4d9;`'
+      notes   'Unified: `1F4D9`'
     end
     entry do
-      command ':code_here:'
+      command ':notebook:'
       name    '<span style="font-size:2em;">📓 </span>NOTEBOOK'
-      notes   '`&#x1f4d3;`'
+      notes   'Unified: `1F4D3`'
     end
     entry do
-      command ':code_here:'
+      command ':notebook_with_decorative_cover:'
       name    '<span style="font-size:2em;">📔 </span>NOTEBOOK WITH DECORATIVE COVER'
-      notes   '`&#x1f4d4;`'
+      notes   'Unified: `1F4D4`'
     end
     entry do
-      command ':code_here:'
+      command ':ledger:'
       name    '<span style="font-size:2em;">📒 </span>LEDGER'
-      notes   '`&#x1f4d2;`'
+      notes   'Unified: `1F4D2`'
     end
     entry do
-      command ':code_here:'
+      command ':books:'
       name    '<span style="font-size:2em;">📚 </span>BOOKS'
-      notes   '`&#x1f4da;`'
+      notes   'Unified: `1F4DA`'
     end
     entry do
-      command ':code_here:'
+      command ':book:'
       name    '<span style="font-size:2em;">📖 </span>OPEN BOOK'
-      notes   '`&#x1f4d6;`'
+      notes   'Unified: `1F4D6`'
     end
     entry do
-      command ':code_here:'
+      command ':bookmark:'
       name    '<span style="font-size:2em;">🔖 </span>BOOKMARK'
-      notes   '`&#x1f516;`'
+      notes   'Unified: `1F516`'
     end
     entry do
-      command ':code_here:'
+      command ':name_badge:'
       name    '<span style="font-size:2em;">📛 </span>NAME BADGE'
-      notes   '`&#x1f4db;`'
+      notes   'Unified: `1F4DB`'
     end
     entry do
-      command ':code_here:'
+      command ':microscope:'
       name    '<span style="font-size:2em;">🔬 </span>MICROSCOPE'
-      notes   '`&#x1f52c;`'
+      notes   'Unified: `1F52C`'
     end
     entry do
-      command ':code_here:'
+      command ':telescope:'
       name    '<span style="font-size:2em;">🔭 </span>TELESCOPE'
-      notes   '`&#x1f52d;`'
+      notes   'Unified: `1F52D`'
     end
     entry do
-      command ':code_here:'
+      command ':newspaper:'
       name    '<span style="font-size:2em;">📰 </span>NEWSPAPER'
-      notes   '`&#x1f4f0;`'
+      notes   'Unified: `1F4F0`'
     end
     entry do
-      command ':code_here:'
+      command ':art:'
       name    '<span style="font-size:2em;">🎨 </span>ARTIST PALETTE'
-      notes   '`&#x1f3a8;`'
+      notes   'Unified: `1F3A8`'
     end
     entry do
-      command ':code_here:'
+      command ':clapper:'
       name    '<span style="font-size:2em;">🎬 </span>CLAPPER BOARD'
-      notes   '`&#x1f3ac;`'
+      notes   'Unified: `1F3AC`'
     end
     entry do
-      command ':code_here:'
+      command ':microphone:'
       name    '<span style="font-size:2em;">🎤 </span>MICROPHONE'
-      notes   '`&#x1f3a4;`'
+      notes   'Unified: `1F3A4`'
     end
     entry do
-      command ':code_here:'
+      command ':headphones:'
       name    '<span style="font-size:2em;">🎧 </span>HEADPHONE'
-      notes   '`&#x1f3a7;`'
+      notes   'Unified: `1F3A7`'
     end
     entry do
-      command ':code_here:'
+      command ':musical_score:'
       name    '<span style="font-size:2em;">🎼 </span>MUSICAL SCORE'
-      notes   '`&#x1f3bc;`'
+      notes   'Unified: `1F3BC`'
     end
     entry do
-      command ':code_here:'
+      command ':musical_note:'
       name    '<span style="font-size:2em;">🎵 </span>MUSICAL NOTE'
-      notes   '`&#x1f3b5;`'
+      notes   'Unified: `1F3B5`'
     end
     entry do
-      command ':code_here:'
+      command ':notes:'
       name    '<span style="font-size:2em;">🎶 </span>MULTIPLE MUSICAL NOTES'
-      notes   '`&#x1f3b6;`'
+      notes   'Unified: `1F3B6`'
     end
     entry do
-      command ':code_here:'
+      command ':musical_keyboard:'
       name    '<span style="font-size:2em;">🎹 </span>MUSICAL KEYBOARD'
-      notes   '`&#x1f3b9;`'
+      notes   'Unified: `1F3B9`'
     end
     entry do
-      command ':code_here:'
+      command ':violin:'
       name    '<span style="font-size:2em;">🎻 </span>VIOLIN'
-      notes   '`&#x1f3bb;`'
+      notes   'Unified: `1F3BB`'
     end
     entry do
-      command ':code_here:'
+      command ':trumpet:'
       name    '<span style="font-size:2em;">🎺 </span>TRUMPET'
-      notes   '`&#x1f3ba;`'
+      notes   'Unified: `1F3BA`'
     end
     entry do
-      command ':code_here:'
+      command ':saxophone:'
       name    '<span style="font-size:2em;">🎷 </span>SAXOPHONE'
-      notes   '`&#x1f3b7;`'
+      notes   'Unified: `1F3B7`'
     end
     entry do
-      command ':code_here:'
+      command ':guitar:'
       name    '<span style="font-size:2em;">🎸 </span>GUITAR'
-      notes   '`&#x1f3b8;`'
+      notes   'Unified: `1F3B8`'
     end
     entry do
-      command ':code_here:'
+      command ':space_invader:'
       name    '<span style="font-size:2em;">👾 </span>ALIEN MONSTER'
-      notes   '`&#x1f47e;`'
+      notes   'Unified: `1F47E`'
     end
     entry do
-      command ':code_here:'
+      command ':video_game:'
       name    '<span style="font-size:2em;">🎮 </span>VIDEO GAME'
-      notes   '`&#x1f3ae;`'
+      notes   'Unified: `1F3AE`'
     end
     entry do
-      command ':code_here:'
+      command ':black_joker:'
       name    '<span style="font-size:2em;">🃏 </span>PLAYING CARD BLACK JOKER'
-      notes   '`&#x1f0cf;`'
+      notes   'Unified: `1F0CF`'
     end
     entry do
-      command ':code_here:'
+      command ':flower_playing_cards:'
       name    '<span style="font-size:2em;">🎴 </span>FLOWER PLAYING CARDS'
-      notes   '`&#x1f3b4;`'
+      notes   'Unified: `1F3B4`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🀄 </span>MAHJONG TILE RED DRAGON'
-      notes   '`&#x1f004;`'
+      command ':mahjong:'
+      name    '<span style="font-size:2em;">🀄️ </span>MAHJONG TILE RED DRAGON'
+      notes   'Unified: `1F004`'
     end
     entry do
-      command ':code_here:'
+      command ':game_die:'
       name    '<span style="font-size:2em;">🎲 </span>GAME DIE'
-      notes   '`&#x1f3b2;`'
+      notes   'Unified: `1F3B2`'
     end
     entry do
-      command ':code_here:'
+      command ':dart:'
       name    '<span style="font-size:2em;">🎯 </span>DIRECT HIT'
-      notes   '`&#x1f3af;`'
+      notes   'Unified: `1F3AF`'
     end
     entry do
-      command ':code_here:'
+      command ':football:'
       name    '<span style="font-size:2em;">🏈 </span>AMERICAN FOOTBALL'
-      notes   '`&#x1f3c8;`'
+      notes   'Unified: `1F3C8`'
     end
     entry do
-      command ':code_here:'
+      command ':basketball:'
       name    '<span style="font-size:2em;">🏀 </span>BASKETBALL AND HOOP'
-      notes   '`&#x1f3c0;`'
+      notes   'Unified: `1F3C0`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⚽ </span>SOCCER BALL'
-      notes   '`&#x26bd;`'
+      command ':soccer:'
+      name    '<span style="font-size:2em;">⚽️ </span>SOCCER BALL'
+      notes   'Unified: `26BD`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⚾ </span>BASEBALL'
-      notes   '`&#x26be;`'
+      command ':baseball:'
+      name    '<span style="font-size:2em;">⚾️ </span>BASEBALL'
+      notes   'Unified: `26BE`'
     end
     entry do
-      command ':code_here:'
+      command ':tennis:'
       name    '<span style="font-size:2em;">🎾 </span>TENNIS RACQUET AND BALL'
-      notes   '`&#x1f3be;`'
+      notes   'Unified: `1F3BE`'
     end
     entry do
-      command ':code_here:'
+      command ':8ball:'
       name    '<span style="font-size:2em;">🎱 </span>BILLIARDS'
-      notes   '`&#x1f3b1;`'
+      notes   'Unified: `1F3B1`'
     end
     entry do
-      command ':code_here:'
+      command ':rugby_football:'
       name    '<span style="font-size:2em;">🏉 </span>RUGBY FOOTBALL'
-      notes   '`&#x1f3c9;`'
+      notes   'Unified: `1F3C9`'
     end
     entry do
-      command ':code_here:'
+      command ':bowling:'
       name    '<span style="font-size:2em;">🎳 </span>BOWLING'
-      notes   '`&#x1f3b3;`'
+      notes   'Unified: `1F3B3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⛳ </span>FLAG IN HOLE'
-      notes   '`&#x26f3;`'
+      command ':golf:'
+      name    '<span style="font-size:2em;">⛳️ </span>FLAG IN HOLE'
+      notes   'Unified: `26F3`'
     end
     entry do
-      command ':code_here:'
+      command ':mountain_bicyclist:'
       name    '<span style="font-size:2em;">🚵 </span>MOUNTAIN BICYCLIST'
-      notes   '`&#x1f6b5;`'
+      notes   'Unified: `1F6B5`'
     end
     entry do
-      command ':code_here:'
+      command ':bicyclist:'
       name    '<span style="font-size:2em;">🚴 </span>BICYCLIST'
-      notes   '`&#x1f6b4;`'
+      notes   'Unified: `1F6B4`'
     end
     entry do
-      command ':code_here:'
+      command ':checkered_flag:'
       name    '<span style="font-size:2em;">🏁 </span>CHEQUERED FLAG'
-      notes   '`&#x1f3c1;`'
+      notes   'Unified: `1F3C1`'
     end
     entry do
-      command ':code_here:'
+      command ':horse_racing:'
       name    '<span style="font-size:2em;">🏇 </span>HORSE RACING'
-      notes   '`&#x1f3c7;`'
+      notes   'Unified: `1F3C7`'
     end
     entry do
-      command ':code_here:'
+      command ':trophy:'
       name    '<span style="font-size:2em;">🏆 </span>TROPHY'
-      notes   '`&#x1f3c6;`'
+      notes   'Unified: `1F3C6`'
     end
     entry do
-      command ':code_here:'
+      command ':ski:'
       name    '<span style="font-size:2em;">🎿 </span>SKI AND SKI BOOT'
-      notes   '`&#x1f3bf;`'
+      notes   'Unified: `1F3BF`'
     end
     entry do
-      command ':code_here:'
+      command ':snowboarder:'
       name    '<span style="font-size:2em;">🏂 </span>SNOWBOARDER'
-      notes   '`&#x1f3c2;`'
+      notes   'Unified: `1F3C2`'
     end
     entry do
-      command ':code_here:'
+      command ':swimmer:'
       name    '<span style="font-size:2em;">🏊 </span>SWIMMER'
-      notes   '`&#x1f3ca;`'
+      notes   'Unified: `1F3CA`'
     end
     entry do
-      command ':code_here:'
+      command ':surfer:'
       name    '<span style="font-size:2em;">🏄 </span>SURFER'
-      notes   '`&#x1f3c4;`'
+      notes   'Unified: `1F3C4`'
     end
     entry do
-      command ':code_here:'
+      command ':fishing_pole_and_fish:'
       name    '<span style="font-size:2em;">🎣 </span>FISHING POLE AND FISH'
-      notes   '`&#x1f3a3;`'
+      notes   'Unified: `1F3A3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">☕ </span>HOT BEVERAGE'
-      notes   '`&#x2615;`'
+      command ':coffee:'
+      name    '<span style="font-size:2em;">☕️ </span>HOT BEVERAGE'
+      notes   'Unified: `2615`'
     end
     entry do
-      command ':code_here:'
+      command ':tea:'
       name    '<span style="font-size:2em;">🍵 </span>TEACUP WITHOUT HANDLE'
-      notes   '`&#x1f375;`'
+      notes   'Unified: `1F375`'
     end
     entry do
-      command ':code_here:'
+      command ':sake:'
       name    '<span style="font-size:2em;">🍶 </span>SAKE BOTTLE AND CUP'
-      notes   '`&#x1f376;`'
+      notes   'Unified: `1F376`'
     end
     entry do
-      command ':code_here:'
+      command ':baby_bottle:'
       name    '<span style="font-size:2em;">🍼 </span>BABY BOTTLE'
-      notes   '`&#x1f37c;`'
+      notes   'Unified: `1F37C`'
     end
     entry do
-      command ':code_here:'
+      command ':beer:'
       name    '<span style="font-size:2em;">🍺 </span>BEER MUG'
-      notes   '`&#x1f37a;`'
+      notes   'Unified: `1F37A`'
     end
     entry do
-      command ':code_here:'
+      command ':beers:'
       name    '<span style="font-size:2em;">🍻 </span>CLINKING BEER MUGS'
-      notes   '`&#x1f37b;`'
+      notes   'Unified: `1F37B`'
     end
     entry do
-      command ':code_here:'
+      command ':cocktail:'
       name    '<span style="font-size:2em;">🍸 </span>COCKTAIL GLASS'
-      notes   '`&#x1f378;`'
+      notes   'Unified: `1F378`'
     end
     entry do
-      command ':code_here:'
+      command ':tropical_drink:'
       name    '<span style="font-size:2em;">🍹 </span>TROPICAL DRINK'
-      notes   '`&#x1f379;`'
+      notes   'Unified: `1F379`'
     end
     entry do
-      command ':code_here:'
+      command ':wine_glass:'
       name    '<span style="font-size:2em;">🍷 </span>WINE GLASS'
-      notes   '`&#x1f377;`'
+      notes   'Unified: `1F377`'
     end
     entry do
-      command ':code_here:'
+      command ':fork_and_knife:'
       name    '<span style="font-size:2em;">🍴 </span>FORK AND KNIFE'
-      notes   '`&#x1f374;`'
+      notes   'Unified: `1F374`'
     end
     entry do
-      command ':code_here:'
+      command ':pizza:'
       name    '<span style="font-size:2em;">🍕 </span>SLICE OF PIZZA'
-      notes   '`&#x1f355;`'
+      notes   'Unified: `1F355`'
     end
     entry do
-      command ':code_here:'
+      command ':hamburger:'
       name    '<span style="font-size:2em;">🍔 </span>HAMBURGER'
-      notes   '`&#x1f354;`'
+      notes   'Unified: `1F354`'
     end
     entry do
-      command ':code_here:'
+      command ':fries:'
       name    '<span style="font-size:2em;">🍟 </span>FRENCH FRIES'
-      notes   '`&#x1f35f;`'
+      notes   'Unified: `1F35F`'
     end
     entry do
-      command ':code_here:'
+      command ':poultry_leg:'
       name    '<span style="font-size:2em;">🍗 </span>POULTRY LEG'
-      notes   '`&#x1f357;`'
+      notes   'Unified: `1F357`'
     end
     entry do
-      command ':code_here:'
+      command ':meat_on_bone:'
       name    '<span style="font-size:2em;">🍖 </span>MEAT ON BONE'
-      notes   '`&#x1f356;`'
+      notes   'Unified: `1F356`'
     end
     entry do
-      command ':code_here:'
+      command ':spaghetti:'
       name    '<span style="font-size:2em;">🍝 </span>SPAGHETTI'
-      notes   '`&#x1f35d;`'
+      notes   'Unified: `1F35D`'
     end
     entry do
-      command ':code_here:'
+      command ':curry:'
       name    '<span style="font-size:2em;">🍛 </span>CURRY AND RICE'
-      notes   '`&#x1f35b;`'
+      notes   'Unified: `1F35B`'
     end
     entry do
-      command ':code_here:'
+      command ':fried_shrimp:'
       name    '<span style="font-size:2em;">🍤 </span>FRIED SHRIMP'
-      notes   '`&#x1f364;`'
+      notes   'Unified: `1F364`'
     end
     entry do
-      command ':code_here:'
+      command ':bento:'
       name    '<span style="font-size:2em;">🍱 </span>BENTO BOX'
-      notes   '`&#x1f371;`'
+      notes   'Unified: `1F371`'
     end
     entry do
-      command ':code_here:'
+      command ':sushi:'
       name    '<span style="font-size:2em;">🍣 </span>SUSHI'
-      notes   '`&#x1f363;`'
+      notes   'Unified: `1F363`'
     end
     entry do
-      command ':code_here:'
+      command ':fish_cake:'
       name    '<span style="font-size:2em;">🍥 </span>FISH CAKE WITH SWIRL DESIGN'
-      notes   '`&#x1f365;`'
+      notes   'Unified: `1F365`'
     end
     entry do
-      command ':code_here:'
+      command ':rice_ball:'
       name    '<span style="font-size:2em;">🍙 </span>RICE BALL'
-      notes   '`&#x1f359;`'
+      notes   'Unified: `1F359`'
     end
     entry do
-      command ':code_here:'
+      command ':rice_cracker:'
       name    '<span style="font-size:2em;">🍘 </span>RICE CRACKER'
-      notes   '`&#x1f358;`'
+      notes   'Unified: `1F358`'
     end
     entry do
-      command ':code_here:'
+      command ':rice:'
       name    '<span style="font-size:2em;">🍚 </span>COOKED RICE'
-      notes   '`&#x1f35a;`'
+      notes   'Unified: `1F35A`'
     end
     entry do
-      command ':code_here:'
+      command ':ramen:'
       name    '<span style="font-size:2em;">🍜 </span>STEAMING BOWL'
-      notes   '`&#x1f35c;`'
+      notes   'Unified: `1F35C`'
     end
     entry do
-      command ':code_here:'
+      command ':stew:'
       name    '<span style="font-size:2em;">🍲 </span>POT OF FOOD'
-      notes   '`&#x1f372;`'
+      notes   'Unified: `1F372`'
     end
     entry do
-      command ':code_here:'
+      command ':oden:'
       name    '<span style="font-size:2em;">🍢 </span>ODEN'
-      notes   '`&#x1f362;`'
+      notes   'Unified: `1F362`'
     end
     entry do
-      command ':code_here:'
+      command ':dango:'
       name    '<span style="font-size:2em;">🍡 </span>DANGO'
-      notes   '`&#x1f361;`'
+      notes   'Unified: `1F361`'
     end
     entry do
-      command ':code_here:'
+      command ':egg:'
       name    '<span style="font-size:2em;">🍳 </span>COOKING'
-      notes   '`&#x1f373;`'
+      notes   'Unified: `1F373`'
     end
     entry do
-      command ':code_here:'
+      command ':bread:'
       name    '<span style="font-size:2em;">🍞 </span>BREAD'
-      notes   '`&#x1f35e;`'
+      notes   'Unified: `1F35E`'
     end
     entry do
-      command ':code_here:'
+      command ':doughnut:'
       name    '<span style="font-size:2em;">🍩 </span>DOUGHNUT'
-      notes   '`&#x1f369;`'
+      notes   'Unified: `1F369`'
     end
     entry do
-      command ':code_here:'
+      command ':custard:'
       name    '<span style="font-size:2em;">🍮 </span>CUSTARD'
-      notes   '`&#x1f36e;`'
+      notes   'Unified: `1F36E`'
     end
     entry do
-      command ':code_here:'
+      command ':icecream:'
       name    '<span style="font-size:2em;">🍦 </span>SOFT ICE CREAM'
-      notes   '`&#x1f366;`'
+      notes   'Unified: `1F366`'
     end
     entry do
-      command ':code_here:'
+      command ':ice_cream:'
       name    '<span style="font-size:2em;">🍨 </span>ICE CREAM'
-      notes   '`&#x1f368;`'
+      notes   'Unified: `1F368`'
     end
     entry do
-      command ':code_here:'
+      command ':shaved_ice:'
       name    '<span style="font-size:2em;">🍧 </span>SHAVED ICE'
-      notes   '`&#x1f367;`'
+      notes   'Unified: `1F367`'
     end
     entry do
-      command ':code_here:'
+      command ':birthday:'
       name    '<span style="font-size:2em;">🎂 </span>BIRTHDAY CAKE'
-      notes   '`&#x1f382;`'
+      notes   'Unified: `1F382`'
     end
     entry do
-      command ':code_here:'
+      command ':cake:'
       name    '<span style="font-size:2em;">🍰 </span>SHORTCAKE'
-      notes   '`&#x1f370;`'
+      notes   'Unified: `1F370`'
     end
     entry do
-      command ':code_here:'
+      command ':cookie:'
       name    '<span style="font-size:2em;">🍪 </span>COOKIE'
-      notes   '`&#x1f36a;`'
+      notes   'Unified: `1F36A`'
     end
     entry do
-      command ':code_here:'
+      command ':chocolate_bar:'
       name    '<span style="font-size:2em;">🍫 </span>CHOCOLATE BAR'
-      notes   '`&#x1f36b;`'
+      notes   'Unified: `1F36B`'
     end
     entry do
-      command ':code_here:'
+      command ':candy:'
       name    '<span style="font-size:2em;">🍬 </span>CANDY'
-      notes   '`&#x1f36c;`'
+      notes   'Unified: `1F36C`'
     end
     entry do
-      command ':code_here:'
+      command ':lollipop:'
       name    '<span style="font-size:2em;">🍭 </span>LOLLIPOP'
-      notes   '`&#x1f36d;`'
+      notes   'Unified: `1F36D`'
     end
     entry do
-      command ':code_here:'
+      command ':honey_pot:'
       name    '<span style="font-size:2em;">🍯 </span>HONEY POT'
-      notes   '`&#x1f36f;`'
+      notes   'Unified: `1F36F`'
     end
     entry do
-      command ':code_here:'
+      command ':apple:'
       name    '<span style="font-size:2em;">🍎 </span>RED APPLE'
-      notes   '`&#x1f34e;`'
+      notes   'Unified: `1F34E`'
     end
     entry do
-      command ':code_here:'
+      command ':green_apple:'
       name    '<span style="font-size:2em;">🍏 </span>GREEN APPLE'
-      notes   '`&#x1f34f;`'
+      notes   'Unified: `1F34F`'
     end
     entry do
-      command ':code_here:'
+      command ':tangerine:'
       name    '<span style="font-size:2em;">🍊 </span>TANGERINE'
-      notes   '`&#x1f34a;`'
+      notes   'Unified: `1F34A`'
     end
     entry do
-      command ':code_here:'
+      command ':lemon:'
       name    '<span style="font-size:2em;">🍋 </span>LEMON'
-      notes   '`&#x1f34b;`'
+      notes   'Unified: `1F34B`'
     end
     entry do
-      command ':code_here:'
+      command ':cherries:'
       name    '<span style="font-size:2em;">🍒 </span>CHERRIES'
-      notes   '`&#x1f352;`'
+      notes   'Unified: `1F352`'
     end
     entry do
-      command ':code_here:'
+      command ':grapes:'
       name    '<span style="font-size:2em;">🍇 </span>GRAPES'
-      notes   '`&#x1f347;`'
+      notes   'Unified: `1F347`'
     end
     entry do
-      command ':code_here:'
+      command ':watermelon:'
       name    '<span style="font-size:2em;">🍉 </span>WATERMELON'
-      notes   '`&#x1f349;`'
+      notes   'Unified: `1F349`'
     end
     entry do
-      command ':code_here:'
+      command ':strawberry:'
       name    '<span style="font-size:2em;">🍓 </span>STRAWBERRY'
-      notes   '`&#x1f353;`'
+      notes   'Unified: `1F353`'
     end
     entry do
-      command ':code_here:'
+      command ':peach:'
       name    '<span style="font-size:2em;">🍑 </span>PEACH'
-      notes   '`&#x1f351;`'
+      notes   'Unified: `1F351`'
     end
     entry do
-      command ':code_here:'
+      command ':melon:'
       name    '<span style="font-size:2em;">🍈 </span>MELON'
-      notes   '`&#x1f348;`'
+      notes   'Unified: `1F348`'
     end
     entry do
-      command ':code_here:'
+      command ':banana:'
       name    '<span style="font-size:2em;">🍌 </span>BANANA'
-      notes   '`&#x1f34c;`'
+      notes   'Unified: `1F34C`'
     end
     entry do
-      command ':code_here:'
+      command ':pear:'
       name    '<span style="font-size:2em;">🍐 </span>PEAR'
-      notes   '`&#x1f350;`'
+      notes   'Unified: `1F350`'
     end
     entry do
-      command ':code_here:'
+      command ':pineapple:'
       name    '<span style="font-size:2em;">🍍 </span>PINEAPPLE'
-      notes   '`&#x1f34d;`'
+      notes   'Unified: `1F34D`'
     end
     entry do
-      command ':code_here:'
+      command ':sweet_potato:'
       name    '<span style="font-size:2em;">🍠 </span>ROASTED SWEET POTATO'
-      notes   '`&#x1f360;`'
+      notes   'Unified: `1F360`'
     end
     entry do
-      command ':code_here:'
+      command ':eggplant:'
       name    '<span style="font-size:2em;">🍆 </span>AUBERGINE'
-      notes   '`&#x1f346;`'
+      notes   'Unified: `1F346`'
     end
     entry do
-      command ':code_here:'
+      command ':tomato:'
       name    '<span style="font-size:2em;">🍅 </span>TOMATO'
-      notes   '`&#x1f345;`'
+      notes   'Unified: `1F345`'
     end
     entry do
-      command ':code_here:'
+      command ':corn:'
       name    '<span style="font-size:2em;">🌽 </span>EAR OF MAIZE'
-      notes   '`&#x1f33d;`'
+      notes   'Unified: `1F33D`'
     end
 
   end
@@ -2795,1462 +2700,1572 @@ cheatsheet do
     id 'Places'
     
         entry do
-      command ':code_here:'
+      command ':house:'
       name    '<span style="font-size:2em;">🏠 </span>HOUSE BUILDING'
-      notes   '`&#x1f3e0;`'
+      notes   'Unified: `1F3E0`'
     end
     entry do
-      command ':code_here:'
+      command ':house_with_garden:'
       name    '<span style="font-size:2em;">🏡 </span>HOUSE WITH GARDEN'
-      notes   '`&#x1f3e1;`'
+      notes   'Unified: `1F3E1`'
     end
     entry do
-      command ':code_here:'
+      command ':school:'
       name    '<span style="font-size:2em;">🏫 </span>SCHOOL'
-      notes   '`&#x1f3eb;`'
+      notes   'Unified: `1F3EB`'
     end
     entry do
-      command ':code_here:'
+      command ':office:'
       name    '<span style="font-size:2em;">🏢 </span>OFFICE BUILDING'
-      notes   '`&#x1f3e2;`'
+      notes   'Unified: `1F3E2`'
     end
     entry do
-      command ':code_here:'
+      command ':post_office:'
       name    '<span style="font-size:2em;">🏣 </span>JAPANESE POST OFFICE'
-      notes   '`&#x1f3e3;`'
+      notes   'Unified: `1F3E3`'
     end
     entry do
-      command ':code_here:'
+      command ':hospital:'
       name    '<span style="font-size:2em;">🏥 </span>HOSPITAL'
-      notes   '`&#x1f3e5;`'
+      notes   'Unified: `1F3E5`'
     end
     entry do
-      command ':code_here:'
+      command ':bank:'
       name    '<span style="font-size:2em;">🏦 </span>BANK'
-      notes   '`&#x1f3e6;`'
+      notes   'Unified: `1F3E6`'
     end
     entry do
-      command ':code_here:'
+      command ':convenience_store:'
       name    '<span style="font-size:2em;">🏪 </span>CONVENIENCE STORE'
-      notes   '`&#x1f3ea;`'
+      notes   'Unified: `1F3EA`'
     end
     entry do
-      command ':code_here:'
+      command ':love_hotel:'
       name    '<span style="font-size:2em;">🏩 </span>LOVE HOTEL'
-      notes   '`&#x1f3e9;`'
+      notes   'Unified: `1F3E9`'
     end
     entry do
-      command ':code_here:'
+      command ':hotel:'
       name    '<span style="font-size:2em;">🏨 </span>HOTEL'
-      notes   '`&#x1f3e8;`'
+      notes   'Unified: `1F3E8`'
     end
     entry do
-      command ':code_here:'
+      command ':wedding:'
       name    '<span style="font-size:2em;">💒 </span>WEDDING'
-      notes   '`&#x1f492;`'
+      notes   'Unified: `1F492`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⛪ </span>CHURCH'
-      notes   '`&#x26ea;`'
+      command ':church:'
+      name    '<span style="font-size:2em;">⛪️ </span>CHURCH'
+      notes   'Unified: `26EA`'
     end
     entry do
-      command ':code_here:'
+      command ':department_store:'
       name    '<span style="font-size:2em;">🏬 </span>DEPARTMENT STORE'
-      notes   '`&#x1f3ec;`'
+      notes   'Unified: `1F3EC`'
     end
     entry do
-      command ':code_here:'
+      command ':european_post_office:'
       name    '<span style="font-size:2em;">🏤 </span>EUROPEAN POST OFFICE'
-      notes   '`&#x1f3e4;`'
+      notes   'Unified: `1F3E4`'
     end
     entry do
-      command ':code_here:'
+      command ':city_sunrise:'
       name    '<span style="font-size:2em;">🌇 </span>SUNSET OVER BUILDINGS'
-      notes   '`&#x1f307;`'
+      notes   'Unified: `1F307`'
     end
     entry do
-      command ':code_here:'
+      command ':city_sunset:'
       name    '<span style="font-size:2em;">🌆 </span>CITYSCAPE AT DUSK'
-      notes   '`&#x1f306;`'
+      notes   'Unified: `1F306`'
     end
     entry do
-      command ':code_here:'
+      command ':japanese_castle:'
       name    '<span style="font-size:2em;">🏯 </span>JAPANESE CASTLE'
-      notes   '`&#x1f3ef;`'
+      notes   'Unified: `1F3EF`'
     end
     entry do
-      command ':code_here:'
+      command ':european_castle:'
       name    '<span style="font-size:2em;">🏰 </span>EUROPEAN CASTLE'
-      notes   '`&#x1f3f0;`'
+      notes   'Unified: `1F3F0`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⛺ </span>TENT'
-      notes   '`&#x26fa;`'
+      command ':tent:'
+      name    '<span style="font-size:2em;">⛺️ </span>TENT'
+      notes   'Unified: `26FA`'
     end
     entry do
-      command ':code_here:'
+      command ':factory:'
       name    '<span style="font-size:2em;">🏭 </span>FACTORY'
-      notes   '`&#x1f3ed;`'
+      notes   'Unified: `1F3ED`'
     end
     entry do
-      command ':code_here:'
+      command ':tokyo_tower:'
       name    '<span style="font-size:2em;">🗼 </span>TOKYO TOWER'
-      notes   '`&#x1f5fc;`'
+      notes   'Unified: `1F5FC`'
     end
     entry do
-      command ':code_here:'
+      command ':japan:'
       name    '<span style="font-size:2em;">🗾 </span>SILHOUETTE OF JAPAN'
-      notes   '`&#x1f5fe;`'
+      notes   'Unified: `1F5FE`'
     end
     entry do
-      command ':code_here:'
+      command ':mount_fuji:'
       name    '<span style="font-size:2em;">🗻 </span>MOUNT FUJI'
-      notes   '`&#x1f5fb;`'
+      notes   'Unified: `1F5FB`'
     end
     entry do
-      command ':code_here:'
+      command ':sunrise_over_mountains:'
       name    '<span style="font-size:2em;">🌄 </span>SUNRISE OVER MOUNTAINS'
-      notes   '`&#x1f304;`'
+      notes   'Unified: `1F304`'
     end
     entry do
-      command ':code_here:'
+      command ':sunrise:'
       name    '<span style="font-size:2em;">🌅 </span>SUNRISE'
-      notes   '`&#x1f305;`'
+      notes   'Unified: `1F305`'
     end
     entry do
-      command ':code_here:'
+      command ':night_with_stars:'
       name    '<span style="font-size:2em;">🌃 </span>NIGHT WITH STARS'
-      notes   '`&#x1f303;`'
+      notes   'Unified: `1F303`'
     end
     entry do
-      command ':code_here:'
+      command ':statue_of_liberty:'
       name    '<span style="font-size:2em;">🗽 </span>STATUE OF LIBERTY'
-      notes   '`&#x1f5fd;`'
+      notes   'Unified: `1F5FD`'
     end
     entry do
-      command ':code_here:'
+      command ':bridge_at_night:'
       name    '<span style="font-size:2em;">🌉 </span>BRIDGE AT NIGHT'
-      notes   '`&#x1f309;`'
+      notes   'Unified: `1F309`'
     end
     entry do
-      command ':code_here:'
+      command ':carousel_horse:'
       name    '<span style="font-size:2em;">🎠 </span>CAROUSEL HORSE'
-      notes   '`&#x1f3a0;`'
+      notes   'Unified: `1F3A0`'
     end
     entry do
-      command ':code_here:'
+      command ':ferris_wheel:'
       name    '<span style="font-size:2em;">🎡 </span>FERRIS WHEEL'
-      notes   '`&#x1f3a1;`'
+      notes   'Unified: `1F3A1`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⛲ </span>FOUNTAIN'
-      notes   '`&#x26f2;`'
+      command ':fountain:'
+      name    '<span style="font-size:2em;">⛲️ </span>FOUNTAIN'
+      notes   'Unified: `26F2`'
     end
     entry do
-      command ':code_here:'
+      command ':roller_coaster:'
       name    '<span style="font-size:2em;">🎢 </span>ROLLER COASTER'
-      notes   '`&#x1f3a2;`'
+      notes   'Unified: `1F3A2`'
     end
     entry do
-      command ':code_here:'
+      command ':ship:'
       name    '<span style="font-size:2em;">🚢 </span>SHIP'
-      notes   '`&#x1f6a2;`'
+      notes   'Unified: `1F6A2`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⛵ </span>SAILBOAT'
-      notes   '`&#x26f5;`'
+      command ':boat:'
+      name    '<span style="font-size:2em;">⛵️ </span>SAILBOAT'
+      notes   'Unified: `26F5`'
     end
     entry do
-      command ':code_here:'
+      command ':speedboat:'
       name    '<span style="font-size:2em;">🚤 </span>SPEEDBOAT'
-      notes   '`&#x1f6a4;`'
+      notes   'Unified: `1F6A4`'
     end
     entry do
-      command ':code_here:'
+      command ':rowboat:'
       name    '<span style="font-size:2em;">🚣 </span>ROWBOAT'
-      notes   '`&#x1f6a3;`'
+      notes   'Unified: `1F6A3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⚓ </span>ANCHOR'
-      notes   '`&#x2693;`'
+      command ':anchor:'
+      name    '<span style="font-size:2em;">⚓️ </span>ANCHOR'
+      notes   'Unified: `2693`'
     end
     entry do
-      command ':code_here:'
+      command ':rocket:'
       name    '<span style="font-size:2em;">🚀 </span>ROCKET'
-      notes   '`&#x1f680;`'
+      notes   'Unified: `1F680`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✈ </span>AIRPLANE'
-      notes   '`&#x2708;`'
+      command ':airplane:'
+      name    '<span style="font-size:2em;">✈️ </span>AIRPLANE'
+      notes   'Unified: `2708`'
     end
     entry do
-      command ':code_here:'
+      command ':seat:'
       name    '<span style="font-size:2em;">💺 </span>SEAT'
-      notes   '`&#x1f4ba;`'
+      notes   'Unified: `1F4BA`'
     end
     entry do
-      command ':code_here:'
+      command ':helicopter:'
       name    '<span style="font-size:2em;">🚁 </span>HELICOPTER'
-      notes   '`&#x1f681;`'
+      notes   'Unified: `1F681`'
     end
     entry do
-      command ':code_here:'
+      command ':steam_locomotive:'
       name    '<span style="font-size:2em;">🚂 </span>STEAM LOCOMOTIVE'
-      notes   '`&#x1f682;`'
+      notes   'Unified: `1F682`'
     end
     entry do
-      command ':code_here:'
+      command ':tram:'
       name    '<span style="font-size:2em;">🚊 </span>TRAM'
-      notes   '`&#x1f68a;`'
+      notes   'Unified: `1F68A`'
     end
     entry do
-      command ':code_here:'
+      command ':station:'
       name    '<span style="font-size:2em;">🚉 </span>STATION'
-      notes   '`&#x1f689;`'
+      notes   'Unified: `1F689`'
     end
     entry do
-      command ':code_here:'
+      command ':mountain_railway:'
       name    '<span style="font-size:2em;">🚞 </span>MOUNTAIN RAILWAY'
-      notes   '`&#x1f69e;`'
+      notes   'Unified: `1F69E`'
     end
     entry do
-      command ':code_here:'
+      command ':train2:'
       name    '<span style="font-size:2em;">🚆 </span>TRAIN'
-      notes   '`&#x1f686;`'
+      notes   'Unified: `1F686`'
     end
     entry do
-      command ':code_here:'
+      command ':bullettrain_side:'
       name    '<span style="font-size:2em;">🚄 </span>HIGH-SPEED TRAIN'
-      notes   '`&#x1f684;`'
+      notes   'Unified: `1F684`'
     end
     entry do
-      command ':code_here:'
+      command ':bullettrain_front:'
       name    '<span style="font-size:2em;">🚅 </span>HIGH-SPEED TRAIN WITH BULLET NOSE'
-      notes   '`&#x1f685;`'
+      notes   'Unified: `1F685`'
     end
     entry do
-      command ':code_here:'
+      command ':light_rail:'
       name    '<span style="font-size:2em;">🚈 </span>LIGHT RAIL'
-      notes   '`&#x1f688;`'
+      notes   'Unified: `1F688`'
     end
     entry do
-      command ':code_here:'
+      command ':metro:'
       name    '<span style="font-size:2em;">🚇 </span>METRO'
-      notes   '`&#x1f687;`'
+      notes   'Unified: `1F687`'
     end
     entry do
-      command ':code_here:'
+      command ':monorail:'
       name    '<span style="font-size:2em;">🚝 </span>MONORAIL'
-      notes   '`&#x1f69d;`'
+      notes   'Unified: `1F69D`'
     end
     entry do
-      command ':code_here:'
+      command ':train:'
       name    '<span style="font-size:2em;">🚋 </span>TRAM CAR'
-      notes   '`&#x1f68b;`'
+      notes   'Unified: `1F68B`'
     end
     entry do
-      command ':code_here:'
+      command ':railway_car:'
       name    '<span style="font-size:2em;">🚃 </span>RAILWAY CAR'
-      notes   '`&#x1f683;`'
+      notes   'Unified: `1F683`'
     end
     entry do
-      command ':code_here:'
+      command ':trolleybus:'
       name    '<span style="font-size:2em;">🚎 </span>TROLLEYBUS'
-      notes   '`&#x1f68e;`'
+      notes   'Unified: `1F68E`'
     end
     entry do
-      command ':code_here:'
+      command ':bus:'
       name    '<span style="font-size:2em;">🚌 </span>BUS'
-      notes   '`&#x1f68c;`'
+      notes   'Unified: `1F68C`'
     end
     entry do
-      command ':code_here:'
+      command ':oncoming_bus:'
       name    '<span style="font-size:2em;">🚍 </span>ONCOMING BUS'
-      notes   '`&#x1f68d;`'
+      notes   'Unified: `1F68D`'
     end
     entry do
-      command ':code_here:'
+      command ':blue_car:'
       name    '<span style="font-size:2em;">🚙 </span>RECREATIONAL VEHICLE'
-      notes   '`&#x1f699;`'
+      notes   'Unified: `1F699`'
     end
     entry do
-      command ':code_here:'
+      command ':oncoming_automobile:'
       name    '<span style="font-size:2em;">🚘 </span>ONCOMING AUTOMOBILE'
-      notes   '`&#x1f698;`'
+      notes   'Unified: `1F698`'
     end
     entry do
-      command ':code_here:'
+      command ':car:'
       name    '<span style="font-size:2em;">🚗 </span>AUTOMOBILE'
-      notes   '`&#x1f697;`'
+      notes   'Unified: `1F697`'
     end
     entry do
-      command ':code_here:'
+      command ':taxi:'
       name    '<span style="font-size:2em;">🚕 </span>TAXI'
-      notes   '`&#x1f695;`'
+      notes   'Unified: `1F695`'
     end
     entry do
-      command ':code_here:'
+      command ':oncoming_taxi:'
       name    '<span style="font-size:2em;">🚖 </span>ONCOMING TAXI'
-      notes   '`&#x1f696;`'
+      notes   'Unified: `1F696`'
     end
     entry do
-      command ':code_here:'
+      command ':articulated_lorry:'
       name    '<span style="font-size:2em;">🚛 </span>ARTICULATED LORRY'
-      notes   '`&#x1f69b;`'
+      notes   'Unified: `1F69B`'
     end
     entry do
-      command ':code_here:'
+      command ':truck:'
       name    '<span style="font-size:2em;">🚚 </span>DELIVERY TRUCK'
-      notes   '`&#x1f69a;`'
+      notes   'Unified: `1F69A`'
     end
     entry do
-      command ':code_here:'
+      command ':rotating_light:'
       name    '<span style="font-size:2em;">🚨 </span>POLICE CARS REVOLVING LIGHT'
-      notes   '`&#x1f6a8;`'
+      notes   'Unified: `1F6A8`'
     end
     entry do
-      command ':code_here:'
+      command ':police_car:'
       name    '<span style="font-size:2em;">🚓 </span>POLICE CAR'
-      notes   '`&#x1f693;`'
+      notes   'Unified: `1F693`'
     end
     entry do
-      command ':code_here:'
+      command ':oncoming_police_car:'
       name    '<span style="font-size:2em;">🚔 </span>ONCOMING POLICE CAR'
-      notes   '`&#x1f694;`'
+      notes   'Unified: `1F694`'
     end
     entry do
-      command ':code_here:'
+      command ':fire_engine:'
       name    '<span style="font-size:2em;">🚒 </span>FIRE ENGINE'
-      notes   '`&#x1f692;`'
+      notes   'Unified: `1F692`'
     end
     entry do
-      command ':code_here:'
+      command ':ambulance:'
       name    '<span style="font-size:2em;">🚑 </span>AMBULANCE'
-      notes   '`&#x1f691;`'
+      notes   'Unified: `1F691`'
     end
     entry do
-      command ':code_here:'
+      command ':minibus:'
       name    '<span style="font-size:2em;">🚐 </span>MINIBUS'
-      notes   '`&#x1f690;`'
+      notes   'Unified: `1F690`'
     end
     entry do
-      command ':code_here:'
+      command ':bike:'
       name    '<span style="font-size:2em;">🚲 </span>BICYCLE'
-      notes   '`&#x1f6b2;`'
+      notes   'Unified: `1F6B2`'
     end
     entry do
-      command ':code_here:'
+      command ':aerial_tramway:'
       name    '<span style="font-size:2em;">🚡 </span>AERIAL TRAMWAY'
-      notes   '`&#x1f6a1;`'
+      notes   'Unified: `1F6A1`'
     end
     entry do
-      command ':code_here:'
+      command ':suspension_railway:'
       name    '<span style="font-size:2em;">🚟 </span>SUSPENSION RAILWAY'
-      notes   '`&#x1f69f;`'
+      notes   'Unified: `1F69F`'
     end
     entry do
-      command ':code_here:'
+      command ':mountain_cableway:'
       name    '<span style="font-size:2em;">🚠 </span>MOUNTAIN CABLEWAY'
-      notes   '`&#x1f6a0;`'
+      notes   'Unified: `1F6A0`'
     end
     entry do
-      command ':code_here:'
+      command ':tractor:'
       name    '<span style="font-size:2em;">🚜 </span>TRACTOR'
-      notes   '`&#x1f69c;`'
+      notes   'Unified: `1F69C`'
     end
     entry do
-      command ':code_here:'
+      command ':barber:'
       name    '<span style="font-size:2em;">💈 </span>BARBER POLE'
-      notes   '`&#x1f488;`'
+      notes   'Unified: `1F488`'
     end
     entry do
-      command ':code_here:'
+      command ':busstop:'
       name    '<span style="font-size:2em;">🚏 </span>BUS STOP'
-      notes   '`&#x1f68f;`'
+      notes   'Unified: `1F68F`'
     end
     entry do
-      command ':code_here:'
+      command ':ticket:'
       name    '<span style="font-size:2em;">🎫 </span>TICKET'
-      notes   '`&#x1f3ab;`'
+      notes   'Unified: `1F3AB`'
     end
     entry do
-      command ':code_here:'
+      command ':vertical_traffic_light:'
       name    '<span style="font-size:2em;">🚦 </span>VERTICAL TRAFFIC LIGHT'
-      notes   '`&#x1f6a6;`'
+      notes   'Unified: `1F6A6`'
     end
     entry do
-      command ':code_here:'
+      command ':traffic_light:'
       name    '<span style="font-size:2em;">🚥 </span>HORIZONTAL TRAFFIC LIGHT'
-      notes   '`&#x1f6a5;`'
+      notes   'Unified: `1F6A5`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⚠ </span>WARNING SIGN'
-      notes   '`&#x26a0;`'
+      command ':warning:'
+      name    '<span style="font-size:2em;">⚠️ </span>WARNING SIGN'
+      notes   'Unified: `26A0`'
     end
     entry do
-      command ':code_here:'
+      command ':construction:'
       name    '<span style="font-size:2em;">🚧 </span>CONSTRUCTION SIGN'
-      notes   '`&#x1f6a7;`'
+      notes   'Unified: `1F6A7`'
     end
     entry do
-      command ':code_here:'
+      command ':beginner:'
       name    '<span style="font-size:2em;">🔰 </span>JAPANESE SYMBOL FOR BEGINNER'
-      notes   '`&#x1f530;`'
+      notes   'Unified: `1F530`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">⛽ </span>FUEL PUMP'
-      notes   '`&#x26fd;`'
+      command ':fuelpump:'
+      name    '<span style="font-size:2em;">⛽️ </span>FUEL PUMP'
+      notes   'Unified: `26FD`'
     end
     entry do
-      command ':code_here:'
+      command ':izakaya_lantern:'
       name    '<span style="font-size:2em;">🏮 </span>IZAKAYA LANTERN'
-      notes   '`&#x1f3ee;`'
+      notes   'Unified: `1F3EE`'
     end
     entry do
-      command ':code_here:'
+      command ':slot_machine:'
       name    '<span style="font-size:2em;">🎰 </span>SLOT MACHINE'
-      notes   '`&#x1f3b0;`'
+      notes   'Unified: `1F3B0`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">♨ </span>HOT SPRINGS'
-      notes   '`&#x2668;`'
+      command ':hotsprings:'
+      name    '<span style="font-size:2em;">♨️ </span>HOT SPRINGS'
+      notes   'Unified: `2668`'
     end
     entry do
-      command ':code_here:'
+      command ':moyai:'
       name    '<span style="font-size:2em;">🗿 </span>MOYAI'
-      notes   '`&#x1f5ff;`'
+      notes   'Unified: `1F5FF`'
     end
     entry do
-      command ':code_here:'
+      command ':circus_tent:'
       name    '<span style="font-size:2em;">🎪 </span>CIRCUS TENT'
-      notes   '`&#x1f3aa;`'
+      notes   'Unified: `1F3AA`'
     end
     entry do
-      command ':code_here:'
+      command ':performing_arts:'
       name    '<span style="font-size:2em;">🎭 </span>PERFORMING ARTS'
-      notes   '`&#x1f3ad;`'
+      notes   'Unified: `1F3AD`'
     end
     entry do
-      command ':code_here:'
+      command ':round_pushpin:'
       name    '<span style="font-size:2em;">📍 </span>ROUND PUSHPIN'
-      notes   '`&#x1f4cd;`'
+      notes   'Unified: `1F4CD`'
     end
     entry do
-      command ':code_here:'
+      command ':triangular_flag_on_post:'
       name    '<span style="font-size:2em;">🚩 </span>TRIANGULAR FLAG ON POST'
-      notes   '`&#x1f6a9;`'
+      notes   'Unified: `1F6A9`'
     end
     entry do
-      command ':code_here:'
+      command ':jp:'
       name    '<span style="font-size:2em;">🇯🇵 </span>REGIONAL INDICATOR SYMBOL LETTERS JP'
-      notes   '`&#x1f1ef;&#x1f1f5;`'
+      notes   'Unified: `1F1EF-1F1F5`'
     end
     entry do
-      command ':code_here:'
+      command ':kr:'
       name    '<span style="font-size:2em;">🇰🇷 </span>REGIONAL INDICATOR SYMBOL LETTERS KR'
-      notes   '`&#x1f1f0;&#x1f1f7;`'
+      notes   'Unified: `1F1F0-1F1F7`'
     end
     entry do
-      command ':code_here:'
+      command ':de:'
       name    '<span style="font-size:2em;">🇩🇪 </span>REGIONAL INDICATOR SYMBOL LETTERS DE'
-      notes   '`&#x1f1e9;&#x1f1ea;`'
+      notes   'Unified: `1F1E9-1F1EA`'
     end
     entry do
-      command ':code_here:'
+      command ':cn:'
       name    '<span style="font-size:2em;">🇨🇳 </span>REGIONAL INDICATOR SYMBOL LETTERS CN'
-      notes   '`&#x1f1e8;&#x1f1f3;`'
+      notes   'Unified: `1F1E8-1F1F3`'
     end
     entry do
-      command ':code_here:'
+      command ':us:'
       name    '<span style="font-size:2em;">🇺🇸 </span>REGIONAL INDICATOR SYMBOL LETTERS US'
-      notes   '`&#x1f1fa;&#x1f1f8;`'
+      notes   'Unified: `1F1FA-1F1F8`'
     end
     entry do
-      command ':code_here:'
+      command ':fr:'
       name    '<span style="font-size:2em;">🇫🇷 </span>REGIONAL INDICATOR SYMBOL LETTERS FR'
-      notes   '`&#x1f1eb;&#x1f1f7;`'
+      notes   'Unified: `1F1EB-1F1F7`'
     end
     entry do
-      command ':code_here:'
+      command ':es:'
       name    '<span style="font-size:2em;">🇪🇸 </span>REGIONAL INDICATOR SYMBOL LETTERS ES'
-      notes   '`&#x1f1ea;&#x1f1f8;`'
+      notes   'Unified: `1F1EA-1F1F8`'
     end
     entry do
-      command ':code_here:'
+      command ':it:'
       name    '<span style="font-size:2em;">🇮🇹 </span>REGIONAL INDICATOR SYMBOL LETTERS IT'
-      notes   '`&#x1f1ee;&#x1f1f9;`'
+      notes   'Unified: `1F1EE-1F1F9`'
     end
     entry do
-      command ':code_here:'
+      command ':ru:'
       name    '<span style="font-size:2em;">🇷🇺 </span>REGIONAL INDICATOR SYMBOL LETTERS RU'
-      notes   '`&#x1f1f7;&#x1f1fa;`'
+      notes   'Unified: `1F1F7-1F1FA`'
     end
     entry do
-      command ':code_here:'
+      command ':gb:'
       name    '<span style="font-size:2em;">🇬🇧 </span>REGIONAL INDICATOR SYMBOL LETTERS GB'
-      notes   '`&#x1f1ec;&#x1f1e7;`'
+      notes   'Unified: `1F1EC-1F1E7`'
     end
 
   end
   category do
-    id 'People'
+    id 'Symbols'
     
         entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😄 </span>SMILING FACE WITH OPEN MOUTH AND SMILING EYES'
-      notes   '`&#x1f604;`'
+      command ':one:'
+      name    '<span style="font-size:2em;">1️⃣ </span>KEYCAP 1'
+      notes   'Unified: `0031-20E3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😃 </span>SMILING FACE WITH OPEN MOUTH'
-      notes   '`&#x1f603;`'
+      command ':two:'
+      name    '<span style="font-size:2em;">2️⃣ </span>KEYCAP 2'
+      notes   'Unified: `0032-20E3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😀 </span>GRINNING FACE'
-      notes   '`&#x1f600;`'
+      command ':three:'
+      name    '<span style="font-size:2em;">3️⃣ </span>KEYCAP 3'
+      notes   'Unified: `0033-20E3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😊 </span>SMILING FACE WITH SMILING EYES'
-      notes   '`&#x1f60a;`'
+      command ':four:'
+      name    '<span style="font-size:2em;">4️⃣ </span>KEYCAP 4'
+      notes   'Unified: `0034-20E3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">☺ </span>WHITE SMILING FACE'
-      notes   '`&#x263a;`'
+      command ':five:'
+      name    '<span style="font-size:2em;">5️⃣ </span>KEYCAP 5'
+      notes   'Unified: `0035-20E3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😉 </span>WINKING FACE'
-      notes   '`&#x1f609;`'
+      command ':six:'
+      name    '<span style="font-size:2em;">6️⃣ </span>KEYCAP 6'
+      notes   'Unified: `0036-20E3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😍 </span>SMILING FACE WITH HEART-SHAPED EYES'
-      notes   '`&#x1f60d;`'
+      command ':seven:'
+      name    '<span style="font-size:2em;">7️⃣ </span>KEYCAP 7'
+      notes   'Unified: `0037-20E3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😘 </span>FACE THROWING A KISS'
-      notes   '`&#x1f618;`'
+      command ':eight:'
+      name    '<span style="font-size:2em;">8️⃣ </span>KEYCAP 8'
+      notes   'Unified: `0038-20E3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😚 </span>KISSING FACE WITH CLOSED EYES'
-      notes   '`&#x1f61a;`'
+      command ':nine:'
+      name    '<span style="font-size:2em;">9️⃣ </span>KEYCAP 9'
+      notes   'Unified: `0039-20E3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😗 </span>KISSING FACE'
-      notes   '`&#x1f617;`'
+      command ':zero:'
+      name    '<span style="font-size:2em;">0️⃣ </span>KEYCAP 0'
+      notes   'Unified: `0030-20E3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😙 </span>KISSING FACE WITH SMILING EYES'
-      notes   '`&#x1f619;`'
+      command ':keycap_ten:'
+      name    '<span style="font-size:2em;">🔟 </span>KEYCAP TEN'
+      notes   'Unified: `1F51F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😜 </span>FACE WITH STUCK-OUT TONGUE AND WINKING EYE'
-      notes   '`&#x1f61c;`'
+      command ':1234:'
+      name    '<span style="font-size:2em;">🔢 </span>INPUT SYMBOL FOR NUMBERS'
+      notes   'Unified: `1F522`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😝 </span>FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES'
-      notes   '`&#x1f61d;`'
+      command ':hash:'
+      name    '<span style="font-size:2em;">#️⃣ </span>HASH KEY'
+      notes   'Unified: `0023-20E3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😛 </span>FACE WITH STUCK-OUT TONGUE'
-      notes   '`&#x1f61b;`'
+      command ':symbols:'
+      name    '<span style="font-size:2em;">🔣 </span>INPUT SYMBOL FOR SYMBOLS'
+      notes   'Unified: `1F523`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😳 </span>FLUSHED FACE'
-      notes   '`&#x1f633;`'
+      command ':arrow_up:'
+      name    '<span style="font-size:2em;">⬆️ </span>UPWARDS BLACK ARROW'
+      notes   'Unified: `2B06`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😁 </span>GRINNING FACE WITH SMILING EYES'
-      notes   '`&#x1f601;`'
+      command ':arrow_down:'
+      name    '<span style="font-size:2em;">⬇️ </span>DOWNWARDS BLACK ARROW'
+      notes   'Unified: `2B07`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😔 </span>PENSIVE FACE'
-      notes   '`&#x1f614;`'
+      command ':arrow_left:'
+      name    '<span style="font-size:2em;">⬅️ </span>LEFTWARDS BLACK ARROW'
+      notes   'Unified: `2B05`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😌 </span>RELIEVED FACE'
-      notes   '`&#x1f60c;`'
+      command ':arrow_right:'
+      name    '<span style="font-size:2em;">➡️ </span>BLACK RIGHTWARDS ARROW'
+      notes   'Unified: `27A1`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😒 </span>UNAMUSED FACE'
-      notes   '`&#x1f612;`'
+      command ':capital_abcd:'
+      name    '<span style="font-size:2em;">🔠 </span>INPUT SYMBOL FOR LATIN CAPITAL LETTERS'
+      notes   'Unified: `1F520`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😞 </span>DISAPPOINTED FACE'
-      notes   '`&#x1f61e;`'
+      command ':abcd:'
+      name    '<span style="font-size:2em;">🔡 </span>INPUT SYMBOL FOR LATIN SMALL LETTERS'
+      notes   'Unified: `1F521`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😣 </span>PERSEVERING FACE'
-      notes   '`&#x1f623;`'
+      command ':abc:'
+      name    '<span style="font-size:2em;">🔤 </span>INPUT SYMBOL FOR LATIN LETTERS'
+      notes   'Unified: `1F524`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😢 </span>CRYING FACE'
-      notes   '`&#x1f622;`'
+      command ':arrow_upper_right:'
+      name    '<span style="font-size:2em;">↗️ </span>NORTH EAST ARROW'
+      notes   'Unified: `2197`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😂 </span>FACE WITH TEARS OF JOY'
-      notes   '`&#x1f602;`'
+      command ':arrow_upper_left:'
+      name    '<span style="font-size:2em;">↖️ </span>NORTH WEST ARROW'
+      notes   'Unified: `2196`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😭 </span>LOUDLY CRYING FACE'
-      notes   '`&#x1f62d;`'
+      command ':arrow_lower_right:'
+      name    '<span style="font-size:2em;">↘️ </span>SOUTH EAST ARROW'
+      notes   'Unified: `2198`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😪 </span>SLEEPY FACE'
-      notes   '`&#x1f62a;`'
+      command ':arrow_lower_left:'
+      name    '<span style="font-size:2em;">↙️ </span>SOUTH WEST ARROW'
+      notes   'Unified: `2199`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😥 </span>DISAPPOINTED BUT RELIEVED FACE'
-      notes   '`&#x1f625;`'
+      command ':left_right_arrow:'
+      name    '<span style="font-size:2em;">↔️ </span>LEFT RIGHT ARROW'
+      notes   'Unified: `2194`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😰 </span>FACE WITH OPEN MOUTH AND COLD SWEAT'
-      notes   '`&#x1f630;`'
+      command ':arrow_up_down:'
+      name    '<span style="font-size:2em;">↕️ </span>UP DOWN ARROW'
+      notes   'Unified: `2195`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😅 </span>SMILING FACE WITH OPEN MOUTH AND COLD SWEAT'
-      notes   '`&#x1f605;`'
+      command ':arrows_counterclockwise:'
+      name    '<span style="font-size:2em;">🔄 </span>ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS'
+      notes   'Unified: `1F504`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😓 </span>FACE WITH COLD SWEAT'
-      notes   '`&#x1f613;`'
+      command ':arrow_backward:'
+      name    '<span style="font-size:2em;">◀️ </span>BLACK LEFT-POINTING TRIANGLE'
+      notes   'Unified: `25C0`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😩 </span>WEARY FACE'
-      notes   '`&#x1f629;`'
+      command ':arrow_forward:'
+      name    '<span style="font-size:2em;">▶️ </span>BLACK RIGHT-POINTING TRIANGLE'
+      notes   'Unified: `25B6`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😫 </span>TIRED FACE'
-      notes   '`&#x1f62b;`'
+      command ':arrow_up_small:'
+      name    '<span style="font-size:2em;">🔼 </span>UP-POINTING SMALL RED TRIANGLE'
+      notes   'Unified: `1F53C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😨 </span>FEARFUL FACE'
-      notes   '`&#x1f628;`'
+      command ':arrow_down_small:'
+      name    '<span style="font-size:2em;">🔽 </span>DOWN-POINTING SMALL RED TRIANGLE'
+      notes   'Unified: `1F53D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😱 </span>FACE SCREAMING IN FEAR'
-      notes   '`&#x1f631;`'
+      command ':leftwards_arrow_with_hook:'
+      name    '<span style="font-size:2em;">↩️ </span>LEFTWARDS ARROW WITH HOOK'
+      notes   'Unified: `21A9`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😠 </span>ANGRY FACE'
-      notes   '`&#x1f620;`'
+      command ':arrow_right_hook:'
+      name    '<span style="font-size:2em;">↪️ </span>RIGHTWARDS ARROW WITH HOOK'
+      notes   'Unified: `21AA`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😡 </span>POUTING FACE'
-      notes   '`&#x1f621;`'
+      command ':information_source:'
+      name    '<span style="font-size:2em;">ℹ️ </span>INFORMATION SOURCE'
+      notes   'Unified: `2139`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😤 </span>FACE WITH LOOK OF TRIUMPH'
-      notes   '`&#x1f624;`'
+      command ':rewind:'
+      name    '<span style="font-size:2em;">⏪ </span>BLACK LEFT-POINTING DOUBLE TRIANGLE'
+      notes   'Unified: `23EA`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😖 </span>CONFOUNDED FACE'
-      notes   '`&#x1f616;`'
+      command ':fast_forward:'
+      name    '<span style="font-size:2em;">⏩ </span>BLACK RIGHT-POINTING DOUBLE TRIANGLE'
+      notes   'Unified: `23E9`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😆 </span>SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES'
-      notes   '`&#x1f606;`'
+      command ':arrow_double_up:'
+      name    '<span style="font-size:2em;">⏫ </span>BLACK UP-POINTING DOUBLE TRIANGLE'
+      notes   'Unified: `23EB`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😋 </span>FACE SAVOURING DELICIOUS FOOD'
-      notes   '`&#x1f60b;`'
+      command ':arrow_double_down:'
+      name    '<span style="font-size:2em;">⏬ </span>BLACK DOWN-POINTING DOUBLE TRIANGLE'
+      notes   'Unified: `23EC`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😷 </span>FACE WITH MEDICAL MASK'
-      notes   '`&#x1f637;`'
+      command ':arrow_heading_down:'
+      name    '<span style="font-size:2em;">⤵️ </span>ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS'
+      notes   'Unified: `2935`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😎 </span>SMILING FACE WITH SUNGLASSES'
-      notes   '`&#x1f60e;`'
+      command ':arrow_heading_up:'
+      name    '<span style="font-size:2em;">⤴️ </span>ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS'
+      notes   'Unified: `2934`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😴 </span>SLEEPING FACE'
-      notes   '`&#x1f634;`'
+      command ':ok:'
+      name    '<span style="font-size:2em;">🆗 </span>SQUARED OK'
+      notes   'Unified: `1F197`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😵 </span>DIZZY FACE'
-      notes   '`&#x1f635;`'
+      command ':twisted_rightwards_arrows:'
+      name    '<span style="font-size:2em;">🔀 </span>TWISTED RIGHTWARDS ARROWS'
+      notes   'Unified: `1F500`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😲 </span>ASTONISHED FACE'
-      notes   '`&#x1f632;`'
+      command ':repeat:'
+      name    '<span style="font-size:2em;">🔁 </span>CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS'
+      notes   'Unified: `1F501`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😟 </span>WORRIED FACE'
-      notes   '`&#x1f61f;`'
+      command ':repeat_one:'
+      name    '<span style="font-size:2em;">🔂 </span>CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY'
+      notes   'Unified: `1F502`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😦 </span>FROWNING FACE WITH OPEN MOUTH'
-      notes   '`&#x1f626;`'
+      command ':new:'
+      name    '<span style="font-size:2em;">🆕 </span>SQUARED NEW'
+      notes   'Unified: `1F195`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😧 </span>ANGUISHED FACE'
-      notes   '`&#x1f627;`'
+      command ':up:'
+      name    '<span style="font-size:2em;">🆙 </span>SQUARED UP WITH EXCLAMATION MARK'
+      notes   'Unified: `1F199`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😈 </span>SMILING FACE WITH HORNS'
-      notes   '`&#x1f608;`'
+      command ':cool:'
+      name    '<span style="font-size:2em;">🆒 </span>SQUARED COOL'
+      notes   'Unified: `1F192`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👿 </span>IMP'
-      notes   '`&#x1f47f;`'
+      command ':free:'
+      name    '<span style="font-size:2em;">🆓 </span>SQUARED FREE'
+      notes   'Unified: `1F193`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😮 </span>FACE WITH OPEN MOUTH'
-      notes   '`&#x1f62e;`'
+      command ':ng:'
+      name    '<span style="font-size:2em;">🆖 </span>SQUARED NG'
+      notes   'Unified: `1F196`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😬 </span>GRIMACING FACE'
-      notes   '`&#x1f62c;`'
+      command ':signal_strength:'
+      name    '<span style="font-size:2em;">📶 </span>ANTENNA WITH BARS'
+      notes   'Unified: `1F4F6`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😐 </span>NEUTRAL FACE'
-      notes   '`&#x1f610;`'
+      command ':cinema:'
+      name    '<span style="font-size:2em;">🎦 </span>CINEMA'
+      notes   'Unified: `1F3A6`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😕 </span>CONFUSED FACE'
-      notes   '`&#x1f615;`'
+      command ':koko:'
+      name    '<span style="font-size:2em;">🈁 </span>SQUARED KATAKANA KOKO'
+      notes   'Unified: `1F201`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😯 </span>HUSHED FACE'
-      notes   '`&#x1f62f;`'
+      command ':u6307:'
+      name    '<span style="font-size:2em;">🈯️ </span>SQUARED CJK UNIFIED IDEOGRAPH-6307'
+      notes   'Unified: `1F22F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😶 </span>FACE WITHOUT MOUTH'
-      notes   '`&#x1f636;`'
+      command ':u7a7a:'
+      name    '<span style="font-size:2em;">🈳 </span>SQUARED CJK UNIFIED IDEOGRAPH-7A7A'
+      notes   'Unified: `1F233`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😇 </span>SMILING FACE WITH HALO'
-      notes   '`&#x1f607;`'
+      command ':u6e80:'
+      name    '<span style="font-size:2em;">🈵 </span>SQUARED CJK UNIFIED IDEOGRAPH-6E80'
+      notes   'Unified: `1F235`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😏 </span>SMIRKING FACE'
-      notes   '`&#x1f60f;`'
+      command ':u5408:'
+      name    '<span style="font-size:2em;">🈴 </span>SQUARED CJK UNIFIED IDEOGRAPH-5408'
+      notes   'Unified: `1F234`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😑 </span>EXPRESSIONLESS FACE'
-      notes   '`&#x1f611;`'
+      command ':u7981:'
+      name    '<span style="font-size:2em;">🈲 </span>SQUARED CJK UNIFIED IDEOGRAPH-7981'
+      notes   'Unified: `1F232`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👲 </span>MAN WITH GUA PI MAO'
-      notes   '`&#x1f472;`'
+      command ':ideograph_advantage:'
+      name    '<span style="font-size:2em;">🉐 </span>CIRCLED IDEOGRAPH ADVANTAGE'
+      notes   'Unified: `1F250`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👳 </span>MAN WITH TURBAN'
-      notes   '`&#x1f473;`'
+      command ':u5272:'
+      name    '<span style="font-size:2em;">🈹 </span>SQUARED CJK UNIFIED IDEOGRAPH-5272'
+      notes   'Unified: `1F239`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👮 </span>POLICE OFFICER'
-      notes   '`&#x1f46e;`'
+      command ':u55b6:'
+      name    '<span style="font-size:2em;">🈺 </span>SQUARED CJK UNIFIED IDEOGRAPH-55B6'
+      notes   'Unified: `1F23A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👷 </span>CONSTRUCTION WORKER'
-      notes   '`&#x1f477;`'
+      command ':u6709:'
+      name    '<span style="font-size:2em;">🈶 </span>SQUARED CJK UNIFIED IDEOGRAPH-6709'
+      notes   'Unified: `1F236`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💂 </span>GUARDSMAN'
-      notes   '`&#x1f482;`'
+      command ':u7121:'
+      name    '<span style="font-size:2em;">🈚️ </span>SQUARED CJK UNIFIED IDEOGRAPH-7121'
+      notes   'Unified: `1F21A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👶 </span>BABY'
-      notes   '`&#x1f476;`'
+      command ':restroom:'
+      name    '<span style="font-size:2em;">🚻 </span>RESTROOM'
+      notes   'Unified: `1F6BB`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👦 </span>BOY'
-      notes   '`&#x1f466;`'
+      command ':mens:'
+      name    '<span style="font-size:2em;">🚹 </span>MENS SYMBOL'
+      notes   'Unified: `1F6B9`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👧 </span>GIRL'
-      notes   '`&#x1f467;`'
+      command ':womens:'
+      name    '<span style="font-size:2em;">🚺 </span>WOMENS SYMBOL'
+      notes   'Unified: `1F6BA`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👨 </span>MAN'
-      notes   '`&#x1f468;`'
+      command ':baby_symbol:'
+      name    '<span style="font-size:2em;">🚼 </span>BABY SYMBOL'
+      notes   'Unified: `1F6BC`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👩 </span>WOMAN'
-      notes   '`&#x1f469;`'
+      command ':wc:'
+      name    '<span style="font-size:2em;">🚾 </span>WATER CLOSET'
+      notes   'Unified: `1F6BE`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👴 </span>OLDER MAN'
-      notes   '`&#x1f474;`'
+      command ':potable_water:'
+      name    '<span style="font-size:2em;">🚰 </span>POTABLE WATER SYMBOL'
+      notes   'Unified: `1F6B0`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👵 </span>OLDER WOMAN'
-      notes   '`&#x1f475;`'
+      command ':put_litter_in_its_place:'
+      name    '<span style="font-size:2em;">🚮 </span>PUT LITTER IN ITS PLACE SYMBOL'
+      notes   'Unified: `1F6AE`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👱 </span>PERSON WITH BLOND HAIR'
-      notes   '`&#x1f471;`'
+      command ':parking:'
+      name    '<span style="font-size:2em;">🅿️ </span>NEGATIVE SQUARED LATIN CAPITAL LETTER P'
+      notes   'Unified: `1F17F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👼 </span>BABY ANGEL'
-      notes   '`&#x1f47c;`'
+      command ':wheelchair:'
+      name    '<span style="font-size:2em;">♿️ </span>WHEELCHAIR SYMBOL'
+      notes   'Unified: `267F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👸 </span>PRINCESS'
-      notes   '`&#x1f478;`'
+      command ':no_smoking:'
+      name    '<span style="font-size:2em;">🚭 </span>NO SMOKING SYMBOL'
+      notes   'Unified: `1F6AD`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😺 </span>SMILING CAT FACE WITH OPEN MOUTH'
-      notes   '`&#x1f63a;`'
+      command ':u6708:'
+      name    '<span style="font-size:2em;">🈷 </span>SQUARED CJK UNIFIED IDEOGRAPH-6708'
+      notes   'Unified: `1F237`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😸 </span>GRINNING CAT FACE WITH SMILING EYES'
-      notes   '`&#x1f638;`'
+      command ':u7533:'
+      name    '<span style="font-size:2em;">🈸 </span>SQUARED CJK UNIFIED IDEOGRAPH-7533'
+      notes   'Unified: `1F238`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😻 </span>SMILING CAT FACE WITH HEART-SHAPED EYES'
-      notes   '`&#x1f63b;`'
+      command ':sa:'
+      name    '<span style="font-size:2em;">🈂 </span>SQUARED KATAKANA SA'
+      notes   'Unified: `1F202`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😽 </span>KISSING CAT FACE WITH CLOSED EYES'
-      notes   '`&#x1f63d;`'
+      command ':m:'
+      name    '<span style="font-size:2em;">Ⓜ️ </span>CIRCLED LATIN CAPITAL LETTER M'
+      notes   'Unified: `24C2`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😼 </span>CAT FACE WITH WRY SMILE'
-      notes   '`&#x1f63c;`'
+      command ':passport_control:'
+      name    '<span style="font-size:2em;">🛂 </span>PASSPORT CONTROL'
+      notes   'Unified: `1F6C2`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🙀 </span>WEARY CAT FACE'
-      notes   '`&#x1f640;`'
+      command ':baggage_claim:'
+      name    '<span style="font-size:2em;">🛄 </span>BAGGAGE CLAIM'
+      notes   'Unified: `1F6C4`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😿 </span>CRYING CAT FACE'
-      notes   '`&#x1f63f;`'
+      command ':left_luggage:'
+      name    '<span style="font-size:2em;">🛅 </span>LEFT LUGGAGE'
+      notes   'Unified: `1F6C5`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😹 </span>CAT FACE WITH TEARS OF JOY'
-      notes   '`&#x1f639;`'
+      command ':customs:'
+      name    '<span style="font-size:2em;">🛃 </span>CUSTOMS'
+      notes   'Unified: `1F6C3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">😾 </span>POUTING CAT FACE'
-      notes   '`&#x1f63e;`'
+      command ':accept:'
+      name    '<span style="font-size:2em;">🉑 </span>CIRCLED IDEOGRAPH ACCEPT'
+      notes   'Unified: `1F251`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👹 </span>JAPANESE OGRE'
-      notes   '`&#x1f479;`'
+      command ':secret:'
+      name    '<span style="font-size:2em;">㊙️ </span>CIRCLED IDEOGRAPH SECRET'
+      notes   'Unified: `3299`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👺 </span>JAPANESE GOBLIN'
-      notes   '`&#x1f47a;`'
+      command ':congratulations:'
+      name    '<span style="font-size:2em;">㊗️ </span>CIRCLED IDEOGRAPH CONGRATULATION'
+      notes   'Unified: `3297`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🙈 </span>SEE-NO-EVIL MONKEY'
-      notes   '`&#x1f648;`'
+      command ':cl:'
+      name    '<span style="font-size:2em;">🆑 </span>SQUARED CL'
+      notes   'Unified: `1F191`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🙉 </span>HEAR-NO-EVIL MONKEY'
-      notes   '`&#x1f649;`'
+      command ':sos:'
+      name    '<span style="font-size:2em;">🆘 </span>SQUARED SOS'
+      notes   'Unified: `1F198`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🙊 </span>SPEAK-NO-EVIL MONKEY'
-      notes   '`&#x1f64a;`'
+      command ':id:'
+      name    '<span style="font-size:2em;">🆔 </span>SQUARED ID'
+      notes   'Unified: `1F194`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💀 </span>SKULL'
-      notes   '`&#x1f480;`'
+      command ':no_entry_sign:'
+      name    '<span style="font-size:2em;">🚫 </span>NO ENTRY SIGN'
+      notes   'Unified: `1F6AB`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👽 </span>EXTRATERRESTRIAL ALIEN'
-      notes   '`&#x1f47d;`'
+      command ':underage:'
+      name    '<span style="font-size:2em;">🔞 </span>NO ONE UNDER EIGHTEEN SYMBOL'
+      notes   'Unified: `1F51E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💩 </span>PILE OF POO'
-      notes   '`&#x1f4a9;`'
+      command ':no_mobile_phones:'
+      name    '<span style="font-size:2em;">📵 </span>NO MOBILE PHONES'
+      notes   'Unified: `1F4F5`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🔥 </span>FIRE'
-      notes   '`&#x1f525;`'
+      command ':do_not_litter:'
+      name    '<span style="font-size:2em;">🚯 </span>DO NOT LITTER SYMBOL'
+      notes   'Unified: `1F6AF`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✨ </span>SPARKLES'
-      notes   '`&#x2728;`'
+      command ':non-potable_water:'
+      name    '<span style="font-size:2em;">🚱 </span>NON-POTABLE WATER SYMBOL'
+      notes   'Unified: `1F6B1`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🌟 </span>GLOWING STAR'
-      notes   '`&#x1f31f;`'
+      command ':no_bicycles:'
+      name    '<span style="font-size:2em;">🚳 </span>NO BICYCLES'
+      notes   'Unified: `1F6B3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💫 </span>DIZZY SYMBOL'
-      notes   '`&#x1f4ab;`'
+      command ':no_pedestrians:'
+      name    '<span style="font-size:2em;">🚷 </span>NO PEDESTRIANS'
+      notes   'Unified: `1F6B7`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💥 </span>COLLISION SYMBOL'
-      notes   '`&#x1f4a5;`'
+      command ':children_crossing:'
+      name    '<span style="font-size:2em;">🚸 </span>CHILDREN CROSSING'
+      notes   'Unified: `1F6B8`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💢 </span>ANGER SYMBOL'
-      notes   '`&#x1f4a2;`'
+      command ':no_entry:'
+      name    '<span style="font-size:2em;">⛔️ </span>NO ENTRY'
+      notes   'Unified: `26D4`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💦 </span>SPLASHING SWEAT SYMBOL'
-      notes   '`&#x1f4a6;`'
+      command ':eight_spoked_asterisk:'
+      name    '<span style="font-size:2em;">✳️ </span>EIGHT SPOKED ASTERISK'
+      notes   'Unified: `2733`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💧 </span>DROPLET'
-      notes   '`&#x1f4a7;`'
+      command ':sparkle:'
+      name    '<span style="font-size:2em;">❇️ </span>SPARKLE'
+      notes   'Unified: `2747`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💤 </span>SLEEPING SYMBOL'
-      notes   '`&#x1f4a4;`'
+      command ':negative_squared_cross_mark:'
+      name    '<span style="font-size:2em;">❎ </span>NEGATIVE SQUARED CROSS MARK'
+      notes   'Unified: `274E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💨 </span>DASH SYMBOL'
-      notes   '`&#x1f4a8;`'
+      command ':white_check_mark:'
+      name    '<span style="font-size:2em;">✅ </span>WHITE HEAVY CHECK MARK'
+      notes   'Unified: `2705`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👂 </span>EAR'
-      notes   '`&#x1f442;`'
+      command ':eight_pointed_black_star:'
+      name    '<span style="font-size:2em;">✴️ </span>EIGHT POINTED BLACK STAR'
+      notes   'Unified: `2734`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👀 </span>EYES'
-      notes   '`&#x1f440;`'
+      command ':heart_decoration:'
+      name    '<span style="font-size:2em;">💟 </span>HEART DECORATION'
+      notes   'Unified: `1F49F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👃 </span>NOSE'
-      notes   '`&#x1f443;`'
+      command ':vs:'
+      name    '<span style="font-size:2em;">🆚 </span>SQUARED VS'
+      notes   'Unified: `1F19A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👅 </span>TONGUE'
-      notes   '`&#x1f445;`'
+      command ':vibration_mode:'
+      name    '<span style="font-size:2em;">📳 </span>VIBRATION MODE'
+      notes   'Unified: `1F4F3`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👄 </span>MOUTH'
-      notes   '`&#x1f444;`'
+      command ':mobile_phone_off:'
+      name    '<span style="font-size:2em;">📴 </span>MOBILE PHONE OFF'
+      notes   'Unified: `1F4F4`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👍 </span>THUMBS UP SIGN'
-      notes   '`&#x1f44d;`'
+      command ':a:'
+      name    '<span style="font-size:2em;">🅰 </span>NEGATIVE SQUARED LATIN CAPITAL LETTER A'
+      notes   'Unified: `1F170`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👎 </span>THUMBS DOWN SIGN'
-      notes   '`&#x1f44e;`'
+      command ':b:'
+      name    '<span style="font-size:2em;">🅱 </span>NEGATIVE SQUARED LATIN CAPITAL LETTER B'
+      notes   'Unified: `1F171`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👌 </span>OK HAND SIGN'
-      notes   '`&#x1f44c;`'
+      command ':ab:'
+      name    '<span style="font-size:2em;">🆎 </span>NEGATIVE SQUARED AB'
+      notes   'Unified: `1F18E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👊 </span>FISTED HAND SIGN'
-      notes   '`&#x1f44a;`'
+      command ':o2:'
+      name    '<span style="font-size:2em;">🅾 </span>NEGATIVE SQUARED LATIN CAPITAL LETTER O'
+      notes   'Unified: `1F17E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✊ </span>RAISED FIST'
-      notes   '`&#x270a;`'
+      command ':diamond_shape_with_a_dot_inside:'
+      name    '<span style="font-size:2em;">💠 </span>DIAMOND SHAPE WITH A DOT INSIDE'
+      notes   'Unified: `1F4A0`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✌ </span>VICTORY HAND'
-      notes   '`&#x270c;`'
+      command ':loop:'
+      name    '<span style="font-size:2em;">➿ </span>DOUBLE CURLY LOOP'
+      notes   'Unified: `27BF`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👋 </span>WAVING HAND SIGN'
-      notes   '`&#x1f44b;`'
+      command ':recycle:'
+      name    '<span style="font-size:2em;">♻️ </span>BLACK UNIVERSAL RECYCLING SYMBOL'
+      notes   'Unified: `267B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">✋ </span>RAISED HAND'
-      notes   '`&#x270b;`'
+      command ':aries:'
+      name    '<span style="font-size:2em;">♈️ </span>ARIES'
+      notes   'Unified: `2648`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👐 </span>OPEN HANDS SIGN'
-      notes   '`&#x1f450;`'
+      command ':taurus:'
+      name    '<span style="font-size:2em;">♉️ </span>TAURUS'
+      notes   'Unified: `2649`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👆 </span>WHITE UP POINTING BACKHAND INDEX'
-      notes   '`&#x1f446;`'
+      command ':gemini:'
+      name    '<span style="font-size:2em;">♊️ </span>GEMINI'
+      notes   'Unified: `264A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👇 </span>WHITE DOWN POINTING BACKHAND INDEX'
-      notes   '`&#x1f447;`'
+      command ':cancer:'
+      name    '<span style="font-size:2em;">♋️ </span>CANCER'
+      notes   'Unified: `264B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👉 </span>WHITE RIGHT POINTING BACKHAND INDEX'
-      notes   '`&#x1f449;`'
+      command ':leo:'
+      name    '<span style="font-size:2em;">♌️ </span>LEO'
+      notes   'Unified: `264C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👈 </span>WHITE LEFT POINTING BACKHAND INDEX'
-      notes   '`&#x1f448;`'
+      command ':virgo:'
+      name    '<span style="font-size:2em;">♍️ </span>VIRGO'
+      notes   'Unified: `264D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🙌 </span>PERSON RAISING BOTH HANDS IN CELEBRATION'
-      notes   '`&#x1f64c;`'
+      command ':libra:'
+      name    '<span style="font-size:2em;">♎️ </span>LIBRA'
+      notes   'Unified: `264E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🙏 </span>PERSON WITH FOLDED HANDS'
-      notes   '`&#x1f64f;`'
+      command ':scorpius:'
+      name    '<span style="font-size:2em;">♏️ </span>SCORPIUS'
+      notes   'Unified: `264F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">☝ </span>WHITE UP POINTING INDEX'
-      notes   '`&#x261d;`'
+      command ':sagittarius:'
+      name    '<span style="font-size:2em;">♐️ </span>SAGITTARIUS'
+      notes   'Unified: `2650`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👏 </span>CLAPPING HANDS SIGN'
-      notes   '`&#x1f44f;`'
+      command ':capricorn:'
+      name    '<span style="font-size:2em;">♑️ </span>CAPRICORN'
+      notes   'Unified: `2651`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💪 </span>FLEXED BICEPS'
-      notes   '`&#x1f4aa;`'
+      command ':aquarius:'
+      name    '<span style="font-size:2em;">♒️ </span>AQUARIUS'
+      notes   'Unified: `2652`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🚶 </span>PEDESTRIAN'
-      notes   '`&#x1f6b6;`'
+      command ':pisces:'
+      name    '<span style="font-size:2em;">♓️ </span>PISCES'
+      notes   'Unified: `2653`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🏃 </span>RUNNER'
-      notes   '`&#x1f3c3;`'
+      command ':ophiuchus:'
+      name    '<span style="font-size:2em;">⛎ </span>OPHIUCHUS'
+      notes   'Unified: `26CE`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💃 </span>DANCER'
-      notes   '`&#x1f483;`'
+      command ':six_pointed_star:'
+      name    '<span style="font-size:2em;">🔯 </span>SIX POINTED STAR WITH MIDDLE DOT'
+      notes   'Unified: `1F52F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👫 </span>MAN AND WOMAN HOLDING HANDS'
-      notes   '`&#x1f46b;`'
+      command ':atm:'
+      name    '<span style="font-size:2em;">🏧 </span>AUTOMATED TELLER MACHINE'
+      notes   'Unified: `1F3E7`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👪 </span>FAMILY'
-      notes   '`&#x1f46a;`'
+      command ':chart:'
+      name    '<span style="font-size:2em;">💹 </span>CHART WITH UPWARDS TREND AND YEN SIGN'
+      notes   'Unified: `1F4B9`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👬 </span>TWO MEN HOLDING HANDS'
-      notes   '`&#x1f46c;`'
+      command ':heavy_dollar_sign:'
+      name    '<span style="font-size:2em;">💲 </span>HEAVY DOLLAR SIGN'
+      notes   'Unified: `1F4B2`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👭 </span>TWO WOMEN HOLDING HANDS'
-      notes   '`&#x1f46d;`'
+      command ':currency_exchange:'
+      name    '<span style="font-size:2em;">💱 </span>CURRENCY EXCHANGE'
+      notes   'Unified: `1F4B1`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💏 </span>KISS'
-      notes   '`&#x1f48f;`'
+      command ':copyright:'
+      name    '<span style="font-size:2em;">© </span>COPYRIGHT SIGN'
+      notes   'Unified: `00A9`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💑 </span>COUPLE WITH HEART'
-      notes   '`&#x1f491;`'
+      command ':registered:'
+      name    '<span style="font-size:2em;">® </span>REGISTERED SIGN'
+      notes   'Unified: `00AE`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👯 </span>WOMAN WITH BUNNY EARS'
-      notes   '`&#x1f46f;`'
+      command ':tm:'
+      name    '<span style="font-size:2em;">™ </span>TRADE MARK SIGN'
+      notes   'Unified: `2122`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🙆 </span>FACE WITH OK GESTURE'
-      notes   '`&#x1f646;`'
+      command ':x:'
+      name    '<span style="font-size:2em;">❌ </span>CROSS MARK'
+      notes   'Unified: `274C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🙅 </span>FACE WITH NO GOOD GESTURE'
-      notes   '`&#x1f645;`'
+      command ':bangbang:'
+      name    '<span style="font-size:2em;">‼️ </span>DOUBLE EXCLAMATION MARK'
+      notes   'Unified: `203C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💁 </span>INFORMATION DESK PERSON'
-      notes   '`&#x1f481;`'
+      command ':interrobang:'
+      name    '<span style="font-size:2em;">⁉️ </span>EXCLAMATION QUESTION MARK'
+      notes   'Unified: `2049`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🙋 </span>HAPPY PERSON RAISING ONE HAND'
-      notes   '`&#x1f64b;`'
+      command ':exclamation:'
+      name    '<span style="font-size:2em;">❗️ </span>HEAVY EXCLAMATION MARK SYMBOL'
+      notes   'Unified: `2757`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💆 </span>FACE MASSAGE'
-      notes   '`&#x1f486;`'
+      command ':question:'
+      name    '<span style="font-size:2em;">❓ </span>BLACK QUESTION MARK ORNAMENT'
+      notes   'Unified: `2753`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💇 </span>HAIRCUT'
-      notes   '`&#x1f487;`'
+      command ':grey_exclamation:'
+      name    '<span style="font-size:2em;">❕ </span>WHITE EXCLAMATION MARK ORNAMENT'
+      notes   'Unified: `2755`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💅 </span>NAIL POLISH'
-      notes   '`&#x1f485;`'
+      command ':grey_question:'
+      name    '<span style="font-size:2em;">❔ </span>WHITE QUESTION MARK ORNAMENT'
+      notes   'Unified: `2754`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👰 </span>BRIDE WITH VEIL'
-      notes   '`&#x1f470;`'
+      command ':o:'
+      name    '<span style="font-size:2em;">⭕️ </span>HEAVY LARGE CIRCLE'
+      notes   'Unified: `2B55`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🙎 </span>PERSON WITH POUTING FACE'
-      notes   '`&#x1f64e;`'
+      command ':top:'
+      name    '<span style="font-size:2em;">🔝 </span>TOP WITH UPWARDS ARROW ABOVE'
+      notes   'Unified: `1F51D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🙍 </span>PERSON FROWNING'
-      notes   '`&#x1f64d;`'
+      command ':end:'
+      name    '<span style="font-size:2em;">🔚 </span>END WITH LEFTWARDS ARROW ABOVE'
+      notes   'Unified: `1F51A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🙇 </span>PERSON BOWING DEEPLY'
-      notes   '`&#x1f647;`'
+      command ':back:'
+      name    '<span style="font-size:2em;">🔙 </span>BACK WITH LEFTWARDS ARROW ABOVE'
+      notes   'Unified: `1F519`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🎩 </span>TOP HAT'
-      notes   '`&#x1f3a9;`'
+      command ':on:'
+      name    '<span style="font-size:2em;">🔛 </span>ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE'
+      notes   'Unified: `1F51B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👑 </span>CROWN'
-      notes   '`&#x1f451;`'
+      command ':soon:'
+      name    '<span style="font-size:2em;">🔜 </span>SOON WITH RIGHTWARDS ARROW ABOVE'
+      notes   'Unified: `1F51C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👒 </span>WOMANS HAT'
-      notes   '`&#x1f452;`'
+      command ':arrows_clockwise:'
+      name    '<span style="font-size:2em;">🔃 </span>CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS'
+      notes   'Unified: `1F503`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👟 </span>ATHLETIC SHOE'
-      notes   '`&#x1f45f;`'
+      command ':clock12:'
+      name    '<span style="font-size:2em;">🕛 </span>CLOCK FACE TWELVE OCLOCK'
+      notes   'Unified: `1F55B`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👞 </span>MANS SHOE'
-      notes   '`&#x1f45e;`'
+      command ':clock1230:'
+      name    '<span style="font-size:2em;">🕧 </span>CLOCK FACE TWELVE-THIRTY'
+      notes   'Unified: `1F567`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👡 </span>WOMANS SANDAL'
-      notes   '`&#x1f461;`'
+      command ':clock1:'
+      name    '<span style="font-size:2em;">🕐 </span>CLOCK FACE ONE OCLOCK'
+      notes   'Unified: `1F550`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👠 </span>HIGH-HEELED SHOE'
-      notes   '`&#x1f460;`'
+      command ':clock130:'
+      name    '<span style="font-size:2em;">🕜 </span>CLOCK FACE ONE-THIRTY'
+      notes   'Unified: `1F55C`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👢 </span>WOMANS BOOTS'
-      notes   '`&#x1f462;`'
+      command ':clock2:'
+      name    '<span style="font-size:2em;">🕑 </span>CLOCK FACE TWO OCLOCK'
+      notes   'Unified: `1F551`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👕 </span>T-SHIRT'
-      notes   '`&#x1f455;`'
+      command ':clock230:'
+      name    '<span style="font-size:2em;">🕝 </span>CLOCK FACE TWO-THIRTY'
+      notes   'Unified: `1F55D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👔 </span>NECKTIE'
-      notes   '`&#x1f454;`'
+      command ':clock3:'
+      name    '<span style="font-size:2em;">🕒 </span>CLOCK FACE THREE OCLOCK'
+      notes   'Unified: `1F552`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👚 </span>WOMANS CLOTHES'
-      notes   '`&#x1f45a;`'
+      command ':clock330:'
+      name    '<span style="font-size:2em;">🕞 </span>CLOCK FACE THREE-THIRTY'
+      notes   'Unified: `1F55E`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👗 </span>DRESS'
-      notes   '`&#x1f457;`'
+      command ':clock4:'
+      name    '<span style="font-size:2em;">🕓 </span>CLOCK FACE FOUR OCLOCK'
+      notes   'Unified: `1F553`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🎽 </span>RUNNING SHIRT WITH SASH'
-      notes   '`&#x1f3bd;`'
+      command ':clock430:'
+      name    '<span style="font-size:2em;">🕟 </span>CLOCK FACE FOUR-THIRTY'
+      notes   'Unified: `1F55F`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👖 </span>JEANS'
-      notes   '`&#x1f456;`'
+      command ':clock5:'
+      name    '<span style="font-size:2em;">🕔 </span>CLOCK FACE FIVE OCLOCK'
+      notes   'Unified: `1F554`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👘 </span>KIMONO'
-      notes   '`&#x1f458;`'
+      command ':clock530:'
+      name    '<span style="font-size:2em;">🕠 </span>CLOCK FACE FIVE-THIRTY'
+      notes   'Unified: `1F560`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👙 </span>BIKINI'
-      notes   '`&#x1f459;`'
+      command ':clock6:'
+      name    '<span style="font-size:2em;">🕕 </span>CLOCK FACE SIX OCLOCK'
+      notes   'Unified: `1F555`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💼 </span>BRIEFCASE'
-      notes   '`&#x1f4bc;`'
+      command ':clock7:'
+      name    '<span style="font-size:2em;">🕖 </span>CLOCK FACE SEVEN OCLOCK'
+      notes   'Unified: `1F556`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👜 </span>HANDBAG'
-      notes   '`&#x1f45c;`'
+      command ':clock8:'
+      name    '<span style="font-size:2em;">🕗 </span>CLOCK FACE EIGHT OCLOCK'
+      notes   'Unified: `1F557`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👝 </span>POUCH'
-      notes   '`&#x1f45d;`'
+      command ':clock9:'
+      name    '<span style="font-size:2em;">🕘 </span>CLOCK FACE NINE OCLOCK'
+      notes   'Unified: `1F558`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👛 </span>PURSE'
-      notes   '`&#x1f45b;`'
+      command ':clock10:'
+      name    '<span style="font-size:2em;">🕙 </span>CLOCK FACE TEN OCLOCK'
+      notes   'Unified: `1F559`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👓 </span>EYEGLASSES'
-      notes   '`&#x1f453;`'
+      command ':clock11:'
+      name    '<span style="font-size:2em;">🕚 </span>CLOCK FACE ELEVEN OCLOCK'
+      notes   'Unified: `1F55A`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🎀 </span>RIBBON'
-      notes   '`&#x1f380;`'
+      command ':clock630:'
+      name    '<span style="font-size:2em;">🕡 </span>CLOCK FACE SIX-THIRTY'
+      notes   'Unified: `1F561`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">🌂 </span>CLOSED UMBRELLA'
-      notes   '`&#x1f302;`'
+      command ':clock730:'
+      name    '<span style="font-size:2em;">🕢 </span>CLOCK FACE SEVEN-THIRTY'
+      notes   'Unified: `1F562`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💄 </span>LIPSTICK'
-      notes   '`&#x1f484;`'
+      command ':clock830:'
+      name    '<span style="font-size:2em;">🕣 </span>CLOCK FACE EIGHT-THIRTY'
+      notes   'Unified: `1F563`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💛 </span>YELLOW HEART'
-      notes   '`&#x1f49b;`'
+      command ':clock930:'
+      name    '<span style="font-size:2em;">🕤 </span>CLOCK FACE NINE-THIRTY'
+      notes   'Unified: `1F564`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💙 </span>BLUE HEART'
-      notes   '`&#x1f499;`'
+      command ':clock1030:'
+      name    '<span style="font-size:2em;">🕥 </span>CLOCK FACE TEN-THIRTY'
+      notes   'Unified: `1F565`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💜 </span>PURPLE HEART'
-      notes   '`&#x1f49c;`'
+      command ':clock1130:'
+      name    '<span style="font-size:2em;">🕦 </span>CLOCK FACE ELEVEN-THIRTY'
+      notes   'Unified: `1F566`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💚 </span>GREEN HEART'
-      notes   '`&#x1f49a;`'
+      command ':heavy_multiplication_x:'
+      name    '<span style="font-size:2em;">✖️ </span>HEAVY MULTIPLICATION X'
+      notes   'Unified: `2716`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">❤ </span>HEAVY BLACK HEART'
-      notes   '`&#x2764;`'
+      command ':heavy_plus_sign:'
+      name    '<span style="font-size:2em;">➕ </span>HEAVY PLUS SIGN'
+      notes   'Unified: `2795`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💔 </span>BROKEN HEART'
-      notes   '`&#x1f494;`'
+      command ':heavy_minus_sign:'
+      name    '<span style="font-size:2em;">➖ </span>HEAVY MINUS SIGN'
+      notes   'Unified: `2796`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💗 </span>GROWING HEART'
-      notes   '`&#x1f497;`'
+      command ':heavy_division_sign:'
+      name    '<span style="font-size:2em;">➗ </span>HEAVY DIVISION SIGN'
+      notes   'Unified: `2797`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💓 </span>BEATING HEART'
-      notes   '`&#x1f493;`'
+      command ':spades:'
+      name    '<span style="font-size:2em;">♠️ </span>BLACK SPADE SUIT'
+      notes   'Unified: `2660`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💕 </span>TWO HEARTS'
-      notes   '`&#x1f495;`'
+      command ':hearts:'
+      name    '<span style="font-size:2em;">♥️ </span>BLACK HEART SUIT'
+      notes   'Unified: `2665`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💖 </span>SPARKLING HEART'
-      notes   '`&#x1f496;`'
+      command ':clubs:'
+      name    '<span style="font-size:2em;">♣️ </span>BLACK CLUB SUIT'
+      notes   'Unified: `2663`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💞 </span>REVOLVING HEARTS'
-      notes   '`&#x1f49e;`'
+      command ':diamonds:'
+      name    '<span style="font-size:2em;">♦️ </span>BLACK DIAMOND SUIT'
+      notes   'Unified: `2666`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💘 </span>HEART WITH ARROW'
-      notes   '`&#x1f498;`'
+      command ':white_flower:'
+      name    '<span style="font-size:2em;">💮 </span>WHITE FLOWER'
+      notes   'Unified: `1F4AE`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💌 </span>LOVE LETTER'
-      notes   '`&#x1f48c;`'
+      command ':100:'
+      name    '<span style="font-size:2em;">💯 </span>HUNDRED POINTS SYMBOL'
+      notes   'Unified: `1F4AF`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💋 </span>KISS MARK'
-      notes   '`&#x1f48b;`'
+      command ':heavy_check_mark:'
+      name    '<span style="font-size:2em;">✔️ </span>HEAVY CHECK MARK'
+      notes   'Unified: `2714`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💍 </span>RING'
-      notes   '`&#x1f48d;`'
+      command ':ballot_box_with_check:'
+      name    '<span style="font-size:2em;">☑️ </span>BALLOT BOX WITH CHECK'
+      notes   'Unified: `2611`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💎 </span>GEM STONE'
-      notes   '`&#x1f48e;`'
+      command ':radio_button:'
+      name    '<span style="font-size:2em;">🔘 </span>RADIO BUTTON'
+      notes   'Unified: `1F518`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👤 </span>BUST IN SILHOUETTE'
-      notes   '`&#x1f464;`'
+      command ':link:'
+      name    '<span style="font-size:2em;">🔗 </span>LINK SYMBOL'
+      notes   'Unified: `1F517`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👥 </span>BUSTS IN SILHOUETTE'
-      notes   '`&#x1f465;`'
+      command ':curly_loop:'
+      name    '<span style="font-size:2em;">➰ </span>CURLY LOOP'
+      notes   'Unified: `27B0`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💬 </span>SPEECH BALLOON'
-      notes   '`&#x1f4ac;`'
+      command ':wavy_dash:'
+      name    '<span style="font-size:2em;">〰 </span>WAVY DASH'
+      notes   'Unified: `3030`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">👣 </span>FOOTPRINTS'
-      notes   '`&#x1f463;`'
+      command ':part_alternation_mark:'
+      name    '<span style="font-size:2em;">〽️ </span>PART ALTERNATION MARK'
+      notes   'Unified: `303D`'
     end
     entry do
-      command ':code_here:'
-      name    '<span style="font-size:2em;">💭 </span>THOUGHT BALLOON'
-      notes   '`&#x1f4ad;`'
+      command ':trident:'
+      name    '<span style="font-size:2em;">🔱 </span>TRIDENT EMBLEM'
+      notes   'Unified: `1F531`'
+    end
+    entry do
+      command ':black_medium_square:'
+      name    '<span style="font-size:2em;">◼️ </span>BLACK MEDIUM SQUARE'
+      notes   'Unified: `25FC`'
+    end
+    entry do
+      command ':white_medium_square:'
+      name    '<span style="font-size:2em;">◻️ </span>WHITE MEDIUM SQUARE'
+      notes   'Unified: `25FB`'
+    end
+    entry do
+      command ':black_medium_small_square:'
+      name    '<span style="font-size:2em;">◾️ </span>BLACK MEDIUM SMALL SQUARE'
+      notes   'Unified: `25FE`'
+    end
+    entry do
+      command ':white_medium_small_square:'
+      name    '<span style="font-size:2em;">◽️ </span>WHITE MEDIUM SMALL SQUARE'
+      notes   'Unified: `25FD`'
+    end
+    entry do
+      command ':black_small_square:'
+      name    '<span style="font-size:2em;">▪️ </span>BLACK SMALL SQUARE'
+      notes   'Unified: `25AA`'
+    end
+    entry do
+      command ':white_small_square:'
+      name    '<span style="font-size:2em;">▫️ </span>WHITE SMALL SQUARE'
+      notes   'Unified: `25AB`'
+    end
+    entry do
+      command ':small_red_triangle:'
+      name    '<span style="font-size:2em;">🔺 </span>UP-POINTING RED TRIANGLE'
+      notes   'Unified: `1F53A`'
+    end
+    entry do
+      command ':black_square_button:'
+      name    '<span style="font-size:2em;">🔲 </span>BLACK SQUARE BUTTON'
+      notes   'Unified: `1F532`'
+    end
+    entry do
+      command ':white_square_button:'
+      name    '<span style="font-size:2em;">🔳 </span>WHITE SQUARE BUTTON'
+      notes   'Unified: `1F533`'
+    end
+    entry do
+      command ':black_circle:'
+      name    '<span style="font-size:2em;">⚫️ </span>MEDIUM BLACK CIRCLE'
+      notes   'Unified: `26AB`'
+    end
+    entry do
+      command ':white_circle:'
+      name    '<span style="font-size:2em;">⚪️ </span>MEDIUM WHITE CIRCLE'
+      notes   'Unified: `26AA`'
+    end
+    entry do
+      command ':red_circle:'
+      name    '<span style="font-size:2em;">🔴 </span>LARGE RED CIRCLE'
+      notes   'Unified: `1F534`'
+    end
+    entry do
+      command ':large_blue_circle:'
+      name    '<span style="font-size:2em;">🔵 </span>LARGE BLUE CIRCLE'
+      notes   'Unified: `1F535`'
+    end
+    entry do
+      command ':small_red_triangle_down:'
+      name    '<span style="font-size:2em;">🔻 </span>DOWN-POINTING RED TRIANGLE'
+      notes   'Unified: `1F53B`'
+    end
+    entry do
+      command ':white_large_square:'
+      name    '<span style="font-size:2em;">⬜️ </span>WHITE LARGE SQUARE'
+      notes   'Unified: `2B1C`'
+    end
+    entry do
+      command ':black_large_square:'
+      name    '<span style="font-size:2em;">⬛️ </span>BLACK LARGE SQUARE'
+      notes   'Unified: `2B1B`'
+    end
+    entry do
+      command ':large_orange_diamond:'
+      name    '<span style="font-size:2em;">🔶 </span>LARGE ORANGE DIAMOND'
+      notes   'Unified: `1F536`'
+    end
+    entry do
+      command ':large_blue_diamond:'
+      name    '<span style="font-size:2em;">🔷 </span>LARGE BLUE DIAMOND'
+      notes   'Unified: `1F537`'
+    end
+    entry do
+      command ':small_orange_diamond:'
+      name    '<span style="font-size:2em;">🔸 </span>SMALL ORANGE DIAMOND'
+      notes   'Unified: `1F538`'
+    end
+    entry do
+      command ':small_blue_diamond:'
+      name    '<span style="font-size:2em;">🔹 </span>SMALL BLUE DIAMOND'
+      notes   'Unified: `1F539`'
     end
 
   end
 
   
+  notes 'Information obtained from:
+  
+https://bitbucket.org/grumdrig/emoji-list/
+
+https://github.com/arvida/emoji-cheat-sheet.com
+
+https://github.com/iamcal/emoji-data
+
+http://www.unicode.org/~scherer/emoji4unicode/snapshot/emojidata.html'
+
 end
