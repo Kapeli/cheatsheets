@@ -7,7 +7,7 @@ cheatsheet do
     category do
     id 'People'
     
-        entry do
+    entry do
       command ':smile:'
       name    '😄 Smiling face with open mouth and smiling eyes'
       notes   'Unified: `1F604`'
@@ -957,7 +957,7 @@ cheatsheet do
   category do
     id 'Nature'
     
-        entry do
+    entry do
       command ':dog:'
       name    '🐶 Dog face'
       notes   'Unified: `1F436`'
@@ -1542,7 +1542,7 @@ cheatsheet do
   category do
     id 'Objects'
     
-        entry do
+    entry do
       command ':bamboo:'
       name    '🎍 Pine decoration'
       notes   'Unified: `1F38D`'
@@ -2697,7 +2697,7 @@ cheatsheet do
   category do
     id 'Places'
     
-        entry do
+    entry do
       command ':house:'
       name    '🏠 House building'
       notes   'Unified: `1F3E0`'
@@ -3414,7 +3414,7 @@ cheatsheet do
     end
     entry do
       command ':ok:'
-      name    '🆗 Squared ok'
+      name    '🆗 Squared OK'
       notes   'Unified: `1F197`'
     end
     entry do
@@ -3434,12 +3434,12 @@ cheatsheet do
     end
     entry do
       command ':new:'
-      name    '🆕 Squared new'
+      name    '🆕 Squared NEW'
       notes   'Unified: `1F195`'
     end
     entry do
       command ':up:'
-      name    '🆙 Squared up with exclamation mark'
+      name    '🆙 Squared UP with exclamation mark'
       notes   'Unified: `1F199`'
     end
     entry do
@@ -3454,7 +3454,7 @@ cheatsheet do
     end
     entry do
       command ':ng:'
-      name    '🆖 Squared ng'
+      name    '🆖 Squared NG'
       notes   'Unified: `1F196`'
     end
     entry do
@@ -3629,7 +3629,7 @@ cheatsheet do
     end
     entry do
       command ':cl:'
-      name    '🆑 Squared cl'
+      name    '🆑 Squared CL'
       notes   'Unified: `1F191`'
     end
     entry do
@@ -3639,7 +3639,7 @@ cheatsheet do
     end
     entry do
       command ':id:'
-      name    '🆔 Squared id'
+      name    '🆔 Squared ID'
       notes   'Unified: `1F194`'
     end
     entry do
@@ -3719,7 +3719,7 @@ cheatsheet do
     end
     entry do
       command ':vs:'
-      name    '🆚 Squared vs'
+      name    '🆚 Squared VS'
       notes   'Unified: `1F19A`'
     end
     entry do
