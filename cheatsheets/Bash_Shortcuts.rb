@@ -8,56 +8,61 @@ cheatsheet do
     id 'Command Editing Shortcuts'
 
     entry do
-      command 'Ctrl+A / Ctrl+E'
+      command 'CTRL+A'
+      command 'CTRL+E'
       name 'Go to the start/end of the command line'
     end
     entry do
-      command 'Ctrl+U / Ctrl+K'
+      command 'CTRL+U'
+      command 'CTRL+K'
       name 'Delete from cursor to the start/end of the command line'
     end
     entry do
-      command 'Ctrl+W / Alt+D'
-      name 'Delete from cursor to start/end of word'
-      notes 'Whole word if at the boundary'
+      command 'CTRL+W'
+      command 'ALT+D'
+      name 'Delete from cursor to start/end of word (whole word if at the boundary)'
     end
     entry do
-      command 'Ctrl+Y'
+      command 'CTRL+Y'
       name 'Paste word or text that was cut using one of the deletion shortcuts (such as the one above) after the cursor'
     end
     entry do
-      command 'Ctrl+xx'
-      name 'Move between start fo command line and current cursor position (and back again)'
+      command 'CTRL+XX'
+      name 'Move between start of command line and current cursor position (and back again)'
     end
     entry do
-      command 'Alt+B / Alt+F'
+      command 'ALT+B'
+      command 'ALT+F'
       name 'Move backward/forward one word (or go to start of word the cursor is currently on)'
     end
     entry do
-      command 'Alt+C'
+      command 'ALT+C'
       name 'Capitalize to end of word starting at cursor (whole word if cursor is at the beginning of word)'
     end
     entry do
-      command 'Alt+U'
+      command 'ALT+U'
       name 'Make uppercase from cursor to end of word'
     end
     entry do
-      command 'Alt+L'
+      command 'ALT+L'
       name 'Make lowercase from cursor to end of word'
     end
     entry do
-      command 'Alt+T'
+      command 'ALT+T'
       name 'Swap current word with previous'
     end
     entry do
-      command 'Ctrl+F / Ctrl+B'
+      command 'CTRL+F'
+      command 'CTRL+B'
       name 'Move forward/backward one character'
     end
     entry do
-      command 'Ctrl+D / Ctrl+H'
+      command 'CTRL+D'
+      command 'CTRL+H'
       name 'Delete character after/before under cursor'
     end
     entry do
-      command 'Ctrl+T'
+      command 'CTRL+T'
       name 'Swap character under cursor with the previous one'
     end
   end
@@ -65,23 +70,23 @@ cheatsheet do
     id 'Command Recall Shortcuts'
 
     entry do
-      command 'Ctrl+R'
+      command 'CTRL+R'
       name 'Search the history backwards'
     end
     entry do
-      command 'Ctrl+G'
+      command 'CTRL+G'
       name 'Escape from history searching mode'
     end
     entry do
-      command 'Ctrl+P'
+      command 'CTRL+P'
       name 'Previous command in history (i.e., walk back through the command history)'
     end
     entry do
-      command 'Ctrl+N'
+      command 'CTRL+N'
       name 'Next command in history (i.e., walk forward through the command history)'
     end
     entry do
-      command 'Alt+.'
+      command 'ALT+.'
       name 'Use the last word of the previous command'
     end
   end
@@ -90,23 +95,23 @@ cheatsheet do
     id 'Command Control Shortcuts'
 
     entry do
-      command 'Ctrl+L'
+      command 'CTRL+L'
       name 'Clear the screen'
     end
     entry do
-      command 'Ctrl+S'
+      command 'CTRL+S'
       name 'Stops the output to the screen (for long running verbose command)'
     end
     entry do
-      command 'Ctrl+Q'
+      command 'CTRL+Q'
       name 'Allow output to the screen (if previously stopped using command above)'
     end
     entry do
-      command 'Ctrl+C'
+      command 'CTRL+C'
       name 'Terminate the command'
     end
     entry do
-      command 'Ctrl+Z'
+      command 'CTRL+Z'
       name 'Suspend/stop the command'
     end
   end
@@ -120,29 +125,28 @@ cheatsheet do
     end
     entry do
       command '!blah'
-      name 'Run the most recent command that starts with \'blah\' (e.g., !ls)'
+      name 'Run the most recent command that starts with `blah`'
     end
     entry do
       command '!blah:p'
-      name 'Print out the command that !blah would run (also adds it as the latest command in the command history'
+      name 'Print out the command that `!blah` would run (also adds it as the latest command in the command history'
     end
     entry do
       command '!$'
-      name 'The last word of the previous command (same as Alt+.)'
+      name 'The last word of the previous command (same as `ALT+.`)'
     end
     entry do
       command '!$:p'
-      name 'Print out the word that !$ woudl substitute'
+      name 'Print out the word that `!$` would substitute'
     end
     entry do
       command '!*'
-      name 'The previous command except for the last word (e.g., if you type \'find soem_file.txt /\', then !* would give you \'find some_file.txt\')'
+      name 'The previous command except for the last word (e.g., if you type `find some_file.txt /`, then `!*` would give you `find some_file.txt`)'
     end
     entry do
       command '!*:p'
-      name 'Print out what !* would substitute'
+      name 'Print out what `!*` would substitute'
     end
   end
-  notes ''
 
 end
