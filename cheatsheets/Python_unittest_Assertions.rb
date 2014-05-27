@@ -1,13 +1,17 @@
 cheatsheet do
   title 'Python unittest Assertions'
-  docset_file_name 'python_unittest_assertions'
-  keyword 'python, unittest, assert'
-  source_url 'https://docs.python.org/2/library/unittest.html'
+  docset_file_name 'Python_unittest_Assertions'
+  keyword 'pyassert'
+  source_url 'http://cheat.kapeli.com'
   
   style '
   td.description .name {
     text-align:right;
     white-space:nowrap;
+  }
+  th:nth-child(1) {
+    text-align:right;
+  }
   '
   # request headers
   category do
@@ -261,7 +265,10 @@ cheatsheet do
 
     entry do
       td_notes <<-'END'
-      sorted(a) == sorted(b) and works with unhashable objs
+      ```
+      sorted(a) == sorted(b)
+      ```
+      Works with unhashable objects
       END
       td_notes ''
       name 'assertItemsEqual(a, b)'
@@ -270,7 +277,7 @@ cheatsheet do
 
     entry do
       td_notes <<-'END'
-      all the key/value pairs in a exist in b
+      All the key/value pairs in a exist in b
       END
       td_notes '2.7'
       name 'assertDictContainsSubset(a, b)'
@@ -280,7 +287,7 @@ cheatsheet do
   end # end common non-standard headers
 
   notes <<-'END'
-    * All the assert methods (except assertRaises(), assertRaisesRegexp()) accept a msg argument that, if specified, is used as the error message on failure.
+    * All the assert methods except `assertRaises()` and `assertRaisesRegexp()` accept a `msg` argument that, if specified, is used as the error message on failure.
   END
 
 end # end cheatsheet
