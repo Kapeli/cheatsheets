@@ -141,7 +141,7 @@ cheatsheet do
     end
     entry do
       command '!*'
-      name 'The previous command except for the last word (e.g., if you type `find some_file.txt /`, then `!*` would give you `find some_file.txt`)'
+      name 'The previous command except for the first word (e.g., if you type `find some_file.txt /`, then `!*` would give you `some_file.txt /`)'
     end
     entry do
       command '!*:p'
