@@ -1,6 +1,6 @@
 cheatsheet do
     title 'Python Debugger'
-    docset_file_name 'pdb'
+    docset_file_name 'Python_Debugger'
     keyword 'pdb'
     source_url 'http://cheat.kapeli.com'
 
@@ -14,7 +14,7 @@ cheatsheet do
 
         entry do
             name 'Start pdb from the command line'
-            command 'python -m pdb <ﬁle.py>'
+            command 'python -m pdb <file.py>'
         end
 
     end
@@ -33,12 +33,12 @@ cheatsheet do
         end
 
         entry do
-            name 'continue until the current function returns'
+            name 'Continue until the current function returns'
             command 'r(eturn)'
         end
 
         entry do
-            name 'continue until the next breakpoint is encountered'
+            name 'Continue until the next breakpoint is encountered'
             command 'c(ontinue)'
         end
 
@@ -84,12 +84,12 @@ cheatsheet do
         end
 
         entry do
-            name 'set a breakpoint in a ﬁle at a specific line'
-            command 'b(reak) ﬁle:line_number'
+            name 'Set a breakpoint in a file at a specific line'
+            command 'b(reak) file:line_number'
         end
 
         entry do
-            name 'set a breakpoint at the ﬁrst line of a func'
+            name 'Set a breakpoint at the first line of a function'
             command 'b(reak) func'
         end
     
@@ -114,7 +114,7 @@ cheatsheet do
         id 'Printing'
 
         entry do
-            name 'Prin the value of expr'
+            name 'Print the value of expr'
             command 'p(rint) expr'
             command 'pp expr'
         end
