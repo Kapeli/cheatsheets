@@ -85,7 +85,7 @@ cheatsheet do
 
         entry do
             name 'set a breakpoint in a ﬁle at a specific line'
-            command 'b(reak) ﬁle:lineno'
+            command 'b(reak) ﬁle:line_number'
         end
 
         entry do
