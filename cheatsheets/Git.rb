@@ -119,6 +119,23 @@ cheatsheet do
       git blame <file>
       ```"
     end
+    
+    entry do
+      name 'Store changes temporarily'
+      notes "
+      ```
+      git stash
+      ```"
+    end
+    
+    entry do
+      name 'Remove and apply stashed changes'
+      notes "
+      ```
+      git stash pop
+      ```
+    end
+      
   end
   
   category do
