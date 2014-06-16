@@ -317,6 +317,52 @@ cheatsheet do
     end
   end
 
+  category do
+    id 'Resizing Panes'
+    
+    entry do
+      notes <<-'END'
+        With most of these the number (##) is optional and can be omitted to resize one line.
+        
+        All of these can be bound to keys EX;
+        bind H resize-pane -L 5
+        bind J resize-pane -D 5
+        bind K resize-pane -U 5
+        bind L resize-pane -R 5
+      END
+    end
+    
+    entry do
+      command 'PREFIX-: resize-pane -D ##'
+      name 'Resize the current pane down by ## lines. The -D is optional since by default it moves down.'
+    end
+    
+    entry do
+      command 'PREFIX-: resize-pane -U ##'
+      name 'Resize the current pane up ## lines'
+    end
+
+    entry do
+      command 'PREFIX-: resize-pane -L ##'
+      name 'Resize the current pane left ## lines'
+    end
+
+    entry do
+      command 'PREFIX-: resize-pane -R ##'
+      name 'Resize the current pane right ## lines'
+    end
+    
+    entry do
+      command 'PREFIX-: resize-pane -y ##'
+      name 'Resize the current pane to ## lines tall'
+    end
+    
+    entry do
+      command 'PREFIX-: resize pane -x ##'
+      name 'Resize the current pane to ## lines wide'
+    end
+    
+  end
 
   category do
     id 'Miscellaneous'
