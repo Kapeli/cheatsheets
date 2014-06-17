@@ -146,6 +146,11 @@ cheatsheet do
       command 'PREFIX-}'
       name 'Move the current pane right'
     end
+
+    entry do
+      command 'PREFIX-"Meta+{1..5}"'
+      name 'Arrange panes in one of the five preset layouts: even-horizontal, even-vertical, main-horizontal, main-vertical, or tiled. Meta key defaults to Alt.'
+    end
   end
 
 
