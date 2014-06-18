@@ -103,7 +103,7 @@ cheatsheet do
 
     entry do
       command 'PREFIX-o'
-      name 'Swap panes'
+      name 'Switch focus between panes'
     end
 
     entry do
