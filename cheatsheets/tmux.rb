@@ -85,6 +85,21 @@ cheatsheet do
       command 'PREFIX-&'
       name 'Kill window'
     end
+
+    entry do
+      command 'PREFIX-n'
+      name 'Next window'
+    end
+
+    entry do
+      command 'PREFIX-p'
+      name 'Previous window'
+    end
+
+    entry do
+      command 'PREFIX-l'
+      name 'Previously selected window'
+    end
   end
 
   category do
