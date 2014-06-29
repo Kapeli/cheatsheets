@@ -2,6 +2,7 @@ cheatsheet do
   title 'Rails Migrations CLI'
   docset_file_name 'Rails_Migrations_CLI'
   keyword 'railscli'
+  source_url 'http://cheat.kapeli.com'
 
   introduction <<-'END'
     Basic migration syntax:

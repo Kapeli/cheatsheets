@@ -1,6 +1,6 @@
 cheatsheet do
     title 'Origami for Sublime Text'
-    docset_file_name 'origami'
+    docset_file_name 'Origami_for_Sublime_Text'
     keyword 'origami'
     source_url 'http://cheat.kapeli.com'
 
@@ -19,7 +19,7 @@ cheatsheet do
 
         entry do
             name 'Clone current file to adjacent pane'
-            command 'CMD+K OPT-Arrow'
+            command 'CMD+K ALT-Arrow'
         end
 
         entry do

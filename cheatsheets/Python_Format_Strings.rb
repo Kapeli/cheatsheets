@@ -1,9 +1,9 @@
 cheatsheet do
   title 'Python Format Strings'
-  docset_file_name 'python_format_strings'
+  docset_file_name 'Python_Format_Strings'
   keyword 'pyfmt'
+  source_url 'http://cheat.kapeli.com'
 
-  introduction 'Python String Formatting Reference'
   category do
     id 'Field Width and Alignment'
     entry do
