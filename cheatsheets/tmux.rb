@@ -112,7 +112,8 @@ cheatsheet do
 
     entry do
       command 'PREFIX-|'
-      name 'Vertical split (Personal), in tmux.conf : `bind-key | split-window -v` '
+      name 'Vertical split (Personal)'
+      notes 'In tmux.conf: `bind-key | split-window -v`'
     end
 
     entry do
@@ -122,7 +123,8 @@ cheatsheet do
 
     entry do
       command 'PREFIX- -'
-      name 'Horizontal split (Personal), in tmux.conf : `bind-key | split-window -h` '
+      name 'Horizontal split (Personal)'
+      notes 'In tmux.conf: `bind-key | split-window -h`'
     end
 
 
