@@ -107,13 +107,24 @@ cheatsheet do
 
     entry do
       command 'PREFIX-%'
-      name 'Vertical split'
+      name 'Vertical split (Standard)'
+    end
+
+    entry do
+      command 'PREFIX-|'
+      name 'Vertical split (Personal), in tmux.conf : `bind-key | split-window -v` '
     end
 
     entry do
       command 'PREFIX-"'
-      name 'Horizontal split'
+      name 'Horizontal split (Standard)'
     end
+
+    entry do
+      command 'PREFIX- -'
+      name 'Horizontal split (Personal), in tmux.conf : `bind-key | split-window -h` '
+    end
+
 
 
     entry do
