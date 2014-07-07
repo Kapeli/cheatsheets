@@ -1,12 +1,12 @@
 cheatsheet do
-  title 'SQLite Cheatsheet'
+  title 'SQLite'
   docset_file_name 'SQLite'
   keyword 'sqlite'
   source_url 'http://cheat.kapeli.com'
 
   
   category do
-      id 'sqlite3 Meta Commands'
+      id 'Meta Commands'
       entry do
           command '.backup ?DB? FILE'
           name 'Backup DB (default "­mai­n") to FILE'
@@ -126,7 +126,7 @@ cheatsheet do
   end
 
   category do
-      id 'sqlite3 Options'
+      id 'Options'
       entry do
           command '-init file'
           name 'Read and execute commands from file , which can contain a mix of SQL statements and meta-c­omm­ands.'
@@ -197,103 +197,8 @@ cheatsheet do
       end
   end
   
-
-  category do
-      id 'sqlite3 See Also'
-      
-      entry do
-          command 'http:/­/ww­w.s­qli­te.org/'
-          notes 'The sqlite­3-doc package.'
-      end
-      
-  end
-
   notes <<-'END'
-  Original cheatsheet from [sqlite3 Cheat Sheet by richardjh - Cheatography.com: Cheat Sheets For Every Occasion](http://www.cheatography.com/richardjh/cheat-sheets/sqlite3/)
-  <br />
-  Create the docset:<br />
-  Copy the text from [sqlite3 Cheat Sheet by richardjh](http://www.cheatography.com/richardjh/cheat-sheets/sqlite3/) and then substitute with your text editor of choice.
-
-  **Section "sqlite3 Meta Commands" :**
-
-  **description**
-  <pre><code>
-	select patern
-  <br />
-  replace pattern
-  </code></pre>
-
-  **change all lines not starting with "." = names**
-  <pre><code>
-  ^([^\.].*$)
-  <br />
-  name '$1'\nend
-  </code></pre>
-
-
-  change all lines starting with "." = commands
-  <pre><code>
-  ^(\..*$)
-  <br />
-  entry do\ncommand '$1'
-  </code></pre>
-
-  **some indentation**
-  <pre><code>
-  <br />
-  ^([^e])
-      $1
-  </code></pre>
-  
-  **pipe quotation was crashing ruby**
-  <pre><code>
-  '|'
-  <br />
-  "|"
-  </code></pre>
-
-  **Section "sqlite3 Options" :**
-
-  **description**
-  <pre><code>
-  select patern
-  <br />
-  replace pattern
-  </code></pre>
-
-  **change all lines not starting with "-" = names**
-  <pre><code>
-  ^([^-].*$)
-  <br />
-  name '$1'\nend
-  </code></pre>
-
-  **change all lines starting with "-" = commands**
-  <pre><code>
-  ^(-.*$)
-  <br />
-  entry do\ncommand '$1'
-    </code></pre>
-
-  **some indentation**
-  <pre><code>
-  ^([^e])
-  <br />
-      $1
-  </code></pre>
-	 
-  **pipe quotation was crashing ruby**
-  <pre><code>
-  '|'
-  <br />
-  "|"
-  </code></pre>
-  
-  **Section 'sqlite3 See Also':**
-  done by hand.
-  
-  Happy cheating!  
-  
+  * Based on [sqlite3 cheat sheet by richardjh](http://www.cheatography.com/richardjh/cheat-sheets/sqlite3/)
   END
   
 end
