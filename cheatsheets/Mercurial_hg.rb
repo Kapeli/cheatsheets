@@ -9,8 +9,8 @@ cheatsheet do
   id 'Work Directory'
 
     entry do
-        command ''
-        name    'A local Work folder containing one Revision and any uncommited changes you have made.'
+        name ''
+        notes    'A local Work folder containing one Revision and any uncommited changes you have made.'
       end
     end
     category do
@@ -64,7 +64,7 @@ cheatsheet do
           name    'Move file'
       end
       entry do      
-          name  'NOTE'
+          name  ''
           notes 'These changes to Work must also be Committed to avoid data loss.'
       end
   end
@@ -100,7 +100,7 @@ cheatsheet do
           name    'Lists status of files'
       end
       entry do      
-          name  'NOTE'
+          name  ''
           notes ' Added, Clean, De­leted, Ig­nored, Mo­dified, Un­known'
       end
   end
@@ -108,7 +108,7 @@ cheatsheet do
   category do
   id 'Local Repository'
     entry do      
-        name  'NOTE'
+        name  ''
         notes 'A complete Local repository of changesets that is saved in Work/.hg/ (do not edit!)'
     end
   end
@@ -133,7 +133,7 @@ cheatsheet do
           name    'List heads'
       end
       entry do      
-          name  'NOTE'
+          name  ''
           notes 'hg diff -rREV -rREV Shows <br/> differ­ences between REVs'
       end
   
@@ -198,7 +198,7 @@ cheatsheet do
           name    ''
       end
     entry do      
-        name  'NOTE'
+        name  ''
         notes 'Powerful simpli­city! Use wisely.'
     end
   
@@ -208,11 +208,11 @@ cheatsheet do
   category do
   id 'Resources'
     entry do      
-        name  'NOTE'
+        name  ''
         notes  <<-'END'
-        '[http:/­/me­rcu­ria­l.s­ele­nic.com](http:/­/me­rcu­ria­l.s­ele­nic.com)<br />
-         [http:/­/hg­ini­t.com](http:/­/hg­ini­t.com)<br />
-         [http:/­/hg­boo­k.r­ed-­bea­n.com](http:/­/hg­boo­k.r­ed-­bea­n.com)<br />'
+          - [http:/­/me­rcu­ria­l.s­ele­nic.com](http:/­/me­rcu­ria­l.s­ele­nic.com)<br />
+          - [http:/­/hg­ini­t.com](http:/­/hg­ini­t.com)<br />
+          - [http:/­/hg­boo­k.r­ed-­bea­n.com](http:/­/hg­boo­k.r­ed-­bea­n.com)<br />
         END
     end
   end
@@ -220,7 +220,7 @@ cheatsheet do
   category do
   id 'Remote Repository'
     entry do      
-        name  'NOTE'
+        name  ''
         notes 'A Remote repository reached via url path, often a main team repo from which Local is cloned.'
     end
   end
