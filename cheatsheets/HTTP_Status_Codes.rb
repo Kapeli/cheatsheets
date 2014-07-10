@@ -142,7 +142,7 @@ cheatsheet do
 
     entry do
       name '401 Unauthorized'
-      notes 'The requestor is not authorized to access the resource. This is similar to `402` but is used in cases where authentication is expected but has failed or has not been provided.'
+      notes 'The requestor is not authorized to access the resource. This is similar to `403` but is used in cases where authentication is expected but has failed or has not been provided.'
     end
 
     entry do
@@ -152,7 +152,7 @@ cheatsheet do
 
     entry do
       name '403 Forbidden'
-      notes "The request was formatted correctly but the server is refusing to supply the requested resource. Unlike `402`, authenticating will not make a difference in the server's response."
+      notes "The request was formatted correctly but the server is refusing to supply the requested resource. Unlike `401`, authenticating will not make a difference in the server's response."
     end
 
     entry do
