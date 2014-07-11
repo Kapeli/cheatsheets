@@ -562,6 +562,44 @@ cheatsheet do
         end
     end
 
+    category do
+        id 'Layout'
+
+        entry do
+            name 'Single'
+            command 'CMD+ALT+1'
+        end
+
+        entry do
+            name 'Columns: 2'
+            command 'CMD+ALT+2'
+        end
+
+        entry do
+            name 'Columns: 3'
+            command 'CMD+ALT+3'
+        end
+
+        entry do
+            name 'Columns: 4'
+            command 'CMD+ALT+2'
+        end
+
+        entry do
+            name 'Rows: 2'
+            command 'CMD+SHIFT+ALT+2'
+        end
+
+        entry do
+            name 'Rows: 3'
+            command 'CMD+SHIFT+ALT+3'
+        end
+
+        entry do
+            name 'Grid: 3'
+            command 'CMD+ALT+5'
+        end
+    end
 
   notes <<-'END'
     * Based on the cheat sheet from [Cheatography](http://www.cheatography.com/martinprins/cheat-sheets/sublime-text-3-osx/).
