@@ -529,40 +529,6 @@ cheatsheet do
     end
 
     category do
-        id 'Miscellaneous'
-
-        entry do
-            name 'Toggle spell check'
-            command 'F6'
-        end
-
-        entry do
-            name 'Next misspe­lling'
-            command 'CTRL+F6'
-        end
-
-        entry do
-            name 'Previous misspe­lling'
-            command 'CTRL+SHIFT+F6'
-        end
-
-        entry do
-            name 'Build'
-            command 'CMD+B'
-        end
-
-        entry do
-            name 'Show comple­tions'
-            command 'CTRL+Space'
-        end
-
-        entry do
-            name 'Special characters'
-            command 'CMD+ALT+T'
-        end
-    end
-
-    category do
         id 'Layout'
 
         entry do
@@ -598,6 +564,40 @@ cheatsheet do
         entry do
             name 'Grid: 3'
             command 'CMD+ALT+5'
+        end
+    end
+
+    category do
+        id 'Miscellaneous'
+
+        entry do
+            name 'Toggle spell check'
+            command 'F6'
+        end
+
+        entry do
+            name 'Next misspe­lling'
+            command 'CTRL+F6'
+        end
+
+        entry do
+            name 'Previous misspe­lling'
+            command 'CTRL+SHIFT+F6'
+        end
+
+        entry do
+            name 'Build'
+            command 'CMD+B'
+        end
+
+        entry do
+            name 'Show comple­tions'
+            command 'CTRL+Space'
+        end
+
+        entry do
+            name 'Special characters'
+            command 'CMD+ALT+T'
         end
     end
 
