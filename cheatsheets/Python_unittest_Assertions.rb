@@ -106,7 +106,7 @@ cheatsheet do
       ```
       END
       td_notes '2.7'
-      name 'assertIsNotNone(a, b)'
+      name 'assertIsNotNone(x)'
       index_name 'assertIsNotNone'
     end
 
