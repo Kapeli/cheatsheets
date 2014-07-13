@@ -104,6 +104,15 @@ cheatsheet do
       '
     end
 
+    entry do
+      name 'Log tapped view to the console'
+      notes '
+      ```
+      (lldb) taplog
+      ```
+      '
+    end
+
   end
 
   # FBVisualizationCommands.py
@@ -111,37 +120,10 @@ cheatsheet do
     id 'Visualization Commands'
 
     entry do
-      name 'Open a UIImage in Preview.app on your Mac'
+      name 'Open a UIImage, CGImageRef, UIView, or CALayer in Preview.app on your Mac'
       notes '
       ```
-      (lldb) showimage <anImage>
-      ```
-      '
-    end
-
-    entry do
-      name 'Open a CGImageRef in Preview.app on your Mac'
-      notes '
-      ```
-      (lldb) showimageref <anImageRef>
-      ```
-      '
-    end
-
-    entry do
-      name 'Render the given UIView into an image and open it in Preview.app on your Mac'
-      notes '
-      ```
-      (lldb) showview <aView>
-      ```
-      '
-    end
-
-    entry do
-      name 'Render the given CALayer into an image and open it in Preview.app on your Mac'
-      notes '
-      ```
-      (lldb) showlayer <aLayer>
+      (lldb) visualize <target>
       ```
       '
     end
@@ -285,5 +267,5 @@ cheatsheet do
 
   end
 
-  notes '* Based on the help documentation of Chisel https://github.com/facebook/chisel'
+  notes '* Based on the help documentation of Chisel https://github.com/facebook/chisel 1.1.0'
 end
