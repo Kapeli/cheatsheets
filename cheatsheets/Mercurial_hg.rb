@@ -10,7 +10,7 @@ cheatsheet do
 
     entry do
         name ''
-        note    'A local Work folder containing one Revision and any uncommited changes you have made.'
+        notes 'A local Work folder containing one Revision and any uncommited changes you have made.'
       end
     end
     category do
