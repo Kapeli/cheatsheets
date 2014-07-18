@@ -471,6 +471,7 @@ cheatsheet do
           notes "<i class='fa fa-#{icon.id} fa-2x fa-fw'></i>"
 
           td_notes standardised_name
+          td_notes icon.unicode
 
           icon.aliases.each do |alias_id|
             command "fa-#{alias_id}"
