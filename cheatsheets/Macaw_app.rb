@@ -196,7 +196,7 @@ cheatsheet do
     end
 
     entry do
-      command '⇧\'
+      command '⇧\\'
       name 'Toggle to Default Breakpoint'
     end
   end
