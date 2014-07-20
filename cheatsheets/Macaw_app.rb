@@ -8,57 +8,57 @@ cheatsheet do
     id 'File'
 
     entry do
-      command '⇧⌘N'
+      command 'SHIFT+CMD+N'
       name 'New Project'
     end
 
     entry do
-      command '⌘N'
+      command 'CMD+N'
       name 'New Page…'
     end
 
     entry do
-      command '⌘O'
+      command 'CMD+O'
       name 'Open…'
     end
 
     entry do
-      command '⌘S'
+      command 'CMD+S'
       name 'Save'
     end
 
     entry do
-      command '⇧⌘S'
+      command 'SHIFT+CMD+S'
       name 'Save As…'
     end
 
     entry do
-      command '⌥⌘S'
+      command 'ALT+CMD+S'
       name 'Save All'
     end
 
     entry do
-      command '⌘I'
+      command 'CMD+I'
       name 'Import to Canvas…'
     end
 
     entry do
-      command '⇧⌘I'
+      command 'SHIFT+CMD+I'
       name 'Import to Library…'
     end
 
     entry do
-      command '⌘P'
+      command 'CMD+P'
       name 'Publish Page'
     end
 
     entry do
-      command '⌥⌘P'
+      command 'ALT+CMD+P'
       name 'Publish Project'
     end
 
     entry do
-      command '⇧⌘P'
+      command 'SHIFT+CMD+P'
       name 'Publish Settings…'
     end
 
@@ -68,67 +68,67 @@ cheatsheet do
     id 'Edit'
 
     entry do
-      command '⌘Z'
+      command 'CMD+Z'
       name 'Undo'
     end
 
     entry do
-      command '⇧⌘Z'
+      command 'SHIFT+CMD+Z'
       name 'Redo'
     end
 
     entry do
-      command '⌘X'
+      command 'CMD+X'
       name 'Cut'
     end
 
     entry do
-      command '⌘C'
+      command 'CMD+C'
       name 'Copy'
     end
 
     entry do
-      command '⌥⌘C'
+      command 'ALT+CMD+C'
       name 'Copy Visual Properties'
     end
 
     entry do
-      command '⌘V'
+      command 'CMD+V'
       name 'Paste'
     end
 
     entry do
-      command '⌥⌘V'
+      command 'ALT+CMD+V'
       name 'Paste Visual Properties'
     end
 
     entry do
-      command '⌘D'
+      command 'CMD+D'
       name 'Duplicate'
     end
 
     entry do
-      command '⌘['
+      command 'CMD+['
       name 'Move Backwards'
     end
 
     entry do
-      command '⇧⌘['
+      command 'SHIFT+CMD+['
       name 'Send to Back'
     end
 
     entry do
-      command '⌘]'
+      command 'CMD+]'
       name 'Move Forward'
     end
 
     entry do
-      command '⇧⌘]'
+      command 'SHIFT+CMD+]'
       name 'Send to Front'
     end
 
     entry do
-      command '⌘R'
+      command 'CMD+R'
       name 'Rename'
     end
 
@@ -137,17 +137,17 @@ cheatsheet do
     end
 
     entry do
-      command '⌘A'
+      command 'CMD+A'
       name 'Select All'
     end
 
     entry do
-      command '⌥['
+      command 'ALT+['
       name 'Select Element Below'
     end
 
     entry do
-      command '⌥]'
+      command 'ALT+]'
       name 'Select Element Above'
     end
   end
@@ -156,27 +156,27 @@ cheatsheet do
     id 'View'
 
     entry do
-      command '⌘Y'
+      command 'CMD+Y'
       name 'Toggle Outline Mode'
     end
 
     entry do
-      command '⌘W'
+      command 'CMD+W'
       name 'Toggle Wireframe Mode'
     end
 
     entry do
-      command '⌥⌘0'
+      command 'ALT+CMD+0'
       name 'Center Canvas'
     end
 
     entry do
-      command '⌘;'
+      command 'CMD+;'
       name 'Toggle Grid'
     end
 
     entry do
-      command '⌘U'
+      command 'CMD+U'
       name 'Toggle Snap to Objects'
     end
 
@@ -186,17 +186,17 @@ cheatsheet do
     end
 
     entry do
-      command '⇧['
+      command 'SHIFT+['
       name 'View Lower Breakpoint'
     end
 
     entry do
-      command '⇧]'
+      command 'SHIFT+]'
       name 'View Higher Breakpoint'
     end
 
     entry do
-      command '⇧\\'
+      command 'SHIFT+\\'
       name 'Toggle to Default Breakpoint'
     end
   end
@@ -259,17 +259,17 @@ cheatsheet do
     id 'Window'
 
     entry do
-      command '⌥I'
+      command 'ALT+I'
       name 'Show Inspector'
     end
 
     entry do
-      command '⌥O'
+      command 'ALT+O'
       name 'Show Outline'
     end
 
     entry do
-      command '⌥L'
+      command 'ALT+L'
       name 'Show Library'
     end
 
@@ -303,102 +303,102 @@ cheatsheet do
     id 'Elements'
 
     entry do
-      command '⌘G'
+      command 'CMD+G'
       name 'Tight Group'
     end
 
     entry do
-      command '⌥⌘G'
+      command 'ALT+CMD+G'
       name 'Full-Width Group'
     end
 
     entry do
-      command '⇧⌘G'
+      command 'SHIFT+CMD+G'
       name 'Ungroup'
     end
 
     entry do
-      command '⌘T'
+      command 'CMD+T'
       name 'Transform'
     end
 
     entry do
-      command '⌘E'
+      command 'CMD+E'
       name 'Expand'
     end
 
     entry do
-      command '⌘F'
+      command 'CMD+F'
       name 'Fit to Children'
     end
 
     # entry do
-    #   command '⌘M'
+    #   command 'CMD+M'
     #   name 'Morph…'
     # end
 
     entry do
-      command '⌥⌘R'
+      command 'ALT+CMD+R'
       name 'Refresh All Assets'
     end
 
     # entry do
-    #   command '⌘3'
+    #   command 'CMD+3'
     #   name 'Hide Selected'
     # end
 
     # entry do
-    #   command '⌥⌘3'
+    #   command 'ALT+CMD+3'
     #   name 'Show All'
     # end
 
     entry do
-      command '⌘2'
+      command 'CMD+2'
       name 'Lock Selected'
     end
 
     entry do
-      command '⌥⌘2'
+      command 'ALT+CMD+2'
       name 'Unlock All'
     end
 
     entry do
-      command '⌘K'
+      command 'CMD+K'
       name 'Create Component…'
     end
 
     entry do
-      command '⌘B'
+      command 'CMD+B'
       name 'Break Component Reference'
     end
 
     entry do
-      command '→'
+      command 'Arrow Right'
       name 'Nudge 1px'
     end
 
     entry do
-      command '⇧→'
+      command 'SHIFT+Arrow Right'
       name 'Nudge 10px'
     end
 
     entry do
-      command '⌘→'
+      command 'CMD+Arrow Right'
       name 'Nudge to Grid'
     end
 
     entry do
-      command '⌥→'
+      command 'ALT+Arrow Right'
       name 'Pudge 1px'
     end
 
     entry do
-      command '⇧⌥→'
+      command 'SHIFT+ALT+Arrow Right'
       name 'Pudge 10px'
     end
 
     entry do
-      command '⌥⌘→'
+      command 'ALT+CMD+Arrow Right'
       name 'Pudge to Grid'
     end
   end
