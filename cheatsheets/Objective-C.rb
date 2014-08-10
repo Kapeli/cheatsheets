@@ -90,7 +90,6 @@ cheatsheet do
         <pre class="highlight objective_c">
         <span class="ni">@property</span> (<span class="kt">attribute1</span>, <span class="kt">attribute2</span>, ...) <span class="ni">type</span> myPropertyName;
         </pre>
-        <br/>
         
         Automatically defines a private instance variable
         <pre class="highlight objective_c">

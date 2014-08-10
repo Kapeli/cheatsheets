@@ -1,7 +1,7 @@
 cheatsheet do
   title 'SilverStripe Templates'
   docset_file_name 'SilverStripe_Templates'
-  keyword 'SS SilverStripe'
+  keyword 'silverstripe'
   source_url 'http://cheat.kapeli.com'
   
   style '
@@ -15,7 +15,7 @@ cheatsheet do
   '
 
   category do
-    id 'Template elements'
+    id 'Template Elements'
    
     entry do
       name 'Variables'
@@ -37,7 +37,6 @@ cheatsheet do
         ${$Foo} // returns "$3"
         $Foo // returns "3"
         \$Foo // returns "$Foo"
-
         ```
       END
     end
@@ -48,7 +47,7 @@ cheatsheet do
         ```ruby
         sample="<% include SideBar %>"
         ```
-        'The include tag can be particularly helpful for nested functionality. In this example, the include only happens if a variable is true'
+        The include tag can be particularly helpful for nested functionality. In this example, the include only happens if a variable is true
         
         ```ruby
         sample="<% if $CurrentMember %>
@@ -140,7 +139,7 @@ cheatsheet do
 
 
   category do
-    id 'Access pages, levels, specific pages'
+    id 'Access Pages, Levels, Specific Pages'
     entry do
       name 'Access level'
       notes <<-'END'
