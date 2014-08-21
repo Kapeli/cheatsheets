@@ -1,6 +1,6 @@
 cheatsheet do
   title 'Amethyst'
-  docset_file_name 'amethyst'
+  docset_file_name 'Amethyst'
   keyword 'amethyst'
 
   introduction '<a href="https://github.com/ianyh/Amethyst">Amethyst</a> is a tiling window manager for OS X similar to xmonad.'
