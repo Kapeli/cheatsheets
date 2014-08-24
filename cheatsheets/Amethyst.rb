@@ -2,8 +2,7 @@ cheatsheet do
   title 'Amethyst'
   docset_file_name 'Amethyst'
   keyword 'amethyst'
-
-  introduction '<a href="https://github.com/ianyh/Amethyst">Amethyst</a> is a tiling window manager for OS X similar to xmonad.'
+  source_url 'http://cheat.kapeli.com'
 
   # A cheat sheet must consist of categories
   category do
