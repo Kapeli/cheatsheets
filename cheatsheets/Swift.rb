@@ -2,12 +2,12 @@ cheatsheet do
   title 'Swift'
   docset_file_name 'Swift'
   keyword 'swift'
-
-  introduction 'Swift Cheat Sheet and Quick Reference'
-
+  source_url 'http://cheat.kapeli.com'
+  
   category do
-    id 'Class Implementation'
+    id 'Examples'
     entry do
+      name 'Classes'
       notes <<-'END'
         ``` swift
         class MyClass : OptionalSuperClass, OptionalProtocol1, OptionalProtocol2 {
@@ -21,11 +21,9 @@ cheatsheet do
         ```
       END
     end
-  end
 
-  category do
-    id 'Methods'
     entry do
+      name 'Methods'
       notes <<-'END'
         ``` swift
         func doIt() -> Int {
@@ -40,11 +38,9 @@ cheatsheet do
         ```
       END
     end
-  end
 
-  category do
-    id 'Creating/Using an Instance'
     entry do
+      name 'Objects'
       notes <<-'END'
         ``` swift
         var a = MyClass()
@@ -55,11 +51,9 @@ cheatsheet do
         ```
       END
     end
-  end
 
-  category do
-    id 'Enums'
     entry do
+      name 'Enums'
       notes <<-'END'
         ``` swift
         enum CollisionType: Int {
@@ -70,11 +64,9 @@ cheatsheet do
         ```
       END
     end
-  end
 
-  category do
-    id 'Declaring Variables'
     entry do
+      name 'Variables'
       notes <<-'END'
         ``` swift
         var mutableDouble:Double = 1.0
@@ -92,11 +84,9 @@ cheatsheet do
         ```
       END
     end
-  end
 
-  category do
-    id 'Control Flow'
     entry do
+      name 'Control Flow'
       notes <<-'END'
         ``` swift
         var condition = true
@@ -122,11 +112,9 @@ cheatsheet do
         ```
       END
     end
-  end
 
-  category do
-    id 'String Quick Examples'
     entry do
+      name 'Strings'
       notes <<-'END'
         ``` swift
         var personOne = "Ray"
@@ -145,11 +133,9 @@ cheatsheet do
         ```
       END
     end
-  end
 
-  category do
-    id 'Array Quick Examples'
     entry do
+      name 'Arrays'
       notes <<-'END'
         ``` swift
         var person1 = "Ray"
@@ -163,11 +149,9 @@ cheatsheet do
         ```
       END
     end
-  end
 
-  category do
-    id 'Dictionary Quick Examples'
     entry do
+      name 'Dictionaries'
       notes <<-'END'
         ``` swift
         var dict:Dictionary<String, String> = ["Frog": "Kermit", "Pig": "Ms. Piggy", "Weirdo": "Gonzo" ]
