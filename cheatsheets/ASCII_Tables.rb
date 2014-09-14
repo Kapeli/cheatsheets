@@ -406,7 +406,7 @@ cheatsheet do
     td_command '0x25'
     td_command '%'
     td_command '&#37;'
-    name 'Procenttecken'
+    name 'Per cent sign'
   end
 
   entry do
