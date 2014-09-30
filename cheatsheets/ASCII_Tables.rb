@@ -7,7 +7,7 @@ cheatsheet do
   source_url 'http://cheat.kapeli.com'
 
   category do
-    id 'ASCII control codes'
+    id 'ASCII Control Codes'
 
     header 'Bin'
     header 'Oct'
@@ -34,7 +34,7 @@ cheatsheet do
     td_command '0x01'
     td_command "␁ (SOH)"
     td_command '&#001;'
-    name 'Start of Heading'
+    name 'Start of heading'
   end
 
   entry do
@@ -44,7 +44,7 @@ cheatsheet do
     td_command '0x02'
     td_command "␂ (STX)"
     td_command '&#002;'
-    name 'Start of Text'
+    name 'Start of text'
   end
 
   entry do
@@ -54,7 +54,7 @@ cheatsheet do
     td_command '0x03'
     td_command "␃ (ETX)"
     td_command '&#003;'
-    name 'End of Text'
+    name 'End of text'
   end
 
   entry do
@@ -64,7 +64,7 @@ cheatsheet do
     td_command '0x04'
     td_command "␄ (EOT)"
     td_command '&#004;'
-    name 'End of Transmission'
+    name 'End of transmission'
   end
 
   entry do
@@ -104,7 +104,7 @@ cheatsheet do
     td_command '0x08'
     td_command "␈ ( BS)"
     td_command '&#008;'
-    name 'Back Space'
+    name 'Backspace'
   end
 
   entry do
@@ -114,7 +114,7 @@ cheatsheet do
     td_command '0x09'
     td_command "␉ ( HT)"
     td_command '&#009;'
-    name 'Horizontal Tab'
+    name 'Horizontal tab'
   end
 
   entry do
@@ -124,7 +124,7 @@ cheatsheet do
     td_command '0x0A'
     td_command "␊ ( LF)"
     td_command '&#010;'
-    name 'Line Feed'
+    name 'Line feed'
   end
 
   entry do
@@ -134,7 +134,7 @@ cheatsheet do
     td_command '0x0B'
     td_command "␋ ( VT)"
     td_command '&#011;'
-    name 'Vertical Tab'
+    name 'Vertical tab'
   end
 
   entry do
@@ -144,7 +144,7 @@ cheatsheet do
     td_command '0x0C'
     td_command "␌ ( FF)"
     td_command '&#012;'
-    name 'Form Feed'
+    name 'Form feed'
   end
 
   entry do
@@ -154,7 +154,7 @@ cheatsheet do
     td_command '0x0D'
     td_command "␍ ( CR)"
     td_command '&#013;'
-    name 'Carriage Return'
+    name 'Carriage return'
   end
 
   entry do
@@ -164,7 +164,7 @@ cheatsheet do
     td_command '0x0E'
     td_command "␎ ( SO)"
     td_command '&#014;'
-    name 'Shift Out / X-On'
+    name 'Shift out / x-on'
   end
 
   entry do
@@ -174,7 +174,7 @@ cheatsheet do
     td_command '0x0F'
     td_command "␏ ( SI)"
     td_command '&#015;'
-    name 'Shift In / X-Off'
+    name 'Shift in / x-off'
   end
 
   entry do
@@ -184,7 +184,7 @@ cheatsheet do
     td_command '0x10'
     td_command "␐ (DLE)"
     td_command '&#016;'
-    name 'Data Line Escape'
+    name 'Data line escape'
   end
 
   entry do
@@ -194,7 +194,7 @@ cheatsheet do
     td_command '0x11'
     td_command "␑ (DC1)"
     td_command '&#017;'
-    name 'Device Control 1 (oft. XON)'
+    name 'Device control 1 (oft. xon)'
   end
 
   entry do
@@ -204,7 +204,7 @@ cheatsheet do
     td_command '0x12'
     td_command "␒ (DC2)"
     td_command '&#018;'
-    name 'Device Control 2'
+    name 'Device control 2'
   end
 
   entry do
@@ -214,7 +214,7 @@ cheatsheet do
     td_command '0x13'
     td_command "␓ (DC3)"
     td_command '&#019;'
-    name 'Device Control 3 (oft. XOFF)'
+    name 'Device control 3 (oft. xoff)'
   end
 
   entry do
@@ -224,7 +224,7 @@ cheatsheet do
     td_command '0x14'
     td_command "␔ (DC4)"
     td_command '&#020;'
-    name 'Device Control 4'
+    name 'Device control 4'
   end
 
   entry do
@@ -234,7 +234,7 @@ cheatsheet do
     td_command '0x15'
     td_command "␕ (NAK)"
     td_command '&#021;'
-    name 'Negative Acknowledgement'
+    name 'Negative acknowledgement'
   end
 
   entry do
@@ -244,7 +244,7 @@ cheatsheet do
     td_command '0x16'
     td_command "␖ (SYN)"
     td_command '&#022;'
-    name 'Synchronous Idle'
+    name 'Synchronous idle'
   end
 
   entry do
@@ -254,7 +254,7 @@ cheatsheet do
     td_command '0x17'
     td_command "␗ (ETB)"
     td_command '&#023;'
-    name 'End of Transmit Block'
+    name 'End of transmit block'
   end
 
   entry do
@@ -274,7 +274,7 @@ cheatsheet do
     td_command '0x19'
     td_command "␙ ( EM)"
     td_command '&#025;'
-    name 'End of Medium'
+    name 'End of medium'
   end
 
   entry do
@@ -304,7 +304,7 @@ cheatsheet do
     td_command '0x1C'
     td_command "␜ ( FS)"
     td_command '&#028;'
-    name 'File Separator'
+    name 'File separator'
   end
 
   entry do
@@ -314,7 +314,7 @@ cheatsheet do
     td_command '0x1D'
     td_command "␝ ( GS)"
     td_command '&#029;'
-    name 'Group Separator'
+    name 'Group separator'
   end
 
   entry do
@@ -324,7 +324,7 @@ cheatsheet do
     td_command '0x1E'
     td_command "␞ ( RS)"
     td_command '&#030;'
-    name 'Record Separator'
+    name 'Record separator'
   end
 
   entry do
@@ -334,12 +334,12 @@ cheatsheet do
     td_command '0x1F'
     td_command "␟ ( US)"
     td_command '&#031;'
-    name 'Unit Separator'
+    name 'Unit separator'
   end
 
   end
   category do
-    id 'ASCII printable characters'
+    id 'ASCII Printable Characters'
 
     header 'Bin'
     header 'Oct'
@@ -406,7 +406,7 @@ cheatsheet do
     td_command '0x25'
     td_command '%'
     td_command '&#37;'
-    name 'Per cent sign'
+    name 'Percent sign'
   end
 
   entry do
@@ -686,7 +686,7 @@ cheatsheet do
     td_command '0x41'
     td_command 'A'
     td_command '&#65;'
-    name 'Uppercase A'
+    name 'Uppercase a'
   end
 
   entry do
@@ -696,7 +696,7 @@ cheatsheet do
     td_command '0x42'
     td_command 'B'
     td_command '&#66;'
-    name 'Uppercase B'
+    name 'Uppercase b'
   end
 
   entry do
@@ -706,7 +706,7 @@ cheatsheet do
     td_command '0x43'
     td_command 'C'
     td_command '&#67;'
-    name 'Uppercase C'
+    name 'Uppercase c'
   end
 
   entry do
@@ -716,7 +716,7 @@ cheatsheet do
     td_command '0x44'
     td_command 'D'
     td_command '&#68;'
-    name 'Uppercase D'
+    name 'Uppercase d'
   end
 
   entry do
@@ -726,7 +726,7 @@ cheatsheet do
     td_command '0x45'
     td_command 'E'
     td_command '&#69;'
-    name 'Uppercase E'
+    name 'Uppercase e'
   end
 
   entry do
@@ -736,7 +736,7 @@ cheatsheet do
     td_command '0x46'
     td_command 'F'
     td_command '&#70;'
-    name 'Uppercase F'
+    name 'Uppercase f'
   end
 
   entry do
@@ -746,7 +746,7 @@ cheatsheet do
     td_command '0x47'
     td_command 'G'
     td_command '&#71;'
-    name 'Uppercase G'
+    name 'Uppercase g'
   end
 
   entry do
@@ -756,7 +756,7 @@ cheatsheet do
     td_command '0x48'
     td_command 'H'
     td_command '&#72;'
-    name 'Uppercase H'
+    name 'Uppercase h'
   end
 
   entry do
@@ -766,7 +766,7 @@ cheatsheet do
     td_command '0x49'
     td_command 'I'
     td_command '&#73;'
-    name 'Uppercase I'
+    name 'Uppercase i'
   end
 
   entry do
@@ -776,7 +776,7 @@ cheatsheet do
     td_command '0x4A'
     td_command 'J'
     td_command '&#74;'
-    name 'Uppercase J'
+    name 'Uppercase j'
   end
 
   entry do
@@ -786,7 +786,7 @@ cheatsheet do
     td_command '0x4B'
     td_command 'K'
     td_command '&#75;'
-    name 'Uppercase K'
+    name 'Uppercase k'
   end
 
   entry do
@@ -796,7 +796,7 @@ cheatsheet do
     td_command '0x4C'
     td_command 'L'
     td_command '&#76;'
-    name 'Uppercase L'
+    name 'Uppercase l'
   end
 
   entry do
@@ -806,7 +806,7 @@ cheatsheet do
     td_command '0x4D'
     td_command 'M'
     td_command '&#77;'
-    name 'Uppercase M'
+    name 'Uppercase m'
   end
 
   entry do
@@ -816,7 +816,7 @@ cheatsheet do
     td_command '0x4E'
     td_command 'N'
     td_command '&#78;'
-    name 'Uppercase N'
+    name 'Uppercase n'
   end
 
   entry do
@@ -826,7 +826,7 @@ cheatsheet do
     td_command '0x4F'
     td_command 'O'
     td_command '&#79;'
-    name 'Uppercase O'
+    name 'Uppercase o'
   end
 
   entry do
@@ -836,7 +836,7 @@ cheatsheet do
     td_command '0x50'
     td_command 'P'
     td_command '&#80;'
-    name 'Uppercase P'
+    name 'Uppercase p'
   end
 
   entry do
@@ -846,7 +846,7 @@ cheatsheet do
     td_command '0x51'
     td_command 'Q'
     td_command '&#81;'
-    name 'Uppercase Q'
+    name 'Uppercase q'
   end
 
   entry do
@@ -856,7 +856,7 @@ cheatsheet do
     td_command '0x52'
     td_command 'R'
     td_command '&#82;'
-    name 'Uppercase R'
+    name 'Uppercase r'
   end
 
   entry do
@@ -866,7 +866,7 @@ cheatsheet do
     td_command '0x53'
     td_command 'S'
     td_command '&#83;'
-    name 'Uppercase S'
+    name 'Uppercase s'
   end
 
   entry do
@@ -876,7 +876,7 @@ cheatsheet do
     td_command '0x54'
     td_command 'T'
     td_command '&#84;'
-    name 'Uppercase T'
+    name 'Uppercase t'
   end
 
   entry do
@@ -886,7 +886,7 @@ cheatsheet do
     td_command '0x55'
     td_command 'U'
     td_command '&#85;'
-    name 'Uppercase U'
+    name 'Uppercase u'
   end
 
   entry do
@@ -896,7 +896,7 @@ cheatsheet do
     td_command '0x56'
     td_command 'V'
     td_command '&#86;'
-    name 'Uppercase V'
+    name 'Uppercase v'
   end
 
   entry do
@@ -906,7 +906,7 @@ cheatsheet do
     td_command '0x57'
     td_command 'W'
     td_command '&#87;'
-    name 'Uppercase W'
+    name 'Uppercase w'
   end
 
   entry do
@@ -916,7 +916,7 @@ cheatsheet do
     td_command '0x58'
     td_command 'X'
     td_command '&#88;'
-    name 'Uppercase X'
+    name 'Uppercase x'
   end
 
   entry do
@@ -926,7 +926,7 @@ cheatsheet do
     td_command '0x59'
     td_command 'Y'
     td_command '&#89;'
-    name 'Uppercase Y'
+    name 'Uppercase y'
   end
 
   entry do
@@ -936,7 +936,7 @@ cheatsheet do
     td_command '0x5A'
     td_command 'Z'
     td_command '&#90;'
-    name 'Uppercase Z'
+    name 'Uppercase z'
   end
 
   entry do
@@ -1311,7 +1311,7 @@ cheatsheet do
 
   end
   category do
-    id 'Extended ASCII characters'
+    id 'Extended ASCII Characters'
 
     header 'Bin'
     header 'Oct'
@@ -1329,16 +1329,6 @@ cheatsheet do
     td_command '€'
     td_command '&#128; or &euro;'
     name 'Euro sign'
-  end
-
-  entry do
-    td_command '10000001'
-    td_command '201'
-    td_command '129'
-    td_command '0x81'
-    td_command ' '
-    td_command ' '
-    name ' '
   end
 
   entry do
@@ -1428,7 +1418,7 @@ cheatsheet do
     td_command '0x8A'
     td_command 'Š'
     td_command '&#138; or &Scaron;'
-    name 'Latin capital letter S with caron'
+    name 'Latin capital letter s with caron'
   end
 
   entry do
@@ -1448,17 +1438,7 @@ cheatsheet do
     td_command '0x8C'
     td_command 'Œ'
     td_command '&#140; or &OElig;'
-    name 'Latin capital ligature OE'
-  end
-
-  entry do
-    td_command '10001101'
-    td_command '215'
-    td_command '141'
-    td_command '0x8D'
-    td_command ' '
-    td_command ' '
-    name ' '
+    name 'Latin capital ligature oe'
   end
 
   entry do
@@ -1468,27 +1448,7 @@ cheatsheet do
     td_command '0x8E'
     td_command 'Ž'
     td_command '&#142;'
-    name 'Latin capital letter Z with caron'
-  end
-
-  entry do
-    td_command '10001111'
-    td_command '217'
-    td_command '143'
-    td_command '0x8F'
-    td_command ' '
-    td_command ' '
-    name ' '
-  end
-
-  entry do
-    td_command '10010000'
-    td_command '220'
-    td_command '144'
-    td_command '0x90'
-    td_command ' '
-    td_command ' '
-    name ' '
+    name 'Latin capital letter z with caron'
   end
 
   entry do
@@ -1588,7 +1548,7 @@ cheatsheet do
     td_command '0x9A'
     td_command 'š'
     td_command '&#154; or &scaron;'
-    name 'Latin small letter S with caron'
+    name 'Latin small letter s with caron'
   end
 
   entry do
@@ -1612,16 +1572,6 @@ cheatsheet do
   end
 
   entry do
-    td_command '10011101'
-    td_command '235'
-    td_command '157'
-    td_command '0x9D'
-    td_command ' '
-    td_command ' '
-    name ' '
-  end
-
-  entry do
     td_command '10011110'
     td_command '236'
     td_command '158'
@@ -1638,7 +1588,7 @@ cheatsheet do
     td_command '0x9F'
     td_command 'Ÿ'
     td_command '&#159; or &yuml;'
-    name 'Latin capital letter Y with diaeresis'
+    name 'Latin capital letter y with diaeresis'
   end
 
   entry do
@@ -1708,7 +1658,7 @@ cheatsheet do
     td_command '0xA6'
     td_command '¦'
     td_command '&#166; or &brvbar;'
-    name 'Pipe, Broken vertical bar'
+    name 'Pipe, broken vertical bar'
   end
 
   entry do
@@ -1878,7 +1828,7 @@ cheatsheet do
     td_command '0xB7'
     td_command '·'
     td_command '&#183; or &middot;'
-    name 'Middle dot - Georgian comma'
+    name 'Middle dot - georgian comma'
   end
 
   entry do
@@ -1968,7 +1918,7 @@ cheatsheet do
     td_command '0xC0'
     td_command 'À'
     td_command '&#192; or &Agrave;'
-    name 'Latin capital letter A with grave'
+    name 'Latin capital letter a with grave'
   end
 
   entry do
@@ -1978,7 +1928,7 @@ cheatsheet do
     td_command '0xC1'
     td_command 'Á'
     td_command '&#193; or &Aacute;'
-    name 'Latin capital letter A with acute'
+    name 'Latin capital letter a with acute'
   end
 
   entry do
@@ -1988,7 +1938,7 @@ cheatsheet do
     td_command '0xC2'
     td_command 'Â'
     td_command '&#194; or &Acirc;'
-    name 'Latin capital letter A with circumflex'
+    name 'Latin capital letter a with circumflex'
   end
 
   entry do
@@ -1998,7 +1948,7 @@ cheatsheet do
     td_command '0xC3'
     td_command 'Ã'
     td_command '&#195; or &Atilde;'
-    name 'Latin capital letter A with tilde'
+    name 'Latin capital letter a with tilde'
   end
 
   entry do
@@ -2008,7 +1958,7 @@ cheatsheet do
     td_command '0xC4'
     td_command 'Ä'
     td_command '&#196; or &Auml;'
-    name 'Latin capital letter A with diaeresis'
+    name 'Latin capital letter a with diaeresis'
   end
 
   entry do
@@ -2018,7 +1968,7 @@ cheatsheet do
     td_command '0xC5'
     td_command 'Å'
     td_command '&#197; or &Aring;'
-    name 'Latin capital letter A with ring above'
+    name 'Latin capital letter a with ring above'
   end
 
   entry do
@@ -2028,7 +1978,7 @@ cheatsheet do
     td_command '0xC6'
     td_command 'Æ'
     td_command '&#198; or &AElig;'
-    name 'Latin capital letter AE'
+    name 'Latin capital letter ae'
   end
 
   entry do
@@ -2038,7 +1988,7 @@ cheatsheet do
     td_command '0xC7'
     td_command 'Ç'
     td_command '&#199; or &Ccedil;'
-    name 'Latin capital letter C with cedilla'
+    name 'Latin capital letter c with cedilla'
   end
 
   entry do
@@ -2048,7 +1998,7 @@ cheatsheet do
     td_command '0xC8'
     td_command 'È'
     td_command '&#200; or &Egrave;'
-    name 'Latin capital letter E with grave'
+    name 'Latin capital letter e with grave'
   end
 
   entry do
@@ -2058,7 +2008,7 @@ cheatsheet do
     td_command '0xC9'
     td_command 'É'
     td_command '&#201; or &Eacute;'
-    name 'Latin capital letter E with acute'
+    name 'Latin capital letter e with acute'
   end
 
   entry do
@@ -2068,7 +2018,7 @@ cheatsheet do
     td_command '0xCA'
     td_command 'Ê'
     td_command '&#202; or &Ecirc;'
-    name 'Latin capital letter E with circumflex'
+    name 'Latin capital letter e with circumflex'
   end
 
   entry do
@@ -2078,7 +2028,7 @@ cheatsheet do
     td_command '0xCB'
     td_command 'Ë'
     td_command '&#203; or &Euml;'
-    name 'Latin capital letter E with diaeresis'
+    name 'Latin capital letter e with diaeresis'
   end
 
   entry do
@@ -2088,7 +2038,7 @@ cheatsheet do
     td_command '0xCC'
     td_command 'Ì'
     td_command '&#204; or &Igrave;'
-    name 'Latin capital letter I with grave'
+    name 'Latin capital letter i with grave'
   end
 
   entry do
@@ -2098,7 +2048,7 @@ cheatsheet do
     td_command '0xCD'
     td_command 'Í'
     td_command '&#205; or &Iacute;'
-    name 'Latin capital letter I with acute'
+    name 'Latin capital letter i with acute'
   end
 
   entry do
@@ -2108,7 +2058,7 @@ cheatsheet do
     td_command '0xCE'
     td_command 'Î'
     td_command '&#206; or &Icirc;'
-    name 'Latin capital letter I with circumflex'
+    name 'Latin capital letter i with circumflex'
   end
 
   entry do
@@ -2118,7 +2068,7 @@ cheatsheet do
     td_command '0xCF'
     td_command 'Ï'
     td_command '&#207; or &Iuml;'
-    name 'Latin capital letter I with diaeresis'
+    name 'Latin capital letter i with diaeresis'
   end
 
   entry do
@@ -2128,7 +2078,7 @@ cheatsheet do
     td_command '0xD0'
     td_command 'Ð'
     td_command '&#208; or &ETH;'
-    name 'Latin capital letter ETH'
+    name 'Latin capital letter eth'
   end
 
   entry do
@@ -2138,7 +2088,7 @@ cheatsheet do
     td_command '0xD1'
     td_command 'Ñ'
     td_command '&#209; or &Ntilde;'
-    name 'Latin capital letter N with tilde'
+    name 'Latin capital letter n with tilde'
   end
 
   entry do
@@ -2148,7 +2098,7 @@ cheatsheet do
     td_command '0xD2'
     td_command 'Ò'
     td_command '&#210; or &Ograve;'
-    name 'Latin capital letter O with grave'
+    name 'Latin capital letter o with grave'
   end
 
   entry do
@@ -2158,7 +2108,7 @@ cheatsheet do
     td_command '0xD3'
     td_command 'Ó'
     td_command '&#211; or &Oacute;'
-    name 'Latin capital letter O with acute'
+    name 'Latin capital letter o with acute'
   end
 
   entry do
@@ -2168,7 +2118,7 @@ cheatsheet do
     td_command '0xD4'
     td_command 'Ô'
     td_command '&#212; or &Ocirc;'
-    name 'Latin capital letter O with circumflex'
+    name 'Latin capital letter o with circumflex'
   end
 
   entry do
@@ -2178,7 +2128,7 @@ cheatsheet do
     td_command '0xD5'
     td_command 'Õ'
     td_command '&#213; or &Otilde;'
-    name 'Latin capital letter O with tilde'
+    name 'Latin capital letter o with tilde'
   end
 
   entry do
@@ -2188,7 +2138,7 @@ cheatsheet do
     td_command '0xD6'
     td_command 'Ö'
     td_command '&#214; or &Ouml;'
-    name 'Latin capital letter O with diaeresis'
+    name 'Latin capital letter o with diaeresis'
   end
 
   entry do
@@ -2208,7 +2158,7 @@ cheatsheet do
     td_command '0xD8'
     td_command 'Ø'
     td_command '&#216; or &Oslash;'
-    name 'Latin capital letter O with slash'
+    name 'Latin capital letter o with slash'
   end
 
   entry do
@@ -2218,7 +2168,7 @@ cheatsheet do
     td_command '0xD9'
     td_command 'Ù'
     td_command '&#217; or &Ugrave;'
-    name 'Latin capital letter U with grave'
+    name 'Latin capital letter u with grave'
   end
 
   entry do
@@ -2228,7 +2178,7 @@ cheatsheet do
     td_command '0xDA'
     td_command 'Ú'
     td_command '&#218; or &Uacute;'
-    name 'Latin capital letter U with acute'
+    name 'Latin capital letter u with acute'
   end
 
   entry do
@@ -2238,7 +2188,7 @@ cheatsheet do
     td_command '0xDB'
     td_command 'Û'
     td_command '&#219; or &Ucirc;'
-    name 'Latin capital letter U with circumflex'
+    name 'Latin capital letter u with circumflex'
   end
 
   entry do
@@ -2248,7 +2198,7 @@ cheatsheet do
     td_command '0xDC'
     td_command 'Ü'
     td_command '&#220; or &Uuml;'
-    name 'Latin capital letter U with diaeresis'
+    name 'Latin capital letter u with diaeresis'
   end
 
   entry do
@@ -2258,7 +2208,7 @@ cheatsheet do
     td_command '0xDD'
     td_command 'Ý'
     td_command '&#221; or &Yacute;'
-    name 'Latin capital letter Y with acute'
+    name 'Latin capital letter y with acute'
   end
 
   entry do
@@ -2268,7 +2218,7 @@ cheatsheet do
     td_command '0xDE'
     td_command 'Þ'
     td_command '&#222; or &THORN;'
-    name 'Latin capital letter THORN'
+    name 'Latin capital letter thorn'
   end
 
   entry do

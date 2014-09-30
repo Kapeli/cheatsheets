@@ -1,8 +1,8 @@
 cheatsheet do
-	title 'iPython Notebook'
+	title 'IPython Notebook'
 	docset_file_name 'iPython_Notebook'
 	keyword 'ipynb'
-	introduction 'iPython Notebook has two sets of keyboard shorcuts. Edit mode is active when the cursor is in a cell and the cell has a green border. Command mode is active when the cell has a grey border and the editing cursor is not inside any cell.'
+	introduction 'IPython Notebook has two sets of keyboard shorcuts. Edit mode is active when the cursor is in a cell and the cell has a green border. Command mode is active when the cell has a grey border and the editing cursor is not inside any cell.'
 	source_url 'http://cheat.kapeli.com'
 
 	category do
@@ -128,6 +128,6 @@ cheatsheet do
 		end
 	end
 	notes <<-'END'
-	  * Based on a [iPython Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/User%20Interface.ipynb)
+	  * Based on a [IPython Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/User%20Interface.ipynb)
 	END
 end
