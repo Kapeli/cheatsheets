@@ -5,134 +5,34 @@ cheatsheet do
   source_url 'http://cheat.kapeli.com'
 
   category do
-  id 'Terminology'
-    entry do
-      command 'Repository'
-      name    'Collection of revisions'
-    end
-    entry do
-      command 'hgrc'
-      name    'A file which stores defaults for a repository. Global is ~/.hgrc and local is .hgrc inside the repo.'
-    end
-    entry do
-      command 'revision'
-      name    'Commited changeset, by REV number'
-    end
-    entry do
-      command 'changeset'
-      name    'Set of work changes saved as diffs'
-    end
-    entry do
-      command 'diff'
-      name    'Changes between files'
-    end
-    entry do
-      command 'tag'
-      name    'Name for a specific rev'
-    end
-    entry do
-      command 'parent(s)'
-      name    'Immediate ancestor(s) of rev or work'
-    end
-    entry do
-      command 'branch'
-      name    'Child of rev'
-    end
-    entry do
-      command 'head'
-      name    'A head is a changeset with no child changesets'
-    end
-    entry do
-      command 'merge'
-      name    'The process of merging two HEADS'
-    end
-    entry do
-      command 'tip'
-      name    'Latest rev in any branch'
-    end
-    entry do
-      command 'patch'
-      name    'All diffs between two revs'
-    end
-    entry do
-      command 'bundle'
-      name    'Patch with permis­sions and rename support'
-    end
-  end
-
-  category do
-  id 'Help and Usage'
-    entry do
-        command 'hg'
-        name    'Basic command list'
-    end
-    entry do
-        command 'hg help'
-        name    'Full command list'
-    end
-    entry do
-        command 'hg help command'
-        name    'Detailed help reference'
-    end
-    entry do
-        command 'hg command'
-        name    '`-opti­on... argume­nt...`'
-    end
-  end
-
-  category do
-  id 'Common Options'
-    entry do
-        command '-rREV'
-        name    'Specify a REV number (default parent)'
-    end
-    entry do
-        command '-y'
-        name    'Do not prompt, pick each first option'
-    end
-    entry do
-        command '-q'
-        name    'Quiet (supress output)'
-    end
-    entry do
-        command '-v'
-        name    'Verbose (addit­ional detail)'
-    end
-    entry do
-        command '-f'
-        name    'Force (override reasonable warnings)'
-    end
-  end
-
-  category do
-  id 'Create a Local Reposository'
+  id 'Create a Local Repository'
       entry do
           command 'hg init .'
-          name    'Creates a mercurial repository of current directory with a `.hg/` folder'
+          name    'Create a mercurial repository of current directory with a `.hg/` folder'
       end
       entry do
           command 'hg add filename1 filename2'
-          name    'Begin tracking filename1 and filename2 in mercurial.'
+          name    'Begin tracking `filename1` and `filename2` in mercurial'
       end
       entry do
           command "hg commit -m 'Initial commit'"
-          name    'Save files and commit message to repository'
+          name    'Save files and commit message to repository' 
       end
   end
 
   category do
-  id 'Clone Remote Repo'
+  id 'Clone Remote Repository'
       entry do
           command 'hg clone remote-repo [local-directory]'
-          name    'Clones a remote mercurial repostory to a local directory.'
+          name    'Clone a remote mercurial repository to a local directory'
       end
   end
 
   category do
-  id 'Update from Remote Repo'
+  id 'Update from Remote Repository'
       entry do
           command 'hg incoming [remote-repo]'
-          name    'List changesets available.'
+          name    'List changesets available'
       end
       entry do
           command 'hg pull'
@@ -152,15 +52,15 @@ cheatsheet do
   id 'Merge'
       entry do
           command 'hg merge'
-          name    'After pulling the changesets, they need to be merged to local repo.'
+          name    'Merge changesets to local repository'
       end
       entry do
           command 'hg resolve --mark filename'
-          name    'Inform mercurial about the resolution of merge conflicts.'
+          name    'Inform mercurial about the resolution of merge conflicts'
       end
       entry do
           command 'hg commit'
-          name    'After successful merge, commit the changes. '
+          name    'After successful merge, commit the changes'
       end
   end
 
@@ -174,7 +74,7 @@ cheatsheet do
     end
     entry do
       command 'hg update --clean'
-      name    'Cancel an uncomm­itted merge while losing changes'
+      name    'Cancel an uncomm­itted merge and lose changes'
     end    
     entry do
         command 'hg revert'
@@ -239,7 +139,7 @@ cheatsheet do
   id 'Work Status'
       entry do
           command 'hg diff'
-          name    'Lists tracked file changes'
+          name    'List tracked file changes'
       end
       entry do
           command 'hg diff file'
@@ -247,10 +147,10 @@ cheatsheet do
       end
       entry do
           command 'hg status'
-          name    'Lists status of files'
+          name    'List status of files'
       end
       entry do      
-          notes '**A**dded, **C**lean, **D**e­leted, **I**g­nored, **M**o­dified, **U**n­known'
+          notes '**A**dded, **C**lean, **D**e­leted, **I**g­nored, **M**o­dified or **U**n­known'
       end
   end
 
@@ -258,7 +158,7 @@ cheatsheet do
   id 'Local Repository History'
       entry do
           command 'hg serve'
-          name    'Fire up a builtin webserver locally for browsing and share repo over HTTP.'
+          name    'Fire up a builtin local webserver for browsing and sharing repository over HTTP'
       end
       entry do
           command 'hg log file/dir'
@@ -270,7 +170,7 @@ cheatsheet do
       end
       entry do
           command 'hg paths'
-          name    'Lists known remote repositories'
+          name    'List known remote repositories'
       end
       entry do
           command 'hg heads'
@@ -278,7 +178,7 @@ cheatsheet do
       end
       entry do
           command 'hg parents'
-          name    'Before merge, you can look the parents of branch.'
+          name    'Before merge, you can look up the parents of the branch'
       end
       entry do
           command 'hg diff -rREV -rREV'
@@ -297,6 +197,106 @@ cheatsheet do
           command 'hg share'
           name    'Sync history with parent and siblings'
       end
+  end
+
+  category do
+  id 'Terminology'
+    entry do
+      command 'Repository'
+      name    'Collection of revisions'
+    end
+    entry do
+      command 'hgrc'
+      name    'A file which stores defaults for a repository. Global is ~/.hgrc and local is .hgrc inside the repository'
+    end
+    entry do
+      command 'revision'
+      name    'Committed changeset, by REV number'
+    end
+    entry do
+      command 'changeset'
+      name    'Set of work changes saved as diffs'
+    end
+    entry do
+      command 'diff'
+      name    'Changes between files'
+    end
+    entry do
+      command 'tag'
+      name    'Name for a specific revision'
+    end
+    entry do
+      command 'parent(s)'
+      name    'Immediate ancestor(s) of revision or work'
+    end
+    entry do
+      command 'branch'
+      name    'Child of a revision'
+    end
+    entry do
+      command 'head'
+      name    'A head is a changeset with no child changesets'
+    end
+    entry do
+      command 'merge'
+      name    'The process of merging two HEADS'
+    end
+    entry do
+      command 'tip'
+      name    'Latest revision in any branch'
+    end
+    entry do
+      command 'patch'
+      name    'All diffs between two revisions'
+    end
+    entry do
+      command 'bundle'
+      name    'Patch with permis­sions and rename support'
+    end
+  end
+
+  category do
+  id 'Help and Usage'
+    entry do
+        command 'hg'
+        name    'Basic command list'
+    end
+    entry do
+        command 'hg help'
+        name    'Full command list'
+    end
+    entry do
+        command 'hg help command'
+        name    'Detailed help reference'
+    end
+    entry do
+        command 'hg command'
+        name    '`-opti­on... argume­nt...`'
+    end
+  end
+
+  category do
+  id 'Common Options'
+    entry do
+        command '-rREV'
+        name    'Specify a REV number (default parent)'
+    end
+    entry do
+        command '-y'
+        name    'Do not prompt, pick each first option'
+    end
+    entry do
+        command '-q'
+        name    'Quiet (supress output)'
+    end
+    entry do
+        command '-v'
+        name    'Verbose (addit­ional detail)'
+    end
+    entry do
+        command '-f'
+        name    'Force (override reasonable warnings)'
+    end
   end
 
   notes <<-'END'

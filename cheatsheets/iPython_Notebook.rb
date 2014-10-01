@@ -127,7 +127,4 @@ cheatsheet do
 			name 'Restart kernel'
 		end
 	end
-	notes <<-'END'
-	  * Based on a [IPython Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/User%20Interface.ipynb)
-	END
 end
