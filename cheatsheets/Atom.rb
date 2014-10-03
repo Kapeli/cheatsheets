@@ -119,11 +119,11 @@ cheatsheet do
   category do
     id 'Folding'
     entry do
-      command 'CMD+CTRL+['
+      command 'CMD+ALT+['
       name 'Fold current code block'
     end
     entry do
-      command 'CMD+CTRL+]'
+      command 'CMD+ALT+]'
       name 'Unfold current code block'
     end
     entry do
