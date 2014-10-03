@@ -170,6 +170,14 @@ cheatsheet do
           ```
           Will save the current page (typically to `Rails.root/tmp`) and attemps to open the HTML in the default web browser.'
       end
+      entry do
+          name 'Save and open screenshot'
+          notes '
+          ```ruby
+          save_and_open_screenshot
+          ```
+          Save a screenshot of the current page and open in the default image viewer'
+      end
   end
   notes <<-'END'
   * Based on a [cheat sheet](https://learn.thoughtbot.com/test-driven-rails-resources/capybara.pdf) by [thoughtbot](http://thoughtbot.com/)
