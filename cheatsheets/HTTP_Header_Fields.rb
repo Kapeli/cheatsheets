@@ -477,10 +477,10 @@ cheatsheet do
     
     entry do
       td_notes <<-'END'
-      Set-Cookie: UserID=JohnDoe; Max-Age=3600; Version=
+      An HTTP cookie
 
       ```
-      An HTTP cookie
+      Set-Cookie: UserID=JohnDoe; Max-Age=3600; Version=
       ```
       Status: Permanent - Standard
       END
