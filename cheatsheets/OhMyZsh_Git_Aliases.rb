@@ -1,10 +1,10 @@
 cheatsheet do
-  title 'OhMyZsh Git Aliases'               # Will be displayed by Dash in the docset list
-  docset_file_name 'OhMyZsh_Git_Aliases'    # Used for the filename of the docset
-  keyword 'OhMyZsh Git'             # Used as the initial search keyword (listed in Preferences > Docsets)
+  title 'OhMyZsh Git Aliases'
+  docset_file_name 'OhMyZsh_Git_Aliases'
+  keyword 'OhMyZshGit'
   source_url 'http://cheat.kapeli.com'
 
-  introduction 'Helpful aliases for common git tasks '  # Optional, can contain Markdown or HTML
+  introduction 'Helpful aliases for common git tasks '
 
   category do
     id 'Aliases'
@@ -277,7 +277,7 @@ glog
       name 'git status -s'
       notes "
 ```
-glog
+gss
 ```"
     end
 
@@ -362,7 +362,7 @@ gstd
     end
 
     entry do
-      name 'git pull origin $(current_branch)'
+      name 'git pull origin $(current&#95;branch)'
       notes "
 ```
 ggpull
@@ -370,7 +370,7 @@ ggpull
     end
 
     entry do
-      name 'git pull --rebase origin $(current_branch)'
+      name 'git pull --rebase origin $(current&#95;branch)'
       notes "
 ```
 ggpur
@@ -378,7 +378,7 @@ ggpur
     end
 
     entry do
-      name 'git push origin $(current_branch)'
+      name 'git push origin $(current&#95;branch)'
       notes "
 ```
 ggpush
@@ -386,7 +386,7 @@ ggpush
     end
 
     entry do
-      name 'git pull origin $(current_branch) && git push origin $(current_branch)'
+      name 'git pull origin $(current&#95;branch) && git push origin $(current&#95;branch)'
       notes "
 ```
 ggpnp
@@ -394,14 +394,16 @@ ggpnp
     end
 
     entry do
-      name '_git_log_prettily'
+      name '&#95;git&#95;log&#95;prettily'
       notes "
 ```
 glp
 ```"
     end
+  end
 
-
-    end
-
+  notes <<-'END'
+  * Based on the oh-my-zsh [Wiki Page](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet#helpful-aliases-for-common-git-tasks)
+  * Convert by [Carsten] (https://github.com/BanditsBacon)
+  END
 end
