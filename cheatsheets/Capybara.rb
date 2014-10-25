@@ -176,7 +176,7 @@ cheatsheet do
           ```ruby
           save_and_open_screenshot
           ```
-          Save a screenshot of the current page and open in the default image viewer'
+          Save a screenshot of the current page and open in the default image viewer.'
       end
   end
   notes <<-'END'
