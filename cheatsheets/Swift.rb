@@ -42,6 +42,21 @@ cheatsheet do
     end
 
     entry do
+      name 'Closures'
+      notes <<-'END'
+        ``` swift
+        let myclosure:(Int) -> Int = {
+          (number:Int) -> Int in
+          return number + 1
+        }
+        let numbers = [1, 2, 3, 4]
+        numbers.map(myclosure)
+        // returns [2, 3, 4, 5]
+        ```
+      END
+    end
+
+    entry do
       name 'Objects'
       notes <<-'END'
         ``` swift
