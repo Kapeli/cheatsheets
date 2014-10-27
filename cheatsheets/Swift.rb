@@ -23,6 +23,19 @@ cheatsheet do
     end
 
     entry do
+      name 'Objects'
+      notes <<-'END'
+        ``` swift
+        let a = MyClass()
+        a.myProperty
+        a.doIt()
+        a.doIt(1)
+        a.doIt(2, b: 3)
+        ```
+      END
+    end
+
+    entry do
       name 'Methods'
       notes <<-'END'
         ``` swift
@@ -52,19 +65,6 @@ cheatsheet do
         let numbers = [1, 2, 3, 4]
         numbers.map(myclosure)
         // returns [2, 3, 4, 5]
-        ```
-      END
-    end
-
-    entry do
-      name 'Objects'
-      notes <<-'END'
-        ``` swift
-        let a = MyClass()
-        a.myProperty
-        a.doIt()
-        a.doIt(1)
-        a.doIt(2, b: 3)
         ```
       END
     end
