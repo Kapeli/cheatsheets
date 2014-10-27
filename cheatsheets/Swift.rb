@@ -46,8 +46,8 @@ cheatsheet do
       notes <<-'END'
         ``` swift
         let myclosure:(Int) -> Int = {
-          (number:Int) -> Int in
-          return number + 1
+            (number:Int) -> Int in
+            return number + 1
         }
         let numbers = [1, 2, 3, 4]
         numbers.map(myclosure)
