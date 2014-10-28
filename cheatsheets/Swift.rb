@@ -10,14 +10,37 @@ cheatsheet do
       name 'Classes'
       notes <<-'END'
         ``` swift
-        class MyClass : OptionalSuperClass, OptionalProtocol1, OptionalProtocol2 {
+        class MyClass : OptionalSuperClass, OptionalProtocol {
+            // Properties
             var myProperty: String
             var myOptionalProperty: String?
-            // More properties...
-            init() {
-                myProperty = "Foo"
+            // Methods
+            func myFunc() {
+                myOptionalProperty = "Foo"
+                // Safe access
+                if let myVar = myOptionalProperty {
+                    println(myVar)
+                }
+                // Non-safe access, crashes if nil
+                println(myOptionalProperty!)
+            }
+            // Initializer (initialize all non-optionals)
+            init(myProperty: String) {
+                // use self.varName if argument has the same name
+                self.myProperty = "Bar"
             }
         }
+        ```
+      END
+    end
+
+    entry do
+      name 'Objects'
+      notes <<-'END'
+        ``` swift
+        let a = MyClass(myProperty: "Hello")
+        a.myProperty = "World"
+        a.myFunc()
         ```
       END
     end
@@ -26,7 +49,7 @@ cheatsheet do
       name 'Methods'
       notes <<-'END'
         ``` swift
-        extension MyClass {
+        class MyClass {
             func doIt() -> Int {
                 return 0
             }
@@ -37,7 +60,27 @@ cheatsheet do
                 return a + b
             }
         }
+        var instance = MyClass()
+        let variable1 = instance.doIt()
+        let variable2 = instance.doIt(1)
+        let variable3 = instance.doIt(1, 2)
         ```
+      END
+    end
+
+    entry do
+      name 'Extensions'
+      notes <<-'END'
+        ``` swift
+        extension String {
+            var length: Int {
+                get {
+                    return countElements(self)
+                }
+            }
+        }
+        ```
+        let length = "Hello".length
       END
     end
 
@@ -57,14 +100,22 @@ cheatsheet do
     end
 
     entry do
-      name 'Objects'
+      name 'Protocols'
       notes <<-'END'
         ``` swift
-        let a = MyClass()
-        a.myProperty
-        a.doIt()
-        a.doIt(1)
-        a.doIt(2, b: 3)
+        protocol MyProtocol {
+            var myProperty: String? { get set }
+            func myMethod()
+        }
+        class MyClass : MyProtocol {
+            // Protocol implementation
+            // Variables
+            var myProperty: String?
+            // Methods with body
+            func myMethod() {
+                println("Hello from protocol")
+            }
+        }
         ```
       END
     end
@@ -73,11 +124,49 @@ cheatsheet do
       name 'Enums'
       notes <<-'END'
         ``` swift
+        enum CompassPoint {
+            case North, South, East, West
+        }
+        var direction = CompassPoint.North
+        // As direction is a CompassPoint, short syntax is useable
+        direction = .South
+
+        // Assign values to cases
         enum CollisionType: Int {
             case Player = 1
             case Enemy = 2
         }
         let type = CollisionType.Player
+        if type == .Player {
+            println("It's a Player")
+        }
+        type.rawValue == 2 // false
+
+        // Other possible values
+        enum Computer {
+            case Desktop(Int, String)
+            case Laptop(Int, String)
+        }
+        var something = Computer.Laptop(8, "i7")
+        switch something {
+        case .Laptop(let ram, let cpu):
+            println("I'ts a \(cpu) Laptop with \(ram) GB ram.")
+        default:
+            println("What else can it be?")
+        }
+
+        // Check enum value with switch
+        switch direction {
+        case .North:
+            println("The direction is North")
+        case .East:
+            println("The direction is East")
+        case .South:
+            println("The direction is South")
+        case .West:
+            println("The direction is West")
+        // Either check for all cases or implement the default: case
+        }
         ```
       END
     end
@@ -125,6 +214,9 @@ cheatsheet do
 
         // omits upper value, use ... to include
         for i in 0..<3 {
+        }
+        // when no index is needed
+        for _ in 0..<3 {
         }
         ```
       END
