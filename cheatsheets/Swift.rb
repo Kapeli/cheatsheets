@@ -27,7 +27,7 @@ cheatsheet do
             // Initializer (initialize all non-optionals)
             init(myProperty: String) {
                 // use self.varName if argument has the same name
-                self.myProperty = "Bar"
+                self.myProperty = myProperty
             }
         }
         ```
@@ -79,8 +79,8 @@ cheatsheet do
                 }
             }
         }
-        ```
         let length = "Hello".length
+        ```
       END
     end
 
@@ -128,7 +128,7 @@ cheatsheet do
             case North, South, East, West
         }
         var direction = CompassPoint.North
-        // As direction is a CompassPoint, short syntax is useable
+        // As direction is a CompassPoint, short syntax is usable
         direction = .South
 
         // Assign values to cases
