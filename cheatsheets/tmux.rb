@@ -69,7 +69,7 @@ cheatsheet do
 
     entry do
       command 'PREFIX-L'
-      name "'last' (previously used) session"
+      name "Last session"
     end
   end
 
