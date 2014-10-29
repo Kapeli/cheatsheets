@@ -48,13 +48,28 @@ cheatsheet do
     end
 
     entry do
+      command 'PREFIX-$'
+      name 'Name session'
+    end
+
+    entry do
       command 'PREFIX-s'
       name 'List sessions'
     end
 
     entry do
-      command 'PREFIX-$'
-      name 'Name session'
+      command 'PREFIX-('
+      name 'Previous session'
+    end
+
+    entry do
+      command 'PREFIX-)'
+      name 'Next session'
+    end
+
+    entry do
+      command 'PREFIX-L'
+      name "'last' (previously used) session"
     end
   end
 
