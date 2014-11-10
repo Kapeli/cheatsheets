@@ -1,18 +1,17 @@
 cheatsheet do
-  title 'Siteleaf'               # Will be displayed by Dash in the docset list
-  docset_file_name 'siteleaf'    # Used for the filename of the docset
-  keyword 'siteleaf'             # Used as the initial search keyword (listed in Preferences > Docsets)
-  # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
+  title 'Siteleaf'
+  docset_file_name 'Siteleaf'
+  keyword 'siteleaf'
+  source_url 'http://cheat.kapeli.com'
 
-  introduction 'A Dash cheatsheet for [Siteleaf](http://www.siteleaf.com). Manage your content online with Siteleaf, then publish static files to host anywhere you want. It\'s like having a web-based backend for Jekyll that your clients can actually use.'  # Optional, can contain Markdown or HTML
+  introduction 'A Dash cheat sheet for [Siteleaf](http://www.siteleaf.com). Manage your content online with Siteleaf, then publish static files to host anywhere you want. It\'s like having a web-based backend for Jekyll that your clients can actually use.'
 
-  # A cheat sheet must consist of categories
   category do
-    id 'Site Variables'  # Must be unique and is used as title of the category
+    id 'Site Variables'
 
     entry do
       name 'Site title'    
-      notes 'The title of your website.'      # Optional longer explanation, can contain Markdown or HTML
+      notes 'The title of your website.'
       command 'site.title'
     end
     entry do
@@ -228,10 +227,6 @@ cheatsheet do
       command 'date'
       notes 'Date asset was created'
     end
-  end
-
-  category do
-  id 'Asset Variables'  
     entry do
       name 'Meta'
       command 'meta'
@@ -388,5 +383,5 @@ cheatsheet do
       END
     end
   end
-  notes 'Full Siteleaf theme documentation can be found [here](http://www.siteleaf.com/help/themes/).'
+  notes '* Full Siteleaf theme documentation can be found [here](http://www.siteleaf.com/help/themes/).'
 end
