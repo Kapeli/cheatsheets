@@ -1,6 +1,6 @@
 cheatsheet do
     title 'Sketch'
-    docset_file_name 'Sketch_App'
+    docset_file_name 'Sketch'
     keyword 'sketch'
     source_url 'http://cheat.kapeli.com'
 
