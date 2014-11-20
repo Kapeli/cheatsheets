@@ -53,7 +53,7 @@ cheatsheet do
         END
     end
     entry do
-        name 'Variable Type'
+        name 'Variable Types'
         notes <<-'END'
         <span class="ni">int</span>
         <br/>
@@ -108,7 +108,7 @@ cheatsheet do
         END
     end
     entry do
-        name 'Property Attribute'
+        name 'Property Attributes'
         notes <<-'END'
         <span class="ni">strong</span>
         <br/>
@@ -185,7 +185,7 @@ cheatsheet do
   category do
     id 'Usage'
     entry do
-        name 'Creating Object'
+        name 'Creating Objects'
         notes <<-'END'
         <pre class="highlight objective_c">
         <span class="mi">ClassName</span> *myObject = [[<span class="mi">ClassName</span> <span class="nt">alloc</span>] <span class="nt">init</span>];
@@ -193,7 +193,7 @@ cheatsheet do
         END
     end
     entry do
-        name 'Using Property'
+        name 'Using Properties'
         notes <<-'END'
         <pre class="highlight objective_c">
          <span class="sr">// setting value</span>
@@ -207,7 +207,7 @@ cheatsheet do
         END
     end
     entry do
-        name 'Calling Method'
+        name 'Calling Methods'
         notes <<-'END'
         <pre class="highlight objective_c">
         [myObject <span class="nt">doIt</span>];
