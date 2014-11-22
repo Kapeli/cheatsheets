@@ -54,6 +54,30 @@ cheatsheet do
       command 'CMD+CTRL+Arrow Right'
       name 'Unfold section'
     end
+    entry do
+      command 'CTRL+1'
+      name 'Show related items'
+    end
+    entry do
+      command 'CTRL+2'
+      name 'Show previous history'
+    end
+    entry do
+      command 'CTRL+3'
+      name 'Show next history'
+    end
+    entry do
+      command 'CTRL+4'
+      name 'Show top level items'
+    end
+    entry do
+      command 'CTRL+5'
+      name 'Show group files'
+    end
+    entry do
+      command 'CTRL+6'
+      name 'Show document items'
+    end
   end
 
   category do
