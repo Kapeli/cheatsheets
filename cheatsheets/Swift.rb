@@ -150,7 +150,7 @@ cheatsheet do
         var something = Computer.Laptop(8, "i7")
         switch something {
         case .Laptop(let ram, let cpu):
-            println("I'ts a \(cpu) Laptop with \(ram) GB ram.")
+            println("It's a \(cpu) Laptop with \(ram) GB ram.")
         default:
             println("What else can it be?")
         }
