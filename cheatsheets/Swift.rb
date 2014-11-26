@@ -14,6 +14,23 @@ cheatsheet do
             // Properties
             var myProperty: String
             var myOptionalProperty: String?
+            // Computed Properties
+            var myInt: Int = 1
+            var doubleInt {
+                get { return myInt * 2 }
+                set { myInt = newValue / 2 }
+            }
+            // Property Observers
+            var myOutput = 0 {
+              willSet{ 
+                println("setting myOutput to \(newValue)") 
+              }
+              didSet{ //never set greater than 10
+                if myOutput > 10 { 
+                  myOutput = 10 
+                }
+              }
+            }
             // Methods
             func myFunc() {
                 myOptionalProperty = "Foo"
