@@ -22,14 +22,14 @@ cheatsheet do
             }
             // Property Observers
             var myOutput = 0 {
-              willSet{ 
-                println("setting myOutput to \(newValue)") 
-              }
-              didSet{ //never set greater than 10
-                if myOutput > 10 { 
-                  myOutput = 10 
+                willSet { 
+                    println("setting myOutput to \(newValue)") 
                 }
-              }
+                didSet { // never set greater than 10
+                    if myOutput > 10 {
+                        myOutput = 10
+                    }
+                }
             }
             // Methods
             func myFunc() {
