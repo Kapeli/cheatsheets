@@ -52,6 +52,15 @@ cheatsheet do
       notes 'Think "describe tables"'
     end
     entry do
+      command '\df'
+      name 'List functions in a connected DB'
+      notes 'Think "describe functions"'
+    end
+    entry do
+      command '\df+'
+      name 'List functions and show info (e.g. functions owner and source) in a connected DB'
+    end
+    entry do
       command '\d <tablename>'
       name 'List columns on table'
     end
