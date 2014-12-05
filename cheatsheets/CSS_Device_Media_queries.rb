@@ -1,5 +1,5 @@
 cheatsheet do
-  title 'CSS Deivce Media Queries'
+  title 'CSS Device Media Queries'
   docset_file_name 'CSS_Device_Media_queries'
   keyword '@media'
 
@@ -9,7 +9,7 @@ cheatsheet do
 
     entry do
       command '@media only screen and (min-device-width: 320px) and (max-device-width: 480px)'
-      name 'portrait and landscape'    # A short name, can contain Markdown or HTML
+      name 'portrait and landscape'
     end
 
     entry do
@@ -34,7 +34,7 @@ cheatsheet do
 
     entry do
       command '@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)'
-      name 'portrait and landscape'    # A short name, can contain Markdown or HTML
+      name 'portrait and landscape'
     end
 
     entry do
