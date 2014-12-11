@@ -3,16 +3,24 @@ cheatsheet do
   docset_file_name 'ASCII_Art'
   keyword 'asciiart'
   source_url 'http://cheat.kapeli.com'
-  introduction "Awesome `ASCII` art cheatsheet for some `Japanese Emoticons & Emoji`.<br/>
-  <h2>Contact</h2>
-  [![Twitter: @esttorhe](http://img.shields.io/badge/Twitter%20-%40esttorhe-blue.svg?style=flat)](https://twitter.com/esttorhe)"
+  
+  style <<-'END'
+
+  code {
+    font-family: 'Open Sans', sans-serif !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: none !important;
+  }
+
+  END
 
   category do
-  id 'Table Flip Emoji & Emoticons (╯°□°）╯︵ ┻━┻'
+  id 'Table Flip Emoticons (╯°□°）╯︵ ┻━┻'
 
     entry do
       command '(╯°□°）╯︵ ┻━┻'
-      name    'Default table flip'
+      name    'Table flip'
     end
 
     entry do
@@ -110,18 +118,17 @@ cheatsheet do
     end
 
     entry do
-      command '༼･ิิɷ･ิ༽'
+      command '༼ิ･ɷ･ิ༽'
       name 'Cute troll'
-      notes 'The characters used for the eyes are not correctly rendered in `Dash`, thus the art might not look 100% accurate.'
     end
   end
 
   category do
-    id 'Dead Emoticons & Emojis (✖╭╮✖)'
+    id 'Dead Emoticons (✖╭╮✖)'
 
     entry do
       command '(✖╭╮✖)'
-      name 'Standard dead face'
+      name 'Dead face'
     end
 
     entry do
@@ -136,7 +143,7 @@ cheatsheet do
   end
 
   category do
-    id 'Crying Emoticons & Emojis ｡ﾟ(ﾟ´(00)`ﾟ)ﾟ｡'
+    id 'Crying Emoticons ｡ﾟ(ﾟ´(00)`ﾟ)ﾟ｡'
 
     entry do
       command '(´°̥̥̥̥̥̥̥̥ω°̥̥̥̥̥̥̥̥｀)'
@@ -166,12 +173,12 @@ cheatsheet do
     entry do
       command '(　-̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥᷄◞ω◟-̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥̥᷅ )'
       name 'Waterfall tears'
-      notes 'The tears are **WAY** longer than they appear on the preview here. `Dash` can\'t render them '
+      notes 'The tears are **WAY** longer than they appear in the preview here.'
     end
   end
 
   category do
-    id 'Kissing Emoticons & Emojis ლ(|||⌒εー|||)ლ'
+    id 'Kissing Emoticons ლ(|||⌒εー|||)ლ'
 
     entry do
       command '(╯3╰)'
@@ -195,7 +202,7 @@ cheatsheet do
   end
 
   category do
-    id 'Hugging Emoticons & Emojis (づ￣ ³￣)づ'
+    id 'Hugging Emoticons (づ￣ ³￣)づ'
 
     entry do
       command '(づ｡◕‿‿◕｡)づ'
@@ -214,7 +221,7 @@ cheatsheet do
   end
 
   category do
-    id 'Thinking Emoticons & Emojis (;¬_¬)'
+    id 'Thinking Emoticons (;¬_¬)'
 
     entry do
       command '(;¬_¬)'
@@ -238,7 +245,7 @@ cheatsheet do
   end
 
   category do
-    id 'Hurt Emoticons & Emojis （。_°☆＼(- – )'
+    id 'Hurt Emoticons （。_°☆＼(- – )'
 
     entry do
       command '（。_°☆＼(- – )'
@@ -257,7 +264,7 @@ cheatsheet do
   end
 
   category do
-    id 'Surprised Japanese Emoticons ∑(;°Д°)'
+    id 'Surprised Emoticons ∑(;°Д°)'
 
     entry do
       command '(((( ;°Д°))))'
@@ -300,8 +307,8 @@ cheatsheet do
     end
   end
 
-  notes 'Information obtained from:
+  notes '
 
-* http://hexascii.com/'
+* Based on http://hexascii.com/'
 
 end
