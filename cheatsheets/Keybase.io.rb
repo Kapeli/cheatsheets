@@ -73,7 +73,7 @@ FileUtils.cp File.join(FA_SRC_DIR, 'fonts', 'fontawesome-webfont.woff'), File.jo
 
 cheatsheet do
   title 'Keybase.io'
-  docset_file_name 'Keybase'
+  docset_file_name 'Keybase.io'
   keyword 'keybase'
   resources ASSETS_DIR
   source_url 'http://cheat.kapeli.com'
