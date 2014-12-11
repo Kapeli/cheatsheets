@@ -77,10 +77,7 @@ cheatsheet do
   keyword 'keybase'
   resources ASSETS_DIR
   source_url 'http://cheat.kapeli.com'
-  introduction "*`Alpha`* command list for [Keybase](https://keybase.io)'s command line tool.<br/>
-  <h2>Contact</h2>
-  [![Twitter: @esttorhe](http://img.shields.io/badge/Twitter%20-%40esttorhe-blue.svg?style=flat)](https://twitter.com/esttorhe)"
-
+  
   style <<-EOS
     @import 'assets/css/font-awesome.css';
 
@@ -116,7 +113,7 @@ cheatsheet do
   EOS
 
   category do
-      id 'Getting going'
+      id 'Getting Going'
       entry do
           command 'version'
           name 'Version'
@@ -124,7 +121,7 @@ cheatsheet do
           ```terminal
           keybase version
           ```
-          Prints the version number'
+          Print the version number.'
       end
 
       entry do
@@ -134,7 +131,7 @@ cheatsheet do
           ```terminal
           keybase help
           ```
-          Gets the help.'
+          Get help.'
       end
 
       entry do
@@ -144,7 +141,7 @@ cheatsheet do
         ```terminal
         keybase signup
         ```
-        If you\'ve never used Keybase.'
+        Sign up.'
       end
 
       entry do
@@ -154,12 +151,12 @@ cheatsheet do
         ```terminal
         keybase login
         ```
-        If you already have an account.'
+        Login.'
       end
   end
 
   category do
-    id 'Proving user\'s accounts'
+    id 'Proving Accounts'
 
     entry do
       command 'prove twitter'
@@ -168,7 +165,7 @@ cheatsheet do
       ```terminal
       keybase prove twitter
       ```
-      <i class=\'fa fa-twitter fa-2x fa-fw\'></i> Proves you own a [Twitter](https://twitter.com) account.'
+      <i class=\'fa fa-twitter fa-2x fa-fw\'></i> Prove you own a [Twitter](https://twitter.com) account.'
     end
 
     entry do
@@ -178,7 +175,7 @@ cheatsheet do
       ```terminal
       keybase prove github
       ```
-      <i class=\'fa fa-github fa-2x fa-fw\'></i> Proves you own a [Github](https://github.com) account.'
+      <i class=\'fa fa-github fa-2x fa-fw\'></i> Prove you own a [GitHub](https://github.com) account.'
     end
 
     entry do
@@ -188,7 +185,7 @@ cheatsheet do
       ```terminal
       keybase prove reddit
       ```
-      <i class=\'fa fa-reddit fa-2x fa-fw\'></i> Proves you own a [Reddit](https://reddit.com) account.'
+      <i class=\'fa fa-reddit fa-2x fa-fw\'></i> Prove you own a [Reddit](https://reddit.com) account.'
     end
 
     entry do
@@ -198,46 +195,46 @@ cheatsheet do
       ```terminal
       keybase prove coinbase
       ```
-      Proves you own a [Coinbase](https://coinbase.com) account.'
+      Prove you own a [Coinbase](https://coinbase.com) account.'
     end
 
     entry do
       command 'prove hackernews'
-      name 'Prove HackerNews'
+      name 'Prove Hacker News'
       notes '
       ```terminal
       keybase prove hackernews
       ```
-      <i class=\'fa fa-hacker-news fa-2x fa-fw\'></i> Proves you own a [YCombinator - HackerNews](https://news.ycombinator.com/) account.'
+      <i class=\'fa fa-hacker-news fa-2x fa-fw\'></i> Prove you own a [YCombinator - Hacker News](https://news.ycombinator.com/) account.'
     end
 
     entry do
       command 'prove web you.com'
-      name 'Prove your website'
+      name 'Prove website via HTTP'
       notes '
       ```terminal
       keybase prove web you.com
       ```
-      <i class=\'fa fa-globe fa-2x fa-fw\'></i> Proves you own the domain/website you are claiming.'
+      <i class=\'fa fa-download fa-2x fa-fw\'></i> Prove you own the domain/website you are claiming via HTTP.'
     end
 
     entry do
       command 'prove dns you.com'
-      name 'Prove your website'
+      name 'Prove website via DNS'
       notes '
       ```terminal
       keybase prove dns you.com
       ```
-      <i class=\'fa fa-download fa-2x fa-fw\'></i> Another way to prove you own the domain/website you are claiming.'
+      <i class=\'fa fa-globe fa-2x fa-fw\'></i> Prove you own the domain/website you are claiming via DNS.'
     end
   end
 
   category do
-    id 'Pushing / revoking your key'
+    id 'Pushing / Revoking Your Key'
 
     entry do
       command 'push'
-      name 'Push'
+      name 'Push key'
       notes'
       ```terminal
       keybase push
@@ -247,7 +244,7 @@ cheatsheet do
 
     entry do
       command 'revoke'
-      name 'Revoke'
+      name 'Revoke key'
       notes'
       ```terminal
       keybase revoke
@@ -257,7 +254,7 @@ cheatsheet do
   end
 
   category do
-    id 'Id\'ing and tracking'
+    id 'Id\'ing and Tracking'
 
     entry do
       command 'search'
@@ -291,12 +288,12 @@ cheatsheet do
 
     entry do
       command 'track --track-local'
-      name 'Track Local Only'
+      name 'Track local only'
       notes '
       ```terminal
       keybase track <user> --track-local
       ```
-      Track, but not on server.'
+      Track, but local only.'
     end
   end
 
@@ -310,7 +307,7 @@ cheatsheet do
       ```terminal
       keybase btc <bitcoin>
       ```
-      <i class=\'fa fa-bitcoin fa-2x fa-fw\'></i> Sign and set the [Bitcoin](https://bitcoin.org/en/) address on your profile'
+      <i class=\'fa fa-bitcoin fa-2x fa-fw\'></i> Sign and set the [Bitcoin](https://bitcoin.org/en/) address on your profile.'
     end
   end
 
@@ -324,47 +321,47 @@ cheatsheet do
       ```terminal
       keybase encrypt <user> -m <message>
       ```
-      Encrypts the message'
+      Encrypt message.'
     end
 
     entry do
       command 'encrypt -s -m'
-      name 'Encrypt message and signs it.'
+      name 'Encrypt message and sign it'
       notes '
       ```terminal
       keybase encrypt <user> -s -m <message>
       ```
-      Encrypts the message and also signs it.'
+      Encrypt message and also sign it.'
     end
 
     entry do
       command 'encrypt <file.txt>'
-      name 'Encrypt a file'
+      name 'Encrypt file'
       notes '
       ```terminal
       keybase encrypt <user> <file.txt>
       ```
-      Encrypts the file <file.txt> -> <file.asc>'
+      Encrypt file `<file.txt>` to `<file.asc>`.'
     end
 
     entry do
       command 'encrypt <file.txt> -o'
-      name 'Encrypt a file'
+      name 'Encrypt file with output'
       notes '
       ```terminal
       keybase encrypt <user> <file.txt> -o <output.asc>
       ```
-      Encrypts the file <file.txt> to the provided <output.asc>'
+      Encrypt file `<file.txt>` to the provided `<output.asc>`.'
     end
 
     entry do
-      command 'echo'
-      name 'Echo'
+      command 'echo | encrypt'
+      name 'Encrypt stream'
       notes '
       ```terminal
       echo \'secret\' | keybase encrypt <user>
       ```
-      Stream'
+      Encrypt stream.'
     end
   end
 
@@ -373,32 +370,32 @@ cheatsheet do
 
     entry do
       command 'decrypt <file.txt.asc>'
-      name 'Decrypts a file'
+      name 'Decrypt file'
       notes '
       ```terminal
       keybase decrypt <file.txt.asc>
       ```
-      Decrypts <file.txt.asc> to `stdout`'
+      Decrypt `<file.txt.asc>` to `stdout`.'
     end
 
     entry do
       command 'decrypt -o'
-      name 'Decrypts with output'
+      name 'Decrypt with output'
       notes '
       ```terminal
       keybase decrypt <file.txt.asc> -o <output.txt>
       ```
-      Decrypts <file.txt.asc> to provided <output.txt>'
+      Decrypt `<file.txt.asc>` to the provided `<output.txt>`.'
     end
 
     entry do
       command 'decrypt'
-      name 'Decrypts a stream'
+      name 'Decrypt stream'
       notes '
       ```terminal
       cat <file.txt.asc> | keybase decrypt
       ```
-      Decrypts a stream'
+      Decrypt stream.'
     end
   end
 
@@ -412,12 +409,12 @@ cheatsheet do
       ```terminal
       keybase sign -m <message>
       ```
-      Signs a message.'
+      Sign message.'
     end
 
     entry do
       command 'sign --clearsign -m'
-      name 'Sign message'
+      name 'Sign message without encoding'
       notes '
       ```terminal
       keybase sign --clearsign -m <message>
@@ -432,17 +429,17 @@ cheatsheet do
       ```terminal
       keybase sign <file.txt> --detach-sign
       ```
-      Generate <file.txt.asc>, just a signature.'
+      Generate signature `<file.txt.asc>`.'
     end
 
     entry do
       command 'echo'
-      name 'Stream'
+      name 'Sign stream'
       notes '
       ```terminal
       echo <message> | keybase sign
       ```
-      Stream.'
+      Sign stream.'
     end
   end
 
@@ -451,38 +448,38 @@ cheatsheet do
 
     entry do
       command 'verify <file.txt.asc>'
-      name 'Verify file.'
+      name 'Verify file'
       notes '
       ```console
       keybase verify <file.txt.asc>
       ```
-      Verify a self-signed file.'
+      Verify self-signed file.'
     end
 
     entry do
       command 'verify <file.txt.asc> <file.txt>'
-      name 'Verify file.'
+      name 'Verify file with detached signature'
       notes '
       ```console
       keybase verify <file.txt.asc> <file.txt>
       ```
-      Verify a file + detatched signature.'
+      Verify file with detached signature.'
     end
 
     entry do
       command 'verify'
-      name 'Verify file.'
+      name 'Verify stream'
       notes '
       ```console
       cat <file.txt.asc> | keybase verify
       ```
-      Stream a self-signed file.'
+      Verify stream of self-signed file.'
     end
   end
 
   notes <<-'END'
-  * Command list taken from [Keybase](https://keybase.io/docs/command_line)'s documentation page.
-  </br>*Last updated: 12/04/14*
+  * Alpha command list for [Keybase](https://keybase.io)'s command line tool, taken from Keybase's [documentation page](https://keybase.io/docs/command_line)
+  * Last updated: 12/04/14
   END
 
 end
