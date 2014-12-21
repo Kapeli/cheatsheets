@@ -55,9 +55,9 @@ category do
   entry do
     td_notes '640 x 1136 px'
     td_notes '1136 x 640 px'
-    name 'iPhone 5'
-    index_name 'iPhone 5 Resolution'
-    notes 'iPhone 5, 5S, 5C'
+    name 'iPhone 5/5S/5C'
+    index_name 'iPhone 5/5S/5C Resolution'
+    notes ''
   end
 
   entry do
@@ -115,11 +115,13 @@ category do
   id 'Displays'
   header 'Device'
   header 'PPI'
+  header 'Assets'
   header 'Color Mode'
   header 'Color Temperature'
 
   entry do
     td_notes '401'
+    td_notes '`@3x`'
     td_notes '8bit RGB'
     td_notes  'Warm'
     name 'iPhone 6 Plus'
@@ -129,6 +131,7 @@ category do
 
   entry do
     td_notes '326'
+    td_notes '`@2x`'
     td_notes '8bit RGB'
     td_notes  'Warm'
     name 'iPhone 6'
@@ -138,15 +141,16 @@ category do
 
   entry do
     td_notes '326'
+    td_notes '`@2x`'
     td_notes '8bit RGB'
     td_notes  'Warm'
-    name 'iPhone 5'
-    index_name 'iPhone 5 Display'
-    notes 'iPhone 5, 5S, 5C'
+    name 'iPhone 5/5S/5C'
+    index_name 'iPhone 5/5S/5C Display'
   end
 
   entry do
     td_notes '326'
+    td_notes '`@2x`'
     td_notes '8bit RGB'
     td_notes  'Cool'
     name 'iPhone 4/4S'
@@ -156,6 +160,7 @@ category do
 
   entry do
     td_notes '163'
+    td_notes '`@1x`'
     td_notes '8bit RGB'
     td_notes  'Warm'
     name 'iPhone & iPod Touch'
@@ -165,6 +170,7 @@ category do
 
   entry do
     td_notes '264'
+    td_notes '`@2x`'
     td_notes '8bit RGB'
     td_notes  'Warm'
     name 'iPad Retina'
@@ -174,6 +180,7 @@ category do
 
   entry do
     td_notes '163'
+    td_notes '`@1x`'
     td_notes '8bit RGB'
     td_notes  'Warm'
     name 'iPad Mini'
@@ -183,6 +190,7 @@ category do
 
   entry do
     td_notes '326'
+    td_notes '`@2x`'
     td_notes '8bit RGB'
     td_notes  'Warm'
     name 'iPad Mini Retina'
@@ -192,6 +200,7 @@ category do
 
   entry do
     td_notes '132'
+    td_notes '`@1x`'
     td_notes '8bit RGB'
     td_notes  'Warm'
     name 'iPad'
@@ -225,9 +234,18 @@ category do
     td_notes '1024 x 1024 px'
     td_notes '80 x 80 px'
     td_notes '58 x 58 px'
-    name 'iPhone 5/6'
-    index_name 'iPhone 5/6 Dimensions'
-    notes 'iPhone 5, 5S, 5C, 6'
+    name 'iPhone 6'
+    index_name 'iPhone 6 Dimensions'
+  end
+
+  entry do
+    td_notes '120 x 120 px'
+    td_notes '1024 x 1024 px'
+    td_notes '80 x 80 px'
+    td_notes '58 x 58 px'
+    name 'iPhone 5/5S/5C'
+    index_name 'iPhone 5/5S/5C Dimensions'
+    notes ''
   end
 
   entry do
@@ -287,9 +305,9 @@ category do
     td_notes '88 / 64 px'
     td_notes '98 px'
     td_notes '640 / 1136 px'
-    name 'iPhone 5'
-    index_name 'iPhone 5 Design Elements'
-    notes 'iPhone 5, 5S, 5C'
+    name 'iPhone 5/5S/5C'
+    index_name 'iPhone 5/5S/5C Design Elements'
+    notes ''
   end
 
   entry do
