@@ -37,6 +37,22 @@ category do
   header 'Landscape'
 
   entry do
+    td_notes '1080 x 1920 px'
+    td_notes '1920 x 1080 px'
+    name 'iPhone 6 Plus'
+    index_name 'iPhone 6 Plus Resolution'
+    notes ''
+  end
+
+  entry do
+    td_notes '750 x 1334 px'
+    td_notes '1334 x 750 px'
+    name 'iPhone 6'
+    index_name 'iPhone 6 Resolution'
+    notes ''
+  end
+
+  entry do
     td_notes '640 x 1136 px'
     td_notes '1136 x 640 px'
     name 'iPhone 5'
@@ -101,6 +117,24 @@ category do
   header 'PPI'
   header 'Color Mode'
   header 'Color Temperature'
+
+  entry do
+    td_notes '401'
+    td_notes '8bit RGB'
+    td_notes  'Warm'
+    name 'iPhone 6 Plus'
+    index_name 'iPhone 6 Plus Display'
+    notes ''
+  end
+
+  entry do
+    td_notes '326'
+    td_notes '8bit RGB'
+    td_notes  'Warm'
+    name 'iPhone 6'
+    index_name 'iPhone 6 Display'
+    notes ''
+  end
 
   entry do
     td_notes '326'
@@ -177,13 +211,23 @@ category do
   header 'Settings Icon'
 
   entry do
+    td_notes '180 x 180 px'
+    td_notes '1024 x 1024 px'
+    td_notes '120 x 120 px'
+    td_notes '87 x 87 px'
+    name 'iPhone 6 Plus'
+    index_name 'iPhone 6 Plus Dimensions'
+    notes ''
+  end
+
+  entry do
     td_notes '120 x 120 px'
     td_notes '1024 x 1024 px'
     td_notes '80 x 80 px'
     td_notes '58 x 58 px'
-    name 'iPhone 5'
-    index_name 'iPhone 5 Dimensions'
-    notes 'iPhone 5, 5S, 5C'
+    name 'iPhone 5/6'
+    index_name 'iPhone 5/6 Dimensions'
+    notes 'iPhone 5, 5S, 5C, 6'
   end
 
   entry do
