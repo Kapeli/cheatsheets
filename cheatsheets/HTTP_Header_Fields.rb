@@ -503,6 +503,19 @@ cheatsheet do
     
     entry do
       td_notes <<-'END'
+      Specifies which patch document formats this server supports
+
+      ```
+      Accept-Patch: text/example;charset=utf-8
+      ```
+      Status: Permanent
+      END
+      name 'Accept-Patch'
+      index_name 'Accept-Patch (Response)'
+    end
+    
+    entry do
+      td_notes <<-'END'
       What partial content range types this server supports
 
       ```
