@@ -148,6 +148,35 @@ cheatsheet do
   end
 
   category do
+    id 'Constants'
+    entry do
+        name 'File specific constants'
+        notes <<-'END'
+        <pre class="highlight objective_c">
+          <span class="ni">static const double</span> name = value;
+          <span class="ni">static</span> <span class="kt">NSString</span> * <span class="ni">const</span> name = value;
+        </pre>
+        END
+    end
+    entry do
+        name 'External constants'
+        notes <<-'END'
+        <pre class="highlight objective_c">
+        <span class="sr">// .h</span>
+        <span class="ni">extern const double</span> name;
+        <span class="sr">// .m</span>
+        <span class="ni">const double</span> name = value;
+        
+        <span class="sr">// .h</span>
+        <span class="ni">extern</span> <span class="kt">NSString</span> * <span class="ni">const</span> name;
+        <span class="sr">// .m</span>
+        <span class="kt">NSString</span> * <span class="ni">const</span> name = value;
+        </pre>
+        END
+    end
+  end
+  
+  category do
     id 'Method'
     entry do
         name 'Defining Methods'
@@ -196,11 +225,11 @@ cheatsheet do
         name 'Using Properties'
         notes <<-'END'
         <pre class="highlight objective_c">
-         <span class="sr">// setting value</span>
+        <span class="sr">// setting value</span>
         [myObject <span class="nt">setMyPropertyName</span>:a]; <span class="sr">// or</span>
         myObject.<span class="nt">myPropertyName</span> = a;
 
-         <span class="sr">// getting value</span>
+        <span class="sr">// getting value</span>
         a = [myObject <span class="nt">myPropertyName</span>]; <span class="sr">// or</span>
         a = myObject.<span class="nt">myPropertyName</span>;
         </pre>
