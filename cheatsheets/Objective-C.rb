@@ -5,9 +5,9 @@ cheatsheet do
   source_url 'http://cheat.kapeli.com'
 
   category do
-    id 'Class'
+    id 'Classes'
     entry do
-        name 'Class Header (MyClassName.h)'
+        name 'Class header (MyClassName.h)'
         notes <<-'END'
         <pre class="highlight objective_c">
         <span class="gt">#import</span> <span class="s">"AnyHeaderFile.h"</span>
@@ -20,7 +20,7 @@ cheatsheet do
         END
     end
     entry do
-        name 'Class Implementation (MyClassName.m)'
+        name 'Class implementation (MyClassName.m)'
         notes <<-'END'
         <pre class="highlight objective_c">
         <span class="gt">#import</span> <span class="s">"MyClassName.h"</span>
@@ -43,9 +43,9 @@ cheatsheet do
   end
 
   category do
-    id 'Variable'
+    id 'Variables'
     entry do
-        name 'Declaring Variables'
+        name 'Declaring variables'
         notes <<-'END'
         <pre class="highlight objective_c">
         <span class="kt">type</span> myVariableName;
@@ -53,7 +53,7 @@ cheatsheet do
         END
     end
     entry do
-        name 'Variable Types'
+        name 'Variable types'
         notes <<-'END'
         <span class="ni">int</span>
         <br/>
@@ -83,9 +83,9 @@ cheatsheet do
   end
 
   category do
-    id 'Property'
+    id 'Properties'
     entry do
-        name 'Defining Properties'
+        name 'Defining properties'
         notes <<-'END'
         <pre class="highlight objective_c">
         <span class="ni">@property</span> (<span class="kt">attribute1</span>, <span class="kt">attribute2</span>, ...) <span class="ni">type</span> myPropertyName;
@@ -108,7 +108,7 @@ cheatsheet do
         END
     end
     entry do
-        name 'Property Attributes'
+        name 'Property attributes'
         notes <<-'END'
         <span class="ni">strong</span>
         <br/>
@@ -148,6 +148,41 @@ cheatsheet do
   end
 
   category do
+    id 'Methods'
+    entry do
+        name 'Defining methods'
+        notes <<-'END'
+        <pre class="highlight objective_c">
+        - (<span class="ni">type</span>)doIt;
+        - (<span class="ni">type</span>)doItWithA:(<span class="ni">type</span>)a;
+        - (<span class="ni">type</span>)doItWithA:(<span class="ni">type</span>)a andB:(<span class="ni">type</span>)b;
+        </pre>
+        END
+    end
+    entry do
+        name 'Implementing methods'
+        notes <<-'END'
+        <pre class="highlight objective_c">
+        - (<span class="ni">type</span>)doIt {
+            <span class="sr">// do something</span>
+            <span class="ni">return</span> ReturnValue;
+        }
+
+        - (<span class="ni">type</span>)doItWithA:(<span class="ni">type</span>)a {
+            <span class="sr">// do something with a</span>
+            <span class="ni">return</span> ReturnValue;
+        }
+
+        - (<span class="ni">type</span>)doItWithA:(<span class="ni">type</span>)a andB:(<span class="ni">type</span>)b {
+            <span class="sr">// do something with a and b</span>
+            <span class="ni">return</span> ReturnValue;
+        }
+        </pre>
+        END
+    end
+  end
+
+  category do
     id 'Constants'
     entry do
         name 'File specific constants'
@@ -177,44 +212,9 @@ cheatsheet do
   end
   
   category do
-    id 'Method'
-    entry do
-        name 'Defining Methods'
-        notes <<-'END'
-        <pre class="highlight objective_c">
-        - (<span class="ni">type</span>)doIt;
-        - (<span class="ni">type</span>)doItWithA:(<span class="ni">type</span>)a;
-        - (<span class="ni">type</span>)doItWithA:(<span class="ni">type</span>)a andB:(<span class="ni">type</span>)b;
-        </pre>
-        END
-    end
-    entry do
-        name 'Implementing Methods'
-        notes <<-'END'
-        <pre class="highlight objective_c">
-        - (<span class="ni">type</span>)doIt {
-            <span class="sr">// do something</span>
-            <span class="ni">return</span> ReturnValue;
-        }
-
-        - (<span class="ni">type</span>)doItWithA:(<span class="ni">type</span>)a {
-            <span class="sr">// do something with a</span>
-            <span class="ni">return</span> ReturnValue;
-        }
-
-        - (<span class="ni">type</span>)doItWithA:(<span class="ni">type</span>)a andB:(<span class="ni">type</span>)b {
-            <span class="sr">// do something with a and b</span>
-            <span class="ni">return</span> ReturnValue;
-        }
-        </pre>
-        END
-    end
-  end
-  
-  category do
     id 'Usage'
     entry do
-        name 'Creating Objects'
+        name 'Creating objects'
         notes <<-'END'
         <pre class="highlight objective_c">
         <span class="mi">ClassName</span> *myObject = [[<span class="mi">ClassName</span> <span class="nt">alloc</span>] <span class="nt">init</span>];
@@ -222,7 +222,7 @@ cheatsheet do
         END
     end
     entry do
-        name 'Using Properties'
+        name 'Using properties'
         notes <<-'END'
         <pre class="highlight objective_c">
         <span class="sr">// setting value</span>
@@ -236,7 +236,7 @@ cheatsheet do
         END
     end
     entry do
-        name 'Calling Methods'
+        name 'Calling methods'
         notes <<-'END'
         <pre class="highlight objective_c">
         [myObject <span class="nt">doIt</span>];
@@ -250,7 +250,7 @@ cheatsheet do
   category do
     id 'Example'
     entry do
-        name 'Custom Initializer'
+        name 'Custom initializer'
         notes <<-'END'
         <pre class="highlight objective_c">
         - (<span class="ni">id</span>)initWithParam:(<span class="ni">type</span>)param {
