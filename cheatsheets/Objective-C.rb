@@ -162,15 +162,15 @@ cheatsheet do
         name 'External constants'
         notes <<-'END'
         <pre class="highlight objective_c">
-        <span class="sr">// .h</span>
-        <span class="ni">extern const double</span> name;
-        <span class="sr">// .m</span>
-        <span class="ni">const double</span> name = value;
+          <span class="sr">// .h</span>
+          <span class="ni">extern const double</span> name;
+          <span class="sr">// .m</span>
+          <span class="ni">const double</span> name = value;
         
-        <span class="sr">// .h</span>
-        <span class="ni">extern</span> <span class="kt">NSString</span> * <span class="ni">const</span> name;
-        <span class="sr">// .m</span>
-        <span class="kt">NSString</span> * <span class="ni">const</span> name = value;
+          <span class="sr">// .h</span>
+          <span class="ni">extern</span> <span class="kt">NSString</span> * <span class="ni">const</span> name;
+          <span class="sr">// .m</span>
+          <span class="kt">NSString</span> * <span class="ni">const</span> name = value;
         </pre>
         END
     end
