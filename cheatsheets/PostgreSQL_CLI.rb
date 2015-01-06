@@ -11,6 +11,11 @@ cheatsheet do
       command 'sudo -u postgres psql postgres'
       name 'Change to Postgres user and open psql prompt'
     end
+
+    entry do
+      command 'psql -d my_database -U my_username -W'
+      name 'Connect to my_database with role my_username and prompt for password. Requires md5 or password authentication.'
+    end
   end
 
   category do
