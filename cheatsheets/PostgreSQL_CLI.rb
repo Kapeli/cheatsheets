@@ -14,7 +14,7 @@ cheatsheet do
 
     entry do
       command 'psql -d my_database -U my_username -W'
-      name 'Connect to my_database with role my_username and prompt for password. Requires md5 or password authentication.'
+      name 'Connect to `my_database` with role `my_username` and prompt for password. Requires md5 or password authentication.'
     end
   end
 
