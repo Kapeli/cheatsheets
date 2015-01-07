@@ -2,9 +2,10 @@ cheatsheet do
   title 'Hub'
   docset_file_name 'Hub'
   keyword 'hub'
+  source_url 'http://cheat.kapeli.com'
 
   category do
-    id 'hub'
+    id 'Hub'
 
     entry do
       name 'clone'
