@@ -112,6 +112,15 @@ cheatsheet do
         let numbers = [1, 2, 3, 4]
         numbers.map(myclosure)
         // returns [2, 3, 4, 5]
+        
+        let animals = ["fish", "cat", "elephant", "dog", "minion"]
+        let sortedAnimals = animals.sorted { (first, second) in first > second }
+        sortedAnimals = animals.sorted { $0 > $1 } // $0 and $1 mean first and second params respectively
+        
+        let evenCheckFunction = isEven
+        let odds = Array(1...10).filter(!isEven)
+        odds = Array(1...10).filter { (number) in number % 2 != 0 }
+        odds = Array(1...10).filter { $0 % 2 == 0 }
         ```
       END
     end
