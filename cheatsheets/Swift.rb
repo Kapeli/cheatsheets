@@ -112,6 +112,15 @@ cheatsheet do
         let numbers = [1, 2, 3, 4]
         numbers.map(myclosure)
         // returns [2, 3, 4, 5]
+        
+        let animals = ["fish", "cat", "elephant", "dog", "minion"]
+        let sortedAnimals = animals.sorted { (first, second) in first > second }
+        sortedAnimals = animals.sorted { $0 > $1 } // $0 and $1 mean first and second params respectively
+        
+        let evenCheckFunction = isEven
+        let odds = Array(1...10).filter(!isEven)
+        odds = Array(1...10).filter { (number) in number % 2 != 0 }
+        odds = Array(1...10).filter { $0 % 2 == 0 }
         ```
       END
     end
@@ -207,7 +216,44 @@ cheatsheet do
         ```
       END
     end
+    
+    entry do
+      name 'Optionals'
+      notes <<-'END'
+        ``` swift
+        var s: String?
+        s = "needle"
+        s = nil
 
+        let forced: String = s!
+
+        if let forced = s {
+          println(forced)
+        } else {
+          println("not found")
+        }
+
+        let forced:String = s ?? "default value" //if (s == nil) use default value
+        ```
+      END
+    end
+    
+    entry do
+      name 'Tuples'
+      notes <<-'END'
+        ``` swift
+        let p1 = (1,2)
+        let p2 = (x:1, y:2)
+        
+        let (x1,y1) = p1
+        let (x1,_) = p1
+        let x1 = p1.0, y1 = p1.1
+        
+        let x = p2.x, y= p2.y
+        ```
+      END
+    end
+    
     entry do
       name 'Control Flow'
       notes <<-'END'
@@ -227,6 +273,15 @@ cheatsheet do
             "bar"
         default:
             "baz"
+        }
+        
+        let point = (1,1)
+        switch point {
+          case (let x, 0): println("point on x with displacement of \(x)")
+          case (0, _): println("point on y")
+          case (1..5, 1..5): println("point within bounds")
+          case let (x,y) where x == y: println("point is on line")
+          case let (x,y): println("point out of bounds at \(x), \(y)")
         }
 
         // omits upper value, use ... to include
