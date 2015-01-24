@@ -1,9 +1,8 @@
 cheatsheet do
-  title 'Android Emulator Key Bindings'
-  docset_file_name 'Android_Emulator_Keys'
-  keyword 'android emulator'
-
-  introduction 'The mappings between the emulator keys and the keys of your keyboard from the [Android Emulator](http://developer.android.com/tools/help/emulator.html) docs.'
+  title 'Android Emulator'
+  docset_file_name 'Android_Emulator'
+  keyword 'androidemu'
+  source_url 'http://cheat.kapeli.com'
 
   category do 
     id 'Device Button Key Mappings'
@@ -20,13 +19,13 @@ cheatsheet do
     end
 
     entry do
-      command 'Shift-F2'
+      command 'SHIFT+F2'
       command 'Page Down'
       name 'Star (right softkey)'
     end
 
     entry do
-      command 'ESC'
+      command 'Esc'
       name 'Back'
     end
 
@@ -52,19 +51,19 @@ cheatsheet do
 
     entry do
       command 'KEYPAD_PLUS'
-      command 'Ctrl-F5'
+      command 'CTRL+F5'
       name 'Audio Volume Up button'
     end
 
     entry do
       command 'KEYPAD_MINUS'
-      command 'Ctrl-F6'
+      command 'CTRL+F6'
       name 'Audio Volume Down button'
     end
 
     entry do
-      command 'Ctrl-KEYPAD_5'
-      command 'Ctrl-F3'
+      command 'CTRL+KEYPAD_5'
+      command 'CTRL+F3'
       name 'Camera button'
     end
   end
@@ -74,13 +73,13 @@ cheatsheet do
 
     entry do
       command 'KEYPAD_7'
-      command 'Ctrl-F11'
+      command 'CTRL+F11'
       name 'Switch to previous layout orientation'
     end
     
     entry do
       command 'KEYPAD_9'
-      command 'Ctrl-F12'
+      command 'CTRL+F12'
       name 'Switch to next layout orientation'
     end
 
@@ -91,11 +90,11 @@ cheatsheet do
 
     entry do
       command 'F9'
-      name 'Toggle code profiling (only with --trace startup option)'
+      name 'Toggle code profiling (only with `--trace` startup option)'
     end
 
     entry do
-      command 'Alt-Enter'
+      command 'ALT+Enter'
       name 'Toggle fullscreen mode'
     end
 

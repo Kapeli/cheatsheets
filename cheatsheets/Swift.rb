@@ -239,22 +239,6 @@ cheatsheet do
     end
     
     entry do
-      name 'Tuples'
-      notes <<-'END'
-        ``` swift
-        let p1 = (1,2)
-        let p2 = (x:1, y:2)
-        
-        let (x1,y1) = p1
-        let (x1,_) = p1
-        let x1 = p1.0, y1 = p1.1
-        
-        let x = p2.x, y= p2.y
-        ```
-      END
-    end
-    
-    entry do
       name 'Control Flow'
       notes <<-'END'
         ``` swift
@@ -341,6 +325,22 @@ cheatsheet do
         for (type, muppet) in dict {
             println("type: \(type), muppet: \(muppet)")
         }
+        ```
+      END
+    end
+
+    entry do
+      name 'Tuples'
+      notes <<-'END'
+        ``` swift
+        let p1 = (1,2)
+        let p2 = (x:1, y:2)
+        
+        let (x1,y1) = p1
+        let (x1,_) = p1
+        let x1 = p1.0, y1 = p1.1
+        
+        let x = p2.x, y= p2.y
         ```
       END
     end
