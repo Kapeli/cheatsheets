@@ -898,7 +898,7 @@ cheatsheet do
 
     entry do
         td_command '#663399'
-        td_notes CheatsheetUtil.script_generate('800080')
+        td_notes CheatsheetUtil.script_generate('663399')
         td_notes 'RebeccaPurple'
         index_name 'RebeccaPurple'
     end
