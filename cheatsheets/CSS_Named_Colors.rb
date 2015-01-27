@@ -1074,15 +1074,13 @@ cheatsheet do
       id 'Special Colors'
 
       entry do
-          td_command '#000000'
-          td_notes CheatsheetUtil.script_generate('000000')
-          td_notes 'Transparent - rgba(0,0,0,0)'
+          td_command 'rgba(0,0,0,0)'
+          td_notes 'Transparent'
           index_name 'Transparent'
       end
 
       entry do
           td_command 'currentcolor'
-          td_notes CheatsheetUtil.script_generate('FFFFFF')
           td_notes 'Current color property of same element'
           index_name 'CurrentColor'
       end
