@@ -14,8 +14,14 @@ cheatsheet do
   class CheatsheetUtil
     def self.script_generate(code)
       return "<script type=\"text/javascript\" id=\"#{code}\">
-                 var script = document.getElementById(\"#{code}\");
-                 script.parentElement.parentElement.style.backgroundColor = \"##{code}\";
+                 var code = \"#{code}\";
+                 var script = document.getElementById(code);
+                 if(code.indexOf('-') != -1)
+                 { 
+                   // just a hack to get duplicates to work
+                   code = code.substr(0, code.indexOf('-'));
+                 }
+                 script.parentElement.parentElement.style.backgroundColor = \"#\"+code;
                  script.parentElement.parentElement.style.width = \"50px\";
               </script>"
     end
@@ -60,17 +66,17 @@ cheatsheet do
     end
 
     entry do
+      td_command '#808080'
+      td_notes CheatsheetUtil.script_generate('808080-2')
+      td_notes 'Grey'
+      index_name 'Grey'
+    end
+
+    entry do
       td_command '#008000'
       td_notes CheatsheetUtil.script_generate('008000')
       td_notes 'Green'
       index_name 'Green'
-    end
-
-    entry do
-        td_command '#808080'
-        td_notes CheatsheetUtil.script_generate('808080')
-        td_notes 'Grey'
-        index_name 'Grey'
     end
 
     entry do
@@ -275,7 +281,7 @@ cheatsheet do
 
     entry do
       td_command '#00FFFF'
-      td_notes CheatsheetUtil.script_generate('00FFFF')
+      td_notes CheatsheetUtil.script_generate('00FFFF-2')
       td_notes 'Cyan'
       index_name 'Cyan'
     end
@@ -309,17 +315,17 @@ cheatsheet do
     end
 
     entry do
+        td_command '#A9A9A9'
+        td_notes CheatsheetUtil.script_generate('A9A9A9-2')
+        td_notes 'DarkGrey'
+        index_name 'DarkGrey'
+    end
+
+    entry do
       td_command '#006400'
       td_notes CheatsheetUtil.script_generate('006400')
       td_notes 'DarkGreen'
       index_name 'DarkGreen'
-    end
-
-    entry do
-        td_command '#A9A9A9'
-        td_notes CheatsheetUtil.script_generate('A9A9A9')
-        td_notes 'DarkGrey'
-        index_name 'DarkGrey'
     end
 
     entry do
@@ -394,7 +400,7 @@ cheatsheet do
 
     entry do
         td_command '#2F4F4F'
-        td_notes CheatsheetUtil.script_generate('2F4F4F')
+        td_notes CheatsheetUtil.script_generate('2F4F4F-2')
         td_notes 'DarkSlateGrey'
         index_name 'DarkSlateGrey'
     end
@@ -436,7 +442,7 @@ cheatsheet do
 
     entry do
         td_command '#696969'
-        td_notes CheatsheetUtil.script_generate('696969')
+        td_notes CheatsheetUtil.script_generate('696969-2')
         td_notes 'DimGrey'
         index_name 'DimGrey'
     end
@@ -610,17 +616,17 @@ cheatsheet do
     end
 
     entry do
+      td_command '#D3D3D3'
+      td_notes CheatsheetUtil.script_generate('D3D3D3-2')
+      td_notes 'LightGrey'
+      index_name 'LightGrey'
+    end
+
+    entry do
       td_command '#90EE90'
       td_notes CheatsheetUtil.script_generate('90EE90')
       td_notes 'LightGreen'
       index_name 'LightGreen'
-    end
-
-    entry do
-        td_command '#D3D3D3'
-        td_notes CheatsheetUtil.script_generate('D3D3D3')
-        td_notes 'LightGrey'
-        index_name 'LightGrey'
     end
 
     entry do
@@ -660,7 +666,7 @@ cheatsheet do
 
     entry do
         td_command '#778899'
-        td_notes CheatsheetUtil.script_generate('778899')
+        td_notes CheatsheetUtil.script_generate('778899-2')
         td_notes 'LightSlateGrey'
         index_name 'LightSlateGrey'
     end
@@ -695,7 +701,7 @@ cheatsheet do
 
     entry do
       td_command '#FF00FF'
-      td_notes CheatsheetUtil.script_generate('FF00FF')
+      td_notes CheatsheetUtil.script_generate('FF00FF-2')
       td_notes 'Magenta'
       index_name 'Magenta'
     end
@@ -982,7 +988,7 @@ cheatsheet do
 
     entry do
         td_command '#708090'
-        td_notes CheatsheetUtil.script_generate('708090')
+        td_notes CheatsheetUtil.script_generate('708090-2')
         td_notes 'SlateGrey'
         index_name 'SlateGrey'
     end
