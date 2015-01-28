@@ -11,7 +11,7 @@ cheatsheet do
         notes "
         Function type qualifiers are used in function declarations and definitions.
 
-        They specify where the functions can be called from and where they can executed.
+        They specify where the functions can be called from and where they can be executed.
 
         Host is the CPU side, and device is the GPU side.
         "
@@ -41,7 +41,7 @@ cheatsheet do
         <font color='green'>`__host__`</font>
         "
         notes "
-        Executed on the host. Callable from the host only (Equivalent to
+        Executed on the host. Callable from the host only (equivalent to
         declaring the function without any qualifiers).
         "
 
@@ -62,12 +62,12 @@ cheatsheet do
         <font color='blue'>`longX`</font>,
         <font color='blue'>`ulongX`</font>,
         <font color='blue'>`floatX`</font>,
-        where `X = 1, 2, 3, or 4.`
+        where `X = 1, 2, 3, or 4`.
 
         <font color='blue'>`doubleX`</font>,
         <font color='blue'>`longlongX`</font>,
         <font color='blue'>`ulonglongX`</font>,
-        where `X = 1, or 2.`
+        where `X = 1, or 2`.
 
         Note: <font color='blue'>`dim3`</font> is a <font color='blue'>`uint3`</font> with default components initalized to 1.
         "
@@ -235,7 +235,7 @@ cheatsheet do
   end
 
   notes <<-'END'
-  * References are [CUDA C Programming Guide](http://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html) and
+  * Based on [CUDA C Programming Guide](http://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html) and
     [CUDA Runtime API](http://docs.nvidia.com/cuda/cuda-runtime-api/index.html).
   END
 end
