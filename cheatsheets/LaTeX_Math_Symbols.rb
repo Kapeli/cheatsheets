@@ -7,6 +7,7 @@ cheatsheet do
   title "LaTeX Math Symbols"
   docset_file_name "LaTeX_Math_Symbols"
   keyword "latexmath"
+  source_url 'http://cheat.kapeli.com'
   resources MEDIA_DIR
 
   class TeXUtils
@@ -447,43 +448,43 @@ cheatsheet do
     header "Required Package"
 
     entry do
-      td_command '\mathrm{ABCDEabcde1234}'
+      command '\mathrm{ABCDEabcde1234}'
       td_notes TeXUtils.get('\mathrm{ABCDEabcde1234}')
       td_notes ''
     end
 
     entry do
-      td_command '\mathit{ABCDEabcde1234}'
+      command '\mathit{ABCDEabcde1234}'
       td_notes TeXUtils.get('\mathit{ABCDEabcde1234}')
       td_notes ''
     end
 
     entry do
-      td_command '\mathnormal{ABCDEabcde1234}'
+      command '\mathnormal{ABCDEabcde1234}'
       td_notes TeXUtils.get('\mathnormal{ABCDEabcde1234}')
       td_notes ''
     end
 
     entry do
-      td_command '\mathcal{ABCDEabcde1234}'
+      command '\mathcal{ABCDEabcde1234}'
       td_notes TeXUtils.get('\mathcal{ABCDEabcde1234}')
       td_notes ''
     end
 
     entry do
-      td_command '\mathscr{ABCDEabcde1234}'
+      command '\mathscr{ABCDEabcde1234}'
       td_notes TeXUtils.get('\mathscr{ABCDEabcde1234}')
       td_notes '<code>mathrsfs</code>'
     end
 
     entry do
-      td_command '\mathfrak{ABCDEabcde1234}'
+      command '\mathfrak{ABCDEabcde1234}'
       td_notes TeXUtils.get('\mathfrak{ABCDEabcde1234}')
       td_notes '<code>amsfonts</code> or <code>amssymb</code>'
     end
 
     entry do
-      td_command '\mathbb{ABCDEabcde1234}'
+      command '\mathbb{ABCDEabcde1234}'
       td_notes TeXUtils.get('\mathbb{ABCDEabcde1234}')
       td_notes '<code>amsfonts</code> or <code>amssymb</code>'
     end
