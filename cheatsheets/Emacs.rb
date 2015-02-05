@@ -4,65 +4,6 @@ cheatsheet do
   keyword 'emacs'
   source_url 'http://cheat.kapeli.com'
   category do
-      id 'Rectangles'
-      
-      entry do
-          command 'C-x r k'
-          notes 'kill-rectangle'
-          name  'Kill the text of the region-rectangle, saving its contents as the “last killed rectangle”'
-      end
-      entry do
-          command  'C-x r M-w'
-          notes    'copy-rectangle-as-kill'
-          name     'Save the text of the region-rectangle as the “last killed rectangle”'
-      end
-      entry do
-          command  'C-x r d'
-          notes    'delete-rectangle'
-          name     'Delete the text of the region-rectangle '
-      end
-      entry do
-          command  'C-x r y'
-          notes    'yank-rectangle'
-          name     'Yank the last killed rectangle with its upper left corner at point'
-      end
-      entry do
-          command  'C-x r o'
-          notes    'open-rectangle'
-          name     'Insert blank space to fill the space of the region-rectangle. This pushes the previous contents of the region-rectangle to the right.'
-      end
-      entry do
-          command  'C-x r N'
-          notes    'rectangle-number-lines'
-          name     'Insert line numbers along the left edge of the region-rectangle. This pushes the previous contents of the region-rectangle to the right.'
-      end
-      entry do
-          command  'C-x r c'
-          notes    'clear-rectangle'
-          name     'Clear the region-rectangle by replacing all of its contents with spaces.'
-      end
-      entry do
-          command  'M-x delete-whitespace-rectangle'
-          notes    'delete-whitespace-rectangle'
-          name     'Delete whitespace in each of the lines on the specified rectangle, starting from the left edge column of the rectangle.'
-      end
-      entry do
-          command  'C-x r t string <RET>'
-          notes    'string-rectangle'
-          name     'Replace rectangle contents with string on each line.'
-      end
-      entry do
-          command  'M-x string-insert-rectangle <RET> string <RET>'
-          notes    'string-insert-rectangle'
-          name     'Insert string on each line of the rectangle.'
-      end
-      entry do
-          command  'C-x <SPC>'
-          notes    'rectangle-mark-mode'
-          name     'Toggle Rectangle Mark mode. When this mode is active, the region-rectangle is highlighted and can be shrunk/grown, and the standard kill and yank commands operate on it.'
-      end
-    end
-  category do
     id 'Motion'
 
     entry do 
@@ -232,7 +173,7 @@ cheatsheet do
     entry do 
       command 'M-?'
       notes '`possible-completions`'
-      name 'List the possible completions of the text before point. '
+      name 'List the possible completions of the text before point'
     end
     entry do 
       command 'M-*'
@@ -303,6 +244,65 @@ cheatsheet do
     end
   end
 
+  category do
+    id 'Rectangles'
+    
+    entry do
+        command 'C-x r k'
+        notes '`kill-rectangle`'
+        name  'Kill the text of the region-rectangle, saving its contents as the "last killed rectangle"'
+    end
+    entry do
+        command  'C-x r M-w'
+        notes    '`copy-rectangle-as-kill`'
+        name     'Save the text of the region-rectangle as the "last killed rectangle"'
+    end
+    entry do
+        command  'C-x r d'
+        notes    '`delete-rectangle`'
+        name     'Delete the text of the region-rectangle '
+    end
+    entry do
+        command  'C-x r y'
+        notes    '`yank-rectangle`'
+        name     'Yank the last killed rectangle with its upper left corner at point'
+    end
+    entry do
+        command  'C-x r o'
+        notes    '`open-rectangle`'
+        name     'Insert blank space to fill the space of the region-rectangle. This pushes the previous contents of the region-rectangle to the right'
+    end
+    entry do
+        command  'C-x r N'
+        notes    '`rectangle-number-lines`'
+        name     'Insert line numbers along the left edge of the region-rectangle. This pushes the previous contents of the region-rectangle to the right'
+    end
+    entry do
+        command  'C-x r c'
+        notes    '`clear-rectangle`'
+        name     'Clear the region-rectangle by replacing all of its contents with spaces'
+    end
+    entry do
+        command  'M-x'
+        notes    '`delete-whitespace-rectangle`'
+        name     'Delete whitespace in each of the lines on the specified rectangle, starting from the left edge column of the rectangle'
+    end
+    entry do
+        command  'C-x r t'
+        notes    '`string-rectangle`'
+        name     'Replace rectangle contents with string on each line'
+    end
+    entry do
+        command  'M-x'
+        notes    '`string-insert-rectangle`'
+        name     'Insert string on each line of the rectangle'
+    end
+    entry do
+        command  'C-x <space>'
+        notes    '`rectangle-mark-mode`'
+        name     'Toggle Rectangle Mark mode. When this mode is active, the region-rectangle is highlighted and can be shrunk/grown, and the standard kill and yank commands operate on it'
+    end
+  end
 
   category do
     id 'Miscellaneous'
@@ -311,7 +311,7 @@ cheatsheet do
       command 'C-x'
       command 'C-r'
       notes '`re-read-init-file`'
-      name 'Read and execute the contents of inputrc file. '
+      name 'Read and execute the contents of inputrc file'
     end
     entry do
       command 'C-g'
@@ -360,7 +360,7 @@ cheatsheet do
     entry do
       command 'C-]'
       notes '`character-search`'
-      name 'Move to the next occurance of current character under cursor. '
+      name 'Move to the next occurance of current character under cursor'
     end
     entry do
       command 'M-C-]'
@@ -383,7 +383,7 @@ cheatsheet do
       name 'When in emacs mode, switch to vi mode'
     end
     entry do
-      command 'M-0, M-1,'
+      command 'M-0, M-1, ...'
       notes '`digit-argument`'
       name 'Specify the digit to the argument'
     end
