@@ -20,7 +20,7 @@ cheatsheet do
     end
     entry do
       command 'CTRL+SHIFT+L'
-      name 'Select grammer (set/change syntax)'
+      name 'Select grammar (set/change syntax)'
     end
   end
 
