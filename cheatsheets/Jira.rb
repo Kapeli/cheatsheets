@@ -1,5 +1,5 @@
 cheatsheet do
-  title 'Jira'
+  title 'Jira Keyboard Shortcuts'
   docset_file_name 'Jira'
   keyword 'jira'
   source_url 'https://jira.atlassian.com/secure/ViewKeyboardShortcuts!default.jspa'
