@@ -1,50 +1,50 @@
 cheatsheet do
-  title 'Jira Keyboard Shortcuts'
-  docset_file_name 'Jira'
+  title 'Jira Shortcuts'
+  docset_file_name 'Jira_Shortcuts'
   keyword 'jira'
-  source_url 'https://jira.atlassian.com/secure/ViewKeyboardShortcuts!default.jspa'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Global Shortcuts'
 
     entry do
       command 'gd'
-      name 'Go to Dasboard'
+      name 'Go to dasboard'
     end
 
     entry do
       command 'gp'
-      name 'Browse to a Project'
+      name 'Browse to a project'
     end
 
     entry do
       command 'ga'
-      name 'Go to Agile'
+      name 'Go to agile'
     end
 
     entry do
       command 'gi'
-      name 'Find Issues'
+      name 'Find issues'
     end
 
     entry do
       command 'gg'
-      name 'Administration Quick Search'
+      name 'Administration quick search'
     end
 
     entry do
       command '/'
-      name 'Quick Search'
+      name 'Quick search'
     end
 
     entry do
       command 'c'
-      name 'Create an Issue'
+      name 'Create an issue'
     end
 
     entry do
       command '.'
-      name 'Quick Operations'
+      name 'Quick operations'
     end
 
     entry do
@@ -53,8 +53,8 @@ cheatsheet do
     end
 
     entry do
-      command 'Ctrl+Alt+S'
-      name 'Form Submit'
+      command 'CTRL+ALT+S'
+      name 'Form submit'
     end
   end
 
@@ -63,37 +63,33 @@ cheatsheet do
 
     entry do
       command 'o'
-      name 'View selected issue'
-    end
-
-    entry do
       command 'Enter'
       name 'View selected issue'
     end
 
     entry do
       command 'j'
-      name 'Next Issue'
+      name 'Next issue'
     end
 
     entry do
       command 'k'
-      name 'Previous Issue'
+      name 'Previous issue'
     end
 
     entry do
       command '['
-      name 'Dock/Undock the FIlters Panel'
+      name 'Dock/undock the filters panel'
     end
 
     entry do
       command 'n'
-      name 'Next Activity'
+      name 'Next activity'
     end
 
     entry do
       command 'p'
-      name 'Previous Activity'
+      name 'Previous activity'
     end
 
     entry do
@@ -113,7 +109,7 @@ cheatsheet do
 
     entry do
       command 'z'
-      name 'Detail View Order by'
+      name 'Detail view order by'
     end
   end
 
