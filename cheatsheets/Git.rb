@@ -185,7 +185,9 @@ cheatsheet do
       name 'Delete a remote branch'
       notes "
       ```
-      git push <remote> :<branch>
+      git push origin --delete <branch>
+      # alternatively
+      git push origin :<branch>
       ```"
     end
 
