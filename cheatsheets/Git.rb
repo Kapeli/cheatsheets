@@ -263,8 +263,21 @@ cheatsheet do
       name 'Delete a branch on the remote'
       notes "
       ```
+      git push <remote> --delete <branch>
+      # alternatively
       git push <remote> :<branch>
       ```"
+    end
+
+    entry do
+      name 'Track a remote repository'
+      notes "
+      ```
+      git remote add --track <remote-branch> <remote> <project.git>
+      ```
+      Ex: pull updates from the root of a forked repo
+      via http://bradlyfeeley.com/2008/09/03/update-a-github-fork-from-the-original-repo/
+      "
     end
     
     entry do
