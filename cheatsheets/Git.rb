@@ -358,7 +358,15 @@ cheatsheet do
       git revert <commit>
       ```"
     end
-    
+
+    entry do
+      name 'Restore a specific file from a previous commit'
+      notes "
+      ```
+      git checkout <commit> <file>
+      ```"
+    end
+
     entry do
       name 'Reset your HEAD pointer to a previous commit'
       notes <<-'END'
