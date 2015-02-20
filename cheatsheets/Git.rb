@@ -261,7 +261,7 @@ cheatsheet do
       name 'Track a remote repository'
       notes "
       ```
-      git remote add --track <remote-branch> <remote> <project.git>
+      git remote add --track <remote-branch> <remote> <url>
       ```
       "
     end
