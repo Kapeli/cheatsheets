@@ -3,10 +3,10 @@ cheatsheet do
   docset_file_name 'Git'
   keyword 'git'
   source_url 'http://cheat.kapeli.com'
-  
+
   category do
     id 'Create'
-    
+
     entry do
       name 'Clone an existing repository'
       notes "
@@ -14,7 +14,7 @@ cheatsheet do
         git clone ssh://user@domain.tld/repo.git
         ```"
     end
-    
+
     entry do
       name 'Clone an existing repository and all its sub-modules recursively'
       notes "
@@ -22,27 +22,27 @@ cheatsheet do
         git clone --recursive ssh://user@domain.tld/repo.git
         ```"
     end
-    
+
     entry do
       name 'Create a new local repository'
       notes "
       ```
       git init
       ```"
-    end 
+    end
   end
-  
+
   category do
     id 'Local Changes'
-    
+
     entry do
-      name 'List changed files in your working directory' 
+      name 'List changed files in your working directory'
       notes "
       ```
       git status
       ```"
     end
-    
+
     entry do
       name 'List changes to tracked files'
       notes "
@@ -50,7 +50,7 @@ cheatsheet do
       git diff
       ```"
     end
-    
+
     entry do
       name 'Add all current changes to the next commit'
       notes "
@@ -58,7 +58,7 @@ cheatsheet do
       git add .
       ```"
     end
-    
+
     entry do
       name 'Add some changes to the next commit'
       notes "
@@ -66,7 +66,7 @@ cheatsheet do
       git add -p <file>
       ```"
     end
-    
+
     entry do
       name 'Commit all local changes in tracked files'
       notes "
@@ -74,7 +74,7 @@ cheatsheet do
       git commit -a
       ```"
     end
-    
+
     entry do
       name 'Commit previously staged changes'
       notes "
@@ -82,7 +82,7 @@ cheatsheet do
       git commit
       ```"
     end
-    
+
     entry do
       name 'Change the last commit'
       notes "
@@ -92,10 +92,10 @@ cheatsheet do
       Note: You shouldn't amend published commits!"
     end
   end
-  
+
   category do
     id 'Commit History'
-    
+
     entry do
       name 'Show all commits'
       notes "
@@ -103,7 +103,7 @@ cheatsheet do
       git log
       ```"
     end
-    
+
     entry do
       name 'Show changes over time for a specific file'
       notes "
@@ -111,7 +111,7 @@ cheatsheet do
       git log -p <file>
       ```"
     end
-    
+
     entry do
       name 'Who changed what and when in file'
       notes "
@@ -119,7 +119,7 @@ cheatsheet do
       git blame <file>
       ```"
     end
-    
+
     entry do
       name 'Store changes temporarily'
       notes "
@@ -127,7 +127,7 @@ cheatsheet do
       git stash
       ```"
     end
-    
+
     entry do
       name 'Remove and apply stashed changes'
       notes "
@@ -135,12 +135,12 @@ cheatsheet do
       git stash pop
       ```"
     end
-      
+
   end
-  
+
   category do
     id 'Branches & Tags'
-    
+
     entry do
       name 'List all existing branches'
       notes "
@@ -148,7 +148,7 @@ cheatsheet do
       git branch
       ```"
     end
-    
+
     entry do
       name 'Switch HEAD branch'
       notes "
@@ -156,7 +156,7 @@ cheatsheet do
       git checkout <branch>
       ```"
     end
-    
+
     entry do
       name 'Create a new branch based on your current HEAD'
       notes "
@@ -164,7 +164,7 @@ cheatsheet do
       git branch <new-branch>
       ```"
     end
-    
+
     entry do
       name 'Create a new tracking branch based on a remote branch'
       notes "
@@ -172,7 +172,7 @@ cheatsheet do
       git branch --track <new-branch> <remote-branch>
       ```"
     end
-    
+
     entry do
       name 'Delete a local branch'
       notes "
@@ -197,10 +197,10 @@ cheatsheet do
       ```"
     end
   end
-  
+
   category do
     id 'Update & Publish'
-    
+
     entry do
       name 'List all currently configured remotes'
       notes "
@@ -208,7 +208,7 @@ cheatsheet do
       git remote -v
       ```"
     end
-    
+
     entry do
       name 'Show information about a remote'
       notes "
@@ -216,7 +216,7 @@ cheatsheet do
       git remote show <remote>
       ```"
     end
-    
+
     entry do
       name 'Add new remote repository'
       notes "
@@ -224,7 +224,7 @@ cheatsheet do
       git remote add <remote> <url>
       ```"
     end
-    
+
     entry do
       name "Download all changes from remote, but don't merge into HEAD"
       notes "
@@ -248,7 +248,7 @@ cheatsheet do
       git pull <remote> <branch>
       ```"
     end
-    
+
     entry do
       name 'Publish local changes on a remote'
       notes "
@@ -256,7 +256,7 @@ cheatsheet do
       git push <remote> <branch>
       ```"
     end
-    
+
     entry do
       name 'Track a remote repository'
       notes "
@@ -265,7 +265,7 @@ cheatsheet do
       ```
       "
     end
-    
+
     entry do
       name 'Publish your tags'
       notes "
@@ -274,10 +274,10 @@ cheatsheet do
       ```"
     end
   end
-  
+
   category do
     id 'Merge & Rebase'
-    
+
     entry do
       name 'Merge branch into your current HEAD'
       notes "
@@ -285,7 +285,7 @@ cheatsheet do
       git merge <branch>
       ```"
     end
-    
+
     entry do
       name 'Rebase your current HEAD onto branch'
       notes "
@@ -294,7 +294,7 @@ cheatsheet do
       ```
       Note: You shouldn't rebase published commits!"
     end
-    
+
     entry do
       name 'Abort a rebase'
       notes "
@@ -302,7 +302,7 @@ cheatsheet do
       git rebase --abort
       ```"
     end
-    
+
     entry do
       name 'Continue a rebase after resolving conflicts'
       notes "
@@ -310,7 +310,7 @@ cheatsheet do
       git rebase --continue
       ```"
     end
-    
+
     entry do
       name 'Resolve conflicts using your configured merge tool'
       notes "
@@ -318,7 +318,7 @@ cheatsheet do
       git mergetool
       ```"
     end
-    
+
     entry do
       name 'Manually resolve conflicts using your editor and mark file as resolved'
       notes <<-'END'
@@ -328,13 +328,13 @@ cheatsheet do
         ```
       END
     end
-    
-    
+
+
   end
-  
+
   category do
     id 'Undo'
-    
+
     entry do
       name 'Discard all local changes in your working directory'
       notes "
@@ -342,7 +342,7 @@ cheatsheet do
       git reset --hard HEAD
       ```"
     end
-    
+
     entry do
       name 'Discard local changes in a specific file'
       notes "
@@ -350,7 +350,7 @@ cheatsheet do
       git checkout HEAD <file>
       ```"
     end
-    
+
     entry do
       name 'Revert a commit by providing a new commit with contrary changes'
       notes "
@@ -358,7 +358,15 @@ cheatsheet do
       git revert <commit>
       ```"
     end
-    
+
+    entry do
+      name 'Restore a specific file from a previous commit'
+      notes "
+      ```
+      git checkout <commit> <file>
+      ```"
+    end
+
     entry do
       name 'Reset your HEAD pointer to a previous commit'
       notes <<-'END'
@@ -382,7 +390,7 @@ cheatsheet do
       END
     end
   end
-  
+
   notes <<-'END'
     * Based on the cheat sheet from [Tower.app](http://www.git-tower.com/). The original can be found [here](http://www.git-tower.com/blog/git-cheat-sheet/).
     * Converted and extended by [Jens Kohl](https://github.com/jk).
