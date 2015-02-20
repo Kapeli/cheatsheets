@@ -113,6 +113,15 @@ cheatsheet do
     end
 
     entry do
+      name 'Show changes over time for a specific committer'
+      notes "
+      ```
+      git log --author=<committer name>
+      ```
+      Note: `<committer name>` is a pattern, so `Ed` will match `Edward Smith`. Quotes are optional if the pattern doesn't contain spaces."
+    end
+
+    entry do
       name 'Who changed what and when in file'
       notes "
       ```
