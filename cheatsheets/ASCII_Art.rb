@@ -393,10 +393,10 @@ cheatsheet do
     end
     
     entry do
-        command 'O=('-'Q)'
+        command 'O=(\'-\'Q)'
         name 'Punch!'
     end
-    
+
     entry do
         command '(ಠ_ಠ) '
         name 'Serious Face'
@@ -590,7 +590,7 @@ cheatsheet do
       end
       
       entry do
-          command ''-'_@_'
+          command '\'-\'_@_'
           name 'Snail'
       end
     
@@ -662,11 +662,6 @@ cheatsheet do
   
   category do
     id 'Other ♪♫'
-    
-    entry do
-        command ' ̿' ̿'\̵͇̿̿\з=(◕_◕)=ε/̵͇̿̿/'̿'̿ ̿'
-        name 'Pistols'
-    end
     
     entry do
         command 'ᕙ(⇀‸↼‶)ᕗ '
