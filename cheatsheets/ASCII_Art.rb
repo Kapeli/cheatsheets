@@ -67,6 +67,27 @@ cheatsheet do
       command 'ノ┬─┬ノ ︵ ( \o°o)\ '
       name 'Reverse table flip'
     end
+    
+    entry do
+        command '┻━┻︵ \(°□°)/ ︵ ┻━┻ '
+        name 'Flip All Dem Table'
+    end
+    
+    entry do
+        command '(˚Õ˚)ر ~~~~╚╩╩╝'
+        name 'Epic Table Flip'
+    end
+    
+    entry do
+        command '┬──┬ ノ( ゜-゜ノ)'
+        name 'Ok. I Put Table Back '
+    end
+    
+    entry do
+        command '┏━┓┏━┓┏━┓ ︵ /(^.^/) '
+        name 'Put More Tables Back '
+    end
+
   end
 
   category do
@@ -104,7 +125,7 @@ cheatsheet do
 
     entry do
       command '༼ ͒ ̶ ͒༽'
-      name "Neutral troll"
+      name 'Neutral troll'
     end
 
     entry do
@@ -121,25 +142,56 @@ cheatsheet do
       command '༼ิ･ɷ･ิ༽'
       name 'Cute troll'
     end
+    
+    entry do
+        command '༼;´༎ຶ ༎ຶ༽'
+        name 'Creepy bleeding eyes guy'
+    end
+    
+    entry do
+        command 'ส็็็็็็็็็็็็็็็็็็็็็็็็็༼ ຈل͜ຈ༽ส้้้้้้้้้้้้้้้้้้้้้้้'
+        name 'Meat head flexing'
+    end
+    
   end
-
+  
   category do
-    id 'Dead Emoticons (✖╭╮✖)'
-
-    entry do
-      command '(✖╭╮✖)'
-      name 'Dead face'
-    end
-
-    entry do
-      command '✖‿✖'
-      name 'Happy dead face'
-    end
-
-    entry do
-      command '٩(×̯×)۶'
-      name 'Dead guy'
-    end
+      id 'FU Emoticons'
+      
+      entry do
+          command '┌∩┐(◣_◢)┌∩┐'
+          name 'FU'
+      end
+      
+      entry do
+          command 't(-.-t) '
+          name 'Fuck Off'
+      end
+      
+      entry do
+          command '(ಠ_ಠ)┌∩┐'
+          name 'Seriously, FU'
+      end
+      
+      entry do
+          command '╭∩╮（︶︿︶）╭∩╮'
+          name 'I don\'t care'
+      end
+      
+      entry do
+          command '┌∩┐(‿|‿)┌∩┐ '
+          name 'The Finger And The Ass'
+      end
+      
+      entry do
+          command '┌∩┐(◟‿◞◟‿◞)┌∩┐'
+          name 'The Finger And The Boobs'
+      end
+      
+      entry do
+          command '╭∩╮ (òÓ,) ╭∩╮'
+          name 'Oh Yeah? WFU'
+      end
   end
 
   category do
@@ -158,6 +210,16 @@ cheatsheet do
     entry do
       command 'ლ(ٱ٥ٱლ)'
       name 'Why? oh god why? tears'
+    end
+    
+    entry do
+        command 'ಥ_ಥ'
+        name 'Fuckin Man Tears'
+    end
+    
+    entry do
+        command '(╥﹏╥) '
+        name 'Sad'
     end
 
     entry do
@@ -178,7 +240,7 @@ cheatsheet do
   end
 
   category do
-    id 'Kissing Emoticons ლ(|||⌒εー|||)ლ'
+    id 'Kissing, Hugging, In Love Emoticons'
 
     entry do
       command '(╯3╰)'
@@ -199,10 +261,6 @@ cheatsheet do
       command 'ლ(|||⌒εー|||)ლ'
       name 'Wink kiss'
     end
-  end
-
-  category do
-    id 'Hugging Emoticons (づ￣ ³￣)づ'
 
     entry do
       command '(づ｡◕‿‿◕｡)づ'
@@ -218,34 +276,86 @@ cheatsheet do
       command '(っ˘̩╭╮˘̩)っ'
       name 'Sad hug'
     end
+    
+    entry do
+        command '(づ｡◕‿‿◕｡)づ'
+        name 'Hugs'
+    end
+    
+    entry do
+        command '(づ￣ ³￣)づ'
+        name 'Hugs And Kisses'
+    end
+    
+    entry do
+        command '( ˘ ³˘)❤ '
+        name 'Kisses Thingies 1'
+    end
+    
+    entry do
+        command '（*＾3＾）'
+        name 'Kisses Thingies 2'
+    end
+    
+    entry do
+        command '(´ε｀ )♡'
+        name 'Kisses Thingies 3'
+    end
+    
+    entry do
+        command '(っ◕‿◕)っ'
+        name 'Hug Me'
+    end
+    
+    entry do
+        command '(♥_♥)'
+        name 'Love in my eyes'
+    end
+    
+    entry do
+        command '(✿ ♥‿♥)'
+        name 'In Love'
+    end
+    
+    entry do
+        command '../(,”)\♥ ♥(“.)'
+        name 'In Love, Holding Hands'
+    end
+    
+    entry do
+        command '✿◕ ‿ ◕✿'
+        name 'Pretty Feels Thingies 1'
+    end
+    
+    entry do
+        command '❀◕ ‿ ◕❀'
+        name 'Pretty Feels Thingies 2'
+    end
+    
+    entry do
+        command '❁◕ ‿ ◕❁'
+        name 'Pretty Feels Thingies 3'
+    end
+    
+    entry do
+        command '✌⊂(✰‿✰)つ✌'
+        name 'Stars in my Eyes'
+    end
+    
+    entry do
+        command '\(ˆ˚ˆ)/'
+        name 'Yay!'
+    end
+    
+    entry do
+        command 'Ｏ(≧▽≦)Ｏ'
+        name 'OMG! Insane Happy'
+    end
+    
   end
 
   category do
-    id 'Thinking Emoticons (;¬_¬)'
-
-    entry do
-      command '(;¬_¬)'
-      name 'I\'m judging you'
-    end
-
-    entry do
-      command '（；¬＿¬)'
-      name 'I\'m severely judging you'
-    end
-
-    entry do
-      command '( ͡° ͜ʖ ͡°)'
-      name 'How you doing?'
-    end
-
-    entry do
-      command '(－‸ლ)'
-      name 'Facepalm'
-    end
-  end
-
-  category do
-    id 'Hurt Emoticons （。_°☆＼(- – )'
+    id 'Hurt, Angry, Sad Emoticons （。_°☆＼(- – )'
 
     entry do
       command '（。_°☆＼(- – )'
@@ -260,6 +370,41 @@ cheatsheet do
     entry do
       command '☆￣(＞。☆)'
       name 'Punch and black eye'
+    end
+    
+    entry do
+        command '(>ლ)'
+        name 'Facepalm'
+    end
+    
+    entry do
+        command 't(ಠ益ಠt)'
+        name 'Rage'
+    end
+    
+    entry do
+        command '◕_◕'
+        name 'OMG Wat?'
+    end
+    
+    entry do
+        command 'ლ(ಠ益ಠლ)'
+        name 'Anon'
+    end
+    
+    entry do
+        command 'O=(\'-\'Q)'
+        name 'Punch!'
+    end
+
+    entry do
+        command '(ಠ_ಠ) '
+        name 'Serious Face'
+    end
+    
+    entry do
+        command '(⋟﹏⋞)'
+        name 'Angry Face'
     end
   end
 
@@ -308,31 +453,323 @@ cheatsheet do
   end
   
   category do
+      id 'Thinking Emoticons (;¬_¬)'
+      
+      entry do
+          command '(;¬_¬)'
+          name 'I\'m judging you'
+      end
+      
+      entry do
+          command '（；¬＿¬)'
+          name 'I\'m severely judging you'
+      end
+      
+      entry do
+          command '( ͡° ͜ʖ ͡°)'
+          name 'How you doing?'
+      end
+      
+      entry do
+          command '(－‸ლ)'
+          name 'Facepalm'
+      end
+  end
+  
+  category do
+      id 'Other Emoticons'
+    
+      entry do
+          command '(òÓ,)_\,,/'
+          name 'Oh Hell Yeah'
+      end
+      
+      entry do
+          command '(☞ﾟ∀ﾟ)☞'
+          name 'Right Back At Ya! '
+      end
+      
+      entry do
+          command '༼ つ ◕_◕ ༽つ'
+          name 'Gimme'
+      end
+      
+      entry do
+          command '【ツ】'
+          name 'Happy Square'
+      end
+      
+      entry do
+          command '（ﾉ´д｀）'
+          name 'So Sorry'
+      end
+      
+      entry do
+          command '.(•̀ᴗ•́)و ̑̑ '
+          name 'Yes! Success'
+      end
+      
+      entry do
+          command '¯\_(ツ)_/¯ '
+          name 'Meh! Thingies 1'
+      end
+      
+      entry do
+          command 'ヽ(。_°)ノ '
+          name 'Meh! Thingies 2'
+      end
+      
+      entry do
+          command 'ヾ(ｏ･ω･)ﾉ '
+          name 'Meh! Thingies 3'
+      end
+      
+      entry do
+          command '( •᷄ὤ•᷅)？'
+          name 'Wot? I\'m Confused'
+      end
+      
+      entry do
+          command '(| - _ - |)'
+          name 'Atish'
+      end
+      
+      entry do
+          command '|_・) |･ω･｀)'
+          name 'Shit, Hide!'
+      end
+      
+      entry do
+          command '⎦˚◡˚⎣ (｡◝‿◜｡)'
+          name 'Happieee'
+      end
+      
+  end
+  
+  category do
+      id 'Animal Emoticons'
+      
+      entry do
+          command '¸.·´¯`·.´¯`·.¸¸.·´¯`·.¸><(((º>'
+          name 'Fish Swimming'
+      end
+      
+      entry do
+          command 'ˁ˚ᴥ˚ˀ'
+          name 'Polar Bear'
+      end
+      
+      entry do
+          command '@( * O * )@ '
+          name 'Koala'
+      end
+      
+      entry do
+          command '龴ↀ◡ↀ龴'
+          name 'Cat'
+      end
+      
+      entry do
+          command '----{,_,"> '
+          name 'Mouse'
+      end
+      
+      entry do
+          command 'Ƹ̵̡Ӝ̵̨̄Ʒ'
+          name 'Butterfly'
+      end
+      
+      entry do
+          command '^⨀ᴥ⨀^'
+          name 'Cute Cat'
+      end
+      
+      entry do
+          command '<(^.^)> '
+          name 'Happy Cat'
+      end
+      
+      entry do
+          command '\'-\'_@_'
+          name 'Snail'
+      end
+    
+  end
+  
+  category do
+      id 'Boobs & Dick Emoticons'
+      
+      entry do
+          command '(. )( .)'
+          name 'Boobies'
+      end
+      
+      entry do
+          command '( o Y o )'
+          name 'Big Boobies'
+      end
+      
+      entry do
+          command '( ๏ Y ๏ )'
+          name 'Perky Boobies'
+      end
+      
+      entry do
+          command '[.][.]'
+          name 'Russian Boobies'
+      end
+      
+      entry do
+          command '8=D'
+          name 'Small D'
+      end
+      
+      entry do
+          command '8=============D '
+          name 'Big D'
+      end
+      
+      entry do
+          command '8~~~D'
+          name 'A Limp D'
+      end
+      
+      entry do
+          command '~~o'
+          name 'Sperm'
+      end
+      
+    end
+  
+  category do
+      id 'Dead Emoticons (✖╭╮✖)'
+      
+      entry do
+          command '(✖╭╮✖)'
+          name 'Dead face'
+      end
+      
+      entry do
+          command '✖‿✖'
+          name 'Happy dead face'
+      end
+      
+      entry do
+          command '٩(×̯×)۶'
+          name 'Dead guy'
+      end
+  end
+  
+  category do
     id 'Other ♪♫'
-
+    
+    entry do
+        command 'ᕙ(⇀‸↼‶)ᕗ '
+        name 'Flex, Don\'t Mess'
+    end
 
     entry do
-      notes '
-          ```
-          ♪♫♬♪♪♫♪♪♪♫♬♪♫♪♪♫♬♪♪♪♫♪♫♬♪♪♫♪♪♪♫
-          ♬♪♫♪♪♫♬♪♪♪♫♪♫♬♪♪♫♪♪♪♫♬_____♪♫♪♪
-          ♫♪♪♪_____♬♪♫♪♫♬♪♪♫♪♪♪♫♪_____♫♬♪♪
-          ♫♪♪♪_____♫♬♪♫♪♪♫♬♪♪♪♪♪♪_____♫♫♬
-          ♪♪♫♪_____♪♪____♫♪♪♪____♫_____♬♪♪♫
-          ♪♪♪♫_____♪______♬______♪_____♫♪♪♫
-          ♬♪♪♪_____♪______♫______♪_____♫♬♪♪
-          ♫♪♪♪_____♪____♫♪♫♬♪♪♫♪♪♪♫♬♪♫♪♪♫♪
-          ♬♪♪♪_____♪___♫♪_____________♫♬♪♪♫
-          ♪♪♫♪_____♪__♫♬_______________♪♪♫♪
-          ♪♪♫♪__________♬______________♫♪♪♫
-          ♬♪♪♪___________♫♪♪♪♫♪______♫♬♪♫
-          ♫♪♪♪_______________________♪♫♬♪♫
-          ♫♪♪♪♫_____________________♬♪♫♪♪♫
-          ♬♪♪♪♫♪___________________♫♬♪♪♫♪♫
-          ♪♫♬♪♪♫♪♪♪♫♬♪♫♪♪♫♬♪♪♪♫♪♫♬♪♪♫♪♪♪♫
-          ```'
-      name 'Rock On!'
+        command '[¬º-°]¬'
+        name 'Zombie'
     end
+
+    entry do
+        command '(⊙_◎)'
+        name 'Crazy Bastard'
+    end
+    
+    entry do
+        command '(⊙﹏⊙✿) '
+        name 'Crazy Bitch'
+    end
+    
+    entry do
+        command 'd[-_-]b '
+        name 'Headphones'
+    end
+    
+    entry do
+        command '┏(-_-)┛┗(-_-﻿ )┓┗(-_-)┛┏(-_-)┓'
+        name 'Party Time'
+    end
+    
+    entry do
+        command '( •_•) ( •_•)>⌐■-■ (⌐■_■) '
+        name 'Sunglasses'
+    end
+    
+    
+    entry do
+        command '-╤╗_(◙◙)_╔╤- - - - \o/ \o/ \o/'
+        name 'Robber'
+    end
+    
+    entry do
+        command '( ●_●)-((⌼===<((() ≍≍≍≍≍ ♒ ✺ ♒ ZAP! '
+        name 'You Vaporized!'
+    end
+    
+    entry do
+        command '(-.-)Zzz... '
+        name 'Sleeping'
+    end
+    
+    entry do
+        command '☁ ▅▒░☼‿☼░▒▅ ☁'
+        name 'Sunny Day'
+    end
+    
+    entry do
+        command '( ͡° ͜ʖ ͡°) '
+        name 'Lenny Face'
+    end
+
+    entry do
+        command '█▄▄ ███ █▄▄ █▄█▄█ █▄█ ▀█▀'
+        name 'LOLWUT'
+    end
+    
+    entry do
+        command '5% █ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅ ̲̅]'
+        name 'Battery low'
+    end
+    
+    entry do
+        command '✿ (◠◡(◠◡◠)◡◠)✿'
+        name 'Me And Ma Girls'
+    end
+    
+    entry do
+        command '(-(-_(-_-)_-)-)'
+        name 'Me and Ma Boys'
+    end
+    
+    
+    entry do
+        command '¸¸♬·¯·♩¸¸♪·¯·♫¸¸'
+        name 'Musical'
+    end
+    
+    entry do
+        command '[ ]--["""""|"""""|"""""|"""""|]>----------'
+        name 'Needle'
+    end
+    
+    entry do
+        command 'c[_]'
+        name 'Coffee'
+    end
+    
+    entry do
+        command '( ̲̅:̲̅:̲̅:̲̅[̲̅ ̲̅]̲̅:̲̅:̲̅:̲̅ )'
+        name 'Band Aid'
+    end
+    
+    entry do
+        command 'o()xxxx[{::::::::::::::::::::::::::::::::::>'
+        name 'Sword'
+    end
+    
   end
 
   notes '
