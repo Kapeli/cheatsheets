@@ -1,6 +1,6 @@
 cheatsheet do
-  title 'RSpec Expectations 3.2'               # Will be displayed by Dash in the docset list
-  docset_file_name 'RSpec Expectations 3.2'    # Used for the filename of the docset
+  title 'RSpec Expectations'               # Will be displayed by Dash in the docset list
+  docset_file_name 'RSpec Expectations'    # Used for the filename of the docset
   keyword 'rspec'                              # Used as the initial search keyword (listed in Preferences > Docsets)
 
   introduction <<-MD
