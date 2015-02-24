@@ -1,12 +1,9 @@
-require "active_support"
-require "active_support/core_ext"
-
 cheatsheet do
   title 'RSpec Expectations 3.2'               # Will be displayed by Dash in the docset list
   docset_file_name 'RSpec Expectations 3.2'    # Used for the filename of the docset
   keyword 'rspec'                              # Used as the initial search keyword (listed in Preferences > Docsets)
 
-  introduction <<-MD.strip_heredoc
+  introduction <<-MD
     Each matcher can be used with `expect(..).to` or `expect(..).not_to` to define positive and negative expectations respectively on an object. Most matchers can also be accessed using the `(...).should` and `(...).should_not` syntax; see [using should syntax](https://github.com/rspec/rspec-expectations/blob/master/Should.md) for why we recommend using expect.
   MD
 
@@ -27,7 +24,7 @@ cheatsheet do
     entry do
       name 'Object equivalence'
       command "eq"
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect(actual).to eq(expected) # passes if actual == expected
         ```
@@ -38,7 +35,7 @@ cheatsheet do
       name "Optional APIs for identity/equibalence"
       command "eql"
       command "equal"
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect(actual).to eql(expected)   # passes if actual.eql?(expected)
         expect(actual).to equal(expected) # passes if actual.equal?(expected)
@@ -59,7 +56,7 @@ cheatsheet do
       command "be_within .. of"
       command "start_with"
       command "end_with"
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect(actual).to be >  expected
         expect(actual).to be >= expected
@@ -82,7 +79,7 @@ cheatsheet do
       command "be_instance_of"
       command "be_kind_of"
       command "respond_to"
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect(actual).to be_instance_of(expected)
         expect(actual).to be_kind_of(expected)
@@ -99,7 +96,7 @@ cheatsheet do
       command "be false"
       command "be_nil"
       command "exist"
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect(actual).to be_truthy    # passes if actual is truthy (not nil or false)
         expect(actual).to be true      # passes if actual == true
@@ -116,7 +113,7 @@ cheatsheet do
       name "Expecting errors"
       command 'raise_error'
 
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect { ... }.to raise_error
         expect { ... }.to raise_error(ErrorClass)
@@ -129,7 +126,7 @@ cheatsheet do
     entry do
       name "Expecting throws"
       command "throw_symbol"
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect { ... }.to throw_symbol
         expect { ... }.to throw_symbol(:symbol)
@@ -143,7 +140,7 @@ cheatsheet do
       command "be_*"
       command "have_*"
 
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect(actual).to be_xxx         # passes if actual.xxx?
         expect(actual).to have_xxx(:arg) # passes if actual.has_xxx?(:arg)
@@ -163,7 +160,7 @@ cheatsheet do
       command 'include'
       command 'match_array'
       command 'contain_exactly'
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect(actual).to include(expected)
         expect(array).to match_array(expected_array)
@@ -187,7 +184,7 @@ cheatsheet do
     entry do
       name "Ranges (1.9 only)"
       command "cover"
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect(1..10).to cover(3)
         ```
@@ -201,7 +198,7 @@ cheatsheet do
       command "change .. by_at_least"
       command "change .. by_at_most"
 
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect { object.action }.to change(object, :value).from(old).to(new)
         expect { object.action }.to change(object, :value).by(delta)
@@ -222,7 +219,7 @@ cheatsheet do
     entry do
       name "Satisfy"
       command "satisfy"
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect(actual).to satisfy { |value| value == expected }
         ```
@@ -232,7 +229,7 @@ cheatsheet do
     entry do
       name "Output capture"
       command "output"
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect { actual }.to output("some output").to_stdout
         expect { actual }.to output("some error").to_stderr
@@ -246,7 +243,7 @@ cheatsheet do
       command "yield_with_no_args"
       command "yield_with_args"
       command "yield_successive_args"
-      notes <<-'MD'.strip_heredoc
+      notes <<-'MD'
         ```ruby
         expect { |b| object.action(&b) }.to yield_control
         expect { |b| object.action(&b) }.to yield_with_no_args           # only matches no args
