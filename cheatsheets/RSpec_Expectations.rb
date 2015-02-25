@@ -1,7 +1,8 @@
 cheatsheet do
-  title 'RSpec Expectations'               # Will be displayed by Dash in the docset list
-  docset_file_name 'RSpec Expectations'    # Used for the filename of the docset
-  keyword 'rspec'                              # Used as the initial search keyword (listed in Preferences > Docsets)
+  title 'RSpec Expectations'
+  docset_file_name 'RSpec Expectations'
+  keyword 'rspec'
+  source_url 'http://cheat.kapeli.com'
 
   introduction <<-MD
     Each matcher can be used with `expect(..).to` or `expect(..).not_to` to define positive and negative expectations respectively on an object. Most matchers can also be accessed using the `(...).should` and `(...).should_not` syntax; see [using should syntax](https://github.com/rspec/rspec-expectations/blob/master/Should.md) for why we recommend using expect.
