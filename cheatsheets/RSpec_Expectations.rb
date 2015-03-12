@@ -1,6 +1,6 @@
 cheatsheet do
   title 'RSpec Expectations'
-  docset_file_name 'RSpec Expectations'
+  docset_file_name 'RSpec_Expectations'
   keyword 'rspec'
   source_url 'http://cheat.kapeli.com'
 
