@@ -33,7 +33,7 @@ cheatsheet do
     end
 
     entry do
-      name "Optional APIs for identity/equibalence"
+      name "Optional APIs for identity/equivalence"
       command "eql"
       command "equal"
       notes <<-'MD'
