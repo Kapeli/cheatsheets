@@ -37,8 +37,8 @@ category do
   header 'Landscape'
 
   entry do
-    td_notes '1080 x 1920 px'
-    td_notes '1920 x 1080 px'
+    td_notes '1242 x 2208 px (downsampled to 1080 x 1920 px)'
+    td_notes '2208 x 1242 px (downsampled to 1920 x 1080 px)'
     name 'iPhone 6 Plus'
     index_name 'iPhone 6 Plus Resolution'
     notes ''
@@ -299,7 +299,27 @@ category do
   header 'Tab Bar Height'
   header 'Table Width'
   html_class 'no-min-width'
-
+  
+  entry do
+    td_notes '54 px'
+    td_notes '132 px'
+    td_notes '146 px'
+    td_notes '1080 / 1920 px'
+    name 'iPhone 6 plus'
+    index_name 'iPhone 6 plus Design Elements'
+    notes ''
+  end
+  
+  entry do
+    td_notes '40 px'
+    td_notes '132 px'
+    td_notes '98 px'
+    td_notes '750 / 1334 px'
+    name 'iPhone 6'
+    index_name 'iPhone 6 Design Elements'
+    notes ''
+  end
+  
   entry do
     td_notes '40 px'
     td_notes '88 / 64 px'
@@ -353,10 +373,48 @@ category do
 
 end
 
+# ~~~~~~~~~~~~ Table - Default Font Sizes ihpone6 plus ~~~~~~~~~~~~
+category do
+  id 'Default Font Sizes iphone 6 plus'
+  header 'Label Type'
+  header 'Default Font Size'
+  header 'Default Font Weight'
+
+  entry do
+    td_notes '48 px'
+    td_notes 'Medium'
+    name 'Navigation bar title'
+  end
+
+  entry do
+    td_notes '48 px'
+    td_notes 'Light'
+    name 'Regular buttons'
+  end
+
+  entry do
+    td_notes '48 px'
+    td_notes 'Light'
+    name 'Table header'
+  end
+
+  entry do
+    td_notes '44 px'
+    td_notes 'Regular'
+    name 'Table label'
+  end
+
+  entry do
+    td_notes '30 px'
+    td_notes 'Regular'
+    name 'Tab bar icon labels'
+  end
+
+end
 
 # ~~~~~~~~~~~~ Table - Default Font Sizes ~~~~~~~~~~~~
 category do
-  id 'Default Font Sizes'
+  id 'Default Font Sizes iphone 5/5C/5S/6'
   header 'Label Type'
   header 'Default Font Size'
   header 'Default Font Weight'
@@ -392,6 +450,7 @@ category do
   end
 
 end
+
 
 
 # ~~~~~~~~~~~~ Footer ~~~~~~~~~~~~
