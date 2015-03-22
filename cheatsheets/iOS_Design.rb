@@ -370,6 +370,63 @@ category do
 end
 
 category do
+id 'Icons Size'
+header 'Device'
+header 'Toolbar and Navigation Bar Icon'
+header 'Tab Bar Icon'
+html_class 'no-min-width'
+entry do
+td_notes '66 x 66 px'
+td_notes '75 x 75 px (max 144 x 96 px)'
+name 'iPhone 6 Plus'
+index_name 'iPhone 6 Plus Icons Size'
+notes ''
+end
+entry do
+td_notes '44 x 44 px'
+td_notes '50 x 50 px (max 96 x 64 px)'
+name 'iPhone 6'
+index_name 'iPhone 6 Icons Size'
+notes ''
+end
+entry do
+td_notes '44 x 44 px'
+td_notes '50 x 50 px (max 96 x 64 px)'
+name 'iPhone 5/5S/5C'
+index_name 'iPhone 5/5S/5C Icons Size'
+notes ''
+end
+entry do
+td_notes '44 x 44 px'
+td_notes '50 x 50 px (max 96 x 64 px)'
+name 'iPhone 4/4S'
+index_name 'iPhone 4/4SIcons Size'
+notes ''
+end
+entry do
+td_notes '44 x 44 px'
+td_notes '50 x 50 px (max 96 x 64 px)'
+name 'iPad Retina'
+index_name 'iPad Retina Icons Size'
+notes 'iPad 3, 4, Air, iPad Mini Retina'
+end
+entry do
+td_notes '22 x 22 px'
+td_notes '25 x 25 px (max 48 x 32 px)'
+name 'iPad Mini'
+index_name 'iPad Mini Icons Size'
+notes ''
+end
+entry do
+td_notes '22 x 22 px'
+td_notes '25 x 25 px (max 48 x 32 px)'
+name 'iPad'
+index_name 'iPad Icons Size'
+notes '1st and 2nd Generation'
+end
+end
+
+category do
   id 'Default Font Sizes iPhone 5/5C/5S/6'
   header 'Label Type'
   header 'Default Font Size'
