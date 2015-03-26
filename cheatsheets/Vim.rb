@@ -694,6 +694,84 @@ cheatsheet do
     
     end
 
+    category do
+        id 'Multiple Windows'
+        
+        entry do
+            command ':e filename'
+            name 'Edit another file'
+        end
+
+        entry do
+            command ':split filename'
+            name 'Split window and load another file'
+        end
+
+        entry do
+            command 'ctrl-wv'
+            name 'Vertical split current window'
+        end
+
+        entry do
+            command 'ctrl-ws'
+            name 'horizontal split current window'
+        end
+
+        entry do
+            command 'ctrl-w up arrow'
+            name 'Move cursor up a window'
+        end
+
+        entry do
+            command 'ctrl-w ctrl-w'
+            name 'Move cursor to another window (cycle)'
+        end
+
+        entry do
+            command 'ctrl-w_'
+            name 'Maximize current window'
+        end
+
+        entry do
+            command 'ctrl-w='
+            name 'Make all equal size'
+        end
+
+        entry do
+            command '10 ctrl-w+'
+            name 'Increase window size by 10 lines'
+        end
+
+        entry do
+            command ':vsplit file'
+            name 'Vertical split'
+        end
+
+        entry do
+            command ':sview file'
+            name 'Same as split, but readonly'
+        end
+
+        entry do
+            command ':hide'
+            name 'close current window'
+        end
+
+        entry do
+            command ':only'
+            name 'Keep only this window open'
+        end
+
+        entry do
+            command ':ls'
+            name 'Show current buffers'
+        end
+
+        entry do
+            command ':b 2'
+            name 'Open buffer #2 in this window'
+        end
+    end
 
     notes <<-'END'
     * Based on the cheat sheet from [fprintf](http://www.fprintf.net/vimCheatSheet.html).
