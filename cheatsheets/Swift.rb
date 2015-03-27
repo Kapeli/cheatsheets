@@ -11,53 +11,12 @@ cheatsheet do
       notes <<-'END'
         ``` swift
         class MyClass : OptionalSuperClass, OptionalProtocol {
-            // Properties
-            var myProperty: String
-            var myOptionalProperty: String?
-            // Computed Properties
-            var myInt: Int = 1
-            var doubleInt {
-                get { return myInt * 2 }
-                set { myInt = newValue / 2 }
-            }
-            // Property Observers
-            var myOutput = 0 {
-                willSet { 
-                    println("setting myOutput to \(newValue)") 
-                }
-                didSet { // never set greater than 10
-                    if myOutput > 10 {
-                        myOutput = 10
-                    }
-                }
-            }
-            // Methods
-            func myFunc() {
-                myOptionalProperty = "Foo"
-                // Safe access
-                if let myVar = myOptionalProperty {
-                    println(myVar)
-                }
-                // Non-safe access, crashes if nil
-                println(myOptionalProperty!)
-            }
             // Initializer (initialize all non-optionals)
             init(myProperty: String) {
                 // use self.varName if argument has the same name
                 self.myProperty = myProperty
             }
         }
-        ```
-      END
-    end
-
-    entry do
-      name 'Objects'
-      notes <<-'END'
-        ``` swift
-        let a = MyClass(myProperty: "Hello")
-        a.myProperty = "World"
-        a.myFunc()
         ```
       END
     end
@@ -81,6 +40,49 @@ cheatsheet do
         let variable1 = instance.doIt()
         let variable2 = instance.doIt(1)
         let variable3 = instance.doIt(1, 2)
+        ```
+      END
+    end
+
+    entry do
+      name 'Properties'
+      notes <<-'END'
+        ```swift
+        // Properties
+        var myProperty: String
+        var myOptionalProperty: String?
+        // Computed Properties
+        var myInt: Int = 1
+        var doubleInt {
+            get { return myInt * 2 }
+            set { myInt = newValue / 2 }
+        }
+        // Read-Only Computed Properties
+        var tripleInt {
+            return myInt * 3
+        }
+        // Property Observers
+        var myOutput = 0 {
+            willSet { 
+                println("setting myOutput to \(newValue)") 
+            }
+            didSet { // never set greater than 10
+                if myOutput > 10 {
+                    myOutput = 10
+                }
+            }
+        }
+        ```
+      END
+    end
+
+    entry do
+      name 'Objects'
+      notes <<-'END'
+        ``` swift
+        let a = MyClass(myProperty: "Hello")
+        a.myProperty = "World"
+        a.myFunc()
         ```
       END
     end
@@ -216,44 +218,7 @@ cheatsheet do
         ```
       END
     end
-    
-    entry do
-      name 'Properties'
-      notes <<-'END'
-        ``` swift
-        //Shorthand setter declaration
-        var center: Point {
-        get {
-            let centerX = origin.x + (size.width / 2)
-            let centerY = origin.y + (size.height / 2)
-            return Point(x: centerX, y: centerY)
-        }
-        set {
-            origin.x = newValue.x - (size.width / 2)
-            origin.y = newValue.y - (size.height / 2)
-        }
-        
-        //Read-Only Computed Properties
-        var volume: Double {
-        return width * height * depth
-        }
-        
-        //Property Observers
-        var totalSteps: Int = 0 {
-        willSet(newTotalSteps) {
-            println("About to set totalSteps to \(newTotalSteps)")
-        }
-        didSet {
-            if totalSteps > oldValue  {
-                println("Added \(totalSteps - oldValue) steps")
-            }
-        }
-        ```
-      END
-    end
-    
-    
-    
+
     entry do
       name 'Optionals'
       notes <<-'END'
