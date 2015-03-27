@@ -218,6 +218,43 @@ cheatsheet do
     end
     
     entry do
+      name 'Properties'
+      notes <<-'END'
+        ``` swift
+        //Shorthand setter declaration
+        var center: Point {
+        get {
+            let centerX = origin.x + (size.width / 2)
+            let centerY = origin.y + (size.height / 2)
+            return Point(x: centerX, y: centerY)
+        }
+        set {
+            origin.x = newValue.x - (size.width / 2)
+            origin.y = newValue.y - (size.height / 2)
+        }
+        
+        //Read-Only Computed Properties
+        var volume: Double {
+        return width * height * depth
+        }
+        
+        //Property Observers
+        var totalSteps: Int = 0 {
+        willSet(newTotalSteps) {
+            println("About to set totalSteps to \(newTotalSteps)")
+        }
+        didSet {
+            if totalSteps > oldValue  {
+                println("Added \(totalSteps - oldValue) steps")
+            }
+        }
+        ```
+      END
+    end
+    
+    
+    
+    entry do
       name 'Optionals'
       notes <<-'END'
         ``` swift
