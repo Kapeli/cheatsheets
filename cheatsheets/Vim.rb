@@ -708,37 +708,37 @@ cheatsheet do
         end
 
         entry do
-            command 'ctrl-wv'
+            command 'CTRL-WV'
             name 'Vertical split current window'
         end
 
         entry do
-            command 'ctrl-ws'
-            name 'horizontal split current window'
+            command 'CTRL-WS'
+            name 'Horizontal split current window'
         end
 
         entry do
-            command 'ctrl-w up arrow'
+            command 'CTRL-W Up Arrow'
             name 'Move cursor up a window'
         end
 
         entry do
-            command 'ctrl-w ctrl-w'
+            command 'CTRL-W CTRL-W'
             name 'Move cursor to another window (cycle)'
         end
 
         entry do
-            command 'ctrl-w_'
+            command 'CTRL-W_'
             name 'Maximize current window'
         end
 
         entry do
-            command 'ctrl-w='
+            command 'CTRL-W='
             name 'Make all equal size'
         end
 
         entry do
-            command '10 ctrl-w+'
+            command '10 CTRL-W+'
             name 'Increase window size by 10 lines'
         end
 
@@ -754,7 +754,7 @@ cheatsheet do
 
         entry do
             command ':hide'
-            name 'close current window'
+            name 'Close current window'
         end
 
         entry do
