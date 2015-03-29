@@ -26,7 +26,7 @@ cheatsheet do
 		entry do
 			command 'Eject or F12'
 			name 'Ejects any removable media, such as an optical disc.'
-			notes 'Or hold the mouse or trackpad button.'
+			notes 'Alternatively, you can hold the mouse or trackpad button.'
 		end
 		entry do
 			command 'N'
