@@ -26,6 +26,7 @@ cheatsheet do
 		entry do
 			command 'Eject or F12'
 			name 'Ejects any removable media, such as an optical disc.'
+			notes 'Or hold the mouse or trackpad button.'
 		end
 		entry do
 			command 'N'
@@ -54,7 +55,7 @@ cheatsheet do
 		entry do
 			command 'CMD+R'
 			name 'Start from the OS X Recovery System'
-			notes 'Available on Macs that ship with OS X Lion. Some CPUs require an [EFI BootROM update to support this feature](http://support.apple.com/kb/HT4904).'
+			notes 'Available on Macs that ship with OS X Lion or newer. Some CPUs require an [EFI BootROM update to support this feature](http://support.apple.com/kb/HT4904).'
 		end
 	end
 	notes 'For the best experience with startup keys, press the keys immediately after the startup tone plays.'
