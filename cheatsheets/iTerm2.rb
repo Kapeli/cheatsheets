@@ -12,7 +12,7 @@ cheatsheet do
       name 'Autocomplete'
     end
     entry do
-      command 'CMD+H'
+      command 'CMD+SHIFT+H'
       name 'Paste history'
     end
     entry do
@@ -149,11 +149,11 @@ cheatsheet do
     id 'Mark'
 
     entry do
-      command 'CMD+M'
+      command 'CMD+SHIFT+M'
       name 'Set Mark'
     end
     entry do
-      command 'CMD+J'
+      command 'CMD+SHIFT+J'
       name 'Jump to Mark'
     end
   end
