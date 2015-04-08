@@ -26,7 +26,7 @@ cheatsheet do
   end
 
   category do
-      id 'Page Interation and Scoping'
+      id 'Page Interaction and Scoping'
       entry do
           name 'Has CSS?'
           notes '
@@ -90,7 +90,7 @@ cheatsheet do
       end
   end
   category do
-      id 'Node Interations'
+      id 'Node Interactions'
       entry do
           name 'Click'
           notes '
@@ -117,7 +117,7 @@ cheatsheet do
       end
   end
   category do
-      id 'Form Interations'
+      id 'Form Interactions'
       entry do
           name 'Fill in'
           notes '
