@@ -4,7 +4,7 @@ cheatsheet do
   keyword 'port'
   source_url 'http://cheat.kapeli.com'
 
-  introduction 'This cheatsheet demonstrates the most common everyday commands for MacPorts. It does not detail more technical aspects such as installing MacPorts itself, or less common commands such as older one that have been supplanted by newer ones.  For a full listing, see the MacPorts Guide at https://guide.macports.org/'
+  introduction 'This cheat sheet demonstrates the most common everyday commands for MacPorts. It does not detail more technical aspects such as installing MacPorts itself, or less commonly used commands.  For a more detailed listing, see the MacPorts Guide at https://guide.macports.org/'
 
   category do
     id 'Information'
@@ -15,9 +15,9 @@ cheatsheet do
       ```
       port search [--name] [--regex] '<searchtext>'
       ```
-      This command normally searches both the name and description of ports.  The --name parameter limits search to name only.
+      This command normally searches both the name and description of ports.  The ```--name``` switch limits search to name only.
 
-      The --regex switch treats the search string as a Regular Expression.
+      The ```--regex``` switch treats the search string as a Regular Expression.
 
       You can also use wildcards to limit searches to (for example) only ports that begin with a string, e.g. 'php*'."
     end
@@ -48,7 +48,7 @@ cheatsheet do
   end
 
   category do
-    id 'Install/uninstall ports'
+    id 'Install/Uninstall Ports'
 
     entry do
       name 'Install a port'
@@ -86,7 +86,7 @@ cheatsheet do
   end
 
   category do
-    id 'Maintenance'
+    id 'Updates'
 
     entry do
       name 'Update MacPorts and directory of available ports'
@@ -115,17 +115,22 @@ cheatsheet do
     end
 
     entry do
-      name 'Upgrade a specific port'
+      name 'Update a specific port'
       notes "
       ```
       [sudo] port upgrade <portname>
       ```"
     end
 
+  end
+
+  category do
+    id 'Cleanup/Maintenance'
+
     entry do
       name 'List inactive ports'
       notes "
-      By default, upgrading ports in MacPorts does not remove the older versions. This is a safety measure to ensure you can go back to a working and tested version in case an update goes wrong. To save disk space, you should periodically uninstall any old versions you no longer need.  Use
+      By default, upgrading ports in MacPorts does not remove the older versions. This is a safety measure to ensure you can go back to a working and tested version in case an update goes wrong. Use
 
       ```
       port installed inactive
@@ -134,8 +139,10 @@ cheatsheet do
     end
 
     entry do
-      name 'Uninstall inactive ports'
+      name 'Uninstall all inactive ports'
       notes "
+      To save disk space, you should periodically uninstall any old versions you no longer need.
+      
       ```
       [sudo] port uninstall inactive
       ```"
@@ -163,7 +170,7 @@ cheatsheet do
   end
 
   notes <<-'END'
-    * Based on the offial guide from [MacPorts.org](https://guide.macports.org/).
+    * Based on the official guide from [MacPorts.org](https://guide.macports.org/).
     * Cheat sheet by [Stephen Rider](http://striderweb.com/nerdaphernalia).
   END
 end
