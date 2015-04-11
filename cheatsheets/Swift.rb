@@ -83,6 +83,12 @@ cheatsheet do
         let a = MyClass(myProperty: "Hello")
         a.myProperty = "World"
         a.myFunc()
+
+        //Identity Operators
+        let b = a
+        if b === a {
+            println("a and b refer to the same instance")
+        }
         ```
       END
     end
