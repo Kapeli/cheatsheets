@@ -83,6 +83,12 @@ cheatsheet do
         let a = MyClass(myProperty: "Hello")
         a.myProperty = "World"
         a.myFunc()
+
+        //Identity Operators
+        let b = a
+        if b === a {
+            println("a and b refer to the same instance")
+        }
         ```
       END
     end
@@ -159,7 +165,7 @@ cheatsheet do
         // As direction is a CompassPoint, short syntax is usable
         direction = .South
 
-        // Assign values to cases
+        // Raw Values
         enum CollisionType: Int {
             case Player = 1
             case Enemy = 2
@@ -169,8 +175,22 @@ cheatsheet do
             println("It's a Player")
         }
         type.rawValue == 2 // false
+        //Initializing from a Raw value
+        let possibleType = CollisionType(rawValue:1)
+        if let someType = possibleType {
+            switch someType {
+                case .Player:
+                    println("It's a Player")
+                default:
+                    println("It's not a Player")
+            }
+        } else {
+            println("There's no such type")
+        }
+            
 
-        // Other possible values
+
+        // Associated Values
         enum Computer {
             case Desktop(Int, String)
             case Laptop(Int, String)
@@ -275,6 +295,16 @@ cheatsheet do
         }
         // when no index is needed
         for _ in 0..<3 {
+        }
+
+        //Labeled Statements
+        let matrix = [[1,2,3],[4,5,6],[7,8,9]]
+        TheLoop: for column in matrix {
+            for item in column {
+                if item == 5 {
+                    break TheLoop
+                }
+            }
         }
         ```
       END
