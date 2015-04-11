@@ -159,7 +159,7 @@ cheatsheet do
         // As direction is a CompassPoint, short syntax is usable
         direction = .South
 
-        // Assign values to cases
+        // Raw Values
         enum CollisionType: Int {
             case Player = 1
             case Enemy = 2
@@ -169,8 +169,22 @@ cheatsheet do
             println("It's a Player")
         }
         type.rawValue == 2 // false
+        //Initializing from a Raw value
+        let possibleType = CollisionType(rawValue:1)
+        if let someType = possibleType {
+            switch someType {
+                case .Player:
+                    println("It's a Player")
+                default:
+                    println("It's not a Player")
+            }
+        } else {
+            println("There's no such type")
+        }
+            
 
-        // Other possible values
+
+        // Associated Values
         enum Computer {
             case Desktop(Int, String)
             case Laptop(Int, String)
