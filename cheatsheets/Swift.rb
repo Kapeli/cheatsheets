@@ -290,6 +290,16 @@ cheatsheet do
         // when no index is needed
         for _ in 0..<3 {
         }
+
+        //Labeled Statements
+        let matrix = [[1,2,3],[4,5,6],[7,8,9]]
+        TheLoop: for column in matrix {
+            for item in column {
+                if item == 5 {
+                    break TheLoop
+                }
+            }
+        }
         ```
       END
     end
