@@ -4,7 +4,7 @@ cheatsheet do
   keyword 'port'
   source_url 'http://cheat.kapeli.com'
 
-  introduction 'This cheat sheet demonstrates the most common everyday commands for MacPorts. It does not detail more technical aspects such as installing MacPorts itself, or less commonly used commands.  For a more detailed listing, see the MacPorts Guide at https://guide.macports.org/'
+  introduction 'This cheat sheet demonstrates the most common everyday commands for MacPorts. It does not detail more technical aspects such as installing MacPorts itself, or less commonly used commands.  For a more detailed listing, see the [MacPorts Guide](https://guide.macports.org/).'
 
   category do
     id 'Information'
