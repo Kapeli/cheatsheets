@@ -130,10 +130,6 @@ cheatsheet do
       command 'CMD+ALT+I'
       name 'Input to all panes in current tab'
     end
-    entry do
-      command 'CMD+SHIFT+Return'
-      name 'Maximize the current pane'
-    end
   end
 
   category do
@@ -185,6 +181,10 @@ cheatsheet do
     entry do
       command 'CMD+Return'
       name 'Toggle full screen'
+    end
+    entry do
+      command 'CMD+SHIFT+Return'
+      name 'Maximize current pane'
     end
     entry do
       command 'CMD+W'
