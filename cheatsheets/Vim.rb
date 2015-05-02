@@ -207,11 +207,12 @@ cheatsheet do
             notes <<-'END'
             A range permits a command to be applied to a group of lines in the current buffer.
             For most commands, the default range is the current line.
-            * `:21s/old/new/g` Line 21
-            * `:1s/old/new/g` First Line
-            * `:$s/old/new/g` Last Line
-            * `:%s/old/new/g` All Lines
-            * `:.,$s/old/new/g` Current Line to End
+
+            * `:21s/old/new/g` - Line 21
+            * `:1s/old/new/g` - First line
+            * `:$s/old/new/g` - Last line
+            * `:%s/old/new/g` - All lines
+            * `:.,$s/old/new/g` - Current line to end
             END
         end
     end
