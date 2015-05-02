@@ -1,7 +1,8 @@
 cheatsheet do
   title 'OpenSCAD'
-  docset_file_name 'out/OpenSCAD'
+  docset_file_name 'OpenSCAD'
   keyword 'openscad'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Syntax'
@@ -162,7 +163,7 @@ cheatsheet do
   end
 
   category do
-    id 'Boolean operations'
+    id 'Boolean Operations'
 
     entry do
       name '[union](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/CSG_Modelling#union)()'
@@ -356,7 +357,7 @@ cheatsheet do
   end
   
   category do
-    id 'Special variables'
+    id 'Special Variables'
 
     entry do
       name '[$fa](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24fa.2C_.24fs_and_.24fn)'
