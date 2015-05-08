@@ -15,7 +15,7 @@ cheatsheet do
 
         entry do
             command 'Apache'
-            notes "#### Forbidden\n\n- Hold Liable\n- Use Trademark\n\n#### Required\n\n- License and copyright notice\n- State Changes\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Patent Grant\n- Private Use\n- Sublicensing"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n- Use Trademark: *While this may be implicitly true of all licenses, this license explicitly states that you may NOT use the names, logos, or trademarks of contributors.*\n\n#### Required\n\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n- State Changes: *Indicate significant changes made to the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Patent Grant: *This license provides an express grant of patent rights from the contributor to the recipient.*\n- Private Use: *You may use and modify the software without distributing it.*\n- Sublicensing: *You may grant a sublicense to modify and distribute this software to third parties not included in the license.*"
         end
 
     end
@@ -30,19 +30,19 @@ cheatsheet do
 
         entry do
             command 'GNU Affero GPL v3.0'
-            notes "#### Forbidden\n\n- Hold Liable\n- Sublicensing\n\n#### Required\n\n- Disclose Source\n- License and copyright notice\n- Network Use is Distribution\n- State Changes\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Patent Grant\n- Private Use"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n- Sublicensing: *You may not grant a sublicense to modify and distribute this software to third parties not included in the license.*\n\n#### Required\n\n- Disclose Source: *Source code must be made available when distributing the software. In the case of LGPL, the source for the library (and not the entire program) must be made available.*\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n- Network Use is Distribution: *Users who interact with the software via network are given the right to receive a copy of the corresponding source code.*\n- State Changes: *Indicate significant changes made to the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Patent Grant: *This license provides an express grant of patent rights from the contributor to the recipient.*\n- Private Use: *You may use and modify the software without distributing it.*"
         end
 
 
         entry do
             command 'GNU GPL v2.0'
-            notes "#### Forbidden\n\n- Hold Liable\n- Sublicensing\n\n#### Required\n\n- Disclose Source\n- License and copyright notice\n- State Changes\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Patent Grant\n- Private Use"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n- Sublicensing: *You may not grant a sublicense to modify and distribute this software to third parties not included in the license.*\n\n#### Required\n\n- Disclose Source: *Source code must be made available when distributing the software. In the case of LGPL, the source for the library (and not the entire program) must be made available.*\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n- State Changes: *Indicate significant changes made to the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Patent Grant: *This license provides an express grant of patent rights from the contributor to the recipient.*\n- Private Use: *You may use and modify the software without distributing it.*"
         end
 
 
         entry do
             command 'GNU GPL v3.0'
-            notes "#### Forbidden\n\n- Hold Liable\n- Sublicensing\n\n#### Required\n\n- Disclose Source\n- License and copyright notice\n- State Changes\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Patent Grant\n- Private Use"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n- Sublicensing: *You may not grant a sublicense to modify and distribute this software to third parties not included in the license.*\n\n#### Required\n\n- Disclose Source: *Source code must be made available when distributing the software. In the case of LGPL, the source for the library (and not the entire program) must be made available.*\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n- State Changes: *Indicate significant changes made to the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Patent Grant: *This license provides an express grant of patent rights from the contributor to the recipient.*\n- Private Use: *You may use and modify the software without distributing it.*"
         end
 
     end
@@ -57,7 +57,7 @@ cheatsheet do
 
         entry do
             command 'MIT'
-            notes "#### Forbidden\n\n- Hold Liable\n\n#### Required\n\n- License and copyright notice\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Private Use\n- Sublicensing"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n\n#### Required\n\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Private Use: *You may use and modify the software without distributing it.*\n- Sublicensing: *You may grant a sublicense to modify and distribute this software to third parties not included in the license.*"
         end
 
     end
@@ -72,7 +72,7 @@ cheatsheet do
 
         entry do
             command 'Artistic'
-            notes "#### Forbidden\n\n- Hold Liable\n- Use Trademark\n\n#### Required\n\n- License and copyright notice\n- State Changes\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Private Use\n- Sublicensing"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n- Use Trademark: *While this may be implicitly true of all licenses, this license explicitly states that you may NOT use the names, logos, or trademarks of contributors.*\n\n#### Required\n\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n- State Changes: *Indicate significant changes made to the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Private Use: *You may use and modify the software without distributing it.*\n- Sublicensing: *You may grant a sublicense to modify and distribute this software to third parties not included in the license.*"
         end
 
     end
@@ -87,7 +87,7 @@ cheatsheet do
 
         entry do
             command 'Eclipse'
-            notes "#### Forbidden\n\n- Hold Liable\n\n#### Required\n\n- Disclose Source\n- License and copyright notice\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Patent Grant\n- Private Use\n- Sublicensing"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n\n#### Required\n\n- Disclose Source: *Source code must be made available when distributing the software. In the case of LGPL, the source for the library (and not the entire program) must be made available.*\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Patent Grant: *This license provides an express grant of patent rights from the contributor to the recipient.*\n- Private Use: *You may use and modify the software without distributing it.*\n- Sublicensing: *You may grant a sublicense to modify and distribute this software to third parties not included in the license.*"
         end
 
     end
@@ -102,19 +102,19 @@ cheatsheet do
 
         entry do
             command 'Simplified BSD'
-            notes "#### Forbidden\n\n- Hold Liable\n\n#### Required\n\n- License and copyright notice\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Private Use\n- Sublicensing"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n\n#### Required\n\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Private Use: *You may use and modify the software without distributing it.*\n- Sublicensing: *You may grant a sublicense to modify and distribute this software to third parties not included in the license.*"
         end
 
 
         entry do
             command 'New BSD'
-            notes "#### Forbidden\n\n- Hold Liable\n- Use Trademark\n\n#### Required\n\n- License and copyright notice\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Private Use\n- Sublicensing"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n- Use Trademark: *While this may be implicitly true of all licenses, this license explicitly states that you may NOT use the names, logos, or trademarks of contributors.*\n\n#### Required\n\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Private Use: *You may use and modify the software without distributing it.*\n- Sublicensing: *You may grant a sublicense to modify and distribute this software to third parties not included in the license.*"
         end
 
 
         entry do
             command 'ISC License'
-            notes "#### Forbidden\n\n- Hold Liable\n\n#### Required\n\n- License and copyright notice\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Private Use\n- Sublicensing"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n\n#### Required\n\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Private Use: *You may use and modify the software without distributing it.*\n- Sublicensing: *You may grant a sublicense to modify and distribute this software to third parties not included in the license.*"
         end
 
     end
@@ -129,13 +129,13 @@ cheatsheet do
 
         entry do
             command 'GNU LGPL v2.1'
-            notes "#### Forbidden\n\n- Hold Liable\n\n#### Required\n\n- Disclose Source\n- Library usage\n- License and copyright notice\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Patent Grant\n- Private Use\n- Sublicensing"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n\n#### Required\n\n- Disclose Source: *Source code must be made available when distributing the software. In the case of LGPL, the source for the library (and not the entire program) must be made available.*\n- Library usage: *The library may be used within a non-open-source application.*\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Patent Grant: *This license provides an express grant of patent rights from the contributor to the recipient.*\n- Private Use: *You may use and modify the software without distributing it.*\n- Sublicensing: *You may grant a sublicense to modify and distribute this software to third parties not included in the license.*"
         end
 
 
         entry do
             command 'GNU LGPL v3.0'
-            notes "#### Forbidden\n\n- Hold Liable\n\n#### Required\n\n- Disclose Source\n- Library usage\n- License and copyright notice\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Patent Grant\n- Private Use\n- Sublicensing"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n\n#### Required\n\n- Disclose Source: *Source code must be made available when distributing the software. In the case of LGPL, the source for the library (and not the entire program) must be made available.*\n- Library usage: *The library may be used within a non-open-source application.*\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Patent Grant: *This license provides an express grant of patent rights from the contributor to the recipient.*\n- Private Use: *You may use and modify the software without distributing it.*\n- Sublicensing: *You may grant a sublicense to modify and distribute this software to third parties not included in the license.*"
         end
 
     end
@@ -150,7 +150,7 @@ cheatsheet do
 
         entry do
             command 'Mozilla'
-            notes "#### Forbidden\n\n- Hold Liable\n- Use Trademark\n\n#### Required\n\n- Disclose Source\n- License and copyright notice\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Patent Grant\n- Private Use\n- Sublicensing"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n- Use Trademark: *While this may be implicitly true of all licenses, this license explicitly states that you may NOT use the names, logos, or trademarks of contributors.*\n\n#### Required\n\n- Disclose Source: *Source code must be made available when distributing the software. In the case of LGPL, the source for the library (and not the entire program) must be made available.*\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Patent Grant: *This license provides an express grant of patent rights from the contributor to the recipient.*\n- Private Use: *You may use and modify the software without distributing it.*\n- Sublicensing: *You may grant a sublicense to modify and distribute this software to third parties not included in the license.*"
         end
 
     end
@@ -165,7 +165,7 @@ cheatsheet do
 
         entry do
             command 'No License'
-            notes "#### Forbidden\n\n- Distribution\n- Modification\n- Sublicensing\n\n#### Required\n\n- License and copyright notice\n\n#### Permitted\n\n- Commercial Use\n- Private Use"
+            notes "#### Forbidden\n\n- Distribution: *You may not distribute this software.*\n- Modification: *This software may not be modified.*\n- Sublicensing: *You may not grant a sublicense to modify and distribute this software to third parties not included in the license.*\n\n#### Required\n\n- License and copyright notice: *Include a copy of the license and copyright notice with the code.*\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Private Use: *You may use and modify the software without distributing it.*"
         end
 
     end
@@ -180,13 +180,13 @@ cheatsheet do
 
         entry do
             command 'CC0 1.0 Universal'
-            notes "#### Forbidden\n\n- Hold Liable\n\n#### Required\n\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Private Use"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n\n#### Required\n\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Private Use: *You may use and modify the software without distributing it.*"
         end
 
 
         entry do
             command 'The Unlicense'
-            notes "#### Forbidden\n\n- Hold Liable\n\n#### Required\n\n\n#### Permitted\n\n- Commercial Use\n- Distribution\n- Modification\n- Private Use\n- Sublicensing"
+            notes "#### Forbidden\n\n- Hold Liable: *Software is provided without warranty and the software author/license owner cannot be held liable for damages.*\n\n#### Required\n\n\n#### Permitted\n\n- Commercial Use: *This software and derivatives may be used for commercial purposes.*\n- Distribution: *You may distribute this software.*\n- Modification: *This software may be modified.*\n- Private Use: *You may use and modify the software without distributing it.*\n- Sublicensing: *You may grant a sublicense to modify and distribute this software to third parties not included in the license.*"
         end
 
     end
