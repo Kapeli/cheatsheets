@@ -229,8 +229,229 @@ cheatsheet do
     end
   end
 
-  notes "
+  category do
+    id 'Format'
 
+    entry do
+      name '`a`'
+      notes "
+        Pointer
+          "
+    end
+    entry do
+      name '`c`'
+      notes "
+        Read as integer, print as character.
+          "
+    end
+    entry do
+      name '`d`'
+      notes "
+        Integer, signed decimal.
+          "
+    end
+    entry do
+      name '`f`'
+      notes "
+        Floating point number.
+          "
+    end
+    entry do
+      name '`o`'
+      notes "
+        Integer, print as octal.
+          "
+    end
+    entry do
+      name '`s`'
+      notes "
+        Try to treat as C string.
+          "
+    end
+    entry do
+      name '`t`'
+      notes "
+        Integer, print as binary (t = 'two')
+          "
+    end
+    entry do
+      name '`u`'
+      notes "
+        Integer, unsigned decimal.
+          "
+    end
+    entry do
+      name '`x`'
+      notes "
+        Integer, print as hexadecimal.
+          "
+    end
+  end
+
+  category do
+    id '<what>'
+
+    entry do
+      name '`expression`'
+      notes "
+        Almost any C expression, including function calls (must be prefixed wiht a cast to tell GDB the return value type).
+          "
+    end
+    entry do
+      name '`file_name::variabel_name`'
+      notes "
+        Content of the variable defined in the name file (static variables).
+          "
+    end
+    entry do
+      name '`function_name::variable_name`'
+      notes "
+        Content of the vairable defined in the name function (if on the stack).
+          "
+    end
+    entry do
+      name '`{type}address`'
+      notes "
+        Content at address, interpreted as being of the C type type.
+          "
+    end
+    entry do
+      name '`$register`'
+      notes "
+        Content of named register. Interesting registers are $esp (stack pointer), $ebp (frame pointer) and $eip (instruction potinter).
+          "
+    end
+  end
+
+  category do
+    id 'Threads'
+    entry do
+      name '`thread <thread#>`'
+      notes "
+        Chose thread to operate on.
+          "
+    end
+  end
+
+  category do
+    id 'Manipulate the program'
+    entry do
+      name '`set var <varaible_name>=<value>`'
+      notes "
+        Change the content of a vairable to the given value.
+          "
+    end
+    entry do
+      name '`return <expression>`'
+      notes "
+        Force the current function to return immediately, passing the given value.
+          "
+    end
+  end
+
+  category do
+    id 'Sources'
+    entry do
+      name '`directory <directory>`'
+      notes "
+        Add directory to the list of directories that is searched for sources.
+          "
+    end
+    entry do
+      name '`list`<br>`list <filename>:<function>`<br>`list <filename>:<line_number>`<br>`list <first>, <last>`'
+      notes "
+        Shows the current or given source context. The filename may be omitted. If last is omitted the context starting at start is printed instead of centered around it.
+          "
+    end
+    entry do
+      name '`set listsize <count>`'
+      notes "
+        Set how many lines to show in `list`.
+          "
+    end
+  end
+
+  category do
+    id 'Signals'
+    entry do
+      name '`handle <signal> <options>`'
+      notes "
+        Set how to handle signles. <br> Options are:<br> (no)print: (Do NOT) print a message when signals occurs.<br> (no)stop: (Do NOT) stop the program when signals occurs.<br> (no)pass: (Do NOT) pass the signal to the program.
+          "
+    end
+  end
+
+  category do
+    id 'Informations'
+    entry do
+      name '`disassemble`<br>`disassemble <where>`'
+      notes "
+        Disassemble the current function or given location.
+          "
+    end
+    entry do
+      name '`info args`'
+      notes "
+        Print the arguments to the function of the current stack frame.
+          "
+    end
+    entry do
+      name '`info breakpoints`'
+      notes "
+        Print informations about the break- and watchpoints.
+          "
+    end
+    entry do
+      name '`info display`'
+      notes "
+        Print informations about the `display`.
+          "
+    end
+    entry do
+      name '`info locals`'
+      notes "
+        Print the local variables in the current selected stack frame.
+          "
+    end
+    entry do
+      name '`info sharedlibrary`'
+      notes "
+        List loaded shared libraries.
+          "
+    end
+    entry do
+      name '`info signals`'
+      notes "
+        List all signals and how they are currently handled.
+          "
+    end
+    entry do
+      name '`info threads`'
+      notes "
+        List all threads.
+          "
+    end
+    entry do
+      name '`show directories`'
+      notes "
+        Print all directories in which GDB searchches for source files.
+          "
+    end
+    entry do
+      name '`show listsize`'
+      notes "
+        Print how many are shown in the `list` command.
+          "
+    end
+    entry do
+      name '`whatis vairbale_name`'
+      notes "
+        Print type of named vairable.
+          "
+    end
+  end
+
+  notes "
     * Based on the cheat sheet from [Marc's realm](http://darkdust.net). The original can be found [here](http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf).
     * Converted by [Li Xinyang](https://li-xinyang.com).
       "
