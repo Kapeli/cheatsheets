@@ -87,7 +87,7 @@ cheatsheet do
     entry do
       name '`watch <where>`'
       notes "
-        Set a new watchpoint.
+        Set a new watch-point.
           "
     end
     entry do
@@ -130,7 +130,7 @@ cheatsheet do
           "
     end
     entry do
-      name '`condition <breakpoint#> <conditon>`'
+      name '`condition <breakpoint#> <condition>`'
       notes "
         Set/change the condition of an existing break- or watchpoint.
           "
@@ -193,9 +193,9 @@ cheatsheet do
   category do
     id 'Variables and Memory'
     entry do
-      name '`print/format <what>'
+      name '`print/format <what>`'
       notes "
-        Print content of variabel/memory location/register.
+        Print content of variable/memory location/register.
           "
     end
     entry do
@@ -294,7 +294,7 @@ cheatsheet do
     entry do
       name '`expression`'
       notes "
-        Almost any C expression, including function calls (must be prefixed wiht a cast to tell GDB the return value type).
+        Almost any C expression, including function calls (must be prefixed with a cast to tell GDB the return value type).
           "
     end
     entry do
@@ -306,7 +306,7 @@ cheatsheet do
     entry do
       name '`function_name::variable_name`'
       notes "
-        Content of the vairable defined in the name function (if on the stack).
+        Content of the variable defined in the name function (if on the stack).
           "
     end
     entry do
@@ -318,7 +318,7 @@ cheatsheet do
     entry do
       name '`$register`'
       notes "
-        Content of named register. Interesting registers are $esp (stack pointer), $ebp (frame pointer) and $eip (instruction potinter).
+        Content of named register. Interesting registers are $esp (stack pointer), $ebp (frame pointer) and $eip (instruction pointer).
           "
     end
   end
@@ -338,7 +338,7 @@ cheatsheet do
     entry do
       name '`set var <varaible_name>=<value>`'
       notes "
-        Change the content of a vairable to the given value.
+        Change the content of a variable to the given value.
           "
     end
     entry do
@@ -376,7 +376,7 @@ cheatsheet do
     entry do
       name '`handle <signal> <options>`'
       notes "
-        Set how to handle signles. <br> Options are:<br> (no)print: (Do NOT) print a message when signals occurs.<br> (no)stop: (Do NOT) stop the program when signals occurs.<br> (no)pass: (Do NOT) pass the signal to the program.
+        Set how to handle singles. <br> Options are:<br> (no)print: (Do NOT) print a message when signals occurs.<br> (no)stop: (Do NOT) stop the program when signals occurs.<br> (no)pass: (Do NOT) pass the signal to the program.
           "
     end
   end
@@ -434,7 +434,7 @@ cheatsheet do
     entry do
       name '`show directories`'
       notes "
-        Print all directories in which GDB searchches for source files.
+        Print all directories in which GDB searches for source files.
           "
     end
     entry do
@@ -446,7 +446,7 @@ cheatsheet do
     entry do
       name '`whatis vairbale_name`'
       notes "
-        Print type of named vairable.
+        Print type of named variable.
           "
     end
   end
