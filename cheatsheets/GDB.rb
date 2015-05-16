@@ -4,45 +4,43 @@ cheatsheet do
   keyword 'gdb'
   source_url 'http://cheat.kapeli.com'
 
-  introduction 'The GNU Debugger, usually called just GDB and named gdb as an executable file, is the standard debugger for the GNU operating system.'
-
   category do
     id "Running"
 
     entry do
-      name '`# gdb <program> [core dump]`'
-      notes "
-        Start GDB (with optional core dump).
+      command '# gdb <program> [core dump]'
+      name "
+        Start GDB (with optional core dump)
           "
     end
     entry do
-      name '`# gdb --args <program> <args...>`'
-      notes "
-        Start GDB and pass arguments.
+      command '# gdb --args <program> <args...>'
+      name "
+        Start GDB and pass arguments
           "
     end
     entry do
-      name '`# gdb --pid <pid>`'
-      notes "
-        Start GDB and attach to process.
+      command '# gdb --pid <pid>'
+      name "
+        Start GDB and attach to process
           "
     end
     entry do
-      name '`set args <args...>`'
-      notes "
-        Set arguments to pass to program to be debugged.
+      command 'set args <args...>'
+      name "
+        Set arguments to pass to program to be debugged
           "
     end
     entry do
-      name '`run`'
-      notes "
-        Run the program to be debugged.
+      command 'run'
+      name "
+        Run the program to be debugged
           "
     end
     entry do
-      name '`kill`'
-      notes "
-        Kill the running program.
+      command 'kill'
+      name "
+        Kill the running program
           "
     end
   end
@@ -50,33 +48,33 @@ cheatsheet do
   category do
     id "Breakpoints"
     entry do
-      name '`break <where>`'
-      notes "
-        Set a new breakpoint.
+      command 'break <where>'
+      name "
+        Set a new breakpoint
           "
     end
     entry do
-      name '`delete <breakpoint#>`'
-      notes "
-        Remove a breakpoint.
+      command 'delete <breakpoint#>'
+      name "
+        Remove a breakpoint
           "
     end
     entry do
-      name '`clear`'
-      notes "
-        Delete all breakpoint.
+      command 'clear'
+      name "
+        Delete all breakpoints
           "
     end
     entry do
-      name '`enable <breakpoint#>`'
-      notes "
-        Enable a disabled breakpoint.
+      command 'enable <breakpoint#>'
+      name "
+        Enable a disabled breakpoint
           "
     end
     entry do
-      name '`disable <breakpoint#>`'
-      notes "
-        Disable a breakpoint.
+      command 'disable <breakpoint#>'
+      name "
+        Disable a breakpoint
           "
     end
   end
@@ -85,37 +83,49 @@ cheatsheet do
     id 'Watchpoints'
 
     entry do
-      name '`watch <where>`'
-      notes "
-        Set a new watch-point.
+      command 'watch <where>'
+      name "
+        Set a new watchpoint
           "
     end
     entry do
-      name '`delete/enable/disable <watchpoint#>`'
-      notes "
-        Like breakpoints.
+      command 'delete <watchpoint#>'
+      name "
+        Delete a watchpoint
+          "
+    end
+    entry do
+      command 'enable <watchpoint#>'
+      name "
+        Enable a disabled watchpoint
+          "
+    end
+    entry do
+      command 'disable <watchpoint#>'
+      name "
+        Disable a watchpoint
           "
     end
   end
 
   category do
-    id '<where>'
+    id 'Where'
     entry do
-      name '`function_name`'
-      notes "
-        Break/watch the named function.
+      command 'function_name'
+      name "
+        Break/watch the named function
           "
     end
     entry do
-      name '`line_number`'
-      notes "
-        Break/watch the line number in the current source file.
+      command 'line_number'
+      name "
+        Break/watch the line number in the current source file
           "
     end
     entry do
-      name '`file:line_number`'
-      notes "
-        Break/watch the line number in the named source file.
+      command 'file:line_number'
+      name "
+        Break/watch the line number in the named source file
           "
     end
   end
@@ -124,40 +134,40 @@ cheatsheet do
     id 'Conditions'
 
     entry do
-      name '`break/watch <where> if <condition>`'
-      notes "
-        Break/watch at the given location if the condition is met. Condition may be almost any C expression that evaluate to `true` or `false`.
+      command 'break/watch <where> if <condition>'
+      name "
+        Break/watch at the given location if the condition is met. Condition may be almost any C expression that evaluates to `true` or `false`
           "
     end
     entry do
-      name '`condition <breakpoint#> <condition>`'
-      notes "
-        Set/change the condition of an existing break- or watchpoint.
+      command 'condition <breakpoint#> <condition>'
+      name "
+        Set/change the condition of an existing break or watchpoint
           "
     end
   end
 
   category do
-    id 'Examining the stack'
+    id 'Examining the Stack'
 
     entry do
-      name '`backtrace`<br>
-            `where`'
-      notes "
-        Show call stack.
+      command 'backtrace'
+      command 'where'
+      name "
+        Show call stack
           "
     end
     entry do
-      name '`backtrace full`<br>
-            `where full`'
-      notes "
-        Show call stack, also print the local variables in each frame.
+      command 'backtrace full'
+      command 'where full'
+      name "
+        Show call stack, also print the local variables in each frame
           "
     end
     entry do
-      name '`frame <frame#>`'
-      notes "
-        Select the stack frame to operate on.
+      command 'frame <frame#>'
+      name "
+        Select the stack frame to operate on
           "
     end
   end
@@ -165,27 +175,27 @@ cheatsheet do
   category do
     id 'Stepping'
     entry do
-      name '`step`'
-      notes "
-        Go to next instruction (source line), diving into function.
+      command 'step'
+      name "
+        Go to next instruction (source line), diving into function
           "
     end
     entry do
-      name '`next`'
-      notes "
-        Go to next instruction (source line) but do not dive into function.
+      command 'next'
+      name "
+        Go to next instruction (source line) but do not dive into function
           "
     end
     entry do
-      name '`finish`'
-      notes "
-        Continue until the current function returns.
+      command 'finish'
+      name "
+        Continue until the current function returns
           "
     end
     entry do
-      name '`continue`'
-      notes "
-        Continue normal execution.
+      command 'continue'
+      name "
+        Continue normal execution
           "
     end
   end
@@ -193,38 +203,38 @@ cheatsheet do
   category do
     id 'Variables and Memory'
     entry do
-      name '`print/format <what>`'
-      notes "
-        Print content of variable/memory location/register.
+      command 'print/format <what>'
+      name "
+        Print content of variable/memory location/register
           "
     end
     entry do
-      name '`display/format <what>`'
-      notes "
-        Like `print`, but print the information after each stepping instruction.
+      command 'display/format <what>'
+      name "
+        Like `print`, but print the information after each stepping instruction
           "
     end
     entry do
-      name '`undisplay <display#>`'
-      notes "
-        Remove the `display` with the given number.
+      command 'undisplay <display#>'
+      name "
+        Remove the `display` with the given number
           "
     end
     entry do
-      name '`enable display <display#>`<br>
-            `disable display <display#>`'
-      notes "
-        En- or disable the `display` with the given number.
+      command 'enable display <display#>'
+      command 'disable display <display#>'
+      name "
+        Enable or disable the `display` with the given number
           "
     end
     entry do
-      name '`x/nfu <address>`'
-      notes "
-        Print memory.<br>
-        n: How many units to print (default 1).<br>
-        f: Format character (like `printf`).<br>
-        u: Unit.<br>
-        Unit is one of: b(Byte), h(Half-word/two bytes), w(Word/four bytes), g(Giant-word/eight bytes).
+      command 'x/nfu <address>'
+      name "Print memory"
+      notes "`n`: How many units to print (default 1)<br>
+        `f`: Format character (like `printf`)<br>
+        `u`: Unit<br>
+
+        Unit is one of: `b` (Byte), `h` (Half-word/two bytes), `w` (Word/four bytes), `g` (Giant-word/eight bytes)
           "
     end
   end
@@ -233,92 +243,92 @@ cheatsheet do
     id 'Format'
 
     entry do
-      name '`a`'
-      notes "
+      command 'a'
+      name "
         Pointer
           "
     end
     entry do
-      name '`c`'
-      notes "
-        Read as integer, print as character.
+      command 'c'
+      name "
+        Read as integer, print as character
           "
     end
     entry do
-      name '`d`'
-      notes "
-        Integer, signed decimal.
+      command 'd'
+      name "
+        Integer, signed decimal
           "
     end
     entry do
-      name '`f`'
-      notes "
-        Floating point number.
+      command 'f'
+      name "
+        Floating point number
           "
     end
     entry do
-      name '`o`'
-      notes "
-        Integer, print as octal.
+      command 'o'
+      name "
+        Integer, print as octal
           "
     end
     entry do
-      name '`s`'
-      notes "
-        Try to treat as C string.
+      command 's'
+      name "
+        Try to treat as C string
           "
     end
     entry do
-      name '`t`'
-      notes "
+      command 't'
+      name "
         Integer, print as binary (t = 'two')
           "
     end
     entry do
-      name '`u`'
-      notes "
-        Integer, unsigned decimal.
+      command 'u'
+      name "
+        Integer, unsigned decimal
           "
     end
     entry do
-      name '`x`'
-      notes "
-        Integer, print as hexadecimal.
+      command 'x'
+      name "
+        Integer, print as hexadecimal
           "
     end
   end
 
   category do
-    id '<what>'
+    id 'What'
 
     entry do
-      name '`expression`'
-      notes "
-        Almost any C expression, including function calls (must be prefixed with a cast to tell GDB the return value type).
+      command 'expression'
+      name "
+        Almost any C expression, including function calls (must be prefixed with a cast to tell GDB the return value type)
           "
     end
     entry do
-      name '`file_name::variabel_name`'
-      notes "
-        Content of the variable defined in the name file (static variables).
+      command 'file_name::variable_name'
+      name "
+        Content of the variable defined in the name file (static variables)
           "
     end
     entry do
-      name '`function_name::variable_name`'
-      notes "
-        Content of the variable defined in the name function (if on the stack).
+      command 'function_name::variable_name'
+      name "
+        Content of the variable defined in the name function (if on the stack)
           "
     end
     entry do
-      name '`{type}address`'
-      notes "
-        Content at address, interpreted as being of the C type type.
+      command '{type}address'
+      name "
+        Content at address, interpreted as being of the C type `type`
           "
     end
     entry do
-      name '`$register`'
-      notes "
-        Content of named register. Interesting registers are $esp (stack pointer), $ebp (frame pointer) and $eip (instruction pointer).
+      command '$register'
+      name "
+        Content of named register. Interesting registers are `$esp` (stack pointer), `$ebp` (frame pointer) and `$eip` (instruction pointer)
           "
     end
   end
@@ -326,25 +336,25 @@ cheatsheet do
   category do
     id 'Threads'
     entry do
-      name '`thread <thread#>`'
-      notes "
-        Chose thread to operate on.
+      command 'thread <thread#>'
+      name "
+        Choose thread to operate on
           "
     end
   end
 
   category do
-    id 'Manipulate the program'
+    id 'Manipulate the Program'
     entry do
-      name '`set var <varaible_name>=<value>`'
-      notes "
-        Change the content of a variable to the given value.
+      command 'set var <variable_name>=<value>'
+      name "
+        Change the content of a variable to the given value
           "
     end
     entry do
-      name '`return <expression>`'
-      notes "
-        Force the current function to return immediately, passing the given value.
+      command 'return <expression>'
+      name "
+        Force the current function to return immediately, passing the given value
           "
     end
   end
@@ -352,21 +362,24 @@ cheatsheet do
   category do
     id 'Sources'
     entry do
-      name '`directory <directory>`'
-      notes "
-        Add directory to the list of directories that is searched for sources.
+      command 'directory <directory>'
+      name "
+        Add directory to the list of directories that is searched for sources
           "
     end
     entry do
-      name '`list`<br>`list <filename>:<function>`<br>`list <filename>:<line_number>`<br>`list <first>, <last>`'
-      notes "
-        Shows the current or given source context. The filename may be omitted. If last is omitted the context starting at start is printed instead of centered around it.
+      command 'list'
+      command 'list <filename>:<function>'
+      command 'list <filename>:<line_number>'
+      command 'list <first>, <last>'
+      name "
+        Shows the current or given source context. The filename may be omitted. If last is omitted the context starting at start is printed instead of centered around it
           "
     end
     entry do
-      name '`set listsize <count>`'
-      notes "
-        Set how many lines to show in `list`.
+      command 'set listsize <count>'
+      name "
+        Set how many lines to show in `list`
           "
     end
   end
@@ -374,85 +387,86 @@ cheatsheet do
   category do
     id 'Signals'
     entry do
-      name '`handle <signal> <options>`'
-      notes "
-        Set how to handle singles. <br> Options are:<br> (no)print: (Do NOT) print a message when signals occurs.<br> (no)stop: (Do NOT) stop the program when signals occurs.<br> (no)pass: (Do NOT) pass the signal to the program.
+      command 'handle <signal> <options>'
+      name "Set how to handle signals"
+      notes "Options are:<br>`(no)print`: (Do *not*) print a message when signals occur<br> `(no)stop`: (Do *not*) stop the program when signals occur<br> `(no)pass`: (Do *not*) pass the signal to the program
           "
     end
   end
 
   category do
-    id 'Informations'
+    id 'Information'
     entry do
-      name '`disassemble`<br>`disassemble <where>`'
-      notes "
-        Disassemble the current function or given location.
+      command 'disassemble'
+      command 'disassemble <where>'
+      name "
+        Disassemble the current function or given location
           "
     end
     entry do
-      name '`info args`'
-      notes "
-        Print the arguments to the function of the current stack frame.
+      command 'info args'
+      name "
+        Print the arguments to the function of the current stack frame
           "
     end
     entry do
-      name '`info breakpoints`'
-      notes "
-        Print informations about the break- and watchpoints.
+      command 'info breakpoints'
+      name "
+        Print information about the breakpoints and watchpoints
           "
     end
     entry do
-      name '`info display`'
-      notes "
-        Print informations about the `display`.
+      command 'info display'
+      name "
+        Print information about the `display`
           "
     end
     entry do
-      name '`info locals`'
-      notes "
-        Print the local variables in the current selected stack frame.
+      command 'info locals'
+      name "
+        Print the local variables in the currently selected stack frame
           "
     end
     entry do
-      name '`info sharedlibrary`'
-      notes "
-        List loaded shared libraries.
+      command 'info sharedlibrary'
+      name "
+        List loaded shared libraries
           "
     end
     entry do
-      name '`info signals`'
-      notes "
-        List all signals and how they are currently handled.
+      command 'info signals'
+      name "
+        List all signals and how they are currently handled
           "
     end
     entry do
-      name '`info threads`'
-      notes "
-        List all threads.
+      command 'info threads'
+      name "
+        List all threads
           "
     end
     entry do
-      name '`show directories`'
-      notes "
-        Print all directories in which GDB searches for source files.
+      command 'show directories'
+      name "
+        Print all directories in which GDB searches for source files
           "
     end
     entry do
-      name '`show listsize`'
-      notes "
-        Print how many are shown in the `list` command.
+      command 'show listsize'
+      name "
+        Print how many are shown in the `list` command
           "
     end
     entry do
-      name '`whatis vairbale_name`'
-      notes "
-        Print type of named variable.
+      command 'whatis variable_name'
+      name "
+        Print type of named variable
           "
     end
   end
 
   notes "
-    * Based on the cheat sheet from [Marc's realm](http://darkdust.net). The original can be found [here](http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf).
-    * Converted by [Li Xinyang](https://li-xinyang.com).
+    * Based on the cheat sheet from [Marc's realm](http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
+    * Converted by [Li Xinyang](https://li-xinyang.com)
       "
 end
