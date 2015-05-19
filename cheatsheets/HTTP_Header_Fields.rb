@@ -3,7 +3,7 @@ cheatsheet do
   docset_file_name 'HTTP_Header_Fields'
   keyword 'http'
   source_url 'http://cheat.kapeli.com'
-  
+
   style '
   td.description .name {
     text-align:right;
@@ -393,7 +393,7 @@ cheatsheet do
 
     entry do
       td_notes <<-'END'
-      Initiates a request for cross-origin resource sharing (asks server for an `Access-Control-Allow-Origin` response header) 
+      Initiates a request for cross-origin resource sharing (asks server for an `Access-Control-Allow-Origin` response header)
 
       ```
       Origin: http://www.example-social-network.com
@@ -409,7 +409,7 @@ cheatsheet do
       Acceptable version in time
 
       ```
-      Accept-Datetime: Thu, 31 May 2007 20:35:00 GMT  
+      Accept-Datetime: Thu, 31 May 2007 20:35:00 GMT
       ```
       Status: Provisional
       END
@@ -422,7 +422,7 @@ cheatsheet do
   category do
 
     id 'Responses'
-                    
+
     entry do
       td_notes <<-'END'
       Content-Types that are acceptable for the response
@@ -435,7 +435,7 @@ cheatsheet do
       name 'Accept'
       index_name 'Accept (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Specifying which web sites can participate in cross-origin resource sharing
@@ -448,7 +448,7 @@ cheatsheet do
       name 'Access-Control-Allow-Origin '
       index_name 'Access-Control-Allow-Origin  (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Used in redirection, or when a new resource has been created. This refresh redirects after 5 seconds:
@@ -461,7 +461,7 @@ cheatsheet do
       name 'Refresh'
       index_name 'Refresh (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Gives the date/time after which the response is considered stale
@@ -474,7 +474,7 @@ cheatsheet do
       name 'Expires'
       index_name 'Expires (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       An HTTP cookie
@@ -487,7 +487,7 @@ cheatsheet do
       name 'Set-Cookie'
       index_name 'Set-Cookie (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       A HSTS Policy informing the HTTP client how long to cache the HTTPS only policy and whether this applies to subdomains
@@ -500,7 +500,7 @@ cheatsheet do
       name 'Strict-Transport-Security'
       index_name 'Strict-Transport-Security (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Specifies which patch document formats this server supports
@@ -513,7 +513,7 @@ cheatsheet do
       name 'Accept-Patch'
       index_name 'Accept-Patch (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       What partial content range types this server supports
@@ -526,7 +526,7 @@ cheatsheet do
       name 'Accept-Ranges'
       index_name 'Accept-Ranges (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       The age the object has been in a proxy cache in seconds
@@ -539,7 +539,7 @@ cheatsheet do
       name 'Age'
       index_name 'Age (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Valid actions for a specified resource. To be used for a 405 Method not allowed
@@ -552,7 +552,7 @@ cheatsheet do
       name 'Allow'
       index_name 'Allow (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds
@@ -565,7 +565,7 @@ cheatsheet do
       name 'Cache-Control'
       index_name 'Cache-Control (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Options that are desired for the connection
@@ -578,7 +578,7 @@ cheatsheet do
       name 'Connection'
       index_name 'Connection (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       The type of encoding used on the data
@@ -591,7 +591,7 @@ cheatsheet do
       name 'Content-Encoding'
       index_name 'Content-Encoding (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       The language the content is in
@@ -604,7 +604,7 @@ cheatsheet do
       name 'Content-Language'
       index_name 'Content-Language (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       The length of the response body in octets (8-bit bytes)
@@ -617,7 +617,7 @@ cheatsheet do
       name 'Content-Length'
       index_name 'Content-Length (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       An alternate location for the returned data
@@ -630,7 +630,7 @@ cheatsheet do
       name 'Content-Location'
       index_name 'Content-Location (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       A Base64-encoded binary MD5 sum of the content of the response
@@ -643,7 +643,7 @@ cheatsheet do
       name 'Content-MD5'
       index_name 'Content-MD5 (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       An opportunity to raise a "File Download" dialogue box for a known MIME type with binary format or suggest a filename for dynamic content. Quotes are necessary with special characters
@@ -656,7 +656,7 @@ cheatsheet do
       name 'Content-Disposition'
       index_name 'Content-Disposition (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Where in a full body message this partial message belongs
@@ -669,7 +669,7 @@ cheatsheet do
       name 'Content-Range'
       index_name 'Content-Range (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       The MIME type of this content
@@ -682,7 +682,7 @@ cheatsheet do
       name 'Content-Type'
       index_name 'Content-Type (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       The date and time that the message was sent (in `HTTP-date` format as defined by RFC 2616)
@@ -695,7 +695,7 @@ cheatsheet do
       name 'Date'
       index_name 'Date (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       An identifier for a specific version of a resource, often a message digest
@@ -708,7 +708,7 @@ cheatsheet do
       name 'ETag'
       index_name 'ETag (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       The last modified date for the requested object (in `HTTP-date` format as defined by RFC 2616)
@@ -721,7 +721,7 @@ cheatsheet do
       name 'Last-Modified'
       index_name 'Last-Modified (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Used to express a typed relationship with another resource, where the relation type is defined by RFC 5988
@@ -734,7 +734,7 @@ cheatsheet do
       name 'Link'
       index_name 'Link (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Used in redirection, or when a new resource has been created
@@ -747,7 +747,7 @@ cheatsheet do
       name 'Location'
       index_name 'Location (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       This header is supposed to set P3P policy, in the form of `P3P:CP="your_compact_policy"`. However, P3P did not take off, most browsers have never fully implemented it, a lot of websites set this header with fake policy text, that was enough to fool browsers the existence of P3P policy and grant permissions for third party cookies
@@ -760,7 +760,7 @@ cheatsheet do
       name 'P3P'
       index_name 'P3P (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Implementation-specific headers that may have various effects anywhere along the request-response chain
@@ -773,7 +773,7 @@ cheatsheet do
       name 'Pragma'
       index_name 'Pragma (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Request authentication to access the proxy
@@ -786,7 +786,7 @@ cheatsheet do
       name 'Proxy-Authenticate'
       index_name 'Proxy-Authenticate (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       If an entity is temporarily unavailable, this instructs the client to try again later. Value could be a specified period of time (in seconds) or a HTTP-date
@@ -799,7 +799,7 @@ cheatsheet do
       name 'Retry-After'
       index_name 'Retry-After (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       A name for the server
@@ -812,7 +812,7 @@ cheatsheet do
       name 'Server'
       index_name 'Server (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       The Trailer general field value indicates that the given set of header fields is present in the trailer of a message encoded with chunked transfer-coding
@@ -825,7 +825,7 @@ cheatsheet do
       name 'Trailer'
       index_name 'Trailer (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity
@@ -838,7 +838,7 @@ cheatsheet do
       name 'Transfer-Encoding'
       index_name 'Transfer-Encoding (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Ask the server to upgrade to another protocol
@@ -851,7 +851,7 @@ cheatsheet do
       name 'Upgrade'
       index_name 'Upgrade (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Tells downstream proxies how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one from the origin server
@@ -864,7 +864,7 @@ cheatsheet do
       name 'Vary'
       index_name 'Vary (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       A general warning about possible problems with the entity body
@@ -877,7 +877,7 @@ cheatsheet do
       name 'Warning'
       index_name 'Warning (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       Indicates the authentication scheme that should be used to access the requested entity
@@ -890,7 +890,7 @@ cheatsheet do
       name 'WWW-Authenticate'
       index_name 'WWW-Authenticate (Response)'
     end
-    
+
     entry do
       td_notes <<-'END'
       The HTTP status of the response
@@ -908,7 +908,7 @@ cheatsheet do
   category do
 
     id 'Common Non-Standard Response Headers'
-                
+
     entry do
       td_notes <<-'END'
       Clickjacking protection:
