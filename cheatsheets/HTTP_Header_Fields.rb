@@ -418,6 +418,26 @@ cheatsheet do
     end
   end # end request headers
 
+  # non-standard request headers
+  category do
+
+    id 'Common Non-Standard Request Headers'
+
+    entry do
+      td_notes <<-'END'
+      Mainly used to identify Ajax requests. Some JavaScript frameworks send this field with value of `XMLHttpRequest`, such as jQuery.
+
+      * `XMLHttpRequest` - Ajax request
+
+      ```
+      X-Requested-With: XMLHttpRequest
+      ```
+      END
+      name 'X-Requested-With'
+      index_name 'X-Requested-With (Request)'
+    end
+  end # end common non-standard request headers
+
   # response headers
   category do
 
@@ -904,7 +924,7 @@ cheatsheet do
     end
   end # end respone headers
 
-  # non-standard headers
+  # non-standard response headers
   category do
 
     id 'Common Non-Standard Response Headers'
@@ -983,6 +1003,6 @@ cheatsheet do
       name 'X-UA-Compatible'
       index_name 'X-UA-Compatible (Response)'
     end
-  end # end common non-standard headers
+  end # end common non-standard response headers
 
 end # end cheatsheet
