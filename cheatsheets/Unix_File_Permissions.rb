@@ -2,7 +2,7 @@ cheatsheet do
   title 'Unix File Permissions'
   docset_file_name 'Unix_File_Permissions'
   keyword 'ufp'
-
+  source_url 'http://cheat.kapeli.com'
 
   style '
 .td_command p {
@@ -20,7 +20,7 @@ cheatsheet do
     entry do
       td_command '0'           
       td_command '---'
-      name 'No Permissions'
+      name 'No permissions'
     end
 
     entry do
@@ -39,7 +39,7 @@ cheatsheet do
     entry do
       td_command '3'  
       td_command '-wx'
-      name 'Write & Execute'
+      name 'Write and execute'
     end
 
     entry do
@@ -51,20 +51,20 @@ cheatsheet do
     entry do
       td_command '5'
       td_command 'r-x'
-      name 'Read & Execute'
+      name 'Read and execute'
     end
 
 
     entry do
       td_command '6'
       td_command 'rw-'
-      name 'Read & Write'
+      name 'Read and write'
     end
 
     entry do
       td_command '7'
       td_command 'rwx'
-      name 'Read, Write & Execute'
+      name 'Read, write and execute'
     end
   end
 
@@ -80,7 +80,7 @@ cheatsheet do
     entry do
       command 'd'
       name 'Directory' 
-      notes 'Example: ```drwxr-xr-x  3 root  staff  102 1 January 00:00 .```'
+      notes 'Example: ```drwxr-xr-x  3 root  staff  102 1 January 00:00```'
     end
   end
 
