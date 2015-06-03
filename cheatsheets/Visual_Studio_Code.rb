@@ -155,7 +155,7 @@ cheatsheet do
       notes '`editor.action.triggerSuggest`'
     end
     entry do
-      command 'CMD+ALT+F'
+      command 'SHIFT+ALT+F'
       name 'Format code'
       notes '`editor.action.format`'
     end
@@ -218,7 +218,7 @@ cheatsheet do
       notes '`workbench.action.gotoLine`'
     end
     entry do
-      command 'CMD+O'
+      command 'CMD+P'
       name 'Go to file...'
       notes '`workbench.action.quickOpen`'
     end
