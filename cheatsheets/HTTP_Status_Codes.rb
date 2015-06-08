@@ -271,6 +271,13 @@ cheatsheet do
 
       Additional HTTP Status Codes - [RFC 6585](http://tools.ietf.org/html/rfc6585#section-4)"
     end
+
+    entry do
+      name '431 Request header fields too large'
+      notes "The server is unwilling to process the request because its header fields are too large.
+
+      Additional HTTP Status Codes - [RFC 6585](http://tools.ietf.org/html/rfc6585#section-5)"
+    end
   end
 
   category do
