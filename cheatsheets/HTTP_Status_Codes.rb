@@ -257,6 +257,13 @@ cheatsheet do
       name '426 Upgrade required'
       notes "The client should repeat the request using an upgraded protocol such as TLS 1.0."
     end
+
+    entry do
+      name '428 Precondition required'
+      notes "The origin server requires the request to be conditional.
+
+      Additional HTTP Status Codes - [RFC 6585](http://tools.ietf.org/html/rfc6585#section-3)"
+    end
   end
 
   category do
