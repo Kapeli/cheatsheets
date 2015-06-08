@@ -226,6 +226,13 @@ cheatsheet do
     end
 
     entry do
+      name '421 Misdirected request'
+      notes "The request was directed at a server that is not able to produce a response. This can be sent by a server that is not configured to produce responses for the combination of scheme and authority that are included in the request URI.
+
+      HTTP/2 - [RFC 7540](http://tools.ietf.org/html/rfc7540#section-9.1.2)"
+    end
+
+    entry do
       name '422 Unprocessable entity'
       notes "The request was formatted correctly but cannot be processed in its current form. Often used when the specified parameters fail validation errors.
 
