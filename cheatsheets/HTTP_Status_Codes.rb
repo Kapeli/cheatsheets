@@ -264,6 +264,13 @@ cheatsheet do
 
       Additional HTTP Status Codes - [RFC 6585](http://tools.ietf.org/html/rfc6585#section-3)"
     end
+
+    entry do
+      name '429 Too many requests'
+      notes "The user has sent too many requests in a given amount of time (\"rate limiting\").
+
+      Additional HTTP Status Codes - [RFC 6585](http://tools.ietf.org/html/rfc6585#section-4)"
+    end
   end
 
   category do
