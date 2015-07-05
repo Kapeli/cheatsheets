@@ -1,16 +1,16 @@
 cheatsheet do
-  title 'Semantic Commits'               # Will be displayed by Dash in the docset list
-  docset_file_name 'SemanticCommits'    # Used for the filename of the docset
-  keyword 'semanticcommits'             # Used as the initial search keyword (listed in Preferences > Docsets)
+  title 'Semantic Commits'
+  docset_file_name 'Semantic_Commits'
+  keyword 'semanticcommits'
+  source_url 'http://cheat.kapeli.com'
 
-  introduction 'A smarter way to structure commit messages'  # Optional, can contain Markdown or HTML
+  introduction 'A smarter way to structure commit messages.'
 
-  # A cheat sheet must consist of categories
   category do
-    id 'Example'  # Must be unique and is used as title of the category
+    id 'Example'
 
     entry do
-      name 'Example'    # A short name, can contain Markdown or HTML
+      name 'Example'
       notes <<-EOF
 ```
 feat: add hat wobble

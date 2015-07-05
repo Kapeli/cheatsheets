@@ -1,7 +1,7 @@
 cheatsheet do
-  title 'MIME Types – Complete List'
-  docset_file_name 'MimeTypes'
-  keyword 'mime type'
+  title 'MIME Types'
+  docset_file_name 'MIME_Types'
+  keyword 'mime'
   source_url 'http://cheat.kapeli.com'
   
   category do
@@ -10,2587 +10,2587 @@ cheatsheet do
     header 'Media type and subtype(s)'
     
     entry do
-      td_notes '.3dm'
+      command '.3dm'
       td_notes 'x-world/x-3dmf'
     end
     entry do
-      td_notes '.3dmf'
+      command '.3dmf'
       td_notes 'x-world/x-3dmf'
     end
     entry do
-      td_notes '.a'
+      command '.a'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.aab'
+      command '.aab'
       td_notes 'application/x-authorware-bin'
     end
     entry do
-      td_notes '.aam'
+      command '.aam'
       td_notes 'application/x-authorware-map'
     end
     entry do
-      td_notes '.aas'
+      command '.aas'
       td_notes 'application/x-authorware-seg'
     end
     entry do
-      td_notes '.abc'
+      command '.abc'
       td_notes 'text/vnd.abc'
     end
     entry do
-      td_notes '.acgi'
+      command '.acgi'
       td_notes 'text/html'
     end
     entry do
-      td_notes '.afl'
+      command '.afl'
       td_notes 'video/animaflex'
     end
     entry do
-      td_notes '.ai'
+      command '.ai'
       td_notes 'application/postscript'
     end
     entry do
-      td_notes '.aif'
+      command '.aif'
       td_notes 'audio/aiff'
     end
     entry do
-      td_notes '.aif'
+      command '.aif'
       td_notes 'audio/x-aiff'
     end
     entry do
-      td_notes '.aifc'
+      command '.aifc'
       td_notes 'audio/aiff'
     end
     entry do
-      td_notes '.aifc'
+      command '.aifc'
       td_notes 'audio/x-aiff'
     end
     entry do
-      td_notes '.aiff'
+      command '.aiff'
       td_notes 'audio/aiff'
     end
     entry do
-      td_notes '.aiff'
+      command '.aiff'
       td_notes 'audio/x-aiff'
     end
     entry do
-      td_notes '.aim'
+      command '.aim'
       td_notes 'application/x-aim'
     end
     entry do
-      td_notes '.aip'
+      command '.aip'
       td_notes 'text/x-audiosoft-intra'
     end
     entry do
-      td_notes '.ani'
+      command '.ani'
       td_notes 'application/x-navi-animation'
     end
     entry do
-      td_notes '.aos'
+      command '.aos'
       td_notes 'application/x-nokia-9000-communicator-add-on-software'
     end
     entry do
-      td_notes '.aps'
+      command '.aps'
       td_notes 'application/mime'
     end
     entry do
-      td_notes '.arc'
+      command '.arc'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.arj'
+      command '.arj'
       td_notes 'application/arj'
     end
     entry do
-      td_notes '.arj'
+      command '.arj'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.art'
+      command '.art'
       td_notes 'image/x-jg'
     end
     entry do
-      td_notes '.asf'
+      command '.asf'
       td_notes 'video/x-ms-asf'
     end
     entry do
-      td_notes '.asm'
+      command '.asm'
       td_notes 'text/x-asm'
     end
     entry do
-      td_notes '.asp'
+      command '.asp'
       td_notes 'text/asp'
     end
     entry do
-      td_notes '.asx'
+      command '.asx'
       td_notes 'application/x-mplayer2'
     end
     entry do
-      td_notes '.asx'
+      command '.asx'
       td_notes 'video/x-ms-asf'
     end
     entry do
-      td_notes '.asx'
+      command '.asx'
       td_notes 'video/x-ms-asf-plugin'
     end
     entry do
-      td_notes '.au'
+      command '.au'
       td_notes 'audio/basic'
     end
     entry do
-      td_notes '.au'
+      command '.au'
       td_notes 'audio/x-au'
     end
     entry do
-      td_notes '.avi'
+      command '.avi'
       td_notes 'application/x-troff-msvideo'
     end
     entry do
-      td_notes '.avi'
+      command '.avi'
       td_notes 'video/avi'
     end
     entry do
-      td_notes '.avi'
+      command '.avi'
       td_notes 'video/msvideo'
     end
     entry do
-      td_notes '.avi'
+      command '.avi'
       td_notes 'video/x-msvideo'
     end
     entry do
-      td_notes '.avs'
+      command '.avs'
       td_notes 'video/avs-video'
     end
     entry do
-      td_notes '.bcpio'
+      command '.bcpio'
       td_notes 'application/x-bcpio'
     end
     entry do
-      td_notes '.bin'
+      command '.bin'
       td_notes 'application/mac-binary'
     end
     entry do
-      td_notes '.bin'
+      command '.bin'
       td_notes 'application/macbinary'
     end
     entry do
-      td_notes '.bin'
+      command '.bin'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.bin'
+      command '.bin'
       td_notes 'application/x-binary'
     end
     entry do
-      td_notes '.bin'
+      command '.bin'
       td_notes 'application/x-macbinary'
     end
     entry do
-      td_notes '.bm'
+      command '.bm'
       td_notes 'image/bmp'
     end
     entry do
-      td_notes '.bmp'
+      command '.bmp'
       td_notes 'image/bmp'
     end
     entry do
-      td_notes '.bmp'
+      command '.bmp'
       td_notes 'image/x-windows-bmp'
     end
     entry do
-      td_notes '.boo'
+      command '.boo'
       td_notes 'application/book'
     end
     entry do
-      td_notes '.book'
+      command '.book'
       td_notes 'application/book'
     end
     entry do
-      td_notes '.boz'
+      command '.boz'
       td_notes 'application/x-bzip2'
     end
     entry do
-      td_notes '.bsh'
+      command '.bsh'
       td_notes 'application/x-bsh'
     end
     entry do
-      td_notes '.bz'
+      command '.bz'
       td_notes 'application/x-bzip'
     end
     entry do
-      td_notes '.bz2'
+      command '.bz2'
       td_notes 'application/x-bzip2'
     end
     entry do
-      td_notes '.c'
+      command '.c'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.c'
+      command '.c'
       td_notes 'text/x-c'
     end
     entry do
-      td_notes '.c++'
+      command '.c++'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.cat'
+      command '.cat'
       td_notes 'application/vnd.ms-pki.seccat'
     end
     entry do
-      td_notes '.cc'
+      command '.cc'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.cc'
+      command '.cc'
       td_notes 'text/x-c'
     end
     entry do
-      td_notes '.ccad'
+      command '.ccad'
       td_notes 'application/clariscad'
     end
     entry do
-      td_notes '.cco'
+      command '.cco'
       td_notes 'application/x-cocoa'
     end
     entry do
-      td_notes '.cdf'
+      command '.cdf'
       td_notes 'application/cdf'
     end
     entry do
-      td_notes '.cdf'
+      command '.cdf'
       td_notes 'application/x-cdf'
     end
     entry do
-      td_notes '.cdf'
+      command '.cdf'
       td_notes 'application/x-netcdf'
     end
     entry do
-      td_notes '.cer'
+      command '.cer'
       td_notes 'application/pkix-cert'
     end
     entry do
-      td_notes '.cer'
+      command '.cer'
       td_notes 'application/x-x509-ca-cert'
     end
     entry do
-      td_notes '.cha'
+      command '.cha'
       td_notes 'application/x-chat'
     end
     entry do
-      td_notes '.chat'
+      command '.chat'
       td_notes 'application/x-chat'
     end
     entry do
-      td_notes '.class'
+      command '.class'
       td_notes 'application/java'
     end
     entry do
-      td_notes '.class'
+      command '.class'
       td_notes 'application/java-byte-code'
     end
     entry do
-      td_notes '.class'
+      command '.class'
       td_notes 'application/x-java-class'
     end
     entry do
-      td_notes '.com'
+      command '.com'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.com'
+      command '.com'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.conf'
+      command '.conf'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.cpio'
+      command '.cpio'
       td_notes 'application/x-cpio'
     end
     entry do
-      td_notes '.cpp'
+      command '.cpp'
       td_notes 'text/x-c'
     end
     entry do
-      td_notes '.cpt'
+      command '.cpt'
       td_notes 'application/mac-compactpro'
     end
     entry do
-      td_notes '.cpt'
+      command '.cpt'
       td_notes 'application/x-compactpro'
     end
     entry do
-      td_notes '.cpt'
+      command '.cpt'
       td_notes 'application/x-cpt'
     end
     entry do
-      td_notes '.crl'
+      command '.crl'
       td_notes 'application/pkcs-crl'
     end
     entry do
-      td_notes '.crl'
+      command '.crl'
       td_notes 'application/pkix-crl'
     end
     entry do
-      td_notes '.crt'
+      command '.crt'
       td_notes 'application/pkix-cert'
     end
     entry do
-      td_notes '.crt'
+      command '.crt'
       td_notes 'application/x-x509-ca-cert'
     end
     entry do
-      td_notes '.crt'
+      command '.crt'
       td_notes 'application/x-x509-user-cert'
     end
     entry do
-      td_notes '.csh'
+      command '.csh'
       td_notes 'application/x-csh'
     end
     entry do
-      td_notes '.csh'
+      command '.csh'
       td_notes 'text/x-script.csh'
     end
     entry do
-      td_notes '.css'
+      command '.css'
       td_notes 'application/x-pointplus'
     end
     entry do
-      td_notes '.css'
+      command '.css'
       td_notes 'text/css'
     end
     entry do
-      td_notes '.cxx'
+      command '.cxx'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.dcr'
+      command '.dcr'
       td_notes 'application/x-director'
     end
     entry do
-      td_notes '.deepv'
+      command '.deepv'
       td_notes 'application/x-deepv'
     end
     entry do
-      td_notes '.def'
+      command '.def'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.der'
+      command '.der'
       td_notes 'application/x-x509-ca-cert'
     end
     entry do
-      td_notes '.dif'
+      command '.dif'
       td_notes 'video/x-dv'
     end
     entry do
-      td_notes '.dir'
+      command '.dir'
       td_notes 'application/x-director'
     end
     entry do
-      td_notes '.dl'
+      command '.dl'
       td_notes 'video/dl'
     end
     entry do
-      td_notes '.dl'
+      command '.dl'
       td_notes 'video/x-dl'
     end
     entry do
-      td_notes '.doc'
+      command '.doc'
       td_notes 'application/msword'
     end
     entry do
-      td_notes '.dot'
+      command '.dot'
       td_notes 'application/msword'
     end
     entry do
-      td_notes '.dp'
+      command '.dp'
       td_notes 'application/commonground'
     end
     entry do
-      td_notes '.drw'
+      command '.drw'
       td_notes 'application/drafting'
     end
     entry do
-      td_notes '.dump'
+      command '.dump'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.dv'
+      command '.dv'
       td_notes 'video/x-dv'
     end
     entry do
-      td_notes '.dvi'
+      command '.dvi'
       td_notes 'application/x-dvi'
     end
     entry do
-      td_notes '.dwf'
+      command '.dwf'
       td_notes 'drawing/x-dwf (old)'
     end
     entry do
-      td_notes '.dwf'
+      command '.dwf'
       td_notes 'model/vnd.dwf'
     end
     entry do
-      td_notes '.dwg'
+      command '.dwg'
       td_notes 'application/acad'
     end
     entry do
-      td_notes '.dwg'
+      command '.dwg'
       td_notes 'image/vnd.dwg'
     end
     entry do
-      td_notes '.dwg'
+      command '.dwg'
       td_notes 'image/x-dwg'
     end
     entry do
-      td_notes '.dxf'
+      command '.dxf'
       td_notes 'application/dxf'
     end
     entry do
-      td_notes '.dxf'
+      command '.dxf'
       td_notes 'image/vnd.dwg'
     end
     entry do
-      td_notes '.dxf'
+      command '.dxf'
       td_notes 'image/x-dwg'
     end
     entry do
-      td_notes '.dxr'
+      command '.dxr'
       td_notes 'application/x-director'
     end
     entry do
-      td_notes '.el'
+      command '.el'
       td_notes 'text/x-script.elisp'
     end
     entry do
-      td_notes '.elc'
+      command '.elc'
       td_notes 'application/x-bytecode.elisp (compiled elisp)'
     end
     entry do
-      td_notes '.elc'
+      command '.elc'
       td_notes 'application/x-elc'
     end
     entry do
-      td_notes '.env'
+      command '.env'
       td_notes 'application/x-envoy'
     end
     entry do
-      td_notes '.eps'
+      command '.eps'
       td_notes 'application/postscript'
     end
     entry do
-      td_notes '.es'
+      command '.es'
       td_notes 'application/x-esrehber'
     end
     entry do
-      td_notes '.etx'
+      command '.etx'
       td_notes 'text/x-setext'
     end
     entry do
-      td_notes '.evy'
+      command '.evy'
       td_notes 'application/envoy'
     end
     entry do
-      td_notes '.evy'
+      command '.evy'
       td_notes 'application/x-envoy'
     end
     entry do
-      td_notes '.exe'
+      command '.exe'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.f'
+      command '.f'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.f'
+      command '.f'
       td_notes 'text/x-fortran'
     end
     entry do
-      td_notes '.f77'
+      command '.f77'
       td_notes 'text/x-fortran'
     end
     entry do
-      td_notes '.f90'
+      command '.f90'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.f90'
+      command '.f90'
       td_notes 'text/x-fortran'
     end
     entry do
-      td_notes '.fdf'
+      command '.fdf'
       td_notes 'application/vnd.fdf'
     end
     entry do
-      td_notes '.fif'
+      command '.fif'
       td_notes 'application/fractals'
     end
     entry do
-      td_notes '.fif'
+      command '.fif'
       td_notes 'image/fif'
     end
     entry do
-      td_notes '.fli'
+      command '.fli'
       td_notes 'video/fli'
     end
     entry do
-      td_notes '.fli'
+      command '.fli'
       td_notes 'video/x-fli'
     end
     entry do
-      td_notes '.flo'
+      command '.flo'
       td_notes 'image/florian'
     end
     entry do
-      td_notes '.flx'
+      command '.flx'
       td_notes 'text/vnd.fmi.flexstor'
     end
     entry do
-      td_notes '.fmf'
+      command '.fmf'
       td_notes 'video/x-atomic3d-feature'
     end
     entry do
-      td_notes '.for'
+      command '.for'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.for'
+      command '.for'
       td_notes 'text/x-fortran'
     end
     entry do
-      td_notes '.fpx'
+      command '.fpx'
       td_notes 'image/vnd.fpx'
     end
     entry do
-      td_notes '.fpx'
+      command '.fpx'
       td_notes 'image/vnd.net-fpx'
     end
     entry do
-      td_notes '.frl'
+      command '.frl'
       td_notes 'application/freeloader'
     end
     entry do
-      td_notes '.funk'
+      command '.funk'
       td_notes 'audio/make'
     end
     entry do
-      td_notes '.g'
+      command '.g'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.g3'
+      command '.g3'
       td_notes 'image/g3fax'
     end
     entry do
-      td_notes '.gif'
+      command '.gif'
       td_notes 'image/gif'
     end
     entry do
-      td_notes '.gl'
+      command '.gl'
       td_notes 'video/gl'
     end
     entry do
-      td_notes '.gl'
+      command '.gl'
       td_notes 'video/x-gl'
     end
     entry do
-      td_notes '.gsd'
+      command '.gsd'
       td_notes 'audio/x-gsm'
     end
     entry do
-      td_notes '.gsm'
+      command '.gsm'
       td_notes 'audio/x-gsm'
     end
     entry do
-      td_notes '.gsp'
+      command '.gsp'
       td_notes 'application/x-gsp'
     end
     entry do
-      td_notes '.gss'
+      command '.gss'
       td_notes 'application/x-gss'
     end
     entry do
-      td_notes '.gtar'
+      command '.gtar'
       td_notes 'application/x-gtar'
     end
     entry do
-      td_notes '.gz'
+      command '.gz'
       td_notes 'application/x-compressed'
     end
     entry do
-      td_notes '.gz'
+      command '.gz'
       td_notes 'application/x-gzip'
     end
     entry do
-      td_notes '.gzip'
+      command '.gzip'
       td_notes 'application/x-gzip'
     end
     entry do
-      td_notes '.gzip'
+      command '.gzip'
       td_notes 'multipart/x-gzip'
     end
     entry do
-      td_notes '.h'
+      command '.h'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.h'
+      command '.h'
       td_notes 'text/x-h'
     end
     entry do
-      td_notes '.hdf'
+      command '.hdf'
       td_notes 'application/x-hdf'
     end
     entry do
-      td_notes '.help'
+      command '.help'
       td_notes 'application/x-helpfile'
     end
     entry do
-      td_notes '.hgl'
+      command '.hgl'
       td_notes 'application/vnd.hp-hpgl'
     end
     entry do
-      td_notes '.hh'
+      command '.hh'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.hh'
+      command '.hh'
       td_notes 'text/x-h'
     end
     entry do
-      td_notes '.hlb'
+      command '.hlb'
       td_notes 'text/x-script'
     end
     entry do
-      td_notes '.hlp'
+      command '.hlp'
       td_notes 'application/hlp'
     end
     entry do
-      td_notes '.hlp'
+      command '.hlp'
       td_notes 'application/x-helpfile'
     end
     entry do
-      td_notes '.hlp'
+      command '.hlp'
       td_notes 'application/x-winhelp'
     end
     entry do
-      td_notes '.hpg'
+      command '.hpg'
       td_notes 'application/vnd.hp-hpgl'
     end
     entry do
-      td_notes '.hpgl'
+      command '.hpgl'
       td_notes 'application/vnd.hp-hpgl'
     end
     entry do
-      td_notes '.hqx'
+      command '.hqx'
       td_notes 'application/binhex'
     end
     entry do
-      td_notes '.hqx'
+      command '.hqx'
       td_notes 'application/binhex4'
     end
     entry do
-      td_notes '.hqx'
+      command '.hqx'
       td_notes 'application/mac-binhex'
     end
     entry do
-      td_notes '.hqx'
+      command '.hqx'
       td_notes 'application/mac-binhex40'
     end
     entry do
-      td_notes '.hqx'
+      command '.hqx'
       td_notes 'application/x-binhex40'
     end
     entry do
-      td_notes '.hqx'
+      command '.hqx'
       td_notes 'application/x-mac-binhex40'
     end
     entry do
-      td_notes '.hta'
+      command '.hta'
       td_notes 'application/hta'
     end
     entry do
-      td_notes '.htc'
+      command '.htc'
       td_notes 'text/x-component'
     end
     entry do
-      td_notes '.htm'
+      command '.htm'
       td_notes 'text/html'
     end
     entry do
-      td_notes '.html'
+      command '.html'
       td_notes 'text/html'
     end
     entry do
-      td_notes '.htmls'
+      command '.htmls'
       td_notes 'text/html'
     end
     entry do
-      td_notes '.htt'
+      command '.htt'
       td_notes 'text/webviewhtml'
     end
     entry do
-      td_notes '.htx'
+      command '.htx'
       td_notes 'text/html'
     end
     entry do
-      td_notes '.ice'
+      command '.ice'
       td_notes 'x-conference/x-cooltalk'
     end
     entry do
-      td_notes '.ico'
+      command '.ico'
       td_notes 'image/x-icon'
     end
     entry do
-      td_notes '.idc'
+      command '.idc'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.ief'
+      command '.ief'
       td_notes 'image/ief'
     end
     entry do
-      td_notes '.iefs'
+      command '.iefs'
       td_notes 'image/ief'
     end
     entry do
-      td_notes '.iges'
+      command '.iges'
       td_notes 'application/iges'
     end
     entry do
-      td_notes '.iges'
+      command '.iges'
       td_notes 'model/iges'
     end
     entry do
-      td_notes '.igs'
+      command '.igs'
       td_notes 'application/iges'
     end
     entry do
-      td_notes '.igs'
+      command '.igs'
       td_notes 'model/iges'
     end
     entry do
-      td_notes '.ima'
+      command '.ima'
       td_notes 'application/x-ima'
     end
     entry do
-      td_notes '.imap'
+      command '.imap'
       td_notes 'application/x-httpd-imap'
     end
     entry do
-      td_notes '.inf'
+      command '.inf'
       td_notes 'application/inf'
     end
     entry do
-      td_notes '.ins'
+      command '.ins'
       td_notes 'application/x-internett-signup'
     end
     entry do
-      td_notes '.ip'
+      command '.ip'
       td_notes 'application/x-ip2'
     end
     entry do
-      td_notes '.isu'
+      command '.isu'
       td_notes 'video/x-isvideo'
     end
     entry do
-      td_notes '.it'
+      command '.it'
       td_notes 'audio/it'
     end
     entry do
-      td_notes '.iv'
+      command '.iv'
       td_notes 'application/x-inventor'
     end
     entry do
-      td_notes '.ivr'
+      command '.ivr'
       td_notes 'i-world/i-vrml'
     end
     entry do
-      td_notes '.ivy'
+      command '.ivy'
       td_notes 'application/x-livescreen'
     end
     entry do
-      td_notes '.jam'
+      command '.jam'
       td_notes 'audio/x-jam'
     end
     entry do
-      td_notes '.jav'
+      command '.jav'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.jav'
+      command '.jav'
       td_notes 'text/x-java-source'
     end
     entry do
-      td_notes '.java'
+      command '.java'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.java'
+      command '.java'
       td_notes 'text/x-java-source'
     end
     entry do
-      td_notes '.jcm'
+      command '.jcm'
       td_notes 'application/x-java-commerce'
     end
     entry do
-      td_notes '.jfif'
+      command '.jfif'
       td_notes 'image/jpeg'
     end
     entry do
-      td_notes '.jfif'
+      command '.jfif'
       td_notes 'image/pjpeg'
     end
     entry do
-      td_notes '.jfif-tbnl'
+      command '.jfif-tbnl'
       td_notes 'image/jpeg'
     end
     entry do
-      td_notes '.jpe'
+      command '.jpe'
       td_notes 'image/jpeg'
     end
     entry do
-      td_notes '.jpe'
+      command '.jpe'
       td_notes 'image/pjpeg'
     end
     entry do
-      td_notes '.jpeg'
+      command '.jpeg'
       td_notes 'image/jpeg'
     end
     entry do
-      td_notes '.jpeg'
+      command '.jpeg'
       td_notes 'image/pjpeg'
     end
     entry do
-      td_notes '.jpg'
+      command '.jpg'
       td_notes 'image/jpeg'
     end
     entry do
-      td_notes '.jpg'
+      command '.jpg'
       td_notes 'image/pjpeg'
     end
     entry do
-      td_notes '.jps'
+      command '.jps'
       td_notes 'image/x-jps'
     end
     entry do
-      td_notes '.js'
+      command '.js'
       td_notes 'application/x-javascript'
     end
     entry do
-      td_notes '.js'
+      command '.js'
       td_notes 'application/javascript'
     end
     entry do
-      td_notes '.js'
+      command '.js'
       td_notes 'application/ecmascript'
     end
     entry do
-      td_notes '.js'
+      command '.js'
       td_notes 'text/javascript'
     end
     entry do
-      td_notes '.js'
+      command '.js'
       td_notes 'text/ecmascript'
     end
     entry do
-      td_notes '.jut'
+      command '.jut'
       td_notes 'image/jutvision'
     end
     entry do
-      td_notes '.kar'
+      command '.kar'
       td_notes 'audio/midi'
     end
     entry do
-      td_notes '.kar'
+      command '.kar'
       td_notes 'music/x-karaoke'
     end
     entry do
-      td_notes '.ksh'
+      command '.ksh'
       td_notes 'application/x-ksh'
     end
     entry do
-      td_notes '.ksh'
+      command '.ksh'
       td_notes 'text/x-script.ksh'
     end
     entry do
-      td_notes '.la'
+      command '.la'
       td_notes 'audio/nspaudio'
     end
     entry do
-      td_notes '.la'
+      command '.la'
       td_notes 'audio/x-nspaudio'
     end
     entry do
-      td_notes '.lam'
+      command '.lam'
       td_notes 'audio/x-liveaudio'
     end
     entry do
-      td_notes '.latex'
+      command '.latex'
       td_notes 'application/x-latex'
     end
     entry do
-      td_notes '.lha'
+      command '.lha'
       td_notes 'application/lha'
     end
     entry do
-      td_notes '.lha'
+      command '.lha'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.lha'
+      command '.lha'
       td_notes 'application/x-lha'
     end
     entry do
-      td_notes '.lhx'
+      command '.lhx'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.list'
+      command '.list'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.lma'
+      command '.lma'
       td_notes 'audio/nspaudio'
     end
     entry do
-      td_notes '.lma'
+      command '.lma'
       td_notes 'audio/x-nspaudio'
     end
     entry do
-      td_notes '.log'
+      command '.log'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.lsp'
+      command '.lsp'
       td_notes 'application/x-lisp'
     end
     entry do
-      td_notes '.lsp'
+      command '.lsp'
       td_notes 'text/x-script.lisp'
     end
     entry do
-      td_notes '.lst'
+      command '.lst'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.lsx'
+      command '.lsx'
       td_notes 'text/x-la-asf'
     end
     entry do
-      td_notes '.ltx'
+      command '.ltx'
       td_notes 'application/x-latex'
     end
     entry do
-      td_notes '.lzh'
+      command '.lzh'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.lzh'
+      command '.lzh'
       td_notes 'application/x-lzh'
     end
     entry do
-      td_notes '.lzx'
+      command '.lzx'
       td_notes 'application/lzx'
     end
     entry do
-      td_notes '.lzx'
+      command '.lzx'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.lzx'
+      command '.lzx'
       td_notes 'application/x-lzx'
     end
     entry do
-      td_notes '.m'
+      command '.m'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.m'
+      command '.m'
       td_notes 'text/x-m'
     end
     entry do
-      td_notes '.m1v'
+      command '.m1v'
       td_notes 'video/mpeg'
     end
     entry do
-      td_notes '.m2a'
+      command '.m2a'
       td_notes 'audio/mpeg'
     end
     entry do
-      td_notes '.m2v'
+      command '.m2v'
       td_notes 'video/mpeg'
     end
     entry do
-      td_notes '.m3u'
+      command '.m3u'
       td_notes 'audio/x-mpequrl'
     end
     entry do
-      td_notes '.man'
+      command '.man'
       td_notes 'application/x-troff-man'
     end
     entry do
-      td_notes '.map'
+      command '.map'
       td_notes 'application/x-navimap'
     end
     entry do
-      td_notes '.mar'
+      command '.mar'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.mbd'
+      command '.mbd'
       td_notes 'application/mbedlet'
     end
     entry do
-      td_notes '.mc$'
+      command '.mc$'
       td_notes 'application/x-magic-cap-package-1.0'
     end
     entry do
-      td_notes '.mcd'
+      command '.mcd'
       td_notes 'application/mcad'
     end
     entry do
-      td_notes '.mcd'
+      command '.mcd'
       td_notes 'application/x-mathcad'
     end
     entry do
-      td_notes '.mcf'
+      command '.mcf'
       td_notes 'image/vasa'
     end
     entry do
-      td_notes '.mcf'
+      command '.mcf'
       td_notes 'text/mcf'
     end
     entry do
-      td_notes '.mcp'
+      command '.mcp'
       td_notes 'application/netmc'
     end
     entry do
-      td_notes '.me'
+      command '.me'
       td_notes 'application/x-troff-me'
     end
     entry do
-      td_notes '.mht'
+      command '.mht'
       td_notes 'message/rfc822'
     end
     entry do
-      td_notes '.mhtml'
+      command '.mhtml'
       td_notes 'message/rfc822'
     end
     entry do
-      td_notes '.mid'
+      command '.mid'
       td_notes 'application/x-midi'
     end
     entry do
-      td_notes '.mid'
+      command '.mid'
       td_notes 'audio/midi'
     end
     entry do
-      td_notes '.mid'
+      command '.mid'
       td_notes 'audio/x-mid'
     end
     entry do
-      td_notes '.mid'
+      command '.mid'
       td_notes 'audio/x-midi'
     end
     entry do
-      td_notes '.mid'
+      command '.mid'
       td_notes 'music/crescendo'
     end
     entry do
-      td_notes '.mid'
+      command '.mid'
       td_notes 'x-music/x-midi'
     end
     entry do
-      td_notes '.midi'
+      command '.midi'
       td_notes 'application/x-midi'
     end
     entry do
-      td_notes '.midi'
+      command '.midi'
       td_notes 'audio/midi'
     end
     entry do
-      td_notes '.midi'
+      command '.midi'
       td_notes 'audio/x-mid'
     end
     entry do
-      td_notes '.midi'
+      command '.midi'
       td_notes 'audio/x-midi'
     end
     entry do
-      td_notes '.midi'
+      command '.midi'
       td_notes 'music/crescendo'
     end
     entry do
-      td_notes '.midi'
+      command '.midi'
       td_notes 'x-music/x-midi'
     end
     entry do
-      td_notes '.mif'
+      command '.mif'
       td_notes 'application/x-frame'
     end
     entry do
-      td_notes '.mif'
+      command '.mif'
       td_notes 'application/x-mif'
     end
     entry do
-      td_notes '.mime'
+      command '.mime'
       td_notes 'message/rfc822'
     end
     entry do
-      td_notes '.mime'
+      command '.mime'
       td_notes 'www/mime'
     end
     entry do
-      td_notes '.mjf'
+      command '.mjf'
       td_notes 'audio/x-vnd.audioexplosion.mjuicemediafile'
     end
     entry do
-      td_notes '.mjpg'
+      command '.mjpg'
       td_notes 'video/x-motion-jpeg'
     end
     entry do
-      td_notes '.mm'
+      command '.mm'
       td_notes 'application/base64'
     end
     entry do
-      td_notes '.mm'
+      command '.mm'
       td_notes 'application/x-meme'
     end
     entry do
-      td_notes '.mme'
+      command '.mme'
       td_notes 'application/base64'
     end
     entry do
-      td_notes '.mod'
+      command '.mod'
       td_notes 'audio/mod'
     end
     entry do
-      td_notes '.mod'
+      command '.mod'
       td_notes 'audio/x-mod'
     end
     entry do
-      td_notes '.moov'
+      command '.moov'
       td_notes 'video/quicktime'
     end
     entry do
-      td_notes '.mov'
+      command '.mov'
       td_notes 'video/quicktime'
     end
     entry do
-      td_notes '.movie'
+      command '.movie'
       td_notes 'video/x-sgi-movie'
     end
     entry do
-      td_notes '.mp2'
+      command '.mp2'
       td_notes 'audio/mpeg'
     end
     entry do
-      td_notes '.mp2'
+      command '.mp2'
       td_notes 'audio/x-mpeg'
     end
     entry do
-      td_notes '.mp2'
+      command '.mp2'
       td_notes 'video/mpeg'
     end
     entry do
-      td_notes '.mp2'
+      command '.mp2'
       td_notes 'video/x-mpeg'
     end
     entry do
-      td_notes '.mp2'
+      command '.mp2'
       td_notes 'video/x-mpeq2a'
     end
     entry do
-      td_notes '.mp3'
+      command '.mp3'
       td_notes 'audio/mpeg3'
     end
     entry do
-      td_notes '.mp3'
+      command '.mp3'
       td_notes 'audio/x-mpeg-3'
     end
     entry do
-      td_notes '.mp3'
+      command '.mp3'
       td_notes 'video/mpeg'
     end
     entry do
-      td_notes '.mp3'
+      command '.mp3'
       td_notes 'video/x-mpeg'
     end
     entry do
-      td_notes '.mpa'
+      command '.mpa'
       td_notes 'audio/mpeg'
     end
     entry do
-      td_notes '.mpa'
+      command '.mpa'
       td_notes 'video/mpeg'
     end
     entry do
-      td_notes '.mpc'
+      command '.mpc'
       td_notes 'application/x-project'
     end
     entry do
-      td_notes '.mpe'
+      command '.mpe'
       td_notes 'video/mpeg'
     end
     entry do
-      td_notes '.mpeg'
+      command '.mpeg'
       td_notes 'video/mpeg'
     end
     entry do
-      td_notes '.mpg'
+      command '.mpg'
       td_notes 'audio/mpeg'
     end
     entry do
-      td_notes '.mpg'
+      command '.mpg'
       td_notes 'video/mpeg'
     end
     entry do
-      td_notes '.mpga'
+      command '.mpga'
       td_notes 'audio/mpeg'
     end
     entry do
-      td_notes '.mpp'
+      command '.mpp'
       td_notes 'application/vnd.ms-project'
     end
     entry do
-      td_notes '.mpt'
+      command '.mpt'
       td_notes 'application/x-project'
     end
     entry do
-      td_notes '.mpv'
+      command '.mpv'
       td_notes 'application/x-project'
     end
     entry do
-      td_notes '.mpx'
+      command '.mpx'
       td_notes 'application/x-project'
     end
     entry do
-      td_notes '.mrc'
+      command '.mrc'
       td_notes 'application/marc'
     end
     entry do
-      td_notes '.ms'
+      command '.ms'
       td_notes 'application/x-troff-ms'
     end
     entry do
-      td_notes '.mv'
+      command '.mv'
       td_notes 'video/x-sgi-movie'
     end
     entry do
-      td_notes '.my'
+      command '.my'
       td_notes 'audio/make'
     end
     entry do
-      td_notes '.mzz'
+      command '.mzz'
       td_notes 'application/x-vnd.audioexplosion.mzz'
     end
     entry do
-      td_notes '.nap'
+      command '.nap'
       td_notes 'image/naplps'
     end
     entry do
-      td_notes '.naplps'
+      command '.naplps'
       td_notes 'image/naplps'
     end
     entry do
-      td_notes '.nc'
+      command '.nc'
       td_notes 'application/x-netcdf'
     end
     entry do
-      td_notes '.ncm'
+      command '.ncm'
       td_notes 'application/vnd.nokia.configuration-message'
     end
     entry do
-      td_notes '.nif'
+      command '.nif'
       td_notes 'image/x-niff'
     end
     entry do
-      td_notes '.niff'
+      command '.niff'
       td_notes 'image/x-niff'
     end
     entry do
-      td_notes '.nix'
+      command '.nix'
       td_notes 'application/x-mix-transfer'
     end
     entry do
-      td_notes '.nsc'
+      command '.nsc'
       td_notes 'application/x-conference'
     end
     entry do
-      td_notes '.nvd'
+      command '.nvd'
       td_notes 'application/x-navidoc'
     end
     entry do
-      td_notes '.o'
+      command '.o'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.oda'
+      command '.oda'
       td_notes 'application/oda'
     end
     entry do
-      td_notes '.omc'
+      command '.omc'
       td_notes 'application/x-omc'
     end
     entry do
-      td_notes '.omcd'
+      command '.omcd'
       td_notes 'application/x-omcdatamaker'
     end
     entry do
-      td_notes '.omcr'
+      command '.omcr'
       td_notes 'application/x-omcregerator'
     end
     entry do
-      td_notes '.p'
+      command '.p'
       td_notes 'text/x-pascal'
     end
     entry do
-      td_notes '.p10'
+      command '.p10'
       td_notes 'application/pkcs10'
     end
     entry do
-      td_notes '.p10'
+      command '.p10'
       td_notes 'application/x-pkcs10'
     end
     entry do
-      td_notes '.p12'
+      command '.p12'
       td_notes 'application/pkcs-12'
     end
     entry do
-      td_notes '.p12'
+      command '.p12'
       td_notes 'application/x-pkcs12'
     end
     entry do
-      td_notes '.p7a'
+      command '.p7a'
       td_notes 'application/x-pkcs7-signature'
     end
     entry do
-      td_notes '.p7c'
+      command '.p7c'
       td_notes 'application/pkcs7-mime'
     end
     entry do
-      td_notes '.p7c'
+      command '.p7c'
       td_notes 'application/x-pkcs7-mime'
     end
     entry do
-      td_notes '.p7m'
+      command '.p7m'
       td_notes 'application/pkcs7-mime'
     end
     entry do
-      td_notes '.p7m'
+      command '.p7m'
       td_notes 'application/x-pkcs7-mime'
     end
     entry do
-      td_notes '.p7r'
+      command '.p7r'
       td_notes 'application/x-pkcs7-certreqresp'
     end
     entry do
-      td_notes '.p7s'
+      command '.p7s'
       td_notes 'application/pkcs7-signature'
     end
     entry do
-      td_notes '.part'
+      command '.part'
       td_notes 'application/pro_eng'
     end
     entry do
-      td_notes '.pas'
+      command '.pas'
       td_notes 'text/pascal'
     end
     entry do
-      td_notes '.pbm'
+      command '.pbm'
       td_notes 'image/x-portable-bitmap'
     end
     entry do
-      td_notes '.pcl'
+      command '.pcl'
       td_notes 'application/vnd.hp-pcl'
     end
     entry do
-      td_notes '.pcl'
+      command '.pcl'
       td_notes 'application/x-pcl'
     end
     entry do
-      td_notes '.pct'
+      command '.pct'
       td_notes 'image/x-pict'
     end
     entry do
-      td_notes '.pcx'
+      command '.pcx'
       td_notes 'image/x-pcx'
     end
     entry do
-      td_notes '.pdb'
+      command '.pdb'
       td_notes 'chemical/x-pdb'
     end
     entry do
-      td_notes '.pdf'
+      command '.pdf'
       td_notes 'application/pdf'
     end
     entry do
-      td_notes '.pfunk'
+      command '.pfunk'
       td_notes 'audio/make'
     end
     entry do
-      td_notes '.pfunk'
+      command '.pfunk'
       td_notes 'audio/make.my.funk'
     end
     entry do
-      td_notes '.pgm'
+      command '.pgm'
       td_notes 'image/x-portable-graymap'
     end
     entry do
-      td_notes '.pgm'
+      command '.pgm'
       td_notes 'image/x-portable-greymap'
     end
     entry do
-      td_notes '.pic'
+      command '.pic'
       td_notes 'image/pict'
     end
     entry do
-      td_notes '.pict'
+      command '.pict'
       td_notes 'image/pict'
     end
     entry do
-      td_notes '.pkg'
+      command '.pkg'
       td_notes 'application/x-newton-compatible-pkg'
     end
     entry do
-      td_notes '.pko'
+      command '.pko'
       td_notes 'application/vnd.ms-pki.pko'
     end
     entry do
-      td_notes '.pl'
+      command '.pl'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.pl'
+      command '.pl'
       td_notes 'text/x-script.perl'
     end
     entry do
-      td_notes '.plx'
+      command '.plx'
       td_notes 'application/x-pixclscript'
     end
     entry do
-      td_notes '.pm'
+      command '.pm'
       td_notes 'image/x-xpixmap'
     end
     entry do
-      td_notes '.pm'
+      command '.pm'
       td_notes 'text/x-script.perl-module'
     end
     entry do
-      td_notes '.pm4'
+      command '.pm4'
       td_notes 'application/x-pagemaker'
     end
     entry do
-      td_notes '.pm5'
+      command '.pm5'
       td_notes 'application/x-pagemaker'
     end
     entry do
-      td_notes '.png'
+      command '.png'
       td_notes 'image/png'
     end
     entry do
-      td_notes '.pnm'
+      command '.pnm'
       td_notes 'application/x-portable-anymap'
     end
     entry do
-      td_notes '.pnm'
+      command '.pnm'
       td_notes 'image/x-portable-anymap'
     end
     entry do
-      td_notes '.pot'
+      command '.pot'
       td_notes 'application/mspowerpoint'
     end
     entry do
-      td_notes '.pot'
+      command '.pot'
       td_notes 'application/vnd.ms-powerpoint'
     end
     entry do
-      td_notes '.pov'
+      command '.pov'
       td_notes 'model/x-pov'
     end
     entry do
-      td_notes '.ppa'
+      command '.ppa'
       td_notes 'application/vnd.ms-powerpoint'
     end
     entry do
-      td_notes '.ppm'
+      command '.ppm'
       td_notes 'image/x-portable-pixmap'
     end
     entry do
-      td_notes '.pps'
+      command '.pps'
       td_notes 'application/mspowerpoint'
     end
     entry do
-      td_notes '.pps'
+      command '.pps'
       td_notes 'application/vnd.ms-powerpoint'
     end
     entry do
-      td_notes '.ppt'
+      command '.ppt'
       td_notes 'application/mspowerpoint'
     end
     entry do
-      td_notes '.ppt'
+      command '.ppt'
       td_notes 'application/powerpoint'
     end
     entry do
-      td_notes '.ppt'
+      command '.ppt'
       td_notes 'application/vnd.ms-powerpoint'
     end
     entry do
-      td_notes '.ppt'
+      command '.ppt'
       td_notes 'application/x-mspowerpoint'
     end
     entry do
-      td_notes '.ppz'
+      command '.ppz'
       td_notes 'application/mspowerpoint'
     end
     entry do
-      td_notes '.pre'
+      command '.pre'
       td_notes 'application/x-freelance'
     end
     entry do
-      td_notes '.prt'
+      command '.prt'
       td_notes 'application/pro_eng'
     end
     entry do
-      td_notes '.ps'
+      command '.ps'
       td_notes 'application/postscript'
     end
     entry do
-      td_notes '.psd'
+      command '.psd'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.pvu'
+      command '.pvu'
       td_notes 'paleovu/x-pv'
     end
     entry do
-      td_notes '.pwz'
+      command '.pwz'
       td_notes 'application/vnd.ms-powerpoint'
     end
     entry do
-      td_notes '.py'
+      command '.py'
       td_notes 'text/x-script.phyton'
     end
     entry do
-      td_notes '.pyc'
+      command '.pyc'
       td_notes 'application/x-bytecode.python'
     end
     entry do
-      td_notes '.qcp'
+      command '.qcp'
       td_notes 'audio/vnd.qcelp'
     end
     entry do
-      td_notes '.qd3'
+      command '.qd3'
       td_notes 'x-world/x-3dmf'
     end
     entry do
-      td_notes '.qd3d'
+      command '.qd3d'
       td_notes 'x-world/x-3dmf'
     end
     entry do
-      td_notes '.qif'
+      command '.qif'
       td_notes 'image/x-quicktime'
     end
     entry do
-      td_notes '.qt'
+      command '.qt'
       td_notes 'video/quicktime'
     end
     entry do
-      td_notes '.qtc'
+      command '.qtc'
       td_notes 'video/x-qtc'
     end
     entry do
-      td_notes '.qti'
+      command '.qti'
       td_notes 'image/x-quicktime'
     end
     entry do
-      td_notes '.qtif'
+      command '.qtif'
       td_notes 'image/x-quicktime'
     end
     entry do
-      td_notes '.ra'
+      command '.ra'
       td_notes 'audio/x-pn-realaudio'
     end
     entry do
-      td_notes '.ra'
+      command '.ra'
       td_notes 'audio/x-pn-realaudio-plugin'
     end
     entry do
-      td_notes '.ra'
+      command '.ra'
       td_notes 'audio/x-realaudio'
     end
     entry do
-      td_notes '.ram'
+      command '.ram'
       td_notes 'audio/x-pn-realaudio'
     end
     entry do
-      td_notes '.ras'
+      command '.ras'
       td_notes 'application/x-cmu-raster'
     end
     entry do
-      td_notes '.ras'
+      command '.ras'
       td_notes 'image/cmu-raster'
     end
     entry do
-      td_notes '.ras'
+      command '.ras'
       td_notes 'image/x-cmu-raster'
     end
     entry do
-      td_notes '.rast'
+      command '.rast'
       td_notes 'image/cmu-raster'
     end
     entry do
-      td_notes '.rexx'
+      command '.rexx'
       td_notes 'text/x-script.rexx'
     end
     entry do
-      td_notes '.rf'
+      command '.rf'
       td_notes 'image/vnd.rn-realflash'
     end
     entry do
-      td_notes '.rgb'
+      command '.rgb'
       td_notes 'image/x-rgb'
     end
     entry do
-      td_notes '.rm'
+      command '.rm'
       td_notes 'application/vnd.rn-realmedia'
     end
     entry do
-      td_notes '.rm'
+      command '.rm'
       td_notes 'audio/x-pn-realaudio'
     end
     entry do
-      td_notes '.rmi'
+      command '.rmi'
       td_notes 'audio/mid'
     end
     entry do
-      td_notes '.rmm'
+      command '.rmm'
       td_notes 'audio/x-pn-realaudio'
     end
     entry do
-      td_notes '.rmp'
+      command '.rmp'
       td_notes 'audio/x-pn-realaudio'
     end
     entry do
-      td_notes '.rmp'
+      command '.rmp'
       td_notes 'audio/x-pn-realaudio-plugin'
     end
     entry do
-      td_notes '.rng'
+      command '.rng'
       td_notes 'application/ringing-tones'
     end
     entry do
-      td_notes '.rng'
+      command '.rng'
       td_notes 'application/vnd.nokia.ringing-tone'
     end
     entry do
-      td_notes '.rnx'
+      command '.rnx'
       td_notes 'application/vnd.rn-realplayer'
     end
     entry do
-      td_notes '.roff'
+      command '.roff'
       td_notes 'application/x-troff'
     end
     entry do
-      td_notes '.rp'
+      command '.rp'
       td_notes 'image/vnd.rn-realpix'
     end
     entry do
-      td_notes '.rpm'
+      command '.rpm'
       td_notes 'audio/x-pn-realaudio-plugin'
     end
     entry do
-      td_notes '.rt'
+      command '.rt'
       td_notes 'text/richtext'
     end
     entry do
-      td_notes '.rt'
+      command '.rt'
       td_notes 'text/vnd.rn-realtext'
     end
     entry do
-      td_notes '.rtf'
+      command '.rtf'
       td_notes 'application/rtf'
     end
     entry do
-      td_notes '.rtf'
+      command '.rtf'
       td_notes 'application/x-rtf'
     end
     entry do
-      td_notes '.rtf'
+      command '.rtf'
       td_notes 'text/richtext'
     end
     entry do
-      td_notes '.rtx'
+      command '.rtx'
       td_notes 'application/rtf'
     end
     entry do
-      td_notes '.rtx'
+      command '.rtx'
       td_notes 'text/richtext'
     end
     entry do
-      td_notes '.rv'
+      command '.rv'
       td_notes 'video/vnd.rn-realvideo'
     end
     entry do
-      td_notes '.s'
+      command '.s'
       td_notes 'text/x-asm'
     end
     entry do
-      td_notes '.s3m'
+      command '.s3m'
       td_notes 'audio/s3m'
     end
     entry do
-      td_notes '.saveme'
+      command '.saveme'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.sbk'
+      command '.sbk'
       td_notes 'application/x-tbook'
     end
     entry do
-      td_notes '.scm'
+      command '.scm'
       td_notes 'application/x-lotusscreencam'
     end
     entry do
-      td_notes '.scm'
+      command '.scm'
       td_notes 'text/x-script.guile'
     end
     entry do
-      td_notes '.scm'
+      command '.scm'
       td_notes 'text/x-script.scheme'
     end
     entry do
-      td_notes '.scm'
+      command '.scm'
       td_notes 'video/x-scm'
     end
     entry do
-      td_notes '.sdml'
+      command '.sdml'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.sdp'
+      command '.sdp'
       td_notes 'application/sdp'
     end
     entry do
-      td_notes '.sdp'
+      command '.sdp'
       td_notes 'application/x-sdp'
     end
     entry do
-      td_notes '.sdr'
+      command '.sdr'
       td_notes 'application/sounder'
     end
     entry do
-      td_notes '.sea'
+      command '.sea'
       td_notes 'application/sea'
     end
     entry do
-      td_notes '.sea'
+      command '.sea'
       td_notes 'application/x-sea'
     end
     entry do
-      td_notes '.set'
+      command '.set'
       td_notes 'application/set'
     end
     entry do
-      td_notes '.sgm'
+      command '.sgm'
       td_notes 'text/sgml'
     end
     entry do
-      td_notes '.sgm'
+      command '.sgm'
       td_notes 'text/x-sgml'
     end
     entry do
-      td_notes '.sgml'
+      command '.sgml'
       td_notes 'text/sgml'
     end
     entry do
-      td_notes '.sgml'
+      command '.sgml'
       td_notes 'text/x-sgml'
     end
     entry do
-      td_notes '.sh'
+      command '.sh'
       td_notes 'application/x-bsh'
     end
     entry do
-      td_notes '.sh'
+      command '.sh'
       td_notes 'application/x-sh'
     end
     entry do
-      td_notes '.sh'
+      command '.sh'
       td_notes 'application/x-shar'
     end
     entry do
-      td_notes '.sh'
+      command '.sh'
       td_notes 'text/x-script.sh'
     end
     entry do
-      td_notes '.shar'
+      command '.shar'
       td_notes 'application/x-bsh'
     end
     entry do
-      td_notes '.shar'
+      command '.shar'
       td_notes 'application/x-shar'
     end
     entry do
-      td_notes '.shtml'
+      command '.shtml'
       td_notes 'text/html'
     end
     entry do
-      td_notes '.shtml'
+      command '.shtml'
       td_notes 'text/x-server-parsed-html'
     end
     entry do
-      td_notes '.sid'
+      command '.sid'
       td_notes 'audio/x-psid'
     end
     entry do
-      td_notes '.sit'
+      command '.sit'
       td_notes 'application/x-sit'
     end
     entry do
-      td_notes '.sit'
+      command '.sit'
       td_notes 'application/x-stuffit'
     end
     entry do
-      td_notes '.skd'
+      command '.skd'
       td_notes 'application/x-koan'
     end
     entry do
-      td_notes '.skm'
+      command '.skm'
       td_notes 'application/x-koan'
     end
     entry do
-      td_notes '.skp'
+      command '.skp'
       td_notes 'application/x-koan'
     end
     entry do
-      td_notes '.skt'
+      command '.skt'
       td_notes 'application/x-koan'
     end
     entry do
-      td_notes '.sl'
+      command '.sl'
       td_notes 'application/x-seelogo'
     end
     entry do
-      td_notes '.smi'
+      command '.smi'
       td_notes 'application/smil'
     end
     entry do
-      td_notes '.smil'
+      command '.smil'
       td_notes 'application/smil'
     end
     entry do
-      td_notes '.snd'
+      command '.snd'
       td_notes 'audio/basic'
     end
     entry do
-      td_notes '.snd'
+      command '.snd'
       td_notes 'audio/x-adpcm'
     end
     entry do
-      td_notes '.sol'
+      command '.sol'
       td_notes 'application/solids'
     end
     entry do
-      td_notes '.spc'
+      command '.spc'
       td_notes 'application/x-pkcs7-certificates'
     end
     entry do
-      td_notes '.spc'
+      command '.spc'
       td_notes 'text/x-speech'
     end
     entry do
-      td_notes '.spl'
+      command '.spl'
       td_notes 'application/futuresplash'
     end
     entry do
-      td_notes '.spr'
+      command '.spr'
       td_notes 'application/x-sprite'
     end
     entry do
-      td_notes '.sprite'
+      command '.sprite'
       td_notes 'application/x-sprite'
     end
     entry do
-      td_notes '.src'
+      command '.src'
       td_notes 'application/x-wais-source'
     end
     entry do
-      td_notes '.ssi'
+      command '.ssi'
       td_notes 'text/x-server-parsed-html'
     end
     entry do
-      td_notes '.ssm'
+      command '.ssm'
       td_notes 'application/streamingmedia'
     end
     entry do
-      td_notes '.sst'
+      command '.sst'
       td_notes 'application/vnd.ms-pki.certstore'
     end
     entry do
-      td_notes '.step'
+      command '.step'
       td_notes 'application/step'
     end
     entry do
-      td_notes '.stl'
+      command '.stl'
       td_notes 'application/sla'
     end
     entry do
-      td_notes '.stl'
+      command '.stl'
       td_notes 'application/vnd.ms-pki.stl'
     end
     entry do
-      td_notes '.stl'
+      command '.stl'
       td_notes 'application/x-navistyle'
     end
     entry do
-      td_notes '.stp'
+      command '.stp'
       td_notes 'application/step'
     end
     entry do
-      td_notes '.sv4cpio'
+      command '.sv4cpio'
       td_notes 'application/x-sv4cpio'
     end
     entry do
-      td_notes '.sv4crc'
+      command '.sv4crc'
       td_notes 'application/x-sv4crc'
     end
     entry do
-      td_notes '.svf'
+      command '.svf'
       td_notes 'image/vnd.dwg'
     end
     entry do
-      td_notes '.svf'
+      command '.svf'
       td_notes 'image/x-dwg'
     end
     entry do
-      td_notes '.svr'
+      command '.svr'
       td_notes 'application/x-world'
     end
     entry do
-      td_notes '.svr'
+      command '.svr'
       td_notes 'x-world/x-svr'
     end
     entry do
-      td_notes '.swf'
+      command '.swf'
       td_notes 'application/x-shockwave-flash'
     end
     entry do
-      td_notes '.t'
+      command '.t'
       td_notes 'application/x-troff'
     end
     entry do
-      td_notes '.talk'
+      command '.talk'
       td_notes 'text/x-speech'
     end
     entry do
-      td_notes '.tar'
+      command '.tar'
       td_notes 'application/x-tar'
     end
     entry do
-      td_notes '.tbk'
+      command '.tbk'
       td_notes 'application/toolbook'
     end
     entry do
-      td_notes '.tbk'
+      command '.tbk'
       td_notes 'application/x-tbook'
     end
     entry do
-      td_notes '.tcl'
+      command '.tcl'
       td_notes 'application/x-tcl'
     end
     entry do
-      td_notes '.tcl'
+      command '.tcl'
       td_notes 'text/x-script.tcl'
     end
     entry do
-      td_notes '.tcsh'
+      command '.tcsh'
       td_notes 'text/x-script.tcsh'
     end
     entry do
-      td_notes '.tex'
+      command '.tex'
       td_notes 'application/x-tex'
     end
     entry do
-      td_notes '.texi'
+      command '.texi'
       td_notes 'application/x-texinfo'
     end
     entry do
-      td_notes '.texinfo'
+      command '.texinfo'
       td_notes 'application/x-texinfo'
     end
     entry do
-      td_notes '.text'
+      command '.text'
       td_notes 'application/plain'
     end
     entry do
-      td_notes '.text'
+      command '.text'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.tgz'
+      command '.tgz'
       td_notes 'application/gnutar'
     end
     entry do
-      td_notes '.tgz'
+      command '.tgz'
       td_notes 'application/x-compressed'
     end
     entry do
-      td_notes '.tif'
+      command '.tif'
       td_notes 'image/tiff'
     end
     entry do
-      td_notes '.tif'
+      command '.tif'
       td_notes 'image/x-tiff'
     end
     entry do
-      td_notes '.tiff'
+      command '.tiff'
       td_notes 'image/tiff'
     end
     entry do
-      td_notes '.tiff'
+      command '.tiff'
       td_notes 'image/x-tiff'
     end
     entry do
-      td_notes '.tr'
+      command '.tr'
       td_notes 'application/x-troff'
     end
     entry do
-      td_notes '.tsi'
+      command '.tsi'
       td_notes 'audio/tsp-audio'
     end
     entry do
-      td_notes '.tsp'
+      command '.tsp'
       td_notes 'application/dsptype'
     end
     entry do
-      td_notes '.tsp'
+      command '.tsp'
       td_notes 'audio/tsplayer'
     end
     entry do
-      td_notes '.tsv'
+      command '.tsv'
       td_notes 'text/tab-separated-values'
     end
     entry do
-      td_notes '.turbot'
+      command '.turbot'
       td_notes 'image/florian'
     end
     entry do
-      td_notes '.txt'
+      command '.txt'
       td_notes 'text/plain'
     end
     entry do
-      td_notes '.uil'
+      command '.uil'
       td_notes 'text/x-uil'
     end
     entry do
-      td_notes '.uni'
+      command '.uni'
       td_notes 'text/uri-list'
     end
     entry do
-      td_notes '.unis'
+      command '.unis'
       td_notes 'text/uri-list'
     end
     entry do
-      td_notes '.unv'
+      command '.unv'
       td_notes 'application/i-deas'
     end
     entry do
-      td_notes '.uri'
+      command '.uri'
       td_notes 'text/uri-list'
     end
     entry do
-      td_notes '.uris'
+      command '.uris'
       td_notes 'text/uri-list'
     end
     entry do
-      td_notes '.ustar'
+      command '.ustar'
       td_notes 'application/x-ustar'
     end
     entry do
-      td_notes '.ustar'
+      command '.ustar'
       td_notes 'multipart/x-ustar'
     end
     entry do
-      td_notes '.uu'
+      command '.uu'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.uu'
+      command '.uu'
       td_notes 'text/x-uuencode'
     end
     entry do
-      td_notes '.uue'
+      command '.uue'
       td_notes 'text/x-uuencode'
     end
     entry do
-      td_notes '.vcd'
+      command '.vcd'
       td_notes 'application/x-cdlink'
     end
     entry do
-      td_notes '.vcs'
+      command '.vcs'
       td_notes 'text/x-vcalendar'
     end
     entry do
-      td_notes '.vda'
+      command '.vda'
       td_notes 'application/vda'
     end
     entry do
-      td_notes '.vdo'
+      command '.vdo'
       td_notes 'video/vdo'
     end
     entry do
-      td_notes '.vew'
+      command '.vew'
       td_notes 'application/groupwise'
     end
     entry do
-      td_notes '.viv'
+      command '.viv'
       td_notes 'video/vivo'
     end
     entry do
-      td_notes '.viv'
+      command '.viv'
       td_notes 'video/vnd.vivo'
     end
     entry do
-      td_notes '.vivo'
+      command '.vivo'
       td_notes 'video/vivo'
     end
     entry do
-      td_notes '.vivo'
+      command '.vivo'
       td_notes 'video/vnd.vivo'
     end
     entry do
-      td_notes '.vmd'
+      command '.vmd'
       td_notes 'application/vocaltec-media-desc'
     end
     entry do
-      td_notes '.vmf'
+      command '.vmf'
       td_notes 'application/vocaltec-media-file'
     end
     entry do
-      td_notes '.voc'
+      command '.voc'
       td_notes 'audio/voc'
     end
     entry do
-      td_notes '.voc'
+      command '.voc'
       td_notes 'audio/x-voc'
     end
     entry do
-      td_notes '.vos'
+      command '.vos'
       td_notes 'video/vosaic'
     end
     entry do
-      td_notes '.vox'
+      command '.vox'
       td_notes 'audio/voxware'
     end
     entry do
-      td_notes '.vqe'
+      command '.vqe'
       td_notes 'audio/x-twinvq-plugin'
     end
     entry do
-      td_notes '.vqf'
+      command '.vqf'
       td_notes 'audio/x-twinvq'
     end
     entry do
-      td_notes '.vql'
+      command '.vql'
       td_notes 'audio/x-twinvq-plugin'
     end
     entry do
-      td_notes '.vrml'
+      command '.vrml'
       td_notes 'application/x-vrml'
     end
     entry do
-      td_notes '.vrml'
+      command '.vrml'
       td_notes 'model/vrml'
     end
     entry do
-      td_notes '.vrml'
+      command '.vrml'
       td_notes 'x-world/x-vrml'
     end
     entry do
-      td_notes '.vrt'
+      command '.vrt'
       td_notes 'x-world/x-vrt'
     end
     entry do
-      td_notes '.vsd'
+      command '.vsd'
       td_notes 'application/x-visio'
     end
     entry do
-      td_notes '.vst'
+      command '.vst'
       td_notes 'application/x-visio'
     end
     entry do
-      td_notes '.vsw'
+      command '.vsw'
       td_notes 'application/x-visio'
     end
     entry do
-      td_notes '.w60'
+      command '.w60'
       td_notes 'application/wordperfect6.0'
     end
     entry do
-      td_notes '.w61'
+      command '.w61'
       td_notes 'application/wordperfect6.1'
     end
     entry do
-      td_notes '.w6w'
+      command '.w6w'
       td_notes 'application/msword'
     end
     entry do
-      td_notes '.wav'
+      command '.wav'
       td_notes 'audio/wav'
     end
     entry do
-      td_notes '.wav'
+      command '.wav'
       td_notes 'audio/x-wav'
     end
     entry do
-      td_notes '.wb1'
+      command '.wb1'
       td_notes 'application/x-qpro'
     end
     entry do
-      td_notes '.wbmp'
+      command '.wbmp'
       td_notes 'image/vnd.wap.wbmp'
     end
     entry do
-      td_notes '.web'
+      command '.web'
       td_notes 'application/vnd.xara'
     end
     entry do
-      td_notes '.wiz'
+      command '.wiz'
       td_notes 'application/msword'
     end
     entry do
-      td_notes '.wk1'
+      command '.wk1'
       td_notes 'application/x-123'
     end
     entry do
-      td_notes '.wmf'
+      command '.wmf'
       td_notes 'windows/metafile'
     end
     entry do
-      td_notes '.wml'
+      command '.wml'
       td_notes 'text/vnd.wap.wml'
     end
     entry do
-      td_notes '.wmlc'
+      command '.wmlc'
       td_notes 'application/vnd.wap.wmlc'
     end
     entry do
-      td_notes '.wmls'
+      command '.wmls'
       td_notes 'text/vnd.wap.wmlscript'
     end
     entry do
-      td_notes '.wmlsc'
+      command '.wmlsc'
       td_notes 'application/vnd.wap.wmlscriptc'
     end
     entry do
-      td_notes '.word'
+      command '.word'
       td_notes 'application/msword'
     end
     entry do
-      td_notes '.wp'
+      command '.wp'
       td_notes 'application/wordperfect'
     end
     entry do
-      td_notes '.wp5'
+      command '.wp5'
       td_notes 'application/wordperfect'
     end
     entry do
-      td_notes '.wp5'
+      command '.wp5'
       td_notes 'application/wordperfect6.0'
     end
     entry do
-      td_notes '.wp6'
+      command '.wp6'
       td_notes 'application/wordperfect'
     end
     entry do
-      td_notes '.wpd'
+      command '.wpd'
       td_notes 'application/wordperfect'
     end
     entry do
-      td_notes '.wpd'
+      command '.wpd'
       td_notes 'application/x-wpwin'
     end
     entry do
-      td_notes '.wq1'
+      command '.wq1'
       td_notes 'application/x-lotus'
     end
     entry do
-      td_notes '.wri'
+      command '.wri'
       td_notes 'application/mswrite'
     end
     entry do
-      td_notes '.wri'
+      command '.wri'
       td_notes 'application/x-wri'
     end
     entry do
-      td_notes '.wrl'
+      command '.wrl'
       td_notes 'application/x-world'
     end
     entry do
-      td_notes '.wrl'
+      command '.wrl'
       td_notes 'model/vrml'
     end
     entry do
-      td_notes '.wrl'
+      command '.wrl'
       td_notes 'x-world/x-vrml'
     end
     entry do
-      td_notes '.wrz'
+      command '.wrz'
       td_notes 'model/vrml'
     end
     entry do
-      td_notes '.wrz'
+      command '.wrz'
       td_notes 'x-world/x-vrml'
     end
     entry do
-      td_notes '.wsc'
+      command '.wsc'
       td_notes 'text/scriplet'
     end
     entry do
-      td_notes '.wsrc'
+      command '.wsrc'
       td_notes 'application/x-wais-source'
     end
     entry do
-      td_notes '.wtk'
+      command '.wtk'
       td_notes 'application/x-wintalk'
     end
     entry do
-      td_notes '.xbm'
+      command '.xbm'
       td_notes 'image/x-xbitmap'
     end
     entry do
-      td_notes '.xbm'
+      command '.xbm'
       td_notes 'image/x-xbm'
     end
     entry do
-      td_notes '.xbm'
+      command '.xbm'
       td_notes 'image/xbm'
     end
     entry do
-      td_notes '.xdr'
+      command '.xdr'
       td_notes 'video/x-amt-demorun'
     end
     entry do
-      td_notes '.xgz'
+      command '.xgz'
       td_notes 'xgl/drawing'
     end
     entry do
-      td_notes '.xif'
+      command '.xif'
       td_notes 'image/vnd.xiff'
     end
     entry do
-      td_notes '.xl'
+      command '.xl'
       td_notes 'application/excel'
     end
     entry do
-      td_notes '.xla'
+      command '.xla'
       td_notes 'application/excel'
     end
     entry do
-      td_notes '.xla'
+      command '.xla'
       td_notes 'application/x-excel'
     end
     entry do
-      td_notes '.xla'
+      command '.xla'
       td_notes 'application/x-msexcel'
     end
     entry do
-      td_notes '.xlb'
+      command '.xlb'
       td_notes 'application/excel'
     end
     entry do
-      td_notes '.xlb'
+      command '.xlb'
       td_notes 'application/vnd.ms-excel'
     end
     entry do
-      td_notes '.xlb'
+      command '.xlb'
       td_notes 'application/x-excel'
     end
     entry do
-      td_notes '.xlc'
+      command '.xlc'
       td_notes 'application/excel'
     end
     entry do
-      td_notes '.xlc'
+      command '.xlc'
       td_notes 'application/vnd.ms-excel'
     end
     entry do
-      td_notes '.xlc'
+      command '.xlc'
       td_notes 'application/x-excel'
     end
     entry do
-      td_notes '.xld'
+      command '.xld'
       td_notes 'application/excel'
     end
     entry do
-      td_notes '.xld'
+      command '.xld'
       td_notes 'application/x-excel'
     end
     entry do
-      td_notes '.xlk'
+      command '.xlk'
       td_notes 'application/excel'
     end
     entry do
-      td_notes '.xlk'
+      command '.xlk'
       td_notes 'application/x-excel'
     end
     entry do
-      td_notes '.xll'
+      command '.xll'
       td_notes 'application/excel'
     end
     entry do
-      td_notes '.xll'
+      command '.xll'
       td_notes 'application/vnd.ms-excel'
     end
     entry do
-      td_notes '.xll'
+      command '.xll'
       td_notes 'application/x-excel'
     end
     entry do
-      td_notes '.xlm'
+      command '.xlm'
       td_notes 'application/excel'
     end
     entry do
-      td_notes '.xlm'
+      command '.xlm'
       td_notes 'application/vnd.ms-excel'
     end
     entry do
-      td_notes '.xlm'
+      command '.xlm'
       td_notes 'application/x-excel'
     end
     entry do
-      td_notes '.xls'
+      command '.xls'
       td_notes 'application/excel'
     end
     entry do
-      td_notes '.xls'
+      command '.xls'
       td_notes 'application/vnd.ms-excel'
     end
     entry do
-      td_notes '.xls'
+      command '.xls'
       td_notes 'application/x-excel'
     end
     entry do
-      td_notes '.xls'
+      command '.xls'
       td_notes 'application/x-msexcel'
     end
     entry do
-      td_notes '.xlt'
+      command '.xlt'
       td_notes 'application/excel'
     end
     entry do
-      td_notes '.xlt'
+      command '.xlt'
       td_notes 'application/x-excel'
     end
     entry do
-      td_notes '.xlv'
+      command '.xlv'
       td_notes 'application/excel'
     end
     entry do
-      td_notes '.xlv'
+      command '.xlv'
       td_notes 'application/x-excel'
     end
     entry do
-      td_notes '.xlw'
+      command '.xlw'
       td_notes 'application/excel'
     end
     entry do
-      td_notes '.xlw'
+      command '.xlw'
       td_notes 'application/vnd.ms-excel'
     end
     entry do
-      td_notes '.xlw'
+      command '.xlw'
       td_notes 'application/x-excel'
     end
     entry do
-      td_notes '.xlw'
+      command '.xlw'
       td_notes 'application/x-msexcel'
     end
     entry do
-      td_notes '.xm'
+      command '.xm'
       td_notes 'audio/xm'
     end
     entry do
-      td_notes '.xml'
+      command '.xml'
       td_notes 'application/xml'
     end
     entry do
-      td_notes '.xml'
+      command '.xml'
       td_notes 'text/xml'
     end
     entry do
-      td_notes '.xmz'
+      command '.xmz'
       td_notes 'xgl/movie'
     end
     entry do
-      td_notes '.xpix'
+      command '.xpix'
       td_notes 'application/x-vnd.ls-xpix'
     end
     entry do
-      td_notes '.xpm'
+      command '.xpm'
       td_notes 'image/x-xpixmap'
     end
     entry do
-      td_notes '.xpm'
+      command '.xpm'
       td_notes 'image/xpm'
     end
     entry do
-      td_notes '.x-png'
+      command '.x-png'
       td_notes 'image/png'
     end
     entry do
-      td_notes '.xsr'
+      command '.xsr'
       td_notes 'video/x-amt-showrun'
     end
     entry do
-      td_notes '.xwd'
+      command '.xwd'
       td_notes 'image/x-xwd'
     end
     entry do
-      td_notes '.xwd'
+      command '.xwd'
       td_notes 'image/x-xwindowdump'
     end
     entry do
-      td_notes '.xyz'
+      command '.xyz'
       td_notes 'chemical/x-pdb'
     end
     entry do
-      td_notes '.z'
+      command '.z'
       td_notes 'application/x-compress'
     end
     entry do
-      td_notes '.z'
+      command '.z'
       td_notes 'application/x-compressed'
     end
     entry do
-      td_notes '.zip'
+      command '.zip'
       td_notes 'application/x-compressed'
     end
     entry do
-      td_notes '.zip'
+      command '.zip'
       td_notes 'application/x-zip-compressed'
     end
     entry do
-      td_notes '.zip'
+      command '.zip'
       td_notes 'application/zip'
     end
     entry do
-      td_notes '.zip'
+      command '.zip'
       td_notes 'multipart/x-zip'
     end
     entry do
-      td_notes '.zoo'
+      command '.zoo'
       td_notes 'application/octet-stream'
     end
     entry do
-      td_notes '.zsh'
+      command '.zsh'
       td_notes 'text/x-script.zsh'
     end
   
@@ -2598,7 +2598,6 @@ cheatsheet do
   
   notes <<-'END'
   * Based on [MIME Types – Complete List by Sitepoint](http://www.sitepoint.com/web-foundations/mime-types-complete-list/)
-  * Published April 15, 2014
   END
   
 end

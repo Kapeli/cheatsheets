@@ -155,7 +155,7 @@ cheatsheet do
       notes '`editor.action.triggerSuggest`'
     end
     entry do
-      command 'SHIFT+ALT+F'
+      command 'ALT+SHIFT+F'
       name 'Format code'
       notes '`editor.action.format`'
     end
