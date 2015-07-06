@@ -130,6 +130,11 @@ cheatsheet do
       name '308 Permanent redirect'
       notes 'Experimental. The request and all future requests should be repeated with the URI provided in the response. The HTTP method is not allowed to be changed in the subsequent request.'
     end
+
+    entry do
+      name '308 Resume Incomplete (Google)'
+      notes 'This code is used in the Resumable HTTP Requests Proposal to resume aborted PUT or POST requests'
+    end
   end
 
   category do
@@ -226,6 +231,13 @@ cheatsheet do
     end
 
     entry do
+      name '421 Misdirected request'
+      notes "The request was directed at a server that is not able to produce a response. This can be sent by a server that is not configured to produce responses for the combination of scheme and authority that are included in the request URI.
+
+      HTTP/2 - [RFC 7540](http://tools.ietf.org/html/rfc7540#section-9.1.2)"
+    end
+
+    entry do
       name '422 Unprocessable entity'
       notes "The request was formatted correctly but cannot be processed in its current form. Often used when the specified parameters fail validation errors.
 
@@ -249,6 +261,86 @@ cheatsheet do
     entry do
       name '426 Upgrade required'
       notes "The client should repeat the request using an upgraded protocol such as TLS 1.0."
+    end
+
+    entry do
+      name '428 Precondition required'
+      notes "The origin server requires the request to be conditional.
+
+      Additional HTTP Status Codes - [RFC 6585](http://tools.ietf.org/html/rfc6585#section-3)"
+    end
+
+    entry do
+      name '429 Too many requests'
+      notes "The user has sent too many requests in a given amount of time (\"rate limiting\").
+
+      Additional HTTP Status Codes - [RFC 6585](http://tools.ietf.org/html/rfc6585#section-4)"
+    end
+
+    entry do
+      name '431 Request header fields too large'
+      notes "The server is unwilling to process the request because its header fields are too large.
+
+      Additional HTTP Status Codes - [RFC 6585](http://tools.ietf.org/html/rfc6585#section-5)"
+    end
+
+    entry do
+      name '440 Login Timeout (Microsoft)'
+      notes "A Microsoft extension. Indicates that your session has expired."
+    end
+
+    entry do
+      name '444 No Response (Nginx)'
+      notes "Used in Nginx logs to indicate that the server has returned no information to the client and closed the connection (useful as a deterrent for malware)."
+    end
+
+    entry do
+      name '449 Retry With (Microsoft)'
+      notes "A Microsoft extension. The request should be retried after performing the appropriate action."
+    end
+
+    entry do
+      name '450 Blocked by Windows Parental Controls (Microsoft)'
+      notes "A Microsoft extension. This error is given when Windows Parental Controls are turned on and are blocking access to the given webpage."
+    end
+
+    entry do
+      name '451 Unavailable For Legal Reasons (Internet draft)'
+      notes "Defined in the internet draft [\"A New HTTP Status Code for Legally-restricted Resources\"](http://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-05). Intended to be used when resource access is denied for legal reasons, e.g. censorship or government-mandated blocked access. A reference to the 1953 dystopian novel Fahrenheit 451, where books are outlawed."
+    end
+
+    entry do
+      name '451 Redirect (Microsoft)'
+      notes "Used in Exchange ActiveSync if there either is a more efficient server to use or the server cannot access the users' mailbox."
+    end
+
+    entry do
+      name '494 Request Header Too Large (Nginx)'
+      notes "Nginx internal code similar to 431 but it was introduced earlier in version 0.9.4 (on January 21, 2011)."
+    end
+    entry do
+      name '495 Cert Error (Nginx)'
+      notes "Nginx internal code used when SSL client certificate error occurred to distinguish it from 4XX in a log and an error page redirection."
+    end
+    entry do
+      name '496 No Cert (Nginx)'
+      notes "Nginx internal code used when client didn't provide certificate to distinguish it from 4XX in a log and an error page redirection."
+    end
+    entry do
+      name '497 HTTP to HTTPS (Nginx)'
+      notes "Nginx internal code used for the plain HTTP requests that are sent to HTTPS port to distinguish it from 4XX in a log and an error page redirection."
+    end
+    entry do
+      name '498 Token expired/invalid (Esri)'
+      notes "Returned by ArcGIS for Server. A code of 498 indicates an expired or otherwise invalid token."
+    end
+    entry do
+      name '499 Client Closed Request (Nginx)'
+      notes "Used in Nginx logs to indicate when the connection has been closed by client while the server is still processing its request, making server unable to send a status code back."
+    end
+    entry do
+      name '499 Token required (Esri)'
+      notes "Returned by ArcGIS for Server. A code of 499 indicates that a token is required (if no token was submitted)."
     end
   end
 
@@ -305,6 +397,11 @@ cheatsheet do
     end
 
     entry do
+      name '509 Bandwidth Limit Exceeded (Apache bw/limited extension)'
+      notes "This status code is not specified in any RFCs. Its use is unknown."
+    end
+
+    entry do
       name '510 Not extended'
       notes "Further extensions to the request are necessary for it to be fulfilled."
     end
@@ -315,7 +412,13 @@ cheatsheet do
 
       [RFC 6585](https://tools.ietf.org/html/rfc6585)"
     end
+
+    entry do
+      name '520 Unknown Error (Microsoft / Cloudflare)'
+      notes "This status code is not specified in any RFC and is returned by certain services, for instance Microsoft Azure and Cloudflare servers: \"The 520 error is essentially a \"catch-all\" response for when the origin server returns something unexpected or something that is not tolerated/interpreted (protocol violation or empty response).\""
+    end
   end
+
   notes <<-'END'
     * Based on [cheat.errtheblog.com](http://cheat.errtheblog.com/) and [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) on Wikipedia.
   END
