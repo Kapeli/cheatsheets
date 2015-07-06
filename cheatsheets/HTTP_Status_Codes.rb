@@ -341,7 +341,6 @@ cheatsheet do
     entry do
       name '499 Token required (Esri)'
       notes "Returned by ArcGIS for Server. A code of 499 indicates that a token is required (if no token was submitted)."
->>>>>>> 0f0d5c8... Add some proprietary HTTP status codes from https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
     end
   end
 
