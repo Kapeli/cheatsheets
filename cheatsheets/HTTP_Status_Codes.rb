@@ -305,6 +305,11 @@ cheatsheet do
     end
 
     entry do
+      name '451 Unavailable For Legal Reasons (Internet draft)'
+      notes "Defined in the internet draft [\"A New HTTP Status Code for Legally-restricted Resources\"](http://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-05). Intended to be used when resource access is denied for legal reasons, e.g. censorship or government-mandated blocked access. A reference to the 1953 dystopian novel Fahrenheit 451, where books are outlawed."
+    end
+
+    entry do
       name '451 Redirect (Microsoft)'
       notes "Used in Exchange ActiveSync if there either is a more efficient server to use or the server cannot access the users' mailbox."
     end
