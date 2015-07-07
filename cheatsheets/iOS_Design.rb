@@ -38,8 +38,16 @@ cheatsheet do
     entry do
       td_notes '1080 x 1920 px'
       td_notes '1920 x 1080 px'
-      name 'iPhone 6 Plus'
-      index_name 'iPhone 6 Plus Resolution'
+      name 'iPhone 6 Plus (Physical)'
+      index_name 'iPhone 6 Plus Physical Resolution'
+      notes ''
+    end
+
+	entry do
+      td_notes '1242 x 2208 px'
+      td_notes '2208 x 1242 px'
+      name 'iPhone 6 Plus (Virtual)'
+      index_name 'iPhone 6 Plus Virtual Resolution'
       notes ''
     end
 
