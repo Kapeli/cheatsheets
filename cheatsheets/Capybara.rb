@@ -128,6 +128,14 @@ cheatsheet do
           Fills in fields for you. Pass the label text or the name of the input.'
       end
       entry do
+          name 'Choose'
+          notes '
+          ```ruby
+          choose \'Male\'
+          ```
+          Chooses a radio button. Pass the label text.'
+      end
+      entry do
           name 'Check'
           notes '
           ```ruby
