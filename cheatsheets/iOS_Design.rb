@@ -518,4 +518,53 @@ cheatsheet do
     end
   end
 
+  category do
+    id 'Size Classes For Adaptive Layout'
+    header 'Device'
+    header 'Orientation'
+    header 'Size Class'
+
+    entry do
+      td_notes 'Portrait'
+      td_notes 'Height: Regular | Width: Regular'
+      name 'iPad'
+      index_name 'iPad Portrait Size Class'
+    end
+
+    entry do
+      td_notes 'Landscape'
+      td_notes 'Height: Regular | Width: Regular'
+      name 'iPad'
+      index_name 'iPad Landscape Size Class'
+    end
+
+    entry do
+      td_notes 'Portrait'
+      td_notes 'Height: Regular | Width: Compact'
+      name 'iPhone 6 Plus'
+      index_name 'iPhone 6 Plus Portrait Size Class'
+    end
+
+    entry do
+      td_notes 'Landscape'
+      td_notes 'Height: Compact | Width: Regular'
+      name 'iPhone 6 Plus'
+      index_name 'iPhone 6 Plus Landscape Size Class'
+    end
+
+    entry do
+      td_notes 'Portrait'
+      td_notes 'Height: Regular | Width: Compact'
+      name 'iPhone 6 and Before'
+      index_name 'iPhone 6 and Before Portrait Size Class'
+    end
+
+    entry do
+      td_notes 'Landscape'
+      td_notes 'Height: Compact | Width: Compact'
+      name 'iPhone 6 and Before'
+      index_name 'iPhone 6 and Before Landscape Size Class'
+    end
+  end
+
 end
