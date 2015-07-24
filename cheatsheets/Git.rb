@@ -430,14 +430,14 @@ cheatsheet do
     end
 
     entry do
-      name 'Add new submodule'
+      name 'Add a new submodule'
       notes "
-      Beware of the submodule name you choose: If you use a forward slash (/) git will think you want to delete the submodule and want to add all the files in the submodule directory. Please DONT use a forward slash after the submodule name.
+      Beware of the submodule name you choose: If you use a forward slash (`/`) git will think you want to delete the submodule and want to add all the files in the submodule directory. Please DON'T use a forward slash after the submodule name.
       
       1. Run `git submodule add -b <branch> --name <name> <repository-path-or-url>`
       2. Add the `.gitmodule` file and submodule folder to the superproject index
       3. Commit both files on the superproject
-      ```"
+      "
     end
     
     entry do
@@ -460,7 +460,7 @@ cheatsheet do
       or 
       
       Run `git clone --recursive ssh://user@domain.tld/repo.git`
-      ```"
+      "
     end
 
     entry do
