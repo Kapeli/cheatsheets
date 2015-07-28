@@ -8,12 +8,12 @@ cheatsheet do
     id 'Archive'
 
     entry do
-      command 'extract'
+      command 'unarchive'
       name 'Extracts the contents of one or more archives'
     end
 
     entry do
-      command 'ls-archive'
+      command 'lsarchive'
       name 'Lists the contents of one or more archives'
     end
   end
