@@ -1,24 +1,24 @@
 cheatsheet do
-    title 'Yaml'
-    docset_file_name 'yaml'
-    keyword 'Yaml'
+    title 'YAML'
+    docset_file_name 'YAML'
+    keyword 'yaml'
     source_url 'http://cheat.kapeli.com'
     category do
-        id 'Collection indicators'
+        id 'Collection Indicators'
         entry do
-            command '? '
+            command '?'
             name 'Key indicator'
         end
         entry do
-            command ': '
+            command ':'
             name 'Value indicator'
         end
         entry do
-            command '- '
+            command '-'
             name 'Nested series entry indicator'
         end
         entry do
-            command ', '
+            command ','
             name 'Separate in-line branch entries'
         end
         entry do
@@ -31,7 +31,7 @@ cheatsheet do
         end
     end
     category do
-        id 'Scalar indicators'
+        id 'Scalar Indicators'
         entry do
             command '\'\''
             name 'Surround in-line unescaped scalar (\'\' escaped \')'
@@ -50,20 +50,20 @@ cheatsheet do
         end
         entry do
             command '-'
-            name 'Strip chomp modifier (\'|-\' or \'>-\')'
+            name 'Strip chomp modifier (```|-``` or ```>-```)'
         end
         entry do
             command '+'
-            name 'Keep chomp modifier (\'|+\' or \'>+\')'
+            name 'Keep chomp modifier (```|+``` or ```>+```)'
         end
         entry do
             command '1-9'
-            name 'Explicit indentation modifier (\'|1\' or \'>2\')'
-            notes '\# Modifiers can be combined (\'|2-\', \'>+1\')'
+            name 'Explicit indentation modifier (```|1``` or ```>2```)'
+            notes 'Modifiers can be combined (```|2-```, ```>+1```)'
         end
     end
     category do
-        id 'Alias indicators'
+        id 'Alias Indicators'
         entry do
             command '&'
             name 'Anchor property'
@@ -74,7 +74,7 @@ cheatsheet do
         end
     end
     category do
-        id 'Tag property (Usually unspecified)'
+        id 'Tag Property (usually unspecified)'
         entry do
             command 'none'
             name 'Unspecified tag (automatically resolved by application)'
@@ -101,7 +101,7 @@ cheatsheet do
         end
     end
         category do
-        id 'Document indicators'
+        id 'Document Indicators'
         entry do
             command '%'
             name 'Directive indicator'
@@ -116,7 +116,7 @@ cheatsheet do
         end
     end
     category do
-        id 'Misc indicators'
+        id 'Misc Indicators'
         entry do
             command ' #'
             name 'Throwaway comment indicator'
@@ -127,7 +127,7 @@ cheatsheet do
         end
     end
     category do
-        id 'Special keys'
+        id 'Special Keys'
         entry do
             command '='
             name 'Default "value" mapping key'
@@ -138,7 +138,7 @@ cheatsheet do
         end
     end
     category do
-        id 'Core types (Default automatic tags)'
+        id 'Core Types (default automatic tags)'
         entry do
             command '!!map'
             name '{ Hash table, dictionary, mapping }'
@@ -153,7 +153,7 @@ cheatsheet do
         end
     end
     category do
-        id 'More types'
+        id 'More Types'
         entry do
             command '!!set'
             name '{ cherries, plums, apples }'
@@ -164,7 +164,7 @@ cheatsheet do
         end
     end
     category do
-        id 'Language Independent Scalar types'
+        id 'Language Independent Scalar Types'
         entry do
             command '{ ~, null }'
             name 'Null (no value)'
@@ -205,31 +205,31 @@ cheatsheet do
         end
     end
     category do
-        id 'Escape codes'
+        id 'Escape Codes'
         entry do
-            command 'Numeric'
-            name <<-END
+            name 'Numeric'
+            notes <<-END
             ```
-                "\\x12"       : 8-bit
-                "\\u1234"     : 16-bit
-                "\\U00102030" : 32-bit
+            "\\x12"       : 8-bit
+            "\\u1234"     : 16-bit
+            "\\U00102030" : 32-bit
             ```
             END
         end
         entry do
-            command 'Protective'
-            name <<-END
+            name 'Protective'
+            notes <<-END
             ```
-                "\\\\"     : '\\'
-                "\\\""     : '"'
-                "\\ "     : ' '
-                "\\<TAB>" : TAB
+            "\\\\"     : '\\'
+            "\\\""     : '"'
+            "\\ "     : ' '
+            "\\<TAB>" : TAB
             ```
             END
         end
         entry do
-            command 'C'
-            name <<-END
+            name 'C'
+            notes <<-END
             ```
             "\\0": NUL
             "\\a": BEL
@@ -243,8 +243,8 @@ cheatsheet do
             END
         end
         entry do
-            command 'Additional'
-            name <<-END
+            name 'Additional'
+            notes <<-END
             ```
             "\\e": ESC
             "\\_": NBSP
@@ -260,7 +260,7 @@ cheatsheet do
         entry do
             name 'Scalars'
             notes <<-END
-            ```
+            ```yaml
             # scalar = value
             a: 1
             a: 1.234
@@ -278,7 +278,7 @@ cheatsheet do
         entry do
             name 'Sequences'
             notes <<-END
-            ```
+            ```yaml
             # sequence
             array:
             - 132
@@ -295,7 +295,7 @@ cheatsheet do
         entry do
             name 'Hashes'
             notes <<-END
-            ```
+            ```yaml
             # Nest hash
             my_hash:
               subkey:
@@ -312,7 +312,7 @@ cheatsheet do
         entry do
             name 'HereDoc'
             notes <<-END
-            ```
+            ```yaml
             # block notation (newlines become spaces)
             content:
               Arbitrary free text
@@ -344,9 +344,9 @@ cheatsheet do
             END
         end
         entry do
-            name 'Multiple Documents'
+            name 'Multiple documents'
             notes <<-END
-            ```
+            ```yaml
             ---
             content: doc1
             ---
@@ -355,9 +355,9 @@ cheatsheet do
             END
         end
         entry do
-            name 'Reference Content'
+            name 'Reference content'
             notes <<-END
-            ```
+            ```yaml
             ---
             values:
             - &ref Something to reuse
@@ -366,9 +366,9 @@ cheatsheet do
             END
         end
         entry do
-            name 'Merging Keys'
+            name 'Merging keys'
             notes <<-END
-            ```
+            ```yaml
             default_settings:
               install:
                 dir: /usr/local
@@ -385,9 +385,9 @@ cheatsheet do
             END
         end
         entry do
-            name 'Complex Mapping'
+            name 'Complex mapping'
             notes <<-END
-            ```
+            ```yaml
             ---
             ? - key
             :
@@ -397,13 +397,7 @@ cheatsheet do
             END
         end
     end
-
     notes <<-END
-    ```
-    Original sources.
-    
-    Reference : http://www.yaml.org/refcard.html
-    Examples  : http://lzone.de/cheat-sheet/YAML
-    ```
+    * Based on the YAML.org [refcard](http://www.yaml.org/refcard.html) and a [cheatsheet](http://lzone.de/cheat-sheet/YAML) by lzone.de
     END
 end
