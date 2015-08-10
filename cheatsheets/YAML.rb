@@ -81,23 +81,23 @@ cheatsheet do
         end
         entry do
             command '!'
-            name 'Non-specific tag (by default, "!!map"/"!!seq"/"!!str")'
+            name 'Non-specific tag (by default, `!!map`/`!!seq`/`!!str`)'
         end
         entry do
             command '!foo'
-            name 'Primary (by convention, means a local "!foo" tag)'
+            name 'Primary (by convention, means a local `!foo` tag)'
         end
         entry do
             command '!!foo'
-            name 'Secondary (by convention, means "tag:yaml.org,2002:foo")'
+            name 'Secondary (by convention, means `tag:yaml.org,2002:foo`)'
         end
         entry do
             command '!h!foo'
-            name 'Requires "%TAG !h! <prefix>" (and then means "<prefix>foo")'
+            name 'Requires `%TAG !h! <prefix>` (and then means `<prefix>foo`)'
         end
         entry do
             command '!<foo>'
-            name 'Verbatim tag (always means "foo")'
+            name 'Verbatim tag (always means `foo`)'
         end
     end
         category do
@@ -141,11 +141,11 @@ cheatsheet do
         id 'Core Types (default automatic tags)'
         entry do
             command '!!map'
-            name '{ Hash table, dictionary, mapping }'
+            name '`{ Hash table, dictionary, mapping }`'
         end
         entry do
             command '!!seq'
-            name '{ List, array, tuple, vector, sequence }'
+            name '`{ List, array, tuple, vector, sequence }`'
         end
         entry do
             command '!!str'
@@ -156,11 +156,11 @@ cheatsheet do
         id 'More Types'
         entry do
             command '!!set'
-            name '{ cherries, plums, apples }'
+            name '`{ cherries, plums, apples }`'
         end
         entry do
             command '!!omap'
-            name '[ one: 1, two: 2 ]'
+            name '`[ one: 1, two: 2 ]`'
         end
     end
     category do
@@ -171,15 +171,15 @@ cheatsheet do
         end
         entry do
             command '[ 1234, 0x4D2, 02333 ]'
-            name '[ Decimal int, Hexadecimal int, Octal int ]'
+            name '`[ Decimal int, Hexadecimal int, Octal int ]`'
         end
         entry do
             command '[ 1_230.15, 12.3015e+02 ]'
-            name '[ Fixed float, Exponential float ]'
+            name '`[ Fixed float, Exponential float ]`'
         end
         entry do
             command '[ .inf, -.Inf, .NAN ]'
-            name '[ Infinity (float), Negative, Not a number ]'
+            name '`[ Infinity (float), Negative, Not a number ]`'
         end
         entry do
             command '{ Y, true, Yes, ON  }'
@@ -398,6 +398,6 @@ cheatsheet do
         end
     end
     notes <<-END
-    * Based on the YAML.org [refcard](http://www.yaml.org/refcard.html) and a [cheatsheet](http://lzone.de/cheat-sheet/YAML) by lzone.de
+    * Based on the YAML.org [refcard](http://www.yaml.org/refcard.html) and a [cheat sheet](http://lzone.de/cheat-sheet/YAML) by lzone.de
     END
 end
