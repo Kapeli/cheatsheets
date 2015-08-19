@@ -107,18 +107,10 @@ cheatsheet do
       name 'Closures'
       notes <<-'END'
         ``` swift
-        let myclosure:(Int) -> Int = {
-            (number:Int) -> Int in
-            return number + 1
-        }
-        let numbers = [1, 2, 3, 4]
-        numbers.map(myclosure)
-        // returns [2, 3, 4, 5]
-
-        func myclosure2(number: Int) -> Int {
+        func myclosure(number: Int) -> Int {
           return number + 1
         }
-        numbers.map(myclosure2)
+        numbers.map(myclosure)
         // returns [2, 3, 4, 5]
 
         let animals = ["fish", "cat", "elephant", "dog", "minion"]
