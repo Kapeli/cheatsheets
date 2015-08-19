@@ -3,7 +3,7 @@ cheatsheet do
   docset_file_name 'Swift'
   keyword 'swift'
   source_url 'http://cheat.kapeli.com'
-  
+
   category do
     id 'Examples'
     entry do
@@ -11,6 +11,8 @@ cheatsheet do
       notes <<-'END'
         ``` swift
         class MyClass : OptionalSuperClass, OptionalProtocol {
+            var myProperty: String
+
             // Initializer (initialize all non-optionals)
             init(myProperty: String) {
                 // use self.varName if argument has the same name
@@ -39,7 +41,7 @@ cheatsheet do
         var instance = MyClass()
         let variable1 = instance.doIt()
         let variable2 = instance.doIt(1)
-        let variable3 = instance.doIt(1, 2)
+        let variable3 = instance.doIt(1, b: 2)
         ```
       END
     end
@@ -53,18 +55,18 @@ cheatsheet do
         var myOptionalProperty: String?
         // Computed Properties
         var myInt: Int = 1
-        var doubleInt {
+        var doubleInt: Int {
             get { return myInt * 2 }
             set { myInt = newValue / 2 }
         }
         // Read-Only Computed Properties
-        var tripleInt {
+        var tripleInt: Int {
             return myInt * 3
         }
         // Property Observers
         var myOutput = 0 {
-            willSet { 
-                println("setting myOutput to \(newValue)") 
+            willSet {
+                println("setting myOutput to \(newValue)")
             }
             didSet { // never set greater than 10
                 if myOutput > 10 {
@@ -91,14 +93,12 @@ cheatsheet do
       name 'Extensions'
       notes <<-'END'
         ``` swift
-        extension String {
-            var length: Int {
-                get {
-                    return countElements(self)
-                }
-            }
+        extension Double {
+            var isNegative: Bool { return isSignMinus }
         }
-        let length = "Hello".length
+        let myDouble = -2.0
+        myDouble.isNegative
+        // returns true
         ```
       END
     end
@@ -114,11 +114,17 @@ cheatsheet do
         let numbers = [1, 2, 3, 4]
         numbers.map(myclosure)
         // returns [2, 3, 4, 5]
-        
+
+        func myclosure2(number: Int) -> Int {
+          return number + 1
+        }
+        numbers.map(myclosure2)
+        // returns [2, 3, 4, 5]
+
         let animals = ["fish", "cat", "elephant", "dog", "minion"]
         let sortedAnimals = animals.sorted { (first, second) in first > second }
         sortedAnimals = animals.sorted { $0 > $1 } // $0 and $1 mean first and second params respectively
-        
+
         let evenCheckFunction = isEven
         let odds = Array(1...10).filter(!isEven)
         odds = Array(1...10).filter { (number) in number % 2 != 0 }
@@ -227,7 +233,7 @@ cheatsheet do
         s = "needle"
         s = nil
 
-        let forced: String = s!
+        let forced: String = s! // error if nil
 
         if let forced = s {
           println(forced)
@@ -239,7 +245,7 @@ cheatsheet do
         ```
       END
     end
-    
+
     entry do
       name 'Control Flow'
       notes <<-'END'
@@ -260,12 +266,12 @@ cheatsheet do
         default:
             "baz"
         }
-        
+
         let point = (1,1)
         switch point {
           case (let x, 0): println("point on x with displacement of \(x)")
           case (0, _): println("point on y")
-          case (1..5, 1..5): println("point within bounds")
+          case (1...5, 1...5): println("point within bounds")
           case let (x,y) where x == y: println("point is on line")
           case let (x,y): println("point out of bounds at \(x), \(y)")
         }
@@ -333,7 +339,7 @@ cheatsheet do
         ``` swift
         var dict: Dictionary<String, String> = ["Frog": "Kermit", "Pig": "Ms. Piggy", "Weirdo": "Gonzo"]
         dict["Weirdo"] = "Felipe"
-        dict["Frog"] = nil // delete frog 
+        dict["Frog"] = nil // delete frog
         for (type, muppet) in dict {
             println("type: \(type), muppet: \(muppet)")
         }
@@ -347,12 +353,12 @@ cheatsheet do
         ``` swift
         let p1 = (1,2)
         let p2 = (x:1, y:2)
-        
+
         let (x1,y1) = p1
         let (x1,_) = p1
         let x1 = p1.0, y1 = p1.1
-        
-        let x = p2.x, y= p2.y
+
+        let x = p2.x, y = p2.y
         ```
       END
     end
