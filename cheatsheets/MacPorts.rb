@@ -7,6 +7,45 @@ cheatsheet do
   introduction 'This cheat sheet demonstrates the most common everyday commands for MacPorts. It does not detail more technical aspects such as installing MacPorts itself, or less commonly used commands.  For a more detailed listing, see the MacPorts Guide at https://guide.macports.org/'
 
   category do
+    id 'Update'
+
+    entry do
+      name 'Update MacPorts and directory of available ports'
+      notes "
+      It's recommended you do this every time you start using MacPorts on any given day.
+
+      ```
+      [sudo] port selfupdate
+      ```"
+    end
+
+    entry do
+      name 'List ports that have available updates'
+      notes "
+      ```
+      port outdated
+      ```"
+    end
+
+    entry do
+      name 'Update all ports'
+      notes "
+      ```
+      [sudo] port upgrade outdated
+      ```"
+    end
+
+    entry do
+      name 'Update a specific port'
+      notes "
+      ```
+      [sudo] port upgrade <portname>
+      ```"
+    end
+
+  end
+
+  category do
     id 'Information'
 
     entry do
@@ -76,49 +115,10 @@ cheatsheet do
     entry do
       name 'Uninstall a port'
       notes "
-        Note: This does not uninstall dependencies that were installed with this port.  To remove unused dependencies, see the Maintenance section.
+        Note: This does not uninstall dependencies that were installed with this port.  To remove unused dependencies, see the Cleanup/Maintenance section.
 
       ```
       [sudo] uninstall <portname>
-      ```"
-    end
-
-  end
-
-  category do
-    id 'Updates'
-
-    entry do
-      name 'Update MacPorts and directory of available ports'
-      notes "
-      It's recommended you do this every time you start using MacPorts on any given day.
-
-      ```
-      [sudo] port selfupdate
-      ```"
-    end
-
-    entry do
-      name 'List ports that have available updates'
-      notes "
-      ```
-      port outdated
-      ```"
-    end
-
-    entry do
-      name 'Update all ports'
-      notes "
-      ```
-      [sudo] port upgrade outdated
-      ```"
-    end
-
-    entry do
-      name 'Update a specific port'
-      notes "
-      ```
-      [sudo] port upgrade <portname>
       ```"
     end
 
