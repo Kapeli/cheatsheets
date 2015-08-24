@@ -8,23 +8,23 @@ cheatsheet do
     id 'Configuration'
 
     entry do
-      name 'Set the name attached to all your commits (system-level)'
+      name 'Set the name attached to all your commits'
       notes "
       ```
-      git config --global user.name <name>
+      git config [--global] user.name <name>
       ```"
     end
 
     entry do
-      name 'Set the email attached to all your commits (system-level)'
+      name 'Set the email attached to all your commits'
       notes "
       ```
-      git config --global user.email <email>
+      git config [--global] user.email <email>
       ```"
     end
 
     entry do
-      name 'Set colorization of command line output for all repos (system-level)'
+      name 'Set colorization of command line output for all repos'
       notes "
       ```
       git config --global color.ui auto
@@ -32,50 +32,18 @@ cheatsheet do
     end
 
     entry do
-      name 'Print globally set name'
+      name 'Print set name (in current repository or globally)'
       notes "
       ```
-      git config --global user.name
+      git config [--global] user.name
       ```"
     end
 
     entry do
-      name 'Print globally set email'
+      name 'Print set email (in current repository or globally)'
       notes "
       ```
-      git config --global user.email
-      ```"
-    end
-
-    entry do
-      name 'Set name for all commits in current repository'
-      notes "
-      ```
-      git config user.name <name>
-      ```"
-    end
-
-    entry do
-      name 'Set email for all commits in current repository'
-      notes "
-      ```
-      git config user.email <email>
-      ```"
-    end
-
-    entry do
-      name 'Print name set in current repository'
-      notes "
-      ```
-      git config user.name
-      ```"
-    end
-
-    entry do
-      name 'Print email set in current repository'
-      notes "
-      ```
-      git config user.email
+      git config [--global] user.email
       ```"
     end
 
