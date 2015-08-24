@@ -5,6 +5,83 @@ cheatsheet do
   source_url 'http://cheat.kapeli.com'
 
   category do
+    id 'Configuration'
+
+    entry do
+      name 'Set the name attached to all your commits (system-level)'
+      notes "
+      ```
+      git config --global user.name <name>
+      ```"
+    end
+
+    entry do
+      name 'Set the email attached to all your commits (system-level)'
+      notes "
+      ```
+      git config --global user.email <email>
+      ```"
+    end
+
+    entry do
+      name 'Set colorization of command line output for all repos (system-level)'
+      notes "
+      ```
+      git config --global color.ui auto
+      ```"
+    end
+
+    entry do
+      name 'Print globally set name'
+      notes "
+      ```
+      git config --global user.name
+      ```"
+    end
+
+    entry do
+      name 'Print globally set email'
+      notes "
+      ```
+      git config --global user.email
+      ```"
+    end
+
+    entry do
+      name 'Set name for all commits in current repository'
+      notes "
+      ```
+      git config user.name <name>
+      ```"
+    end
+
+    entry do
+      name 'Set email for all commits in current repository'
+      notes "
+      ```
+      git config user.email <email>
+      ```"
+    end
+
+    entry do
+      name 'Print name set in current repository'
+      notes "
+      ```
+      git config user.name
+      ```"
+    end
+
+    entry do
+      name 'Print email set in current repository'
+      notes "
+      ```
+      git config user.email
+      ```"
+    end
+
+  end
+
+  category do
     id 'Create'
 
     entry do
