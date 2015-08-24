@@ -97,6 +97,14 @@ cheatsheet do
     end
 
     entry do
+      name 'Add all current changes in file to the next commit'
+      notes "
+      ```
+      git add <file>
+      ```"
+    end
+
+    entry do
       name 'Add all current changes to the next commit'
       notes "
       ```
@@ -105,7 +113,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Add some changes to the next commit'
+      name 'Add changes to the next commit interactively'
       notes "
       ```
       git add -p <file>
