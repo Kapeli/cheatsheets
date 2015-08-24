@@ -121,6 +121,22 @@ cheatsheet do
     end
 
     entry do
+      name 'Rename file and add it to next commit'
+      notes "
+      ```
+      git mv <file> <new file name>
+      ```"
+    end
+
+    entry do
+      name 'Delete file and add its deletion to next commit'
+      notes "
+      ```
+      git rm <file>
+      ```"
+    end
+
+    entry do
       name 'Commit all local changes in tracked files'
       notes "
       ```
@@ -195,6 +211,14 @@ cheatsheet do
       notes "
       ```
       git stash pop
+      ```"
+    end
+
+    entry do
+      name 'Remove file from all previous commits but keep it locally'
+      notes "
+      ```
+      git rm --cached <file>
       ```"
     end
 
