@@ -235,6 +235,14 @@ cheatsheet do
     end
 
     entry do
+      name 'Rename a remote'
+      notes "
+      ```
+      git remote rename <old-name> <new-name>
+      ```"
+    end
+
+    entry do
       name "Download all changes from remote, but don't merge into HEAD"
       notes "
       ```
@@ -280,14 +288,6 @@ cheatsheet do
       notes "
       ```
       git push --tags
-      ```"
-    end
-
-    entry do
-      name 'Rename a remote'
-      notes "
-      ```
-      git remote rename <old-name> <new-name>
       ```"
     end
 

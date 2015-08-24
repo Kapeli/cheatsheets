@@ -158,6 +158,6 @@ cheatsheet do
   end
 
   notes "
-  Based on [\"Expressions in guard clauses\"](http://elixir-lang.org/getting-started/case-cond-and-if.html#expressions-in-guard-clauses) from [Elixir-Lang Getting Started guide](http://elixir-lang.org/getting-started/introduction.html).
+  * Based on [\"Expressions in guard clauses\"](http://elixir-lang.org/getting-started/case-cond-and-if.html#expressions-in-guard-clauses) from [Elixir-Lang Getting Started Guide](http://elixir-lang.org/getting-started/introduction.html)
   "
 end
