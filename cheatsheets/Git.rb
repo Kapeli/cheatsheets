@@ -282,6 +282,15 @@ cheatsheet do
       git push --tags
       ```"
     end
+
+    entry do
+      name 'Rename a remote'
+      notes "
+      ```
+      git remote rename <old-name> <new-name>
+      ```"
+    end
+
   end
 
   category do
