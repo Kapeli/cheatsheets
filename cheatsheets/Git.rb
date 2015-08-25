@@ -5,6 +5,51 @@ cheatsheet do
   source_url 'http://cheat.kapeli.com'
 
   category do
+    id 'Configuration'
+
+    entry do
+      name 'Set the name attached to all your commits'
+      notes "
+      ```
+      git config [--global] user.name <name>
+      ```"
+    end
+
+    entry do
+      name 'Set the email attached to all your commits'
+      notes "
+      ```
+      git config [--global] user.email <email>
+      ```"
+    end
+
+    entry do
+      name 'Set colorization of command line output for all repos'
+      notes "
+      ```
+      git config --global color.ui auto
+      ```"
+    end
+
+    entry do
+      name 'Print set name (in current repository or globally)'
+      notes "
+      ```
+      git config [--global] user.name
+      ```"
+    end
+
+    entry do
+      name 'Print set email (in current repository or globally)'
+      notes "
+      ```
+      git config [--global] user.email
+      ```"
+    end
+
+  end
+
+  category do
     id 'Create'
 
     entry do
@@ -52,6 +97,14 @@ cheatsheet do
     end
 
     entry do
+      name 'Add all current changes in file to the next commit'
+      notes "
+      ```
+      git add <file>
+      ```"
+    end
+
+    entry do
       name 'Add all current changes to the next commit'
       notes "
       ```
@@ -60,10 +113,26 @@ cheatsheet do
     end
 
     entry do
-      name 'Add some changes to the next commit'
+      name 'Add changes to the next commit interactively'
       notes "
       ```
       git add -p <file>
+      ```"
+    end
+
+    entry do
+      name 'Rename file and add it to next commit'
+      notes "
+      ```
+      git mv <file> <new file name>
+      ```"
+    end
+
+    entry do
+      name 'Delete file and add its deletion to next commit'
+      notes "
+      ```
+      git rm <file>
       ```"
     end
 
@@ -142,6 +211,14 @@ cheatsheet do
       notes "
       ```
       git stash pop
+      ```"
+    end
+
+    entry do
+      name 'Remove file from all previous commits but keep it locally'
+      notes "
+      ```
+      git rm --cached <file>
       ```"
     end
 
