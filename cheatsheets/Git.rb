@@ -5,6 +5,34 @@ cheatsheet do
   source_url 'http://cheat.kapeli.com'
 
   category do
+    id 'Create'
+
+    entry do
+      name 'Clone an existing repository'
+      notes "
+        ```
+        git clone ssh://user@domain.tld/repo.git
+        ```"
+    end
+
+    entry do
+      name 'Clone an existing repository and all its sub-modules recursively'
+      notes "
+        ```
+        git clone --recursive ssh://user@domain.tld/repo.git
+        ```"
+    end
+
+    entry do
+      name 'Create a new local repository'
+      notes "
+      ```
+      git init
+      ```"
+    end
+  end
+
+  category do
     id 'Configuration'
 
     entry do
@@ -46,37 +74,8 @@ cheatsheet do
       git config [--global] user.email
       ```"
     end
-
   end
-
-  category do
-    id 'Create'
-
-    entry do
-      name 'Clone an existing repository'
-      notes "
-        ```
-        git clone ssh://user@domain.tld/repo.git
-        ```"
-    end
-
-    entry do
-      name 'Clone an existing repository and all its sub-modules recursively'
-      notes "
-        ```
-        git clone --recursive ssh://user@domain.tld/repo.git
-        ```"
-    end
-
-    entry do
-      name 'Create a new local repository'
-      notes "
-      ```
-      git init
-      ```"
-    end
-  end
-
+  
   category do
     id 'Local Changes'
 
