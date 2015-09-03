@@ -99,7 +99,7 @@ cheatsheet do
 
     entry do
      td_notes '9.7"'
-      td_notes '1024 x 768 points''
+      td_notes '1024 x 768 points'
       td_notes '1536 x 2048 px'
       td_notes '2048 x 1536 px'
       name 'iPad Retina'
@@ -109,7 +109,7 @@ cheatsheet do
 
     entry do
      td_notes '7.9"'
-      td_notes '1024 x 768 points''
+      td_notes '1024 x 768 points'
       td_notes '768 x 1024 px'
       td_notes '1024 x 768 px'
       name 'iPad Mini'
