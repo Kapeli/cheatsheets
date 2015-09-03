@@ -38,7 +38,7 @@ cheatsheet do
     header 'Landscape'
 
     entry do
-    	td_notes '5.5"'
+    	td_notes '5.5Inch'
     	td_notes '414 x 736 Points'
       td_notes '1080 x 1920 px'
       td_notes '1920 x 1080 px'
@@ -48,7 +48,7 @@ cheatsheet do
     end
 
 	entry do
-      td_notes '5.5"'
+      td_notes '5.5Inch'
       td_notes '414 x 736 Points'
       td_notes '1242 x 2208 px'
       td_notes '2208 x 1242 px'
@@ -58,7 +58,7 @@ cheatsheet do
     end
 
     entry do
-      td_notes '4.7"'
+      td_notes '4.7Inch'
       td_notes '375 x 736 Points'
       td_notes '750 x 1334 px'
       td_notes '1334 x 750 px'
@@ -68,7 +68,7 @@ cheatsheet do
     end
 
     entry do
-      td_notes '4.0"'
+      td_notes '4.0Inch'
       td_notes '320 x 568 Points'
       td_notes '640 x 1136 px'
       td_notes '1136 x 640 px'
@@ -78,7 +78,7 @@ cheatsheet do
     end
 
     entry do
-      td_notes '3.5"'
+      td_notes '3.5Inch'
       td_notes '320 x 480 Points'
       td_notes '640 x 960 px'
       td_notes '960 x 640 px'
@@ -88,7 +88,7 @@ cheatsheet do
     end
 
     entry do
-      td_notes '3.5"'
+      td_notes '3.5Inch'
       td_notes '320 x 480 Points'
       td_notes '320 x 480 px'
       td_notes '480 x 320 px'
@@ -98,7 +98,7 @@ cheatsheet do
     end
 
     entry do
-     td_notes '9.7"'
+     td_notes '9.7Inch'
       td_notes '1024 x 768 points'
       td_notes '1536 x 2048 px'
       td_notes '2048 x 1536 px'
@@ -108,7 +108,7 @@ cheatsheet do
     end
 
     entry do
-     td_notes '7.9"'
+     td_notes '7.9Inch'
       td_notes '1024 x 768 points'
       td_notes '768 x 1024 px'
       td_notes '1024 x 768 px'
@@ -118,7 +118,7 @@ cheatsheet do
     end
 
     entry do
-     td_notes '7.9"'
+     td_notes '7.9Inch'
       td_notes '1024 x 768 points'
       td_notes '1536 x 2048 px'
       td_notes '2048 x 1536 px'
@@ -128,7 +128,7 @@ cheatsheet do
     end
 
     entry do
-      td_notes '9.7"'
+      td_notes '9.7Inch'
       td_notes '1024 x 768 points'
       td_notes '768 x 1024 px'
       td_notes '1024 x 768 px'
