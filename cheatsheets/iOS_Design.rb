@@ -127,7 +127,7 @@ cheatsheet do
     header 'Color Temperature'
 
     entry do
-      td_notes '5.5Inch'
+      td_notes '5.5″'
       td_notes '401'
       td_notes '`@3x`'
       td_notes '8bit RGB'
@@ -138,7 +138,7 @@ cheatsheet do
     end
 
     entry do
-      td_notes '4.7Inch'
+      td_notes '4.7″'
       td_notes '326'
       td_notes '`@2x`'
       td_notes '8bit RGB'
@@ -149,7 +149,7 @@ cheatsheet do
     end
 
     entry do
-      td_notes '4.0Inch'
+      td_notes '4.0″'
       td_notes '326'
       td_notes '`@2x`'
       td_notes '8bit RGB'
@@ -159,7 +159,7 @@ cheatsheet do
     end
 
     entry do
-      td_notes '3.5Inch'
+      td_notes '3.5″'
       td_notes '326'
       td_notes '`@2x`'
       td_notes '8bit RGB'
@@ -170,7 +170,7 @@ cheatsheet do
     end
 
     entry do
-      td_notes '3.5Inch'
+      td_notes '3.5″'
       td_notes '163'
       td_notes '`@1x`'
       td_notes '8bit RGB'
@@ -181,7 +181,7 @@ cheatsheet do
     end
 
     entry do
-      td_notes '9.7Inch'
+      td_notes '9.7″'
       td_notes '264'
       td_notes '`@2x`'
       td_notes '8bit RGB'
@@ -192,7 +192,7 @@ cheatsheet do
     end
 
     entry do
-      td_notes '7.9Inch'
+      td_notes '7.9″'
       td_notes '163'
       td_notes '`@1x`'
       td_notes '8bit RGB'
@@ -203,7 +203,7 @@ cheatsheet do
     end
 
     entry do
-      td_notes '7.9Inch'
+      td_notes '7.9″'
       td_notes '326'
       td_notes '`@2x`'
       td_notes '8bit RGB'
@@ -214,7 +214,7 @@ cheatsheet do
     end
 
     entry do
-      td_notes '9.7Inch'
+      td_notes '9.7″'
       td_notes '132'
       td_notes '`@1x`'
       td_notes '8bit RGB'
