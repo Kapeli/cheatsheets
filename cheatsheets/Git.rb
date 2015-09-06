@@ -275,6 +275,24 @@ cheatsheet do
     end
 
     entry do
+      name 'Rename a branch locally'
+      notes "
+      ```
+      git branch -m <old name> <new name>
+      ```"
+    end
+
+    entry do
+      name 'Rename a branch on remote'
+      notes "
+      ```
+      git push <remote> :<old name>
+      git push <remote> <new name>
+
+      ```"
+    end
+
+    entry do
       name 'Tag the current commit'
       notes "
       ```
