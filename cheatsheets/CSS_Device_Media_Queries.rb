@@ -5,6 +5,35 @@ cheatsheet do
   source_url 'http://cheat.kapeli.com'
 
   category do
+  	id 'iPhone4 and iPhone4s'
+
+  	entry do
+  		notes '
+  		```css
+  		@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)
+	```'
+		name 'Portrait and landscape iPhone4 and iPhone4s'
+	end
+
+	entry do
+  		notes '
+  		```css
+  		@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)
+	```'
+		name 'Portrait iPhone4 and iPhone4s'
+	end
+
+	entry do
+  		notes '
+  		```css
+  		@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)
+	```'
+		name 'Portrait iPhone4 and iPhone4s'
+	end
+
+
+
+  category do
     id 'Phones'
 
     entry do
