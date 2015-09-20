@@ -30,6 +30,7 @@ cheatsheet do
 	```'
 		name 'Landscape iPhone4 and iPhone4s'
 	end
+  end
 
       
       category do
@@ -58,6 +59,7 @@ cheatsheet do
 	```'
 		name 'Landscape iPhone5 and iPhone5s'
 	end
+end
 
 category do
   	id 'iPhone6 and iPhone6s'
@@ -85,6 +87,7 @@ category do
 	```'
 		name 'Landscape iPhone6 and iPhone6s'
 	end
+end
       
       
       category do
@@ -113,7 +116,7 @@ category do
 	```'
 		name 'Landscape iPhone6 Plus and iPhone6s Plus'
 	end
-
+end
       
       category do
   	id 'Samsung Galaxy S3'
@@ -141,6 +144,7 @@ category do
 	```'
 		name 'Landscape Samsung Galaxy S3'
 	end
+end
       
        category do
   	id 'Samsung Galaxy S4'
@@ -168,6 +172,7 @@ category do
 	```'
 		name 'Landscape Samsung Galaxy S4'
 	end
+end
 
       
           category do
@@ -196,7 +201,8 @@ category do
 	```'
 		name 'Landscape Samsung Galaxy S5'
 	end
-      
+end
+
       category do
           id 'HTC One'
 
@@ -223,6 +229,7 @@ category do
 	```'
         name 'Landscape HTC One'
 	end
+end
       
       
     category do
@@ -251,7 +258,7 @@ category do
 	```'
         name 'Landscape iPad mini 1 iPad 1 iPad 2'
 	end
-        
+end      
       
       category do
           id 'iPad mini 2 iPad mini 3 iPad mini 4 iPad 3 iPad 4 iPad Air iPad Air2'
@@ -279,6 +286,7 @@ category do
 	```'
         name 'Landscape iPad mini 2 iPad mini 3 iPad mini 4 iPad 3 iPad 4 iPad Air iPad Air2'
 	end
+end
       
       category do
         id 'iPad Pro'
@@ -306,7 +314,7 @@ category do
 	```'
         name 'Landscape iPad Pro'
 	end
-        
+end    
       
       
       
@@ -336,7 +344,7 @@ category do
 	```'
         name 'Landscape Sumsang Galaxy Tab 10.1'
 	end
-      
+end  
       
       
     category do
@@ -365,6 +373,7 @@ category do
 	```'
         name 'Landscape Asus Nexus 7'
 	end
+end
       
       category do
           id 'Kindle Fire HD 7"'
@@ -392,7 +401,8 @@ category do
 	```'
         name 'Landscape Kindle Fire HD 7"'
 	end
-      
+end
+
 category do
           id 'Kindle Fire HD 8.9"'
 
@@ -419,11 +429,11 @@ category do
 	```'
         name 'Landscape Kindle Fire HD 8.9"'
 	end
-         
+end       
     
       
 category do
-      id 'Non-Retina Screens'
+      id 'Desktops and laptops'
 
   	entry do
   		notes '
@@ -432,10 +442,6 @@ category do
 	```'
           name 'Non-Retina Screens'
 	end
-      
-      
-category do
-      id 'Retina Screens'
 
   	entry do
   		notes '
@@ -443,8 +449,25 @@ category do
   		@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) 
 	```'
           name 'Retina Screens'
-	end      
-      
+	end  
+    entry do
+      notes '
+      ```css
+      @media only screen and (min-width: 1224px)
+      ```'
+      name 'Desktops and laptops'
+    end
+    
+     entry do
+      notes '
+      ```css
+      @media only screen and (min-width: 1824px)
+      ```'
+      name 'Large screens'
+    end
+    
+    
+end      
       
 category do
       id 'Apple Watch'
@@ -454,7 +477,7 @@ category do
   		```css
   		@media (max-device-width: 42mm) and (min-device-width: 38mm) 
         ```'
-          name 'Retina Screens'
+        name 'Apple Watch'
 	end      
       
   category do
@@ -465,9 +488,9 @@ category do
   		```css
   		@media (max-device-width: 218px) and (min-device-width: 281px) 
         ```'
-          name 'Retina Screens'
+          name 'Moto 360 Watch'
 	end      
-      
+  end   
       
   category do
     id 'Phones'
@@ -496,64 +519,10 @@ category do
       name 'Portrait phones'
     end
 
-    entry do
-      notes '
-      ```css
-      @media only screen and (-webkit-min-device-pixel-ratio: 1.5), ' +
-              'only screen (min-device-pixel-ratio: 1.5)
-      ```'
-      name 'iPhone 4'
-    end
   end
 
-  category do
-    id 'iPads (Tablets)'
 
-    entry do
-      notes '
-      ```css
-      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
-      ```'
-      name 'Portrait and landscape tablets'
-    end
-
-    entry do
-      notes '
-      ```css
-      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)
-      ```'
-      name 'Landscape tablets'
-    end
-
-    entry do
-      notes '
-      ```css
-      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
-      ```'
-      name 'Portrait tablets'
-    end
-  end
-
-  category do
-    id 'Other'
-
-    entry do
-      notes '
-      ```css
-      @media only screen and (min-width: 1224px)
-      ```'
-      name 'Desktops and laptops'
-    end
-
-    entry do
-      notes '
-      ```css
-      @media only screen and (min-width: 1824px)
-      ```'
-      name 'Large screens'
-    end
-  end
-
+  
   notes "* Based on a blog post from [css-tricks.com](http://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 * Converted by [@joelash](https://twitter.com/joelash)"
 
