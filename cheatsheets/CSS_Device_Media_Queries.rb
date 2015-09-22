@@ -5,7 +5,7 @@ cheatsheet do
   source_url 'http://cheat.kapeli.com'
     
     category do
-    id 'Normal Phones'
+    id 'Phones'
 
     entry do
       notes '
@@ -38,626 +38,626 @@ cheatsheet do
 
 
   category do
-  	id 'iPhone4 and iPhone4s'
+    id 'iPhone 4 and iPhone 4S'
 
-  	entry do
+    entry do
       notes '
       ```css
       @media only screen 
         and (min-device-width: 320px) 
         and (max-device-width: 480px) 
         and (-webkit-min-device-pixel-ratio: 2)
-    ```'
-      name 'Portrait and landscape iPhone4 and iPhone4s'
-	end
+      ```'
+      name 'Portrait and landscape iPhone 4 and iPhone 4S'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen  
         and (min-device-width: 320px) 
         and (max-device-width: 480px) 
         and (-webkit-min-device-pixel-ratio: 2) 
         and (orientation: portrait)
-	   ```'
-		name 'Portrait iPhone4 and iPhone4s'
-	end
+      ```'
+    name 'Portrait iPhone 4 and iPhone 4S'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen  
         and (min-device-width: 320px) 
         and (max-device-width: 480px) 
         and (-webkit-min-device-pixel-ratio: 2) 
         and (orientation: landscape)
-	   ```'
-		name 'Landscape iPhone4 and iPhone4s'
-	end
+      ```'
+    name 'Landscape iPhone 4 and iPhone 4S'
+  end
   end
 
       
       category do
-  	id 'iPhone5 and iPhone5s'
+    id 'iPhone 5 and iPhone 5S'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 320px) 
         and (max-device-width: 568px) 
         and (-webkit-min-device-pixel-ratio: 2)
-	   ```'
-		name 'Portrait and landscape iPhone5 and iPhone5s'
-	end
+      ```'
+    name 'Portrait and landscape iPhone 5 and iPhone 5S'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 320px) 
         and (max-device-width: 568px) 
         and (-webkit-min-device-pixel-ratio: 2) 
         and (orientation: portrait)
-	   ```'
-		name 'Portrait iPhone5 and iPhone5s'
-	end
+      ```'
+    name 'Portrait iPhone 5 and iPhone 5S'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 320px) 
         and (max-device-width: 568px) 
         and (-webkit-min-device-pixel-ratio: 2) 
         and (orientation: landscape)
-	   ```'
-		name 'Landscape iPhone5 and iPhone5s'
-	end
+      ```'
+    name 'Landscape iPhone 5 and iPhone 5S'
+  end
 end
 
 category do
-  	id 'iPhone6 and iPhone6s'
+    id 'iPhone 6 and iPhone 6S'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 375px) 
         and (max-device-width: 667px) 
         and (-webkit-min-device-pixel-ratio: 2)
-	   ```'
-		name 'Portrait and landscape iPhone6 and iPhone6s'
-	end
+      ```'
+    name 'Portrait and landscape iPhone 6 and iPhone 6S'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 375px) 
         and (max-device-width: 667px) 
         and (-webkit-min-device-pixel-ratio: 2) 
         and (orientation: portrait)
-	   ```'
-		name 'Portrait iPhone6 and iPhone6s'
-	end
+      ```'
+    name 'Portrait iPhone 6 and iPhone 6S'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 375px) 
         and (max-device-width: 667px) 
         and (-webkit-min-device-pixel-ratio: 2) 
         and (orientation: landscape)
-	   ```'
-		name 'Landscape iPhone6 and iPhone6s'
-	end
+      ```'
+    name 'Landscape iPhone 6 and iPhone 6S'
+  end
 end
       
       
       category do
-  	id 'iPhone6 Plus and iPhone6s Plus'
+    id 'iPhone 6 Plus and iPhone 6S Plus'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 414px) 
         and (max-device-width: 736px) 
         and (-webkit-min-device-pixel-ratio: 3)
-	   ```'
-		name 'Portrait and landscape iPhone6 Plus and iPhone6s Plus'
-	end
+      ```'
+    name 'Portrait and landscape iPhone 6 Plus and iPhone 6S Plus'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 414px) 
         and (max-device-width: 736px) 
         and (-webkit-min-device-pixel-ratio: 3) 
         and (orientation: portrait)
-	   ```'
-		name 'Portrait iPhone6 Plus and iPhone6s Plus'
-	end
+      ```'
+    name 'Portrait iPhone 6 Plus and iPhone 6S Plus'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 414px) 
         and (max-device-width: 736px) 
         and (-webkit-min-device-pixel-ratio: 3) 
         and (orientation: landscape)
-	   ```'
-		name 'Landscape iPhone6 Plus and iPhone6s Plus'
-	end
+      ```'
+    name 'Landscape iPhone 6 Plus and iPhone 6S Plus'
+  end
 end
       
       category do
-  	id 'Samsung Galaxy S3'
+    id 'Samsung Galaxy S3'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 320px) 
         and (max-device-width: 640px) 
         and (-webkit-min-device-pixel-ratio: 2)
-	   ```'
-		name 'Portrait and Landscape Samsung Galaxy S3'
-	end
+      ```'
+    name 'Portrait and landscape Samsung Galaxy S3'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 320px) 
         and (max-device-width: 640px) 
         and (-webkit-min-device-pixel-ratio: 2) 
         and (orientation: portrait)
-	   ```'
-		name 'Portrait Samsung Galaxy S3'
-	end
+      ```'
+    name 'Portrait Samsung Galaxy S3'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 320px) 
         and (max-device-width: 640px) 
         and (-webkit-min-device-pixel-ratio: 2) 
         and (orientation: landscape)
-	   ```'
-		name 'Landscape Samsung Galaxy S3'
-	end
+      ```'
+    name 'Landscape Samsung Galaxy S3'
+  end
 end
       
        category do
-  	id 'Samsung Galaxy S4'
+    id 'Samsung Galaxy S4'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 320px) 
         and (max-device-width: 640px) 
         and (-webkit-min-device-pixel-ratio: 3)
-	   ```'
-		name 'Portrait and Landscape Samsung Galaxy S4'
-	end
+      ```'
+    name 'Portrait and landscape Samsung Galaxy S4'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 320px) 
         and (max-device-width: 640px) 
         and (-webkit-min-device-pixel-ratio: 3) 
         and (orientation: portrait)
-	   ```'
-		name 'Portrait Samsung Galaxy S4'
-	end
+      ```'
+    name 'Portrait Samsung Galaxy S4'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 320px) 
         and (max-device-width: 640px) 
         and (-webkit-min-device-pixel-ratio: 3) 
         and (orientation: landscape)
-	   ```'
-		name 'Landscape Samsung Galaxy S4'
-	end
+      ```'
+    name 'Landscape Samsung Galaxy S4'
+  end
 end
 
       
           category do
-  	id 'Samsung Galaxy S5'
+    id 'Samsung Galaxy S5'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 360px) 
         and (max-device-width: 640px) 
         and (-webkit-min-device-pixel-ratio: 3)
-	   ```'
-		name 'Portrait and Landscape Samsung Galaxy S5'
-	end
+      ```'
+    name 'Portrait and landscape Samsung Galaxy S5'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 360px) 
         and (max-device-width: 640px) 
         and (-webkit-min-device-pixel-ratio: 3) 
         and (orientation: portrait)
-	   ```'
-		name 'Portrait Samsung Galaxy S5'
-	end
+      ```'
+    name 'Portrait Samsung Galaxy S5'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 360px) 
         and (max-device-width: 640px) 
         and (-webkit-min-device-pixel-ratio: 3) 
         and (orientation: landscape)
-	   ```'
-		name 'Landscape Samsung Galaxy S5'
-	end
+      ```'
+    name 'Landscape Samsung Galaxy S5'
+  end
 end
 
       category do
           id 'HTC One'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 360px) 
         and (max-device-width: 640px) 
         and (-webkit-min-device-pixel-ratio: 3)
-	   ```'
-          name 'Portrait and Landscape HTC One'
-	end
+      ```'
+          name 'Portrait and landscape HTC One'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 360px) 
         and (max-device-width: 640px) 
         and (-webkit-min-device-pixel-ratio: 3) 
         and (orientation: portrait)
-	   ```'
-		name 'Portrait HTC One'
-	end
+      ```'
+    name 'Portrait HTC One'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 360px) 
         and (max-device-width: 640px) 
         and (-webkit-min-device-pixel-ratio: 3) 
         and (orientation: landscape)
-	   ```'
+      ```'
         name 'Landscape HTC One'
-	end
+  end
 end
       
       
     category do
-        id 'iPad mini 1 iPad 1 iPad 2'
+        id 'iPad mini 1, iPad 1 and iPad 2'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 768px) 
         and (max-device-width: 1024px) 
         and (-webkit-min-device-pixel-ratio: 1)
-	   ```'
-          name 'Portrait and Landscape iPad mini 1 iPad 1 iPad 2'
-	end
+      ```'
+          name 'Portrait and landscape iPad mini 1, iPad 1 and iPad 2'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 768px) 
         and (max-device-width: 1024px) 
         and (-webkit-min-device-pixel-ratio: 1) 
         and (orientation: portrait)
-	   ```'
-		name 'Portrait iPad mini 1 iPad 1 iPad 2'
-	end
+      ```'
+    name 'Portrait iPad mini 1, iPad 1 and iPad 2'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 768px) 
         and (max-device-width: 1024px) 
         and (-webkit-min-device-pixel-ratio: 1) 
         and (orientation: landscape)
-	   ```'
-        name 'Landscape iPad mini 1 iPad 1 iPad 2'
-	end
+      ```'
+        name 'Landscape iPad mini 1, iPad 1 and iPad 2'
+  end
 end      
       
       category do
-          id 'iPad mini 2 iPad mini 3 iPad mini 4 iPad 3 iPad 4 iPad Air iPad Air2'
+          id 'iPad mini 2, iPad mini 3, iPad mini 4, iPad 3, iPad 4, iPad Air and iPad Air 2'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 768px) 
         and (max-device-width: 1024px) 
         and (-webkit-min-device-pixel-ratio: 2)
-	   ```'
-          name 'Portrait and Landscape iPad mini 2 iPad mini 3 iPad mini 4 iPad 3 iPad 4 iPad Air iPad Air2'
-	end
+      ```'
+          name 'Portrait and landscape iPad mini 2, iPad mini 3, iPad mini 4, iPad 3, iPad 4, iPad Air and iPad Air 2'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 768px) 
         and (max-device-width: 1024px) 
         and (-webkit-min-device-pixel-ratio: 2) 
         and (orientation: portrait)
-	   ```'
-		name 'Portrait iPad mini 2 iPad mini 3 iPad mini 4 iPad 3 iPad 4 iPad Air iPad Air2'
-	end
+      ```'
+    name 'Portrait iPad mini 2, iPad mini 3, iPad mini 4, iPad 3, iPad 4, iPad Air and iPad Air 2'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 768px) 
         and (max-device-width: 1024px) 
         and (-webkit-min-device-pixel-ratio: 2) 
         and (orientation: landscape)
-	   ```'
-        name 'Landscape iPad mini 2 iPad mini 3 iPad mini 4 iPad 3 iPad 4 iPad Air iPad Air2'
-	end
+      ```'
+        name 'Landscape iPad mini 2, iPad mini 3, iPad mini 4, iPad 3, iPad 4, iPad Air and iPad Air 2'
+  end
 end
       
       category do
         id 'iPad Pro'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 1024px) 
         and (max-device-width: 1366px) 
         and (-webkit-min-device-pixel-ratio: 2)
-	   ```'
-          name 'Portrait and Landscape iPad Pro'
-	end
+      ```'
+          name 'Portrait and landscape iPad Pro'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 1024px) 
         and (max-device-width: 1366px) 
         and (-webkit-min-device-pixel-ratio: 2) 
         and (orientation: portrait)
-	   ```'
-		name 'Portrait iPad Pro'
-	end
+      ```'
+    name 'Portrait iPad Pro'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 1024px) 
         and (max-device-width: 1366px) 
         and (-webkit-min-device-pixel-ratio: 2) 
         and (orientation: landscape)
-	   ```'
+      ```'
         name 'Landscape iPad Pro'
-	end
+  end
 end    
       
       
       
        category do
-          id 'Sumsang Galaxy Tab 10.1'
+          id 'Samsung Galaxy Tab 10.1'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media (min-device-width: 800px) 
         and (max-device-width: 1280px) 
-	   ```'
-          name 'Portrait and Landscape Sumsang Galaxy Tab 10.1'
-	end
+      ```'
+          name 'Portrait and landscape Samsung Galaxy Tab 10.1'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media (min-device-width: 800px) 
         and (max-device-width: 1280px) 
         and (orientation: portrait)
-	   ```'
-		name 'Portrait Sumsang Galaxy Tab 10.1'
-	end
+      ```'
+    name 'Portrait Samsung Galaxy Tab 10.1'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media (min-device-width: 800px) 
         and (max-device-width: 1280px) 
         and (orientation: landscape)
-	   ```'
-        name 'Landscape Sumsang Galaxy Tab 10.1'
-	end
+      ```'
+        name 'Landscape Samsung Galaxy Tab 10.1'
+  end
 end  
       
       
     category do
         id 'Asus Nexus 7'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 601px) 
         and (max-device-width: 906px) 
         and (-webkit-min-device-pixel-ratio: 1.331) 
         and (-webkit-max-device-pixel-ratio: 1.332)
-	   ```'
-          name 'Portrait and Landscape Asus Nexus 7'
-	end
+      ```'
+          name 'Portrait and landscape Asus Nexus 7'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 601px) 
         and (max-device-width: 906px) 
         and (-webkit-min-device-pixel-ratio: 1.331) 
         and (-webkit-max-device-pixel-ratio: 1.332) 
         and (orientation: portrait)
-	   ```'
-		name 'Portrait Asus Nexus 7'
-	end
+      ```'
+    name 'Portrait Asus Nexus 7'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 601px) 
         and (max-device-width: 906px) 
         and (-webkit-min-device-pixel-ratio: 1.331) 
         and (-webkit-max-device-pixel-ratio: 1.332) 
         and (orientation: landscape)
-	   ```'
+      ```'
         name 'Landscape Asus Nexus 7'
-	end
+  end
 end
       
       category do
           id 'Kindle Fire HD 7"'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 800px) 
         and (max-device-width: 1280px) 
         and (-webkit-min-device-pixel-ratio: 1.5) 
-	   ```'
-          name 'Portrait and Landscape Kindle Fire HD 7"'
-	end
+      ```'
+          name 'Portrait and landscape Kindle Fire HD 7"'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 800px) 
         and (max-device-width: 1280px) 
         and (-webkit-min-device-pixel-ratio: 1.5) 
         and and (orientation: portrait)
-	   ```'
-		name 'Portrait Kindle Fire HD 7"'
-	end
+      ```'
+    name 'Portrait Kindle Fire HD 7"'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 800px) 
         and (max-device-width: 1280px) 
         and (-webkit-min-device-pixel-ratio: 1.5)  
         and (orientation: landscape)
-	   ```'
+      ```'
         name 'Landscape Kindle Fire HD 7"'
-	end
+  end
 end
 
 category do
           id 'Kindle Fire HD 8.9"'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen 
         and (min-device-width: 1200px) 
         and (max-device-width: 1600px) 
         and (-webkit-min-device-pixel-ratio: 1.5) 
-	   ```'
-        name 'Portrait and Landscape Kindle Fire HD 8.9"'
-	end
+      ```'
+        name 'Portrait and landscape Kindle Fire HD 8.9"'
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen  
         and (min-device-width: 1200px) 
         and (max-device-width: 1600px) 
         and (-webkit-min-device-pixel-ratio: 1.5) 
         and and (orientation: portrait)
-	   ```'
+      ```'
         name 'Portrait Kindle Fire HD 8.9"'
-	end
+  end
 
-	entry do
-  		notes '
-  		```css 
+  entry do
+      notes '
+      ```css 
       @media only screen  
         and (min-device-width: 1200px) 
         and (max-device-width: 1600px) 
         and (-webkit-min-device-pixel-ratio: 1.5)  
         and (orientation: landscape)
-	   ```'
+      ```'
         name 'Landscape Kindle Fire HD 8.9"'
-	end
+  end
 end       
     
       
 category do
       id 'Desktops and laptops'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media only screen  
         and (min-device-width: 1200px) 
         and (max-device-width: 1600px) 
         and (-webkit-min-device-pixel-ratio: 1) 
-    ```'
-        name 'Non-Retina Screens'
-	end
+      ```'
+        name 'Non-Retina screens'
+  end
 
-  	entry do
-  		notes '
-  		```css  
+    entry do
+      notes '
+      ```css  
       @media only screen 
         and (min-device-width: 1200px) 
         and (max-device-width: 1600px) 
         and (-webkit-min-device-pixel-ratio: 2) 
         and (min-resolution: 192dpi) 
-    ```'
-          name 'Retina Screens'
-	end  
+      ```'
+          name 'Retina screens'
+  end  
     entry do
       notes '
       ```css
       @media only screen 
         and (min-width: 1224px)
-    ```'
+      ```'
       name 'Desktops and laptops'
     end
     
@@ -666,7 +666,7 @@ category do
       ```css
       @media only screen 
         and (min-width: 1824px)
-    ```'
+      ```'
       name 'Large screens'
     end
     
@@ -676,27 +676,27 @@ end
 category do
       id 'Apple Watch'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media (max-device-width: 42mm) 
         and (min-device-width: 38mm) 
-    ```'
+      ```'
         name 'Apple Watch'
-	end  
+  end  
 end
       
   category do
       id 'Moto 360 Watch'
 
-  	entry do
-  		notes '
-  		```css 
+    entry do
+      notes '
+      ```css 
       @media (max-device-width: 218px) 
         and (min-device-width: 281px) 
-    ```'
+      ```'
           name 'Moto 360 Watch'
-	end      
+  end      
   end   
       
 
