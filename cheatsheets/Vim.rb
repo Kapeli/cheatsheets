@@ -684,8 +684,11 @@ cheatsheet do
         end
         entry do
             command 'V'
-            name 'Start Visual mode linewise'
+            name 'Start Visual mode linewise (horizontal selection)'
         end
+        entry do
+            command 'CTRL+V'
+            name 'Start Visual mode columnwise (vertical selection)'
         entry do
             command '<Esc>'
             name 'Exit Visual mode without making any changes'
