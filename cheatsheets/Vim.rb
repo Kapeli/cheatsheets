@@ -689,6 +689,7 @@ cheatsheet do
         entry do
             command 'CTRL+V'
             name 'Start Visual mode columnwise (vertical selection)'
+        end
         entry do
             command '<Esc>'
             name 'Exit Visual mode without making any changes'
