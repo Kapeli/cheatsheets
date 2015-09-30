@@ -1,10 +1,8 @@
 cheatsheet do
-  title 'Blender 2.5'               # Will be displayed by Dash in the docset list
-  docset_file_name 'Blender2.5'    # Used for the filename of the docset
-  keyword 'Blender'             # Used as the initial search keyword (listed in Preferences > Docsets)
-  # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
-
-  introduction 'Blender 2.5 Keyboard Shortcuts'  # Optional, can contain Markdown or HTML
+  title 'Blender'
+  docset_file_name 'Blender'
+  keyword 'blender'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Basics'
@@ -22,15 +20,15 @@ cheatsheet do
     end
     entry do
       command 'SHIFT+A'
-      name 'Add Object'
+      name 'Add object'
     end
     entry do
       command 'X'
       name 'Delete'
     end
     entry do
-      command 'Spacebar'
-      name 'Search for Function'
+      command 'Space'
+      name 'Search for function'
     end
     entry do
       command 'T'
@@ -42,7 +40,7 @@ cheatsheet do
     end
     entry do
       command 'CTRL+S'
-      name 'Save File'
+      name 'Save file'
     end
     entry do
       command 'F12'
@@ -50,19 +48,19 @@ cheatsheet do
     end
     entry do
       command 'CTRL+F12'
-      name 'Render Animation'
+      name 'Render animation'
     end
     entry do
       command 'ESC'
-      name 'Stop Render'
+      name 'Stop render'
     end
     entry do
       command 'F3'
-      name 'Save Render'
+      name 'Save render'
     end
     entry do
       command 'F11'
-      name 'Show Last Render'
+      name 'Show last render'
     end
     entry do
       command 'CTRL+Z'
@@ -121,7 +119,7 @@ cheatsheet do
       name 'Reset 3D cursor'
     end
     entry do
-      command 'CTRL+Spacebar'
+      command 'CTRL+Space'
       name 'Turn widget on/off'
     end
     entry do
@@ -153,7 +151,10 @@ cheatsheet do
       name 'Increment movements'
     end
     entry do
-      command 'Middle Click or X/Y/Z'
+      command 'Middle Click'
+      command 'X'
+      command 'Y'
+      command 'Z'
       name 'Lock to axis'
     end
   end
@@ -173,7 +174,9 @@ cheatsheet do
       name 'Side view'
     end
     entry do
-      command 'CTRL+NUMPAD1/3/7'
+      command 'CTRL+NUMPAD1'
+      command 'CTRL+NUMPAD3'
+      command 'CTRL+NUMPAD7'
       name 'Opposite view'
     end
     entry do
@@ -193,19 +196,19 @@ cheatsheet do
   category do
     id 'Selection'
     entry do
-      command 'RIGHT CLICK'
+      command 'Right Click'
       name 'Select object'
     end
     entry do
-      command 'SHIFT+RIGHT-CLICK'
+      command 'SHIFT+Right Click'
       name 'Select multiple'
     end
     entry do
       command 'A'
-      name '(De)Select all'
+      name 'Select/deselect all'
     end
     entry do
-      command 'ALT+RIGHT-CLICK'
+      command 'ALT+Right Click'
       name 'Select object behind'
     end
     entry do
@@ -245,31 +248,31 @@ cheatsheet do
       name 'Play animation in reverse'
     end
     entry do
-      command 'RIGHT-ARROW'
+      command 'Right Arrow'
       name 'Next frame'
     end
     entry do
-      command 'LEFT-ARROW'
+      command 'Left Arrow'
       name 'Previous frame'
     end
     entry do
-      command 'UP-ARROW'
+      command 'Up Arrow'
       name 'Forward 10 frames'
     end
     entry do
-      command 'DOWN-ARROW'
+      command 'Down Arrow'
       name 'Back 10 frames'
     end
     entry do
-      command 'SHIFT+LEFT-ARROW'
+      command 'SHIFT+Left Arrow'
       name 'Jump to start point'
     end
     entry do
-      command 'SHIFT+RIGHT-ARROW'
+      command 'SHIFT+Right Arrow'
       name 'Jump to end point'
     end
     entry do
-      command 'ALT+MOUSEWHEEL'
+      command 'ALT+Mouse Wheel'
       name 'Scroll through frames'
     end
     entry do
@@ -281,11 +284,11 @@ cheatsheet do
       name 'Remove keyframe'
     end
     entry do
-      command 'CTRL+PAGEUP'
+      command 'CTRL+Page Up'
       name 'Jump to next keyframe'
     end
     entry do
-      command 'CTRL+PAGEDOWN'
+      command 'CTRL+Page Down'
       name 'Jump to previous keyframe'
     end
   end
@@ -293,7 +296,8 @@ cheatsheet do
   category do
     id 'Armatures'
     entry do
-      command 'E / CTRL+CLICK'
+      command 'E'
+      command 'CTRL+Click'
       name 'Add bone'
     end
     entry do
@@ -325,11 +329,13 @@ cheatsheet do
       name 'Switch bone direction'
     end
     entry do
-      command '] / ['
+      command ']'
+      command '['
       name 'Scroll hierarchy'
     end
     entry do
-      command 'SHIFT+] / ['
+      command 'SHIFT+]'
+      command 'SHIFT+['
       name 'Select hierarchy'
     end
     entry do
@@ -366,11 +372,11 @@ cheatsheet do
     end
     entry do
       command 'SHIFT+I'
-      name 'Add IK'
+      name 'Add ik'
     end
     entry do
       command 'CTRL+ALT+I'
-      name 'Remove IK'
+      name 'Remove ik'
     end
     entry do
       command 'CTRL+G'
@@ -393,7 +399,7 @@ cheatsheet do
       name 'Set end frame'
     end
     entry do
-      command 'HOME'
+      command 'Home'
       name 'Show all frames'
     end
     entry do
@@ -401,7 +407,7 @@ cheatsheet do
       name 'Add marker'
     end
     entry do
-      command 'RIGHT-CLICK & DRAG'
+      command 'Right Click Drag'
       name 'Move marker'
     end
     entry do
@@ -417,11 +423,11 @@ cheatsheet do
       name 'Switch to editor'
     end
     entry do
-      command 'PAGEUP'
+      command 'Page Up'
       name 'Next strip'
     end
     entry do
-      command 'PAGEDOWN'
+      command 'Page Down'
       name 'Previous strip'
     end
     entry do
@@ -461,7 +467,7 @@ cheatsheet do
       name 'Add node'
     end
     entry do
-      command 'CTRL+CLICK'
+      command 'CTRL+Click'
       name 'Cut links'
     end
     entry do
@@ -477,11 +483,11 @@ cheatsheet do
       name 'Ungroup'
     end
     entry do
-      command 'TAB'
+      command 'Tab'
       name 'Edit group'
     end
     entry do
-      command 'ALT+MIDDLE-CLICK'
+      command 'ALT+Middle Click'
       name 'Move background'
     end
     entry do
@@ -499,7 +505,7 @@ cheatsheet do
   end
 
   category do
-    id 'Modelling'
+    id 'Modeling'
     entry do
       command 'F'
       name 'Make face'
@@ -529,7 +535,7 @@ cheatsheet do
       name 'Proportional editing'
     end
     entry do
-      command 'ALT+RIGHT-CLICK'
+      command 'ALT+Right Click'
       name 'Select edge loop'
     end
     entry do
@@ -549,7 +555,7 @@ cheatsheet do
       name 'Shrink/fatten'
     end
     entry do
-      command 'K+CLICK'
+      command 'K+Click'
       name 'Knife'
     end
     entry do
@@ -561,7 +567,7 @@ cheatsheet do
       name 'Beauty fill'
     end
     entry do
-      command 'CTRL+1/2/3/4'
+      command 'CTRL+1-4'
       name 'Add subdivision level'
     end
   end
@@ -573,7 +579,7 @@ cheatsheet do
       name 'Close path'
     end
     entry do
-      command 'CTRL+CLICK'
+      command 'CTRL+Click'
       name 'Add handle'
     end
     entry do
@@ -621,7 +627,7 @@ cheatsheet do
   category do
     id 'Changing Modes'
     entry do
-      command 'TAB'
+      command 'Tab'
       name 'Edit/object mode'
     end
     entry do
@@ -629,11 +635,12 @@ cheatsheet do
       name 'Vertext paint mode'
     end
     entry do
-      command 'CTRL+TAB'
+      command 'CTRL+Tab'
       name 'Weight paint mode'
     end
     entry do
-      command 'CTRL+LEFT/RIGHT-ARROW'
+      command 'CTRL+Left Arrow'
+      command 'CTRL+Right Arrow'
       name 'Cycle workspace'
     end
     entry do
@@ -654,7 +661,7 @@ cheatsheet do
     end
     entry do
       command 'SHIFT+F6'
-      name 'F-Curve editor'
+      name 'F-curve editor'
     end
     entry do
       command 'SHIFT+F7'
@@ -670,7 +677,7 @@ cheatsheet do
     end
     entry do
       command 'SHIFT+F10'
-      name 'UV/Image editor'
+      name 'Uv/image editor'
     end
     entry do
       command 'SHIFT+F11'
@@ -689,7 +696,7 @@ cheatsheet do
       name 'Fullscreen mode'
     end
     entry do
-      command 'CTRL+UP-ARROW'
+      command 'CTRL+Up Arrow'
       name 'Maximize subwindow'
     end
     entry do
@@ -725,15 +732,15 @@ cheatsheet do
       name 'Start fly mode'
     end
     entry do
-      command 'MOUSEWHEEL-UP'
+      command 'Mouse Wheel Up'
       name 'Accelerate'
     end
     entry do
-      command 'MOUSEWHEEL-DOWN'
+      command 'Mouse Wheel Down'
       name 'Decelerate'
     end
     entry do
-      command 'MIDDLE-CLICK'
+      command 'Middle Click'
       name 'Pan'
     end
     entry do
@@ -762,37 +769,6 @@ cheatsheet do
     end
   end
 
-  notes 'Taken from BlenderGuru.com - By Ramsy de Vos'
+  notes '* Converted from [BlenderGuru](http://blenderguru.com) by Ramsy de Vos'
 
-
-  # A cheat sheet must consist of categories
-#  category do
-#    id 'Windows'  # Must be unique and is used as title of the category
-#
-#    entry do
-#      command 'CMD+N'         # Optional
-#      command 'CMD+SHIFT+N'   # Multiple commands are supported
-#      name 'Create window'    # A short name, can contain Markdown or HTML
-#      notes 'Some notes'      # Optional longer explanation, can contain Markdown or HTML
-#    end
-#    entry do
-#      command 'CMD+W'
-#      name 'Close window'
-#    end
-#  end
-#
-#  category do
-#    id 'Code'
-#    entry do
-#      name 'Code sample'
-#      notes <<-'END'
-#        ```ruby
-#        sample = "You can include code snippets as well"
-#        ```
-#        Or anything else **Markdown** or HTML.
-#      END
-#    end
-#  end
-#
-#  notes 'Some notes at the end of the cheat sheet'
 end
