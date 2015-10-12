@@ -282,230 +282,230 @@ cheatsheet do
     id 'Informational'
 
     entry do
-      command `\d[S+]`
+      command '\d[S+]'
       name 'List tables, views, and sequences'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\d[S+]  NAME`
+      command '\d[S+]  NAME'
       name 'Describe table, view, sequence, or index'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\da[S]  [PATTERN]`
+      command '\da[S]  [PATTERN]'
       name 'List aggregates'
       notes '(options: S = show system objects)'
     end
 
     entry do
-      command `\db[+]  [PATTERN]`
+      command '\db[+]  [PATTERN]'
       name 'List tablespaces'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\dc[S+] [PATTERN]`
+      command '\dc[S+] [PATTERN]'
       name 'List conversions'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\dC[+]  [PATTERN]`
+      command '\dC[+]  [PATTERN]'
       name 'List casts'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\dd[S]  [PATTERN]`
+      command '\dd[S]  [PATTERN]'
       name 'Show object descriptions not displayed elsewhere'
       notes '(options: S = show system objects)'
     end
 
     entry do
-      command `\ddp    [PATTERN]`
+      command '\ddp    [PATTERN]'
       name 'List default privileges'
     end
 
     entry do
-      command `\dD[S+] [PATTERN]`
+      command '\dD[S+] [PATTERN]'
       name 'List domains'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\det[+] [PATTERN]`
+      command '\det[+] [PATTERN]'
       name 'List foreign tables'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\des[+] [PATTERN]`
+      command '\des[+] [PATTERN]'
       name 'List foreign servers'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\deu[+] [PATTERN]`
+      command '\deu[+] [PATTERN]'
       name 'List user mappings'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\dew[+] [PATTERN]`
+      command '\dew[+] [PATTERN]'
       name 'List foreign-data wrappers'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\df[antw][S+] [PATRN]`
+      command '\df[antw][S+] [PATRN]'
       name 'List [only agg/normal/trigger/window] functions'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\dF[+]  [PATTERN]`
+      command '\dF[+]  [PATTERN]'
       name 'List text search configurations'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\dFd[+] [PATTERN]`
+      command '\dFd[+] [PATTERN]'
       name 'List text search dictionaries'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\dFp[+] [PATTERN]`
+      command '\dFp[+] [PATTERN]'
       name 'List text search parsers'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\dFt[+] [PATTERN]`
+      command '\dFt[+] [PATTERN]'
       name 'List text search templates'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\dg[+]  [PATTERN]`
+      command '\dg[+]  [PATTERN]'
       name 'List roles'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\di[S+] [PATTERN]`
+      command '\di[S+] [PATTERN]'
       name 'List indexes'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\dl`
+      command '\dl'
       name 'List large objects, same as \lo_list'
     end
 
     entry do
-      command `\dL[S+] [PATTERN]`
+      command '\dL[S+] [PATTERN]'
       name 'List procedural languages'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\dm[S+] [PATTERN]`
+      command '\dm[S+] [PATTERN]'
       name 'List materialized views'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\dn[S+] [PATTERN]`
+      command '\dn[S+] [PATTERN]'
       name 'List schemas'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\do[S]  [PATTERN]`
+      command '\do[S]  [PATTERN]'
       name 'List operators'
       notes '(options: S = show system objects)'
     end
 
     entry do
-      command `\dO[S+] [PATTERN]`
+      command '\dO[S+] [PATTERN]'
       name 'List collations'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\dp     [PATTERN]`
+      command '\dp     [PATTERN]'
       name 'List table, view, and sequence access privileges'
     end
 
     entry do
-      command `\drds [PATRN1 [PATRN2]]`
+      command '\drds [PATRN1 [PATRN2]]'
       name 'List per-database role settings'
     end
 
     entry do
-      command `\ds[S+] [PATTERN]`
+      command '\ds[S+] [PATTERN]'
       name 'List sequences'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\dt[S+] [PATTERN]`
+      command '\dt[S+] [PATTERN]'
       name 'List tables'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\dT[S+] [PATTERN]`
+      command '\dT[S+] [PATTERN]'
       name 'List data types'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\du[+]  [PATTERN]`
+      command '\du[+]  [PATTERN]'
       name 'List roles'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\dv[S+] [PATTERN]`
+      command '\dv[S+] [PATTERN]'
       name 'List views'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\dE[S+] [PATTERN]`
+      command '\dE[S+] [PATTERN]'
       name 'List foreign tables'
       notes '(options: S = show system objects, + = additional detail)'
     end
 
     entry do
-      command `\dx[+]  [PATTERN]`
+      command '\dx[+]  [PATTERN]'
       name 'List extensions'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\dy [PATTERN]`
+      command '\dy [PATTERN]'
       name 'List event triggers'
     end
 
     entry do
-      command `\l[+] [PATTERN]`
+      command '\l[+] [PATTERN]'
       name 'List databases'
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\sf[+] FUNCNAME`
+      command '\sf[+] FUNCNAME'
       name "show a function's definition"
       notes '(options: + = additional detail)'
     end
 
     entry do
-      command `\z [PATTERN]`
+      command '\z [PATTERN]'
       name 'Same as \dp'
     end
   end
