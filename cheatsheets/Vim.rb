@@ -687,7 +687,7 @@ cheatsheet do
             name 'Start Visual mode linewise (horizontal selection)'
         end
         entry do
-            command 'CTRL+V'
+            command 'CTRL-V'
             name 'Start Visual mode columnwise (vertical selection)'
         end
         entry do
