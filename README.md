@@ -1,7 +1,7 @@
 Dash Cheat Sheets 
 ===========
 
-All of Dash's cheat sheets can be found in this repo. You can modify them or add new ones using pull requests.
+All the [Dash](https://kapeli.com/dash) cheat sheets that can be installed from Preferences > Downloads > Cheat Sheets can be found in this repo. You can modify them or add new ones using pull requests.
 
 # Make Your Own
 
