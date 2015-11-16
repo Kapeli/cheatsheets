@@ -1,17 +1,17 @@
 cheatsheet do
-  title 'NSpredicate'
+  title 'NSPredicate'
   docset_file_name 'NSPredicate'
   keyword 'predicate'
   source_url 'http://cheat.kapeli.com'
 
   category do
-    id 'Format string summary'
+    id 'Format String Summary'
     entry do
-        name 'AttributeName'
+        name 'Attribute name'
         notes <<-'END'
-        object’s attributeName value is equal to value passed in
+        Object's `attributeName` value is equal to value passed in
 
-        ``` objective-c
+        ``` objc
         @"attributeName == %@"
         ```
         END
@@ -19,9 +19,9 @@ cheatsheet do
     entry do
         name 'Keypath'
         notes <<-'END'
-        pass a string variable to %K, it will be represented as a keypath, then check if it’s value is equal to value passed in
+        Pass a string variable to `%K`, it will be represented as a keypath, then check if its value is equal to value passed in
 
-        ``` objective-c
+        ``` objc
         "%K == %@"
         ```
         END
@@ -29,9 +29,9 @@ cheatsheet do
     entry do
         name 'Templated for predicates'
         notes <<-'END'
-        templated for predicate, checks if the value of key name is in $NAME_LIST. Uses predicateWithSubstitutionVariables
+        Templated for predicate, checks if the value of key name is in `$NAME_LIST`. Uses `predicateWithSubstitutionVariables`
 
-        ``` objective-c
+        ``` objc
         @"%name IN $NAME_LIST"
         ```
         END
@@ -39,9 +39,9 @@ cheatsheet do
     entry do
         name 'Substitution predicate'
         notes <<-'END'
-        checks if the constant value ‘name’ is in $NAME_LIST. Uses predicateWithSubstitutionVariables
+        Checks if the constant value `name` is in `$NAME_LIST`. Uses `predicateWithSubstitutionVariables`
 
-        ``` objective-c
+        ``` objc
         @"'name' IN $NAME_LIST"
         ```
         END
@@ -50,20 +50,20 @@ cheatsheet do
         name 'Example'
         notes <<-'END'
 
-        ``` objective-c
+        ``` objc
         [NSPredicate predicateWithFormat: @"title == %@", @"minecraft"]
         ```
         END
     end
   end
   category do
-    id 'Basic comparisons'
+    id 'Basic Comparisons'
     entry do
         name 'Equal'
         notes <<-'END'
         Left hand expression is equal to right hand expression
 
-        ``` objective-c
+        ``` objc
         =,==
         ```
         END
@@ -73,7 +73,7 @@ cheatsheet do
         notes <<-'END'
         Left hand expression is greater than or equal to right hand expression
 
-        ``` objective-c
+        ``` objc
         >=,=>
         ```
         END
@@ -83,7 +83,7 @@ cheatsheet do
         notes <<-'END'
         Left hand expression is less than or equal to right hand expression
 
-        ``` objective-c
+        ``` objc
         <=,=<
         ```
         END
@@ -93,7 +93,7 @@ cheatsheet do
         notes <<-'END'
         Left hand expression is greater than right hand expression
 
-        ``` objective-c
+        ``` objc
         >
         ```
         END
@@ -103,7 +103,7 @@ cheatsheet do
         notes <<-'END'
         Left hand expression is less than right hand expression
 
-        ``` objective-c
+        ``` objc
         <
         ```
         END
@@ -113,7 +113,7 @@ cheatsheet do
         notes <<-'END'
         Left hand expression is not equal to right hand expression
 
-        ``` objective-c
+        ``` objc
         !=,<>
         ```
         END
@@ -121,9 +121,9 @@ cheatsheet do
     entry do
         name 'In'
         notes <<-'END'
-        Left hand expression must appear in collection specified by right hand expression. i.e. name IN {‘Milk’, ‘Eggs’, ‘Bread’}
+        Left hand expression must appear in collection specified by right hand expression, i.e. `name IN {'Milk', 'Eggs', 'Bread'}`
 
-        ``` objective-c
+        ``` objc
         IN
         ```
         END
@@ -131,9 +131,9 @@ cheatsheet do
     entry do
         name 'Between'
         notes <<-'END'
-        Left hand expression is between or equal to right hand expression. i.e. 1 Between {0, 33}. If your left hand expression was 0 or 33 it would also make this true
+        Left hand expression is between or equal to right hand expression, i.e. `1 BETWEEN {0, 33}`. If your left hand expression was 0 or 33 it would also make this true
 
-        ``` objective-c
+        ``` objc
         BETWEEN
         ```
         END
@@ -142,20 +142,20 @@ cheatsheet do
         name 'Example'
         notes <<-'END'
 
-        ``` objective-c
+        ``` objc
         [NSPredicate predicateWithFormat: @"expenses BETWEEN {200, 400}"]
         ```
         END
     end
   end
   category do
-    id 'Keypath collection queries'
+    id 'Keypath Collection Queries'
     entry do
         name 'Average'
         notes <<-'END'
-        returns the average of the objects in the collection as an NSNumber
+        Returns the average of the objects in the collection as an NSNumber
 
-        ``` objective-c
+        ``` objc
         @avg
         ```
         END
@@ -163,9 +163,9 @@ cheatsheet do
     entry do
         name 'Count'
         notes <<-'END'
-        returns the number of objects in a collection as an NSNumber
+        Returns the number of objects in a collection as an NSNumber
 
-        ``` objective-c
+        ``` objc
         @count
         ```
         END
@@ -173,9 +173,9 @@ cheatsheet do
     entry do
         name 'Min'
         notes <<-'END'
-        returns the minimum value of the objects in the collection as an NSNumber
+        Returns the minimum value of the objects in the collection as an NSNumber
 
-        ``` objective-c
+        ``` objc
         @min
         ```
         END
@@ -183,9 +183,9 @@ cheatsheet do
     entry do
         name 'Max'
         notes <<-'END'
-        returns the maximum value of the objects in the collection as an NSNumber
+        Returns the maximum value of the objects in the collection as an NSNumber
 
-        ``` objective-c
+        ``` objc
         @max
         ```
         END
@@ -193,9 +193,9 @@ cheatsheet do
     entry do
         name 'Sum'
         notes <<-'END'
-        returns the sum of the objects in the collection based on the property
+        Returns the sum of the objects in the collection based on the property
 
-        ``` objective-c
+        ``` objc
         @sum
         ```
         END
@@ -204,20 +204,20 @@ cheatsheet do
         name 'Example'
         notes <<-'END'
 
-        ``` objective-c
+        ``` objc
         [NSPredicate predicateWithFormat: @"expenses.@avg.doubleValue < 200"]
         ```
         END
     end
   end
   category do
-    id 'Basic compound predicates'
+    id 'Basic Compound Predicates'
     entry do
         name 'AND'
         notes <<-'END'
         Logical AND
 
-        ``` objective-c
+        ``` objc
         AND,&&
         ```
         END
@@ -227,7 +227,7 @@ cheatsheet do
         notes <<-'END'
         Logical OR
 
-        ``` objective-c
+        ``` objc
         OR,||
         ```
         END
@@ -237,7 +237,7 @@ cheatsheet do
         notes <<-'END'
         Logical NOT
 
-        ``` objective-c
+        ``` objc
         NOT,!
         ```
         END
@@ -246,20 +246,20 @@ cheatsheet do
         name 'Example'
         notes <<-'END'
 
-        ``` objective-c
+        ``` objc
         [NSPredicate predicateWithFormat: @"age == 40 AND price > 67"]
         ```
         END
     end
   end
   category do
-    id 'Object, array, and set operators'
+    id 'Object, Array, and Set Operators'
       entry do
           name 'Distinct union of objects'
           notes <<-'END'
-          returns an array containing the distinct objects in the property specified by the key path to the right of the operator
+          Returns an array containing the distinct objects in the property specified by the key path to the right of the operator
 
-          ``` objective-c
+          ``` objc
           @distinctUnionOfObjects
           ```
           END
@@ -267,9 +267,9 @@ cheatsheet do
       entry do
          name 'Union of objects'
          notes <<-'END'
-         returns the same as `@distinctUnionOfObects` except it also includes duplicates
+         Returns the same as `@distinctUnionOfObects` except it also includes duplicates
 
-         ``` objective-c
+         ``` objc
          @unionOfObjects
          ```
          END
@@ -278,7 +278,7 @@ cheatsheet do
        name 'Example'
          notes <<-'END'
 
-         ``` objective-c
+         ``` objc
          NSArray *payees = [transactions valueForKeyPath:@"@distinctUnionOfObjects.payee"]
          ```
          END
@@ -286,9 +286,9 @@ cheatsheet do
      entry do
         name 'Distinct union of arrays'
         notes <<-'END'
-        returns an array containing the distinct objects in the property specified by the key path to the right of the operator
+        Returns an array containing the distinct objects in the property specified by the key path to the right of the operator
 
-        ``` objective-c
+        ``` objc
         @distinctUnionOfArrays
         ```
         END
@@ -296,9 +296,9 @@ cheatsheet do
     entry do
        name 'Union of arrays'
        notes <<-'END'
-       returns the same as `@distinctUnionOfArrays` except it also includes duplicates
+       Returns the same as `@distinctUnionOfArrays` except it also includes duplicates
 
-       ``` objective-c
+       ``` objc
        NOT,!
        ```
        END
@@ -308,7 +308,7 @@ cheatsheet do
        notes <<-'END'
        These must be run on an array of arrays. For example if you had:
 
-       ``` objective-c
+       ``` objc
        NSArray *arrayOfTransactions = [[Array of transactions], [Array of transactions]]
        NSArray *payees = [arrayOfTransactions valueForKeyPath:@"@distinctUnionOfObjects.payee"]
        ```
@@ -317,9 +317,9 @@ cheatsheet do
    entry do
       name 'Distinct union of sets'
       notes <<-'END'
-      returns an NSSet instance containing distinct objects in the property specified by the key path to the right of the operator. Expects an NSSet instance containing NSSet instances
+      Returns an NSSet instance containing distinct objects in the property specified by the key path to the right of the operator. Expects an NSSet instance containing NSSet instances
 
-      ``` objective-c
+      ``` objc
       @distinctUnionOfSets
       ```
       END
@@ -327,13 +327,13 @@ cheatsheet do
 
   end
   category do
-    id 'String comparison operators'
+    id 'String Comparison Operators'
     entry do
         name 'Begins with'
         notes <<-'END'
         Left hand expression begins with the right hand expression
 
-        ``` objective-c
+        ``` objc
         BEGINSWITH
         ```
         END
@@ -343,7 +343,7 @@ cheatsheet do
         notes <<-'END'
         Left hand expression contains the right hand expression
 
-        ``` objective-c
+        ``` objc
         CONTAINS
         ```
         END
@@ -353,7 +353,7 @@ cheatsheet do
         notes <<-'END'
         Left hand expression ends with the right hand expression
 
-        ``` objective-c
+        ``` objc
         ENDSWITH
         ```
         END
@@ -361,9 +361,9 @@ cheatsheet do
     entry do
         name 'Like'
         notes <<-'END'
-        Left hand expression equals the right hand expression: ? and * are allowed as wildcard characters, where ? matches 1 character and * matches 0 or more characters
+        Left hand expression equals the right hand expression: `?` and `*` are allowed as wildcard characters, where `?` matches 1 character and `*` matches 0 or more characters
 
-        ``` objective-c
+        ``` objc
         LIKE
         ```
         END
@@ -373,7 +373,7 @@ cheatsheet do
         notes <<-'END'
         Left hand expression equals the right hand expression using a regex - style comparison
 
-        ``` objective-c
+        ``` objc
         MATCHES
         ```
         END
@@ -382,20 +382,20 @@ cheatsheet do
         name 'Example'
         notes <<-'END'
 
-        ``` objective-c
+        ``` objc
         [NSPredicate predicateWithFormat: @"name BEGINSWITH 'm'"]
         ```
         END
     end
   end
   category do
-    id 'Aggregate operators'
+    id 'Aggregate Operators'
     entry do
         name 'Some, any'
         notes <<-'END'
-        returns objects where ANY or SOME of the predicate results are true.
+        Returns objects where `ANY` or `SOME` of the predicate results are true.
 
-        ``` objective-c
+        ``` objc
         ANY,SOME
         ```
         END
@@ -403,9 +403,9 @@ cheatsheet do
     entry do
         name 'All'
         notes <<-'END'
-        Returns objects where ALL of the predicate results are true.
+        Returns objects where `ALL` of the predicate results are true.
 
-        ``` objective-c
+        ``` objc
         ALL
         ```
         END
@@ -413,9 +413,9 @@ cheatsheet do
     entry do
         name 'None'
         notes <<-'END'
-        returns objects where NONE of the predicate results are true.
+        Returns objects where `NONE` of the predicate results are true.
 
-        ``` objective-c
+        ``` objc
         NONE
         ```
         END
@@ -424,20 +424,20 @@ cheatsheet do
         name 'Example'
         notes <<-'END'
 
-        ``` objective-c
+        ``` objc
         [NSPredicate predicateWithFormat: @"ALL expenses > 1000"]
         ```
         END
     end
   end
   category do
-    id 'Array operations'
+    id 'Array Operations'
     entry do
         name 'Array index'
         notes <<-'END'
-        specifies the element at the specified index in the array.
+        Specifies the element at the specified index in the array
 
-        ``` objective-c
+        ``` objc
         array[index]
         ```
         END
@@ -445,9 +445,9 @@ cheatsheet do
     entry do
         name 'Array first'
         notes <<-'END'
-        specifies the first element in the array.
+        Specifies the first element in the array
 
-        ``` objective-c
+        ``` objc
         array[FIRST]
         ```
         END
@@ -455,9 +455,9 @@ cheatsheet do
     entry do
         name 'Array last'
         notes <<-'END'
-        specifies the last element in the array.
+        Specifies the last element in the array
 
-        ``` objective-c
+        ``` objc
         array[LAST]
         ```
         END
@@ -465,9 +465,9 @@ cheatsheet do
     entry do
         name 'Array size'
         notes <<-'END'
-        specifies the size of the array.
+        Specifies the size of the array
 
-        ``` objective-c
+        ``` objc
         array[Size]
         ```
         END
@@ -475,12 +475,12 @@ cheatsheet do
     entry do
         name 'Example'
         notes <<-'END'
-        Let’s say we have a person with many dogs. index should be replaced with a number which will return the dog that you want to check against.
+        Let's say we have a person with many dogs. `index` should be replaced with a number which will return the dog that you want to check against.
 
-        ``` objective-c
-        // Here we’re checking if the first dog’s age is 5.
+        ``` objc
+        // Here we're checking if the first dog's age is 5.
         [NSPredicate predicateWithFormat: @"dogs[0].age = 5"]
-        // Here we’re checking if a person has 3 dogs
+        // Here we're checking if a person has 3 dogs
         [NSPredicate predicateWithFormat: @"dogs[SIZE] = 3"]
         ```
         END
@@ -493,11 +493,11 @@ cheatsheet do
         notes <<-'END'
         Iterates through the collection to return qualifying queries
 
-        * Collection - array or set of objects
-        * variableName - variable that represents an iterated object
-        * predicateFormat - predicate that runs using the variableName
+        * `collection` - array or set of objects
+        * `variableName` - variable that represents an iterated object
+        * `predicateFormat` - predicate that runs using the variableName
 
-        ``` objective-c
+        ``` objc
         SUBQUERY(collection, variableName, predicateFormat)
         ```
         END
@@ -507,21 +507,21 @@ cheatsheet do
         notes <<-'END'
         Assume this was run on an array of projects. It will return projects with tasks that were not completed by user Alex
 
-        ``` objective-c
+        ``` objc
         [NSPredicate predicateWithFormat: @"SUBQUERY(tasks, $task, $task.completionDate != nil AND $task.user = 'Alex') .@count > 0"]
         ```
         END
     end
   end
   category do
-    id 'Tip, tricks and examples'
+    id 'Tip, Tricks and Examples'
     entry do
         name 'Common mistakes'
         notes <<-'END'
 
-        * Using `[NSString stringWithFormat:]` to build predicates is prone to have non-escaped diacritics or artifacts like an apostrophe. Use [NSPredicate predicateWithFormat:] instead.
-        * Using `OR OR OR` instead of `IN`, results in repeatable code and can be less efficient
-        * When using `REGEX` and `Matches`, make sure they are the last part of your predicate statement so it does less work. This way objects will be filtered before doing more heavy look ups.
+        * Using `[NSString stringWithFormat:]` to build predicates is prone to have non-escaped diacritics or artifacts like an apostrophe. Use `[NSPredicate predicateWithFormat:]` instead.
+        * Using multiple `OR` instead of `IN`, results in repeatable code and can be less efficient
+        * When using `REGEX` and `MATCHES`, make sure they are the last part of your predicate statement so it does less work. This way objects will be filtered before doing more heavy look ups
 
         END
     end
@@ -529,12 +529,12 @@ cheatsheet do
         name 'Using self'
         notes <<-'END'
 
-        When using a predicate on an array, SELF refers to each object in the array.
-        Here’s an example: Imagine you are a landlord figuring out which apartments have to pay their water bill.
+        When using a predicate on an array, `SELF` refers to each object in the array.
+        Here's an example: Imagine you are a landlord figuring out which apartments have to pay their water bill.
         If you have a list of all the city wide apartments that still need to pay called `addressesThatOweWaterBill`,
         we can check that against our owned apartments, `myApartmentAddresses`.
 
-        ``` objective-c
+        ``` objc
         NSPredicate *billingPredicate = [NSPredicate predicateWithFormat: @"SELF IN %@", addressesThatOweWaterBill]
         NSArray *myApartmentsThatOweWaterBill = [myApartmentAddresses filteredArrayUsingPredicate:billingPredicate]
         ```
@@ -544,9 +544,9 @@ cheatsheet do
     entry do
         name 'LIKE wildcard match with * and ?'
         notes <<-'END'
-        `*` matches 0 or more characters. For example: Let’s say we have an array of names we want to filter
+        `*` matches 0 or more characters. For example: Let's say we have an array of names we want to filter
 
-        ``` objective-c
+        ``` objc
         @[@"Sarah", @"Silva", @"silva", @"Silvy", @"Silvia", @"Si*"]
 
         predicateWithFormat: @"SELF == %@", @"Sarah"
@@ -557,7 +557,7 @@ cheatsheet do
         ```
         `?` matches 1 character only
 
-        ``` objective-c
+        ``` objc
         predicateWithFormat: @"SELF LIKE[c] %@", "Silv?"
         // Will return “Silva”, “silva”, “Silvy”
         ```
@@ -568,9 +568,9 @@ cheatsheet do
         name 'Quick tips'
         notes <<-'END'
 
-        `CFStringTransform` normalizes strings if diacritic insensitive isn’t enough.
+        `CFStringTransform` normalizes strings if diacritic insensitive isn't enough.
         For example you could turn Japanese characters into a Latin alphabetic representation.
-        It’s extremely powerful with a lot of methods that you can see here: [http://nshipster.com/cfstringtransform/](http://nshipster.com/cfstringtransform/)
+        It's extremely powerful with a lot of methods that you can see here: [http://nshipster.com/cfstringtransform/](http://nshipster.com/cfstringtransform/)
 
         Make sure your columns are indexed to improve performance of using IN operators
 
@@ -578,7 +578,7 @@ cheatsheet do
 
         * `[d]` diacritic insensitive: special characters treated as the base character
 
-        ``` objective-c
+        ``` objc
         predicateWithFormat: @"name CONTAINS[c] 'f'"
         ```
 
@@ -592,7 +592,7 @@ cheatsheet do
         Being able to call the min or max, adding things up, and then filtering results are simpler when you only have to append an extra parameter.
         By having an array of expenses, you can do a quick check on if something is below or above a range of allowed expenses.
 
-        ``` objective-c
+        ``` objc
         [NSPredicate predicateWithFormat: @"expenses.@avg.doubleValue < 200"]
         ```
         END
@@ -605,16 +605,16 @@ cheatsheet do
         SUBQUERY(collection, variableName, predicate)
         ```
 
-        A subquery takes a collection then iterates through each object (as variableName) checking the predicate against that object.
+        A subquery takes a collection then iterates through each object (as `variableName`) checking the predicate against that object.
         It works well if you have a collection (A) objects, and each object has a collection (B) other objects.
-        If you’re trying to filter A based on 2 or more varying attributes of B.
+        If you're trying to filter A based on 2 or more varying attributes of B.
 
 
-        ``` objective-c
+        ``` objc
         predicateWithFormat: @"SUBQUERY(tasks, $task, $task.completionDate != nil AND $task.user = 'Alex') .@count > 0"
         ```
 
-        `SUBQUERY(…)` returns an array. We need to check if its count > 0 to return the true or false value predicate expects.
+        `SUBQUERY(…)` returns an array. We need to check if its `count > 0` to return the true or false value predicate expects.
         END
     end
   end
