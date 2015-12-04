@@ -77,6 +77,39 @@ cheatsheet do
         ```
       END
     end
+    
+    entry do
+      name 'Subscripts'
+      notes <<-'END'
+        ``` swift
+        struct HTMLElement {
+            var id = "hello"
+            var style = "color: red;"
+    
+            // Can have any number of parameters
+            // Can return any type
+            subscript(attr: String) -> String {
+                get {
+                    if attr == "id"    { return id    }
+                    if attr == "style" { return style }
+                }
+
+                set {
+                    // "newValue" contains the... new value
+                    if attr == "id"    { id    = newValue }
+                    if attr == "style" { style = newValue }
+                }
+
+            }
+        }
+        
+        let el = HTMLElement()
+        print(el["id"])     // prints "hello"
+        el["style"] = "float: left;"
+        print(el["style"]   // prints "float: left;"
+        ```
+      END
+    end
 
     entry do
       name 'Objects'
@@ -248,6 +281,16 @@ cheatsheet do
         } else {
             // do something else
         }
+        
+        guard condition else {
+            // return or throw
+        }
+        
+        defer {
+            // execute when leaving scope
+            // regardless of how scope is left
+            print("Cleaning Up!")
+        }
 
         var val = 5
         switch val {
@@ -284,6 +327,50 @@ cheatsheet do
                 }
             }
         }
+        ```
+      END
+    end
+    
+    entry do
+      name 'Error Handling'
+      notes <<-'END'
+        ``` swift
+        // ErrorType
+        enum MyError : ErrorType {
+            case Err1
+            case Err2(errDesc: String)
+        }
+
+        // Throwing
+        func throwingFunc() throws -> Int {
+            // You can propogate throw to calling function
+            try otherThrowingFunc()
+
+            // You can directly throw error
+            guard safeCondition == true else {
+                throw MyError.Err1
+            }
+        }
+
+        // do, try, catch
+        do {
+            // Perform any throwable operation in here
+            try throwingFunc()
+        } catch MyError.Err2(let desc) {
+            // Catches have same pattern matching capability as Enum cases
+            print(desc)
+        } catch {
+            // Catch anything that the above catches didn't catch
+            print("Some Error")
+        }
+
+        // try!, try?
+        
+        // Causes a runtime error when error is thrown
+        let result = try! throwingFunc()
+
+        // Returns the result of throwingFunc as an optional; nil on throw
+        let result: Int? = try? throwingFunc()
         ```
       END
     end
