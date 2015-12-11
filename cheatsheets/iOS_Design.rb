@@ -32,12 +32,16 @@ cheatsheet do
   category do
     id 'Resolutions'
     header 'Device'
-    header 'Portrait'
-    header 'Landscape'
+    header 'Portrait Pixels'
+    header 'Landscape Pixels'
+    header 'Portrait Logical Resolution'
+    header 'Landscape Logical Resolution'
 
     entry do
       td_notes '1080 x 1920 px'
       td_notes '1920 x 1080 px'
+      td_notes '414 × 736 points'
+      td_notes '736 × 414 points'
       name 'iPhone 6 Plus (Physical)'
       index_name 'iPhone 6 Plus Physical Resolution'
       notes ''
@@ -46,6 +50,8 @@ cheatsheet do
   entry do
       td_notes '1242 x 2208 px'
       td_notes '2208 x 1242 px'
+      td_notes '414 × 736 points'
+      td_notes '736 × 414 points'
       name 'iPhone 6 Plus (Virtual)'
       index_name 'iPhone 6 Plus Virtual Resolution'
       notes ''
@@ -54,6 +60,8 @@ cheatsheet do
     entry do
       td_notes '750 x 1334 px'
       td_notes '1334 x 750 px'
+      td_notes '375 × 667 points'
+      td_notes '667 × 375 points'
       name 'iPhone 6'
       index_name 'iPhone 6 Resolution'
       notes ''
@@ -62,6 +70,8 @@ cheatsheet do
     entry do
       td_notes '640 x 1136 px'
       td_notes '1136 x 640 px'
+      td_notes '320 × 568 points'
+      td_notes '568 × 320 points'
       name 'iPhone 5/5S/5C'
       index_name 'iPhone 5/5S/5C Resolution'
       notes ''
@@ -70,6 +80,8 @@ cheatsheet do
     entry do
       td_notes '640 x 960 px'
       td_notes '960 x 640 px'
+      td_notes '320 × 480 points'
+      td_notes '480 × 320 points'
       name 'iPhone 4/4S'
       index_name 'iPhone 4/4S Resolution'
       notes ''
@@ -78,6 +90,8 @@ cheatsheet do
     entry do
       td_notes '320 x 480 px'
       td_notes '480 x 320 px'
+      td_notes '320 × 480 points'
+      td_notes '480 × 320 points'
       name 'iPhone & iPod Touch'
       index_name 'iPhone & iPod Touch Resolution'
       notes '1st, 2nd and 3rd Generation'
@@ -86,12 +100,16 @@ cheatsheet do
     entry do
       td_notes '1536 x 2048 px'
       td_notes '2048 x 1536 px'
+      td_notes '768 x 1024 px'
+      td_notes '1024 x 768 px'
       name 'iPad Retina'
       index_name 'iPad Retina Resolution'
-      notes 'iPad 3, iPad 4, iPad Air'
+      notes 'iPad 3, iPad 4, iPad Air, iPad Air2'
     end
 
     entry do
+      td_notes '768 x 1024 px'
+      td_notes '1024 x 768 px'
       td_notes '768 x 1024 px'
       td_notes '1024 x 768 px'
       name 'iPad Mini'
@@ -102,12 +120,16 @@ cheatsheet do
     entry do
       td_notes '1536 x 2048 px'
       td_notes '2048 x 1536 px'
+      td_notes '768 x 1024 px'
+      td_notes '1024 x 768 px'
       name 'iPad Mini Retina'
       index_name 'iPad Mini Retina Resolution'
       notes ''
     end
 
     entry do
+      td_notes '768 x 1024 px'
+      td_notes '1024 x 768 px'
       td_notes '768 x 1024 px'
       td_notes '1024 x 768 px'
       name 'iPad'
