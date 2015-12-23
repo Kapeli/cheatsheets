@@ -63,20 +63,6 @@ cheatsheet do
   end
 
   category do
-    id 'Broadcast Input'
-
-    entry do
-      command 'CMD+SHIFT+I'
-      name 'Broadcast input to all panes in all tabs'
-    end
-    entry do
-      command 'CMD+ALT+I'
-      name 'Broadcast input to all panes in current tab'
-    end
-
-  end
-
-  category do
     id 'Tab Navigation'
 
     entry do
@@ -211,6 +197,19 @@ cheatsheet do
     entry do
       command 'CMD+"-"'
       name 'Make font smaller'
+    end
+  end
+
+  category do
+    id 'Broadcast Input'
+
+    entry do
+      command 'CMD+SHIFT+I'
+      name 'Broadcast input to all panes in all tabs'
+    end
+    entry do
+      command 'CMD+ALT+I'
+      name 'Broadcast input to all panes in current tab'
     end
   end
 end
