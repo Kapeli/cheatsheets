@@ -259,7 +259,7 @@ git pull --rebase origin $(current_branch)
     entry do
       name '
 ```
-git push upstream master
+git pull upstream master
 ```'
       command "glum"
     end
