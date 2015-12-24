@@ -8,7 +8,7 @@ cheatsheet do
 HTTP status codes and their respective Rails symbol representations. For example, `:not_found` can be used instead of `404` in a render call:
 
 ```ruby
-render :file => '404.html.erb', :status => :not_found
+render file: '404.html.erb', status: :not_found
 ```
 INTRO
 
