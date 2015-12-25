@@ -861,7 +861,27 @@ cheatsheet do
       td_command '&nbsp;'
       name 'No-break space'
     end
-
+    entry do
+      td_command ''
+      td_command '&#8201'
+      td_command '&#x2009'
+      td_command '&thinsp;'
+      name 'Thin space'
+    end
+    entry do
+      td_command ''
+      td_command '&#8194'
+      td_command '&#x2002'
+      td_command '&ensp;'
+      name 'En space'
+    end
+    entry do
+      td_command ''
+      td_command '&#8195'
+      td_command '&#x2003'
+      td_command '&emsp;'
+      name 'Em space'
+    end
     entry do
       td_command '¡'
       td_command '&#161'
