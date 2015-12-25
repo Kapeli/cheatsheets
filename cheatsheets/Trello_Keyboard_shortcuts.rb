@@ -1,6 +1,6 @@
 cheatsheet do
 	title 'Trello Keyboard Shortcuts'
-	docset_file_name 'Trello_Keyboard_shortcuts'
+	docset_file_name 'Trello_Keyboard_Shortcuts'
 	keyword 'trello'
 	source_url 'http://cheat.kapeli.com'
 
