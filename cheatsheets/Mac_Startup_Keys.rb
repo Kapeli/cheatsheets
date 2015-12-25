@@ -24,7 +24,8 @@ cheatsheet do
 			name 'Start up in [Startup Manager](http://support.apple.com/kb/HT1310), where you can select an OS X volume or network volume to start from. '
 		end
 		entry do
-			command 'Eject or F12'
+			command 'Eject'
+			command 'F12'
 			name 'Ejects any removable media, such as an optical disc.'
 			notes 'Alternatively, you can hold the mouse or trackpad button.'
 		end
@@ -58,5 +59,5 @@ cheatsheet do
 			notes 'Available on Macs that ship with OS X Lion or newer. Some CPUs require an [EFI BootROM update to support this feature](http://support.apple.com/kb/HT4904).'
 		end
 	end
-	notes 'For the best experience with startup keys, press the keys immediately after the startup tone plays.'
+	notes '* For the best experience with startup keys, press the keys immediately after the startup tone plays.'
 end
