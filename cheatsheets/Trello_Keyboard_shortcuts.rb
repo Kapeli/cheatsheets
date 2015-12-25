@@ -1,11 +1,11 @@
 cheatsheet do
-	title 'Trello Keyboard Shortcuts'
+	title 'Trello'
 	docset_file_name 'Trello_Keyboard_Shortcuts'
 	keyword 'trello'
 	source_url 'http://cheat.kapeli.com'
 
 	category do
-		id 'Trello Keyboard Shortcuts'
+		id 'Keyboard Shortcuts'
 		entry do
 			command 'Arrow Up'
 			name 'Select the card above the current card.'
