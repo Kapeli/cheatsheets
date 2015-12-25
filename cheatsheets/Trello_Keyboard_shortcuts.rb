@@ -77,15 +77,15 @@ cheatsheet do
 		end
 		entry do
 			command '<'
-			name 'Pressing the left angle brackets will move a card to the adjacent left list.'
+			name 'Pressing the left angle brackets will move a card to the adjacent left list'
 		end
 		entry do
 			command '>'
-			name 'Pressing the right angle brackets will move a card to the adjacent right list.'
+			name 'Pressing the right angle brackets will move a card to the adjacent right list'
 		end
 		entry do
 			command 'Q'
-			name 'Pressing the `Q` key toggles the `cards assigned to me` filter.'
+			name 'Pressing the `Q` key toggles the `cards assigned to me` filter'
 		end
 		entry do
 			command 'S'
@@ -94,7 +94,7 @@ cheatsheet do
 		end
 		entry do
 			command 'Space'
-			name 'Pressing `space` will assign (or unassign) yourself to a card.'
+			name 'Pressing `space` will assign (or unassign) yourself to a card'
 		end
 		entry do
 			command 'T'
@@ -108,19 +108,19 @@ cheatsheet do
 		end
 		entry do
 			command 'W'
-			name 'Pressing `W` will collapse or expand the board menu, the sidebar on the right.'
+			name 'Pressing `W` will collapse or expand the board menu, the sidebar on the right'
 		end
 		entry do
 			command 'X'
-			name 'Use `X` to clear all active card filters.'
+			name 'Use `X` to clear all active card filters'
 		end
 		entry do
 			command '?'
-			name 'Pressing `?` will open the shortcuts page.'
+			name 'Pressing `?` will open the shortcuts page'
 		end
 		entry do
 			command '@'
-			name 'Autocomplete member name.'
+			name 'Autocomplete member name'
 			notes 'When writing a comment, you can type `@` plus a member’s name, username, or initials and get a list of matching members. You can navigate that list with the up and down arrows. Pressing enter or tab with a member selected will mention that user in the comment. The mentioned user will get a notification once submitted.
 
 			When adding a new card, you can use the same method to assign members to cards before submitting them.'
