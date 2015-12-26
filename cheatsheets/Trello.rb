@@ -1,6 +1,6 @@
 cheatsheet do
 	title 'Trello'
-	docset_file_name 'Trello_Keyboard_Shortcuts'
+	docset_file_name 'Trello'
 	keyword 'trello'
 	source_url 'http://cheat.kapeli.com'
 
@@ -25,20 +25,19 @@ cheatsheet do
 
 		entry do
 			command 'B'
-			name 'Pressing `B` opens the boards menu in the header'
+			name 'Open the boards menu in the header'
 		end
 		entry do
 			command '/'
-			name 'Pressing `/` puts the cursor in the search box in the header'
+			name 'Put the cursor in the search box in the header'
 		end
 		entry do
 			command 'C'
-			name 'Pressing `C` will archive a card'
+			name 'Archive a card'
 		end
 		entry do
 			command 'D'
-			name 'Open date picker'
-			notes 'Pressing `D` will open the due date picker for a card.'
+			name 'Open the date picker for a card'
 		end
 		entry do
 			command 'E'
@@ -48,12 +47,12 @@ cheatsheet do
 		entry do
 			command 'Esc'
 			name 'Close edit window'
-			notes 'Pressing `esc` will close an open dialog window or pop-over or cancel edits and comments you are composing.'
+			notes 'Pressing `Esc` will close an open dialog window or pop-over or cancel edits and comments you are composing.'
 		end
 		entry do
 			command 'Enter'
 			name 'Open selected card'
-			notes 'Pressing `enter` will open the currently selected card. Pressing `shift + enter` while submitting a card will open it immediately after creating it.'
+			notes 'Pressing `Enter` will open the currently selected card. Pressing `SHIFT+Enter` while submitting a card will open it immediately after creating it.'
 		end
 		entry do
 			command 'F'
@@ -63,7 +62,7 @@ cheatsheet do
 		entry do
 			command 'L'
 			name 'Open available labels'
-			notes 'Pressing `L` opens a pop-over of the available labels. Clicking a label will add or remove it from the card. Pressing a number key to select a label in that position.'
+			notes 'Pressing `L` opens a pop-over of the available labels. Clicking a label will add or remove it from the card. Pressing a number key selects a label in that position.'
 		end
 		entry do
 			command 'M'
@@ -77,15 +76,15 @@ cheatsheet do
 		end
 		entry do
 			command '<'
-			name 'Pressing the left angle brackets will move a card to the adjacent left list'
+			name 'Move a card to the adjacent left list'
 		end
 		entry do
 			command '>'
-			name 'Pressing the right angle brackets will move a card to the adjacent right list'
+			name 'Move a card to the adjacent right list'
 		end
 		entry do
 			command 'Q'
-			name 'Pressing the `Q` key toggles the `cards assigned to me` filter'
+			name 'Toggle the `cards assigned to me` filter'
 		end
 		entry do
 			command 'S'
@@ -94,7 +93,7 @@ cheatsheet do
 		end
 		entry do
 			command 'Space'
-			name 'Pressing `space` will assign (or unassign) yourself to a card'
+			name 'Assign (or unassign) yourself to a card'
 		end
 		entry do
 			command 'T'
@@ -108,15 +107,15 @@ cheatsheet do
 		end
 		entry do
 			command 'W'
-			name 'Pressing `W` will collapse or expand the board menu, the sidebar on the right'
+			name 'Collapse or expand the board menu'
 		end
 		entry do
 			command 'X'
-			name 'Use `X` to clear all active card filters'
+			name 'Clear all active card filters'
 		end
 		entry do
 			command '?'
-			name 'Pressing `?` will open the shortcuts page'
+			name 'Open the shortcuts page'
 		end
 		entry do
 			command '@'
@@ -136,5 +135,5 @@ cheatsheet do
 			notes 'When adding a new card, you can type `^` plus a list name or position in a list. You can also type `top` or `bottom` to add to the top or bottom of the current list. You can use the up and down arrows to navigate the resulting list. Pressing enter or tab will automatically change the position of the composed card.'
 		end
 	end
-	notes 'Find more details at [trello.com/shortcuts](https://trello.com/shortcuts).'
+	notes '* Based on [trello.com/shortcuts](https://trello.com/shortcuts).'
 end
