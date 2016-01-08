@@ -53,16 +53,24 @@ cheatsheet do
         // Properties
         var myProperty: String
         var myOptionalProperty: String?
+        
+        // Public Property with Private Setter
+        // (e.g. for objects with public properties that can only be set internally)
+        public private(set) var myOtherProperty: String
+        public private(set) var myOtherOptionalProperty: String?
+        
         // Computed Properties
         var myInt: Int = 1
         var doubleInt: Int {
             get { return myInt * 2 }
             set { myInt = newValue / 2 }
         }
+        
         // Read-Only Computed Properties
         var tripleInt: Int {
             return myInt * 3
         }
+        
         // Property Observers
         var myOutput = 0 {
             willSet {
