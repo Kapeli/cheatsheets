@@ -37,6 +37,7 @@ cheatsheet do
         * `--save`: Package will appear in your depedencies.
         * `--save-dev`: Package will appear in your devDependencies.
         * `--save-optional`: Package will appear in your optionalDependencies.
+        * `--global`: Package will be installed globally (if you want to use it as a command line tool for example)
       END
     end
     entry do
