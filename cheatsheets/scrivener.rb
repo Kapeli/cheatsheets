@@ -59,27 +59,27 @@ cheatsheet do
     id 'Navigation'
     entry do
       command '⌘ 4'
-      name 'open selected item'
-      notes 'open selected item in editor'
+      name 'open selected'
+      notes 'Open selected item in editor'
     end
     entry do
       command '⌥ ⌘ UpArrow'
       name 'previous item'
-      notes 'go to previous binder item'
+      notes 'Go to previous binder item'
     end
     entry do
       command '⌥ ⌘ DownArrow'
       name 'next item'
-      notes 'go to next binder item'
+      notes 'Go to next binder item'
     end
     entry do
       command '⌃ ⌘ R'
       name 'enclosing group'
-      notes 'go to enclosing group'
+      notes 'Go to enclosing group'
     end
     entry do
       command '⌥ ⌘ R'
-      name 'reveal text in binder'
+      name 'reveal in binder'
       notes 'Select edited text in binder. Especially handy if binder window is closed.'
     end
     entry do
@@ -89,7 +89,8 @@ cheatsheet do
     end
     entry do
       command '⌃ ⌘ T'
-      name 'toggle typewriter scrolling mode'
+      name 'typewriter mode'
+      notes 'Toggle typewriter scrolling mode.'
     end
   end
   category do
@@ -108,33 +109,39 @@ cheatsheet do
     end
     entry do
       command '⌘E'
-      name 'use selection for find'
+      name 'find selection'
+      notes 'use selection for find'
     end
   end
   category do
     id 'Snapshots'
     entry do
       command '⌘ 5'
-      name 'take snapshot'
+      name 'snapshot'
+      notes 'Take a new snapshot.'
     end
     entry do
       command '⇧ ⌘ 5'
-      name 'take snapshot with title'
+      name 'titled snapshot'
+      notes 'Take snapshot with title.'
     end
   end
   category do
     id 'Review'
     entry do
       command '⇧ ⌘ *'
-      name 'add comment'
+      name 'comment'
+      notes 'Add a comment.'
     end
     entry do
       command '⌃ ⌘ 8'
-      name 'add footnote'
+      name 'footnote'
+      notes 'Add a footnote.'
     end
     entry do
       command '⇧ ⌘ H'
-      name 'highlight text'
+      name 'highlight'
+      notes 'Highlight selected text.'
     end
   end
   notes 'Find the manual in *Help/Scrivener Manual* or using *⌘ ?*'
