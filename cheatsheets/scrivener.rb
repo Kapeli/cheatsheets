@@ -9,86 +9,84 @@ cheatsheet do
   category do
     id 'View'
     entry do
-      command '⌘ 1'
-      name 'view document'
+      command 'CMD+1'
+      name 'document view'
     end
     entry do
-      command '⌘ 2'
-      name 'view corkboard'
+      command 'CMD+2'
+      name 'corkboard view'
     end
     entry do
-      command '⌘ 3'
-      name 'view outline'
+      command 'CMD+3'
+      name 'outline view'
     end
     entry do
-      command '⌥ ⌘ F'
-      name 'toggle mode'
+      command 'CMD+ALT+F'
+      name 'toggle view mode'
       notes 'Toggle between normal view and focused view.'
     end
     entry do
-      command '⌥ ⌘ I'
-      name 'toggle Inspector'
+      command 'CMD+ALT+I'
+      name 'toggle inspector'
     end
     entry do
-      command '⌥ ⌘ B'
-      name 'toggle Binder'
+      command 'CMD+ALT+B'
+      name 'toggle binder'
     end
     entry do
-      command '⇧ ⌘ R'
-      name 'hide Format Bar'
+      command 'CMD+SHIFT+R'
+      name 'hide format bar'
     end
     entry do
-      command '⇧ ⌥ ⌘ H'
-      name 'toggle Project Keywords'
+      command 'CMD+ALT+SHIFT+H'
+      name 'project keywords'
+      notes 'Toggle project keywords.'
     end
     entry do
-      command '⇧ ⌥ ⌘ P'
-      name 'toggle Page View'
+      command 'CMD+ALT+SHIFT+P'
+      name 'page view'
+      notes 'Toggle page view.'
     end
     entry do
-      command '⌥ ⌘ P'
-      name 'open Project Notes'
+      command 'CMD+ALT+P'
+      name 'project notes'
+      name 'Open project notes.'
     end
     entry do
-      command '⇧ ⌘ Enter'
-      name 'Scratch Pad'
+      command 'CMD+SHIFT+Enter'
+      name 'scratch pad'
       notes 'Short cut works also outside Scrivener. So you can quickly take some notes without waiting for Scrivener to start.'
     end
   end
   category do
     id 'Navigation'
     entry do
-      command '⌘ 4'
-      name 'open selected'
-      notes 'Open selected item in editor'
-    end
-    entry do
-      command '⌥ ⌘ UpArrow'
+      command 'CMD+ALT+UpArrow'
       name 'previous item'
       notes 'Go to previous binder item'
     end
     entry do
-      command '⌥ ⌘ DownArrow'
+      command 'CMD+ALT+DownArrow'
       name 'next item'
       notes 'Go to next binder item'
     end
     entry do
-      command '⌃ ⌘ R'
+      command 'CMD+CTRL+R'
       name 'enclosing group'
       notes 'Go to enclosing group'
     end
     entry do
-      command '⌥ ⌘ R'
+      command 'CMD+ALT+R'
       name 'reveal in binder'
       notes 'Select edited text in binder. Especially handy if binder window is closed.'
     end
     entry do
-      command '⌃ Tab'
+      command 'CTRL+Tab'
       name 'switch focus'
       notes 'Switch between binder and editor.'
     end
     entry do
-      command '⌃ ⌘ T'
+      command 'CMD+CTRL+T'
       name 'typewriter mode'
       notes 'Toggle typewriter scrolling mode.'
     end
@@ -96,32 +94,32 @@ cheatsheet do
   category do
     id 'Searching'
     entry do
-      command '⌘ F'
+      command 'CMD+F'
       name 'find'
     end
     entry do
-      command '⌘ G'
+      command 'CMD+G'
       name 'find next'
     end
     entry do
-      command '⇧ ⌘ G'
+      command 'CMD+SHIFT+G'
       name 'find previous'
     end
     entry do
-      command '⌘E'
+      command 'CMD+E'
       name 'find selection'
-      notes 'use selection for find'
+      notes 'Use selection for find.'
     end
   end
   category do
     id 'Snapshots'
     entry do
-      command '⌘ 5'
+      command 'CMD+5'
       name 'snapshot'
       notes 'Take a new snapshot.'
     end
     entry do
-      command '⇧ ⌘ 5'
+      command 'CMD+SHIFT+5'
       name 'titled snapshot'
       notes 'Take snapshot with title.'
     end
@@ -129,20 +127,20 @@ cheatsheet do
   category do
     id 'Review'
     entry do
-      command '⇧ ⌘ *'
+      command 'CMD+SHIFT+*'
       name 'comment'
       notes 'Add a comment.'
     end
     entry do
-      command '⌃ ⌘ 8'
+      command 'CMD+CTRL+8'
       name 'footnote'
       notes 'Add a footnote.'
     end
     entry do
-      command '⇧ ⌘ H'
+      command 'CMD+SHIFT+H'
       name 'highlight'
       notes 'Highlight selected text.'
     end
   end
-  notes 'Find the manual in *Help/Scrivener Manual* or using *⌘ ?*'
+  notes 'Find the manual in *Help/Scrivener Manual* or using *CMD+?*'
 end
