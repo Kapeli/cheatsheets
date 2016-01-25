@@ -248,27 +248,27 @@ cheatsheet do
       name 'Play animation in reverse'
     end
     entry do
-      command 'Right Arrow'
+      command 'Arrow Right'
       name 'Next frame'
     end
     entry do
-      command 'Left Arrow'
+      command 'Arrow Left'
       name 'Previous frame'
     end
     entry do
-      command 'Up Arrow'
+      command 'Arrow Up'
       name 'Forward 10 frames'
     end
     entry do
-      command 'Down Arrow'
+      command 'Arrow Down'
       name 'Back 10 frames'
     end
     entry do
-      command 'SHIFT+Left Arrow'
+      command 'SHIFT+Arrow Left'
       name 'Jump to start point'
     end
     entry do
-      command 'SHIFT+Right Arrow'
+      command 'SHIFT+Arrow Right'
       name 'Jump to end point'
     end
     entry do
@@ -639,8 +639,8 @@ cheatsheet do
       name 'Weight paint mode'
     end
     entry do
-      command 'CTRL+Left Arrow'
-      command 'CTRL+Right Arrow'
+      command 'CTRL+Arrow Left'
+      command 'CTRL+Arrow Right'
       name 'Cycle workspace'
     end
     entry do
@@ -696,7 +696,7 @@ cheatsheet do
       name 'Fullscreen mode'
     end
     entry do
-      command 'CTRL+Up Arrow'
+      command 'CTRL+Arrow Up'
       name 'Maximize subwindow'
     end
     entry do
