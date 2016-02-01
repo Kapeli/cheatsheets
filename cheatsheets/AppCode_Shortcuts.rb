@@ -230,7 +230,7 @@ cheatsheet do
       name 'Select all occurrences'
     end
     entry do
-      command 'ALT+CLICK'
+      command 'ALT+Left Click'
       name 'Add new cursor'
     end
   end
