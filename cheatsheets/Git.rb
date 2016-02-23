@@ -188,6 +188,14 @@ cheatsheet do
       ```
       Note: `<committer name>` is a pattern, so `Ed` will match `Edward Smith`. Quotes are optional if the pattern doesn't contain spaces."
     end
+    
+    entry do
+      name 'Search (grep) commit messages for the given string'
+      notes "
+      ```
+      git log --grep=<string>
+      ```"
+    end
 
     entry do
       name 'Who changed what and when in file'
