@@ -1,8 +1,8 @@
 cheatsheet do
     title 'Xcode UI Testing'
-    docset_file_name 'XcodeUITesting'
+    docset_file_name 'Xcode_UI_Testing'
     keyword 'xctui'
-    source_url 'https://github.com/Kapeli/cheatsheets#readme'
+    source_url 'http://cheat.kapeli.com'
 
     category do
         id 'Basic Functionality'
@@ -140,14 +140,6 @@ cheatsheet do
 
     category do
         id 'Interactions'
-        entry do
-            name 'Verifying the current controller\'s title'
-            notes '
-          ```swift
-          XCTAssert(app.navigationBars["Details"].exists)
-          ```
-          '
-        end
         entry do
             name 'Verifying the current controller\'s title'
             notes '
