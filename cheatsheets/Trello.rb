@@ -88,7 +88,7 @@ cheatsheet do
 		end
 		entry do
 			command 'S'
-			name 'Subscribtion options for card'
+			name 'Subscription options for card'
 			notes 'Pressing `S` will subscribe you to, or unsubscribe you from, a card. Subscribing to a card will give you notifications for most actions to that card.'
 		end
 		entry do
