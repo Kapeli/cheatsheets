@@ -15,17 +15,17 @@ cheatsheet do
     entry do
       name 'y'
       td_notes '2008'
-      td_notes 'Year, no padding.'
+      td_notes 'Year, no padding'
     end
     entry do
       name 'yy'
       td_notes '08'
-      td_notes 'Year, two digits (padding with a zero if necessary).'
+      td_notes 'Year, two digits (padding with a zero if necessary)'
     end
     entry do
       name 'yyyy'
       td_notes '2008'
-      td_notes 'Year, minimum of four digits (padding with zeros if necessary).'
+      td_notes 'Year, minimum of four digits (padding with zeros if necessary)'
     end
   end
 
@@ -38,17 +38,17 @@ cheatsheet do
     entry do
       name 'Q'
       td_notes '4'
-      td_notes 'The quarter of the year. Use QQ if you want zero padding.'
+      td_notes 'The quarter of the year. Use QQ if you want zero padding'
     end
     entry do
       name 'QQQ'
       td_notes 'Q4'
-      td_notes 'Quarter including "Q".'
+      td_notes 'Quarter including "Q"'
     end
     entry do
       name 'QQQQ'
       td_notes '4th quarter'
-      td_notes 'Quarter spelled out.'
+      td_notes 'Quarter spelled out'
     end
   end
 
@@ -61,22 +61,22 @@ cheatsheet do
     entry do
       name 'M'
       td_notes '12'
-      td_notes 'The numeric month of the year. A single M will use "1" for January.'
+      td_notes 'The numeric month of the year. A single M will use "1" for January'
     end
     entry do
       name 'MM'
       td_notes '12'
-      td_notes 'The numeric month of the year. A double M will use "01" for January.'
+      td_notes 'The numeric month of the year. A double M will use "01" for January'
     end
     entry do
       name 'MMM'
       td_notes 'Dec'
-      td_notes 'The shorthand name of the month.'
+      td_notes 'The shorthand name of the month'
     end
     entry do
       name 'MMMM'
       td_notes 'December'
-      td_notes 'The full name of the month.'
+      td_notes 'The full name of the month'
     end
     entry do
       name 'MMMMM'
@@ -94,32 +94,32 @@ cheatsheet do
     entry do
       name 'd'
       td_notes '14'
-      td_notes 'The day of the month. A single d will use 1 for January 1st.'
+      td_notes 'The day of the month. A single d will use 1 for January 1st'
     end
     entry do
       name 'dd'
       td_notes '14'
-      td_notes 'The day of the month. A double d will use 01 for January 1st.'
+      td_notes 'The day of the month. A double d will use 01 for January 1st'
     end
     entry do
       name 'F'
       td_notes '3rd Tuesday in December'
-      td_notes 'The day of week in the month.'
+      td_notes 'The day of week in the month'
     end
     entry do
       name 'E'
       td_notes 'Tues'
-      td_notes 'The shorthand name of the day.'
+      td_notes 'The shorthand name of the day'
     end
     entry do
       name 'EEEE'
       td_notes 'Tuesday'
-      td_notes 'The full name of the day.'
+      td_notes 'The full name of the day'
     end
     entry do
       name 'EEEEE'
       td_notes 'T'
-      td_notes 'The narrow day of week.'
+      td_notes 'The narrow day of week'
     end
   end
 
@@ -132,27 +132,27 @@ cheatsheet do
     entry do
       name 'h'
       td_notes '4'
-      td_notes 'The 12-hour hour.'
+      td_notes 'The 12-hour hour'
     end
     entry do
       name 'hh'
       td_notes '04'
-      td_notes 'The 12-hour hour padding with a zero if there is only 1 digit.'
+      td_notes 'The 12-hour hour padding with a zero if there is only 1 digit'
     end
     entry do
       name 'H'
       td_notes '16'
-      td_notes 'The 24-hour hour.'
+      td_notes 'The 24-hour hour'
     end
     entry do
       name 'HH'
       td_notes '16'
-      td_notes 'The 24-hour hour padding with a zero if there is only 1 digit.'
+      td_notes 'The 24-hour hour padding with a zero if there is only 1 digit'
     end
     entry do
       name 'a'
       td_notes 'PM'
-      td_notes 'AM / PM for 12-hour time formats.'
+      td_notes 'AM / PM for 12-hour time formats'
     end
   end
 
@@ -165,12 +165,12 @@ cheatsheet do
     entry do
       name 'm'
       td_notes '35'
-      td_notes 'The minute, with no padding for zeroes.'
+      td_notes 'The minute, with no padding for zeroes'
     end
     entry do
       name 'mm'
       td_notes '35'
-      td_notes 'The minute with zero padding.'
+      td_notes 'The minute with zero padding'
     end
   end
 
@@ -183,12 +183,12 @@ cheatsheet do
     entry do
       name 's'
       td_notes '8'
-      td_notes 'The seconds, with no padding for zeroes.'
+      td_notes 'The seconds, with no padding for zeroes'
     end
     entry do
       name 'ss'
       td_notes '08'
-      td_notes 'The seconds with zero padding.'
+      td_notes 'The seconds with zero padding'
     end
   end
 
@@ -201,31 +201,31 @@ cheatsheet do
     entry do
       name 'zzz'
       td_notes 'CST'
-      td_notes 'The 3 letter name of the time zone. Falls back to GMT-08:00 (hour offset) if the name is not known.'
+      td_notes 'The 3 letter name of the time zone. Falls back to GMT-08:00 (hour offset) if the name is not known'
     end
     entry do
       name 'zzzz'
       td_notes 'Central Standard Time'
-      td_notes 'The expanded time zone name, falls back to GMT-08:00 (hour offset) if name is not known.'
+      td_notes 'The expanded time zone name, falls back to GMT-08:00 (hour offset) if name is not known'
     end
     entry do
       name 'ZZZZ'
       td_notes 'CST-06:00'
-      td_notes 'Time zone with abbreviation and offset.'
+      td_notes 'Time zone with abbreviation and offset'
     end
     entry do
       name 'Z'
       td_notes '-0600'
-      td_notes 'RFC 822 GMT format. Can also match a literal Z for Zulu (UTC) time.'
+      td_notes 'RFC 822 GMT format. Can also match a literal Z for Zulu (UTC) time'
     end
     entry do
       name 'ZZZZZ'
       td_notes '-06:00'
-      td_notes 'ISO 8601 time zone format.'
+      td_notes 'ISO 8601 time zone format'
     end
   end
 
   notes <<-'END'
-      * Based on [NSDateFormatter.com](http://nsdateformatter.com/) and [Date Format Patterns](http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns) on Unicode.org.
+      * Based on [NSDateFormatter.com](http://nsdateformatter.com/) and [Date Format Patterns](http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns) on Unicode.org
   END
 end
