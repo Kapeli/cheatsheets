@@ -100,6 +100,7 @@ cheatsheet do
                 get {
                     if attr == "id"    { return id    }
                     if attr == "style" { return style }
+                    return ""
                 }
 
                 set {
