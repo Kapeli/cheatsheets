@@ -115,7 +115,7 @@ cheatsheet do
         let el = HTMLElement()
         print(el["id"])     // prints "hello"
         el["style"] = "float: left;"
-        print(el["style"]   // prints "float: left;"
+        print(el["style"])  // prints "float: left;"
         ```
       END
     end
