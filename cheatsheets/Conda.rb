@@ -35,6 +35,7 @@ cheatsheet do
     entry do
       name 'Create an environment and install program(s)'
       command 'conda create --name snowflakes biopython'
+      command 'conda create -n snowflakes biopython'
     end
 
     entry do
@@ -49,18 +50,42 @@ cheatsheet do
 
     entry do
       name 'Create a new environment, specify Python version'
-      command 'conda create -n hamsters python=3.4 astroid'
+      command 'conda create -n bunnies python=3.4 astroid'
     end
 
     entry do
       name 'Make exact copy of an environment'
-      command 'conda create -n snakes --clone hamsters'
+      command 'conda create -n flowers --clone snowflakes'
     end
+
+    entry do
+      name 'Delete an environment'
+      command 'conda remove -n flowers --all'
+    end
+
+    entry do
+      name 'Save current environment to a file'
+      command 'conda env export > puppies.yml'
+    end
+
+    entry do
+      name 'Load environment from a file'
+      command 'conda env create -f puppies.yml'
+    end
+  end
+
+  category do
+    id 'Managing Python'
 
     entry do
       name 'Check versions of Python available to install'
       command 'conda search --full-name python'
       command 'conda search -f python'
+    end
+
+    entry do
+      name 'Install different version of Python in new environment'
+      command 'conda create -n snakes python=3.4'
     end
   end
 
@@ -93,20 +118,20 @@ cheatsheet do
 
     entry do
       name 'Search for a package to see if it is available to conda install'
-      command 'conda search beautifulsoup'
+      command 'conda search beautiful-soup'
     end
 
     entry do
       name 'Install a new package'
-      command 'conda install -n hamsters beautifulsoup'
+      command 'conda install -n bunnies beautiful-soup'
       notes <<-'END'
-        **NOTE:** If you do not include the name of the environment it will install in the current active environment.
+        **NOTE:** If you do not include the name of the environment, it will install in the current active environment.
       END
     end
 
     entry do
       name 'Update a package in the current environment'
-      command 'conda update beautifulsoup'
+      command 'conda update beautiful-soup'
     end
 
     entry do
@@ -121,12 +146,18 @@ cheatsheet do
 
     entry do
       name 'Search for a package to see if it is available from the Anaconda repository'
-      command 'conda search --override-channels -c defaults scrapy'
+      command 'conda search --override-channels -c defaults beautiful-soup'
     end
 
     entry do
       name 'Install commercial Continuum packages'
       command 'conda install iopro accelerate'
+    end
+
+    entry do
+      name 'Build a Conda package from a Python Package Index (PyPi) Package'
+      command 'conda skeleton pypi pyinstrument'
+      command 'conda build pyinstrument'
     end
   end
 
@@ -135,22 +166,22 @@ cheatsheet do
 
     entry do
       name 'Remove one package from any named environment'
-      command 'conda remove -n hamsters beautifulsoup'
+      command 'conda remove --name bunnies beautiful-soup'
     end
 
     entry do
       name 'Remove one package from the active environment'
-      command 'conda remove beautifulsoup'
+      command 'conda remove beautiful-soup'
     end
 
     entry do
       name 'Remove multiple packages from any environment'
-      command 'conda remove -n snakes beautifulsoup astroid'
+      command 'conda remove --name bunnies beautiful-soup astroid'
     end
 
     entry do
       name 'Remove an environment'
-      command 'conda remove -n snakes --all'
+      command 'conda remove --name snakes --all'
     end
   end
 
