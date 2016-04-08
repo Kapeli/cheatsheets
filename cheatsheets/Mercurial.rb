@@ -55,6 +55,10 @@ cheatsheet do
           name    'Merge changesets to local repository'
       end
       entry do
+          command 'hg merge branchname_or_revision'
+          name    'Merge from a named branch or revision into the current local branch'
+      end
+      entry do
           command 'hg resolve --mark filename'
           name    'Inform mercurial about the resolution of merge conflicts'
       end
