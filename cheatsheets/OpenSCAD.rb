@@ -189,19 +189,19 @@ cheatsheet do
 
     entry do
       name '[*](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Modifier_Characters#Disable_Modifier)'
-      td_notes "disable"
+      td_notes "Disable"
     end
     entry do
       name '[!](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Modifier_Characters#Root_Modifier)'
-      td_notes "show only"
+      td_notes "Show only"
     end
     entry do
       name '[#](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Modifier_Characters#Debug_Modifier)'
-      td_notes "highlight / debug"
+      td_notes "Highlight / debug"
     end
     entry do
       name '[%](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Modifier_Characters#Background_Modifier)'
-      td_notes "transparent / background"
+      td_notes "Transparent / background"
     end
   end
 
@@ -379,39 +379,39 @@ cheatsheet do
   end
 
   category do
-    id 'Special variables'
+    id 'Special Variables'
 
     entry do
       name '[$children](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/User-Defined_Functions_and_Modules#children)'
-      td_notes "number of module children"
+      td_notes "Number of module children"
     end
     entry do
       name '[$fa](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24fa.2C_.24fs_and_.24fn)'
-      td_notes "minimum angle"
+      td_notes "Minimum angle"
     end
     entry do
       name '[$fs](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24fa.2C_.24fs_and_.24fn)'
-      td_notes "minimum size"
+      td_notes "Minimum size"
     end
     entry do
       name '[$fn](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24fa.2C_.24fs_and_.24fn)'
-      td_notes "number of fragments"
+      td_notes "Number of fragments"
     end
     entry do
       name '[$t](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24t)'
-      td_notes "animation step"
+      td_notes "Animation step"
     end
     entry do
       name '[$vpr](http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24vpr.2C_.24vpt_and_.24vpd)'
-      td_notes "viewport rotation"
+      td_notes "Viewport rotation"
     end
     entry do
       name '[$vpt](http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24vpr.2C_.24vpt_and_.24vpd)'
-      td_notes "viewport translation"
+      td_notes "Viewport translation"
     end
     entry do
       name '[$vpd](http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24vpr.2C_.24vpt_and_.24vpd)'
-      td_notes "viewport camera distance"
+      td_notes "Viewport camera distance"
     end
   end
 
