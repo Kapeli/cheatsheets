@@ -1,6 +1,6 @@
 cheatsheet do
   title 'HTML Head Elements'
-  docset_file_name 'HTTP_Head_Elements'
+  docset_file_name 'HTML_Head_Elements'
   keyword 'htmlhe'
   source_url 'http://cheat.kapeli.com'
 
@@ -72,6 +72,7 @@ cheatsheet do
     id 'Link Element'
 
     entry do
+      name 'Link Element'
       notes <<-'END'
         ```html
         <link rel="copyright" href="copyright.html">
