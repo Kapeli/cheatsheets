@@ -417,6 +417,36 @@ cheatsheet do
       name '520 Unknown Error (Microsoft / Cloudflare)'
       notes "This status code is not specified in any RFC and is returned by certain services, for instance Microsoft Azure and Cloudflare servers: \"The 520 error is essentially a \"catch-all\" response for when the origin server returns something unexpected or something that is not tolerated/interpreted (protocol violation or empty response).\""
     end
+    
+    entry do
+      name '521 Web Server Is Down (Cloudflare)'
+      notes "The origin server has refused the connection from CloudFlare."
+    end
+    
+    entry do
+      name '522 Connection Timed Out (Cloudflare)'
+      notes "CloudFlare could not negotiate a TCP handshake with the origin server."
+    end
+
+    entry do
+      name '523 Origin Is Unreachable (Cloudflare)'
+      notes "CloudFlare could not reach the origin server; for example, if the DNS records for the origin server are incorrect."
+    end
+
+    entry do
+      name '524 A Timeout Occurred (Cloudflare)'
+      notes "CloudFlare was able to complete a TCP connection to the origin server, but did not receive a timely HTTP response."
+    end
+
+    entry do
+      name '525 SSL Handshake Failed (Cloudflare)'
+      notes "CloudFlare could not negotiate a SSL/TLS handshake with the origin server."
+    end
+
+    entry do
+      name '526 Invalid SSL Certificate (Cloudflare)'
+      notes "CloudFlare could not validate the SSL/TLS certificate that the origin server presented."
+    end
   end
 
   notes <<-'END'
