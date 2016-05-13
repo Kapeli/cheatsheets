@@ -548,7 +548,7 @@ cheatsheet do
 
         entry do
             name 'Columns: 4'
-            command 'CMD+ALT+2'
+            command 'CMD+ALT+4'
         end
 
         entry do
