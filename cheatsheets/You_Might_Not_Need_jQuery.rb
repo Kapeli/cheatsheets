@@ -1,4 +1,3 @@
-
 cheatsheet do
   title 'You Might Not Need jQuery'
   docset_file_name 'You_Might_Not_Need_jQuery'
@@ -7,7 +6,7 @@ cheatsheet do
   category do
     id 'AJAX'
     entry do
-      index_name 'AJAX Alternatives'
+      index_name 'AJAX alternatives'
       notes <<-'END'
 Alternatives: [reqwest]( https://github.com/ded/Reqwest) [then-request]( https://github.com/then/request) [superagent]( https://github.com/visionmedia/superagent) []() 
 END
@@ -23,8 +22,6 @@ END
 $.getJSON('/my/url', function(data) {
 
 });
-
-
 ```
 #### IE8+
 
@@ -46,8 +43,6 @@ request.onreadystatechange = function() {
 
 request.send();
 request = null;
-
-
 ```
 #### IE9+
 
@@ -71,8 +66,6 @@ request.onerror = function() {
 };
 
 request.send();
-
-
 ```
 #### IE10+
 
@@ -96,8 +89,6 @@ request.onerror = function() {
 };
 
 request.send();
-
-
 ```
 
 END
@@ -114,8 +105,6 @@ $.ajax({
   url: '/my/url',
   data: data
 });
-
-
 ```
 #### IE8+
 
@@ -125,8 +114,6 @@ var request = new XMLHttpRequest();
 request.open('POST', '/my/url', true);
 request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
 request.send(data);
-
-
 ```
 
 END
@@ -148,8 +135,6 @@ $.ajax({
 
   }
 });
-
-
 ```
 #### IE8+
 
@@ -171,8 +156,6 @@ request.onreadystatechange = function() {
 
 request.send();
 request = null;
-
-
 ```
 #### IE9+
 
@@ -196,8 +179,6 @@ request.onerror = function() {
 };
 
 request.send();
-
-
 ```
 #### IE10+
 
@@ -221,8 +202,6 @@ request.onerror = function() {
 };
 
 request.send();
-
-
 ```
 
 END
@@ -231,22 +210,20 @@ END
   category do
     id 'Effects'
     entry do
-      index_name 'Effects Alternatives'
+      index_name 'Effects alternatives'
       notes <<-'END'
 Alternatives: [animate.css]( http://daneden.github.io/animate.css/) [move.js]( https://github.com/visionmedia/move.js) []() 
 END
 
     end
     entry do
-      name 'Fade In'
+      name 'Fade in'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).fadeIn();
-
-
 ```
 #### IE8+
 
@@ -275,8 +252,6 @@ function fadeIn(el) {
 }
 
 fadeIn(el);
-
-
 ```
 #### IE9+
 
@@ -299,8 +274,6 @@ function fadeIn(el) {
 }
 
 fadeIn(el);
-
-
 ```
 #### IE10+
 
@@ -308,8 +281,6 @@ fadeIn(el);
 
 el.classList.add('show');
 el.classList.remove('hide');
-
-
 ```
 
 END
@@ -322,16 +293,12 @@ END
 ```javascript
 
 $(el).hide();
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.style.display = 'none';
-
-
 ```
 
 END
@@ -344,16 +311,12 @@ END
 ```javascript
 
 $(el).show();
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.style.display = '';
-
-
 ```
 
 END
@@ -362,22 +325,20 @@ END
   category do
     id 'Elements'
     entry do
-      index_name 'Elements Alternatives'
+      index_name 'Elements alternatives'
       notes <<-'END'
 Alternatives: [bonzo]( https://github.com/ded/bonzo) [$dom]( https://github.com/julienw/dollardom) []() 
 END
 
     end
     entry do
-      name 'Add Class'
+      name 'Add class'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).addClass(className);
-
-
 ```
 #### IE8+
 
@@ -387,16 +348,12 @@ if (el.classList)
   el.classList.add(className);
 else
   el.className += ' ' + className;
-
-
 ```
 #### IE10+
 
 ```javascript
 
 el.classList.add(className);
-
-
 ```
 
 END
@@ -409,16 +366,12 @@ END
 ```javascript
 
 $(el).after(htmlString);
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.insertAdjacentHTML('afterend', htmlString);
-
-
 ```
 
 END
@@ -431,16 +384,12 @@ END
 ```javascript
 
 $(parent).append(el);
-
-
 ```
 #### IE8+
 
 ```javascript
 
 parent.appendChild(el);
-
-
 ```
 
 END
@@ -453,16 +402,12 @@ END
 ```javascript
 
 $(el).before(htmlString);
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.insertAdjacentHTML('beforebegin', htmlString);
-
-
 ```
 
 END
@@ -475,8 +420,6 @@ END
 ```javascript
 
 $(el).children();
-
-
 ```
 #### IE8+
 
@@ -488,16 +431,12 @@ for (var i = el.children.length; i--;) {
   if (el.children[i].nodeType != 8)
     children.unshift(el.children[i]);
 }
-
-
 ```
 #### IE9+
 
 ```javascript
 
 el.children
-
-
 ```
 
 END
@@ -510,16 +449,12 @@ END
 ```javascript
 
 $(el).clone();
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.cloneNode(true);
-
-
 ```
 
 END
@@ -532,38 +467,30 @@ END
 ```javascript
 
 $.contains(el, child);
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el !== child && el.contains(child);
-
-
 ```
 
 END
     end
     entry do
-      name 'Contains Selector'
+      name 'Contains selector'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).find(selector).length;
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.querySelector(selector) !== null
-
-
 ```
 
 END
@@ -578,8 +505,6 @@ END
 $(selector).each(function(i, el){
 
 });
-
-
 ```
 #### IE8+
 
@@ -594,8 +519,6 @@ function forEachElement(selector, fn) {
 forEachElement(selector, function(el, i){
 
 });
-
-
 ```
 #### IE9+
 
@@ -605,8 +528,6 @@ var elements = document.querySelectorAll(selector);
 Array.prototype.forEach.call(elements, function(el, i){
 
 });
-
-
 ```
 
 END
@@ -619,8 +540,6 @@ END
 ```javascript
 
 $(el).empty();
-
-
 ```
 #### IE8+
 
@@ -628,16 +547,12 @@ $(el).empty();
 
 while(el.firstChild)
   el.removeChild(el.firstChild);
-
-
 ```
 #### IE9+
 
 ```javascript
 
 el.innerHTML = '';
-
-
 ```
 
 END
@@ -650,8 +565,6 @@ END
 ```javascript
 
 $(selector).filter(filterFn);
-
-
 ```
 #### IE8+
 
@@ -668,44 +581,36 @@ function filter(selector, filterFn) {
 }
 
 filter(selector, filterFn);
-
-
 ```
 #### IE9+
 
 ```javascript
 
 Array.prototype.filter.call(document.querySelectorAll(selector), filterFn);
-
-
 ```
 
 END
     end
     entry do
-      name 'Find Children'
+      name 'Find children'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).find(selector);
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.querySelectorAll(selector);
-
-
 ```
 
 END
     end
     entry do
-      name 'Find Elements'
+      name 'Find elements'
       notes <<-'END'
 
 
@@ -716,96 +621,78 @@ Alternatives: [qwery]( https://github.com/ded/qwery) [sizzle]( http://sizzlejs.c
 ```javascript
 
 $('.my #awesome selector');
-
-
 ```
 #### IE8+
 
 ```javascript
 
 document.querySelectorAll('.my #awesome selector');
-
-
 ```
 
 END
     end
     entry do
-      name 'Get Attributes'
+      name 'Get attributes'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).attr('tabindex');
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.getAttribute('tabindex');
-
-
 ```
 
 END
     end
     entry do
-      name 'Get Html'
+      name 'Get HTML'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).html();
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.innerHTML
-
-
 ```
 
 END
     end
     entry do
-      name 'Get Outer Html'
+      name 'Get outer HTML'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $('<div>').append($(el).clone()).html();
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.outerHTML
-
-
 ```
 
 END
     end
     entry do
-      name 'Get Style'
+      name 'Get style'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).css(ruleName);
-
-
 ```
 #### IE8+
 
@@ -813,60 +700,48 @@ $(el).css(ruleName);
 
 // Varies based on the properties being retrieved, some can be retrieved from el.currentStyle
 // https://github.com/jonathantneal/Polyfills-for-IE8/blob/master/getComputedStyle.js
-
-
 ```
 #### IE9+
 
 ```javascript
 
 getComputedStyle(el)[ruleName];
-
-
 ```
 
 END
     end
     entry do
-      name 'Get Text'
+      name 'Get text'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).text();
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.textContent || el.innerText
-
-
 ```
 #### IE9+
 
 ```javascript
 
 el.textContent
-
-
 ```
 
 END
     end
     entry do
-      name 'Has Class'
+      name 'Has class'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).hasClass(className);
-
-
 ```
 #### IE8+
 
@@ -876,16 +751,12 @@ if (el.classList)
   el.classList.contains(className);
 else
   new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
-
-
 ```
 #### IE10+
 
 ```javascript
 
 el.classList.contains(className);
-
-
 ```
 
 END
@@ -898,30 +769,24 @@ END
 ```javascript
 
 $(el).is($(otherEl));
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el === otherEl
-
-
 ```
 
 END
     end
     entry do
-      name 'Matches Selector'
+      name 'Matches selector'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).is('.my-class');
-
-
 ```
 #### IE8+
 
@@ -943,8 +808,6 @@ var matches = function(el, selector) {
 };
 
 matches(el, '.my-class');
-
-
 ```
 #### IE9+
 
@@ -955,8 +818,6 @@ var matches = function(el, selector) {
 };
 
 matches(el, '.my-class');
-
-
 ```
 
 END
@@ -969,8 +830,6 @@ END
 ```javascript
 
 $(el).next();
-
-
 ```
 #### IE8+
 
@@ -983,16 +842,12 @@ function nextElementSibling(el) {
 }
 
 el.nextElementSibling || nextElementSibling(el);
-
-
 ```
 #### IE9+
 
 ```javascript
 
 el.nextElementSibling
-
-
 ```
 
 END
@@ -1005,8 +860,6 @@ END
 ```javascript
 
 $(el).offset();
-
-
 ```
 #### IE8+
 
@@ -1018,66 +871,54 @@ var rect = el.getBoundingClientRect();
   top: rect.top + document.body.scrollTop,
   left: rect.left + document.body.scrollLeft
 }
-
-
 ```
 
 END
     end
     entry do
-      name 'Offset Parent'
+      name 'Offset parent'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).offsetParent();
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.offsetParent || el
-
-
 ```
 
 END
     end
     entry do
-      name 'Outer Height'
+      name 'Outer height'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).outerHeight();
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.offsetHeight
-
-
 ```
 
 END
     end
     entry do
-      name 'Outer Height With Margin'
+      name 'Outer height with margin'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).outerHeight(true);
-
-
 ```
 #### IE8+
 
@@ -1092,8 +933,6 @@ function outerHeight(el) {
 }
 
 outerHeight(el);
-
-
 ```
 #### IE9+
 
@@ -1108,44 +947,36 @@ function outerHeight(el) {
 }
 
 outerHeight(el);
-
-
 ```
 
 END
     end
     entry do
-      name 'Outer Width'
+      name 'Outer width'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).outerWidth();
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.offsetWidth
-
-
 ```
 
 END
     end
     entry do
-      name 'Outer Width With Margin'
+      name 'Outer width with margin'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).outerWidth(true);
-
-
 ```
 #### IE8+
 
@@ -1160,8 +991,6 @@ function outerWidth(el) {
 }
 
 outerWidth(el);
-
-
 ```
 #### IE9+
 
@@ -1176,8 +1005,6 @@ function outerWidth(el) {
 }
 
 outerWidth(el);
-
-
 ```
 
 END
@@ -1190,16 +1017,12 @@ END
 ```javascript
 
 $(el).parent();
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.parentNode
-
-
 ```
 
 END
@@ -1212,22 +1035,18 @@ END
 ```javascript
 
 $(el).position();
-
-
 ```
 #### IE8+
 
 ```javascript
 
 {left: el.offsetLeft, top: el.offsetTop}
-
-
 ```
 
 END
     end
     entry do
-      name 'Position Relative To Viewport'
+      name 'Position relative to viewport'
       notes <<-'END'
 #### jQuery
 
@@ -1239,16 +1058,12 @@ var offset = el.offset();
   top: offset.top - document.body.scrollTop,
   left: offset.left - document.body.scrollLeft
 }
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.getBoundingClientRect()
-
-
 ```
 
 END
@@ -1261,16 +1076,12 @@ END
 ```javascript
 
 $(parent).prepend(el);
-
-
 ```
 #### IE8+
 
 ```javascript
 
 parent.insertBefore(el, parent.firstChild);
-
-
 ```
 
 END
@@ -1283,8 +1094,6 @@ END
 ```javascript
 
 $(el).prev();
-
-
 ```
 #### IE8+
 
@@ -1297,16 +1106,12 @@ function previousElementSibling(el) {
 }
 
 el.previousElementSibling || previousElementSibling(el);
-
-
 ```
 #### IE9+
 
 ```javascript
 
 el.previousElementSibling
-
-
 ```
 
 END
@@ -1319,30 +1124,24 @@ END
 ```javascript
 
 $(el).remove();
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.parentNode.removeChild(el);
-
-
 ```
 
 END
     end
     entry do
-      name 'Remove Class'
+      name 'Remove class'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).removeClass(className);
-
-
 ```
 #### IE8+
 
@@ -1352,96 +1151,78 @@ if (el.classList)
   el.classList.remove(className);
 else
   el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
-
-
 ```
 #### IE10+
 
 ```javascript
 
 el.classList.remove(className);
-
-
 ```
 
 END
     end
     entry do
-      name 'Replace From Html'
+      name 'Replace from HTML'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).replaceWith(string);
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.outerHTML = string;
-
-
 ```
 
 END
     end
     entry do
-      name 'Set Attributes'
+      name 'Set attributes'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).attr('tabindex', 3);
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.setAttribute('tabindex', 3);
-
-
 ```
 
 END
     end
     entry do
-      name 'Set Html'
+      name 'Set HTML'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).html(string);
-
-
 ```
 #### IE8+
 
 ```javascript
 
 el.innerHTML = string;
-
-
 ```
 
 END
     end
     entry do
-      name 'Set Style'
+      name 'Set style'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).css('border-width', '20px');
-
-
 ```
 #### IE8+
 
@@ -1449,22 +1230,18 @@ $(el).css('border-width', '20px');
 
 // Use a class if possible
 el.style.borderWidth = '20px';
-
-
 ```
 
 END
     end
     entry do
-      name 'Set Text'
+      name 'Set text'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).text(string);
-
-
 ```
 #### IE8+
 
@@ -1474,16 +1251,12 @@ if (el.textContent !== undefined)
   el.textContent = string;
 else
   el.innerText = string;
-
-
 ```
 #### IE9+
 
 ```javascript
 
 el.textContent = string;
-
-
 ```
 
 END
@@ -1496,8 +1269,6 @@ END
 ```javascript
 
 $(el).siblings();
-
-
 ```
 #### IE8+
 
@@ -1511,8 +1282,6 @@ for (var i = siblings.length; i--;) {
     break;
   }
 }
-
-
 ```
 #### IE9+
 
@@ -1521,22 +1290,18 @@ for (var i = siblings.length; i--;) {
 Array.prototype.filter.call(el.parentNode.children, function(child){
   return child !== el;
 });
-
-
 ```
 
 END
     end
     entry do
-      name 'Toggle Class'
+      name 'Toggle class'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).toggleClass(className);
-
-
 ```
 #### IE8+
 
@@ -1559,8 +1324,6 @@ if (el.classList) {
 
   el.className = classes.join(' ');
 }
-
-
 ```
 #### IE9+
 
@@ -1579,16 +1342,12 @@ if (el.classList) {
 
   el.className = classes.join(' ');
 }
-
-
 ```
 #### IE10+
 
 ```javascript
 
 el.classList.toggle(className);
-
-
 ```
 
 END
@@ -1604,8 +1363,6 @@ END
 ```javascript
 
 $(el).off(eventName, eventHandler);
-
-
 ```
 #### IE8+
 
@@ -1619,16 +1376,12 @@ function removeEventListener(el, eventName, handler) {
 }
 
 removeEventListener(el, eventName, handler);
-
-
 ```
 #### IE9+
 
 ```javascript
 
 el.removeEventListener(eventName, eventHandler);
-
-
 ```
 
 END
@@ -1641,8 +1394,6 @@ END
 ```javascript
 
 $(el).on(eventName, eventHandler);
-
-
 ```
 #### IE8+
 
@@ -1659,16 +1410,12 @@ function addEventListener(el, eventName, handler) {
 }
 
 addEventListener(el, eventName, handler);
-
-
 ```
 #### IE9+
 
 ```javascript
 
 el.addEventListener(eventName, eventHandler);
-
-
 ```
 
 END
@@ -1683,8 +1430,6 @@ END
 $(document).ready(function(){
 
 });
-
-
 ```
 #### IE8+
 
@@ -1702,8 +1447,6 @@ function ready(fn) {
     });
   }
 }
-
-
 ```
 #### IE9+
 
@@ -1716,14 +1459,12 @@ function ready(fn) {
     document.addEventListener('DOMContentLoaded', fn);
   }
 }
-
-
 ```
 
 END
     end
     entry do
-      name 'Trigger Custom'
+      name 'Trigger custom'
       notes <<-'END'
 
 
@@ -1734,8 +1475,6 @@ Alternatives: [EventEmitter]( https://github.com/Wolfy87/EventEmitter) [Vine]( h
 ```javascript
 
 $(el).trigger('my-event', {some: 'data'});
-
-
 ```
 #### IE8+
 
@@ -1745,8 +1484,6 @@ $(el).trigger('my-event', {some: 'data'});
 // event.
 //
 // Just use jQuery.
-
-
 ```
 #### IE9+
 
@@ -1760,22 +1497,18 @@ if (window.CustomEvent) {
 }
 
 el.dispatchEvent(event);
-
-
 ```
 
 END
     end
     entry do
-      name 'Trigger Native'
+      name 'Trigger native'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $(el).trigger('change');
-
-
 ```
 #### IE8+
 
@@ -1788,8 +1521,6 @@ if (document.createEvent) {
 } else {
   el.fireEvent('onchange');
 }
-
-
 ```
 #### IE9+
 
@@ -1799,8 +1530,6 @@ if (document.createEvent) {
 var event = document.createEvent('HTMLEvents');
 event.initEvent('change', true, false);
 el.dispatchEvent(event);
-
-
 ```
 
 END
@@ -1809,7 +1538,7 @@ END
   category do
     id 'Utils'
     entry do
-      name 'Array Each'
+      name 'Array each'
       notes <<-'END'
 #### jQuery
 
@@ -1818,8 +1547,6 @@ END
 $.each(array, function(i, item){
 
 });
-
-
 ```
 #### IE8+
 
@@ -1833,8 +1560,6 @@ function forEach(array, fn) {
 forEach(array, function(item, i){
 
 });
-
-
 ```
 #### IE9+
 
@@ -1843,8 +1568,6 @@ forEach(array, function(item, i){
 array.forEach(function(item, i){
 
 });
-
-
 ```
 
 END
@@ -1857,38 +1580,30 @@ END
 ```javascript
 
 $.proxy(fn, context);
-
-
 ```
 #### IE8+
 
 ```javascript
 
 fn.apply(context, arguments);
-
-
 ```
 #### IE9+
 
 ```javascript
 
 fn.bind(context);
-
-
 ```
 
 END
     end
     entry do
-      name 'Deep Extend'
+      name 'Deep extend'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $.extend(true, {}, objA, objB);
-
-
 ```
 #### IE8+
 
@@ -1917,8 +1632,6 @@ var deepExtend = function(out) {
 };
 
 deepExtend({}, objA, objB);
-
-
 ```
 
 END
@@ -1935,8 +1648,6 @@ Alternatives: [lo-dash]( http://lodash.com/docs#assign) [underscore]( http://und
 ```javascript
 
 $.extend({}, objA, objB);
-
-
 ```
 #### IE8+
 
@@ -1959,22 +1670,18 @@ var extend = function(out) {
 };
 
 extend({}, objA, objB);
-
-
 ```
 
 END
     end
     entry do
-      name 'Index Of'
+      name 'Index of'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $.inArray(item, array);
-
-
 ```
 #### IE8+
 
@@ -1989,30 +1696,24 @@ function indexOf(array, item) {
 }
 
 indexOf(array, item);
-
-
 ```
 #### IE9+
 
 ```javascript
 
 array.indexOf(item);
-
-
 ```
 
 END
     end
     entry do
-      name 'Is Array'
+      name 'Is array'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $.isArray(arr);
-
-
 ```
 #### IE8+
 
@@ -2023,16 +1724,12 @@ isArray = Array.isArray || function(arr) {
 };
 
 isArray(arr);
-
-
 ```
 #### IE9+
 
 ```javascript
 
 Array.isArray(arr);
-
-
 ```
 
 END
@@ -2047,8 +1744,6 @@ END
 $.map(array, function(value, index){
 
 });
-
-
 ```
 #### IE8+
 
@@ -2064,8 +1759,6 @@ function map(arr, fn) {
 map(array, function(value, index){
 
 });
-
-
 ```
 #### IE9+
 
@@ -2074,8 +1767,6 @@ map(array, function(value, index){
 array.map(function(value, index){
 
 });
-
-
 ```
 
 END
@@ -2088,38 +1779,30 @@ END
 ```javascript
 
 $.now();
-
-
 ```
 #### IE8+
 
 ```javascript
 
 new Date().getTime();
-
-
 ```
 #### IE9+
 
 ```javascript
 
 Date.now();
-
-
 ```
 
 END
     end
     entry do
-      name 'Parse Html'
+      name 'Parse HTML'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $.parseHTML(htmlString);
-
-
 ```
 #### IE8+
 
@@ -2132,8 +1815,6 @@ var parseHTML = function(str) {
 };
 
 parseHTML(htmlString);
-
-
 ```
 #### IE9+
 
@@ -2146,30 +1827,24 @@ var parseHTML = function(str) {
 };
 
 parseHTML(htmlString);
-
-
 ```
 
 END
     end
     entry do
-      name 'Parse Json'
+      name 'Parse JSON'
       notes <<-'END'
 #### jQuery
 
 ```javascript
 
 $.parseJSON(string);
-
-
 ```
 #### IE8+
 
 ```javascript
 
 JSON.parse(string);
-
-
 ```
 
 END
@@ -2182,24 +1857,18 @@ END
 ```javascript
 
 $.trim(string);
-
-
 ```
 #### IE8+
 
 ```javascript
 
 string.replace(/^\s+|\s+$/g, '');
-
-
 ```
 #### IE9+
 
 ```javascript
 
 string.trim();
-
-
 ```
 
 END
@@ -2212,16 +1881,12 @@ END
 ```javascript
 
 $.type(obj);
-
-
 ```
 #### IE8+
 
 ```javascript
 
 Object.prototype.toString.call(obj).replace(/^\[object (.+)\]$/, '$1').toLowerCase();
-
-
 ```
 
 END
