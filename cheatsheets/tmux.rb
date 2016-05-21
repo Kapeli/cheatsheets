@@ -422,22 +422,22 @@ cheatsheet do
     id 'Miscellaneous'
 
     entry do
-      command 'd'
+      command 'PREFIX-d'
       name 'Detach'
     end
 
     entry do
-      command 't'
+      command 'PREFIX-t'
       name 'Big clock'
     end
 
     entry do
-      command '?'
+      command 'PREFIX-?'
       name 'List shortcuts'
     end
 
     entry do
-      command ':'
+      command 'PREFIX-:'
       name 'Prompt'
     end
   end
