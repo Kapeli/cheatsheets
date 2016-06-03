@@ -9,7 +9,7 @@ cheatsheet do
     id 'Accessibility Commands'
 
     entry do
-      name 'Print accessibility labels of all views in hierarchy of <aView>'
+      name 'Print accessibility labels of all views in hierarchy of `aView`'
       notes '
       ```
       (lldb) pa11y <aView>
@@ -18,7 +18,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Print accessibility identifiers of all views in hierarchy of <aView>'
+      name 'Print accessibility identifiers of all views in hierarchy of `aView`'
       notes '
       ```
       (lldb) pa11yi <aView>
@@ -27,7 +27,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Find the views whose accessibility labels match labelRegex and puts the address of the first result on the clipboard.'
+      name 'Find the views whose accessibility labels match labelRegex and puts the address of the first result on the clipboard'
       notes '
       ```
       (lldb) fa11y <aView>
@@ -41,7 +41,7 @@ cheatsheet do
     id 'AutoLayout Commands'
 
     entry do
-      name 'Print the Auto Layout trace for the given view. Defaults to the key window.'
+      name 'Print the Auto Layout trace for the given view. Defaults to the key window'
       notes '
       ```
       (lldb) paltrace [aView]
@@ -74,7 +74,7 @@ cheatsheet do
     id 'Class Dump'
 
     entry do
-      name 'Print the class and instance methods of a class.'
+      name 'Print the class and instance methods of a class'
       notes '
       ```
       (lldb) pmethods <instance/class>
@@ -87,7 +87,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Print the properties of an instance or Class'
+      name 'Print the properties of an instance or class'
       notes '
       ```
       (lldb) pproperties -n <className>
@@ -96,7 +96,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Print the block`s implementation address and signature'
+      name 'Print the block\'s implementation address and signature'
       notes '
       ```
       (lldb) pblock <block>
@@ -111,7 +111,7 @@ cheatsheet do
     id 'Component Commands'
 
     entry do
-      name 'Set debugging options for components.'
+      name 'Set debugging options for components'
       notes '
       ```
       (lldb) dcomponents --set
@@ -121,7 +121,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Print a recursive description of components found starting from <aView>.'
+      name 'Print a recursive description of components found starting from `aView`'
       notes '
       ```
       (lldb) pcomponents <aView>
@@ -145,7 +145,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Draws a border around `viewOrLayer`. Color and width can be optionally provided. Additionally depth can be provided in order to recursively border subviews.'
+      name 'Draws a border around `viewOrLayer`. Color and width can be optionally provided. Additionally depth can be provided in order to recursively border subviews'
       notes '
       ```
       (lldb) border <viewOrLayer>
@@ -177,7 +177,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Present a view controller.'
+      name 'Present a view controller'
       notes '
       ```
       (lldb) present <aViewController>
@@ -186,7 +186,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Dismiss a presented view controller.'
+      name 'Dismiss a presented view controller'
       notes '
       ```
       (lldb) dismiss <aViewController>
@@ -195,7 +195,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Slows down animations. Works on the iOS Simulator and a device.'
+      name 'Slows down animations. Works on the iOS Simulator and a device'
       notes '
       ```
       (lldb) slowanim
@@ -204,7 +204,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Turn off slow animations.'
+      name 'Turn off slow animations'
       notes '
       ```
       (lldb) unslowanim
@@ -344,7 +344,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Set a breakpoint for a relative address within the framework/library that`s currently running. This does the work of finding the offset for the framework/library and sliding your address accordingly.'
+      name 'Set a breakpoint for a relative address within the framework/library that\'s currently running. This does the work of finding the offset for the framework/library and sliding your address accordingly'
       notes '
       ```
       (lldb) binside <address>
@@ -353,7 +353,7 @@ cheatsheet do
     end
 
     entry do
-      name 'simulate a memory warning'
+      name 'Simulate a memory warning'
       notes '
       ```
       (lldb) mwarning
@@ -466,7 +466,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Print application`s `Documents` directory path.'
+      name 'Print application\'s `Documents` directory path'
       notes '
       ```
       (lldb) pdocspath
@@ -475,7 +475,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Print application`s bundle directory path.'
+      name 'Print application\'s bundle directory path'
       notes '
       ```
       (lldb) pbundlepath
@@ -484,7 +484,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Print the contents of NSData object as string.'
+      name 'Print the contents of NSData object as string'
       notes '
       ```
       (lldb) pdata <data>
@@ -510,7 +510,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Print the actions and targets of a control.'
+      name 'Print the actions and targets of a control'
       notes '
       ```
       (lldb) pactions <control>
@@ -528,7 +528,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Print the NSURLRequest (HTTP) as curl command.'
+      name 'Print the NSURLRequest (HTTP) as curl command'
       notes '
       ```
       (lldb) pcurl <aRequest>
@@ -561,7 +561,7 @@ cheatsheet do
     id 'Test Input Commands'
 
     entry do
-      name 'Set text on text on a view by accessibility id.'
+      name 'Set text on text on a view by accessibility id'
       notes '
       ```
       (lldb) settext <accessibilityId> <replacementText>
@@ -570,7 +570,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Input text into text field or text view that is first responder.'
+      name 'Input text into text field or text view that is first responder'
       notes '
       ```
       (lldb) setinput <inputText>
