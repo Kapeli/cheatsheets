@@ -1,16 +1,15 @@
 cheatsheet do
-  title 'Emacs Magit'               # Will be displayed by Dash in the docset list
-  docset_file_name 'Magit'    # Used for the filename of the docset
-  keyword 'magit'             # Used as the initial search keyword (listed in Preferences > Docsets)
-
-  introduction 'Cheat sheet for Emacs Magit mode'  # Optional, can contain Markdown or HTML
+  title 'Magit for Emacs'
+  docset_file_name 'Magit_for_Emacs'
+  keyword 'magit'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Popups'
 
     entry do
       command '!'
-      name 'Running Git'
+      name 'Running git'
     end
 
     entry do
@@ -60,7 +59,7 @@ cheatsheet do
 
     entry do
       command 'M'
-      name 'remoting'
+      name 'Remoting'
     end
 
     entry do
@@ -80,7 +79,7 @@ cheatsheet do
 
     entry do
       command 'w'
-      name 'Apply Patches'
+      name 'Apply patches'
     end
 
     entry do
@@ -231,7 +230,7 @@ cheatsheet do
 
     entry do
       command 'x'
-      name 'soft reset (hard when argument is given)'
+      name 'Soft reset (hard when argument is given)'
     end
 
     entry do
@@ -241,7 +240,7 @@ cheatsheet do
 
     entry do
       command 'Y'
-      name 'cherry pick'
+      name 'Cherry pick'
     end
 
     entry do
