@@ -5,7 +5,7 @@ cheatsheet do
   source_url 'http://cheat.kapeli.com'
 
   category do
-  	id 'Instalation and Setup'
+  	id 'Installation and Setup'
   	entry do
   		name 'Step 1: Install PHPUnit and update Composer'
   		notes <<-'END'
