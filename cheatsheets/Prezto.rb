@@ -1023,12 +1023,12 @@ cheatsheet do
 
     entry do
       command 'osx-ls-download-history'
-      name 'Displays the Mac OS X download history'
+      name 'Displays the macOS download history'
     end
 
     entry do
       command 'osx-rm-download-history'
-      name 'Deletes the Mac OS X download history'
+      name 'Deletes the macOS download history'
     end
   end
 
