@@ -565,6 +565,16 @@ cheatsheet do
             name 'Grid: 3'
             command 'CMD+ALT+5'
         end
+
+        entry do
+            name 'Jump to group where num is 1-4'
+            command 'CTRL+[NUM]'
+        end
+
+        entry do
+            name 'Move file to specified group where num is 1-4'
+            command 'CTRL+SHIFT+[NUM]'
+        end
     end
 
     category do
