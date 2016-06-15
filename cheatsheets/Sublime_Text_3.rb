@@ -567,12 +567,12 @@ cheatsheet do
         end
 
         entry do
-            name 'Jump to group where num is 1-4'
+            name 'Jump to specified group'
             command 'CTRL+[NUM]'
         end
 
         entry do
-            name 'Move file to specified group where num is 1-4'
+            name 'Move file to specified group'
             command 'CTRL+SHIFT+[NUM]'
         end
     end
