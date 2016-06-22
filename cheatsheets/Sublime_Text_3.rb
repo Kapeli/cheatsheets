@@ -78,6 +78,16 @@ cheatsheet do
         end
 
         entry do
+            name 'Focus sidebar'
+            command 'CTRL+0'
+        end
+
+        entry do
+            name 'Focus group/pane 1-9'
+            command 'CTRL+1-9'
+        end
+
+        entry do
             name 'Enter full screen'
             command 'CMD+CTRL+F'
         end
