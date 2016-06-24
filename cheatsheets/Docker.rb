@@ -15,28 +15,28 @@ cheatsheet do
 			name "--detach-keys"
 			notes "
 			```
-				Override the key sequence for detaching a container
+			Override the key sequence for detaching a container
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
 			name "--no-stdin"
 			notes "
 			```
-				Do not attach STDIN
+			Do not attach STDIN
 			```"
 		end
 		entry do
 			name "--sig-proxy"
 			notes "
 			```
-				Proxy all received signals to the process (default true)
+			Proxy all received signals to the process (default true)
 			```"
 		end
 	end
@@ -52,154 +52,154 @@ cheatsheet do
 			name "--build-arg"
 			notes "
 			```
-				Set build-time variables (default [])
+			Set build-time variables (default [])
 			```"
 		end
 		entry do
 			name "--cgroup-parent"
 			notes "
 			```
-				Optional parent cgroup for the container
+			Optional parent cgroup for the container
 			```"
 		end
 		entry do
 			name "--cpu-period"
 			notes "
 			```
-				Limit the CPU CFS (Completely Fair Scheduler) period
+			Limit the CPU CFS (Completely Fair Scheduler) period
 			```"
 		end
 		entry do
 			name "--cpu-quota"
 			notes "
 			```
-				Limit the CPU CFS (Completely Fair Scheduler) quota
+			Limit the CPU CFS (Completely Fair Scheduler) quota
 			```"
 		end
 		entry do
-			name "-c,"
+			name "-c"
 			notes "
 			```
-				int          CPU shares (relative weight)
+			int          CPU shares (relative weight)
 			```"
 		end
 		entry do
 			name "--cpuset-cpus"
 			notes "
 			```
-				CPUs in which to allow execution (0-3, 0,1)
+			CPUs in which to allow execution (0-3, 0,1)
 			```"
 		end
 		entry do
 			name "--cpuset-mems"
 			notes "
 			```
-				MEMs in which to allow execution (0-3, 0,1)
+			MEMs in which to allow execution (0-3, 0,1)
 			```"
 		end
 		entry do
 			name "--disable-content-trust"
 			notes "
 			```
-				Skip image verification (default true)
+			Skip image verification (default true)
 			```"
 		end
 		entry do
-			name "-f,"
+			name "-f"
 			notes "
 			```
-				string             Name of the Dockerfile (Default is 'PATH/Dockerfile')
+			string             Name of the Dockerfile (Default is 'PATH/Dockerfile')
 			```"
 		end
 		entry do
 			name "--force-rm"
 			notes "
 			```
-				Always remove intermediate containers
+			Always remove intermediate containers
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
 			name "--isolation"
 			notes "
 			```
-				Container isolation technology
+			Container isolation technology
 			```"
 		end
 		entry do
 			name "--label"
 			notes "
 			```
-				Set metadata for an image (default [])
+			Set metadata for an image (default [])
 			```"
 		end
 		entry do
-			name "-m,"
+			name "-m"
 			notes "
 			```
-				string           Memory limit
+			string           Memory limit
 			```"
 		end
 		entry do
 			name "--memory-swap"
 			notes "
 			```
-				Swap limit equal to memory plus swap: '-1' to enable unlimited swap
+			Swap limit equal to memory plus swap: '-1' to enable unlimited swap
 			```"
 		end
 		entry do
 			name "--no-cache"
 			notes "
 			```
-				Do not use cache when building the image
+			Do not use cache when building the image
 			```"
 		end
 		entry do
 			name "--pull"
 			notes "
 			```
-				Always attempt to pull a newer version of the image
+			Always attempt to pull a newer version of the image
 			```"
 		end
 		entry do
-			name "-q,"
+			name "-q"
 			notes "
 			```
-				Suppress the build output and print image ID on success
+			Suppress the build output and print image ID on success
 			```"
 		end
 		entry do
 			name "--rm"
 			notes "
 			```
-				Remove intermediate containers after a successful build (default true)
+			Remove intermediate containers after a successful build (default true)
 			```"
 		end
 		entry do
 			name "--shm-size"
 			notes "
 			```
-				Size of /dev/shm, default value is 64MB
+			Size of /dev/shm, default value is 64MB
 			```"
 		end
 		entry do
-			name "-t,"
+			name "-t"
 			notes "
 			```
-				value               Name and optionally a tag in the 'name:tag' format (default [])
+			value               Name and optionally a tag in the 'name:tag' format (default [])
 			```"
 		end
 		entry do
 			name "--ulimit"
 			notes "
 			```
-				Ulimit options (default [])
+			Ulimit options (default [])
 			```"
 		end
 	end
@@ -212,38 +212,38 @@ cheatsheet do
 		end
 
 		entry do
-			name "-a,"
+			name "-a"
 			notes "
 			```
-				string    Author (e.g., \"John Hannibal Smith <hannibal@a-team.com>\")
+			string    Author (e.g., \"John Hannibal Smith <hannibal@a-team.com>\")
 			```"
 		end
 		entry do
-			name "-c,"
+			name "-c"
 			notes "
 			```
-				value     Apply Dockerfile instruction to the created image (default [])
+			value     Apply Dockerfile instruction to the created image (default [])
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-m,"
+			name "-m"
 			notes "
 			```
-				string   Commit message
+			string   Commit message
 			```"
 		end
 		entry do
-			name "-p,"
+			name "-p"
 			notes "
 			```
-				Pause container during commit (default true)
+			Pause container during commit (default true)
 			```"
 		end
 	end
@@ -256,17 +256,17 @@ cheatsheet do
 		end
 
 		entry do
-			name "-L,"
+			name "-L"
 			notes "
 			```
-				Always follow symbol link in SRC_PATH
+			Always follow symbol link in SRC_PATH
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -282,574 +282,574 @@ cheatsheet do
 			name "--add-host"
 			notes "
 			```
-				Add a custom host-to-IP mapping (host:ip) (default [])
+			Add a custom host-to-IP mapping (host:ip) (default [])
 			```"
 		end
 		entry do
-			name "-a,"
+			name "-a"
 			notes "
 			```
-				value                Attach to STDIN, STDOUT or STDERR (default [])
+			value                Attach to STDIN, STDOUT or STDERR (default [])
 			```"
 		end
 		entry do
 			name "--blkio-weight"
 			notes "
 			```
-				Block IO (relative weight), between 10 and 1000
+			Block IO (relative weight), between 10 and 1000
 			```"
 		end
 		entry do
 			name "--blkio-weight-device"
 			notes "
 			```
-				Block IO weight (relative device weight) (default [])
+			Block IO weight (relative device weight) (default [])
 			```"
 		end
 		entry do
 			name "--cap-add"
 			notes "
 			```
-				Add Linux capabilities (default [])
+			Add Linux capabilities (default [])
 			```"
 		end
 		entry do
 			name "--cap-drop"
 			notes "
 			```
-				Drop Linux capabilities (default [])
+			Drop Linux capabilities (default [])
 			```"
 		end
 		entry do
 			name "--cgroup-parent"
 			notes "
 			```
-				Optional parent cgroup for the container
+			Optional parent cgroup for the container
 			```"
 		end
 		entry do
 			name "--cidfile"
 			notes "
 			```
-				Write the container ID to the file
+			Write the container ID to the file
 			```"
 		end
 		entry do
 			name "--cpu-percent"
 			notes "
 			```
-				CPU percent (Windows only)
+			CPU percent (Windows only)
 			```"
 		end
 		entry do
 			name "--cpu-period"
 			notes "
 			```
-				Limit CPU CFS (Completely Fair Scheduler) period
+			Limit CPU CFS (Completely Fair Scheduler) period
 			```"
 		end
 		entry do
 			name "--cpu-quota"
 			notes "
 			```
-				Limit CPU CFS (Completely Fair Scheduler) quota
+			Limit CPU CFS (Completely Fair Scheduler) quota
 			```"
 		end
 		entry do
-			name "-c,"
+			name "-c"
 			notes "
 			```
-				int              CPU shares (relative weight)
+			int              CPU shares (relative weight)
 			```"
 		end
 		entry do
 			name "--cpuset-cpus"
 			notes "
 			```
-				CPUs in which to allow execution (0-3, 0,1)
+			CPUs in which to allow execution (0-3, 0,1)
 			```"
 		end
 		entry do
 			name "--cpuset-mems"
 			notes "
 			```
-				MEMs in which to allow execution (0-3, 0,1)
+			MEMs in which to allow execution (0-3, 0,1)
 			```"
 		end
 		entry do
 			name "--device"
 			notes "
 			```
-				Add a host device to the container (default [])
+			Add a host device to the container (default [])
 			```"
 		end
 		entry do
 			name "--device-read-bps"
 			notes "
 			```
-				Limit read rate (bytes per second) from a device (default [])
+			Limit read rate (bytes per second) from a device (default [])
 			```"
 		end
 		entry do
 			name "--device-read-iops"
 			notes "
 			```
-				Limit read rate (IO per second) from a device (default [])
+			Limit read rate (IO per second) from a device (default [])
 			```"
 		end
 		entry do
 			name "--device-write-bps"
 			notes "
 			```
-				Limit write rate (bytes per second) to a device (default [])
+			Limit write rate (bytes per second) to a device (default [])
 			```"
 		end
 		entry do
 			name "--device-write-iops"
 			notes "
 			```
-				Limit write rate (IO per second) to a device (default [])
+			Limit write rate (IO per second) to a device (default [])
 			```"
 		end
 		entry do
 			name "--disable-content-trust"
 			notes "
 			```
-				Skip image verification (default true)
+			Skip image verification (default true)
 			```"
 		end
 		entry do
 			name "--dns"
 			notes "
 			```
-				Set custom DNS servers (default [])
+			Set custom DNS servers (default [])
 			```"
 		end
 		entry do
 			name "--dns-opt"
 			notes "
 			```
-				Set DNS options (default [])
+			Set DNS options (default [])
 			```"
 		end
 		entry do
 			name "--dns-search"
 			notes "
 			```
-				Set custom DNS search domains (default [])
+			Set custom DNS search domains (default [])
 			```"
 		end
 		entry do
 			name "--entrypoint"
 			notes "
 			```
-				Overwrite the default ENTRYPOINT of the image
+			Overwrite the default ENTRYPOINT of the image
 			```"
 		end
 		entry do
-			name "-e,"
+			name "-e"
 			notes "
 			```
-				value                   Set environment variables (default [])
+			value                   Set environment variables (default [])
 			```"
 		end
 		entry do
 			name "--env-file"
 			notes "
 			```
-				Read in a file of environment variables (default [])
+			Read in a file of environment variables (default [])
 			```"
 		end
 		entry do
 			name "--expose"
 			notes "
 			```
-				Expose a port or a range of ports (default [])
+			Expose a port or a range of ports (default [])
 			```"
 		end
 		entry do
 			name "--group-add"
 			notes "
 			```
-				Add additional groups to join (default [])
+			Add additional groups to join (default [])
 			```"
 		end
 		entry do
 			name "--health-cmd"
 			notes "
 			```
-				Command to run to check health
+			Command to run to check health
 			```"
 		end
 		entry do
 			name "--health-interval"
 			notes "
 			```
-				Time between running the check
+			Time between running the check
 			```"
 		end
 		entry do
 			name "--health-retries"
 			notes "
 			```
-				Consecutive failures needed to report unhealthy
+			Consecutive failures needed to report unhealthy
 			```"
 		end
 		entry do
 			name "--health-timeout"
 			notes "
 			```
-				Maximum time to allow one check to run
+			Maximum time to allow one check to run
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-h,"
+			name "-h"
 			notes "
 			```
-				string             Container host name
+			string             Container host name
 			```"
 		end
 		entry do
-			name "-i,"
+			name "-i"
 			notes "
 			```
-				Keep STDIN open even if not attached
+			Keep STDIN open even if not attached
 			```"
 		end
 		entry do
 			name "--io-maxbandwidth"
 			notes "
 			```
-				Maximum IO bandwidth limit for the system drive (Windows only)
+			Maximum IO bandwidth limit for the system drive (Windows only)
 			```"
 		end
 		entry do
 			name "--io-maxiops"
 			notes "
 			```
-				Maximum IOps limit for the system drive (Windows only)
+			Maximum IOps limit for the system drive (Windows only)
 			```"
 		end
 		entry do
 			name "--ip"
 			notes "
 			```
-				Container IPv4 address (e.g. 172.30.100.104)
+			Container IPv4 address (e.g. 172.30.100.104)
 			```"
 		end
 		entry do
 			name "--ip6"
 			notes "
 			```
-				Container IPv6 address (e.g. 2001:db8::33)
+			Container IPv6 address (e.g. 2001:db8::33)
 			```"
 		end
 		entry do
 			name "--ipc"
 			notes "
 			```
-				IPC namespace to use
+			IPC namespace to use
 			```"
 		end
 		entry do
 			name "--isolation"
 			notes "
 			```
-				Container isolation technology
+			Container isolation technology
 			```"
 		end
 		entry do
 			name "--kernel-memory"
 			notes "
 			```
-				Kernel memory limit
+			Kernel memory limit
 			```"
 		end
 		entry do
-			name "-l,"
+			name "-l"
 			notes "
 			```
-				value                 Set meta data on a container (default [])
+			value                 Set meta data on a container (default [])
 			```"
 		end
 		entry do
 			name "--label-file"
 			notes "
 			```
-				Read in a line delimited file of labels (default [])
+			Read in a line delimited file of labels (default [])
 			```"
 		end
 		entry do
 			name "--link"
 			notes "
 			```
-				Add link to another container (default [])
+			Add link to another container (default [])
 			```"
 		end
 		entry do
 			name "--link-local-ip"
 			notes "
 			```
-				Container IPv4/IPv6 link-local addresses (default [])
+			Container IPv4/IPv6 link-local addresses (default [])
 			```"
 		end
 		entry do
 			name "--log-driver"
 			notes "
 			```
-				Logging driver for container
+			Logging driver for container
 			```"
 		end
 		entry do
 			name "--log-opt"
 			notes "
 			```
-				Log driver options (default [])
+			Log driver options (default [])
 			```"
 		end
 		entry do
 			name "--mac-address"
 			notes "
 			```
-				Container MAC address (e.g. 92:d0:c6:0a:29:33)
+			Container MAC address (e.g. 92:d0:c6:0a:29:33)
 			```"
 		end
 		entry do
-			name "-m,"
+			name "-m"
 			notes "
 			```
-				string               Memory limit
+			string               Memory limit
 			```"
 		end
 		entry do
 			name "--memory-reservation"
 			notes "
 			```
-				Memory soft limit
+			Memory soft limit
 			```"
 		end
 		entry do
 			name "--memory-swap"
 			notes "
 			```
-				Swap limit equal to memory plus swap: '-1' to enable unlimited swap
+			Swap limit equal to memory plus swap: '-1' to enable unlimited swap
 			```"
 		end
 		entry do
 			name "--memory-swappiness"
 			notes "
 			```
-				Tune container memory swappiness (0 to 100) (default -1)
+			Tune container memory swappiness (0 to 100) (default -1)
 			```"
 		end
 		entry do
 			name "--name"
 			notes "
 			```
-				Assign a name to the container
+			Assign a name to the container
 			```"
 		end
 		entry do
 			name "--net"
 			notes "
 			```
-				Connect a container to a network (default \"default\")
+			Connect a container to a network (default \"default\")
 			```"
 		end
 		entry do
 			name "--net-alias"
 			notes "
 			```
-				Add network-scoped alias for the container (default [])
+			Add network-scoped alias for the container (default [])
 			```"
 		end
 		entry do
 			name "--no-healthcheck"
 			notes "
 			```
-				Disable any container-specified HEALTHCHECK
+			Disable any container-specified HEALTHCHECK
 			```"
 		end
 		entry do
 			name "--oom-kill-disable"
 			notes "
 			```
-				Disable OOM Killer
+			Disable OOM Killer
 			```"
 		end
 		entry do
 			name "--oom-score-adj"
 			notes "
 			```
-				Tune host's OOM preferences (-1000 to 1000)
+			Tune host's OOM preferences (-1000 to 1000)
 			```"
 		end
 		entry do
 			name "--pid"
 			notes "
 			```
-				PID namespace to use
+			PID namespace to use
 			```"
 		end
 		entry do
 			name "--pids-limit"
 			notes "
 			```
-				Tune container pids limit (set -1 for unlimited)
+			Tune container pids limit (set -1 for unlimited)
 			```"
 		end
 		entry do
 			name "--privileged"
 			notes "
 			```
-				Give extended privileges to this container
+			Give extended privileges to this container
 			```"
 		end
 		entry do
-			name "-p,"
+			name "-p"
 			notes "
 			```
-				value               Publish a container's port(s) to the host (default [])
+			value               Publish a container's port(s) to the host (default [])
 			```"
 		end
 		entry do
-			name "-P,"
+			name "-P"
 			notes "
 			```
-				Publish all exposed ports to random ports
+			Publish all exposed ports to random ports
 			```"
 		end
 		entry do
 			name "--read-only"
 			notes "
 			```
-				Mount the container's root filesystem as read only
+			Mount the container's root filesystem as read only
 			```"
 		end
 		entry do
 			name "--restart"
 			notes "
 			```
-				Restart policy to apply when a container exits (default \"no\")
+			Restart policy to apply when a container exits (default \"no\")
 			```"
 		end
 		entry do
 			name "--runtime"
 			notes "
 			```
-				Runtime to use for this container
+			Runtime to use for this container
 			```"
 		end
 		entry do
 			name "--security-opt"
 			notes "
 			```
-				Security Options (default [])
+			Security Options (default [])
 			```"
 		end
 		entry do
 			name "--shm-size"
 			notes "
 			```
-				Size of /dev/shm, default value is 64MB
+			Size of /dev/shm, default value is 64MB
 			```"
 		end
 		entry do
 			name "--stop-signal"
 			notes "
 			```
-				Signal to stop a container, SIGTERM by default (default \"SIGTERM\")
+			Signal to stop a container, SIGTERM by default (default \"SIGTERM\")
 			```"
 		end
 		entry do
 			name "--storage-opt"
 			notes "
 			```
-				Set storage driver options per container (default [])
+			Set storage driver options per container (default [])
 			```"
 		end
 		entry do
 			name "--sysctl"
 			notes "
 			```
-				Sysctl options (default map[])
+			Sysctl options (default map[])
 			```"
 		end
 		entry do
 			name "--tmpfs"
 			notes "
 			```
-				Mount a tmpfs directory (default [])
+			Mount a tmpfs directory (default [])
 			```"
 		end
 		entry do
-			name "-t,"
+			name "-t"
 			notes "
 			```
-				Allocate a pseudo-TTY
+			Allocate a pseudo-TTY
 			```"
 		end
 		entry do
 			name "--ulimit"
 			notes "
 			```
-				Ulimit options (default [])
+			Ulimit options (default [])
 			```"
 		end
 		entry do
-			name "-u,"
+			name "-u"
 			notes "
 			```
-				string                 Username or UID (format: <name|uid>[:<group|gid>])
+			string                 Username or UID (format: <name|uid>[:<group|gid>])
 			```"
 		end
 		entry do
 			name "--userns"
 			notes "
 			```
-				User namespace to use
+			User namespace to use
 			```"
 		end
 		entry do
 			name "--uts"
 			notes "
 			```
-				UTS namespace to use
+			UTS namespace to use
 			```"
 		end
 		entry do
-			name "-v,"
+			name "-v"
 			notes "
 			```
-				value                Bind mount a volume (default [])
+			value                Bind mount a volume (default [])
 			```"
 		end
 		entry do
 			name "--volume-driver"
 			notes "
 			```
-				Optional volume driver for the container
+			Optional volume driver for the container
 			```"
 		end
 		entry do
 			name "--volumes-from"
 			notes "
 			```
-				Mount volumes from the specified container(s) (default [])
+			Mount volumes from the specified container(s) (default [])
 			```"
 		end
 		entry do
-			name "-w,"
+			name "-w"
 			notes "
 			```
-				string              Working directory inside the container
+			string              Working directory inside the container
 			```"
 		end
 	end
@@ -862,17 +862,17 @@ cheatsheet do
 		end
 
 		entry do
-			name "-f,"
+			name "-f"
 			notes "
 			```
-				string   Path to a bundle (Default: STACK.dsb)
+			string   Path to a bundle (Default: STACK.dsb)
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -888,7 +888,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -901,31 +901,31 @@ cheatsheet do
 		end
 
 		entry do
-			name "-f,"
+			name "-f"
 			notes "
 			```
-				value   Filter output based on conditions provided (default [])
+			value   Filter output based on conditions provided (default [])
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
 			name "--since"
 			notes "
 			```
-				Show all events created since timestamp
+			Show all events created since timestamp
 			```"
 		end
 		entry do
 			name "--until"
 			notes "
 			```
-				Stream events until this timestamp
+			Stream events until this timestamp
 			```"
 		end
 	end
@@ -950,14 +950,14 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-o,"
+			name "-o"
 			notes "
 			```
-				string   Write to a file, instead of STDOUT
+			string   Write to a file, instead of STDOUT
 			```"
 		end
 	end
@@ -973,28 +973,28 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-H,"
+			name "-H"
 			notes "
 			```
-				Print sizes and dates in human readable format (default true)
+			Print sizes and dates in human readable format (default true)
 			```"
 		end
 		entry do
 			name "--no-trunc"
 			notes "
 			```
-				Don't truncate output
+			Don't truncate output
 			```"
 		end
 		entry do
-			name "-q,"
+			name "-q"
 			notes "
 			```
-				Only show numeric IDs
+			Only show numeric IDs
 			```"
 		end
 	end
@@ -1007,52 +1007,52 @@ cheatsheet do
 		end
 
 		entry do
-			name "-a,"
+			name "-a"
 			notes "
 			```
-				Show all images (default hides intermediate images)
+			Show all images (default hides intermediate images)
 			```"
 		end
 		entry do
 			name "--digests"
 			notes "
 			```
-				Show digests
+			Show digests
 			```"
 		end
 		entry do
-			name "-f,"
+			name "-f"
 			notes "
 			```
-				value    Filter output based on conditions provided (default [])
+			value    Filter output based on conditions provided (default [])
 			```"
 		end
 		entry do
 			name "--format"
 			notes "
 			```
-				Pretty-print images using a Go template
+			Pretty-print images using a Go template
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
 			name "--no-trunc"
 			notes "
 			```
-				Don't truncate output
+			Don't truncate output
 			```"
 		end
 		entry do
-			name "-q,"
+			name "-q"
 			notes "
 			```
-				Only show numeric IDs
+			Only show numeric IDs
 			```"
 		end
 	end
@@ -1065,24 +1065,24 @@ cheatsheet do
 		end
 
 		entry do
-			name "-c,"
+			name "-c"
 			notes "
 			```
-				value     Apply Dockerfile instruction to the created image (default [])
+			value     Apply Dockerfile instruction to the created image (default [])
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-m,"
+			name "-m"
 			notes "
 			```
-				string   Set commit message for imported image
+			string   Set commit message for imported image
 			```"
 		end
 	end
@@ -1116,14 +1116,14 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-s,"
+			name "-s"
 			notes "
 			```
-				string   Signal to send to the container (default \"KILL\")
+			string   Signal to send to the container (default \"KILL\")
 			```"
 		end
 	end
@@ -1139,21 +1139,21 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-i,"
+			name "-i"
 			notes "
 			```
-				string   Read from tar archive file, instead of STDIN
+			string   Read from tar archive file, instead of STDIN
 			```"
 		end
 		entry do
-			name "-q,"
+			name "-q"
 			notes "
 			```
-				Suppress the load output
+			Suppress the load output
 			```"
 		end
 	end
@@ -1169,21 +1169,21 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-p,"
+			name "-p"
 			notes "
 			```
-				string   Password
+			string   Password
 			```"
 		end
 		entry do
-			name "-u,"
+			name "-u"
 			notes "
 			```
-				string   Username
+			string   Username
 			```"
 		end
 	end
@@ -1199,7 +1199,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -1215,42 +1215,42 @@ cheatsheet do
 			name "--details"
 			notes "
 			```
-				Show extra details provided to logs
+			Show extra details provided to logs
 			```"
 		end
 		entry do
-			name "-f,"
+			name "-f"
 			notes "
 			```
-				Follow log output
+			Follow log output
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
 			name "--since"
 			notes "
 			```
-				Show logs since timestamp
+			Show logs since timestamp
 			```"
 		end
 		entry do
 			name "--tail"
 			notes "
 			```
-				Number of lines to show from the end of the logs (default \"all\")
+			Number of lines to show from the end of the logs (default \"all\")
 			```"
 		end
 		entry do
-			name "-t,"
+			name "-t"
 			notes "
 			```
-				Show timestamps
+			Show timestamps
 			```"
 		end
 	end
@@ -1266,7 +1266,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -1282,7 +1282,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -1298,7 +1298,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -1314,7 +1314,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -1330,7 +1330,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -1343,66 +1343,66 @@ cheatsheet do
 		end
 
 		entry do
-			name "-n,"
+			name "-n"
 			notes "
 			```
-				int            Show n last created containers (includes all states) (default -1)
+			int            Show n last created containers (includes all states) (default -1)
 			```"
 		end
 		entry do
-			name "-a,"
+			name "-a"
 			notes "
 			```
-				Show all containers (default shows just running)
+			Show all containers (default shows just running)
 			```"
 		end
 		entry do
-			name "-f,"
+			name "-f"
 			notes "
 			```
-				value    Filter output based on conditions provided (default [])
+			value    Filter output based on conditions provided (default [])
 			```"
 		end
 		entry do
 			name "--format"
 			notes "
 			```
-				Pretty-print containers using a Go template
+			Pretty-print containers using a Go template
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-l,"
+			name "-l"
 			notes "
 			```
-				Show the latest created container (includes all states)
+			Show the latest created container (includes all states)
 			```"
 		end
 		entry do
 			name "--no-trunc"
 			notes "
 			```
-				Don't truncate output
+			Don't truncate output
 			```"
 		end
 		entry do
-			name "-q,"
+			name "-q"
 			notes "
 			```
-				Only display numeric IDs
+			Only display numeric IDs
 			```"
 		end
 		entry do
-			name "-s,"
+			name "-s"
 			notes "
 			```
-				Display total file sizes
+			Display total file sizes
 			```"
 		end
 	end
@@ -1415,24 +1415,24 @@ cheatsheet do
 		end
 
 		entry do
-			name "-a,"
+			name "-a"
 			notes "
 			```
-				Download all tagged images in the repository
+			Download all tagged images in the repository
 			```"
 		end
 		entry do
 			name "--disable-content-trust"
 			notes "
 			```
-				Skip image verification (default true)
+			Skip image verification (default true)
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -1448,14 +1448,14 @@ cheatsheet do
 			name "--disable-content-trust"
 			notes "
 			```
-				Skip image verification (default true)
+			Skip image verification (default true)
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -1471,7 +1471,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -1487,14 +1487,14 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-t,"
+			name "-t"
 			notes "
 			```
-				int   Seconds to wait for stop before killing the container (default 10)
+			int   Seconds to wait for stop before killing the container (default 10)
 			```"
 		end
 	end
@@ -1507,31 +1507,31 @@ cheatsheet do
 		end
 
 		entry do
-			name "-f,"
+			name "-f"
 			notes "
 			```
-				Force the removal of a running container (uses SIGKILL)
+			Force the removal of a running container (uses SIGKILL)
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-l,"
+			name "-l"
 			notes "
 			```
-				Remove the specified link
+			Remove the specified link
 			```"
 		end
 		entry do
-			name "-v,"
+			name "-v"
 			notes "
 			```
-				Remove the volumes associated with the container
+			Remove the volumes associated with the container
 			```"
 		end
 	end
@@ -1544,24 +1544,24 @@ cheatsheet do
 		end
 
 		entry do
-			name "-f,"
+			name "-f"
 			notes "
 			```
-				Force removal of the image
+			Force removal of the image
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
 			name "--no-prune"
 			notes "
 			```
-				Do not delete untagged parents
+			Do not delete untagged parents
 			```"
 		end
 	end
@@ -1577,602 +1577,602 @@ cheatsheet do
 			name "--add-host"
 			notes "
 			```
-				Add a custom host-to-IP mapping (host:ip) (default [])
+			Add a custom host-to-IP mapping (host:ip) (default [])
 			```"
 		end
 		entry do
-			name "-a,"
+			name "-a"
 			notes "
 			```
-				value                Attach to STDIN, STDOUT or STDERR (default [])
+			value                Attach to STDIN, STDOUT or STDERR (default [])
 			```"
 		end
 		entry do
 			name "--blkio-weight"
 			notes "
 			```
-				Block IO (relative weight), between 10 and 1000
+			Block IO (relative weight), between 10 and 1000
 			```"
 		end
 		entry do
 			name "--blkio-weight-device"
 			notes "
 			```
-				Block IO weight (relative device weight) (default [])
+			Block IO weight (relative device weight) (default [])
 			```"
 		end
 		entry do
 			name "--cap-add"
 			notes "
 			```
-				Add Linux capabilities (default [])
+			Add Linux capabilities (default [])
 			```"
 		end
 		entry do
 			name "--cap-drop"
 			notes "
 			```
-				Drop Linux capabilities (default [])
+			Drop Linux capabilities (default [])
 			```"
 		end
 		entry do
 			name "--cgroup-parent"
 			notes "
 			```
-				Optional parent cgroup for the container
+			Optional parent cgroup for the container
 			```"
 		end
 		entry do
 			name "--cidfile"
 			notes "
 			```
-				Write the container ID to the file
+			Write the container ID to the file
 			```"
 		end
 		entry do
 			name "--cpu-percent"
 			notes "
 			```
-				CPU percent (Windows only)
+			CPU percent (Windows only)
 			```"
 		end
 		entry do
 			name "--cpu-period"
 			notes "
 			```
-				Limit CPU CFS (Completely Fair Scheduler) period
+			Limit CPU CFS (Completely Fair Scheduler) period
 			```"
 		end
 		entry do
 			name "--cpu-quota"
 			notes "
 			```
-				Limit CPU CFS (Completely Fair Scheduler) quota
+			Limit CPU CFS (Completely Fair Scheduler) quota
 			```"
 		end
 		entry do
-			name "-c,"
+			name "-c"
 			notes "
 			```
-				int              CPU shares (relative weight)
+			int              CPU shares (relative weight)
 			```"
 		end
 		entry do
 			name "--cpuset-cpus"
 			notes "
 			```
-				CPUs in which to allow execution (0-3, 0,1)
+			CPUs in which to allow execution (0-3, 0,1)
 			```"
 		end
 		entry do
 			name "--cpuset-mems"
 			notes "
 			```
-				MEMs in which to allow execution (0-3, 0,1)
+			MEMs in which to allow execution (0-3, 0,1)
 			```"
 		end
 		entry do
-			name "-d,"
+			name "-d"
 			notes "
 			```
-				Run container in background and print container ID
+			Run container in background and print container ID
 			```"
 		end
 		entry do
 			name "--detach-keys"
 			notes "
 			```
-				Override the key sequence for detaching a container
+			Override the key sequence for detaching a container
 			```"
 		end
 		entry do
 			name "--device"
 			notes "
 			```
-				Add a host device to the container (default [])
+			Add a host device to the container (default [])
 			```"
 		end
 		entry do
 			name "--device-read-bps"
 			notes "
 			```
-				Limit read rate (bytes per second) from a device (default [])
+			Limit read rate (bytes per second) from a device (default [])
 			```"
 		end
 		entry do
 			name "--device-read-iops"
 			notes "
 			```
-				Limit read rate (IO per second) from a device (default [])
+			Limit read rate (IO per second) from a device (default [])
 			```"
 		end
 		entry do
 			name "--device-write-bps"
 			notes "
 			```
-				Limit write rate (bytes per second) to a device (default [])
+			Limit write rate (bytes per second) to a device (default [])
 			```"
 		end
 		entry do
 			name "--device-write-iops"
 			notes "
 			```
-				Limit write rate (IO per second) to a device (default [])
+			Limit write rate (IO per second) to a device (default [])
 			```"
 		end
 		entry do
 			name "--disable-content-trust"
 			notes "
 			```
-				Skip image verification (default true)
+			Skip image verification (default true)
 			```"
 		end
 		entry do
 			name "--dns"
 			notes "
 			```
-				Set custom DNS servers (default [])
+			Set custom DNS servers (default [])
 			```"
 		end
 		entry do
 			name "--dns-opt"
 			notes "
 			```
-				Set DNS options (default [])
+			Set DNS options (default [])
 			```"
 		end
 		entry do
 			name "--dns-search"
 			notes "
 			```
-				Set custom DNS search domains (default [])
+			Set custom DNS search domains (default [])
 			```"
 		end
 		entry do
 			name "--entrypoint"
 			notes "
 			```
-				Overwrite the default ENTRYPOINT of the image
+			Overwrite the default ENTRYPOINT of the image
 			```"
 		end
 		entry do
-			name "-e,"
+			name "-e"
 			notes "
 			```
-				value                   Set environment variables (default [])
+			value                   Set environment variables (default [])
 			```"
 		end
 		entry do
 			name "--env-file"
 			notes "
 			```
-				Read in a file of environment variables (default [])
+			Read in a file of environment variables (default [])
 			```"
 		end
 		entry do
 			name "--expose"
 			notes "
 			```
-				Expose a port or a range of ports (default [])
+			Expose a port or a range of ports (default [])
 			```"
 		end
 		entry do
 			name "--group-add"
 			notes "
 			```
-				Add additional groups to join (default [])
+			Add additional groups to join (default [])
 			```"
 		end
 		entry do
 			name "--health-cmd"
 			notes "
 			```
-				Command to run to check health
+			Command to run to check health
 			```"
 		end
 		entry do
 			name "--health-interval"
 			notes "
 			```
-				Time between running the check
+			Time between running the check
 			```"
 		end
 		entry do
 			name "--health-retries"
 			notes "
 			```
-				Consecutive failures needed to report unhealthy
+			Consecutive failures needed to report unhealthy
 			```"
 		end
 		entry do
 			name "--health-timeout"
 			notes "
 			```
-				Maximum time to allow one check to run
+			Maximum time to allow one check to run
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-h,"
+			name "-h"
 			notes "
 			```
-				string             Container host name
+			string             Container host name
 			```"
 		end
 		entry do
-			name "-i,"
+			name "-i"
 			notes "
 			```
-				Keep STDIN open even if not attached
+			Keep STDIN open even if not attached
 			```"
 		end
 		entry do
 			name "--io-maxbandwidth"
 			notes "
 			```
-				Maximum IO bandwidth limit for the system drive (Windows only)
+			Maximum IO bandwidth limit for the system drive (Windows only)
 			```"
 		end
 		entry do
 			name "--io-maxiops"
 			notes "
 			```
-				Maximum IOps limit for the system drive (Windows only)
+			Maximum IOps limit for the system drive (Windows only)
 			```"
 		end
 		entry do
 			name "--ip"
 			notes "
 			```
-				Container IPv4 address (e.g. 172.30.100.104)
+			Container IPv4 address (e.g. 172.30.100.104)
 			```"
 		end
 		entry do
 			name "--ip6"
 			notes "
 			```
-				Container IPv6 address (e.g. 2001:db8::33)
+			Container IPv6 address (e.g. 2001:db8::33)
 			```"
 		end
 		entry do
 			name "--ipc"
 			notes "
 			```
-				IPC namespace to use
+			IPC namespace to use
 			```"
 		end
 		entry do
 			name "--isolation"
 			notes "
 			```
-				Container isolation technology
+			Container isolation technology
 			```"
 		end
 		entry do
 			name "--kernel-memory"
 			notes "
 			```
-				Kernel memory limit
+			Kernel memory limit
 			```"
 		end
 		entry do
-			name "-l,"
+			name "-l"
 			notes "
 			```
-				value                 Set meta data on a container (default [])
+			value                 Set meta data on a container (default [])
 			```"
 		end
 		entry do
 			name "--label-file"
 			notes "
 			```
-				Read in a line delimited file of labels (default [])
+			Read in a line delimited file of labels (default [])
 			```"
 		end
 		entry do
 			name "--link"
 			notes "
 			```
-				Add link to another container (default [])
+			Add link to another container (default [])
 			```"
 		end
 		entry do
 			name "--link-local-ip"
 			notes "
 			```
-				Container IPv4/IPv6 link-local addresses (default [])
+			Container IPv4/IPv6 link-local addresses (default [])
 			```"
 		end
 		entry do
 			name "--log-driver"
 			notes "
 			```
-				Logging driver for container
+			Logging driver for container
 			```"
 		end
 		entry do
 			name "--log-opt"
 			notes "
 			```
-				Log driver options (default [])
+			Log driver options (default [])
 			```"
 		end
 		entry do
 			name "--mac-address"
 			notes "
 			```
-				Container MAC address (e.g. 92:d0:c6:0a:29:33)
+			Container MAC address (e.g. 92:d0:c6:0a:29:33)
 			```"
 		end
 		entry do
-			name "-m,"
+			name "-m"
 			notes "
 			```
-				string               Memory limit
+			string               Memory limit
 			```"
 		end
 		entry do
 			name "--memory-reservation"
 			notes "
 			```
-				Memory soft limit
+			Memory soft limit
 			```"
 		end
 		entry do
 			name "--memory-swap"
 			notes "
 			```
-				Swap limit equal to memory plus swap: '-1' to enable unlimited swap
+			Swap limit equal to memory plus swap: '-1' to enable unlimited swap
 			```"
 		end
 		entry do
 			name "--memory-swappiness"
 			notes "
 			```
-				Tune container memory swappiness (0 to 100) (default -1)
+			Tune container memory swappiness (0 to 100) (default -1)
 			```"
 		end
 		entry do
 			name "--name"
 			notes "
 			```
-				Assign a name to the container
+			Assign a name to the container
 			```"
 		end
 		entry do
 			name "--net"
 			notes "
 			```
-				Connect a container to a network (default \"default\")
+			Connect a container to a network (default \"default\")
 			```"
 		end
 		entry do
 			name "--net-alias"
 			notes "
 			```
-				Add network-scoped alias for the container (default [])
+			Add network-scoped alias for the container (default [])
 			```"
 		end
 		entry do
 			name "--no-healthcheck"
 			notes "
 			```
-				Disable any container-specified HEALTHCHECK
+			Disable any container-specified HEALTHCHECK
 			```"
 		end
 		entry do
 			name "--oom-kill-disable"
 			notes "
 			```
-				Disable OOM Killer
+			Disable OOM Killer
 			```"
 		end
 		entry do
 			name "--oom-score-adj"
 			notes "
 			```
-				Tune host's OOM preferences (-1000 to 1000)
+			Tune host's OOM preferences (-1000 to 1000)
 			```"
 		end
 		entry do
 			name "--pid"
 			notes "
 			```
-				PID namespace to use
+			PID namespace to use
 			```"
 		end
 		entry do
 			name "--pids-limit"
 			notes "
 			```
-				Tune container pids limit (set -1 for unlimited)
+			Tune container pids limit (set -1 for unlimited)
 			```"
 		end
 		entry do
 			name "--privileged"
 			notes "
 			```
-				Give extended privileges to this container
+			Give extended privileges to this container
 			```"
 		end
 		entry do
-			name "-p,"
+			name "-p"
 			notes "
 			```
-				value               Publish a container's port(s) to the host (default [])
+			value               Publish a container's port(s) to the host (default [])
 			```"
 		end
 		entry do
-			name "-P,"
+			name "-P"
 			notes "
 			```
-				Publish all exposed ports to random ports
+			Publish all exposed ports to random ports
 			```"
 		end
 		entry do
 			name "--read-only"
 			notes "
 			```
-				Mount the container's root filesystem as read only
+			Mount the container's root filesystem as read only
 			```"
 		end
 		entry do
 			name "--restart"
 			notes "
 			```
-				Restart policy to apply when a container exits (default \"no\")
+			Restart policy to apply when a container exits (default \"no\")
 			```"
 		end
 		entry do
 			name "--rm"
 			notes "
 			```
-				Automatically remove the container when it exits
+			Automatically remove the container when it exits
 			```"
 		end
 		entry do
 			name "--runtime"
 			notes "
 			```
-				Runtime to use for this container
+			Runtime to use for this container
 			```"
 		end
 		entry do
 			name "--security-opt"
 			notes "
 			```
-				Security Options (default [])
+			Security Options (default [])
 			```"
 		end
 		entry do
 			name "--shm-size"
 			notes "
 			```
-				Size of /dev/shm, default value is 64MB
+			Size of /dev/shm, default value is 64MB
 			```"
 		end
 		entry do
 			name "--sig-proxy"
 			notes "
 			```
-				Proxy received signals to the process (default true)
+			Proxy received signals to the process (default true)
 			```"
 		end
 		entry do
 			name "--stop-signal"
 			notes "
 			```
-				Signal to stop a container, SIGTERM by default (default \"SIGTERM\")
+			Signal to stop a container, SIGTERM by default (default \"SIGTERM\")
 			```"
 		end
 		entry do
 			name "--storage-opt"
 			notes "
 			```
-				Set storage driver options per container (default [])
+			Set storage driver options per container (default [])
 			```"
 		end
 		entry do
 			name "--sysctl"
 			notes "
 			```
-				Sysctl options (default map[])
+			Sysctl options (default map[])
 			```"
 		end
 		entry do
 			name "--tmpfs"
 			notes "
 			```
-				Mount a tmpfs directory (default [])
+			Mount a tmpfs directory (default [])
 			```"
 		end
 		entry do
-			name "-t,"
+			name "-t"
 			notes "
 			```
-				Allocate a pseudo-TTY
+			Allocate a pseudo-TTY
 			```"
 		end
 		entry do
 			name "--ulimit"
 			notes "
 			```
-				Ulimit options (default [])
+			Ulimit options (default [])
 			```"
 		end
 		entry do
-			name "-u,"
+			name "-u"
 			notes "
 			```
-				string                 Username or UID (format: <name|uid>[:<group|gid>])
+			string                 Username or UID (format: <name|uid>[:<group|gid>])
 			```"
 		end
 		entry do
 			name "--userns"
 			notes "
 			```
-				User namespace to use
+			User namespace to use
 			```"
 		end
 		entry do
 			name "--uts"
 			notes "
 			```
-				UTS namespace to use
+			UTS namespace to use
 			```"
 		end
 		entry do
-			name "-v,"
+			name "-v"
 			notes "
 			```
-				value                Bind mount a volume (default [])
+			value                Bind mount a volume (default [])
 			```"
 		end
 		entry do
 			name "--volume-driver"
 			notes "
 			```
-				Optional volume driver for the container
+			Optional volume driver for the container
 			```"
 		end
 		entry do
 			name "--volumes-from"
 			notes "
 			```
-				Mount volumes from the specified container(s) (default [])
+			Mount volumes from the specified container(s) (default [])
 			```"
 		end
 		entry do
-			name "-w,"
+			name "-w"
 			notes "
 			```
-				string              Working directory inside the container
+			string              Working directory inside the container
 			```"
 		end
 	end
@@ -2188,14 +2188,14 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-o,"
+			name "-o"
 			notes "
 			```
-				string   Write to a file, instead of STDOUT
+			string   Write to a file, instead of STDOUT
 			```"
 		end
 	end
@@ -2208,31 +2208,31 @@ cheatsheet do
 		end
 
 		entry do
-			name "-f,"
+			name "-f"
 			notes "
 			```
-				value   Filter output based on conditions provided (default [])
+			value   Filter output based on conditions provided (default [])
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
 			name "--limit"
 			notes "
 			```
-				Max number of search results (default 25)
+			Max number of search results (default 25)
 			```"
 		end
 		entry do
 			name "--no-trunc"
 			notes "
 			```
-				Don't truncate output
+			Don't truncate output
 			```"
 		end
 	end
@@ -2248,7 +2248,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -2264,7 +2264,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -2277,31 +2277,31 @@ cheatsheet do
 		end
 
 		entry do
-			name "-a,"
+			name "-a"
 			notes "
 			```
-				Attach STDOUT/STDERR and forward signals
+			Attach STDOUT/STDERR and forward signals
 			```"
 		end
 		entry do
 			name "--detach-keys"
 			notes "
 			```
-				Override the key sequence for detaching a container
+			Override the key sequence for detaching a container
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-i,"
+			name "-i"
 			notes "
 			```
-				Attach container's STDIN
+			Attach container's STDIN
 			```"
 		end
 	end
@@ -2314,24 +2314,24 @@ cheatsheet do
 		end
 
 		entry do
-			name "-a,"
+			name "-a"
 			notes "
 			```
-				Show all containers (default shows just running)
+			Show all containers (default shows just running)
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
 			name "--no-stream"
 			notes "
 			```
-				Disable streaming stats and only pull the first result
+			Disable streaming stats and only pull the first result
 			```"
 		end
 	end
@@ -2347,14 +2347,14 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 		entry do
-			name "-t,"
+			name "-t"
 			notes "
 			```
-				int   Seconds to wait for stop before killing it (default 10)
+			int   Seconds to wait for stop before killing it (default 10)
 			```"
 		end
 	end
@@ -2370,7 +2370,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -2386,7 +2386,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -2402,7 +2402,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -2418,7 +2418,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -2440,17 +2440,17 @@ cheatsheet do
 		end
 
 		entry do
-			name "-f,"
+			name "-f"
 			notes "
 			```
-				string   Format the output using the given go template
+			string   Format the output using the given go template
 			```"
 		end
 		entry do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -2466,7 +2466,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
@@ -2482,7 +2482,7 @@ cheatsheet do
 			name "--help"
 			notes "
 			```
-				Print usage
+			Print usage
 			```"
 		end
 	end
