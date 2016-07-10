@@ -2,8 +2,9 @@ cheatsheet do
   title 'Google AdWords Image Ad Specifications'
   docset_file_name 'Google_AdWords_Image_Ad_Specs'
   keyword 'adwords'
+  source_url 'http://cheat.kapeli.com'
 
-  introduction 'The image specifications to meet Google AdWords criteria'
+  introduction 'The image specifications to meet Google AdWords criteria.'
 
   category do
     id 'File Types'
