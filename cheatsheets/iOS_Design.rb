@@ -115,6 +115,7 @@ cheatsheet do
       name 'iPad Pro 12.9-inch'
       index_name 'iPad Pro 12.9-inch Resolution'
       notes ''
+    end
 
     entry do
       td_notes '768 x 1024 px'
@@ -230,6 +231,7 @@ cheatsheet do
       td_notes 'Warm'
       name 'iPad Pro 12.9-inch'
       index_name 'iPad Pro 12.9-inch Display'
+    end
 
     entry do
       td_notes '7.9″'
@@ -330,6 +332,7 @@ cheatsheet do
       td_notes '58 x 58 px'
       name 'iPad Pro 12.9-inch'
       index_name 'iPad Pro 12.9-inch Dimensions'
+    end
 
     entry do
       td_notes '76 x 76 px'
