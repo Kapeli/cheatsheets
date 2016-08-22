@@ -188,7 +188,7 @@ cheatsheet do
       end
   end
   notes <<-'END'
-  * Based on a [cheat sheet](https://learn.thoughtbot.com/test-driven-rails-resources/capybara.pdf) by [thoughtbot](http://thoughtbot.com/)
+  * Based on a [cheat sheet](https://learn.thoughtbot.com/test-driven-rails-resources/capybara.pdf) by [thoughtbot](http://thoughtbot.com/).
   END
   
 end

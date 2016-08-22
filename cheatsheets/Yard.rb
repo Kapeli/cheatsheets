@@ -1,7 +1,7 @@
 cheatsheet do
-  title 'yard'
-  docset_file_name 'yard'
-  keyword 'yard'
+  title 'Yard'
+  docset_file_name 'Yard'
+  keyword 'Yard'
   source_url 'http://cheat.kapeli.com'
 
   category do
