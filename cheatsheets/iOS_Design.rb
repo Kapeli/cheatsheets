@@ -47,7 +47,7 @@ cheatsheet do
       notes ''
     end
 
-  entry do
+    entry do
       td_notes '1242 x 2208 px'
       td_notes '2208 x 1242 px'
       td_notes '414 x 736 points'
@@ -104,8 +104,17 @@ cheatsheet do
       td_notes '1024 x 768 px'
       name 'iPad Retina'
       index_name 'iPad Retina Resolution'
-      notes 'iPad 3, iPad 4, iPad Air, iPad Air 2'
+      notes 'iPad 3, iPad 4, iPad Air, iPad Air 2, iPad Pro 9.7-inch'
     end
+
+    entry do
+      td_notes '2048 x 2732 px'
+      td_notes '2732 x 2048 px'
+      td_notes '1024 x 1366 px'
+      td_notes '1366 x 1024 px'
+      name 'iPad Pro 12.9-inch'
+      index_name 'iPad Pro 12.9-inch Resolution'
+      notes ''
 
     entry do
       td_notes '768 x 1024 px'
@@ -210,8 +219,17 @@ cheatsheet do
       td_notes  'Warm'
       name 'iPad Retina'
       index_name 'iPad Retina Display'
-      notes 'iPad 3, iPad 4, iPad Air'
+      notes 'iPad 3, iPad 4, iPad Air, iPad Pro 9.7-inch'
     end
+
+    entry do
+      td_notes '12.9"'
+      td_notes '264'
+      td_notes '`@2x`'
+      td_notes '8bit RGB'
+      td_notes 'Warm'
+      name 'iPad Pro 12.9-inch'
+      index_name 'iPad Pro 12.9-inch Display'
 
     entry do
       td_notes '7.9″'
@@ -306,6 +324,14 @@ cheatsheet do
     end
 
     entry do
+      td_notes '167 x 167 px'
+      td_notes '1024 x 1024 px'
+      td_notes '80 x 80 px'
+      td_notes '58 x 58 px'
+      name 'iPad Pro 12.9-inch'
+      index_name 'iPad Pro 12.9-inch Dimensions'
+
+    entry do
       td_notes '76 x 76 px'
       td_notes '512 x 512 px'
       td_notes '40 x 40 px'
@@ -384,7 +410,7 @@ cheatsheet do
       td_notes 'dynamic'
       name 'iPad Retina'
       index_name 'iPad Retina Design Elements'
-      notes 'iPad 3, 4, Air, iPad Mini Retina'
+      notes 'iPad 3, 4, Air, Pro, iPad Mini Retina'
     end
 
     entry do
@@ -448,7 +474,7 @@ cheatsheet do
       td_notes '50 x 50 px (max 96 x 64 px)'
       name 'iPad Retina'
       index_name 'iPad Retina Icons'
-      notes 'iPad 3, 4, Air, iPad Mini Retina'
+      notes 'iPad 3, 4, Air, Pro, iPad Mini Retina'
     end
     entry do
       td_notes '22 x 22 px'
