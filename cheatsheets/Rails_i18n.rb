@@ -1,8 +1,9 @@
 cheatsheet do
 
   title 'Rails i18n'
-  docset_file_name 'Rails i18n'
-  keyword 'rails i18n localization internationalization locale'
+  docset_file_name 'Rails_i18n'
+  keyword 'rails'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Intro'
@@ -192,7 +193,7 @@ cheatsheet do
         errors.messages.[error]
         ```
 
-        ***Where `[error]`can be:***
+        ***Where `[error]` can be:***
 
         ```ruby
         validates
