@@ -164,7 +164,7 @@ cheatsheet do
     end
 
     entry do
-      name 'List Services Sorted by Name'
+      name 'List services sorted by name'
       notes '
       ```
       kubectl get services --sort-by=.metadata.name
@@ -173,7 +173,7 @@ cheatsheet do
     end
 
     entry do
-      name 'List pods Sorted by Restart Count'
+      name 'List pods sorted by restart count'
       notes '
       ```
       kubectl get pods --sort-by=.status.containerStatuses[0].restartCount
@@ -200,7 +200,7 @@ cheatsheet do
     end
 
     entry do
-      name 'List Names of Pods that belong to Particular RC'
+      name 'List names of pods that belong to Particular RC'
       notes '
       ```
       # "jq" command useful for transformations that are too complex for jsonpath
@@ -225,7 +225,7 @@ cheatsheet do
     id 'Modifying and Deleting Resources'
 
     entry do
-      name 'Add a Label'
+      name 'Add a label'
       notes '
       ```
       kubectl label pods <pod-name> new-label=awesome
@@ -283,7 +283,7 @@ cheatsheet do
     end
 
     entry do
-      name 'Forward port of Pod to your local machine'
+      name 'Forward port of pod to your local machine'
       notes '
       ```
       kubectl port-forward <podname> <local-and-remote-port>
@@ -319,7 +319,7 @@ cheatsheet do
     end
   end
 
-  notes 'Adapted from the official Kubernetes documentation cheatsheet: http://kubernetes.io/docs/user-guide/kubectl-cheatsheet/'
+  notes '* Adapted from the official Kubernetes documentation cheatsheet: http://kubernetes.io/docs/user-guide/kubectl-cheatsheet/.'
 end
 
 # Created by <John Patterson><notarobot@nextrevision.net>
