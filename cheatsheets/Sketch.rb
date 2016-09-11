@@ -58,67 +58,67 @@ cheatsheet do
 
     entry do
       name 'Bold'
-      command 'CMD + B'
+      command 'CMD+B'
     end
 
     entry do
       name 'Italic'
-      command 'CMD + I'
+      command 'CMD+I'
     end
 
     entry do
       name 'Underline'
-      command 'CMD + U'
+      command 'CMD+U'
     end
 
     entry do
       name 'Increase font size'
-      command 'CMD + ALT (+) +'
+      command 'CMD+ALT+(+)'
     end
 
     entry do
       name 'Decrease font size'
-      command 'CMD + ALT (+) -'
+      command 'CMD+ALT+(-)'
     end
 
     entry do
       name 'Increase character spacing'
-      command 'ALT + CTRL + L'
+      command 'ALT+CTRL+L'
     end
 
     entry do
       name 'Decrease character spacing'
-      command 'ALT + CTRL + T'
+      command 'ALT+CTRL+T'
     end
 
     entry do
       name 'Change font'
-      command 'CMD + T'
+      command 'CMD+T'
     end
 
     entry do
       name 'Convert text to outlines'
-      command 'CMD + SHIFT + O'
+      command 'CMD+SHIFT+O'
     end
 
     entry do
       name 'Align left'
-      command 'CMD + SHIFT + {'
+      command 'CMD+SHIFT+{'
     end
 
     entry do
       name 'Align center'
-      command 'CMD + SHIFT + |'
+      command 'CMD+SHIFT+|'
     end
 
     entry do
       name 'Align right'
-      command 'CMD + SHIFT + }'
+      command 'CMD+SHIFT+}'
     end
 
     entry do
       name 'Special characters'
-      command 'CMD + CTRL + SPACE'
+      command 'CMD+CTRL+Space'
     end
   end
 
@@ -127,32 +127,32 @@ cheatsheet do
 
     entry do
       name 'Zoom in'
-      command 'CMD (+) +'
+      command 'CMD+(+)'
     end
 
     entry do
       name 'Zoom out'
-      command 'CMD (+) -'
+      command 'CMD+(-)'
     end
 
     entry do
       name 'Actual size'
-      command 'CMD + 0'
+      command 'CMD+0'
     end
 
     entry do
       name 'Center canvas'
-      command 'CMD + 1'
+      command 'CMD+1'
     end
 
     entry do
       name 'Zoom selection'
-      command 'CMD + 2'
+      command 'CMD+2'
     end
 
     entry do
       name 'Center selection'
-      command 'CMD + 3'
+      command 'CMD+3'
     end
 
     entry do
@@ -162,42 +162,42 @@ cheatsheet do
 
     entry do
       name 'Focus on first input field'
-      command 'ALT + TAB'
+      command 'ALT+Tab'
     end
 
     entry do
       name 'Toggle rulers'
-      command 'CTRL + R'
+      command 'CTRL+R'
     end
 
     entry do
       name 'Toggle grid'
-      command 'CTRL + G'
+      command 'CTRL+G'
     end
 
     entry do
       name 'Toggle layer guides'
-      command 'CTRL + L'
+      command 'CTRL+L'
     end
 
     entry do
       name 'Toggle pixels'
-      command 'CTRL + P'
+      command 'CTRL+P'
     end
 
     entry do
       name 'Toggle selection handles'
-      command 'CTRL + H'
+      command 'CTRL+H'
     end
 
     entry do
       name 'Toggle pixel grid'
-      command 'CTRL + X'
+      command 'CTRL+X'
     end
 
     entry do
       name 'Move canvas'
-      command 'SPACE + DRAG'
+      command 'Space+Drag'
     end
   end
 
@@ -206,37 +206,37 @@ cheatsheet do
 
     entry do
       name 'Toggle between documents'
-      command 'CMD + ~'
+      command 'CMD+~'
     end
 
     entry do
       name 'Toggle layers list'
-      command 'CMD + ALT + 1'
+      command 'CMD+ALT+1'
     end
 
     entry do
       name 'Toggle inpector'
-      command 'CMD + ALT + 2'
+      command 'CMD+ALT+2'
     end
 
     entry do
       name 'Toggle layers, inspector'
-      command 'CMD + ALT + 3'
+      command 'CMD+ALT+3'
     end
 
     entry do
       name 'Toggle toolbar'
-      command 'CMD + ALT + T'
+      command 'CMD+ALT+T'
     end
 
     entry do
       name 'Presentation mode'
-      command 'CMD + .'
+      command 'CMD+.'
     end
 
     entry do
       name 'Fullscreen'
-      command 'CMD + CTRL + F'
+      command 'CMD+CTRL+F'
     end
   end
 
@@ -245,43 +245,43 @@ cheatsheet do
 
     entry do
       name 'Keep current selection'
-      command 'CMD + ALT'
+      command 'CMD+ALT'
     end
 
     entry do
       name 'Use as mask span'
-      command 'CMD + CTRL + M'
-      notes 'Works for layers and groups'
+      command 'CMD+CTRL+M'
+      notes 'Works for layers and groups.'
     end
 
     entry do
       name 'Union'
-      command 'CMD + ALT + U'
+      command 'CMD+ALT+U'
     end
 
     entry do
       name 'Substract'
-      command 'CMD + ALT + S'
+      command 'CMD+ALT+S'
     end
 
     entry do
       name 'Intersect'
-      command 'CMD + ALT + I'
+      command 'CMD+ALT+I'
     end
 
     entry do
       name 'Difference'
-      command 'CMD + ALT + X'
+      command 'CMD+ALT+X'
     end
 
     entry do
       name 'Change object size'
-      command 'CMD + ARROWS'
+      command 'CMD+Arrows'
     end
 
     entry do
       name 'Change units by 10'
-      command 'CMD + SHIFT + ARROWS'
+      command 'CMD+SHIFT+Arrows'
     end
 
     entry do
@@ -300,38 +300,38 @@ cheatsheet do
 
     entry do
       name 'Show distance to other layers inside group'
-      command 'CMD + ALT'
+      command 'CMD+ALT'
     end
 
     entry do
       name 'Duplicate'
-      command 'ALT + DRAG'
-      notes 'Repeat with `CMD + D`'
+      command 'ALT+Drag'
+      notes 'Repeat with `CMD+D`.'
     end
 
     entry do
       name 'Copy style'
-      command 'CMD + ALT + C'
+      command 'CMD+ALT+C'
     end
 
     entry do
       name 'Paste style'
-      command 'CMD + ALT + V'
+      command 'CMD+ALT+V'
     end
 
     entry do
       name 'Color picker'
-      command 'CTRL + C'
+      command 'CTRL+C'
     end
 
     entry do
       name 'Transform'
-      command 'CMD + T'
+      command 'CMD+T'
     end
 
     entry do
       name 'Rotate'
-      command 'CMD + SHIFT + R'
+      command 'CMD+SHIFT+R'
     end
 
     entry do
@@ -350,52 +350,52 @@ cheatsheet do
 
     entry do
       name 'Bring forward'
-      command 'CMD + ALT + ARROW UP'
+      command 'CMD+ALT+Arrow Up'
     end
 
     entry do
       name 'Bring to front'
-      command 'CMD + CTRL + ALT + ARROW UP'
+      command 'CMD+CTRL+ALT+Arrow Up'
     end
 
     entry do
       name 'Send backward'
-      command 'CMD + ALT + ARROW DOWN'
+      command 'CMD+ALT+Arrow Down'
     end
 
     entry do
       name 'Send to back'
-      command 'CMD + CTRL + ALT + ARROW DOWN'
+      command 'CMD+CTRL+ALT+Arrow Down'
     end
 
     entry do
       name 'Hide'
-      command 'CMD + SHIFT + H'
+      command 'CMD+SHIFT+H'
     end
 
     entry do
       name 'Lock'
-      command 'CMD + SHIFT + L'
+      command 'CMD+SHIFT+L'
     end
 
     entry do
       name 'Rename'
-      command 'CMD + R'
+      command 'CMD+R'
     end
 
     entry do
       name 'Group layers'
-      command 'CMD + G'
+      command 'CMD+G'
     end
 
     entry do
       name 'Ungroup layers'
-      command 'CMD + SHIFT + G'
+      command 'CMD+SHIFT+G'
     end
 
     entry do
       name 'Select above layer'
-      command 'SHIFT + Tab'
+      command 'SHIFT+Tab'
     end
 
     entry do
@@ -410,17 +410,17 @@ cheatsheet do
 
     entry do
       name 'Find layer by name'
-      command 'CMD + F'
+      command 'CMD+F'
     end
 
     entry do
       name 'Select above page'
-      command 'Fn + ARROW UP'
+      command 'Fn+Arrow Up'
     end
 
     entry do
       name 'Select page below'
-      command 'Fn + ARROW DOWN'
+      command 'Fn+Arrow Down'
     end
   end
 
