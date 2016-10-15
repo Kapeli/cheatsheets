@@ -88,6 +88,14 @@ cheatsheet do
           ```
           Asserts that certain text is present on the page.'
       end
+      entry do
+          name 'Current URL path comparison'
+          notes '
+          ```ruby
+          expect(page).to have_current_path(prefix_path)
+          ```
+          '
+      end
   end
   category do
       id 'Node Interactions'
@@ -167,17 +175,6 @@ cheatsheet do
           ```
           Will press a button or `input[type=\'submit\']`'
       end
-  end
-  category do
-    id 'URL Comparison'
-    entry do
-      name 'Current URL path comparison'
-      notes '
-      ```ruby
-      expect(page).to have_current_path(prefix_path)
-      ```
-      '
-    end
   end
   category do
       id 'Debugging'
