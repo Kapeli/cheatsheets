@@ -4,7 +4,7 @@ cheatsheet do
   keyword 'capybara'
   source_url 'http://cheat.kapeli.com'
 
-  
+
   category do
       id 'Navigation'
       entry do
@@ -68,7 +68,7 @@ cheatsheet do
           Returns an array of Capybara::Node::Element instance from the page.'
       end
   end
-  
+
   category do
       id 'Page Assertions'
       entry do
@@ -87,6 +87,14 @@ cheatsheet do
           expect(page).to have_content(\'What are you looking for?\')
           ```
           Asserts that certain text is present on the page.'
+      end
+      entry do
+          name 'Current URL path comparison'
+          notes '
+          ```ruby
+          expect(page).to have_current_path(prefix_path)
+          ```
+          '
       end
   end
   category do
@@ -147,7 +155,7 @@ cheatsheet do
           name 'Uncheck'
           notes '
           ```ruby
-          uncheck \'Admin access?\' 
+          uncheck \'Admin access?\'
           ```
           Unchecks a checkbox. Pass the label text.'
       end
@@ -190,5 +198,5 @@ cheatsheet do
   notes <<-'END'
   * Based on a [cheat sheet](https://learn.thoughtbot.com/test-driven-rails-resources/capybara.pdf) by [thoughtbot](http://thoughtbot.com/).
   END
-  
+
 end
