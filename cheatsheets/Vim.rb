@@ -791,6 +791,11 @@ cheatsheet do
             command ':b 2'
             name 'Open buffer #2 in this window'
         end
+
+        entry do
+            command ':bd[n]'
+            name 'Close current buffer. If [n] is given close buffer #n. #n can be gathered with :ls'
+        end
     end
 
     notes <<-'END'
