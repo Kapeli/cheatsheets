@@ -51,7 +51,7 @@ cheatsheet do
       name 'Fold section'
     end
     entry do
-      command 'CMD+CTRL+Arrow Right'
+      command 'CMD+ALT+Arrow Right'
       name 'Unfold section'
     end
     entry do
