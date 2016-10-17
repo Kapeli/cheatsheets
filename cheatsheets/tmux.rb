@@ -139,7 +139,7 @@ cheatsheet do
     entry do
       command 'PREFIX- -'
       name 'Horizontal split (Personal)'
-      notes 'In tmux.conf: `bind-key | split-window -h`'
+      notes 'In tmux.conf: `bind-key - split-window -h`'
     end
 
 
