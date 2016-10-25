@@ -794,7 +794,8 @@ cheatsheet do
 
         entry do
             command ':bd[n]'
-            name 'Close current buffer. If [n] is given close buffer #n. #n can be gathered with :ls'
+            name 'Close current buffer'
+            notes 'If `[n]` is given close buffer `#n`. `#n` can be gathered with `:ls`.'
         end
     end
 

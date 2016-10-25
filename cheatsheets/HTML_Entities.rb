@@ -4334,7 +4334,7 @@ cheatsheet do
       td_command '™'
       td_command '&#8482'
       td_command '&#x2122'
-      td_command '&trade'
+      td_command '&trade;'
       name 'Trademark symbol'
     end
   end
