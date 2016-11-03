@@ -1,19 +1,15 @@
 cheatsheet do
-  title 'Objective-C @Compiler Directives'               # Will be displayed by Dash in the docset list
-  docset_file_name 'Objective-C_@Compiler_Directives'    # Used for the filename of the docset
-  keyword 'objc'             # Used as the initial search keyword (listed in Preferences > Docsets)
-  # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
-
-  introduction 'Objective-C 2.0 @Compiler Directives Cheat Sheet Derived from an article by Steffen Itterheim ([learn-cocos2d.com](learn-cocos2d.com)) found here and placed into a cheat sheet by Johann Dowa ([maniacdev.com](maniacdev.com))'  # Optional, can contain Markdown or HTML
-  source_url 'http://chaosky.me'
+  title 'Objective-C @Compiler Directives'
+  docset_file_name 'Objective-C_@Compiler_Directives'
+  keyword 'objc'
+  source_url 'http://cheat.kapeli.com'
   style 'td.description .name {font-weight:bold}'
 
-  # A cheat sheet must consist of categories
   category do
-    id 'class'  # Must be unique and is used as title of the category
+    id 'class'
 
     entry do
-      name '@class'    # A short name, can contain Markdown or HTML
+      name '@class'
       notes <<-'END'
 
         Declares class as known without having to import the class’ header file.
@@ -32,7 +28,7 @@ cheatsheet do
     entry do
       name '@end'
       notes <<-'END'
-      marks end of the class, protocol or interface declaration
+      Marks end of the class, protocol or interface declaration.
       END
     end
   end
@@ -149,8 +145,8 @@ cheatsheet do
       notes <<-'END'
       Returns the selector type SEL of the given Objective-C method. Generates compiler warning if the method isn’t declared or doesn’t exist. 
       
-      ```ojbc
-      -(void) aMethod {
+      ```objc
+      - (void)aMethod {
           SEL aMethodSelector = @selector(aMethod);
           [self performSelector:aMethodSelector];
       }
