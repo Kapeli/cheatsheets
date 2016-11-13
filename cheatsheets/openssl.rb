@@ -1,10 +1,8 @@
 cheatsheet do
-  title 'openssl'               # Will be displayed by Dash in the docset list
-  docset_file_name 'openssl'    # Used for the filename of the docset
-  keyword 'openssl'             # Used as the initial search keyword (listed in Preferences > Docsets)
-  # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
-
-  introduction 'List of common openssl commands, very much inspired by [SSLHopper cheatsheet](https://www.sslshopper.com/article-most-common-openssl-commands.html)'  # Optional, can contain Markdown or HTML
+  title 'openssl'
+  docset_file_name 'openssl'
+  keyword 'openssl'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'CSR'
@@ -19,7 +17,10 @@ cheatsheet do
     end
     entry do
       name 'Create a CSR with a brand new private key'
-      notes '```openssl req -out CSR.csr -new -newkey rsa:2048 -nodes -keyout privateKey.key```'
+      notes '
+      ```
+      openssl req -out CSR.csr -new -newkey rsa:2048 -nodes -keyout privateKey.key
+      ```'
     end
     entry do
       name 'Create a CSR from an existing certificate'
@@ -76,7 +77,7 @@ cheatsheet do
   end
 
   category do
-    id 'Private keys'
+    id 'Private Keys'
     entry do
       name 'Remove a passphrase from a private key'
       notes '
@@ -136,7 +137,7 @@ cheatsheet do
   end
 
   category do
-    id 'Checking certificate vs private key'
+    id 'Checking Certificate vs Private Key'
     entry do
       name 'Certificate signature'
       notes '
@@ -163,5 +164,8 @@ cheatsheet do
     end
   end
 
-  notes 'Created by [Greg Bataille](http://www.github.com/gbataille)'
+  notes <<-'END'
+    * Created by [Greg Bataille](http://www.github.com/gbataille)
+    * Inspired by the [SSLHopper cheat sheet](https://www.sslshopper.com/article-most-common-openssl-commands.html)
+  END
 end
