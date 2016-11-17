@@ -317,7 +317,7 @@ cheatsheet do
     end
 
     entry do
-      command '@yeld'
+      command '@yield'
       notes <<-'MD'
         ```ruby
         # For a block {|a,b,c| ... }
