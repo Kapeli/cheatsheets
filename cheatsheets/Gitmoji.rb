@@ -15,6 +15,10 @@ cheatsheet do
         name '✨ Introducing new features.'
       end
       entry do
+        command ':hankey:'
+        name '💩 Writing bad code that needs to be improved.'
+      end
+      entry do
         command ':white_check_mark:'
         name '✅ Adding tests.'
       end
