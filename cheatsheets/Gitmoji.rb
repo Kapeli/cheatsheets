@@ -8,31 +8,35 @@ cheatsheet do
     id 'Adding & Releasing'
       entry do
         command ':tada:'
-        name '🎉 Initial commit.'
+        name '🎉 Initial commit'
       end
       entry do
         command ':sparkles:'
-        name '✨ Introducing new features.'
+        name '✨ Introducing new features'
+      end
+      entry do
+        command ':hankey:'
+        name '💩 Writing bad code that needs to be improved'
       end
       entry do
         command ':white_check_mark:'
-        name '✅ Adding tests.'
+        name '✅ Adding tests'
       end
       entry do
         command ':construction_worker:'
-        name '👷 Adding CI build system.'
+        name '👷 Adding CI build system'
       end
       entry do
         command ':memo:'
-        name '📝 Writing docs.'
+        name '📝 Writing docs'
       end
       entry do
         command ':chart_with_upwards_trend:'
-        name '📈 Adding analytics or tracking code.'
+        name '📈 Adding analytics or tracking code'
       end
       entry do
         command ':bookmark:'
-        name '🔖 Releasing / Version tags.'
+        name '🔖 Releasing / Version tags'
       end
     end
 
@@ -40,19 +44,19 @@ cheatsheet do
     id 'Dependencies'
       entry do
         command ':heavy_minus_sign:'
-        name '➖ Removing a dependency.'
+        name '➖ Removing a dependency'
       end
       entry do
         command ':heavy_plus_sign:'
-        name '➕ Adding a dependency.'
+        name '➕ Adding a dependency'
       end
       entry do
         command ':arrow_down:'
-        name '🔽 Downgrading dependencies.'
+        name '🔽 Downgrading dependencies'
       end
       entry do
         command ':arrow_up:'
-        name '🔼 Upgrading dependencies.'
+        name '🔼 Upgrading dependencies'
       end
     end
 
@@ -60,39 +64,39 @@ cheatsheet do
     id 'Fixes'
       entry do
         command ':pencil2:'
-        name '✏️ Fixing typos.'
+        name '✏️ Fixing typos'
       end
       entry do
         command ':bug:'
-        name '🐛 Fixing a bug.'
+        name '🐛 Fixing a bug'
       end
       entry do
         command ':ambulance:'
-        name '🚑 Critical hotfix.'
+        name '🚑 Critical hotfix'
       end
       entry do
         command ':lock:'
-        name '🔒 Fixing security issues.'
+        name '🔒 Fixing security issues'
       end
       entry do
         command ':rotating_light:'
-        name '🚨 Removing linter warnings.'
+        name '🚨 Removing linter warnings'
       end
       entry do
         command ':green_heart:'
-        name '💚 Fixing CI Build.'
+        name '💚 Fixing CI Build'
       end
       entry do
         command ':apple:'
-        name '🍎 Fixing something on macOS.'
+        name '🍎 Fixing something on macOS'
       end
       entry do
         command ':penguin:'
-        name '🐧 Fixing something on Linux.'
+        name '🐧 Fixing something on Linux'
       end
       entry do
         command ':checkered_flag:'
-        name '🏁 Fixing something on Windows.'
+        name '🏁 Fixing something on Windows'
       end
     end
 
@@ -100,50 +104,47 @@ cheatsheet do
     id 'Miscellaneous'
       entry do
         command ':art:'
-        name '🎨 Improving structure / format of the code.'
+        name '🎨 Improving structure / format of the code'
       end
       entry do
         command ':zap:'
-        name '⚡ Improving performance.'
+        name '⚡ Improving performance'
       end
       entry do
         command ':lipstick:'
-        name '💄 Updating the UI and style files.'
+        name '💄 Updating the UI and style files'
       end
       entry do
         command ':wrench:'
-        name '🔧 Changing configuration files.'
+        name '🔧 Changing configuration files'
       end
       entry do
         command ':hammer:'
-        name '🔨 Heavy refactoring.'
+        name '🔨 Heavy refactoring'
       end
       entry do
         command ':construction:'
-        name '🚧 Work in progress.'
+        name '🚧 Work in progress'
       end
       entry do
         command ':rocket:'
-        name '🚀 Deploying stuff.'
+        name '🚀 Deploying stuff'
       end
       entry do
         command ':fire:'
-        name '🔥 Removing code or files.'
+        name '🔥 Removing code or files'
       end
       entry do
         command ':globe_with_meridians:'
-        name '🌐 Internationalization and localization.'
+        name '🌐 Internationalization and localization'
       end
       entry do
         command ':whale:'
-        name '🐳 Work about Docker.'
+        name '🐳 Work about Docker'
       end
     end
 
 
-  notes 'Original sources:
-
-* https://gitmoji.carloscuesta.me/
-* https://github.com/carloscuesta/gitmoji'
+  notes '* Based on https://gitmoji.carloscuesta.me and https://github.com/carloscuesta/gitmoji'
 
 end
