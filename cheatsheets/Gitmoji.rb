@@ -145,6 +145,8 @@ cheatsheet do
     end
 
 
-  notes '* Based on https://gitmoji.carloscuesta.me and https://github.com/carloscuesta/gitmoji'
+  notes '* Based on https://gitmoji.carloscuesta.me and https://github.com/carloscuesta/gitmoji
+  * Available as CLI: https://github.com/carloscuesta/gitmoji-cli
+  '
 
 end
