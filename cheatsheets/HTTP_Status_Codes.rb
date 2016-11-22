@@ -453,6 +453,11 @@ cheatsheet do
       name '526 Invalid SSL Certificate (CloudFlare)'
       notes "CloudFlare could not validate the SSL/TLS certificate that the origin server presented."
     end
+
+    entry do
+      name '527 Railgun Error (CloudFlare)'
+      notes "The request timed out or failed after the WAN connection has been established."
+    end
   end
 
   notes <<-'END'
