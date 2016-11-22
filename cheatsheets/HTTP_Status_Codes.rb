@@ -147,7 +147,7 @@ cheatsheet do
 
     entry do
       name '401 Unauthorized'
-      notes 'The requestor is not authorized to access the resource. This is similar to `403` but is used in cases where authentication is expected but has failed or has not been provided.'
+      notes 'The requester is not authorized to access the resource. This is similar to `403` but is used in cases where authentication is expected but has failed or has not been provided.'
     end
 
     entry do
