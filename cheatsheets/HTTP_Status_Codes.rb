@@ -318,26 +318,32 @@ cheatsheet do
       name '494 Request Header Too Large (Nginx)'
       notes "Nginx internal code similar to 431 but it was introduced earlier in version 0.9.4 (on January 21, 2011)."
     end
+
     entry do
       name '495 Cert Error (Nginx)'
       notes "Nginx internal code used when SSL client certificate error occurred to distinguish it from 4XX in a log and an error page redirection."
     end
+
     entry do
       name '496 No Cert (Nginx)'
       notes "Nginx internal code used when client didn't provide certificate to distinguish it from 4XX in a log and an error page redirection."
     end
+
     entry do
       name '497 HTTP to HTTPS (Nginx)'
       notes "Nginx internal code used for the plain HTTP requests that are sent to HTTPS port to distinguish it from 4XX in a log and an error page redirection."
     end
+
     entry do
       name '498 Token expired/invalid (Esri)'
       notes "Returned by ArcGIS for Server. A code of 498 indicates an expired or otherwise invalid token."
     end
+
     entry do
       name '499 Client Closed Request (Nginx)'
       notes "Used in Nginx logs to indicate when the connection has been closed by client while the server is still processing its request, making server unable to send a status code back."
     end
+
     entry do
       name '499 Token required (Esri)'
       notes "Returned by ArcGIS for Server. A code of 499 indicates that a token is required (if no token was submitted)."
