@@ -58,6 +58,10 @@ cheatsheet do
         command ':arrow_up:'
         name '🔼 Upgrading dependencies'
       end
+      entry do
+        command ':package:'
+        name '📦 Updating compiled files or packages'
+      end
     end
 
     category do
