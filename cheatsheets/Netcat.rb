@@ -1,20 +1,19 @@
 cheatsheet do
   title 'Netcat'
-  docset_file_name 'netcat-cheatsheet'
+  docset_file_name 'Netcat'
   keyword 'netcat'
-
-  introduction 'Netcat cheat sheet'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Usage'
     entry do
-      name 'Normal Syntax'
+      name 'Normal syntax'
       notes <<-'END'
-      Usage:
-        ```
-        nc [options] [host] [port]
-        ```
-        arbitrary TCP and UDP connections and listens
+      ```
+      nc [options] [host] [port]
+      ```
+
+        Arbitrary TCP and UDP connections and listens.
       END
     end
   end
@@ -33,8 +32,7 @@ cheatsheet do
 
     entry do
       name 'UDP instead of TCP'
-      command
-        'nc -u [options] [host] [port]'
+      command 'nc -u [options] [host] [port]'
     end
 
     entry do
@@ -91,17 +89,17 @@ cheatsheet do
 
     entry do
       command 'netcat -l 5050'
-	    notes 'Listen for TCP connections (port 5050). Data received is directed to STDOUT. Data is captured and transmitted from STDOUT'
+	    notes 'Listen for TCP connections (port 5050). Data received is directed to `STDOUT`. Data is captured and transmitted from `STDOUT`.'
     end
 
     entry do
       command 'netcat -l 5051 > filename.out'
-      notes ' Data received directed to "filename.out"'
+      notes 'Data received directed to "filename.out"'
     end 
 
     entry do
       notes <<-'END'
-      ```
+      ```bash
       ( echo -ne "HTTP/1.1 200 OK
       Content-Length: $(wc -c <index.html)\r\n\r\n" ; cat index.html ) | nc -l 8080
       ```
@@ -111,7 +109,7 @@ cheatsheet do
 
     entry do
       notes <<-'END'
-      ```
+      ```bash
       while : ; do ( echo -ne "HTTP/1.1 200 OK\r\nContent-Length: $(wc -c <index.html)\r\n\r\n" ; cat index.html; ) | nc -l -p 8080 ; done
       ```
       END
@@ -127,8 +125,9 @@ cheatsheet do
         ```
         mknod backpipe p ; nc -l [proxy port] < backpipe | nc [destination host] [destination port] > pipe
         ```
+
+        Create a named pipe. Setup an a listener on proxy port. Forward requests from listener to a client which in-turn sends them onto the destination host. The client redirects the response from the destination host into the named pipe. The listener picks up the response from the named pipe and returns it. The named pipe thus allows the proxy to transmit data bi-directionally.
         END
-        name 'Created a named pipe. Setup an a listener on proxy port. Forward requests from listener to a client which in-turn sends them onto the destination host. The client redirects the response from the destination host into the named pipe. The listener picks up the response from the named pipe and returns it. The named pipe thus allows the proxy to transmit data bi-directionally.'
       end
     end
 
@@ -150,5 +149,5 @@ cheatsheet do
       command 'nc -zv hostname.com 80 84'
     end
   end
-  notes "Thanks to (biscuitNinja)[http://duckduckhack.com/u/biscuitninja] and the (DuckDuckGo Cheatsheet)[https://duck.co/ia/view/netcat_cheat_sheet]."
+  notes "* Thanks to [biscuitNinja](http://duckduckhack.com/u/biscuitninja) and the [Netcat Cheat Sheet](https://duck.co/ia/view/netcat_cheat_sheet)."
 end
