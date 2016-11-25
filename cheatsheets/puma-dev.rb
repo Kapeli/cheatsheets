@@ -1,17 +1,15 @@
 # generates cheatsheet via https://github.com/Kapeli/cheatset
 # `$ cheatset generate puma-dev.rb`
 cheatsheet do
-  title 'puma-dev'               # Will be displayed by Dash in the docset list
-  docset_file_name 'puma-dev'    # Used for the filename of the docset
-  keyword 'puma-dev'             # Used as the initial search keyword (listed in Preferences > Docsets)
-  # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
+  title 'puma-dev'
+  docset_file_name 'puma-dev'
+  keyword 'puma-dev'
+  source_url 'http://cheat.kapeli.com'
 
   introduction "[puma-dev](https://github.com/puma/puma-dev) serves rack apps in development, using puma.  Similar to pow.cx. [Why not use pow?](https://github.com/puma/puma-dev#why-not-just-use-pow)"
 
-  # A cheat sheet must consist of categories
-  # You can use Markdown or HTML in 'name' or 'notes'.
   category do
-    id 'Setup'  # Must be unique and is used as title of the category
+    id 'Setup'
 
     entry do
       command 'Installation/Setup'
