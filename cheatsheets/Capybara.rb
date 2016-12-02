@@ -168,6 +168,14 @@ cheatsheet do
           Selects an option from a select tag.'
       end
       entry do
+          name 'Attach file'
+          notes '
+          ```ruby
+          attach_file \'Image\', \'path/to/image.jpg\'
+          ```
+          Attaches a file.'
+      end
+      entry do
           name 'Click button'
           notes '
           ```ruby
