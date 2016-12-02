@@ -27,6 +27,14 @@ cheatsheet do
         name '👷 Adding CI build system'
       end
       entry do
+        command ':twisted-rightwards-arrows:'
+        name '🔀 Merging branches'
+      end
+      entry do
+        command ':rewind:'
+        name '⏪ Reverting changes'
+      end
+      entry do
         command ':memo:'
         name '📝 Writing docs'
       end
@@ -87,6 +95,10 @@ cheatsheet do
         name '🚨 Removing linter warnings'
       end
       entry do
+        command ':alien:'
+        name '👽 Updating code due to external API changes'
+      end
+      entry do
         command ':green_heart:'
         name '💚 Fixing CI Build'
       end
@@ -121,6 +133,10 @@ cheatsheet do
       entry do
         command ':wrench:'
         name '🔧 Changing configuration files'
+      end
+      entry do
+        command ':truck:'
+        name '🚚 Moving or renaming files'
       end
       entry do
         command ':hammer:'
