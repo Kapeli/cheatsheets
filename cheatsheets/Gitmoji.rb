@@ -39,6 +39,10 @@ cheatsheet do
         name '📝 Writing docs'
       end
       entry do
+        command ':page_facing_up:'
+        name '📄 Adding or updating license'
+      end
+      entry do
         command ':chart_with_upwards_trend:'
         name '📈 Adding analytics or tracking code'
       end
