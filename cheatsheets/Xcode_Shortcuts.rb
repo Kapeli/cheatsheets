@@ -78,6 +78,22 @@ cheatsheet do
       command 'CTRL+6'
       name 'Show document items'
     end
+    entry do
+      command 'CMD+T'
+      name 'Create tab'
+    end
+    entry do
+      command 'CMD+W'
+      name 'Close current tab'
+    end
+    entry do
+      command 'ALT+CMD+{'
+      name 'Go to previous tab'
+    end
+    entry do
+      command 'ALT+CMD+}'
+      name 'Go to next tab'
+    end
   end
 
   category do
