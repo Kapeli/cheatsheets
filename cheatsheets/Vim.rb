@@ -16,6 +16,12 @@ cheatsheet do
             command ':q[uit]!'
             name 'Quit without writing'
         end
+        
+        entry do
+            command ':qa'
+            name 'Quit all buffers / tabs'
+        end
+
         entry do
             command ':cq[uit]'
             name 'Quit always, without writing'
@@ -23,6 +29,10 @@ cheatsheet do
         entry do
             command ':wq'
             name 'Write the current file and exit'
+        end
+        entry do
+            command ':wqa'
+            name 'Quite and write all buffers / tabs'
         end
         entry do
             command ':wq!'
