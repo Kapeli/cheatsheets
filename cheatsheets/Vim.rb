@@ -799,6 +799,29 @@ cheatsheet do
         end
     end
 
+    category do
+        id 'BROWSING WITH TAGS'
+        entry do
+            notes <<-'END'
+                When editing programs, there is often a need to jump to another location. Vim uses a tags file that lists each word and
+                locations. The tags file has to be created by a utility able to handle the syntax of your files, and has to be updated after significant editing has occurred.
+            END
+        end
+
+        entry do
+            command 'CTRL-]'
+            command 'LMB-on-tag+CTRL'
+            command 'g LMB-on-tag'
+            name 'Jump to tag'
+            notes 'Postion the cursor over a tag name, visually select text, use the left-mouse-button (LMB)
+        end
+
+        entry do
+            command 'CTRL+t'
+            name 'Return after jump'
+        end
+    end
+
     notes <<-'END'
     * Based on the cheat sheet from [fprintf](http://www.fprintf.net/vimCheatSheet.html).
     * Converted by [Arief Bayu Purwanto](https://github.com/ariefbayu).
