@@ -46,7 +46,7 @@ cheatsheet do
                 If you prefer to initialize the repository and fetch all at once, you might prefer:
 
                 ```
-                git svn clone <svn-repo-url> --stdlaout --prefix=origin/
+                git svn clone <svn-repo-url> --stdlayout --prefix=origin/
                 ```
 
                 You have roughly the same options as you would for `git svn init`, but it will be followed up with an implicit fetch.
@@ -97,7 +97,7 @@ cheatsheet do
                 git svn tag <tag name>
                 ```
 
-                This is easier to remember than `git svn branch --tag <branchname>`.
+                This may be easier to remember than `git svn branch --tag <branchname>`.
             "
         end
 

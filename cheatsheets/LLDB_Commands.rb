@@ -51,7 +51,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Launch a process with arguments in new terminal window (OS X only)'
+      name 'Launch a process with arguments in new terminal window (macOS only)'
       notes '
       ```
       (lldb) process launch --tty -- <args>
@@ -61,7 +61,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Launch a process with arguments in existing terminal `/dev/ttys006` (OS X only)'
+      name 'Launch a process with arguments in existing terminal `/dev/ttys006` (macOS only)'
       notes '
       ```
       (lldb) process launch --tty=/dev/ttys006 -- <args>
@@ -824,7 +824,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Get information about a specific heap allocation (available on OS X only)'
+      name 'Get information about a specific heap allocation (available on macOS only)'
       notes '
       ```
       (lldb) command script import lldb.macosx.heap
@@ -835,7 +835,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Get information about a specific heap allocation and cast the result to any dynamic type that can be deduced (available on OS X only)'
+      name 'Get information about a specific heap allocation and cast the result to any dynamic type that can be deduced (available on macOS only)'
       notes '
       ```
       (lldb) command script import lldb.macosx.heap
@@ -845,7 +845,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Find all heap blocks that contain a pointer specified by an expression `EXPR` (available on OS X only)'
+      name 'Find all heap blocks that contain a pointer specified by an expression `EXPR` (available on macOS only)'
       notes '
       ```
       (lldb) command script import lldb.macosx.heap
@@ -855,7 +855,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Find all heap blocks that contain a C string anywhere in the block (available on OS X only)'
+      name 'Find all heap blocks that contain a C string anywhere in the block (available on macOS only)'
       notes '
       ```
       (lldb) command script import lldb.macosx.heap

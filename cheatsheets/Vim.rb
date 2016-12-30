@@ -192,7 +192,7 @@ cheatsheet do
             notes 'If a [count] is given, do that many characters'
         end
         entry do
-            command '~{motion}'
+            command 'g~{motion}'
             name 'Switch case of {motion} text'
         end
         entry do
@@ -201,6 +201,22 @@ cheatsheet do
         end
     end
 
+    category do
+        id 'Ranges'
+        entry do
+            notes <<-'END'
+            A range permits a command to be applied to a group of lines in the current buffer.
+            For most commands, the default range is the current line.
+
+            * `:21s/old/new/g` - Line 21
+            * `:1s/old/new/g` - First line
+            * `:$s/old/new/g` - Last line
+            * `:%s/old/new/g` - All lines
+            * `:.,$s/old/new/g` - Current line to end
+            END
+        end
+    end
+    
     category do
         id 'Substituting'
         entry do
@@ -668,7 +684,11 @@ cheatsheet do
         end
         entry do
             command 'V'
-            name 'Start Visual mode linewise'
+            name 'Start Visual mode linewise (horizontal selection)'
+        end
+        entry do
+            command 'CTRL-V'
+            name 'Start Visual mode columnwise (vertical selection)'
         end
         entry do
             command '<Esc>'
@@ -718,7 +738,7 @@ cheatsheet do
         end
 
         entry do
-            command 'CTRL-W Up Arrow'
+            command 'CTRL-W Arrow Up'
             name 'Move cursor up a window'
         end
 
@@ -770,6 +790,12 @@ cheatsheet do
         entry do
             command ':b 2'
             name 'Open buffer #2 in this window'
+        end
+
+        entry do
+            command ':bd[n]'
+            name 'Close current buffer'
+            notes 'If `[n]` is given close buffer `#n`. `#n` can be gathered with `:ls`.'
         end
     end
 

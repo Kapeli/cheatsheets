@@ -115,4 +115,9 @@ cheatsheet do
       ```"
     end
   end
+
+    notes "
+        * Based on Git Flow cheatsheet by [Daniel Kummer](http://danielkummer.github.io/git-flow-cheatsheet/)
+        * Converted by [Robert Walker](https://github.com/robertwalker)
+    "
 end

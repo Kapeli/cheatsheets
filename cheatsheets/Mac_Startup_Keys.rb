@@ -8,7 +8,7 @@ cheatsheet do
 		id 'Mac Startup Keys'
 		entry do
 			command 'C'
-			name 'Start up from a bootable CD, DVD, or USB thumb drive (such as OS X install media).'
+			name 'Start up from a bootable CD, DVD, or USB thumb drive (such as macOS install media).'
 		end
 		entry do
 			command 'D'
@@ -21,10 +21,11 @@ cheatsheet do
 		end
 		entry do
 			command 'ALT'
-			name 'Start up in [Startup Manager](http://support.apple.com/kb/HT1310), where you can select an OS X volume or network volume to start from. '
+			name 'Start up in [Startup Manager](http://support.apple.com/kb/HT1310), where you can select an macOS volume or network volume to start from. '
 		end
 		entry do
-			command 'Eject or F12'
+			command 'Eject'
+			command 'F12'
 			name 'Ejects any removable media, such as an optical disc.'
 			notes 'Alternatively, you can hold the mouse or trackpad button.'
 		end
@@ -54,9 +55,9 @@ cheatsheet do
 		end
 		entry do
 			command 'CMD+R'
-			name 'Start from the OS X Recovery System'
-			notes 'Available on Macs that ship with OS X Lion or newer. Some CPUs require an [EFI BootROM update to support this feature](http://support.apple.com/kb/HT4904).'
+			name 'Start from the macOS Recovery System'
+			notes 'Available on Macs that ship with macOS Lion or newer. Some CPUs require an [EFI BootROM update to support this feature](http://support.apple.com/kb/HT4904).'
 		end
 	end
-	notes 'For the best experience with startup keys, press the keys immediately after the startup tone plays.'
+	notes '* For the best experience with startup keys, press the keys immediately after the startup tone plays.'
 end

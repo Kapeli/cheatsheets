@@ -32,20 +32,36 @@ cheatsheet do
   category do
     id 'Resolutions'
     header 'Device'
-    header 'Portrait'
-    header 'Landscape'
+    header 'Portrait Pixels'
+    header 'Landscape Pixels'
+    header 'Portrait Logical Resolution'
+    header 'Landscape Logical Resolution'
 
     entry do
       td_notes '1080 x 1920 px'
       td_notes '1920 x 1080 px'
-      name 'iPhone 6 Plus'
-      index_name 'iPhone 6 Plus Resolution'
+      td_notes '414 x 736 points'
+      td_notes '736 x 414 points'
+      name 'iPhone 6 Plus (Physical)'
+      index_name 'iPhone 6 Plus Physical Resolution'
+      notes ''
+    end
+
+    entry do
+      td_notes '1242 x 2208 px'
+      td_notes '2208 x 1242 px'
+      td_notes '414 x 736 points'
+      td_notes '736 x 414 points'
+      name 'iPhone 6 Plus (Virtual)'
+      index_name 'iPhone 6 Plus Virtual Resolution'
       notes ''
     end
 
     entry do
       td_notes '750 x 1334 px'
       td_notes '1334 x 750 px'
+      td_notes '375 x 667 points'
+      td_notes '667 x 375 points'
       name 'iPhone 6'
       index_name 'iPhone 6 Resolution'
       notes ''
@@ -54,6 +70,8 @@ cheatsheet do
     entry do
       td_notes '640 x 1136 px'
       td_notes '1136 x 640 px'
+      td_notes '320 x 568 points'
+      td_notes '568 x 320 points'
       name 'iPhone 5/5S/5C'
       index_name 'iPhone 5/5S/5C Resolution'
       notes ''
@@ -62,6 +80,8 @@ cheatsheet do
     entry do
       td_notes '640 x 960 px'
       td_notes '960 x 640 px'
+      td_notes '320 x 480 points'
+      td_notes '480 x 320 points'
       name 'iPhone 4/4S'
       index_name 'iPhone 4/4S Resolution'
       notes ''
@@ -70,6 +90,8 @@ cheatsheet do
     entry do
       td_notes '320 x 480 px'
       td_notes '480 x 320 px'
+      td_notes '320 x 480 points'
+      td_notes '480 x 320 points'
       name 'iPhone & iPod Touch'
       index_name 'iPhone & iPod Touch Resolution'
       notes '1st, 2nd and 3rd Generation'
@@ -78,12 +100,26 @@ cheatsheet do
     entry do
       td_notes '1536 x 2048 px'
       td_notes '2048 x 1536 px'
+      td_notes '768 x 1024 px'
+      td_notes '1024 x 768 px'
       name 'iPad Retina'
       index_name 'iPad Retina Resolution'
-      notes 'iPad 3, iPad 4, iPad Air'
+      notes 'iPad 3, iPad 4, iPad Air, iPad Air 2, iPad Pro 9.7-inch'
     end
 
     entry do
+      td_notes '2048 x 2732 px'
+      td_notes '2732 x 2048 px'
+      td_notes '1024 x 1366 px'
+      td_notes '1366 x 1024 px'
+      name 'iPad Pro 12.9-inch'
+      index_name 'iPad Pro 12.9-inch Resolution'
+      notes ''
+    end
+
+    entry do
+      td_notes '768 x 1024 px'
+      td_notes '1024 x 768 px'
       td_notes '768 x 1024 px'
       td_notes '1024 x 768 px'
       name 'iPad Mini'
@@ -94,12 +130,16 @@ cheatsheet do
     entry do
       td_notes '1536 x 2048 px'
       td_notes '2048 x 1536 px'
+      td_notes '768 x 1024 px'
+      td_notes '1024 x 768 px'
       name 'iPad Mini Retina'
       index_name 'iPad Mini Retina Resolution'
       notes ''
     end
 
     entry do
+      td_notes '768 x 1024 px'
+      td_notes '1024 x 768 px'
       td_notes '768 x 1024 px'
       td_notes '1024 x 768 px'
       name 'iPad'
@@ -112,12 +152,14 @@ cheatsheet do
   category do
     id 'Displays'
     header 'Device'
+    header 'Size'
     header 'PPI'
     header 'Assets'
     header 'Color Mode'
     header 'Color Temperature'
 
     entry do
+      td_notes '5.5″'
       td_notes '401'
       td_notes '`@3x`'
       td_notes '8bit RGB'
@@ -128,6 +170,7 @@ cheatsheet do
     end
 
     entry do
+      td_notes '4.7″'
       td_notes '326'
       td_notes '`@2x`'
       td_notes '8bit RGB'
@@ -138,6 +181,7 @@ cheatsheet do
     end
 
     entry do
+      td_notes '4.0″'
       td_notes '326'
       td_notes '`@2x`'
       td_notes '8bit RGB'
@@ -147,6 +191,7 @@ cheatsheet do
     end
 
     entry do
+      td_notes '3.5″'
       td_notes '326'
       td_notes '`@2x`'
       td_notes '8bit RGB'
@@ -157,6 +202,7 @@ cheatsheet do
     end
 
     entry do
+      td_notes '3.5″'
       td_notes '163'
       td_notes '`@1x`'
       td_notes '8bit RGB'
@@ -167,16 +213,28 @@ cheatsheet do
     end
 
     entry do
+      td_notes '9.7″'
       td_notes '264'
       td_notes '`@2x`'
       td_notes '8bit RGB'
       td_notes  'Warm'
       name 'iPad Retina'
       index_name 'iPad Retina Display'
-      notes 'iPad 3, iPad 4, iPad Air'
+      notes 'iPad 3, iPad 4, iPad Air, iPad Pro 9.7-inch'
     end
 
     entry do
+      td_notes '12.9"'
+      td_notes '264'
+      td_notes '`@2x`'
+      td_notes '8bit RGB'
+      td_notes 'Warm'
+      name 'iPad Pro 12.9-inch'
+      index_name 'iPad Pro 12.9-inch Display'
+    end
+
+    entry do
+      td_notes '7.9″'
       td_notes '163'
       td_notes '`@1x`'
       td_notes '8bit RGB'
@@ -187,6 +245,7 @@ cheatsheet do
     end
 
     entry do
+      td_notes '7.9″'
       td_notes '326'
       td_notes '`@2x`'
       td_notes '8bit RGB'
@@ -197,6 +256,7 @@ cheatsheet do
     end
 
     entry do
+      td_notes '9.7″'
       td_notes '132'
       td_notes '`@1x`'
       td_notes '8bit RGB'
@@ -263,6 +323,15 @@ cheatsheet do
       name 'iPad Retina'
       index_name 'iPad Retina Dimensions'
       notes 'iPad 3, 4, Air, iPad Mini Retina'
+    end
+
+    entry do
+      td_notes '167 x 167 px'
+      td_notes '1024 x 1024 px'
+      td_notes '80 x 80 px'
+      td_notes '58 x 58 px'
+      name 'iPad Pro 12.9-inch'
+      index_name 'iPad Pro 12.9-inch Dimensions'
     end
 
     entry do
@@ -344,7 +413,7 @@ cheatsheet do
       td_notes 'dynamic'
       name 'iPad Retina'
       index_name 'iPad Retina Design Elements'
-      notes 'iPad 3, 4, Air, iPad Mini Retina'
+      notes 'iPad 3, 4, Air, Pro, iPad Mini Retina'
     end
 
     entry do
@@ -408,7 +477,7 @@ cheatsheet do
       td_notes '50 x 50 px (max 96 x 64 px)'
       name 'iPad Retina'
       index_name 'iPad Retina Icons'
-      notes 'iPad 3, 4, Air, iPad Mini Retina'
+      notes 'iPad 3, 4, Air, Pro, iPad Mini Retina'
     end
     entry do
       td_notes '22 x 22 px'
@@ -507,6 +576,48 @@ cheatsheet do
       td_notes 'Regular'
       name 'Tab bar icon labels'
       index_name 'iPhone 6 Plus Tab Bar Icon Labels'
+    end
+  end
+
+  category do
+    id 'Size Classes For Adaptive Layout'
+    header 'Device Orientation'
+    header 'Size Class'
+
+    entry do
+      td_notes 'Height: Regular | Width: Regular'
+      name 'iPad - Portrait'
+      index_name 'iPad Portrait Size Class'
+    end
+
+    entry do
+      td_notes 'Height: Regular | Width: Regular'
+      name 'iPad - Landscape'
+      index_name 'iPad Landscape Size Class'
+    end
+
+    entry do
+      td_notes 'Height: Regular | Width: Compact'
+      name 'iPhone 6 Plus - Portrait'
+      index_name 'iPhone 6 Plus Portrait Size Class'
+    end
+
+    entry do
+      td_notes 'Height: Compact | Width: Regular'
+      name 'iPhone 6 Plus - Landscape'
+      index_name 'iPhone 6 Plus Landscape Size Class'
+    end
+
+    entry do
+      td_notes 'Height: Regular | Width: Compact'
+      name 'iPhone 6 and Before - Portrait'
+      index_name 'iPhone 6 and Before Portrait Size Class'
+    end
+
+    entry do
+      td_notes 'Height: Compact | Width: Compact'
+      name 'iPhone 6 and Before - Landscape'
+      index_name 'iPhone 6 and Before Landscape Size Class'
     end
   end
 

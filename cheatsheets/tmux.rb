@@ -139,7 +139,7 @@ cheatsheet do
     entry do
       command 'PREFIX- -'
       name 'Horizontal split (Personal)'
-      notes 'In tmux.conf: `bind-key | split-window -h`'
+      notes 'In tmux.conf: `bind-key - split-window -h`'
     end
 
 
@@ -157,6 +157,11 @@ cheatsheet do
     entry do
       command 'PREFIX-x'
       name 'Kill pane'
+    end
+
+    entry do
+      command 'PREFIX-z'
+      name 'Toggle active pane between zoomed and unzoomed'
     end
 
     entry do
@@ -367,25 +372,25 @@ cheatsheet do
 
   category do
     id 'Resizing Panes'
-    
+
     entry do
       notes <<-'END'
         With most of these the number (`##`) is optional and can be omitted to resize one line.
-        
+
         All of these can be bound to keys:
-        
+
         * `bind H resize-pane -L 5`
         * `bind J resize-pane -D 5`
         * `bind K resize-pane -U 5`
         * `bind L resize-pane -R 5`
       END
     end
-    
+
     entry do
       command 'PREFIX-: resize-pane -D ##'
       name 'Resize the current pane down by `##` lines. The `-D` is optional since by default it moves down'
     end
-    
+
     entry do
       command 'PREFIX-: resize-pane -U ##'
       name 'Resize the current pane up `##` lines'
@@ -400,39 +405,39 @@ cheatsheet do
       command 'PREFIX-: resize-pane -R ##'
       name 'Resize the current pane right `##` lines'
     end
-    
+
     entry do
       command 'PREFIX-: resize-pane -y ##'
       name 'Resize the current pane to `##` lines tall'
     end
-    
+
     entry do
       command 'PREFIX-: resize pane -x ##'
       name 'Resize the current pane to `##` lines wide'
     end
-    
+
   end
 
   category do
     id 'Miscellaneous'
 
     entry do
-      command 'd'
+      command 'PREFIX-d'
       name 'Detach'
     end
 
     entry do
-      command 't'
+      command 'PREFIX-t'
       name 'Big clock'
     end
 
     entry do
-      command '?'
+      command 'PREFIX-?'
       name 'List shortcuts'
     end
 
     entry do
-      command ':'
+      command 'PREFIX-:'
       name 'Prompt'
     end
   end
