@@ -16,6 +16,12 @@ cheatsheet do
             command ':q[uit]!'
             name 'Quit without writing'
         end
+        
+        entry do
+            command ':qa'
+            name 'Quit all buffers / tabs'
+        end
+
         entry do
             command ':cq[uit]'
             name 'Quit always, without writing'
@@ -23,6 +29,10 @@ cheatsheet do
         entry do
             command ':wq'
             name 'Write the current file and exit'
+        end
+        entry do
+            command ':wqa'
+            name 'Quite and write all buffers / tabs'
         end
         entry do
             command ':wq!'
@@ -656,6 +666,16 @@ cheatsheet do
             command 'N'
             name 'Repeat the latest `/` or `?` [count] times in opposite direction'
         end
+        entry do
+            command ':lv {pattern} [g][j] {file(s)}'
+            name 'Search in Files with internal grep'
+            notes <<-'END'
+            Results are put into "quickfix list" open with :cw
+            * 'g' return all matches not just one per line 
+            * 'j' don't jump to first match automatically
+            * for recursive search use ** file pattern like **/*.c
+            END
+        end
     end
 
     category do
@@ -796,6 +816,42 @@ cheatsheet do
             command ':bd[n]'
             name 'Close current buffer'
             notes 'If `[n]` is given close buffer `#n`. `#n` can be gathered with `:ls`.'
+        end
+    end
+
+    category do
+        id 'BROWSING WITH TAGS'
+        entry do
+            notes <<-'END'
+                When editing programs, there is often a need to jump to another location. Vim uses a tags file that lists each word and
+                locations. The tags file has to be created by a utility able to handle the syntax of your files, and has to be updated after significant editing has occurred.
+            END
+        end
+
+        entry do
+            command 'CTRL-]'
+            command 'LMB-on-tag+CTRL'
+            command 'g LMB-on-tag'
+            name 'Jump to tag'
+            notes 'Postion the cursor over a tag name, visually select text, use the left-mouse-button (LMB)'
+        end
+
+        entry do
+            command 'CTRL+t'
+            name 'Return after jump'
+        end
+    end
+
+    category do
+        id 'Interal Lists'
+        
+        entry do
+            command ':cw'
+            name 'Open "quickfix list" (one global list)'
+        end
+        entry do
+            command ':lw'
+            name 'Open "location list" (one per window)'
         end
     end
 
