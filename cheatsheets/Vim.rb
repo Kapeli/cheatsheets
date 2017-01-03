@@ -833,7 +833,7 @@ cheatsheet do
             command 'LMB-on-tag+CTRL'
             command 'g LMB-on-tag'
             name 'Jump to tag'
-            notes 'Postion the cursor over a tag name, visually select text, use the left-mouse-button (LMB)
+            notes 'Postion the cursor over a tag name, visually select text, use the left-mouse-button (LMB)'
         end
 
         entry do
