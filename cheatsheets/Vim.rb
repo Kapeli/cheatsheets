@@ -842,6 +842,19 @@ cheatsheet do
         end
     end
 
+    category do
+        id 'Interal Lists'
+        
+        entry do
+            command ':cw'
+            name 'Open "quickfix list" (one global list)'
+        end
+        entry do
+            command ':lw'
+            name 'Open "location list" (one per window)'
+        end
+    end
+
     notes <<-'END'
     * Based on the cheat sheet from [fprintf](http://www.fprintf.net/vimCheatSheet.html).
     * Converted by [Arief Bayu Purwanto](https://github.com/ariefbayu).
