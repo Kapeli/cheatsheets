@@ -666,6 +666,16 @@ cheatsheet do
             command 'N'
             name 'Repeat the latest `/` or `?` [count] times in opposite direction'
         end
+        entry do
+            command ':lv {pattern} [g][j] {file(s)}'
+            name 'Search in Files with internal grep'
+            notes <<-'END'
+            Results are put into "quickfix list" open with :cw
+            * 'g' return all matches not just one per line 
+            * 'j' don't jump to first match automatically
+            * for recursive search use ** file pattern like **/*.c
+            END
+        end
     end
 
     category do
