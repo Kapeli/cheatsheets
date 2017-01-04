@@ -32,7 +32,7 @@ cheatsheet do
         end
         entry do
             command ':wqa'
-            name 'Quite and write all buffers / tabs'
+            name 'Quit and write all buffers / tabs'
         end
         entry do
             command ':wq!'
@@ -668,12 +668,13 @@ cheatsheet do
         end
         entry do
             command ':lv {pattern} [g][j] {file(s)}'
-            name 'Search in Files with internal grep'
+            name 'Search in files with internal grep'
             notes <<-'END'
-            Results are put into "quickfix list" open with :cw
+            Results are put into "quickfix list" open with `:cw`
+
             * 'g' return all matches not just one per line 
             * 'j' don't jump to first match automatically
-            * for recursive search use ** file pattern like **/*.c
+            * for recursive search use `**` file pattern like `**/*.c`
             END
         end
     end
@@ -820,11 +821,11 @@ cheatsheet do
     end
 
     category do
-        id 'BROWSING WITH TAGS'
+        id 'Browsing with Tags'
         entry do
             notes <<-'END'
                 When editing programs, there is often a need to jump to another location. Vim uses a tags file that lists each word and
-                locations. The tags file has to be created by a utility able to handle the syntax of your files, and has to be updated after significant editing has occurred.
+                location. The tags file has to be created by a utility able to handle the syntax of your files, and has to be updated after significant editing has occurred.
             END
         end
 
@@ -833,7 +834,7 @@ cheatsheet do
             command 'LMB-on-tag+CTRL'
             command 'g LMB-on-tag'
             name 'Jump to tag'
-            notes 'Postion the cursor over a tag name, visually select text, use the left-mouse-button (LMB)'
+            notes 'Postion the cursor over a tag name, visually select text, use the left-mouse-button (LMB).'
         end
 
         entry do
