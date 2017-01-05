@@ -11,59 +11,58 @@ cheatsheet do
     id 'Mac Key Commands'  # Must be unique and is used as title of the category
 
     entry do
-      command 'CMD+p'         # Optional
-      command 'CTRL+p'        # Multiple commands are supported
+      command 'CMD+P'         # Optional
+      command 'CTRL+P'        # Multiple commands are supported
       name 'Open Anything and begin searching for file'    # A short name, can contain Markdown or HTML
-      notes 'Some notes'      # Optional longer explanation, can contain Markdown or HTML
     end
     entry do
-      command 'CMD+n'
+      command 'CMD+N'
       name 'New Tab'
     end
     entry do
-      command 'CMD+SHIFT+n'
+      command 'CMD+SHIFT+N'
       name 'New Window'
     end
     entry do
-      command 'CMD+SHIFT+t'
+      command 'CMD+SHIFT+T'
       name 'Reopen Last Closed Tab'
     end
     entry do
-      command 'CMD+w'
+      command 'CMD+W'
       name 'Close Active Tab'
     end
     entry do
-      command 'CMD+s'
+      command 'CMD+S'
       name 'Save'
     end
     entry do
-      command 'CMD+z'
+      command 'CMD+Z'
       name 'Undo'
     end
     entry do
-      command 'CMD+SHIFT+z'
+      command 'CMD+SHIFT+Z'
       name 'Redo'
     end
     entry do
-      command 'CMD+enter'
+      command 'CMD+ENTER'
       name 'Distraction free full screen mode (enter/exit)'
     end
     entry do
-      command 'CMD+e'
+      command 'CMD+E'
       name 'File explorer (NerdTree)'
     end
     entry do
       command 'CMD+SHIFT+['
       command 'CTRL+TAB'
-      command 'SHIFT+space'
+      command 'SHIFT+SPACE'
       command 'SHIFT+TAB'
       name 'Prev Tab'
     end
     entry do
       command 'CMD+SHIFT+]'
       command 'CTRL+SHIFT+TAB'
-      command 'space'
-      command 'tab'
+      command 'SPACE'
+      command 'TAB'
       name 'Next Tab'
     end
     entry do
@@ -75,7 +74,7 @@ cheatsheet do
       name 'Sort lines'
     end
     entry do
-      command 'CMD+SHIFT+p'
+      command 'CMD+SHIFT+P'
       name 'Toggle Spell Check'
     end
     entry do
@@ -83,15 +82,15 @@ cheatsheet do
       name 'Toggle Comments (line or selection)'
     end
     entry do
-      command 'CMD+SHIFT+m'
+      command 'CMD+SHIFT+M'
       name 'Format & indent entire file, restore custor'
     end
     entry do
-      command 'CMD+r'
+      command 'CMD+R'
       name 'Toggle quickfix list'
     end
     entry do
-      command 'CMD+SHIFT+r'
+      command 'CMD+SHIFT+R'
       name 'Toggle Error List'
     end
     entry do
@@ -99,8 +98,8 @@ cheatsheet do
       name 'Back to VIM navigation mode (Mega Escape)'
     end
     entry do
-      command 'tab'
-      command 'enter'
+      command 'TAB'
+      command 'ENTER'
       name 'Accept highlighted autocomplete entry'
       notes <<-'END'
         * tab also triggers a snippet when applicable, and tab will allow "tabbing" through the snippet placeholders.'
@@ -129,7 +128,7 @@ cheatsheet do
     end
 
     entry do
-      command 'enter'
+      command 'ENTER'
       name 'Opens a file in new tab or jump to existing window if already open'
     end
 
@@ -189,19 +188,21 @@ cheatsheet do
     end
 
     entry do
-      command 'CMD+SHIFT+c'
+      command 'CMD+SHIFT+C'
       name 'While searching, refreshes the search results if files have changed on disk'
     end
 
     entry do
-      command 'CTRL+c'
+      command 'CTRL+C'
       name 'Kill slow search'
     end
   end
 
-  category do
-    id 'Javascript Support'
-  end
+# todo reminder
+#  category do
+#    id 'Javascript Support'
+#  end
   
+  notes 'See: https://github.com/jordwalke/vimbox'
   notes 'Created by Robert M. Münch, Saphirion AG, Switzerland'
 end
