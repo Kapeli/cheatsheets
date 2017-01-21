@@ -137,7 +137,7 @@ cheatsheet do
       
       **atomic (default), nonatomic** – Atomic properties are thread-safe. Nonatomic properties are not thread-safe. Nonatomic property access is faster than atomic and often used in single- threaded apps, or cases where you’re absolutely sure the property will only be accessed from one thread.
       
-      **weak (default), strong** – Available if automatic reference counting (ARC) is enabled. The keyword strong is synonymous to retain, while weak is synonymous to assign, except a weak property is set to nil if instance is deallocated.
+      **strong (default), weak** – Available if automatic reference counting (ARC) is enabled. The keyword strong is synonymous to retain, while weak is synonymous to assign, except a weak property is set to nil if instance is deallocated.
       END
     end
     entry do
