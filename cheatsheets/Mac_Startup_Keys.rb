@@ -58,6 +58,11 @@ cheatsheet do
 			name 'Start from the macOS Recovery System'
 			notes 'Available on Macs that ship with macOS Lion or newer. Some CPUs require an [EFI BootROM update to support this feature](http://support.apple.com/kb/HT4904).'
 		end
+		entry do
+			command 'CMD+ALT+R'
+			name 'Download and start macOS Recovery System'
+			notes 'A network connection is required for this to work.'
+		end
 	end
 	notes '* For the best experience with startup keys, press the keys immediately after the startup tone plays.'
 end

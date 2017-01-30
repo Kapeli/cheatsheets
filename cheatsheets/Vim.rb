@@ -32,7 +32,7 @@ cheatsheet do
         end
         entry do
             command ':wqa'
-            name 'Quite and write all buffers / tabs'
+            name 'Quit and write all buffers / tabs'
         end
         entry do
             command ':wq!'
@@ -212,7 +212,7 @@ cheatsheet do
         entry do
             command '{Visual}U'
             name 'Uppercase highlighted text'
-        end
+    end
         entry do
               command 'SHIFT+I<comment-char>ESC'
               name 'Comment Vertical Selection'
@@ -699,12 +699,13 @@ cheatsheet do
         end
         entry do
             command ':lv {pattern} [g][j] {file(s)}'
-            name 'Search in Files with internal grep'
+            name 'Search in files with internal grep'
             notes <<-'END'
-            Results are put into "quickfix list" open with :cw
+            Results are put into "quickfix list" open with `:cw`
+
             * 'g' return all matches not just one per line 
             * 'j' don't jump to first match automatically
-            * for recursive search use ** file pattern like **/*.c
+            * for recursive search use `**` file pattern like `**/*.c`
             END
         end
     end
@@ -748,7 +749,7 @@ cheatsheet do
         entry do
               command 'viw'
               name 'Visually select inner word (where the cursor is positioned)'
-        end
+    end
     end
 
 
@@ -855,11 +856,11 @@ cheatsheet do
     end
 
     category do
-        id 'Browsing With Tags'
+        id 'Browsing with Tags'
         entry do
             notes <<-'END'
                 When editing programs, there is often a need to jump to another location. Vim uses a tags file that lists each word and
-                locations. The tags file has to be created by a utility able to handle the syntax of your files, and has to be updated after significant editing has occurred.
+                location. The tags file has to be created by a utility able to handle the syntax of your files, and has to be updated after significant editing has occurred.
             END
         end
 
@@ -880,12 +881,12 @@ cheatsheet do
           	command ':tags'
             name 'Show tag stack'
             notes 'List of return locations, used by CTRL+t'
-          end
+    end
     end
 
     category do
         id 'Internal Lists'
-          entry do
+        entry do
             notes <<-'END'
               * Vim has one global quickfix list. The list contains file positions filled by other commands.
               * Vim has one location list per window. The list is similar to a quickfix list and contains a list of positions in filesi.

@@ -1,35 +1,32 @@
 cheatsheet do
-  title 'VimBox'               # Will be displayed by Dash in the docset list
-  docset_file_name 'vimbox'    # Used for the filename of the docset
-  keyword 'vb'             # Used as the initial search keyword (listed in Preferences > Docsets)
-  # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
+  title 'VimBox'
+  docset_file_name 'VimBox'
+  keyword 'vb'
+  source_url 'http://cheat.kapeli.com'
 
-  introduction 'Modern MacVim Configuration: Mac Keyboard mappings, autocomplete, bundles etc.'  # Optional, can contain Markdown or HTML
-
-  # A cheat sheet must consist of categories
   category do
-    id 'Mac Key Commands'  # Must be unique and is used as title of the category
+    id 'Mac Key Commands'
 
     entry do
-      command 'CMD+P'         # Optional
-      command 'CTRL+P'        # Multiple commands are supported
-      name 'Open Anything and begin searching for file'    # A short name, can contain Markdown or HTML
+      command 'CMD+P'
+      command 'CTRL+P'
+      name 'Open anything and begin searching for file'
     end
     entry do
       command 'CMD+N'
-      name 'New Tab'
+      name 'New tab'
     end
     entry do
       command 'CMD+SHIFT+N'
-      name 'New Window'
+      name 'New window'
     end
     entry do
       command 'CMD+SHIFT+T'
-      name 'Reopen Last Closed Tab'
+      name 'Reopen last closed tab'
     end
     entry do
       command 'CMD+W'
-      name 'Close Active Tab'
+      name 'Close active tab'
     end
     entry do
       command 'CMD+S'
@@ -44,7 +41,7 @@ cheatsheet do
       name 'Redo'
     end
     entry do
-      command 'CMD+ENTER'
+      command 'CMD+Enter'
       name 'Distraction free full screen mode (enter/exit)'
     end
     entry do
@@ -53,17 +50,17 @@ cheatsheet do
     end
     entry do
       command 'CMD+SHIFT+['
-      command 'CTRL+TAB'
-      command 'SHIFT+SPACE'
-      command 'SHIFT+TAB'
-      name 'Prev Tab'
+      command 'CTRL+Tab'
+      command 'SHIFT+Space'
+      command 'SHIFT+Tab'
+      name 'Previous tab'
     end
     entry do
       command 'CMD+SHIFT+]'
-      command 'CTRL+SHIFT+TAB'
-      command 'SPACE'
-      command 'TAB'
-      name 'Next Tab'
+      command 'CTRL+SHIFT+Tab'
+      command 'Space'
+      command 'Tab'
+      name 'Next tab'
     end
     entry do
       command 'CMD+1'
@@ -75,15 +72,15 @@ cheatsheet do
     end
     entry do
       command 'CMD+SHIFT+P'
-      name 'Toggle Spell Check'
+      name 'Toggle spell check'
     end
     entry do
       command 'CMD+/'
-      name 'Toggle Comments (line or selection)'
+      name 'Toggle comments (line or selection)'
     end
     entry do
       command 'CMD+SHIFT+M'
-      name 'Format & indent entire file, restore custor'
+      name 'Format & indent entire file, restore cursor'
     end
     entry do
       command 'CMD+R'
@@ -91,20 +88,20 @@ cheatsheet do
     end
     entry do
       command 'CMD+SHIFT+R'
-      name 'Toggle Error List'
+      name 'Toggle error list'
     end
     entry do
       command 'CTRL+1'
-      name 'Back to VIM navigation mode (Mega Escape)'
+      name 'Back to Vim navigation mode (Mega Escape)'
     end
     entry do
-      command 'TAB'
-      command 'ENTER'
+      command 'Tab'
+      command 'Enter'
       name 'Accept highlighted autocomplete entry'
       notes <<-'END'
-        * tab also triggers a snippet when applicable, and tab will allow "tabbing" through the snippet placeholders.'
-        * place custom snippets in ~/.vim/myUltiSnippets/
-        * CTRLL+ENTER / SHIFT+ENTER to insert newline when autocomplete window is open
+        * Tab also triggers a snippet when applicable, and tab will allow "tabbing" through the snippet placeholders
+        * Place custom snippets in ~/.vim/myUltiSnippets/
+        * `CTRL+Enter` / `SHIFT+Enter` to insert newline when autocomplete window is open
       END
     end
   end
@@ -128,18 +125,18 @@ cheatsheet do
     end
 
     entry do
-      command 'ENTER'
-      name 'Opens a file in new tab or jump to existing window if already open'
+      command 'Enter'
+      name 'Open a file in new tab or jump to existing window if already open'
     end
 
     entry do
       command 's'
-      name 'Opens a file in vertical split or jump to existing window if already open'
+      name 'Open a file in vertical split or jump to existing window if already open'
     end
 
     entry do
       command 'h'
-      name 'Opens a file in horizontal split or jump to existing window if already open'
+      name 'Open a file in horizontal split or jump to existing window if already open'
     end
 
     entry do
@@ -154,12 +151,12 @@ cheatsheet do
 
     entry do
       command 'CD'
-      name 'Set file explorer dir to Vim CWD'
+      name 'Set file explorer directory to Vim `cwd`'
     end
 
     entry do
       command 'cd'
-      name 'Set Vim CWD to file explorer directory'
+      name 'Set Vim `cwd` to file explorer directory'
     end
 
     entry do
@@ -173,18 +170,18 @@ cheatsheet do
     id 'Command-P'
 
     entry do
-      command 'ENTER'
-      name 'While searching, opens the top hit in new tab or jump to existing window if already open'
+      command 'Enter'
+      name 'While searching, opens the top hit in new tab or jumps to existing window if already open'
     end
 
     entry do
       command 'c-s'
-      name 'While searching, opens the top hit in a vertical split or jump to existing window if already open'
+      name 'While searching, opens the top hit in a vertical split or jumps to existing window if already open'
     end
 
     entry do
       command 'c-h'
-      name 'While searching, opens the top hit in a horizontal split or jump to existing window if already open'
+      name 'While searching, opens the top hit in a horizontal split or jumps to existing window if already open'
     end
 
     entry do
@@ -236,6 +233,5 @@ cheatsheet do
 #    id 'Javascript Support'
 #  end
   
-  notes 'See: https://github.com/jordwalke/vimbox'
-  notes 'Created by Robert M. Münch, Saphirion AG, Switzerland'
+  notes '* Created by Robert M. Münch, Saphirion AG, Switzerland, based on [https://github.com/jordwalke/vimbox](https://github.com/jordwalke/vimbox).'
 end
