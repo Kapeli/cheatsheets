@@ -226,6 +226,23 @@ cheatsheet do
     end
 
     category do
+        id 'Information'
+
+        entry do
+          command '%'
+          name 'Jump to matching brace'
+        end
+        entry do
+          command '*'
+          name 'Highlight all orrurences of word under cursor'
+        end
+        entry do
+          command 'ga'
+          name 'Show ASCII value of char under cursor'
+        end
+    end
+
+    category do
         id 'Ranges'
         entry do
             notes <<-'END'
@@ -838,7 +855,7 @@ cheatsheet do
     end
 
     category do
-        id 'BROWSING WITH TAGS'
+        id 'Browsing With Tags'
         entry do
             notes <<-'END'
                 When editing programs, there is often a need to jump to another location. Vim uses a tags file that lists each word and
@@ -867,7 +884,7 @@ cheatsheet do
     end
 
     category do
-        id 'Interal Lists'
+        id 'Internal Lists'
           entry do
             notes <<-'END'
               * Vim has one global quickfix list. The list contains file positions filled by other commands.
