@@ -195,6 +195,39 @@ cheatsheet do
     end
   end
 
+  category do
+    id 'Bundles (vim-plug)'
+
+    entry do
+      command ':PlugUpgrade'
+      name 'Check if a new version of vim-plug is available'
+    end
+    entry do
+    	command ':PlugStatus'
+      name 'Check the status of plugins'
+    end
+    entry do
+    	command ':PlugInstall'
+      name 'Install all specified plugins. Already installed are not re-installed, missing will be installed'
+    end
+    entry do
+    	command ':PlugUpdate'
+      name 'Install or Update configured plugin'
+    end
+    entry do
+    	command ':PlugClean[!]'
+      name 'Remove unused directories, [!] clean without prompt'
+    end
+    entry do
+    	command ':PlugDiff'
+      name 'Examine changes from the previous update and the pending changes'
+    end
+    entry do
+    	command ':PlugSnapshot'
+      name 'Generate script for restoring the current snapshot of the plugins'
+    end
+  end
+
 # todo reminder
 #  category do
 #    id 'Javascript Support'

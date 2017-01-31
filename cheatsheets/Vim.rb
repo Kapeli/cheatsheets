@@ -209,6 +209,37 @@ cheatsheet do
             command '{Visual}~'
             name 'Switch case of highlighted text'
         end
+        entry do
+            command '{Visual}U'
+            name 'Uppercase highlighted text'
+    end
+        entry do
+              command 'SHIFT+I<comment-char>ESC'
+              name 'Comment Vertical Selection'
+              notes 'Select range in column where comment char should appear with CTRL+V'
+        end
+        entry do
+              command 'x'
+              name 'Uncomment Vertical Selection'
+              notes 'Select range in column where comment char should be removed with CTRL+V'
+        end
+    end
+
+    category do
+        id 'Information'
+
+        entry do
+          command '%'
+          name 'Jump to matching brace'
+        end
+        entry do
+          command '*'
+          name 'Highlight all orrurences of word under cursor'
+        end
+        entry do
+          command 'ga'
+          name 'Show ASCII value of char under cursor'
+        end
     end
 
     category do
@@ -715,6 +746,10 @@ cheatsheet do
             command '<Esc>'
             name 'Exit Visual mode without making any changes'
         end
+        entry do
+              command 'viw'
+              name 'Visually select inner word (where the cursor is positioned)'
+    end
     end
 
 
@@ -834,21 +869,36 @@ cheatsheet do
             command 'LMB-on-tag+CTRL'
             command 'g LMB-on-tag'
             name 'Jump to tag'
-            notes 'Postion the cursor over a tag name, visually select text, use the left-mouse-button (LMB).'
+            notes 'Postion the cursor over a tag name, visually select text, use the left-mouse-button (LMB). Pushes current location to tag stack for later return.'
         end
 
         entry do
             command 'CTRL+t'
             name 'Return after jump'
+            notes 'Pops location to jump to from tag stack'
         end
+          entry do
+          	command ':tags'
+            name 'Show tag stack'
+            notes 'List of return locations, used by CTRL+t'
+    end
     end
 
     category do
-        id 'Interal Lists'
-        
+        id 'Internal Lists'
+        entry do
+            notes <<-'END'
+              * Vim has one global quickfix list. The list contains file positions filled by other commands.
+              * Vim has one location list per window. The list is similar to a quickfix list and contains a list of positions in filesi.
+            END
+          end
         entry do
             command ':cw'
             name 'Open "quickfix list" (one global list)'
+        end
+        entry do
+          command ':ccl'
+          name 'Close "quickfix list"'
         end
         entry do
             command ':lw'
