@@ -10,7 +10,7 @@ cheatsheet do
         entry do
             command ':q[uit]'
             name 'Quit Vim'
-            notes 'This fails when changes have been made'
+            notes 'This fails when changes have been made.'
         end
         entry do
             command ':q[uit]!'
@@ -57,7 +57,7 @@ cheatsheet do
         entry do
             command 'ZQ'
             name 'Quit current file and exit'
-            notes 'Same as `:q!`'
+            notes 'Same as `:q!`.'
         end
         
     end
@@ -68,12 +68,12 @@ cheatsheet do
         entry do
             command ':e[dit]'
             name 'Edit the current file'
-            notes 'This is useful to re-edit the current file, when it has been changed outside of Vim'
+            notes 'This is useful to re-edit the current file, when it has been changed outside of Vim.'
         end
         entry do
             command ':e[dit]!'
             name 'Edit the current file always'
-            notes 'Discard any changes to the current buffer. This is useful if you want to start all over again'
+            notes 'Discard any changes to the current buffer. This is useful if you want to start all over again.'
         end
         entry do
             command ':e[dit] {file}'
@@ -82,12 +82,12 @@ cheatsheet do
         entry do
             command ':e[dit]! {file}'
             name 'Edit {file} always'
-            notes 'Discard any changes to the current buffer'
+            notes 'Discard any changes to the current buffer.'
         end
         entry do
             command 'gf'
             name 'Edit the file whose name is under or after the cursor'
-            notes 'Mnemonic: `goto file`'
+            notes 'Mnemonic: `goto file`.'
         end
     end
 
@@ -163,7 +163,7 @@ cheatsheet do
             command '{Visual}x'
             command '{Visual}d'
             name 'Delete the highlighted text'
-            notes 'For {Visual} see Selecting Text'
+            notes 'For {Visual} see Selecting Text.'
         end
         entry do
             command '{Visual}CTRL-H'
@@ -178,7 +178,7 @@ cheatsheet do
         entry do
             command ':[range]d[elete]'
             name 'Delete [range] lines'
-            notes 'Default: current line'
+            notes 'Default: current line.'
         end
         entry do
             command ':[range]d[elete] {count}'
@@ -199,7 +199,7 @@ cheatsheet do
         entry do
             command '~'
             name 'Switch case of the character under the cursor and move the cursor to the right'
-            notes 'If a [count] is given, do that many characters'
+            notes 'If a [count] is given, do that many characters.'
         end
         entry do
             command 'g~{motion}'
@@ -215,13 +215,13 @@ cheatsheet do
     end
         entry do
               command 'SHIFT+I<comment-char>ESC'
-              name 'Comment Vertical Selection'
-              notes 'Select range in column where comment char should appear with CTRL+V'
+              name 'Comment vertical selection'
+              notes 'Select range in column where comment char should appear with `CTRL+V`.'
         end
         entry do
               command 'x'
-              name 'Uncomment Vertical Selection'
-              notes 'Select range in column where comment char should be removed with CTRL+V'
+              name 'Uncomment vertical selection'
+              notes 'Select range in column where comment char should be removed with `CTRL+V`.'
         end
     end
 
@@ -234,7 +234,7 @@ cheatsheet do
         end
         entry do
           command '*'
-          name 'Highlight all orrurences of word under cursor'
+          name 'Highlight all occurrences of word under cursor'
         end
         entry do
           command 'ga'
@@ -273,7 +273,7 @@ cheatsheet do
             ```
             :[range]s[ubstitute] [c][e][g][r][i][I] [count] :[range]&[c][e][g][r][i][I] [count]
             ```
-            You may add extra flags'
+            You may add extra flags.'
         end
         entry do
             notes <<-'END'
@@ -302,7 +302,7 @@ cheatsheet do
         entry do
             command '"{a-zA-Z0-9.%#:-"}'
             name 'Use register {a-zA-Z0-9.%#:-"} for next delete, yank or put'
-            notes 'Use uppercase character to append with delete and yank. {.%#:} only work with put'
+            notes 'Use uppercase character to append with delete and yank. {.%#:} only work with put.'
         end
         entry do
             command ':reg[isters]'
@@ -326,7 +326,7 @@ cheatsheet do
         entry do
             command '{Visual}["x]y'
             name 'Yank the highlighted text \[into register x\]'
-            notes 'For {Visual} see Selecting Text'
+            notes 'For {Visual} see Selecting Text.'
         end
         entry do
             command '{Visual}["x]Y'
@@ -339,7 +339,7 @@ cheatsheet do
         entry do
             command ':[range]y[ank] [x] {count}'
             name 'Yank {count} lines, starting with last line number in \[range\], [into register x]'
-            notes 'Default: current line'
+            notes 'Default: current line.'
         end
         entry do
             command '["x]p'
@@ -360,12 +360,12 @@ cheatsheet do
         entry do
             command ':[line]pu[t] [x]'
             name 'Put the text [from register x] after \[line\]'
-            notes 'Default: current line'
+            notes 'Default: current line.'
         end
         entry do
             command ':[line]pu[t]! [x]'
             name 'Put the text [from register x] before \[line\]'
-            notes 'Default: current line'
+            notes 'Default: current line.'
         end
     end
 
@@ -515,13 +515,13 @@ cheatsheet do
             command '<C-End>'
             command 'G'
             name 'Goto line [count] on the first non-blank character'
-            notes 'Default: last line'
+            notes 'Default: last line.'
         end
         entry do
             command '<C-Home>'
             command 'gg'
             name 'Goto line [count] on the first non-blank character'
-            notes 'Default: first line'
+            notes 'Default: first line.'
         end
         entry do
             command '<S-Right>'
@@ -589,7 +589,7 @@ cheatsheet do
         entry do
             command ']]'
             name '[count] sections forward or to the next \'{\' in the first column'
-            notes 'When used after an operator, then the \'}\' in the first column'
+            notes 'When used after an operator, then the \'}\' in the first column.'
         end
         entry do
             command ']['
@@ -612,19 +612,19 @@ cheatsheet do
         entry do
             command 'm{a-zA-Z}'
             name 'Set mark {a-zA-Z} at cursor position'
-            notes 'Does not move the cursor, this is not a motion command'
+            notes 'Does not move the cursor, this is not a motion command.'
         end
         entry do
             command 'm\''
             command 'm\`'
             name 'Set the previous context mark'
-            notes 'This can be jumped to with the `\'\'` or ``` `` ``` command. Does not move the cursor, this is not a motion command'
+            notes 'This can be jumped to with the `\'\'` or ``` `` ``` command. Does not move the cursor, this is not a motion command.'
         end
         entry do
             command ':[range]ma[rk] {a-zA-Z}'
             command ':[range]k{a-zA-Z}'
             name 'Set mark {a-zA-Z} at last line number in [range], column 0'
-            notes 'Default is cursor line'
+            notes 'Default is cursor line.'
         end
         entry do
             command '\'{a-z}'
@@ -670,7 +670,7 @@ cheatsheet do
         entry do
             command '//{offset}<CR>'
             name 'Search forward for the [count]\'th latest used pattern with new'
-            notes 'If {offset} is empty no offset is used'
+            notes 'If {offset} is empty no offset is used.'
         end
         entry do
             command '?{pattern}[?]<CR>'
@@ -687,7 +687,7 @@ cheatsheet do
         entry do
             command '??{offset}<CR>'
             name 'Search backward for the [count]\'th latest used pattern with new {offset}'
-            notes 'If {offset} is empty no offset is used'
+            notes 'If {offset} is empty no offset is used.'
         end
         entry do
             command 'n'
@@ -759,7 +759,7 @@ cheatsheet do
         entry do
             command 'CTRL-Z'
             name 'Suspend Vim'
-            notes 'Like `:stop`. Works in Normal and in Visual mode. In Insert and Command-line mode, the CTRL-Z is inserted as a normal character'
+            notes 'Like `:stop`. Works in Normal and in Visual mode. In Insert and Command-line mode, the CTRL-Z is inserted as a normal character.'
         end
         entry do
             command ':sus[pend][!]'
@@ -875,12 +875,12 @@ cheatsheet do
         entry do
             command 'CTRL+t'
             name 'Return after jump'
-            notes 'Pops location to jump to from tag stack'
+            notes 'Pops location to jump to from tag stack.'
         end
           entry do
           	command ':tags'
             name 'Show tag stack'
-            notes 'List of return locations, used by CTRL+t'
+            notes 'List of return locations, used by `CTRL+t`.'
     end
     end
 

@@ -212,11 +212,11 @@ cheatsheet do
     end
     entry do
     	command ':PlugUpdate'
-      name 'Install or Update configured plugin'
+      name 'Install or update configured plugin'
     end
     entry do
     	command ':PlugClean[!]'
-      name 'Remove unused directories, [!] clean without prompt'
+      name 'Remove unused directories, `[!]` clean without prompt'
     end
     entry do
     	command ':PlugDiff'
