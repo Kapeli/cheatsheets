@@ -28,7 +28,7 @@ cheatsheet do
       end
       entry do
         command ':bento:'
-        name '🍱 Adding or updating assets.'
+        name '🍱 Adding or updating assets'
       end
       entry do
         command ':twisted-rightwards-arrows:'
