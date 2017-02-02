@@ -27,6 +27,10 @@ cheatsheet do
         name '👷 Adding CI build system'
       end
       entry do
+        command ':bento:'
+        name '🍱 Adding or updating assets'
+      end
+      entry do
         command ':twisted-rightwards-arrows:'
         name '🔀 Merging branches'
       end
@@ -49,6 +53,10 @@ cheatsheet do
       entry do
         command ':bookmark:'
         name '🔖 Releasing / Version tags'
+      end
+      entry do 
+        command ':boom:'
+        name '💥 Introducing breaking changes'
       end
     end
 
