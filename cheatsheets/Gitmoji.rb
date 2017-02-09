@@ -135,6 +135,10 @@ cheatsheet do
         name '🎨 Improving structure / format of the code'
       end
       entry do
+        command ':ok_hand:'
+        name '👌🏻 Updating code due to code review changes'
+      end
+      entry do
         command ':zap:'
         name '⚡ Improving performance'
       end
