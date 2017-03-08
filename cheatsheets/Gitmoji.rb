@@ -143,6 +143,10 @@ cheatsheet do
         name '⚡ Improving performance'
       end
       entry do
+        command ':wheelchair:'
+        name '♿ Improving accessibility'
+      end
+      entry do
         command ':lipstick:'
         name '💄 Updating the UI and style files'
       end
