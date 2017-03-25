@@ -632,5 +632,5 @@ cheatsheet do
     end
 
 
-    notes 'This cheatsheet was made by Rieon With Love'
+    notes 'Made with love by [Rieon](http://rieon.cn/ "Rieon\'s Website")'
 end
