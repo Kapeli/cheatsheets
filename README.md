@@ -11,8 +11,6 @@ To modify an existing cheet sheet, simply fork this repo and look inside the "ch
 
 # Guidelines
 
-Important: don't let guidelines stop you from contributing a cheat sheet. Even if your cheat sheet does not follow the guidelines, it will be accepted and then modified/improved later on by me.
-
 **1. Naming**
 
 All the `categories`, `commands` and `names` in your cheat sheet will be inserted in the search index and will be searchable within Dash. Try to keep these entries as concise as possible and complement them with `notes` if more details are required.
