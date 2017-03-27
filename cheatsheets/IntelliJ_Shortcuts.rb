@@ -16,15 +16,15 @@ cheatsheet do
       name 'Save all'
     end
     entry do
-      command 'CMD+Option+Y'
+      command 'CMD+OPTION+Y'
       name 'Synchronize'
     end
     entry do
-      command 'CMD+Shift+F12'
+      command 'CMD+SHIFT+F12'
       name 'Toggle maximizing editor'
     end
     entry do
-      command 'Option+Shift+I'
+      command 'OPTION+SHIFT+I'
       name 'Inspect current file with current profile'
     end
     entry do
@@ -36,7 +36,7 @@ cheatsheet do
       name 'Open Project Structure dialog'
     end
     entry do
-      command 'CMD+Shift+A'
+      command 'CMD+SHIFT+A'
       name 'Find Action'
     end
   end
@@ -48,19 +48,19 @@ cheatsheet do
       name 'Step over / into'
     end
     entry do
-      command 'Shift+F8/Shift+F7'
+      command 'SHIFT+F8/SHIFT+F7'
       name 'Smart step into / Step out'
     end
     entry do
-      command 'Option+F9'
+      command 'OPTION+F9'
       name 'Run to cursor'
     end
     entry do
-      command 'Option+F8'
+      command 'OPTION+F8'
       name 'Evaluate expression'
     end
     entry do
-      command 'CMD+Option+R'
+      command 'CMD+OPTION+R'
       name 'Resume program'
     end
     entry do
@@ -68,7 +68,7 @@ cheatsheet do
       name 'Toggle breakpoint'
     end
     entry do
-      command 'CMD+Shift+F8'
+      command 'CMD+SHIFT+F8'
       name 'View breakpoint'
     end
   end
@@ -77,7 +77,7 @@ cheatsheet do
   category do
     id 'Search / Replace'
     entry do
-      command 'Double+Shift'
+      command 'Double+SHIFT'
       name 'Search everywhere'
     end
     entry do
@@ -105,11 +105,11 @@ cheatsheet do
       name 'Select next occurrence'
     end
     entry do
-      command 'Control+CMD+G'
+      command 'CONTROL+CMD+G'
       name 'Select all occurrence'
     end
     entry do
-      command 'Control+G'
+      command 'CONTROL+G'
       name 'Unselect occurrence'
     end
   end
@@ -117,15 +117,15 @@ cheatsheet do
   category do
     id 'Editing'
     entry do
-      command 'Control+Space'
+      command 'CONTROL+Space'
       name 'Basic code completion'
     end
     entry do
-      command 'Control+Shift+Space'
+      command 'CONTROL+SHIFT+Space'
       name 'Smart code completion'
     end
     entry do
-      command 'CMD+Shift+Enter'
+      command 'CMD+SHIFT+Enter'
       name 'Complete statement'
     end
     entry do
@@ -133,11 +133,11 @@ cheatsheet do
       name 'Parameter Info'
     end
     entry do
-      command 'Control+J'
+      command 'CONTROL+J'
       name 'Quick documentation lookup'
     end
     entry do
-      command 'Shift+F1'
+      command 'SHIFT+F1'
       name 'External Doc'
     end
     entry do
@@ -149,19 +149,19 @@ cheatsheet do
       name 'Show descriptions of error at caret'
     end
     entry do
-      command 'CMD+N+Control+Enter'
+      command 'CMD+N+CONTROL+Enter'
       name 'Generate code...'
     end
     entry do
-      command 'Control+O'
+      command 'CONTROL+O'
       name 'Override methods'
     end
     entry do
-      command 'Control+I'
+      command 'CONTROL+I'
       name 'Implement methods'
     end
     entry do
-      command 'CMD+Option+T'
+      command 'CMD+OPTION+T'
       name 'Surround with...'
     end
     entry do
@@ -169,19 +169,19 @@ cheatsheet do
       name 'Comment / uncomment with line comment'
     end
     entry do
-      command 'CMD+Option+/'
+      command 'CMD+OPTION+/'
       name 'Comment / uncomment with block comment'
     end
     entry do
-      command 'Option+PageUp'
+      command 'OPTION+PageUp'
       name 'Extend selection'
     end
     entry do
-      command 'Option+PageDown'
+      command 'OPTION+PageDown'
       name 'Shrink selection'
     end
     entry do
-      command 'Option+SHIFT+Q'
+      command 'OPTION+SHIFT+Q'
       name 'Context info'
     end
     entry do
@@ -189,15 +189,15 @@ cheatsheet do
       name 'Show intention actions and quick- xes'
     end
     entry do
-      command 'Option+Enter'
+      command 'OPTION+Enter'
       name 'Reformat code'
     end
     entry do
-      command 'Control+Option+O'
+      command 'CONTROL+OPTION+O'
       name 'Optimize imports'
     end
     entry do
-      command 'Control+Option+I'
+      command 'CONTROL+OPTION+I'
       name 'Auto-indent line(s)'
     end
     entry do
@@ -225,11 +225,11 @@ cheatsheet do
       name 'Duplicate current line'
     end
     entry do
-      command 'CMD+Return'
+      command 'CMD+RETURN'
       name 'Delete line at caret'
     end
     entry do
-      command 'Control+SHIFT+J'
+      command 'CONTROL+SHIFT+J'
       name 'Smart line join'
     end
     entry do
@@ -249,11 +249,11 @@ cheatsheet do
       name 'Select till code block end / start'
     end
     entry do
-      command 'Option+Return'
+      command 'OPTION+RETURN'
       name 'Delete to word end'
     end
     entry do
-      command 'Option+Return'
+      command 'OPTION+RETURN'
       name 'Delete to word start'
     end
     entry do
@@ -293,7 +293,7 @@ cheatsheet do
       name 'Rename'
     end
     entry do
-      command 'Control+T'
+      command 'CONTROL+T'
       name 'Refactor this'
     end
     entry do
@@ -301,27 +301,27 @@ cheatsheet do
       name 'Change Signature'
     end
     entry do
-      command 'CMD+Option+N'
+      command 'CMD+OPTION+N'
       name 'Inline'
     end
     entry do
-      command 'CMD+Option+M'
+      command 'CMD+OPTION+M'
       name 'Extract Method'
     end
     entry do
-      command 'CMD+Option+V'
+      command 'CMD+OPTION+V'
       name 'Extract Variable'
     end
     entry do
-      command 'CMD+Option+F'
+      command 'CMD+OPTION+F'
       name 'Extract Field'
     end
     entry do
-      command 'CMD+Option+C'
+      command 'CMD+OPTION+C'
       name 'Extract Constant'
     end
     entry do
-      command 'CMD+Option+P'
+      command 'CMD+OPTION+P'
       name 'Extract Parameter'
     end
   end
@@ -337,11 +337,11 @@ cheatsheet do
       name 'Go to file'
     end
     entry do
-      command 'CMD+Option+O'
+      command 'CMD+OPTION+O'
       name 'Go to symbol'
     end
     entry do
-      command 'Control+LeftArrow'
+      command 'CONTROL+LeftArrow'
       name 'Go to next'
     end
     entry do
@@ -357,19 +357,19 @@ cheatsheet do
       name 'Recent files popup'
     end
     entry do
-      command 'CMD+Option+LeftArrow'
+      command 'CMD+OPTION+LeftArrow'
       name 'Navigate back'
     end
     entry do
-      command 'CMD+Option+RightArrow'
+      command 'CMD+OPTION+RightArrow'
       name 'Navigate forward'
     end
     entry do
-      command 'CMD+SHIFT+Return'
+      command 'CMD+SHIFT+RETURN'
       name 'Navigate to last edit location'
     end
     entry do
-      command 'Option+F1'
+      command 'OPTION+F1'
       name 'Select current file or symbol in any view'
     end
     entry do
@@ -377,7 +377,7 @@ cheatsheet do
       name 'Go to declaration'
     end
     entry do
-      command 'CMD+Option+B'
+      command 'CMD+OPTION+B'
       name 'Go to implementation(s)'
     end
     entry do
@@ -385,7 +385,7 @@ cheatsheet do
       name 'Open quick definition lookup'
     end
     entry do
-      command 'Control+SHIFT+B'
+      command 'CONTROL+SHIFT+B'
       name 'Go to type declaration'
     end
     entry do
@@ -393,7 +393,7 @@ cheatsheet do
       name 'Go to super-method / super-class'
     end
     entry do
-      command 'Control+PageUP / Control+PageDOWN'
+      command 'CONTROL+PageUP / CONTROL+PageDOWN'
       name 'Go to previous / next method'
     end
     entry do
@@ -401,7 +401,7 @@ cheatsheet do
       name 'Move to code block end / start'
     end
      entry do
-      command 'Control+H'
+      command 'CONTROL+H'
       name 'File structure popup'
     end
     entry do
@@ -409,11 +409,11 @@ cheatsheet do
       name 'Type hierarchy'
     end
     entry do
-      command 'CMD+Option+P'
+      command 'CMD+OPTION+P'
       name 'Method hierarchy'
     end
     entry do
-      command 'Control+Option+H'
+      command 'CONTROL+OPTION+H'
       name 'Call hierarchy'
     end
     entry do
@@ -425,7 +425,7 @@ cheatsheet do
       name 'Edit source / View source'
     end
     entry do
-      command 'Option+Home'
+      command 'OPTION+Home'
       name 'Show navigation bar'
     end
     entry do
@@ -433,11 +433,11 @@ cheatsheet do
       name 'Toggle bookmark'
     end
     entry do
-      command 'Option+F3'
+      command 'OPTION+F3'
       name 'Toggle bookmark with mnemonic'
     end
     entry do
-      command 'Control+0...Control+9'
+      command 'CONTROL+0...CONTROL+9'
       name 'Go to numbered bookmark'
     end
     entry do
@@ -457,19 +457,19 @@ cheatsheet do
       name 'Compile selected file, package or module'
     end
     entry do
-      command 'Control+Option+R'
+      command 'CONTROL+OPTION+R'
       name 'Select configuration run'
     end
     entry do
-      command 'Control+R / Control+D'
+      command 'CONTROL+R / CONTROL+D'
       name 'Run/Debug'
     end
     entry do
-      command 'Control+Option+R'
+      command 'CONTROL+OPTION+R'
       name 'Run context con guration from editor'
     end
     entry do
-      command 'Control+Option+D'
+      command 'CONTROL+OPTION+D'
       name 'Select con guration debug'
     end
   end
@@ -481,7 +481,7 @@ cheatsheet do
       name 'Find usages in file'
     end
     entry do
-      command 'Option+F7'
+      command 'OPTION+F7'
       name 'Find usages'
     end
     entry do
@@ -489,7 +489,7 @@ cheatsheet do
       name 'Highlight usages in file'
     end
     entry do
-      command 'CMD+Option+F7'
+      command 'CMD+OPTION+F7'
       name 'Show usages'
     end
   end
@@ -509,7 +509,7 @@ cheatsheet do
       name 'Push commits'
     end
     entry do
-      command 'Control+V'
+      command 'CONTROL+V'
       name 'VCS quick popup'
     end
   end 
@@ -517,7 +517,7 @@ cheatsheet do
   category do
     id 'VCS / Local History'
     entry do
-      command 'CMD+Option+J'
+      command 'CMD+OPTION+J'
       name 'Surround with Live Template'
     end
     entry do
