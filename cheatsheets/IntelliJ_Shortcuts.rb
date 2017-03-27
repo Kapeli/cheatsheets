@@ -3,6 +3,7 @@ cheatsheet do
   docset_file_name 'IntelliJ_Shortcuts'
   keyword 'intellij'
   source_url 'http://cheat.kapeli.com'
+  introduction 'My *Intellij* cheat sheet'  
 
   category do
     id 'General'
