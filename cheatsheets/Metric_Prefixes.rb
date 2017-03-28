@@ -1,7 +1,8 @@
 cheatsheet do
   title 'Metric Prefixes'
-  docset_file_name 'Metric Prefixes'
+  docset_file_name 'Metric_Prefixes'
   keyword 'metric'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Metric Prefixes in Everyday Use'
@@ -94,7 +95,7 @@ cheatsheet do
   end
 
   notes "
-    * Based on Wikipedia's [prefix table](https://en.wikipedia.org/wiki/Metric_prefix)
-    * Added by [Hunter Gatewood](http://hcgatewood.me/about)
+    * Based on Wikipedia's [prefix table](https://en.wikipedia.org/wiki/Metric_prefix).
+    * Added by [Hunter Gatewood](http://hcgatewood.me/about).
       "
 end

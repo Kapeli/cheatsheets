@@ -1,14 +1,13 @@
 cheatsheet do
-  title 'IntelliJ'
+  title 'IntelliJ Shortcuts'
   docset_file_name 'IntelliJ_Shortcuts'
   keyword 'intellij'
   source_url 'http://cheat.kapeli.com'
-  introduction 'My *Intellij* cheat sheet'  
 
   category do
     id 'General'
     entry do
-      command 'CMD+0...CMD9'
+      command 'CMD+0..9'
       name 'Open corresponding tool window'
     end
     entry do
@@ -33,7 +32,7 @@ cheatsheet do
     end
     entry do
       command 'CMD+SHIFT+A'
-      name 'Find Action'
+      name 'Find action'
     end
   end
 
@@ -81,7 +80,7 @@ cheatsheet do
   category do
     id 'Search / Replace'
     entry do
-      command 'Double+SHIFT'
+      command 'Double SHIFT'
       name 'Search everywhere'
     end
     entry do
@@ -105,11 +104,11 @@ cheatsheet do
   category do
     id 'Editing'
     entry do
-      command 'CONTROL+Space'
+      command 'CTRL+Space'
       name 'Basic code completion'
     end
     entry do
-      command 'CONTROL+SHIFT+Space'
+      command 'CTRL+SHIFT+Space'
       name 'Smart code completion'
     end
     entry do
@@ -118,10 +117,10 @@ cheatsheet do
     end
     entry do
       command 'CMD+P'
-      name 'Parameter Info'
+      name 'Parameter info'
     end
     entry do
-      command 'CONTROL+J'
+      command 'CTRL+J'
       name 'Quick documentation lookup'
     end
     entry do
@@ -129,7 +128,7 @@ cheatsheet do
       name 'External Doc'
     end
     entry do
-      command 'CMD+mouse'
+      command 'CMD+Mouse'
       name 'Brief Info'
     end
     entry do
@@ -137,15 +136,15 @@ cheatsheet do
       name 'Show descriptions of error at caret'
     end
     entry do
-      command 'CMD+N+CONTROL+Enter'
+      command 'CMD+N CTRL+Enter'
       name 'Generate code...'
     end
     entry do
-      command 'CONTROL+O'
+      command 'CTRL+O'
       name 'Override methods'
     end
     entry do
-      command 'CONTROL+I'
+      command 'CTRL+I'
       name 'Implement methods'
     end
     entry do
@@ -161,11 +160,11 @@ cheatsheet do
       name 'Comment / uncomment with block comment'
     end
     entry do
-      command 'ALT+PageUp'
+      command 'ALT+Page Up'
       name 'Extend selection'
     end
     entry do
-      command 'ALT+PageDown'
+      command 'ALT+Page Down'
       name 'Shrink selection'
     end
     entry do
@@ -181,11 +180,11 @@ cheatsheet do
       name 'Reformat code'
     end
     entry do
-      command 'CONTROL+ALT+O'
+      command 'CTRL+ALT+O'
       name 'Optimize imports'
     end
     entry do
-      command 'CONTROL+ALT+I'
+      command 'CTRL+ALT+I'
       name 'Auto-indent line(s)'
     end
     entry do
@@ -197,11 +196,11 @@ cheatsheet do
       name 'Duplicate current line'
     end
     entry do
-      command 'CMD+RETURN'
+      command 'CMD+Return'
       name 'Delete line at caret'
     end
     entry do
-      command 'CONTROL+SHIFT+J'
+      command 'CTRL+SHIFT+J'
       name 'Smart line join'
     end
     entry do
@@ -225,11 +224,11 @@ cheatsheet do
       name 'Select till code block start'
     end
     entry do
-      command 'ALT+RETURN'
+      command 'ALT+Return'
       name 'Delete to word end'
     end
     entry do
-      command 'ALT+RETURN'
+      command 'ALT+Return'
       name 'Delete to word start'
     end
     entry do
@@ -261,20 +260,20 @@ cheatsheet do
       name 'Move'
     end
     entry do
-      command 'CMD+DELETE'
-      name 'Safe Delete'
+      command 'CMD+Delete'
+      name 'Safe delete'
     end
     entry do
       command 'SHIFT+F6'
       name 'Rename'
     end
     entry do
-      command 'CONTROL+T'
+      command 'CTRL+T'
       name 'Refactor this'
     end
     entry do
       command 'CMD+F6'
-      name 'Change Signature'
+      name 'Change signature'
     end
     entry do
       command 'CMD+ALT+N'
@@ -282,23 +281,23 @@ cheatsheet do
     end
     entry do
       command 'CMD+ALT+M'
-      name 'Extract Method'
+      name 'Extract method'
     end
     entry do
       command 'CMD+ALT+V'
-      name 'Extract Variable'
+      name 'Extract variable'
     end
     entry do
       command 'CMD+ALT+F'
-      name 'Extract Field'
+      name 'Extract field'
     end
     entry do
       command 'CMD+ALT+C'
-      name 'Extract Constant'
+      name 'Extract constant'
     end
     entry do
       command 'CMD+ALT+P'
-      name 'Extract Parameter'
+      name 'Extract parameter'
     end
   end
 
@@ -317,7 +316,7 @@ cheatsheet do
       name 'Go to symbol'
     end
     entry do
-      command 'CONTROL+LeftArrow'
+      command 'CTRL+Arrow Left'
       name 'Go to next'
     end
     entry do
@@ -333,15 +332,15 @@ cheatsheet do
       name 'Recent files popup'
     end
     entry do
-      command 'CMD+ALT+LeftArrow'
+      command 'CMD+ALT+Arrow Left'
       name 'Navigate back'
     end
     entry do
-      command 'CMD+ALT+RightArrow'
+      command 'CMD+ALT+Arrow Right'
       name 'Navigate forward'
     end
     entry do
-      command 'CMD+SHIFT+RETURN'
+      command 'CMD+SHIFT+Return'
       name 'Navigate to last edit location'
     end
     entry do
@@ -361,7 +360,7 @@ cheatsheet do
       name 'Open quick definition lookup'
     end
     entry do
-      command 'CONTROL+SHIFT+B'
+      command 'CTRL+SHIFT+B'
       name 'Go to type declaration'
     end
     entry do
@@ -369,11 +368,11 @@ cheatsheet do
       name 'Go to super-method'
     end
     entry do
-      command 'CONTROL+PageUP'
+      command 'CTRL+Page Up'
       name 'Go to previous'
     end
     entry do
-      command 'CONTROL+PageDOWN'
+      command 'CTRL+Page Down'
       name 'Go to next method'
     end
     entry do
@@ -385,7 +384,7 @@ cheatsheet do
       name 'Move to code block start'
     end
      entry do
-      command 'CONTROL+H'
+      command 'CTRL+H'
       name 'File structure popup'
     end
     entry do
@@ -397,7 +396,7 @@ cheatsheet do
       name 'Method hierarchy'
     end
     entry do
-      command 'CONTROL+ALT+H'
+      command 'CTRL+ALT+H'
       name 'Call hierarchy'
     end
     entry do
@@ -421,7 +420,7 @@ cheatsheet do
       name 'Toggle bookmark with mnemonic'
     end
     entry do
-      command 'CONTROL+0...CONTROL+9'
+      command 'CTRL+0..9'
       name 'Go to numbered bookmark'
     end
     entry do
@@ -441,15 +440,15 @@ cheatsheet do
       name 'Compile selected file, package or module'
     end
     entry do
-      command 'CONTROL+ALT+R'
+      command 'CTRL+ALT+R'
       name 'Select configuration run'
     end
     entry do
-      command 'CONTROL+ALT+R'
+      command 'CTRL+ALT+R'
       name 'Run context configuration from editor'
     end
     entry do
-      command 'CONTROL+ALT+D'
+      command 'CTRL+ALT+D'
       name 'Select configuration debug'
     end
   end
@@ -489,13 +488,9 @@ cheatsheet do
       name 'Push commits'
     end
     entry do
-      command 'CONTROL+V'
+      command 'CTRL+V'
       name 'VCS quick popup'
     end
-  end 
-    
-  category do
-    id 'VCS / Local History'
     entry do
       command 'CMD+ALT+J'
       name 'Surround with Live Template'
