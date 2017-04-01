@@ -2,7 +2,7 @@ cheatsheet do
   title 'Chromium Command Line Switches'
   docset_file_name 'Chromium_Command_Line_Switches'
   keyword 'chromiumswitches'
-  source_url 'http://peter.sh/experiments/chromium-command-line-switches/?date=2017-03-31'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Chromium Command Line Switches'
@@ -10,12 +10,8 @@ cheatsheet do
 
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --/prefetch:1
-            
-
       ```
       END
       notes <<-'END'
@@ -27,12 +23,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --/prefetch:2
-            
-
       ```
       END
       notes <<-'END'
@@ -44,12 +36,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --/prefetch:3
-            
-
       ```
       END
       notes <<-'END'
@@ -61,12 +49,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --/prefetch:4
-            
-
       ```
       END
       notes <<-'END'
@@ -78,12 +62,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --/prefetch:5
-            
-
       ```
       END
       notes <<-'END'
@@ -95,12 +75,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --/prefetch:6
-            
-
       ```
       END
       notes <<-'END'
@@ -112,12 +88,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --/prefetch:8
-            
-
       ```
       END
       notes <<-'END'
@@ -129,12 +101,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --0
-            
-
       ```
       END
       notes <<-'END'
@@ -143,12 +111,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --?
-            
-
       ```
       END
       notes <<-'END'
@@ -157,12 +121,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --accept-resource-provider
-            
-
       ```
       END
       notes <<-'END'
@@ -171,12 +131,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --adaboost
-            
-
       ```
       END
       notes <<-'END'
@@ -185,12 +141,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --aec-refined-adaptive-filter
-            
-
       ```
       END
       notes <<-'END'
@@ -200,12 +152,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --agc-startup-min-volume
-            
-
       ```
       END
       notes <<-'END'
@@ -215,12 +163,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --aggressive
-            
-
       ```
       END
       notes <<-'END'
@@ -229,12 +173,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --aggressive-cache-discard
-            
-
       ```
       END
       notes <<-'END'
@@ -243,12 +183,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --aggressive-tab-discard
-            
-
       ```
       END
       notes <<-'END'
@@ -257,12 +193,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-cross-origin-auth-prompt
-            
-
       ```
       END
       notes <<-'END'
@@ -271,12 +203,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-data-roaming-by-default
-            
-
       ```
       END
       notes <<-'END'
@@ -285,12 +213,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-external-pages
-            
-
       ```
       END
       notes <<-'END'
@@ -299,12 +223,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-failed-policy-fetch-for-test
-            
-
       ```
       END
       notes <<-'END'
@@ -313,12 +233,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-file-access-from-files
-            
-
       ```
       END
       notes <<-'END'
@@ -327,12 +243,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-hidden-media-playback
-            
-
       ```
       END
       notes <<-'END'
@@ -341,12 +253,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-http-background-page
-            
-
       ```
       END
       notes <<-'END'
@@ -355,12 +263,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-http-screen-capture
-            
-
       ```
       END
       notes <<-'END'
@@ -369,12 +273,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-insecure-localhost
-            
-
       ```
       END
       notes <<-'END'
@@ -383,12 +283,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-legacy-extension-manifests
-            
-
       ```
       END
       notes <<-'END'
@@ -397,12 +293,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-loopback-in-peer-connection
-            
-
       ```
       END
       notes <<-'END'
@@ -411,12 +303,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-nacl-crxfs-api
-            
-
       ```
       END
       notes <<-'END'
@@ -428,12 +316,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-nacl-file-handle-api
-            
-
       ```
       END
       notes <<-'END'
@@ -445,12 +329,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-nacl-socket-api
-            
-
       ```
       END
       notes <<-'END'
@@ -462,12 +342,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-no-sandbox-job
-            
-
       ```
       END
       notes <<-'END'
@@ -476,12 +352,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-outdated-plugins
-            
-
       ```
       END
       notes <<-'END'
@@ -490,12 +362,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-ra-in-dev-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -504,12 +372,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-running-insecure-content
-            
-
       ```
       END
       notes <<-'END'
@@ -518,12 +382,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-sandbox-debugging
-            
-
       ```
       END
       notes <<-'END'
@@ -532,12 +392,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --allow-silent-push
-            
-
       ```
       END
       notes <<-'END'
@@ -546,12 +402,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --alsa-check-close-timeout
-            
-
       ```
       END
       notes <<-'END'
@@ -560,12 +412,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --alsa-enable-upsampling
-            
-
       ```
       END
       notes <<-'END'
@@ -574,12 +422,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --alsa-fixed-output-sample-rate
-            
-
       ```
       END
       notes <<-'END'
@@ -588,12 +432,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --alsa-input-device
-            
-
       ```
       END
       notes <<-'END'
@@ -605,12 +445,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --alsa-output-avail-min
-            
-
       ```
       END
       notes <<-'END'
@@ -619,12 +455,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --alsa-output-buffer-size
-            
-
       ```
       END
       notes <<-'END'
@@ -633,12 +465,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --alsa-output-device
-            
-
       ```
       END
       notes <<-'END'
@@ -650,12 +478,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --alsa-output-period-size
-            
-
       ```
       END
       notes <<-'END'
@@ -664,12 +488,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --alsa-output-start-threshold
-            
-
       ```
       END
       notes <<-'END'
@@ -678,12 +498,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --also-emit-success-logs
-            
-
       ```
       END
       notes <<-'END'
@@ -692,12 +508,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --always-authorize-plugins
-            
-
       ```
       END
       notes <<-'END'
@@ -706,12 +518,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --always-on
-            
-
       ```
       END
       notes <<-'END'
@@ -720,12 +528,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --always-use-complex-text
-            
-
       ```
       END
       notes <<-'END'
@@ -734,12 +538,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --alwaystrue
-            
-
       ```
       END
       notes <<-'END'
@@ -748,12 +548,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --android-fonts-path
-            
-
       ```
       END
       notes <<-'END'
@@ -762,12 +558,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --android-stderr-port
-            
-
       ```
       END
       notes <<-'END'
@@ -779,12 +571,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --android-stdin-port
-            
-
       ```
       END
       notes <<-'END'
@@ -796,12 +584,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --android-stdout-port
-            
-
       ```
       END
       notes <<-'END'
@@ -813,12 +597,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --angle
-            
-
       ```
       END
       notes <<-'END'
@@ -827,12 +607,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --app
-            
-
       ```
       END
       notes <<-'END'
@@ -841,12 +617,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --app-auto-launched
-            
-
       ```
       END
       notes <<-'END'
@@ -855,12 +627,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --app-id
-            
-
       ```
       END
       notes <<-'END'
@@ -869,12 +637,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --app-mode-auth-code
-            
-
       ```
       END
       notes <<-'END'
@@ -883,12 +647,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --app-mode-oauth-token
-            
-
       ```
       END
       notes <<-'END'
@@ -897,12 +657,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --app-mode-oem-manifest
-            
-
       ```
       END
       notes <<-'END'
@@ -911,12 +667,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --app-shell-allow-roaming
-            
-
       ```
       END
       notes <<-'END'
@@ -925,12 +677,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --app-shell-host-window-size
-            
-
       ```
       END
       notes <<-'END'
@@ -939,12 +687,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --app-shell-preferred-network
-            
-
       ```
       END
       notes <<-'END'
@@ -953,12 +697,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --app-shell-refresh-token
-            
-
       ```
       END
       notes <<-'END'
@@ -967,12 +707,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --app-shell-user
-            
-
       ```
       END
       notes <<-'END'
@@ -981,12 +717,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --apple
-            
-
       ```
       END
       notes <<-'END'
@@ -995,12 +727,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --apps-gallery-download-url
-            
-
       ```
       END
       notes <<-'END'
@@ -1009,12 +737,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --apps-gallery-update-url
-            
-
       ```
       END
       notes <<-'END'
@@ -1023,12 +747,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --apps-gallery-url
-            
-
       ```
       END
       notes <<-'END'
@@ -1037,12 +757,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --apps-keep-chrome-alive-in-tests
-            
-
       ```
       END
       notes <<-'END'
@@ -1054,12 +770,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --arc-availability
-            
-
       ```
       END
       notes <<-'END'
@@ -1073,12 +785,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --arc-available
-            
-
       ```
       END
       notes <<-'END'
@@ -1087,12 +795,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --artifacts-dir
-            
-
       ```
       END
       notes <<-'END'
@@ -1101,12 +805,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-adjustable-large-cursor
-            
-
       ```
       END
       notes <<-'END'
@@ -1115,12 +815,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-animate-from-boot-splash-screen
-            
-
       ```
       END
       notes <<-'END'
@@ -1129,12 +825,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-copy-host-background-at-boot
-            
-
       ```
       END
       notes <<-'END'
@@ -1143,12 +835,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-debug-shortcuts
-            
-
       ```
       END
       notes <<-'END'
@@ -1157,12 +845,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-dev-shortcuts
-            
-
       ```
       END
       notes <<-'END'
@@ -1171,12 +855,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-disable-maximize-mode-window-backdrop
-            
-
       ```
       END
       notes <<-'END'
@@ -1185,12 +865,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-disable-screen-orientation-lock
-            
-
       ```
       END
       notes <<-'END'
@@ -1199,12 +875,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-disable-touch-exploration-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -1213,12 +885,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-enable-docked-windows
-            
-
       ```
       END
       notes <<-'END'
@@ -1227,12 +895,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-enable-magnifier-key-scroller
-            
-
       ```
       END
       notes <<-'END'
@@ -1241,12 +905,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-enable-mirrored-screen
-            
-
       ```
       END
       notes <<-'END'
@@ -1255,12 +915,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-enable-palette-on-all-displays
-            
-
       ```
       END
       notes <<-'END'
@@ -1269,12 +925,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-enable-software-mirroring
-            
-
       ```
       END
       notes <<-'END'
@@ -1283,12 +935,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-enable-unified-desktop
-            
-
       ```
       END
       notes <<-'END'
@@ -1300,12 +948,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-force-enable-palette
-            
-
       ```
       END
       notes <<-'END'
@@ -1314,12 +958,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-hide-notifications-for-factory
-            
-
       ```
       END
       notes <<-'END'
@@ -1328,12 +968,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-host-window-bounds
-            
-
       ```
       END
       notes <<-'END'
@@ -1342,12 +978,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-shelf-color
-            
-
       ```
       END
       notes <<-'END'
@@ -1356,12 +988,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-touch-hud
-            
-
       ```
       END
       notes <<-'END'
@@ -1370,12 +998,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ash-webui-init
-            
-
       ```
       END
       notes <<-'END'
@@ -1384,12 +1008,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --attestation-server
-            
-
       ```
       END
       notes <<-'END'
@@ -1398,12 +1018,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --audio-buffer-size
-            
-
       ```
       END
       notes <<-'END'
@@ -1412,12 +1028,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --aura-legacy-power-button
-            
-
       ```
       END
       notes <<-'END'
@@ -1426,12 +1038,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --auth-ext-path
-            
-
       ```
       END
       notes <<-'END'
@@ -1440,12 +1048,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --auth-server-whitelist
-            
-
       ```
       END
       notes <<-'END'
@@ -1454,12 +1058,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --auth-spnego-account-type
-            
-
       ```
       END
       notes <<-'END'
@@ -1471,12 +1071,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --auto
-            
-
       ```
       END
       notes <<-'END'
@@ -1485,12 +1081,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --auto-open-devtools-for-tabs
-            
-
       ```
       END
       notes <<-'END'
@@ -1499,12 +1091,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --auto-select-desktop-capture-source
-            
-
       ```
       END
       notes <<-'END'
@@ -1513,12 +1101,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --blink-settings
-            
-
       ```
       END
       notes <<-'END'
@@ -1527,12 +1111,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --bootstrap
-            
-
       ```
       END
       notes <<-'END'
@@ -1541,12 +1121,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --browser-subprocess-path
-            
-
       ```
       END
       notes <<-'END'
@@ -1555,12 +1131,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --browser-test
-            
-
       ```
       END
       notes <<-'END'
@@ -1569,12 +1141,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --bwsi
-            
-
       ```
       END
       notes <<-'END'
@@ -1583,12 +1151,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --bypass-app-banner-engagement-checks
-            
-
       ```
       END
       notes <<-'END'
@@ -1597,12 +1161,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --canvas-msaa-sample-count
-            
-
       ```
       END
       notes <<-'END'
@@ -1611,12 +1171,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cast-initial-screen-height
-            
-
       ```
       END
       notes <<-'END'
@@ -1625,12 +1181,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cast-initial-screen-width
-            
-
       ```
       END
       notes <<-'END'
@@ -1639,12 +1191,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cc-layer-tree-test-long-timeout
-            
-
       ```
       END
       notes <<-'END'
@@ -1653,12 +1201,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cc-layer-tree-test-no-timeout
-            
-
       ```
       END
       notes <<-'END'
@@ -1667,12 +1211,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cc-rebaseline-pixeltests
-            
-
       ```
       END
       notes <<-'END'
@@ -1681,12 +1221,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cellular-only
-            
-
       ```
       END
       notes <<-'END'
@@ -1695,12 +1231,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --check-for-update-interval
-            
-
       ```
       END
       notes <<-'END'
@@ -1709,12 +1241,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --check-layout-test-sys-deps
-            
-
       ```
       END
       notes <<-'END'
@@ -1723,12 +1251,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --check-tile-priority-inversion
-            
-
       ```
       END
       notes <<-'END'
@@ -1737,12 +1261,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --child-process
-            
-
       ```
       END
       notes <<-'END'
@@ -1751,12 +1271,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --child-wallpaper-large
-            
-
       ```
       END
       notes <<-'END'
@@ -1765,12 +1281,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --child-wallpaper-small
-            
-
       ```
       END
       notes <<-'END'
@@ -1779,12 +1291,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ChromeOSMemoryPressureHandling
-            
-
       ```
       END
       notes <<-'END'
@@ -1793,12 +1301,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cipher-suite-blacklist
-            
-
       ```
       END
       notes <<-'END'
@@ -1807,12 +1311,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --class
-            
-
       ```
       END
       notes <<-'END'
@@ -1824,12 +1324,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --clear-token-service
-            
-
       ```
       END
       notes <<-'END'
@@ -1838,12 +1334,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cloud-print-file
-            
-
       ```
       END
       notes <<-'END'
@@ -1852,12 +1344,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cloud-print-file-type
-            
-
       ```
       END
       notes <<-'END'
@@ -1866,12 +1354,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cloud-print-job-title
-            
-
       ```
       END
       notes <<-'END'
@@ -1880,12 +1364,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cloud-print-print-ticket
-            
-
       ```
       END
       notes <<-'END'
@@ -1894,12 +1374,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cloud-print-setup-proxy
-            
-
       ```
       END
       notes <<-'END'
@@ -1908,12 +1384,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cloud-print-url
-            
-
       ```
       END
       notes <<-'END'
@@ -1922,12 +1394,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cloud-print-xmpp-endpoint
-            
-
       ```
       END
       notes <<-'END'
@@ -1936,12 +1404,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --compensate-for-unstable-pinch-zoom
-            
-
       ```
       END
       notes <<-'END'
@@ -1950,12 +1414,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --compile-shader-always-succeeds
-            
-
       ```
       END
       notes <<-'END'
@@ -1964,12 +1424,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --component-updater
-            
-
       ```
       END
       notes <<-'END'
@@ -1978,12 +1434,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --connectivity-check-url
-            
-
       ```
       END
       notes <<-'END'
@@ -1992,12 +1444,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --conservative
-            
-
       ```
       END
       notes <<-'END'
@@ -2006,12 +1454,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --content-image-texture-target
-            
-
       ```
       END
       notes <<-'END'
@@ -2020,12 +1464,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --content-shell-host-window-size
-            
-
       ```
       END
       notes <<-'END'
@@ -2034,12 +1474,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --controller
-            
-
       ```
       END
       notes <<-'END'
@@ -2048,12 +1484,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --crash-dumps-dir
-            
-
       ```
       END
       notes <<-'END'
@@ -2062,12 +1494,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --crash-on-failure
-            
-
       ```
       END
       notes <<-'END'
@@ -2076,12 +1504,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --crash-on-hang-threads
-            
-
       ```
       END
       notes <<-'END'
@@ -2090,12 +1514,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --crash-server-url
-            
-
       ```
       END
       notes <<-'END'
@@ -2104,12 +1524,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --crash-test
-            
-
       ```
       END
       notes <<-'END'
@@ -2118,12 +1534,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --crashpad-handler
-            
-
       ```
       END
       notes <<-'END'
@@ -2132,12 +1544,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --create-browser-on-startup-for-tests
-            
-
       ```
       END
       notes <<-'END'
@@ -2147,12 +1555,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --create-default-gl-context
-            
-
       ```
       END
       notes <<-'END'
@@ -2161,12 +1565,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cros-region
-            
-
       ```
       END
       notes <<-'END'
@@ -2175,12 +1575,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cros-regions-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -2189,12 +1585,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --crosh-command
-            
-
       ```
       END
       notes <<-'END'
@@ -2206,12 +1598,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --cryptauth-http-host
-            
-
       ```
       END
       notes <<-'END'
@@ -2220,12 +1608,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --custom-devtools-frontend
-            
-
       ```
       END
       notes <<-'END'
@@ -2234,12 +1618,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --custom-launcher-page
-            
-
       ```
       END
       notes <<-'END'
@@ -2248,12 +1628,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --custom_summary
-            
-
       ```
       END
       notes <<-'END'
@@ -2265,12 +1641,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --d3d11
-            
-
       ```
       END
       notes <<-'END'
@@ -2279,12 +1651,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --d3d9
-            
-
       ```
       END
       notes <<-'END'
@@ -2293,12 +1661,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --daemon
-            
-
       ```
       END
       notes <<-'END'
@@ -2307,12 +1671,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --dark_muted
-            
-
       ```
       END
       notes <<-'END'
@@ -2321,12 +1681,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --dark_vibrant
-            
-
       ```
       END
       notes <<-'END'
@@ -2335,12 +1691,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --data-path
-            
-
       ```
       END
       notes <<-'END'
@@ -2349,12 +1701,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --data-reduction-proxy-config-url
-            
-
       ```
       END
       notes <<-'END'
@@ -2363,12 +1711,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --data-reduction-proxy-enable-quic-on-non-core-proxies
-            
-
       ```
       END
       notes <<-'END'
@@ -2377,12 +1721,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --data-reduction-proxy-experiment
-            
-
       ```
       END
       notes <<-'END'
@@ -2391,12 +1731,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --data-reduction-proxy-http-proxies
-            
-
       ```
       END
       notes <<-'END'
@@ -2405,12 +1741,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --data-reduction-proxy-lo-fi
-            
-
       ```
       END
       notes <<-'END'
@@ -2419,12 +1751,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --data-reduction-proxy-pingback-url
-            
-
       ```
       END
       notes <<-'END'
@@ -2433,12 +1761,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --data-reduction-proxy-secure-proxy-check-url
-            
-
       ```
       END
       notes <<-'END'
@@ -2447,12 +1771,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --data-reduction-proxy-server-experiments-disabled
-            
-
       ```
       END
       notes <<-'END'
@@ -2461,12 +1781,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --data-reduction-proxy-warmup-url
-            
-
       ```
       END
       notes <<-'END'
@@ -2475,12 +1791,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --dbus-stub
-            
-
       ```
       END
       notes <<-'END'
@@ -2489,12 +1801,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --debug-devtools
-            
-
       ```
       END
       notes <<-'END'
@@ -2503,12 +1811,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --debug-enable-frame-toggle
-            
-
       ```
       END
       notes <<-'END'
@@ -2517,12 +1821,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --debug-packed-apps
-            
-
       ```
       END
       notes <<-'END'
@@ -2531,12 +1831,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --debug-print
-            
-
       ```
       END
       notes <<-'END'
@@ -2548,12 +1844,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --default
-            
-
       ```
       END
       notes <<-'END'
@@ -2562,12 +1854,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --default-tile-height
-            
-
       ```
       END
       notes <<-'END'
@@ -2576,12 +1864,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --default-tile-width
-            
-
       ```
       END
       notes <<-'END'
@@ -2590,12 +1874,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --default-wallpaper-is-oem
-            
-
       ```
       END
       notes <<-'END'
@@ -2604,12 +1884,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --default-wallpaper-large
-            
-
       ```
       END
       notes <<-'END'
@@ -2618,12 +1894,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --default-wallpaper-small
-            
-
       ```
       END
       notes <<-'END'
@@ -2632,12 +1904,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --demo
-            
-
       ```
       END
       notes <<-'END'
@@ -2646,12 +1914,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --derelict-detection-timeout
-            
-
       ```
       END
       notes <<-'END'
@@ -2660,12 +1924,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --derelict-idle-timeout
-            
-
       ```
       END
       notes <<-'END'
@@ -2674,12 +1934,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --desktop
-            
-
       ```
       END
       notes <<-'END'
@@ -2688,12 +1944,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --desktop-window-1080p
-            
-
       ```
       END
       notes <<-'END'
@@ -2702,12 +1954,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --deterministic-fetch
-            
-
       ```
       END
       notes <<-'END'
@@ -2716,12 +1964,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --device-management-url
-            
-
       ```
       END
       notes <<-'END'
@@ -2730,12 +1974,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --device-scale-factor
-            
-
       ```
       END
       notes <<-'END'
@@ -2747,12 +1987,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --devtools-flags
-            
-
       ```
       END
       notes <<-'END'
@@ -2761,12 +1997,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --diagnostics
-            
-
       ```
       END
       notes <<-'END'
@@ -2775,12 +2007,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --diagnostics-format
-            
-
       ```
       END
       notes <<-'END'
@@ -2789,12 +2017,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --diagnostics-recovery
-            
-
       ```
       END
       notes <<-'END'
@@ -2803,12 +2027,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable
-            
-
       ```
       END
       notes <<-'END'
@@ -2817,12 +2037,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-2d-canvas-clip-aa
-            
-
       ```
       END
       notes <<-'END'
@@ -2831,12 +2047,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-2d-canvas-image-chromium
-            
-
       ```
       END
       notes <<-'END'
@@ -2845,12 +2057,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-3d-apis
-            
-
       ```
       END
       notes <<-'END'
@@ -2859,12 +2067,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-accelerated-2d-canvas
-            
-
       ```
       END
       notes <<-'END'
@@ -2873,12 +2077,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-accelerated-jpeg-decoding
-            
-
       ```
       END
       notes <<-'END'
@@ -2887,12 +2087,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-accelerated-mjpeg-decode
-            
-
       ```
       END
       notes <<-'END'
@@ -2901,12 +2097,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-accelerated-video-decode
-            
-
       ```
       END
       notes <<-'END'
@@ -2915,12 +2107,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-account-consistency
-            
-
       ```
       END
       notes <<-'END'
@@ -2929,12 +2117,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-add-to-shelf
-            
-
       ```
       END
       notes <<-'END'
@@ -2943,12 +2127,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-app-info-dialog-mac
-            
-
       ```
       END
       notes <<-'END'
@@ -2960,12 +2140,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-app-list-dismiss-on-blur
-            
-
       ```
       END
       notes <<-'END'
@@ -2974,12 +2150,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-app-window-cycling
-            
-
       ```
       END
       notes <<-'END'
@@ -2991,12 +2163,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-appcontainer
-            
-
       ```
       END
       notes <<-'END'
@@ -3005,12 +2173,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-arc-data-wipe
-            
-
       ```
       END
       notes <<-'END'
@@ -3019,12 +2183,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-arc-opt-in-verification
-            
-
       ```
       END
       notes <<-'END'
@@ -3033,12 +2193,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-audio-support-for-desktop-share
-            
-
       ```
       END
       notes <<-'END'
@@ -3047,12 +2203,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-autofill-keyboard-accessory-view
-            
-
       ```
       END
       notes <<-'END'
@@ -3064,12 +2216,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-avfoundation-overlays
-            
-
       ```
       END
       notes <<-'END'
@@ -3081,12 +2229,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-background-networking
-            
-
       ```
       END
       notes <<-'END'
@@ -3095,12 +2239,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-background-timer-throttling
-            
-
       ```
       END
       notes <<-'END'
@@ -3109,12 +2249,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-backing-store-limit
-            
-
       ```
       END
       notes <<-'END'
@@ -3123,12 +2259,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-blink-features
-            
-
       ```
       END
       notes <<-'END'
@@ -3137,12 +2269,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-boot-animation
-            
-
       ```
       END
       notes <<-'END'
@@ -3151,12 +2279,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-breakpad
-            
-
       ```
       END
       notes <<-'END'
@@ -3165,12 +2289,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-browser-task-scheduler
-            
-
       ```
       END
       notes <<-'END'
@@ -3179,12 +2299,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-bundled-ppapi-flash
-            
-
       ```
       END
       notes <<-'END'
@@ -3193,12 +2309,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-canvas-aa
-            
-
       ```
       END
       notes <<-'END'
@@ -3207,12 +2319,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-captive-portal-bypass-proxy
-            
-
       ```
       END
       notes <<-'END'
@@ -3221,12 +2329,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-cast-streaming-hw-encoding
-            
-
       ```
       END
       notes <<-'END'
@@ -3235,12 +2339,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-clear-browsing-data-counters
-            
-
       ```
       END
       notes <<-'END'
@@ -3249,12 +2349,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-client-side-phishing-detection
-            
-
       ```
       END
       notes <<-'END'
@@ -3263,12 +2359,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-cloud-import
-            
-
       ```
       END
       notes <<-'END'
@@ -3277,12 +2369,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-component-cloud-policy
-            
-
       ```
       END
       notes <<-'END'
@@ -3291,12 +2379,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-component-extensions-with-background-pages
-            
-
       ```
       END
       notes <<-'END'
@@ -3305,12 +2389,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-component-update
-            
-
       ```
       END
       notes <<-'END'
@@ -3319,12 +2399,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-composited-antialiasing
-            
-
       ```
       END
       notes <<-'END'
@@ -3333,12 +2409,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-contextual-search
-            
-
       ```
       END
       notes <<-'END'
@@ -3347,12 +2419,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-d3d11
-            
-
       ```
       END
       notes <<-'END'
@@ -3361,12 +2429,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-databases
-            
-
       ```
       END
       notes <<-'END'
@@ -3375,12 +2439,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-datasaver-prompt
-            
-
       ```
       END
       notes <<-'END'
@@ -3389,12 +2449,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-default-apps
-            
-
       ```
       END
       notes <<-'END'
@@ -3403,12 +2459,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-demo-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -3417,12 +2469,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-device-disabling
-            
-
       ```
       END
       notes <<-'END'
@@ -3431,12 +2479,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-device-discovery-notifications
-            
-
       ```
       END
       notes <<-'END'
@@ -3445,12 +2489,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-dinosaur-easter-egg
-            
-
       ```
       END
       notes <<-'END'
@@ -3459,12 +2499,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-direct-composition
-            
-
       ```
       END
       notes <<-'END'
@@ -3473,12 +2509,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-directwrite-for-ui
-            
-
       ```
       END
       notes <<-'END'
@@ -3490,12 +2522,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-display-color-calibration
-            
-
       ```
       END
       notes <<-'END'
@@ -3507,12 +2535,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-display-list-2d-canvas
-            
-
       ```
       END
       notes <<-'END'
@@ -3521,12 +2545,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-distance-field-text
-            
-
       ```
       END
       notes <<-'END'
@@ -3535,12 +2555,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-domain-blocking-for-3d-apis
-            
-
       ```
       END
       notes <<-'END'
@@ -3549,12 +2565,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-domain-reliability
-            
-
       ```
       END
       notes <<-'END'
@@ -3563,12 +2575,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-download-image-renaming
-            
-
       ```
       END
       notes <<-'END'
@@ -3577,12 +2585,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-drive-search-in-app-launcher
-            
-
       ```
       END
       notes <<-'END'
@@ -3591,12 +2595,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-dwm-composition
-            
-
       ```
       END
       notes <<-'END'
@@ -3605,12 +2605,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-eol-notification
-            
-
       ```
       END
       notes <<-'END'
@@ -3619,12 +2615,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-es3-apis
-            
-
       ```
       END
       notes <<-'END'
@@ -3633,12 +2625,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-es3-gl-context
-            
-
       ```
       END
       notes <<-'END'
@@ -3647,12 +2635,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-extensions
-            
-
       ```
       END
       notes <<-'END'
@@ -3661,12 +2645,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-extensions-except
-            
-
       ```
       END
       notes <<-'END'
@@ -3675,12 +2655,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-extensions-file-access-check
-            
-
       ```
       END
       notes <<-'END'
@@ -3689,12 +2665,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-extensions-http-throttling
-            
-
       ```
       END
       notes <<-'END'
@@ -3703,12 +2675,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-fast-web-scroll-view-insets
-            
-
       ```
       END
       notes <<-'END'
@@ -3717,12 +2685,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-features
-            
-
       ```
       END
       notes <<-'END'
@@ -3731,12 +2695,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-field-trial-config
-            
-
       ```
       END
       notes <<-'END'
@@ -3745,12 +2705,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-file-system
-            
-
       ```
       END
       notes <<-'END'
@@ -3759,12 +2715,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-flash-3d
-            
-
       ```
       END
       notes <<-'END'
@@ -3773,12 +2725,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-flash-stage3d
-            
-
       ```
       END
       notes <<-'END'
@@ -3787,12 +2735,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-fullscreen-low-power-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -3804,12 +2748,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-fullscreen-tab-detaching
-            
-
       ```
       END
       notes <<-'END'
@@ -3821,12 +2761,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gaia-services
-            
-
       ```
       END
       notes <<-'END'
@@ -3835,12 +2771,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gesture-editing
-            
-
       ```
       END
       notes <<-'END'
@@ -3849,12 +2781,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gesture-requirement-for-media-playback
-            
-
       ```
       END
       notes <<-'END'
@@ -3863,12 +2791,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gesture-requirement-for-presentation
-            
-
       ```
       END
       notes <<-'END'
@@ -3877,12 +2801,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gesture-typing
-            
-
       ```
       END
       notes <<-'END'
@@ -3891,12 +2811,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gl-drawing-for-tests
-            
-
       ```
       END
       notes <<-'END'
@@ -3905,12 +2821,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gl-error-limit
-            
-
       ```
       END
       notes <<-'END'
@@ -3919,12 +2831,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gl-extensions
-            
-
       ```
       END
       notes <<-'END'
@@ -3933,12 +2841,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-glsl-translator
-            
-
       ```
       END
       notes <<-'END'
@@ -3947,12 +2851,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu
-            
-
       ```
       END
       notes <<-'END'
@@ -3961,12 +2861,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu-async-worker-context
-            
-
       ```
       END
       notes <<-'END'
@@ -3975,12 +2871,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu-compositing
-            
-
       ```
       END
       notes <<-'END'
@@ -3989,12 +2881,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu-driver-bug-workarounds
-            
-
       ```
       END
       notes <<-'END'
@@ -4003,12 +2891,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu-early-init
-            
-
       ```
       END
       notes <<-'END'
@@ -4017,12 +2901,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu-memory-buffer-compositor-resources
-            
-
       ```
       END
       notes <<-'END'
@@ -4031,12 +2911,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu-memory-buffer-video-frames
-            
-
       ```
       END
       notes <<-'END'
@@ -4045,12 +2921,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu-process-crash-limit
-            
-
       ```
       END
       notes <<-'END'
@@ -4059,12 +2931,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu-program-cache
-            
-
       ```
       END
       notes <<-'END'
@@ -4073,12 +2941,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu-rasterization
-            
-
       ```
       END
       notes <<-'END'
@@ -4087,12 +2951,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu-sandbox
-            
-
       ```
       END
       notes <<-'END'
@@ -4101,12 +2961,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu-shader-disk-cache
-            
-
       ```
       END
       notes <<-'END'
@@ -4115,12 +2971,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu-vsync
-            
-
       ```
       END
       notes <<-'END'
@@ -4129,12 +2981,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-gpu-watchdog
-            
-
       ```
       END
       notes <<-'END'
@@ -4143,12 +2991,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-hang-monitor
-            
-
       ```
       END
       notes <<-'END'
@@ -4157,12 +3001,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-hid-detection-on-oobe
-            
-
       ```
       END
       notes <<-'END'
@@ -4171,12 +3011,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-hide-inactive-stacked-tab-close-buttons
-            
-
       ```
       END
       notes <<-'END'
@@ -4185,12 +3021,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-histogram-customizer
-            
-
       ```
       END
       notes <<-'END'
@@ -4199,12 +3031,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-hosted-app-shim-creation
-            
-
       ```
       END
       notes <<-'END'
@@ -4216,12 +3044,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-hosted-apps-in-windows
-            
-
       ```
       END
       notes <<-'END'
@@ -4233,12 +3057,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-http2
-            
-
       ```
       END
       notes <<-'END'
@@ -4247,12 +3067,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-in-process-stack-traces
-            
-
       ```
       END
       notes <<-'END'
@@ -4261,12 +3077,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-infobars
-            
-
       ```
       END
       notes <<-'END'
@@ -4275,12 +3087,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-input-view
-            
-
       ```
       END
       notes <<-'END'
@@ -4289,12 +3097,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-ios-password-generation
-            
-
       ```
       END
       notes <<-'END'
@@ -4303,12 +3107,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-ios-password-suggestions
-            
-
       ```
       END
       notes <<-'END'
@@ -4317,12 +3117,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-ios-physical-web
-            
-
       ```
       END
       notes <<-'END'
@@ -4331,12 +3127,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-javascript-harmony-shipping
-            
-
       ```
       END
       notes <<-'END'
@@ -4345,12 +3137,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-kill-after-bad-ipc
-            
-
       ```
       END
       notes <<-'END'
@@ -4359,12 +3147,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-lcd-text
-            
-
       ```
       END
       notes <<-'END'
@@ -4373,12 +3157,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-legacy-window
-            
-
       ```
       END
       notes <<-'END'
@@ -4390,12 +3170,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-local-storage
-            
-
       ```
       END
       notes <<-'END'
@@ -4404,12 +3180,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-logging
-            
-
       ```
       END
       notes <<-'END'
@@ -4418,12 +3190,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-login-animations
-            
-
       ```
       END
       notes <<-'END'
@@ -4432,12 +3200,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-low-end-device-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -4446,12 +3210,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-low-latency-dxva
-            
-
       ```
       END
       notes <<-'END'
@@ -4460,12 +3220,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-low-res-tiling
-            
-
       ```
       END
       notes <<-'END'
@@ -4474,12 +3230,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-lru-snapshot-cache
-            
-
       ```
       END
       notes <<-'END'
@@ -4488,12 +3240,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-mac-overlays
-            
-
       ```
       END
       notes <<-'END'
@@ -4505,12 +3253,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-mac-views-native-app-windows
-            
-
       ```
       END
       notes <<-'END'
@@ -4522,12 +3266,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-main-frame-before-activation
-            
-
       ```
       END
       notes <<-'END'
@@ -4536,12 +3276,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-md-oobe
-            
-
       ```
       END
       notes <<-'END'
@@ -4550,12 +3286,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-media-session-api
-            
-
       ```
       END
       notes <<-'END'
@@ -4567,12 +3299,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-media-suspend
-            
-
       ```
       END
       notes <<-'END'
@@ -4581,12 +3309,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-merge-key-char-events
-            
-
       ```
       END
       notes <<-'END'
@@ -4598,12 +3322,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-minimize-on-second-launcher-item-click
-            
-
       ```
       END
       notes <<-'END'
@@ -4612,12 +3332,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-mojo-renderer
-            
-
       ```
       END
       notes <<-'END'
@@ -4629,12 +3345,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-mtp-write-support
-            
-
       ```
       END
       notes <<-'END'
@@ -4643,12 +3355,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-multi-display-layout
-            
-
       ```
       END
       notes <<-'END'
@@ -4657,12 +3365,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-namespace-sandbox
-            
-
       ```
       END
       notes <<-'END'
@@ -4671,12 +3375,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-native-gpu-memory-buffers
-            
-
       ```
       END
       notes <<-'END'
@@ -4685,12 +3385,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-network-portal-notification
-            
-
       ```
       END
       notes <<-'END'
@@ -4699,12 +3395,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-new-bookmark-apps
-            
-
       ```
       END
       notes <<-'END'
@@ -4713,12 +3405,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-new-channel-switcher-ui
-            
-
       ```
       END
       notes <<-'END'
@@ -4727,12 +3415,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-new-kiosk-ui
-            
-
       ```
       END
       notes <<-'END'
@@ -4741,12 +3425,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-new-korean-ime
-            
-
       ```
       END
       notes <<-'END'
@@ -4755,12 +3435,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-new-profile-management
-            
-
       ```
       END
       notes <<-'END'
@@ -4769,12 +3445,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-new-zip-unpacker
-            
-
       ```
       END
       notes <<-'END'
@@ -4783,12 +3455,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-notifications
-            
-
       ```
       END
       notes <<-'END'
@@ -4797,12 +3465,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-ntp-popular-sites
-            
-
       ```
       END
       notes <<-'END'
@@ -4811,12 +3475,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-nv12-dxgi-video
-            
-
       ```
       END
       notes <<-'END'
@@ -4825,12 +3485,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-offer-store-unmasked-wallet-cards
-            
-
       ```
       END
       notes <<-'END'
@@ -4839,12 +3495,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-offer-upload-credit-cards
-            
-
       ```
       END
       notes <<-'END'
@@ -4853,12 +3505,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-office-editing-component-extension
-            
-
       ```
       END
       notes <<-'END'
@@ -4867,12 +3515,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-offline-auto-reload
-            
-
       ```
       END
       notes <<-'END'
@@ -4881,12 +3525,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-offline-auto-reload-visible-only
-            
-
       ```
       END
       notes <<-'END'
@@ -4895,12 +3535,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-overlay-scrollbar
-            
-
       ```
       END
       notes <<-'END'
@@ -4909,12 +3545,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-overscroll-edge-effect
-            
-
       ```
       END
       notes <<-'END'
@@ -4926,12 +3558,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-panel-fitting
-            
-
       ```
       END
       notes <<-'END'
@@ -4943,12 +3571,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-partial-raster
-            
-
       ```
       END
       notes <<-'END'
@@ -4957,12 +3581,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-password-generation
-            
-
       ```
       END
       notes <<-'END'
@@ -4971,12 +3591,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-payment-request
-            
-
       ```
       END
       notes <<-'END'
@@ -4985,12 +3601,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-pepper-3d
-            
-
       ```
       END
       notes <<-'END'
@@ -4999,12 +3611,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-pepper-3d-image-chromium
-            
-
       ```
       END
       notes <<-'END'
@@ -5013,12 +3621,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-per-monitor-dpi
-            
-
       ```
       END
       notes <<-'END'
@@ -5030,12 +3634,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-permission-action-reporting
-            
-
       ```
       END
       notes <<-'END'
@@ -5044,12 +3644,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-permissions-api
-            
-
       ```
       END
       notes <<-'END'
@@ -5058,12 +3654,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-physical-keyboard-autocorrect
-            
-
       ```
       END
       notes <<-'END'
@@ -5072,12 +3664,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-pinch
-            
-
       ```
       END
       notes <<-'END'
@@ -5086,12 +3674,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-pnacl-crash-throttling
-            
-
       ```
       END
       notes <<-'END'
@@ -5100,12 +3684,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-popup-blocking
-            
-
       ```
       END
       notes <<-'END'
@@ -5114,12 +3694,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-prefer-compositing-to-lcd-text
-            
-
       ```
       END
       notes <<-'END'
@@ -5128,12 +3704,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-presentation-api
-            
-
       ```
       END
       notes <<-'END'
@@ -5142,12 +3714,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-print-preview
-            
-
       ```
       END
       notes <<-'END'
@@ -5156,12 +3724,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-prompt-on-repost
-            
-
       ```
       END
       notes <<-'END'
@@ -5170,12 +3734,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-pull-to-refresh-effect
-            
-
       ```
       END
       notes <<-'END'
@@ -5187,12 +3747,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-push-api-background-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -5201,12 +3757,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-quic
-            
-
       ```
       END
       notes <<-'END'
@@ -5215,12 +3767,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-reading-from-canvas
-            
-
       ```
       END
       notes <<-'END'
@@ -5229,12 +3777,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-remote-core-animation
-            
-
       ```
       END
       notes <<-'END'
@@ -5246,12 +3790,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-remote-fonts
-            
-
       ```
       END
       notes <<-'END'
@@ -5260,12 +3800,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-remote-playback-api
-            
-
       ```
       END
       notes <<-'END'
@@ -5274,12 +3810,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-renderer-accessibility
-            
-
       ```
       END
       notes <<-'END'
@@ -5288,12 +3820,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-renderer-backgrounding
-            
-
       ```
       END
       notes <<-'END'
@@ -5302,12 +3830,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-renderer-priority-management
-            
-
       ```
       END
       notes <<-'END'
@@ -5316,12 +3840,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-resize-lock
-            
-
       ```
       END
       notes <<-'END'
@@ -5330,12 +3850,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-rgba-4444-textures
-            
-
       ```
       END
       notes <<-'END'
@@ -5344,12 +3860,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-rollback-option
-            
-
       ```
       END
       notes <<-'END'
@@ -5358,12 +3870,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-rtc-smoothness-algorithm
-            
-
       ```
       END
       notes <<-'END'
@@ -5372,12 +3880,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-screen-orientation-lock
-            
-
       ```
       END
       notes <<-'END'
@@ -5389,12 +3893,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-search-geolocation-disclosure
-            
-
       ```
       END
       notes <<-'END'
@@ -5403,12 +3903,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-seccomp-filter-sandbox
-            
-
       ```
       END
       notes <<-'END'
@@ -5417,12 +3913,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-settings-window
-            
-
       ```
       END
       notes <<-'END'
@@ -5431,12 +3923,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-setuid-sandbox
-            
-
       ```
       END
       notes <<-'END'
@@ -5445,12 +3933,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-shader-name-hashing
-            
-
       ```
       END
       notes <<-'END'
@@ -5459,12 +3943,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-shared-workers
-            
-
       ```
       END
       notes <<-'END'
@@ -5473,12 +3953,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-signin-scoped-device-id
-            
-
       ```
       END
       notes <<-'END'
@@ -5487,12 +3963,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-single-click-autofill
-            
-
       ```
       END
       notes <<-'END'
@@ -5501,12 +3973,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-slimming-paint-invalidation
-            
-
       ```
       END
       notes <<-'END'
@@ -5515,12 +3983,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-smart-virtual-keyboard
-            
-
       ```
       END
       notes <<-'END'
@@ -5529,12 +3993,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-smooth-scrolling
-            
-
       ```
       END
       notes <<-'END'
@@ -5543,12 +4003,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-software-rasterizer
-            
-
       ```
       END
       notes <<-'END'
@@ -5557,12 +4013,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-speech-api
-            
-
       ```
       END
       notes <<-'END'
@@ -5571,12 +4023,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-suggestions-ui
-            
-
       ```
       END
       notes <<-'END'
@@ -5585,12 +4033,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-sync
-            
-
       ```
       END
       notes <<-'END'
@@ -5599,12 +4043,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-sync-app-list
-            
-
       ```
       END
       notes <<-'END'
@@ -5613,12 +4053,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-sync-types
-            
-
       ```
       END
       notes <<-'END'
@@ -5627,12 +4063,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-system-timezone-automatic-detection
-            
-
       ```
       END
       notes <<-'END'
@@ -5641,12 +4073,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-tab-for-desktop-share
-            
-
       ```
       END
       notes <<-'END'
@@ -5655,12 +4083,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-tab-strip-autoscroll-new-tabs
-            
-
       ```
       END
       notes <<-'END'
@@ -5669,12 +4093,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-threaded-animation
-            
-
       ```
       END
       notes <<-'END'
@@ -5683,12 +4103,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-threaded-compositing
-            
-
       ```
       END
       notes <<-'END'
@@ -5697,12 +4113,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-threaded-scrolling
-            
-
       ```
       END
       notes <<-'END'
@@ -5711,12 +4123,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-touch-adjustment
-            
-
       ```
       END
       notes <<-'END'
@@ -5725,12 +4133,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-touch-drag-drop
-            
-
       ```
       END
       notes <<-'END'
@@ -5739,12 +4143,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-translate
-            
-
       ```
       END
       notes <<-'END'
@@ -5753,12 +4153,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-translate-new-ux
-            
-
       ```
       END
       notes <<-'END'
@@ -5770,12 +4166,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-usb-keyboard-detect
-            
-
       ```
       END
       notes <<-'END'
@@ -5787,12 +4179,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-v8-idle-tasks
-            
-
       ```
       END
       notes <<-'END'
@@ -5801,12 +4189,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-vaapi-accelerated-video-encode
-            
-
       ```
       END
       notes <<-'END'
@@ -5818,12 +4202,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-views-rect-based-targeting
-            
-
       ```
       END
       notes <<-'END'
@@ -5832,12 +4212,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-virtual-keyboard-overscroll
-            
-
       ```
       END
       notes <<-'END'
@@ -5846,12 +4222,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-voice-input
-            
-
       ```
       END
       notes <<-'END'
@@ -5860,12 +4232,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-volume-adjust-sound
-            
-
       ```
       END
       notes <<-'END'
@@ -5874,12 +4242,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-wake-on-wifi
-            
-
       ```
       END
       notes <<-'END'
@@ -5888,12 +4252,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-web-notification-custom-layouts
-            
-
       ```
       END
       notes <<-'END'
@@ -5902,12 +4262,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-web-security
-            
-
       ```
       END
       notes <<-'END'
@@ -5916,12 +4272,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-webgl
-            
-
       ```
       END
       notes <<-'END'
@@ -5930,12 +4282,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-webgl-image-chromium
-            
-
       ```
       END
       notes <<-'END'
@@ -5944,12 +4292,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-webrtc-encryption
-            
-
       ```
       END
       notes <<-'END'
@@ -5961,12 +4305,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-webrtc-hw-decoding
-            
-
       ```
       END
       notes <<-'END'
@@ -5978,12 +4318,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-webrtc-hw-encoding
-            
-
       ```
       END
       notes <<-'END'
@@ -5995,12 +4331,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-webrtc-hw-vp8-encoding
-            
-
       ```
       END
       notes <<-'END'
@@ -6012,12 +4344,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-win32k-lockdown
-            
-
       ```
       END
       notes <<-'END'
@@ -6029,12 +4357,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-xss-auditor
-            
-
       ```
       END
       notes <<-'END'
@@ -6043,12 +4367,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-zero-browsers-open-for-tests
-            
-
       ```
       END
       notes <<-'END'
@@ -6058,12 +4378,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-zero-copy
-            
-
       ```
       END
       notes <<-'END'
@@ -6072,12 +4388,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disable-zero-copy-dxgi-video
-            
-
       ```
       END
       notes <<-'END'
@@ -6086,12 +4398,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disabled
-            
-
       ```
       END
       notes <<-'END'
@@ -6100,12 +4408,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disk-cache-dir
-            
-
       ```
       END
       notes <<-'END'
@@ -6114,12 +4418,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --disk-cache-size
-            
-
       ```
       END
       notes <<-'END'
@@ -6128,12 +4428,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --display
-            
-
       ```
       END
       notes <<-'END'
@@ -6145,12 +4441,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --dmg-device
-            
-
       ```
       END
       notes <<-'END'
@@ -6162,12 +4454,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --dns-log-details
-            
-
       ```
       END
       notes <<-'END'
@@ -6176,12 +4464,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --dom-automation
-            
-
       ```
       END
       notes <<-'END'
@@ -6190,12 +4474,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --duck-flash
-            
-
       ```
       END
       notes <<-'END'
@@ -6207,12 +4487,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --dump-browser-histograms
-            
-
       ```
       END
       notes <<-'END'
@@ -6221,12 +4497,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --dump-dom
-            
-
       ```
       END
       notes <<-'END'
@@ -6235,12 +4507,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --eafe-path
-            
-
       ```
       END
       notes <<-'END'
@@ -6249,12 +4517,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --eafe-url
-            
-
       ```
       END
       notes <<-'END'
@@ -6263,12 +4527,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --early-tracing
-            
-
       ```
       END
       notes <<-'END'
@@ -6280,12 +4540,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --easy-unlock-app-path
-            
-
       ```
       END
       notes <<-'END'
@@ -6294,12 +4550,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --edge-touch-filtering
-            
-
       ```
       END
       notes <<-'END'
@@ -6311,12 +4563,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --egl
-            
-
       ```
       END
       notes <<-'END'
@@ -6325,12 +4573,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --elevate
-            
-
       ```
       END
       notes <<-'END'
@@ -6339,12 +4583,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --embedded-extension-options
-            
-
       ```
       END
       notes <<-'END'
@@ -6353,12 +4593,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --emphasize-titles-in-omnibox-dropdown
-            
-
       ```
       END
       notes <<-'END'
@@ -6367,12 +4603,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --emulate-shader-precision
-            
-
       ```
       END
       notes <<-'END'
@@ -6381,12 +4613,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-accelerated-2d-canvas
-            
-
       ```
       END
       notes <<-'END'
@@ -6395,12 +4623,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-accelerated-vpx-decode
-            
-
       ```
       END
       notes <<-'END'
@@ -6413,12 +4637,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-accessibility-tab-switcher
-            
-
       ```
       END
       notes <<-'END'
@@ -6430,12 +4650,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-account-consistency
-            
-
       ```
       END
       notes <<-'END'
@@ -6444,12 +4660,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-ad
-            
-
       ```
       END
       notes <<-'END'
@@ -6458,12 +4670,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-adaptive-selection-handle-orientation
-            
-
       ```
       END
       notes <<-'END'
@@ -6475,12 +4683,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-add-to-shelf
-            
-
       ```
       END
       notes <<-'END'
@@ -6489,12 +4693,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-aggressive-domstorage-flushing
-            
-
       ```
       END
       notes <<-'END'
@@ -6503,12 +4703,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-android-wallpapers-app
-            
-
       ```
       END
       notes <<-'END'
@@ -6517,12 +4713,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-app-info-dialog-mac
-            
-
       ```
       END
       notes <<-'END'
@@ -6534,12 +4726,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-app-list
-            
-
       ```
       END
       notes <<-'END'
@@ -6548,12 +4736,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-app-window-cycling
-            
-
       ```
       END
       notes <<-'END'
@@ -6565,12 +4749,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-appcontainer
-            
-
       ```
       END
       notes <<-'END'
@@ -6579,12 +4759,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-arc
-            
-
       ```
       END
       notes <<-'END'
@@ -6593,12 +4769,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-arc-oobe-optin
-            
-
       ```
       END
       notes <<-'END'
@@ -6607,12 +4779,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-audio-debug-recordings-from-extension
-            
-
       ```
       END
       notes <<-'END'
@@ -6621,12 +4789,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-autofill-keyboard-accessory-view
-            
-
       ```
       END
       notes <<-'END'
@@ -6638,12 +4802,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-automation
-            
-
       ```
       END
       notes <<-'END'
@@ -6652,12 +4812,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-benchmarking
-            
-
       ```
       END
       notes <<-'END'
@@ -6666,12 +4822,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-ble-advertising-in-apps
-            
-
       ```
       END
       notes <<-'END'
@@ -6680,12 +4832,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-blink-features
-            
-
       ```
       END
       notes <<-'END'
@@ -6694,12 +4842,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-bookmark-undo
-            
-
       ```
       END
       notes <<-'END'
@@ -6708,12 +4852,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-browser-side-navigation
-            
-
       ```
       END
       notes <<-'END'
@@ -6722,12 +4862,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-browser-task-scheduler
-            
-
       ```
       END
       notes <<-'END'
@@ -6736,12 +4872,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-canvas-2d-dynamic-rendering-mode-switching
-            
-
       ```
       END
       notes <<-'END'
@@ -6750,12 +4882,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-checker-imaging
-            
-
       ```
       END
       notes <<-'END'
@@ -6764,12 +4892,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-chromevox-arc-support
-            
-
       ```
       END
       notes <<-'END'
@@ -6778,12 +4902,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-clear-browsing-data-counters
-            
-
       ```
       END
       notes <<-'END'
@@ -6792,12 +4912,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-cloud-print-proxy
-            
-
       ```
       END
       notes <<-'END'
@@ -6806,12 +4922,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-cloud-print-xps
-            
-
       ```
       END
       notes <<-'END'
@@ -6823,12 +4935,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-color-correct-rendering
-            
-
       ```
       END
       notes <<-'END'
@@ -6837,12 +4945,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-color-correct-rendering-default-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -6851,12 +4955,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-consumer-kiosk
-            
-
       ```
       END
       notes <<-'END'
@@ -6865,12 +4965,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-content-intent-detection
-            
-
       ```
       END
       notes <<-'END'
@@ -6882,12 +4978,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-contextual-search
-            
-
       ```
       END
       notes <<-'END'
@@ -6896,12 +4988,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-crash-reporter
-            
-
       ```
       END
       notes <<-'END'
@@ -6910,12 +4998,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-crash-reporter-for-testing
-            
-
       ```
       END
       notes <<-'END'
@@ -6927,12 +5011,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-crx-hash-check
-            
-
       ```
       END
       notes <<-'END'
@@ -6941,12 +5021,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-data-reduction-proxy-bypass-warning
-            
-
       ```
       END
       notes <<-'END'
@@ -6955,12 +5031,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-data-reduction-proxy-carrier-test
-            
-
       ```
       END
       notes <<-'END'
@@ -6969,12 +5041,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-data-reduction-proxy-force-pingback
-            
-
       ```
       END
       notes <<-'END'
@@ -6983,12 +5051,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-data-reduction-proxy-lite-page
-            
-
       ```
       END
       notes <<-'END'
@@ -6997,12 +5061,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-data-reduction-proxy-savings-promo
-            
-
       ```
       END
       notes <<-'END'
@@ -7011,12 +5071,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-datasaver-prompt
-            
-
       ```
       END
       notes <<-'END'
@@ -7025,12 +5081,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-default-media-session
-            
-
       ```
       END
       notes <<-'END'
@@ -7042,12 +5094,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-device-discovery-notifications
-            
-
       ```
       END
       notes <<-'END'
@@ -7056,12 +5104,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-devtools-experiments
-            
-
       ```
       END
       notes <<-'END'
@@ -7070,12 +5114,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-display-list-2d-canvas
-            
-
       ```
       END
       notes <<-'END'
@@ -7084,12 +5124,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-distance-field-text
-            
-
       ```
       END
       notes <<-'END'
@@ -7098,12 +5134,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-distillability-service
-            
-
       ```
       END
       notes <<-'END'
@@ -7112,12 +5144,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-dom-distiller
-            
-
       ```
       END
       notes <<-'END'
@@ -7126,12 +5154,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-domain-reliability
-            
-
       ```
       END
       notes <<-'END'
@@ -7140,12 +5164,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-download-image-renaming
-            
-
       ```
       END
       notes <<-'END'
@@ -7154,12 +5174,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-drive-search-in-app-launcher
-            
-
       ```
       END
       notes <<-'END'
@@ -7168,12 +5184,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-drm-atomic
-            
-
       ```
       END
       notes <<-'END'
@@ -7182,12 +5194,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-embedded-extension-options
-            
-
       ```
       END
       notes <<-'END'
@@ -7196,12 +5204,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-es3-apis
-            
-
       ```
       END
       notes <<-'END'
@@ -7210,12 +5214,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-exclusive-audio
-            
-
       ```
       END
       notes <<-'END'
@@ -7227,12 +5227,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-experimental-accessibility-features
-            
-
       ```
       END
       notes <<-'END'
@@ -7241,12 +5237,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-experimental-canvas-features
-            
-
       ```
       END
       notes <<-'END'
@@ -7255,12 +5247,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-experimental-extension-apis
-            
-
       ```
       END
       notes <<-'END'
@@ -7269,12 +5257,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-experimental-input-view-features
-            
-
       ```
       END
       notes <<-'END'
@@ -7283,12 +5267,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-experimental-web-platform-features
-            
-
       ```
       END
       notes <<-'END'
@@ -7297,12 +5277,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-extension-activity-log-testing
-            
-
       ```
       END
       notes <<-'END'
@@ -7311,12 +5287,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-extension-activity-logging
-            
-
       ```
       END
       notes <<-'END'
@@ -7325,12 +5297,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-extension-assets-sharing
-            
-
       ```
       END
       notes <<-'END'
@@ -7339,12 +5307,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-fast-unload
-            
-
       ```
       END
       notes <<-'END'
@@ -7353,12 +5317,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-fast-web-scroll-view-insets
-            
-
       ```
       END
       notes <<-'END'
@@ -7367,12 +5327,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-features
-            
-
       ```
       END
       notes <<-'END'
@@ -7381,12 +5337,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-first-run-ui-transitions
-            
-
       ```
       END
       notes <<-'END'
@@ -7395,12 +5347,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-floating-virtual-keyboard
-            
-
       ```
       END
       notes <<-'END'
@@ -7409,12 +5357,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-font-antialiasing
-            
-
       ```
       END
       notes <<-'END'
@@ -7423,12 +5367,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-fullscreen-tab-detaching
-            
-
       ```
       END
       notes <<-'END'
@@ -7440,12 +5380,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-fullscreen-toolbar-reveal
-            
-
       ```
       END
       notes <<-'END'
@@ -7457,12 +5393,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-google-branded-context-menu
-            
-
       ```
       END
       notes <<-'END'
@@ -7474,12 +5406,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-gpu-async-worker-context
-            
-
       ```
       END
       notes <<-'END'
@@ -7488,12 +5416,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-gpu-benchmarking
-            
-
       ```
       END
       notes <<-'END'
@@ -7502,12 +5426,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-gpu-client-logging
-            
-
       ```
       END
       notes <<-'END'
@@ -7516,12 +5436,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-gpu-client-tracing
-            
-
       ```
       END
       notes <<-'END'
@@ -7530,12 +5446,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-gpu-command-logging
-            
-
       ```
       END
       notes <<-'END'
@@ -7544,12 +5456,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-gpu-debugging
-            
-
       ```
       END
       notes <<-'END'
@@ -7558,12 +5466,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-gpu-driver-debug-logging
-            
-
       ```
       END
       notes <<-'END'
@@ -7572,12 +5476,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-gpu-memory-buffer-compositor-resources
-            
-
       ```
       END
       notes <<-'END'
@@ -7586,12 +5486,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-gpu-memory-buffer-video-frames
-            
-
       ```
       END
       notes <<-'END'
@@ -7600,12 +5496,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-gpu-rasterization
-            
-
       ```
       END
       notes <<-'END'
@@ -7614,12 +5506,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-gpu-service-logging
-            
-
       ```
       END
       notes <<-'END'
@@ -7628,12 +5516,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-gpu-service-tracing
-            
-
       ```
       END
       notes <<-'END'
@@ -7642,12 +5526,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-grouped-history
-            
-
       ```
       END
       notes <<-'END'
@@ -7656,12 +5536,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-hardware-overlays
-            
-
       ```
       END
       notes <<-'END'
@@ -7670,12 +5546,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-harfbuzz-rendertext
-            
-
       ```
       END
       notes <<-'END'
@@ -7687,12 +5559,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-hdr-output
-            
-
       ```
       END
       notes <<-'END'
@@ -7701,12 +5569,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-heap-profiling
-            
-
       ```
       END
       notes <<-'END'
@@ -7715,12 +5579,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-hosted-app-quit-notification
-            
-
       ```
       END
       notes <<-'END'
@@ -7732,12 +5592,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-hosted-apps-in-windows
-            
-
       ```
       END
       notes <<-'END'
@@ -7749,12 +5605,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-hosted-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -7766,12 +5618,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-hotword-hardware
-            
-
       ```
       END
       notes <<-'END'
@@ -7780,12 +5628,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-hung-renderer-infobar
-            
-
       ```
       END
       notes <<-'END'
@@ -7797,12 +5641,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-inband-text-tracks
-            
-
       ```
       END
       notes <<-'END'
@@ -7811,12 +5651,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-ios-handoff-to-other-devices
-            
-
       ```
       END
       notes <<-'END'
@@ -7825,12 +5661,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-ios-password-generation
-            
-
       ```
       END
       notes <<-'END'
@@ -7839,12 +5671,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-ios-physical-web
-            
-
       ```
       END
       notes <<-'END'
@@ -7853,12 +5681,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-kiosk-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -7867,12 +5691,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-layer-lists
-            
-
       ```
       END
       notes <<-'END'
@@ -7881,12 +5701,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-lcd-text
-            
-
       ```
       END
       notes <<-'END'
@@ -7895,12 +5711,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-leak-detection
-            
-
       ```
       END
       notes <<-'END'
@@ -7909,12 +5721,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-local-file-accesses
-            
-
       ```
       END
       notes <<-'END'
@@ -7923,12 +5731,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-local-sync-backend
-            
-
       ```
       END
       notes <<-'END'
@@ -7937,12 +5741,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-logging
-            
-
       ```
       END
       notes <<-'END'
@@ -7951,12 +5751,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-longpress-drag-selection
-            
-
       ```
       END
       notes <<-'END'
@@ -7968,12 +5764,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-low-end-device-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -7982,12 +5774,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-low-res-tiling
-            
-
       ```
       END
       notes <<-'END'
@@ -7996,12 +5784,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-lru-snapshot-cache
-            
-
       ```
       END
       notes <<-'END'
@@ -8010,12 +5794,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-mac-views-native-app-windows
-            
-
       ```
       END
       notes <<-'END'
@@ -8027,12 +5807,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-main-frame-before-activation
-            
-
       ```
       END
       notes <<-'END'
@@ -8041,12 +5817,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-md-feedback
-            
-
       ```
       END
       notes <<-'END'
@@ -8055,12 +5827,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-md-policy-page
-            
-
       ```
       END
       notes <<-'END'
@@ -8069,12 +5837,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-media-suspend
-            
-
       ```
       END
       notes <<-'END'
@@ -8083,12 +5847,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-merge-key-char-events
-            
-
       ```
       END
       notes <<-'END'
@@ -8100,12 +5860,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-message-center-always-scroll-up-upon-notification-removal
-            
-
       ```
       END
       notes <<-'END'
@@ -8114,12 +5870,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-nacl
-            
-
       ```
       END
       notes <<-'END'
@@ -8128,12 +5880,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-nacl-debug
-            
-
       ```
       END
       notes <<-'END'
@@ -8142,12 +5890,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-nacl-nonsfi-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -8156,12 +5900,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-native-cups
-            
-
       ```
       END
       notes <<-'END'
@@ -8173,12 +5913,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-native-gpu-memory-buffers
-            
-
       ```
       END
       notes <<-'END'
@@ -8187,12 +5923,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-natural-scroll-default
-            
-
       ```
       END
       notes <<-'END'
@@ -8201,12 +5933,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-navigation-tracing
-            
-
       ```
       END
       notes <<-'END'
@@ -8215,12 +5943,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-net-benchmarking
-            
-
       ```
       END
       notes <<-'END'
@@ -8229,12 +5953,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-network-information
-            
-
       ```
       END
       notes <<-'END'
@@ -8243,12 +5963,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-network-portal-notification
-            
-
       ```
       END
       notes <<-'END'
@@ -8257,12 +5973,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-new-bookmark-apps
-            
-
       ```
       END
       notes <<-'END'
@@ -8271,12 +5983,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-ntp-popular-sites
-            
-
       ```
       END
       notes <<-'END'
@@ -8285,12 +5993,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-ntp-search-engine-country-detection
-            
-
       ```
       END
       notes <<-'END'
@@ -8299,12 +6003,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-offer-store-unmasked-wallet-cards
-            
-
       ```
       END
       notes <<-'END'
@@ -8313,12 +6013,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-offer-upload-credit-cards
-            
-
       ```
       END
       notes <<-'END'
@@ -8327,12 +6023,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-offline-auto-reload
-            
-
       ```
       END
       notes <<-'END'
@@ -8341,12 +6033,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-offline-auto-reload-visible-only
-            
-
       ```
       END
       notes <<-'END'
@@ -8355,12 +6043,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-osk-overscroll
-            
-
       ```
       END
       notes <<-'END'
@@ -8372,12 +6056,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-overlay-scrollbar
-            
-
       ```
       END
       notes <<-'END'
@@ -8386,12 +6066,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-override-bookmarks-ui
-            
-
       ```
       END
       notes <<-'END'
@@ -8400,12 +6076,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-partial-raster
-            
-
       ```
       END
       notes <<-'END'
@@ -8414,12 +6086,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-password-generation
-            
-
       ```
       END
       notes <<-'END'
@@ -8428,12 +6096,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-payment-request
-            
-
       ```
       END
       notes <<-'END'
@@ -8442,12 +6106,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-pepper-testing
-            
-
       ```
       END
       notes <<-'END'
@@ -8456,12 +6116,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-per-monitor-dpi
-            
-
       ```
       END
       notes <<-'END'
@@ -8473,12 +6129,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-permission-action-reporting
-            
-
       ```
       END
       notes <<-'END'
@@ -8487,12 +6139,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-physical-keyboard-autocorrect
-            
-
       ```
       END
       notes <<-'END'
@@ -8501,12 +6149,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-pinch
-            
-
       ```
       END
       notes <<-'END'
@@ -8515,12 +6159,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-pixel-output-in-tests
-            
-
       ```
       END
       notes <<-'END'
@@ -8529,12 +6169,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-plugin-placeholder-testing
-            
-
       ```
       END
       notes <<-'END'
@@ -8543,12 +6179,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-potentially-annoying-security-features
-            
-
       ```
       END
       notes <<-'END'
@@ -8557,12 +6189,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-power-overlay
-            
-
       ```
       END
       notes <<-'END'
@@ -8571,12 +6199,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-precache
-            
-
       ```
       END
       notes <<-'END'
@@ -8585,12 +6209,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-precise-memory-info
-            
-
       ```
       END
       notes <<-'END'
@@ -8599,12 +6219,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-prefer-compositing-to-lcd-text
-            
-
       ```
       END
       notes <<-'END'
@@ -8613,12 +6229,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-print-browser
-            
-
       ```
       END
       notes <<-'END'
@@ -8627,12 +6239,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-print-preview-register-promos
-            
-
       ```
       END
       notes <<-'END'
@@ -8641,12 +6249,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-profile-shortcut-manager
-            
-
       ```
       END
       notes <<-'END'
@@ -8658,12 +6262,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-profiling
-            
-
       ```
       END
       notes <<-'END'
@@ -8672,12 +6272,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-proximity-auth-bluetooth-low-energy-discovery
-            
-
       ```
       END
       notes <<-'END'
@@ -8686,12 +6282,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-proximity-auth-proximity-detection
-            
-
       ```
       END
       notes <<-'END'
@@ -8700,12 +6292,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-push-api-background-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -8714,12 +6302,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-quic
-            
-
       ```
       END
       notes <<-'END'
@@ -8728,12 +6312,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-reader-mode-toolbar-icon
-            
-
       ```
       END
       notes <<-'END'
@@ -8742,12 +6322,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-request-tablet-site
-            
-
       ```
       END
       notes <<-'END'
@@ -8756,12 +6332,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-rgba-4444-textures
-            
-
       ```
       END
       notes <<-'END'
@@ -8770,12 +6342,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-sandbox
-            
-
       ```
       END
       notes <<-'END'
@@ -8784,12 +6352,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-sandbox-logging
-            
-
       ```
       END
       notes <<-'END'
@@ -8798,12 +6362,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-screenshot-testing-with-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -8812,12 +6372,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-scripts-require-action
-            
-
       ```
       END
       notes <<-'END'
@@ -8826,12 +6382,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-scroll-prediction
-            
-
       ```
       END
       notes <<-'END'
@@ -8840,12 +6392,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-service-manager-tracing
-            
-
       ```
       END
       notes <<-'END'
@@ -8854,12 +6402,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-settings-window
-            
-
       ```
       END
       notes <<-'END'
@@ -8868,12 +6412,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-sgi-video-sync
-            
-
       ```
       END
       notes <<-'END'
@@ -8882,12 +6422,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-single-click-autofill
-            
-
       ```
       END
       notes <<-'END'
@@ -8896,12 +6432,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-site-engagement-eviction-policy
-            
-
       ```
       END
       notes <<-'END'
@@ -8910,12 +6442,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-site-settings
-            
-
       ```
       END
       notes <<-'END'
@@ -8924,12 +6452,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-skia-benchmarking
-            
-
       ```
       END
       notes <<-'END'
@@ -8938,12 +6462,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-slimming-paint-invalidation
-            
-
       ```
       END
       notes <<-'END'
@@ -8952,12 +6472,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-slimming-paint-v2
-            
-
       ```
       END
       notes <<-'END'
@@ -8966,12 +6482,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-smooth-scrolling
-            
-
       ```
       END
       notes <<-'END'
@@ -8980,12 +6492,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-spatial-navigation
-            
-
       ```
       END
       notes <<-'END'
@@ -8994,12 +6502,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-spdy-proxy-auth
-            
-
       ```
       END
       notes <<-'END'
@@ -9008,12 +6512,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-speech-dispatcher
-            
-
       ```
       END
       notes <<-'END'
@@ -9025,12 +6525,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-spelling-feedback-field-trial
-            
-
       ```
       END
       notes <<-'END'
@@ -9042,12 +6538,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-spotlight-actions
-            
-
       ```
       END
       notes <<-'END'
@@ -9056,12 +6548,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-stats-collection-bindings
-            
-
       ```
       END
       notes <<-'END'
@@ -9070,12 +6558,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-stats-table
-            
-
       ```
       END
       notes <<-'END'
@@ -9084,12 +6568,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-strict-mixed-content-checking
-            
-
       ```
       END
       notes <<-'END'
@@ -9098,12 +6578,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-strict-powerful-feature-restrictions
-            
-
       ```
       END
       notes <<-'END'
@@ -9112,12 +6588,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-suggestions-ui
-            
-
       ```
       END
       notes <<-'END'
@@ -9126,12 +6598,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-suggestions-with-substring-match
-            
-
       ```
       END
       notes <<-'END'
@@ -9140,12 +6608,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-supervised-user-managed-bookmarks-folder
-            
-
       ```
       END
       notes <<-'END'
@@ -9154,12 +6618,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-swap-buffers-with-bounds
-            
-
       ```
       END
       notes <<-'END'
@@ -9168,12 +6628,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-sync-app-list
-            
-
       ```
       END
       notes <<-'END'
@@ -9182,12 +6638,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-sync-articles
-            
-
       ```
       END
       notes <<-'END'
@@ -9196,12 +6648,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-tab-audio-muting
-            
-
       ```
       END
       notes <<-'END'
@@ -9210,12 +6658,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-tcp-fastopen
-            
-
       ```
       END
       notes <<-'END'
@@ -9224,12 +6668,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-tether
-            
-
       ```
       END
       notes <<-'END'
@@ -9238,12 +6678,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-threaded-compositing
-            
-
       ```
       END
       notes <<-'END'
@@ -9252,12 +6688,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-threaded-texture-mailboxes
-            
-
       ```
       END
       notes <<-'END'
@@ -9266,12 +6698,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-thumbnail-retargeting
-            
-
       ```
       END
       notes <<-'END'
@@ -9280,12 +6708,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-tile-compression
-            
-
       ```
       END
       notes <<-'END'
@@ -9294,12 +6718,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-touch-calibration-setting
-            
-
       ```
       END
       notes <<-'END'
@@ -9308,12 +6728,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-touch-drag-drop
-            
-
       ```
       END
       notes <<-'END'
@@ -9322,12 +6738,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-touch-support-for-screen-magnifier
-            
-
       ```
       END
       notes <<-'END'
@@ -9336,12 +6748,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-touchpad-three-finger-click
-            
-
       ```
       END
       notes <<-'END'
@@ -9350,12 +6758,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-touchview
-            
-
       ```
       END
       notes <<-'END'
@@ -9364,12 +6768,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-trace-app-source
-            
-
       ```
       END
       notes <<-'END'
@@ -9378,12 +6778,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-tracing
-            
-
       ```
       END
       notes <<-'END'
@@ -9392,12 +6788,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-tracing-output
-            
-
       ```
       END
       notes <<-'END'
@@ -9406,12 +6798,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-translate-new-ux
-            
-
       ```
       END
       notes <<-'END'
@@ -9423,12 +6811,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-true-color-rendering
-            
-
       ```
       END
       notes <<-'END'
@@ -9437,12 +6821,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-ui-devtools
-            
-
       ```
       END
       notes <<-'END'
@@ -9451,12 +6831,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-use-zoom-for-dsf
-            
-
       ```
       END
       notes <<-'END'
@@ -9465,12 +6841,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-user-controlled-alternate-protocol-ports
-            
-
       ```
       END
       notes <<-'END'
@@ -9479,12 +6851,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-user-metrics
-            
-
       ```
       END
       notes <<-'END'
@@ -9496,12 +6864,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-usermedia-screen-capturing
-            
-
       ```
       END
       notes <<-'END'
@@ -9510,12 +6874,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-video-player-chromecast-support
-            
-
       ```
       END
       notes <<-'END'
@@ -9524,12 +6884,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-viewport
-            
-
       ```
       END
       notes <<-'END'
@@ -9538,12 +6894,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-virtual-keyboard
-            
-
       ```
       END
       notes <<-'END'
@@ -9552,12 +6904,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-vp9-in-mp4
-            
-
       ```
       END
       notes <<-'END'
@@ -9566,12 +6914,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-vtune-support
-            
-
       ```
       END
       notes <<-'END'
@@ -9580,12 +6924,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-vulkan
-            
-
       ```
       END
       notes <<-'END'
@@ -9594,12 +6934,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-wayland-server
-            
-
       ```
       END
       notes <<-'END'
@@ -9611,12 +6947,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-web-notification-custom-layouts
-            
-
       ```
       END
       notes <<-'END'
@@ -9625,12 +6957,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-webfonts-intervention-trigger
-            
-
       ```
       END
       notes <<-'END'
@@ -9639,12 +6967,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-webfonts-intervention-v2
-            
-
       ```
       END
       notes <<-'END'
@@ -9653,12 +6977,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-webgl-draft-extensions
-            
-
       ```
       END
       notes <<-'END'
@@ -9667,12 +6987,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-webgl-image-chromium
-            
-
       ```
       END
       notes <<-'END'
@@ -9681,12 +6997,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-webrtc-event-logging-from-extension
-            
-
       ```
       END
       notes <<-'END'
@@ -9695,12 +7007,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-webrtc-stun-origin
-            
-
       ```
       END
       notes <<-'END'
@@ -9712,12 +7020,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-webvr
-            
-
       ```
       END
       notes <<-'END'
@@ -9726,12 +7030,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-wifi-credential-sync
-            
-
       ```
       END
       notes <<-'END'
@@ -9740,12 +7040,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-win7-webrtc-hw-h264-decoding
-            
-
       ```
       END
       notes <<-'END'
@@ -9757,12 +7053,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enable-zero-copy
-            
-
       ```
       END
       notes <<-'END'
@@ -9771,12 +7063,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enabled
-            
-
       ```
       END
       notes <<-'END'
@@ -9785,12 +7073,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enabled-2g
-            
-
       ```
       END
       notes <<-'END'
@@ -9799,12 +7083,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enabled-3g
-            
-
       ```
       END
       notes <<-'END'
@@ -9813,12 +7093,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enabled-slow2g
-            
-
       ```
       END
       notes <<-'END'
@@ -9827,12 +7103,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --encode-binary
-            
-
       ```
       END
       notes <<-'END'
@@ -9841,12 +7113,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enforce
-            
-
       ```
       END
       notes <<-'END'
@@ -9855,12 +7123,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enforce-gl-minimums
-            
-
       ```
       END
       notes <<-'END'
@@ -9869,12 +7133,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enforce-webrtc-ip-permission-check
-            
-
       ```
       END
       notes <<-'END'
@@ -9887,12 +7147,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enforce_strict
-            
-
       ```
       END
       notes <<-'END'
@@ -9901,12 +7157,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enterprise-disable-arc
-            
-
       ```
       END
       notes <<-'END'
@@ -9915,12 +7167,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enterprise-enable-forced-re-enrollment
-            
-
       ```
       END
       notes <<-'END'
@@ -9929,12 +7177,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enterprise-enable-zero-touch-enrollment
-            
-
       ```
       END
       notes <<-'END'
@@ -9943,12 +7187,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enterprise-enrollment-initial-modulus
-            
-
       ```
       END
       notes <<-'END'
@@ -9957,12 +7197,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --enterprise-enrollment-modulus-limit
-            
-
       ```
       END
       notes <<-'END'
@@ -9971,12 +7207,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --error-console
-            
-
       ```
       END
       notes <<-'END'
@@ -9985,12 +7217,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --explicitly-allowed-ports
-            
-
       ```
       END
       notes <<-'END'
@@ -9999,12 +7227,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --expose-internals-for-testing
-            
-
       ```
       END
       notes <<-'END'
@@ -10013,12 +7237,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --extension-content-verification
-            
-
       ```
       END
       notes <<-'END'
@@ -10027,12 +7247,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --extension-process
-            
-
       ```
       END
       notes <<-'END'
@@ -10041,12 +7257,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --extensions-install-verification
-            
-
       ```
       END
       notes <<-'END'
@@ -10055,12 +7267,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --extensions-multi-account
-            
-
       ```
       END
       notes <<-'END'
@@ -10069,12 +7277,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --extensions-not-webstore
-            
-
       ```
       END
       notes <<-'END'
@@ -10083,12 +7287,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --extensions-on-chrome-urls
-            
-
       ```
       END
       notes <<-'END'
@@ -10097,12 +7297,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --extensions-update-frequency
-            
-
       ```
       END
       notes <<-'END'
@@ -10111,12 +7307,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --extra-search-query-params
-            
-
       ```
       END
       notes <<-'END'
@@ -10125,12 +7317,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --fake-variations-channel
-            
-
       ```
       END
       notes <<-'END'
@@ -10139,12 +7327,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --false
-            
-
       ```
       END
       notes <<-'END'
@@ -10153,12 +7337,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --fast
-            
-
       ```
       END
       notes <<-'END'
@@ -10167,12 +7347,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --fast-start
-            
-
       ```
       END
       notes <<-'END'
@@ -10181,12 +7357,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --feedback-server
-            
-
       ```
       END
       notes <<-'END'
@@ -10195,12 +7367,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --field-trial-handle
-            
-
       ```
       END
       notes <<-'END'
@@ -10209,12 +7377,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --first-exec-after-boot
-            
-
       ```
       END
       notes <<-'END'
@@ -10223,12 +7387,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --flag-switches-begin
-            
-
       ```
       END
       notes <<-'END'
@@ -10237,12 +7397,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --flag-switches-end
-            
-
       ```
       END
       notes <<-'END'
@@ -10251,12 +7407,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --font-cache-shared-handle
-            
-
       ```
       END
       notes <<-'END'
@@ -10268,12 +7420,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-android-app-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -10282,12 +7430,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-app-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -10296,12 +7440,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-desktop-ios-promotion
-            
-
       ```
       END
       notes <<-'END'
@@ -10310,12 +7450,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-dev-mode-highlighting
-            
-
       ```
       END
       notes <<-'END'
@@ -10324,12 +7460,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-device-scale-factor
-            
-
       ```
       END
       notes <<-'END'
@@ -10338,12 +7470,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-display-list-2d-canvas
-            
-
       ```
       END
       notes <<-'END'
@@ -10352,12 +7480,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-fieldtrial-params
-            
-
       ```
       END
       notes <<-'END'
@@ -10366,12 +7490,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-fieldtrials
-            
-
       ```
       END
       notes <<-'END'
@@ -10380,12 +7500,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-first-run
-            
-
       ```
       END
       notes <<-'END'
@@ -10394,12 +7510,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-first-run-ui
-            
-
       ```
       END
       notes <<-'END'
@@ -10408,12 +7520,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-gpu-mem-available-mb
-            
-
       ```
       END
       notes <<-'END'
@@ -10422,12 +7530,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-gpu-rasterization
-            
-
       ```
       END
       notes <<-'END'
@@ -10436,12 +7540,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-happiness-tracking-system
-            
-
       ```
       END
       notes <<-'END'
@@ -10450,12 +7550,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-load-easy-unlock-app-in-tests
-            
-
       ```
       END
       notes <<-'END'
@@ -10465,12 +7561,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-local-ntp
-            
-
       ```
       END
       notes <<-'END'
@@ -10479,12 +7571,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-login-manager-in-tests
-            
-
       ```
       END
       notes <<-'END'
@@ -10493,12 +7581,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-mediafoundation
-            
-
       ```
       END
       notes <<-'END'
@@ -10510,12 +7594,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-overlay-fullscreen-video
-            
-
       ```
       END
       notes <<-'END'
@@ -10524,12 +7604,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-pnacl-subzero
-            
-
       ```
       END
       notes <<-'END'
@@ -10538,12 +7614,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-renderer-accessibility
-            
-
       ```
       END
       notes <<-'END'
@@ -10552,12 +7624,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-show-update-menu-badge
-            
-
       ```
       END
       notes <<-'END'
@@ -10569,12 +7637,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-show-update-menu-item
-            
-
       ```
       END
       notes <<-'END'
@@ -10586,12 +7650,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-system-compositor-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -10600,12 +7660,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-ui-direction
-            
-
       ```
       END
       notes <<-'END'
@@ -10614,12 +7670,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-variation-ids
-            
-
       ```
       END
       notes <<-'END'
@@ -10628,12 +7680,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-video-overlays
-            
-
       ```
       END
       notes <<-'END'
@@ -10642,12 +7690,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-wave-audio
-            
-
       ```
       END
       notes <<-'END'
@@ -10659,12 +7703,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --force-webrtc-ip-handling-policy
-            
-
       ```
       END
       notes <<-'END'
@@ -10676,12 +7716,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --full-memory-crash-report
-            
-
       ```
       END
       notes <<-'END'
@@ -10690,12 +7726,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gaia-url
-            
-
       ```
       END
       notes <<-'END'
@@ -10704,12 +7736,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gcm-checkin-url
-            
-
       ```
       END
       notes <<-'END'
@@ -10718,12 +7746,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gcm-mcs-endpoint
-            
-
       ```
       END
       notes <<-'END'
@@ -10732,12 +7756,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gcm-registration-url
-            
-
       ```
       END
       notes <<-'END'
@@ -10746,12 +7766,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --generate-accessibility-test-expectations
-            
-
       ```
       END
       notes <<-'END'
@@ -10760,12 +7776,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gl
-            
-
       ```
       END
       notes <<-'END'
@@ -10774,12 +7786,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gl-composited-texture-quad-border
-            
-
       ```
       END
       notes <<-'END'
@@ -10788,12 +7796,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gl-shader-interm-output
-            
-
       ```
       END
       notes <<-'END'
@@ -10802,12 +7806,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gles
-            
-
       ```
       END
       notes <<-'END'
@@ -10816,12 +7816,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --golden-screenshots-dir
-            
-
       ```
       END
       notes <<-'END'
@@ -10830,12 +7826,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --google-apis-url
-            
-
       ```
       END
       notes <<-'END'
@@ -10844,12 +7836,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --google-base-url
-            
-
       ```
       END
       notes <<-'END'
@@ -10858,12 +7846,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --google-doodle-url
-            
-
       ```
       END
       notes <<-'END'
@@ -10872,12 +7856,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --google-profile-info
-            
-
       ```
       END
       notes <<-'END'
@@ -10886,12 +7866,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --google-url
-            
-
       ```
       END
       notes <<-'END'
@@ -10900,12 +7876,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-active-device-id
-            
-
       ```
       END
       notes <<-'END'
@@ -10914,12 +7886,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-active-vendor-id
-            
-
       ```
       END
       notes <<-'END'
@@ -10928,12 +7896,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-device-id
-            
-
       ```
       END
       notes <<-'END'
@@ -10942,12 +7906,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-driver-bug-workarounds
-            
-
       ```
       END
       notes <<-'END'
@@ -10956,12 +7916,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-driver-date
-            
-
       ```
       END
       notes <<-'END'
@@ -10970,12 +7926,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-driver-vendor
-            
-
       ```
       END
       notes <<-'END'
@@ -10984,12 +7936,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-driver-version
-            
-
       ```
       END
       notes <<-'END'
@@ -10998,12 +7946,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-launcher
-            
-
       ```
       END
       notes <<-'END'
@@ -11012,12 +7956,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-no-complete-info-collection
-            
-
       ```
       END
       notes <<-'END'
@@ -11026,12 +7966,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-no-context-lost
-            
-
       ```
       END
       notes <<-'END'
@@ -11040,12 +7976,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-process
-            
-
       ```
       END
       notes <<-'END'
@@ -11054,12 +7986,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-program-cache-size-kb
-            
-
       ```
       END
       notes <<-'END'
@@ -11068,12 +7996,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-rasterization-msaa-sample-count
-            
-
       ```
       END
       notes <<-'END'
@@ -11082,12 +8006,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-sandbox-allow-sysv-shm
-            
-
       ```
       END
       notes <<-'END'
@@ -11096,12 +8016,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-sandbox-failures-fatal
-            
-
       ```
       END
       notes <<-'END'
@@ -11110,12 +8026,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-sandbox-start-early
-            
-
       ```
       END
       notes <<-'END'
@@ -11124,12 +8036,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-secondary-device-ids
-            
-
       ```
       END
       notes <<-'END'
@@ -11138,12 +8046,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-secondary-vendor-ids
-            
-
       ```
       END
       notes <<-'END'
@@ -11152,12 +8056,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-startup-dialog
-            
-
       ```
       END
       notes <<-'END'
@@ -11166,12 +8066,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-testing-device-id
-            
-
       ```
       END
       notes <<-'END'
@@ -11180,12 +8076,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-testing-driver-date
-            
-
       ```
       END
       notes <<-'END'
@@ -11194,12 +8086,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-testing-gl-renderer
-            
-
       ```
       END
       notes <<-'END'
@@ -11208,12 +8096,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-testing-gl-vendor
-            
-
       ```
       END
       notes <<-'END'
@@ -11222,12 +8106,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-testing-gl-version
-            
-
       ```
       END
       notes <<-'END'
@@ -11236,12 +8116,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-testing-os-version
-            
-
       ```
       END
       notes <<-'END'
@@ -11250,12 +8126,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-testing-secondary-device-ids
-            
-
       ```
       END
       notes <<-'END'
@@ -11264,12 +8136,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-testing-secondary-vendor-ids
-            
-
       ```
       END
       notes <<-'END'
@@ -11278,12 +8146,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-testing-vendor-id
-            
-
       ```
       END
       notes <<-'END'
@@ -11292,12 +8156,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --gpu-vendor-id
-            
-
       ```
       END
       notes <<-'END'
@@ -11306,12 +8166,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --guest-wallpaper-large
-            
-
       ```
       END
       notes <<-'END'
@@ -11320,12 +8176,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --guest-wallpaper-small
-            
-
       ```
       END
       notes <<-'END'
@@ -11334,12 +8186,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --h
-            
-
       ```
       END
       notes <<-'END'
@@ -11351,12 +8199,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --has-chromeos-diamond-key
-            
-
       ```
       END
       notes <<-'END'
@@ -11365,12 +8209,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --headless
-            
-
       ```
       END
       notes <<-'END'
@@ -11379,12 +8219,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --help
-            
-
       ```
       END
       notes <<-'END'
@@ -11393,12 +8229,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --hide
-            
-
       ```
       END
       notes <<-'END'
@@ -11407,12 +8239,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --hide-icons
-            
-
       ```
       END
       notes <<-'END'
@@ -11424,12 +8252,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --hide-scrollbars
-            
-
       ```
       END
       notes <<-'END'
@@ -11438,12 +8262,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --history-entry-requires-user-gesture
-            
-
       ```
       END
       notes <<-'END'
@@ -11452,12 +8272,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --homedir
-            
-
       ```
       END
       notes <<-'END'
@@ -11466,12 +8282,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --homepage
-            
-
       ```
       END
       notes <<-'END'
@@ -11480,12 +8292,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --host
-            
-
       ```
       END
       notes <<-'END'
@@ -11494,12 +8302,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --host-pairing-oobe
-            
-
       ```
       END
       notes <<-'END'
@@ -11508,12 +8312,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --host-resolver-retry-attempts
-            
-
       ```
       END
       notes <<-'END'
@@ -11522,12 +8322,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --host-resolver-rules
-            
-
       ```
       END
       notes <<-'END'
@@ -11536,12 +8332,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --host-rules
-            
-
       ```
       END
       notes <<-'END'
@@ -11550,12 +8342,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --icu-data-dir
-            
-
       ```
       END
       notes <<-'END'
@@ -11564,12 +8352,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ignore-autocomplete-off-autofill
-            
-
       ```
       END
       notes <<-'END'
@@ -11578,12 +8362,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ignore-certificate-errors
-            
-
       ```
       END
       notes <<-'END'
@@ -11592,12 +8372,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ignore-gpu-blacklist
-            
-
       ```
       END
       notes <<-'END'
@@ -11606,12 +8382,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ignore-missing-cdm-host-file
-            
-
       ```
       END
       notes <<-'END'
@@ -11620,12 +8392,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ignore-urlfetcher-cert-requests
-            
-
       ```
       END
       notes <<-'END'
@@ -11634,12 +8402,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ignore-user-profile-mapping-for-tests
-            
-
       ```
       END
       notes <<-'END'
@@ -11650,12 +8414,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --in-process-gpu
-            
-
       ```
       END
       notes <<-'END'
@@ -11664,12 +8424,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --incognito
-            
-
       ```
       END
       notes <<-'END'
@@ -11678,12 +8434,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --inert-visual-viewport
-            
-
       ```
       END
       notes <<-'END'
@@ -11692,12 +8444,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --input
-            
-
       ```
       END
       notes <<-'END'
@@ -11706,12 +8454,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --install-chrome-app
-            
-
       ```
       END
       notes <<-'END'
@@ -11720,12 +8464,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --install-supervised-user-whitelists
-            
-
       ```
       END
       notes <<-'END'
@@ -11734,12 +8474,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --instant-process
-            
-
       ```
       END
       notes <<-'END'
@@ -11748,12 +8484,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --interests-url
-            
-
       ```
       END
       notes <<-'END'
@@ -11762,12 +8494,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --invalidation-use-gcm-channel
-            
-
       ```
       END
       notes <<-'END'
@@ -11776,12 +8504,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ipc-connection-timeout
-            
-
       ```
       END
       notes <<-'END'
@@ -11790,12 +8514,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ipc-dump-directory
-            
-
       ```
       END
       notes <<-'END'
@@ -11807,12 +8527,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ipc-fuzzer-testcase
-            
-
       ```
       END
       notes <<-'END'
@@ -11824,12 +8540,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --is-running-in-mash
-            
-
       ```
       END
       notes <<-'END'
@@ -11838,12 +8550,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --isolate-extensions
-            
-
       ```
       END
       notes <<-'END'
@@ -11852,12 +8560,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --isolate-sites-for-testing
-            
-
       ```
       END
       notes <<-'END'
@@ -11866,12 +8570,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --javascript-harmony
-            
-
       ```
       END
       notes <<-'END'
@@ -11880,12 +8580,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --js-flags
-            
-
       ```
       END
       notes <<-'END'
@@ -11894,12 +8590,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --keep-alive-for-test
-            
-
       ```
       END
       notes <<-'END'
@@ -11908,12 +8600,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --kiosk
-            
-
       ```
       END
       notes <<-'END'
@@ -11922,12 +8610,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --kiosk-printing
-            
-
       ```
       END
       notes <<-'END'
@@ -11936,12 +8620,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --lang
-            
-
       ```
       END
       notes <<-'END'
@@ -11950,12 +8630,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --last-launched-app
-            
-
       ```
       END
       notes <<-'END'
@@ -11964,12 +8640,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --light_muted
-            
-
       ```
       END
       notes <<-'END'
@@ -11978,12 +8650,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --light_vibrant
-            
-
       ```
       END
       notes <<-'END'
@@ -11992,12 +8660,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --load-and-launch-app
-            
-
       ```
       END
       notes <<-'END'
@@ -12006,12 +8670,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --load-apps
-            
-
       ```
       END
       notes <<-'END'
@@ -12020,12 +8680,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --load-extension
-            
-
       ```
       END
       notes <<-'END'
@@ -12034,12 +8690,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --load-media-router-component-extension
-            
-
       ```
       END
       notes <<-'END'
@@ -12048,12 +8700,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --local-heuristics-only-for-password-generation
-            
-
       ```
       END
       notes <<-'END'
@@ -12062,12 +8710,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --local-ntp-reload
-            
-
       ```
       END
       notes <<-'END'
@@ -12079,12 +8723,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --local-sync-backend-dir
-            
-
       ```
       END
       notes <<-'END'
@@ -12093,12 +8733,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --log-gpu-control-list-decisions
-            
-
       ```
       END
       notes <<-'END'
@@ -12107,12 +8743,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --log-level
-            
-
       ```
       END
       notes <<-'END'
@@ -12121,12 +8753,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --log-net-log
-            
-
       ```
       END
       notes <<-'END'
@@ -12135,12 +8763,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --login-manager
-            
-
       ```
       END
       notes <<-'END'
@@ -12149,12 +8773,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --login-profile
-            
-
       ```
       END
       notes <<-'END'
@@ -12163,12 +8783,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --login-user
-            
-
       ```
       END
       notes <<-'END'
@@ -12177,12 +8793,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --lso-url
-            
-
       ```
       END
       notes <<-'END'
@@ -12191,12 +8803,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ltr
-            
-
       ```
       END
       notes <<-'END'
@@ -12205,12 +8813,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --main-frame-resizes-are-orientation-changes
-            
-
       ```
       END
       notes <<-'END'
@@ -12219,12 +8823,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --make-chrome-default
-            
-
       ```
       END
       notes <<-'END'
@@ -12236,12 +8836,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --make-default-browser
-            
-
       ```
       END
       notes <<-'END'
@@ -12250,12 +8846,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --managed-user-id
-            
-
       ```
       END
       notes <<-'END'
@@ -12264,12 +8856,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --managed-user-sync-token
-            
-
       ```
       END
       notes <<-'END'
@@ -12278,12 +8866,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --mark-non-secure-as
-            
-
       ```
       END
       notes <<-'END'
@@ -12292,12 +8876,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --market-url-for-testing
-            
-
       ```
       END
       notes <<-'END'
@@ -12309,12 +8889,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --mash
-            
-
       ```
       END
       notes <<-'END'
@@ -12326,12 +8902,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --material
-            
-
       ```
       END
       notes <<-'END'
@@ -12340,12 +8912,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --material-design-ink-drop-animation-speed
-            
-
       ```
       END
       notes <<-'END'
@@ -12354,12 +8922,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --material-hybrid
-            
-
       ```
       END
       notes <<-'END'
@@ -12368,12 +8932,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --max-gum-fps
-            
-
       ```
       END
       notes <<-'END'
@@ -12385,12 +8945,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --max-untiled-layer-height
-            
-
       ```
       END
       notes <<-'END'
@@ -12399,12 +8955,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --max-untiled-layer-width
-            
-
       ```
       END
       notes <<-'END'
@@ -12413,12 +8965,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --media-cache-size
-            
-
       ```
       END
       notes <<-'END'
@@ -12427,12 +8975,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --mem-pressure-system-reserved-kb
-            
-
       ```
       END
       notes <<-'END'
@@ -12441,12 +8985,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --memory-metrics
-            
-
       ```
       END
       notes <<-'END'
@@ -12455,12 +8995,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --memory-pressure-off
-            
-
       ```
       END
       notes <<-'END'
@@ -12469,12 +9005,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --memory-pressure-thresholds
-            
-
       ```
       END
       notes <<-'END'
@@ -12483,12 +9015,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --memory-pressure-thresholds-mb
-            
-
       ```
       END
       notes <<-'END'
@@ -12500,12 +9028,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --message-center-changes-while-open
-            
-
       ```
       END
       notes <<-'END'
@@ -12514,12 +9038,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --metrics-client-id
-            
-
       ```
       END
       notes <<-'END'
@@ -12531,12 +9051,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --metrics-recording-only
-            
-
       ```
       END
       notes <<-'END'
@@ -12545,12 +9061,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --mhtml-generator-option
-            
-
       ```
       END
       notes <<-'END'
@@ -12559,12 +9071,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --mock
-            
-
       ```
       END
       notes <<-'END'
@@ -12573,12 +9081,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --mojo-channel-token
-            
-
       ```
       END
       notes <<-'END'
@@ -12587,12 +9091,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --mojo-local-storage
-            
-
       ```
       END
       notes <<-'END'
@@ -12601,12 +9101,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --mojo-pipe-token
-            
-
       ```
       END
       notes <<-'END'
@@ -12615,12 +9111,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --monitoring-destination-id
-            
-
       ```
       END
       notes <<-'END'
@@ -12629,12 +9121,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --mse-audio-buffer-size-limit
-            
-
       ```
       END
       notes <<-'END'
@@ -12643,12 +9131,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --mse-video-buffer-size-limit
-            
-
       ```
       END
       notes <<-'END'
@@ -12657,12 +9141,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --mute-audio
-            
-
       ```
       END
       notes <<-'END'
@@ -12671,12 +9151,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --nacl-broker
-            
-
       ```
       END
       notes <<-'END'
@@ -12685,12 +9161,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --nacl-dangerous-no-sandbox-nonsfi
-            
-
       ```
       END
       notes <<-'END'
@@ -12699,12 +9171,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --nacl-debug-mask
-            
-
       ```
       END
       notes <<-'END'
@@ -12713,12 +9181,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --nacl-gdb
-            
-
       ```
       END
       notes <<-'END'
@@ -12727,12 +9191,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --nacl-gdb-script
-            
-
       ```
       END
       notes <<-'END'
@@ -12741,12 +9201,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --nacl-loader
-            
-
       ```
       END
       notes <<-'END'
@@ -12755,12 +9211,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --nacl-loader-nonsfi
-            
-
       ```
       END
       notes <<-'END'
@@ -12769,12 +9221,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --native
-            
-
       ```
       END
       notes <<-'END'
@@ -12783,12 +9231,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --native-crx-bindings
-            
-
       ```
       END
       notes <<-'END'
@@ -12797,12 +9241,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --net-log-capture-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -12811,12 +9251,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --netifs-to-ignore
-            
-
       ```
       END
       notes <<-'END'
@@ -12825,12 +9261,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --network-country-iso
-            
-
       ```
       END
       notes <<-'END'
@@ -12842,12 +9274,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --new-profile-management
-            
-
       ```
       END
       notes <<-'END'
@@ -12856,12 +9284,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --new-window
-            
-
       ```
       END
       notes <<-'END'
@@ -12870,12 +9294,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --NewProfileManagement
-            
-
       ```
       END
       notes <<-'END'
@@ -12884,12 +9304,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-default-browser-check
-            
-
       ```
       END
       notes <<-'END'
@@ -12898,12 +9314,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-experiments
-            
-
       ```
       END
       notes <<-'END'
@@ -12912,12 +9324,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-first-run
-            
-
       ```
       END
       notes <<-'END'
@@ -12926,12 +9334,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-managed-user-acknowledgment-check
-            
-
       ```
       END
       notes <<-'END'
@@ -12940,12 +9344,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-network-profile-warning
-            
-
       ```
       END
       notes <<-'END'
@@ -12957,12 +9357,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-pings
-            
-
       ```
       END
       notes <<-'END'
@@ -12971,12 +9367,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-proxy-server
-            
-
       ```
       END
       notes <<-'END'
@@ -12985,12 +9377,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-referrers
-            
-
       ```
       END
       notes <<-'END'
@@ -12999,12 +9387,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-sandbox
-            
-
       ```
       END
       notes <<-'END'
@@ -13013,12 +9397,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-service-autorun
-            
-
       ```
       END
       notes <<-'END'
@@ -13027,12 +9407,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-startup-window
-            
-
       ```
       END
       notes <<-'END'
@@ -13041,12 +9417,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-use-mus-in-renderer
-            
-
       ```
       END
       notes <<-'END'
@@ -13055,12 +9427,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-wifi
-            
-
       ```
       END
       notes <<-'END'
@@ -13069,12 +9437,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --no-zygote
-            
-
       ```
       END
       notes <<-'END'
@@ -13083,12 +9447,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --noerrdialogs
-            
-
       ```
       END
       notes <<-'END'
@@ -13097,12 +9457,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --non-material
-            
-
       ```
       END
       notes <<-'END'
@@ -13111,12 +9467,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --non-secure
-            
-
       ```
       END
       notes <<-'END'
@@ -13125,12 +9477,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --none
-            
-
       ```
       END
       notes <<-'END'
@@ -13139,12 +9487,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --normal_muted
-            
-
       ```
       END
       notes <<-'END'
@@ -13153,12 +9497,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --normal_vibrant
-            
-
       ```
       END
       notes <<-'END'
@@ -13167,12 +9507,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --note-taking-app-ids
-            
-
       ```
       END
       notes <<-'END'
@@ -13181,12 +9517,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ntp-snippets-add-incomplete
-            
-
       ```
       END
       notes <<-'END'
@@ -13195,12 +9527,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ntp-switch-to-existing-tab
-            
-
       ```
       END
       notes <<-'END'
@@ -13212,12 +9540,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --null
-            
-
       ```
       END
       notes <<-'END'
@@ -13226,12 +9550,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --num-pac-threads
-            
-
       ```
       END
       notes <<-'END'
@@ -13240,12 +9560,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --num-raster-threads
-            
-
       ```
       END
       notes <<-'END'
@@ -13254,12 +9570,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --oauth2-client-id
-            
-
       ```
       END
       notes <<-'END'
@@ -13268,12 +9580,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --oauth2-client-secret
-            
-
       ```
       END
       notes <<-'END'
@@ -13282,12 +9590,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --off
-            
-
       ```
       END
       notes <<-'END'
@@ -13296,12 +9600,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --on
-            
-
       ```
       END
       notes <<-'END'
@@ -13310,12 +9610,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --oobe-bootstrapping-master
-            
-
       ```
       END
       notes <<-'END'
@@ -13324,12 +9620,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --oobe-guest-session
-            
-
       ```
       END
       notes <<-'END'
@@ -13338,12 +9630,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --oobe-skip-postlogin
-            
-
       ```
       END
       notes <<-'END'
@@ -13352,12 +9640,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --oobe-timer-interval
-            
-
       ```
       END
       notes <<-'END'
@@ -13366,12 +9650,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --open-ash
-            
-
       ```
       END
       notes <<-'END'
@@ -13383,12 +9663,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --opengraph
-            
-
       ```
       END
       notes <<-'END'
@@ -13397,12 +9673,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --origin-to-force-quic-on
-            
-
       ```
       END
       notes <<-'END'
@@ -13411,12 +9683,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --origin-trial-disabled-features
-            
-
       ```
       END
       notes <<-'END'
@@ -13425,12 +9693,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --origin-trial-public-key
-            
-
       ```
       END
       notes <<-'END'
@@ -13439,12 +9703,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --original-process-start-time
-            
-
       ```
       END
       notes <<-'END'
@@ -13453,12 +9713,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --osmesa
-            
-
       ```
       END
       notes <<-'END'
@@ -13467,12 +9723,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --output
-            
-
       ```
       END
       notes <<-'END'
@@ -13481,12 +9733,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --override
-            
-
       ```
       END
       notes <<-'END'
@@ -13495,12 +9743,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --override-metrics-upload-url
-            
-
       ```
       END
       notes <<-'END'
@@ -13509,12 +9753,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --override-plugin-power-saver-for-testing
-            
-
       ```
       END
       notes <<-'END'
@@ -13523,12 +9763,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --override-use-software-gl-for-tests
-            
-
       ```
       END
       notes <<-'END'
@@ -13537,12 +9773,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --overscroll-history-navigation
-            
-
       ```
       END
       notes <<-'END'
@@ -13551,12 +9783,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ozone-dump-file
-            
-
       ```
       END
       notes <<-'END'
@@ -13565,12 +9793,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ozone-platform
-            
-
       ```
       END
       notes <<-'END'
@@ -13579,12 +9803,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --pack-extension
-            
-
       ```
       END
       notes <<-'END'
@@ -13593,12 +9813,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --pack-extension-key
-            
-
       ```
       END
       notes <<-'END'
@@ -13607,12 +9823,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --parent-profile
-            
-
       ```
       END
       notes <<-'END'
@@ -13621,12 +9833,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --parent-window
-            
-
       ```
       END
       notes <<-'END'
@@ -13635,12 +9843,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --passive-listeners-default
-            
-
       ```
       END
       notes <<-'END'
@@ -13649,12 +9853,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --password-store
-            
-
       ```
       END
       notes <<-'END'
@@ -13667,12 +9867,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --permission-request-api-scope
-            
-
       ```
       END
       notes <<-'END'
@@ -13682,12 +9878,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --permission-request-api-url
-            
-
       ```
       END
       notes <<-'END'
@@ -13697,12 +9889,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --power-stub
-            
-
       ```
       END
       notes <<-'END'
@@ -13711,12 +9899,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ppapi
-            
-
       ```
       END
       notes <<-'END'
@@ -13725,12 +9909,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ppapi-antialiased-text-enabled
-            
-
       ```
       END
       notes <<-'END'
@@ -13742,12 +9922,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ppapi-broker
-            
-
       ```
       END
       notes <<-'END'
@@ -13756,12 +9932,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ppapi-flash-args
-            
-
       ```
       END
       notes <<-'END'
@@ -13770,12 +9942,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ppapi-flash-path
-            
-
       ```
       END
       notes <<-'END'
@@ -13784,12 +9952,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ppapi-flash-version
-            
-
       ```
       END
       notes <<-'END'
@@ -13798,12 +9962,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ppapi-in-process
-            
-
       ```
       END
       notes <<-'END'
@@ -13812,12 +9972,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ppapi-plugin-launcher
-            
-
       ```
       END
       notes <<-'END'
@@ -13826,12 +9982,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ppapi-startup-dialog
-            
-
       ```
       END
       notes <<-'END'
@@ -13840,12 +9992,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ppapi-subpixel-rendering-setting
-            
-
       ```
       END
       notes <<-'END'
@@ -13857,12 +10005,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --precache-config-settings-url
-            
-
       ```
       END
       notes <<-'END'
@@ -13871,12 +10015,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --precache-manifest-url-prefix
-            
-
       ```
       END
       notes <<-'END'
@@ -13885,12 +10025,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --prerender-from-omnibox
-            
-
       ```
       END
       notes <<-'END'
@@ -13899,12 +10035,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --previous-app
-            
-
       ```
       END
       notes <<-'END'
@@ -13913,12 +10045,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --primary
-            
-
       ```
       END
       notes <<-'END'
@@ -13927,12 +10055,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --primordial-pipe-token
-            
-
       ```
       END
       notes <<-'END'
@@ -13941,12 +10065,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --privet-ipv6-only
-            
-
       ```
       END
       notes <<-'END'
@@ -13955,12 +10075,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --process-per-site
-            
-
       ```
       END
       notes <<-'END'
@@ -13973,12 +10089,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --process-per-tab
-            
-
       ```
       END
       notes <<-'END'
@@ -13987,12 +10099,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --process-service-name
-            
-
       ```
       END
       notes <<-'END'
@@ -14001,12 +10109,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --product-version
-            
-
       ```
       END
       notes <<-'END'
@@ -14015,12 +10119,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --profile-directory
-            
-
       ```
       END
       notes <<-'END'
@@ -14029,12 +10129,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --profiler-timing
-            
-
       ```
       END
       notes <<-'END'
@@ -14043,12 +10139,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --profiling-at-start
-            
-
       ```
       END
       notes <<-'END'
@@ -14057,12 +10149,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --profiling-file
-            
-
       ```
       END
       notes <<-'END'
@@ -14071,12 +10159,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --profiling-flush
-            
-
       ```
       END
       notes <<-'END'
@@ -14085,12 +10169,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --progress-bar-animation
-            
-
       ```
       END
       notes <<-'END'
@@ -14102,12 +10182,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --progress-bar-completion
-            
-
       ```
       END
       notes <<-'END'
@@ -14119,12 +10195,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --prompt-for-external-extensions
-            
-
       ```
       END
       notes <<-'END'
@@ -14136,12 +10208,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --proxy-auto-detect
-            
-
       ```
       END
       notes <<-'END'
@@ -14150,12 +10218,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --proxy-bypass-list
-            
-
       ```
       END
       notes <<-'END'
@@ -14164,12 +10228,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --proxy-pac-url
-            
-
       ```
       END
       notes <<-'END'
@@ -14178,12 +10238,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --proxy-server
-            
-
       ```
       END
       notes <<-'END'
@@ -14192,12 +10248,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --quic-connection-options
-            
-
       ```
       END
       notes <<-'END'
@@ -14206,12 +10258,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --quic-host-whitelist
-            
-
       ```
       END
       notes <<-'END'
@@ -14220,12 +10268,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --quic-max-packet-length
-            
-
       ```
       END
       notes <<-'END'
@@ -14234,12 +10278,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --quic-version
-            
-
       ```
       END
       notes <<-'END'
@@ -14248,12 +10288,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --rdp_desktop_session
-            
-
       ```
       END
       notes <<-'END'
@@ -14262,12 +10298,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --reader-mode-feedback
-            
-
       ```
       END
       notes <<-'END'
@@ -14276,12 +10308,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --reader-mode-heuristics
-            
-
       ```
       END
       notes <<-'END'
@@ -14290,12 +10318,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --rebaseline-pixel-tests
-            
-
       ```
       END
       notes <<-'END'
@@ -14307,12 +10331,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --reduce-security-for-testing
-            
-
       ```
       END
       notes <<-'END'
@@ -14321,12 +10341,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --reduced-referrer-granularity
-            
-
       ```
       END
       notes <<-'END'
@@ -14335,12 +10351,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --register-font-files
-            
-
       ```
       END
       notes <<-'END'
@@ -14349,12 +10361,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --register-pepper-plugins
-            
-
       ```
       END
       notes <<-'END'
@@ -14363,12 +10371,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --relauncher
-            
-
       ```
       END
       notes <<-'END'
@@ -14380,12 +10384,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --remote-debugging-address
-            
-
       ```
       END
       notes <<-'END'
@@ -14394,12 +10394,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --remote-debugging-port
-            
-
       ```
       END
       notes <<-'END'
@@ -14408,12 +10404,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --remote-debugging-socket-name
-            
-
       ```
       END
       notes <<-'END'
@@ -14425,12 +10417,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --remote-debugging-targets
-            
-
       ```
       END
       notes <<-'END'
@@ -14439,12 +10427,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --renderer
-            
-
       ```
       END
       notes <<-'END'
@@ -14453,12 +10437,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --renderer-client-id
-            
-
       ```
       END
       notes <<-'END'
@@ -14467,12 +10447,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --renderer-cmd-prefix
-            
-
       ```
       END
       notes <<-'END'
@@ -14481,12 +10457,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --renderer-process-limit
-            
-
       ```
       END
       notes <<-'END'
@@ -14495,12 +10467,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --renderer-startup-dialog
-            
-
       ```
       END
       notes <<-'END'
@@ -14509,12 +10477,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --renderer-wait-for-java-debugger
-            
-
       ```
       END
       notes <<-'END'
@@ -14526,12 +10490,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --repl
-            
-
       ```
       END
       notes <<-'END'
@@ -14540,12 +10500,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --report-vp9-as-an-unsupported-mime-type
-            
-
       ```
       END
       notes <<-'END'
@@ -14554,12 +10510,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --require-audio-hardware-for-testing
-            
-
       ```
       END
       notes <<-'END'
@@ -14568,12 +10520,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --reset-app-list-install-state
-            
-
       ```
       END
       notes <<-'END'
@@ -14582,12 +10530,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --reset-variation-state
-            
-
       ```
       END
       notes <<-'END'
@@ -14596,12 +10540,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --restore-last-session
-            
-
       ```
       END
       notes <<-'END'
@@ -14610,12 +10550,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --root-layer-scrolls
-            
-
       ```
       END
       notes <<-'END'
@@ -14624,12 +10560,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --rtl
-            
-
       ```
       END
       notes <<-'END'
@@ -14638,12 +10570,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --run-layout-test
-            
-
       ```
       END
       notes <<-'END'
@@ -14652,12 +10580,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --safebrowsing-disable-auto-update
-            
-
       ```
       END
       notes <<-'END'
@@ -14666,12 +10590,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --safebrowsing-disable-download-protection
-            
-
       ```
       END
       notes <<-'END'
@@ -14680,12 +10600,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --safebrowsing-disable-extension-blacklist
-            
-
       ```
       END
       notes <<-'END'
@@ -14694,12 +10610,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --safebrowsing-manual-download-blacklist
-            
-
       ```
       END
       notes <<-'END'
@@ -14708,12 +10620,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --SafeSites
-            
-
       ```
       END
       notes <<-'END'
@@ -14722,12 +10630,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --sandbox-ipc
-            
-
       ```
       END
       notes <<-'END'
@@ -14736,12 +10640,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --save-page-as-mhtml
-            
-
       ```
       END
       notes <<-'END'
@@ -14750,12 +10650,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --saveas-menu-label
-            
-
       ```
       END
       notes <<-'END'
@@ -14764,12 +10660,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --screen-config
-            
-
       ```
       END
       notes <<-'END'
@@ -14778,12 +10670,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --screenshot
-            
-
       ```
       END
       notes <<-'END'
@@ -14792,12 +10680,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --scripts-require-action
-            
-
       ```
       END
       notes <<-'END'
@@ -14806,12 +10690,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --scroll-end-effect
-            
-
       ```
       END
       notes <<-'END'
@@ -14820,12 +10700,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --secondary
-            
-
       ```
       END
       notes <<-'END'
@@ -14834,12 +10710,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --secondary-display-layout
-            
-
       ```
       END
       notes <<-'END'
@@ -14848,12 +10720,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --secondary-ui-md
-            
-
       ```
       END
       notes <<-'END'
@@ -14862,12 +10730,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --service
-            
-
       ```
       END
       notes <<-'END'
@@ -14876,12 +10740,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --service-overrides
-            
-
       ```
       END
       notes <<-'END'
@@ -14890,12 +10750,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --service-request-channel-token
-            
-
       ```
       END
       notes <<-'END'
@@ -14904,12 +10760,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --shared-files
-            
-
       ```
       END
       notes <<-'END'
@@ -14918,12 +10770,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --shill-stub
-            
-
       ```
       END
       notes <<-'END'
@@ -14942,12 +10790,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-app-list
-            
-
       ```
       END
       notes <<-'END'
@@ -14956,12 +10800,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-autofill-signatures
-            
-
       ```
       END
       notes <<-'END'
@@ -14970,12 +10810,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-autofill-type-predictions
-            
-
       ```
       END
       notes <<-'END'
@@ -14984,12 +10820,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-component-extension-options
-            
-
       ```
       END
       notes <<-'END'
@@ -14998,12 +10830,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-composited-layer-borders
-            
-
       ```
       END
       notes <<-'END'
@@ -15012,12 +10840,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-fps-counter
-            
-
       ```
       END
       notes <<-'END'
@@ -15026,12 +10850,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-icons
-            
-
       ```
       END
       notes <<-'END'
@@ -15043,12 +10863,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-layer-animation-bounds
-            
-
       ```
       END
       notes <<-'END'
@@ -15057,12 +10873,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-mac-overlay-borders
-            
-
       ```
       END
       notes <<-'END'
@@ -15074,12 +10886,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-overdraw-feedback
-            
-
       ```
       END
       notes <<-'END'
@@ -15088,12 +10896,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-paint-rects
-            
-
       ```
       END
       notes <<-'END'
@@ -15102,12 +10906,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-property-changed-rects
-            
-
       ```
       END
       notes <<-'END'
@@ -15116,12 +10916,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-saved-copy
-            
-
       ```
       END
       notes <<-'END'
@@ -15130,12 +10926,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-screenspace-rects
-            
-
       ```
       END
       notes <<-'END'
@@ -15144,12 +10936,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show-surface-damage-rects
-            
-
       ```
       END
       notes <<-'END'
@@ -15158,12 +10946,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --show_summary
-            
-
       ```
       END
       notes <<-'END'
@@ -15175,12 +10959,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --silent-debugger-extension-api
-            
-
       ```
       END
       notes <<-'END'
@@ -15189,12 +10969,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --silent-launch
-            
-
       ```
       END
       notes <<-'END'
@@ -15203,12 +10979,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --simulate-critical-update
-            
-
       ```
       END
       notes <<-'END'
@@ -15217,12 +10989,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --simulate-elevated-recovery
-            
-
       ```
       END
       notes <<-'END'
@@ -15231,12 +10999,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --simulate-outdated
-            
-
       ```
       END
       notes <<-'END'
@@ -15245,12 +11009,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --simulate-outdated-no-au
-            
-
       ```
       END
       notes <<-'END'
@@ -15259,12 +11019,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --simulate-upgrade
-            
-
       ```
       END
       notes <<-'END'
@@ -15273,12 +11029,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --single-process
-            
-
       ```
       END
       notes <<-'END'
@@ -15287,12 +11039,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --site-per-process
-            
-
       ```
       END
       notes <<-'END'
@@ -15311,12 +11059,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --skip-gpu-data-loading
-            
-
       ```
       END
       notes <<-'END'
@@ -15326,12 +11070,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --skip-nostore-all
-            
-
       ```
       END
       notes <<-'END'
@@ -15340,12 +11080,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --skip-nostore-main
-            
-
       ```
       END
       notes <<-'END'
@@ -15354,12 +11090,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --skip-reencoding-on-skp-capture
-            
-
       ```
       END
       notes <<-'END'
@@ -15368,12 +11100,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --slow
-            
-
       ```
       END
       notes <<-'END'
@@ -15382,12 +11110,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --slow-connections-only
-            
-
       ```
       END
       notes <<-'END'
@@ -15396,12 +11120,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --slow-down-raster-scale-factor
-            
-
       ```
       END
       notes <<-'END'
@@ -15410,12 +11130,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --sms-test-messages
-            
-
       ```
       END
       notes <<-'END'
@@ -15424,12 +11140,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --spdy-proxy-auth-fallback
-            
-
       ```
       END
       notes <<-'END'
@@ -15438,12 +11150,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --spdy-proxy-auth-origin
-            
-
       ```
       END
       notes <<-'END'
@@ -15452,12 +11160,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --spdy-proxy-auth-value
-            
-
       ```
       END
       notes <<-'END'
@@ -15466,12 +11170,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --spelling-service-feedback-interval-seconds
-            
-
       ```
       END
       notes <<-'END'
@@ -15484,12 +11184,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --spelling-service-feedback-url
-            
-
       ```
       END
       notes <<-'END'
@@ -15502,12 +11198,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ssl-key-log-file
-            
-
       ```
       END
       notes <<-'END'
@@ -15516,12 +11208,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ssl-version-max
-            
-
       ```
       END
       notes <<-'END'
@@ -15530,12 +11218,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ssl-version-min
-            
-
       ```
       END
       notes <<-'END'
@@ -15544,12 +11228,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --stable-release-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -15558,12 +11238,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --start-fullscreen
-            
-
       ```
       END
       notes <<-'END'
@@ -15572,12 +11248,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --start-maximized
-            
-
       ```
       END
       notes <<-'END'
@@ -15586,12 +11258,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --start-stack-profiler
-            
-
       ```
       END
       notes <<-'END'
@@ -15600,12 +11268,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --started
-            
-
       ```
       END
       notes <<-'END'
@@ -15614,12 +11278,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --stub
-            
-
       ```
       END
       notes <<-'END'
@@ -15628,12 +11288,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --stub-cros-settings
-            
-
       ```
       END
       notes <<-'END'
@@ -15642,12 +11298,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --supports-dual-gpus
-            
-
       ```
       END
       notes <<-'END'
@@ -15656,12 +11308,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --swiftshader
-            
-
       ```
       END
       notes <<-'END'
@@ -15670,12 +11318,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --swiftshader-path
-            
-
       ```
       END
       notes <<-'END'
@@ -15684,12 +11328,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --swiftshader-webgl
-            
-
       ```
       END
       notes <<-'END'
@@ -15698,12 +11338,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --sync-allow-insecure-xmpp-connection
-            
-
       ```
       END
       notes <<-'END'
@@ -15712,12 +11348,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --sync-deferred-startup-timeout-seconds
-            
-
       ```
       END
       notes <<-'END'
@@ -15726,12 +11358,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --sync-disable-deferred-startup
-            
-
       ```
       END
       notes <<-'END'
@@ -15740,12 +11368,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --sync-enable-get-update-avoidance
-            
-
       ```
       END
       notes <<-'END'
@@ -15754,12 +11378,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --sync-notification-host-port
-            
-
       ```
       END
       notes <<-'END'
@@ -15768,12 +11388,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --sync-on-draw-hardware
-            
-
       ```
       END
       notes <<-'END'
@@ -15782,12 +11398,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --sync-short-initial-retry-override
-            
-
       ```
       END
       notes <<-'END'
@@ -15796,12 +11408,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --sync-short-nudge-delay-for-test
-            
-
       ```
       END
       notes <<-'END'
@@ -15810,12 +11418,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --sync-url
-            
-
       ```
       END
       notes <<-'END'
@@ -15824,12 +11428,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --system-developer-mode
-            
-
       ```
       END
       notes <<-'END'
@@ -15838,12 +11438,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --system-log-upload-frequency
-            
-
       ```
       END
       notes <<-'END'
@@ -15852,12 +11448,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --tab-management-experiment-type-disabled
-            
-
       ```
       END
       notes <<-'END'
@@ -15869,12 +11461,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --tab-management-experiment-type-elderberry
-            
-
       ```
       END
       notes <<-'END'
@@ -15886,12 +11474,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --task-profiler
-            
-
       ```
       END
       notes <<-'END'
@@ -15900,12 +11484,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --test-auto-update-ui
-            
-
       ```
       END
       notes <<-'END'
@@ -15914,12 +11494,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --test-child-process
-            
-
       ```
       END
       notes <<-'END'
@@ -15928,12 +11504,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --test-cros-gaia-id-migration
-            
-
       ```
       END
       notes <<-'END'
@@ -15942,12 +11514,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --test-do-not-initialize-icu
-            
-
       ```
       END
       notes <<-'END'
@@ -15956,12 +11524,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --test-gl-lib
-            
-
       ```
       END
       notes <<-'END'
@@ -15970,12 +11534,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --test-name
-            
-
       ```
       END
       notes <<-'END'
@@ -15984,12 +11544,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --test-type
-            
-
       ```
       END
       notes <<-'END'
@@ -15998,12 +11554,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --testing-fixed-http-port
-            
-
       ```
       END
       notes <<-'END'
@@ -16012,12 +11564,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --testing-fixed-https-port
-            
-
       ```
       END
       notes <<-'END'
@@ -16026,12 +11574,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --timeout
-            
-
       ```
       END
       notes <<-'END'
@@ -16040,12 +11584,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --tls1
-            
-
       ```
       END
       notes <<-'END'
@@ -16054,12 +11594,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --tls1.1
-            
-
       ```
       END
       notes <<-'END'
@@ -16068,12 +11604,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --tls1.2
-            
-
       ```
       END
       notes <<-'END'
@@ -16082,12 +11614,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --tls1.3
-            
-
       ```
       END
       notes <<-'END'
@@ -16096,12 +11624,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --top-chrome-md
-            
-
       ```
       END
       notes <<-'END'
@@ -16110,12 +11634,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --top-controls-hide-threshold
-            
-
       ```
       END
       notes <<-'END'
@@ -16124,12 +11644,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --top-controls-show-threshold
-            
-
       ```
       END
       notes <<-'END'
@@ -16138,12 +11654,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --top-document-isolation
-            
-
       ```
       END
       notes <<-'END'
@@ -16152,12 +11664,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --touch-calibration
-            
-
       ```
       END
       notes <<-'END'
@@ -16169,12 +11677,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --touch-devices
-            
-
       ```
       END
       notes <<-'END'
@@ -16186,12 +11690,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --touch-events
-            
-
       ```
       END
       notes <<-'END'
@@ -16200,12 +11700,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --touch-noise-filtering
-            
-
       ```
       END
       notes <<-'END'
@@ -16217,12 +11713,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --touch-selection-strategy
-            
-
       ```
       END
       notes <<-'END'
@@ -16231,12 +11723,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --trace-config-file
-            
-
       ```
       END
       notes <<-'END'
@@ -16245,12 +11733,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --trace-export-events-to-etw
-            
-
       ```
       END
       notes <<-'END'
@@ -16262,12 +11746,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --trace-shutdown
-            
-
       ```
       END
       notes <<-'END'
@@ -16276,12 +11756,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --trace-shutdown-file
-            
-
       ```
       END
       notes <<-'END'
@@ -16290,12 +11766,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --trace-startup
-            
-
       ```
       END
       notes <<-'END'
@@ -16304,12 +11776,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --trace-startup-duration
-            
-
       ```
       END
       notes <<-'END'
@@ -16318,12 +11786,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --trace-startup-file
-            
-
       ```
       END
       notes <<-'END'
@@ -16333,12 +11797,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --trace-to-console
-            
-
       ```
       END
       notes <<-'END'
@@ -16347,12 +11807,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --trace-to-file
-            
-
       ```
       END
       notes <<-'END'
@@ -16361,12 +11817,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --trace-to-file-name
-            
-
       ```
       END
       notes <<-'END'
@@ -16375,12 +11827,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --trace-upload-url
-            
-
       ```
       END
       notes <<-'END'
@@ -16389,12 +11837,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --translate-ranker-model-url
-            
-
       ```
       END
       notes <<-'END'
@@ -16403,12 +11847,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --translate-script-url
-            
-
       ```
       END
       notes <<-'END'
@@ -16417,12 +11857,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --translate-security-origin
-            
-
       ```
       END
       notes <<-'END'
@@ -16431,12 +11867,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --true
-            
-
       ```
       END
       notes <<-'END'
@@ -16445,12 +11877,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --try-chrome-again
-            
-
       ```
       END
       notes <<-'END'
@@ -16459,12 +11887,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --try-supported-channel-layouts
-            
-
       ```
       END
       notes <<-'END'
@@ -16476,12 +11900,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --type
-            
-
       ```
       END
       notes <<-'END'
@@ -16490,12 +11910,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ui-disable-partial-swap
-            
-
       ```
       END
       notes <<-'END'
@@ -16504,12 +11920,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ui-enable-layer-lists
-            
-
       ```
       END
       notes <<-'END'
@@ -16518,12 +11930,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ui-enable-rgba-4444-textures
-            
-
       ```
       END
       notes <<-'END'
@@ -16532,12 +11940,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ui-enable-zero-copy
-            
-
       ```
       END
       notes <<-'END'
@@ -16546,12 +11950,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ui-prioritize-in-gpu-process
-            
-
       ```
       END
       notes <<-'END'
@@ -16560,12 +11960,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ui-show-fps-counter
-            
-
       ```
       END
       notes <<-'END'
@@ -16574,12 +11970,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ui-show-layer-animation-bounds
-            
-
       ```
       END
       notes <<-'END'
@@ -16588,12 +11980,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ui-show-layer-borders
-            
-
       ```
       END
       notes <<-'END'
@@ -16602,12 +11990,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ui-show-paint-rects
-            
-
       ```
       END
       notes <<-'END'
@@ -16616,12 +12000,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ui-show-property-changed-rects
-            
-
       ```
       END
       notes <<-'END'
@@ -16630,12 +12010,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ui-show-screenspace-rects
-            
-
       ```
       END
       notes <<-'END'
@@ -16644,12 +12020,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ui-show-surface-damage-rects
-            
-
       ```
       END
       notes <<-'END'
@@ -16658,12 +12030,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --ui-slow-animations
-            
-
       ```
       END
       notes <<-'END'
@@ -16672,12 +12040,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --uninstall
-            
-
       ```
       END
       notes <<-'END'
@@ -16689,12 +12053,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --unlimited-storage
-            
-
       ```
       END
       notes <<-'END'
@@ -16703,12 +12063,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --unsafe-pac-url
-            
-
       ```
       END
       notes <<-'END'
@@ -16717,26 +12073,23 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --unsafely-treat-insecure-origin-as-secure
-            
-
       ```
       END
       notes <<-'END'
-      Treat given (insecure) origins as secure origins. Multiple origins can be supplied. Has no effect unless `--user-data-dir` is also supplied. Example: `--unsafely-treat-insecure-origin-as-secure=http://a.test,http://b.test --user-data-dir=/test/only/profile/dir` 
+      Treat given (insecure) origins as secure origins. Multiple origins can be supplied. Has no effect unless `--user-data-dir` is also supplied. Example: 
+
+      ```
+      --unsafely-treat-insecure-origin-as-secure=http://a.test,http://b.test --user-data-dir=/test/only/profile/dir
+      ```
+
       END
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-angle
-            
-
       ```
       END
       notes <<-'END'
@@ -16745,12 +12098,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-cras
-            
-
       ```
       END
       notes <<-'END'
@@ -16762,12 +12111,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-fake-device-for-media-stream
-            
-
       ```
       END
       notes <<-'END'
@@ -16776,12 +12121,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-fake-ui-for-media-stream
-            
-
       ```
       END
       notes <<-'END'
@@ -16790,12 +12131,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-file-for-fake-audio-capture
-            
-
       ```
       END
       notes <<-'END'
@@ -16804,12 +12141,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-file-for-fake-video-capture
-            
-
       ```
       END
       notes <<-'END'
@@ -16818,12 +12151,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-first-display-as-internal
-            
-
       ```
       END
       notes <<-'END'
@@ -16832,12 +12161,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-gl
-            
-
       ```
       END
       notes <<-'END'
@@ -16846,12 +12171,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-gpu-in-tests
-            
-
       ```
       END
       notes <<-'END'
@@ -16860,12 +12181,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-mobile-user-agent
-            
-
       ```
       END
       notes <<-'END'
@@ -16874,12 +12191,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-mock-keychain
-            
-
       ```
       END
       notes <<-'END'
@@ -16891,12 +12204,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-new-virtual-keyboard-behavior
-            
-
       ```
       END
       notes <<-'END'
@@ -16905,12 +12214,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-passthrough-cmd-decoder
-            
-
       ```
       END
       notes <<-'END'
@@ -16919,12 +12224,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-simple-cache-backend
-            
-
       ```
       END
       notes <<-'END'
@@ -16933,12 +12234,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use-test-config
-            
-
       ```
       END
       notes <<-'END'
@@ -16947,12 +12244,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --user-agent
-            
-
       ```
       END
       notes <<-'END'
@@ -16961,12 +12254,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --user-always-affiliated
-            
-
       ```
       END
       notes <<-'END'
@@ -16976,12 +12265,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --user-data-dir
-            
-
       ```
       END
       notes <<-'END'
@@ -16990,12 +12275,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --use_new_features_summary
-            
-
       ```
       END
       notes <<-'END'
@@ -17007,12 +12288,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --utility
-            
-
       ```
       END
       notes <<-'END'
@@ -17021,12 +12298,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --utility-allowed-dir
-            
-
       ```
       END
       notes <<-'END'
@@ -17035,12 +12308,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --utility-cmd-prefix
-            
-
       ```
       END
       notes <<-'END'
@@ -17049,12 +12318,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --utility-run-elevated
-            
-
       ```
       END
       notes <<-'END'
@@ -17063,12 +12328,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --v
-            
-
       ```
       END
       notes <<-'END'
@@ -17077,12 +12338,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --v8-cache-options
-            
-
       ```
       END
       notes <<-'END'
@@ -17091,12 +12348,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --v8-cache-strategies-for-cache-storage
-            
-
       ```
       END
       notes <<-'END'
@@ -17105,12 +12358,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --validate-crx
-            
-
       ```
       END
       notes <<-'END'
@@ -17119,12 +12368,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --validate-input-event-stream
-            
-
       ```
       END
       notes <<-'END'
@@ -17133,12 +12378,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --variations-server-url
-            
-
       ```
       END
       notes <<-'END'
@@ -17147,12 +12388,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --version
-            
-
       ```
       END
       notes <<-'END'
@@ -17161,12 +12398,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --video-image-texture-target
-            
-
       ```
       END
       notes <<-'END'
@@ -17175,12 +12408,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --video-threads
-            
-
       ```
       END
       notes <<-'END'
@@ -17189,12 +12418,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --video-underflow-threshold-ms
-            
-
       ```
       END
       notes <<-'END'
@@ -17204,12 +12429,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --viewer-launch-via-appid
-            
-
       ```
       END
       notes <<-'END'
@@ -17221,12 +12442,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --virtual-time-budget
-            
-
       ```
       END
       notes <<-'END'
@@ -17235,12 +12452,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --vmodule
-            
-
       ```
       END
       notes <<-'END'
@@ -17249,12 +12462,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --wait-for-debugger
-            
-
       ```
       END
       notes <<-'END'
@@ -17263,12 +12472,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --wait-for-debugger-children
-            
-
       ```
       END
       notes <<-'END'
@@ -17277,12 +12482,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --wake-on-wifi-packet
-            
-
       ```
       END
       notes <<-'END'
@@ -17291,12 +12492,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --wallet-service-use-sandbox
-            
-
       ```
       END
       notes <<-'END'
@@ -17305,12 +12502,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --watcher
-            
-
       ```
       END
       notes <<-'END'
@@ -17322,12 +12515,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --waveout-buffers
-            
-
       ```
       END
       notes <<-'END'
@@ -17339,12 +12528,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --webapk-server-url
-            
-
       ```
       END
       notes <<-'END'
@@ -17356,12 +12541,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --webrtc-stun-probe-trial
-            
-
       ```
       END
       notes <<-'END'
@@ -17373,12 +12554,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --webview-enable-safebrowsing-support
-            
-
       ```
       END
       notes <<-'END'
@@ -17387,12 +12564,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --webview-sandboxed-renderer
-            
-
       ```
       END
       notes <<-'END'
@@ -17401,12 +12574,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --whitelisted-extension-id
-            
-
       ```
       END
       notes <<-'END'
@@ -17415,12 +12584,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --win-jumplist-action
-            
-
       ```
       END
       notes <<-'END'
@@ -17429,12 +12594,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --window-position
-            
-
       ```
       END
       notes <<-'END'
@@ -17443,12 +12604,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --window-size
-            
-
       ```
       END
       notes <<-'END'
@@ -17457,12 +12614,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --window-workspace
-            
-
       ```
       END
       notes <<-'END'
@@ -17471,12 +12624,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --windows10-custom-titlebar
-            
-
       ```
       END
       notes <<-'END'
@@ -17488,12 +12637,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --windows8-search
-            
-
       ```
       END
       notes <<-'END'
@@ -17505,12 +12650,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --winhttp-proxy-resolver
-            
-
       ```
       END
       notes <<-'END'
@@ -17519,12 +12660,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --wm-window-animations-disabled
-            
-
       ```
       END
       notes <<-'END'
@@ -17533,12 +12670,8 @@ cheatsheet do
     end
     entry do
       name <<-'END'
-      ```
-
-            
+      ```           
       --zygote
-            
-
       ```
       END
       notes <<-'END'
@@ -17548,6 +12681,6 @@ cheatsheet do
   end
 
   notes <<-'END'
-  * Based on [List of Chromium Command Line Switches by Peter Beverloo](http://peter.sh/experiments/chromium-command-line-switches/?date=2017-03-31)
+  * Based on the [List of Chromium Command Line Switches by Peter Beverloo](http://peter.sh/experiments/chromium-command-line-switches/?date=2017-03-31).
   END
 end
