@@ -21,35 +21,35 @@ cheatsheet do
   end
 
   category do
-    id 'Position Matching'    
+    id 'Position Matching'
     entry do
       command '^'
       name 'Start of string or start of line in multi-line mode'
-    end    
+    end
     entry do
       command '\A'
       name 'Start of string'
-    end    
+    end
     entry do
       command '$'
       name 'End of string or end of line in multi-line mode'
-    end    
+    end
     entry do
       command '\Z'
       name 'End of string'
-    end    
+    end
     entry do
       command '\b'
       name 'Word boundary'
-    end    
+    end
     entry do
       command '\B'
       name 'Not word boundary'
     end
-    entry do  
+    entry do
       command '\<'
       name 'Start of word'
-    end    
+    end
     entry do
       command '\>'
       name 'End of word'
@@ -57,35 +57,35 @@ cheatsheet do
   end
 
   category do
-    id 'Character Classes'    
+    id 'Character Classes'
     entry do
       command '\s'
       name 'Whitespace'
-    end    
+    end
     entry do
       command '\S'
       name 'Not whitespace'
-    end    
+    end
     entry do
       command '\w'
       name 'Word'
-    end    
+    end
     entry do
       command '\W'
       name 'Not word'
-    end    
+    end
     entry do
       command '\d'
       name 'Digit'
-    end    
+    end
     entry do
       command '\D'
       name 'Not digit'
-    end    
+    end
     entry do
       command '\x'
       name 'Hexade­cimal digit'
-    end    
+    end
     entry do
       command '\O'
       name 'Octal digit'
@@ -93,31 +93,31 @@ cheatsheet do
   end
 
   category do
-    id 'Special Characters'    
+    id 'Special Characters'
     entry do
       command '\n'
       name 'Newline'
-    end    
+    end
     entry do
       command '\r'
       name 'Carriage return'
-    end    
+    end
     entry do
       command '\t'
       name 'Tab'
-    end    
+    end
     entry do
       command '\v'
       name 'Vertical tab'
-    end    
+    end
     entry do
       command '\f'
       name 'Form feed'
-    end    
+    end
     entry do
       command '\xxx'
       name 'Octal character xxx'
-    end    
+    end
     entry do
       command '\xhh'
       name 'Hex character hh'
@@ -125,39 +125,39 @@ cheatsheet do
   end
 
   category do
-    id 'Groups and Ranges'    
+    id 'Groups and Ranges'
     entry do
       command '.'
       name 'Any character except newline (\n)'
-    end    
+    end
     entry do
       command '(a|b)'
       name 'a or b'
-    end    
+    end
     entry do
       command '(...)'
       name 'Group'
-    end    
+    end
     entry do
-      command '(?:...)' 
+      command '(?:...)'
       name 'Passive (non-c­apt­uring) group'
-    end    
+    end
     entry do
       command '[abc]'
       name 'a, b or c'
-    end    
+    end
     entry do
       command '[^abc]'
       name 'Not a, b or c'
-    end    
+    end
     entry do
       command '[a-z]'
       name 'Letters from a to z'
-    end    
+    end
     entry do
       command '[A-Z]'
       name 'Uppercase letters from A to Z'
-    end    
+    end
     entry do
       command '[0-9]'
       name 'Digits from 0 to 9'
@@ -168,27 +168,27 @@ cheatsheet do
   end
 
   category do
-    id 'Quantifiers'    
+    id 'Quantifiers'
     entry do
       command '*'
       name '0 or more'
-    end    
+    end
     entry do
       command '+'
       name '1 or more'
-    end    
+    end
     entry do
       command '?'
       name '0 or 1'
     end
     entry do
-      command '{3}' 
+      command '{3}'
       name 'Exactly 3'
     end
     entry do
       command '{3,}'
       name '3 or more'
-    end    
+    end
     entry do
       command '{3,5}'
       name '3, 4 or 5'
@@ -199,16 +199,16 @@ cheatsheet do
   end
 
   category do
-    id 'Escape Sequences'    
+    id 'Escape Sequences'
     entry do
       command '\\'
       name 'Escape following character'
       notes 'Used to escape any of the following metacharacters: `{}[]()^$.|*+?\\`.'
-    end    
+    end
     entry do
       command '\Q'
       name 'Begin literal sequence'
-    end    
+    end
     entry do
       command '\E'
       name 'End literal sequence'
@@ -216,31 +216,31 @@ cheatsheet do
   end
 
   category do
-    id 'String Replacement'    
+    id 'String Replacement'
     entry do
       command '$1'
       name '1st group'
-    end    
+    end
     entry do
       command '$2'
       name '2nd group'
-    end    
+    end
     entry do
       command '$n'
       name 'nth group'
-    end    
+    end
     entry do
       command '$`'
       name 'Before matched string'
-    end    
+    end
     entry do
       command '$\''
       name 'After matched string'
-    end    
+    end
     entry do
       command '$+'
       name 'Last matched string'
-    end    
+    end
     entry do
       command '$&'
       name 'Entire matched string'
@@ -251,36 +251,36 @@ cheatsheet do
   end
 
   category do
-    id 'Assertions'    
+    id 'Assertions'
     entry do
       command '?='
       name 'Lookahead assertion'
-    end    
+    end
     entry do
       command '?!'
       name 'Negative lookahead'
-    end    
+    end
     entry do
-      command '?<=' 
+      command '?<='
       name 'Lookbehind assertion'
     end
     entry do
-      command '?!=' 
+      command '?!='
       command '?<!'
       name 'Negative lookbehind'
-    end    
+    end
     entry do
       command '?>'
       name 'Once-only subexp­ression'
-    end    
+    end
     entry do
-      command '?()' 
+      command '?()'
       name 'Condition if-then'
     end
     entry do
       command '?()|'
       name 'Condition if-then-else'
-    end    
+    end
     entry do
       command '?#'
       name 'Comment'
@@ -288,55 +288,55 @@ cheatsheet do
   end
 
   category do
-    id 'POSIX'    
+    id 'POSIX'
     entry do
       command '[:upper:]'
       name 'Uppercase letters'
-    end    
+    end
     entry do
       command '[:lower:]'
       name 'Lowercase letters'
-    end    
+    end
     entry do
       command '[:alpha:]'
       name 'All letters'
-    end    
+    end
     entry do
       command '[:alnum:]'
       name 'Digits and letters'
-    end    
+    end
     entry do
       command '[:digit:]'
       name 'Digits'
-    end    
+    end
     entry do
       command '[:xdigit:]'
       name 'Hexade­cimal digits'
-    end    
+    end
     entry do
       command '[:punct:]'
       name 'Punctu­ation'
-    end    
+    end
     entry do
       command '[:blank:]'
       name 'Space and tab'
-    end    
+    end
     entry do
       command '[:space:]'
       name 'Blank characters'
-    end    
+    end
     entry do
       command '[:cntrl:]'
       name 'Control characters'
-    end    
+    end
     entry do
       command '[:graph:]'
       name 'Printed characters'
-    end    
+    end
     entry do
       command '[:print:]'
       name 'Printed characters and spaces'
-    end    
+    end
     entry do
       command '[:word:]'
       name 'Digits, letters and underscore'
@@ -344,36 +344,56 @@ cheatsheet do
   end
 
   category do
-    id 'Pattern Modifiers'    
+    id 'Pattern Modifiers'
     entry do
       command 'g'
       name 'Global match'
-    end    
+    end
     entry do
       command 'i'
       name 'Case-i­nse­nsitive'
-    end    
+    end
     entry do
       command 'm'
       name 'Multi-line mode'
       notes 'Causes `^` and `$` to also match the start/end of lines.'
-    end    
+    end
     entry do
       command 's'
       name 'Single-line mode.'
       notes 'Causes `.` to match all, including line breaks.'
-    end    
+    end
     entry do
       command 'x'
       name 'Allow comments and whitespace in pattern'
-    end    
+    end
     entry do
       command 'e'
       name 'Evaluate replac­ement'
-    end    
+    end
     entry do
       command 'U'
       name 'Ungreedy mode'
+    end
+  end
+  category do
+    id 'Escape-worthy Characters'
+    entry do
+      command '.^$*+?()[{\|'
+      name 'PCRE (PERL compatible Regex) outside character classes'
+    end
+    entry do
+      command '^-]\\'
+      name '...inside character classes'
+    end
+    entry do
+      command '.^$*+?()[{\|'
+      name 'ERE (POSIX Extended Regex)'
+    end
+    entry do
+      command '\\'
+      name 'Standard Escape Character'
+      notes 'Can be substituted with any other character, while beeing consistent'
     end
   end
 end
