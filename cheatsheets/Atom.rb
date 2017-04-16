@@ -117,6 +117,30 @@ cheatsheet do
   end
 
   category do
+    id 'Open on GitHub'
+    entry do
+      command 'alt-G O'
+      name 'Open file on GitHub'
+    end
+    entry do
+      command 'alt-G B'
+      name 'Open blame of file on GitHub'
+    end
+    entry do
+      command 'alt-G H'
+      name 'Open history of file on GitHub'
+    end
+    entry do
+      command 'alt-G C'
+      name 'Copy the URL of the current file on GitHub'
+    end
+    entry do
+      command 'alt-G R'
+      name 'Branch compare on GitHub'
+    end
+  end
+
+  category do
     id 'Folding'
     entry do
       command 'CMD+ALT+['
