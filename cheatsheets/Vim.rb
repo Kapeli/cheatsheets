@@ -291,7 +291,7 @@ cheatsheet do
             * `[e]` When the search pattern fails, do not issue an error message and, in particular, continue in maps as if no error occurred
             * `[g]`  Replace all occurrences in the line. Without this argument, replacement occurs only for the first occurrence in each line
             * `[i]`  Ignore case for the pattern
-            * `[I]`  Don't ignore case for the pattern
+            * `[I]`  Don''t ignore case for the pattern
             * `[p]`  Print the line containing the last substitute
             END
         end
