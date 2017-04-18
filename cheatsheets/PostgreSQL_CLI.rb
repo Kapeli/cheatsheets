@@ -72,6 +72,19 @@ cheatsheet do
   end
 
   category do
+    id 'Query examples'
+
+    entry do
+      command 'SELECT * FROM customer;'
+      name 'Select all users'
+    end
+    entry do
+      command 'SELECT first_name, last_name, email FROM customer;'
+      name 'Select specifics from customer'
+    end
+  end
+
+  category do
     id 'Roles and Privileges'
 
     entry do
