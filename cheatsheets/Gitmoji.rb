@@ -43,6 +43,14 @@ cheatsheet do
         name '📝 Writing docs'
       end
       entry do
+        command ':bulb:'
+        name '💡 Documenting source code'
+      end
+      entry do
+        command ':speech_balloon:'
+        name '💬 Updating text and literals'
+      end
+      entry do
         command ':page_facing_up:'
         name '📄 Adding or updating license'
       end
@@ -181,6 +189,10 @@ cheatsheet do
       entry do
         command ':whale:'
         name '🐳 Work about Docker'
+      end
+      entry do
+        command ':beers:'
+        name '🍻 Writing code drunkenly'
       end
     end
 
