@@ -305,8 +305,12 @@ cheatsheet do
     end
 
     entry do
-      name '451 Unavailable For Legal Reasons (Internet draft)'
-      notes "Defined in the internet draft [\"A New HTTP Status Code for Legally-restricted Resources\"](http://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-05). Intended to be used when resource access is denied for legal reasons, e.g. censorship or government-mandated blocked access. A reference to the 1953 dystopian novel Fahrenheit 451, where books are outlawed."
+      name '451 Unavailable For Legal Reasons'
+      notes "A server operator has received a legal demand to deny access to a resource or to a set of resources that includes the requested resource.
+
+      The code 451 was chosen as a reference to the 1953 dystopian novel *Fahrenheit 451*, where books are outlawed.
+
+      An HTTP Status Code to Report Legal Obstacles - [RFC 7725](https://tools.ietf.org/html/rfc7725)"
     end
 
     entry do
