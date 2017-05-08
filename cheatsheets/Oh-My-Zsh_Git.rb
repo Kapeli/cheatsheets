@@ -835,7 +835,7 @@ git stash save
     entry do
       name '
 ```
-git stash apple
+git stash apply
 ```'
       command "gstaa"
     end
