@@ -412,7 +412,7 @@ cheatsheet do
     end
 
     entry do
-      command 'PREFIX-: resize pane -x ##'
+      command 'PREFIX-: resize-pane -x ##'
       name 'Resize the current pane to `##` lines wide'
     end
 
