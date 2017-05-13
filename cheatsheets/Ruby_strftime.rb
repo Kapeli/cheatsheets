@@ -1,7 +1,8 @@
 cheatsheet do
   title "Ruby strftime"
-  docset_file_name 'ruby-strftime.rb'
-  keyword 'ruby-strftime'
+  docset_file_name 'Ruby_strftime'
+  keyword 'rubystrftime'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Year'
