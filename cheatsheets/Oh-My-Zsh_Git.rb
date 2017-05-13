@@ -955,7 +955,6 @@ git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit -m "--wip-
 
   notes <<-'END'
   * Based on the oh-my-zsh [Wiki Page](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet#helpful-aliases-for-common-git-tasks)
-  * Converted by [Carsten] (https://github.com/BanditsBacon)
-  * Converted by [ftwbzhao] (https://github.com/ftwbzhao)
+  * Converted by [Carsten](https://github.com/BanditsBacon) and [ftwbzhao](https://github.com/ftwbzhao)
   END
 end
