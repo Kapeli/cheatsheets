@@ -229,6 +229,13 @@ cheatsheet do
       name '417 Expectation failed'
       notes "The server cannot meet the requirements of the Expect request-header field."
     end
+    
+    entry do
+      name '418 I\'m a teapot'
+      notes "Any attempt to brew coffee with a teapot should result in the error code \"418 I'm a teapot\". The resulting entity body MAY be short and stout.
+
+      HTCPCP - [RFC 2324](https://tools.ietf.org/html/rfc2324#section-2.3.2)"
+    end
 
     entry do
       name '421 Misdirected request'
