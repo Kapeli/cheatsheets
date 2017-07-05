@@ -212,4 +212,34 @@ cheatsheet do
       name 'Broadcast input to all panes in current tab'
     end
   end
+
+  category do
+    id 'Shell Integration'
+
+    entry do
+      command 'CMD+SHIFT+Up'
+      name 'Go to previous mark'
+    end
+
+    entry do
+      command 'CMD+SHIFT+Down'
+      name 'Go to next mark'
+    end
+
+    entry do
+      command 'CMD+ALT+A'
+      name 'Alert on next mark'
+    end
+
+    entry do
+      command 'CMD+SHIFT+";"'
+      name 'Show command history'
+    end
+
+    entry do
+      command 'CMD+ALT+"/"'
+      name 'Show recent directories'
+    end
+  end
+
 end
