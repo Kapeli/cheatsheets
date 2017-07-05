@@ -217,12 +217,12 @@ cheatsheet do
     id 'Shell Integration'
 
     entry do
-      command 'CMD+SHIFT+Up'
+      command 'CMD+SHIFT+Arrow Up'
       name 'Go to previous mark'
     end
 
     entry do
-      command 'CMD+SHIFT+Down'
+      command 'CMD+SHIFT+Arrow Down'
       name 'Go to next mark'
     end
 
@@ -232,12 +232,12 @@ cheatsheet do
     end
 
     entry do
-      command 'CMD+SHIFT+";"'
+      command 'CMD+SHIFT+;'
       name 'Show command history'
     end
 
     entry do
-      command 'CMD+ALT+"/"'
+      command 'CMD+ALT+/'
       name 'Show recent directories'
     end
   end
