@@ -19,7 +19,7 @@ cheatsheet do
       name 'Clone an existing repository and all its sub-modules recursively'
       notes "
         ```
-        git clone --recursive ssh://user@domain.tld/repo.git
+        git clone --recurse-submodules ssh://user@domain.tld/repo.git
         ```"
     end
 
@@ -570,7 +570,7 @@ cheatsheet do
       
       or 
       
-      Run `git clone --recursive ssh://user@domain.tld/repo.git`
+      Run `git clone --recurse-submodules ssh://user@domain.tld/repo.git`
       "
     end
 
