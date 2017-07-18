@@ -166,6 +166,6 @@ cheatsheet do
 
   notes <<-'END'
     * Created by [Greg Bataille](http://www.github.com/gbataille)
-    * Inspired by the [SSLHopper cheat sheet](https://www.sslshopper.com/article-most-common-openssl-commands.html)
+    * Inspired by the [SSLShopper cheat sheet](https://www.sslshopper.com/article-most-common-openssl-commands.html)
   END
 end
