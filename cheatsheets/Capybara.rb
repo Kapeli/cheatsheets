@@ -195,6 +195,38 @@ cheatsheet do
           Save a screenshot of the current page and open in the default image viewer.'
       end
   end
+  category do
+      id 'Waiting...'
+      entry do
+          name "Capybara automatically waits for asynchronous operations to complete.
+          When you try to find an element that isn't on the page, it waits and retries until it is there, or a timeout duration elapses.
+          The wait time is defined at ```Capybara.default_max_wait_time```."
+          notes 'Thanks to [this gist](https://gist.github.com/zhengjia/428105#gistcomment-1413436) and [this presentation](https://speakerdeck.com/timmoore/embracing-capybara)'
+      end
+      entry do
+          name 'Methods that wait'
+          notes '
+          - ```find(selector)```, ```find_field```, ```find_link```
+          - ```within(selector)(scoping)```
+          - ```has_selector?```, ```has_no_selector?``` & assertions
+          - form & link actions
+            - ```click_link```, ```click_button```
+            - ```fill_in```
+            - ```check/uncheck```, ```select```, ```choose```
+          '
+      end
+      entry do
+          name "Methods that don't wait"
+          notes '
+          - ```visit```
+          - ```current_path```
+          - ```all(selector)```
+          - ```first(selector)```
+          - ```execute_script```
+          - simple accessors: ```text```, ```value```, ```title```, etc.
+          '
+      end
+  end
   notes <<-'END'
   * Based on a [cheat sheet](https://learn.thoughtbot.com/test-driven-rails-resources/capybara.pdf) by [thoughtbot](http://thoughtbot.com/).
   END
