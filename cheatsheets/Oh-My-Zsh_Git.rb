@@ -399,6 +399,14 @@ git push origin $(current_branch)
 ```'
       command "ggpush"
     end
+    
+    entry do
+      name '
+```
+git push origin $(current_branch)
+```'
+      command "ggp"
+    end
 
     entry do
       name '
