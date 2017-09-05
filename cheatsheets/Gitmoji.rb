@@ -5,7 +5,7 @@ cheatsheet do
   source_url 'http://cheat.kapeli.com'
 
     category do
-    id 'Adding & Releasing'
+    id 'Adding, removing & Releasing'
       entry do
         command ':tada:'
         name '🎉 Initial commit'
@@ -13,6 +13,10 @@ cheatsheet do
       entry do
         command ':sparkles:'
         name '✨ Introducing new features'
+      end
+      entry do
+        command ':fire:'
+        name '🔥 Removing code or files'
       end
       entry do
         command ':hankey:'
@@ -65,6 +69,18 @@ cheatsheet do
       entry do 
         command ':boom:'
         name '💥 Introducing breaking changes'
+      end
+      entry do
+        command ':loud_sound:'
+        name '🔊 Adding logs'
+      end
+      entry do
+        command ':mute:'
+        name '🔇 Removing logs'
+      end
+      entry do
+        command ':busts_in_silhouette:'
+        name '👥 Add contributor(s)'
       end
     end
 
@@ -179,10 +195,6 @@ cheatsheet do
         name '🚀 Deploying stuff'
       end
       entry do
-        command ':fire:'
-        name '🔥 Removing code or files'
-      end
-      entry do
         command ':globe_with_meridians:'
         name '🌐 Internationalization and localization'
       end
@@ -193,6 +205,10 @@ cheatsheet do
       entry do
         command ':beers:'
         name '🍻 Writing code drunkenly'
+      end
+      entry do
+        command ':card_file_box:'
+        name '🗃 Performing database related changes'
       end
     end
 
