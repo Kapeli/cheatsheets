@@ -5,7 +5,7 @@ cheatsheet do
   source_url 'http://cheat.kapeli.com'
 
     category do
-    id 'Adding, removing & Releasing'
+    id 'Adding, Removing & Releasing'
       entry do
         command ':tada:'
         name '🎉 Initial commit'
