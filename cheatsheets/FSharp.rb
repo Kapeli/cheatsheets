@@ -1,11 +1,8 @@
-# $ cheatset generate sample.rb
-
 cheatsheet do
   title 'FSharp'
-  docset_file_name 'fsharp'
+  docset_file_name 'FSharp'
   keyword 'fsharp'
-
-  # introduction 'F# cheat sheet'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Basics'
@@ -585,5 +582,4 @@ cheatsheet do
     end
   end
 
-  # notes 'Some notes at the end of the cheat sheet'
 end
