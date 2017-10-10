@@ -38,13 +38,23 @@ cheatsheet do
     header 'Landscape Logical Resolution'
 
     entry do
+      td_notes '1125 x 2436 px'
+      td_notes '2436 x 1125 px'
+      td_notes '375 x 812 points'
+      td_notes '812 x 375 points'
+      name 'iPhone 5.8-inch'
+      index_name 'iPhone 5.8-inch Resolution'
+      notes 'iPhone X'
+    end
+
+    entry do
       td_notes '1080 x 1920 px'
       td_notes '1920 x 1080 px'
       td_notes '414 x 736 points'
       td_notes '736 x 414 points'
       name 'iPhone 5.5-inch (Physical)'
       index_name 'iPhone 5.5-inch Physical Resolution'
-      notes 'iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus'
+      notes 'iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus, iPhone 8 Plus'
     end
 
     entry do
@@ -54,7 +64,7 @@ cheatsheet do
       td_notes '736 x 414 points'
       name 'iPhone 5.5-inch (Virtual)'
       index_name 'iPhone 5.5-inch Virtual Resolution'
-      notes 'iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus'
+      notes 'iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus, iPhone 8 Plus'
     end
 
     entry do
@@ -64,7 +74,7 @@ cheatsheet do
       td_notes '667 x 375 points'
       name 'iPhone 4.7-inch'
       index_name 'iPhone 4.7-inch Resolution'
-      notes 'iPhone 6, iPhone 6S, iPhone 7'
+      notes 'iPhone 6, iPhone 6S, iPhone 7, iPhone 8'
     end
 
     entry do
@@ -159,6 +169,17 @@ cheatsheet do
     header 'Color Temperature'
 
     entry do
+      td_notes '5.8″'
+      td_notes '458'
+      td_notes '`@3x`'
+      td_notes '8bit RGB'
+      td_notes  'Warm'
+      name 'iPhone 5.8-inch'
+      index_name 'iPhone 5.8-inch Display'
+      notes 'iPhone X'
+    end
+
+    entry do
       td_notes '5.5″'
       td_notes '401'
       td_notes '`@3x`'
@@ -166,7 +187,7 @@ cheatsheet do
       td_notes  'Warm'
       name 'iPhone 5.5-inch'
       index_name 'iPhone 5.5-inch Display'
-      notes 'iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus'
+      notes 'iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus, iPhone 8 Plus'
     end
 
     entry do
@@ -177,7 +198,7 @@ cheatsheet do
       td_notes  'Warm'
       name 'iPhone 4.7-inch'
       index_name 'iPhone 4.7-inch Display'
-      notes 'iPhone 6, iPhone 6S, iPhone 7'
+      notes 'iPhone 6, iPhone 6S, iPhone 7, iPhone 8'
     end
 
     entry do
@@ -283,9 +304,19 @@ cheatsheet do
       td_notes '1024 x 1024 px'
       td_notes '120 x 120 px'
       td_notes '87 x 87 px'
+      name 'iPhone 5.8-inch'
+      index_name 'iPhone 5.8-inch Dimensions'
+      notes 'iPhone X'
+    end
+
+    entry do
+      td_notes '180 x 180 px'
+      td_notes '1024 x 1024 px'
+      td_notes '120 x 120 px'
+      td_notes '87 x 87 px'
       name 'iPhone 5.5-inch'
       index_name 'iPhone 5.5-inch Dimensions'
-      notes 'iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus'
+      notes 'iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus, iPhone 8 Plus'
     end
 
     entry do
@@ -295,7 +326,7 @@ cheatsheet do
       td_notes '58 x 58 px'
       name 'iPhone 4.7-inch'
       index_name 'iPhone 4.7-inch Dimensions'
-      notes 'iPhone 6, iPhone 6S, iPhone 7'
+      notes 'iPhone 6, iPhone 6S, iPhone 7, iPhone 8'
     end
 
     entry do
@@ -370,13 +401,23 @@ cheatsheet do
     html_class 'no-min-width'
     
     entry do
+      td_notes '132 px'
+      td_notes '132 / 408 px'
+      td_notes '146 px (Home Indicator: 102px)'
+      td_notes '1125 / 2436 px'
+      name 'iPhone 5.8-inch'
+      index_name 'iPhone 5.8-inch Design Elements'
+      notes 'iPhone X'
+    end
+
+    entry do
       td_notes '54 px'
       td_notes '132 px'
       td_notes '146 px'
       td_notes '1080 / 1920 px'
       name 'iPhone 5.5-inch'
       index_name 'iPhone 5.5-inch Design Elements'
-      notes 'iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus'
+      notes 'iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus, iPhone 8 Plus'
     end
     
     entry do
@@ -386,7 +427,7 @@ cheatsheet do
       td_notes '750 / 1334 px'
       name 'iPhone 4.7-inch'
       index_name 'iPhone 4.7-inch Design Elements'
-      notes 'iPhone 6, iPhone 6S, iPhone 7'
+      notes 'iPhone 6, iPhone 6S, iPhone 7, iPhone 8'
     end
     
     entry do
@@ -451,16 +492,23 @@ cheatsheet do
     entry do
       td_notes '66 x 66 px'
       td_notes '75 x 75 px (max 144 x 96 px)'
+      name 'iPhone 5.8-inch'
+      index_name 'iPhone 5.8-inch Icons'
+      notes 'iPhone X'
+    end
+    entry do
+      td_notes '66 x 66 px'
+      td_notes '75 x 75 px (max 144 x 96 px)'
       name 'iPhone 5.5-inch'
       index_name 'iPhone 5.5-inch Icons'
-      notes 'iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus'
+      notes 'iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus, iPhone 8 Plus'
     end
     entry do
       td_notes '44 x 44 px'
       td_notes '50 x 50 px (max 96 x 64 px)'
       name 'iPhone 4.7-inch'
       index_name 'iPhone 4.7-inch Icons'
-      notes 'iPhone 6, iPhone 6S, iPhone 7'
+      notes 'iPhone 6, iPhone 6S, iPhone 7, iPhone 8'
     end
     entry do
       td_notes '44 x 44 px'
@@ -500,7 +548,7 @@ cheatsheet do
   end
 
   category do
-    id 'Default Font Sizes iPhone 5/5C/5S/SE/6/6S/7'
+    id 'Default Font Sizes iPhone 5/5C/5S/SE/6/6S/7/8'
     header 'Label Type'
     header 'Default Font Size'
     header 'Default Font Weight'
@@ -509,40 +557,40 @@ cheatsheet do
       td_notes '34 px'
       td_notes 'Medium'
       name 'Navigation bar title'
-      index_name 'iPhone 5/5C/5S/SE/6/6S/7 Navigation Bar Title'
+      index_name 'iPhone 5/5C/5S/SE/6/6S/7/8 Navigation Bar Title'
     end
 
     entry do
       td_notes '34 px'
       td_notes 'Light'
       name 'Regular buttons'
-      index_name 'iPhone 5/5C/5S/SE/6/6S/7 Regular Buttons'
+      index_name 'iPhone 5/5C/5S/SE/6/6S/7/8 Regular Buttons'
     end
 
     entry do
       td_notes '34 px'
       td_notes 'Light'
       name 'Table header'
-      index_name 'iPhone 5/5C/5S/SE/6/6S/7 Table Header'
+      index_name 'iPhone 5/5C/5S/SE/6/6S/7/8 Table Header'
     end
 
     entry do
       td_notes '28 px'
       td_notes 'Regular'
       name 'Table label'
-      index_name 'iPhone 5/5C/5S/SE/6/6S/7 Table Label'
+      index_name 'iPhone 5/5C/5S/SE/6/6S/7/8 Table Label'
     end
 
     entry do
       td_notes '20 px'
       td_notes 'Regular'
       name 'Tab bar icon labels'
-      index_name 'iPhone 5/5C/5S/SE/6/6S/7 Tab Bar Icon Labels'
+      index_name 'iPhone 5/5C/5S/SE/6/6S/7/8 Tab Bar Icon Labels'
     end
   end
 
   category do
-    id 'Default Font Sizes iPhone 6 Plus/6S Plus/7 Plus'
+    id 'Default Font Sizes iPhone 6 Plus/6S Plus/7 Plus/8 Plus'
     header 'Label Type'
     header 'Default Font Size'
     header 'Default Font Weight'
@@ -551,35 +599,77 @@ cheatsheet do
       td_notes '48 px'
       td_notes 'Medium'
       name 'Navigation bar title'
-      index_name 'iPhone 6 Plus/6S Plus/7 Plus Navigation Bar Title'
+      index_name 'iPhone 6 Plus/6S Plus/7 Plus/8 Plus Navigation Bar Title'
     end
 
     entry do
       td_notes '48 px'
       td_notes 'Light'
       name 'Regular buttons'
-      index_name 'iPhone 6 Plus/6S Plus/7 Plus Regular Buttons'
+      index_name 'iPhone 6 Plus/6S Plus/7 Plus/8 Plus Regular Buttons'
     end
 
     entry do
       td_notes '48 px'
       td_notes 'Light'
       name 'Table header'
-      index_name 'iPhone 6 Plus/6S Plus/7 Plus Table Header'
+      index_name 'iPhone 6 Plus/6S Plus/7 Plus/8 Plus Table Header'
     end
 
     entry do
       td_notes '44 px'
       td_notes 'Regular'
       name 'Table label'
-      index_name 'iPhone 6 Plus/6S Plus/7 Plus Table Label'
+      index_name 'iPhone 6 Plus/6S Plus/7 Plus/8 Plus Table Label'
     end
 
     entry do
       td_notes '30 px'
       td_notes 'Regular'
       name 'Tab bar icon labels'
-      index_name 'iPhone 6 Plus/6S Plus/7 Plus Tab Bar Icon Labels'
+      index_name 'iPhone 6 Plus/6S Plus/7 Plus/8 Plus Tab Bar Icon Labels'
+    end
+  end
+
+  category do
+    id 'Default Font Sizes iPhone X'
+    header 'Label Type'
+    header 'Default Font Size'
+    header 'Default Font Weight'
+
+    entry do
+      td_notes '48 px'
+      td_notes 'Medium'
+      name 'Navigation bar title'
+      index_name 'iPhone X Navigation Bar Title'
+    end
+
+    entry do
+      td_notes '48 px'
+      td_notes 'Light'
+      name 'Regular buttons'
+      index_name 'iPhone X Regular Buttons'
+    end
+
+    entry do
+      td_notes '48 px'
+      td_notes 'Light'
+      name 'Table header'
+      index_name 'iPhone X Table Header'
+    end
+
+    entry do
+      td_notes '44 px'
+      td_notes 'Regular'
+      name 'Table label'
+      index_name 'iPhone X Table Label'
+    end
+
+    entry do
+      td_notes '30 px'
+      td_notes 'Regular'
+      name 'Tab bar icon labels'
+      index_name 'iPhone X Tab Bar Icon Labels'
     end
   end
 
@@ -602,26 +692,38 @@ cheatsheet do
 
     entry do
       td_notes 'Height: Regular | Width: Compact'
-      name 'iPhone 6 Plus/6S Plus/7 Plus - Portrait'
-      index_name 'iPhone 6 Plus/6S Plus/7 Plus Portrait Size Class'
+      name 'iPhone 6 Plus/6S Plus/7 Plus/8 Plus - Portrait'
+      index_name 'iPhone 6 Plus/6S Plus/7 Plus/8 Plus Portrait Size Class'
     end
 
     entry do
       td_notes 'Height: Compact | Width: Regular'
-      name 'iPhone 6 Plus/6S Plus/7 Plus - Landscape'
-      index_name 'iPhone 6 Plus/6S Plus/7 Plus Landscape Size Class'
+      name 'iPhone 6 Plus/6S Plus/7 Plus/8 Plus - Landscape'
+      index_name 'iPhone 6 Plus/6S Plus/7 Plus/8 Plus Landscape Size Class'
     end
 
     entry do
       td_notes 'Height: Regular | Width: Compact'
-      name 'iPhone 7 and Before - Portrait'
-      index_name 'iPhone 7 and Before Portrait Size Class'
+      name 'iPhone 8 and Before - Portrait'
+      index_name 'iPhone 8 and Before Portrait Size Class'
     end
 
     entry do
       td_notes 'Height: Compact | Width: Compact'
-      name 'iPhone 7 and Before - Landscape'
-      index_name 'iPhone 7 and Before Landscape Size Class'
+      name 'iPhone 8 and Before - Landscape'
+      index_name 'iPhone 8 and Before Landscape Size Class'
+    end
+
+    entry do
+      td_notes 'Height: Regular | Width: Compact'
+      name 'iPhone X - Portrait'
+      index_name 'iPhone X Portrait Size Class'
+    end
+
+    entry do
+      td_notes 'Height: Compact | Width: Compact'
+      name 'iPhone X - Landscape'
+      index_name 'iPhone X Landscape Size Class'
     end
   end
 
