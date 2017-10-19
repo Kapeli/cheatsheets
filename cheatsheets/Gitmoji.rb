@@ -210,6 +210,10 @@ cheatsheet do
         command ':card_file_box:'
         name '🗃 Performing database related changes'
       end
+      entry do
+        command ':children_crossing:'
+        name '🚸 Improving user experience / usability'
+      end
     end
 
 
