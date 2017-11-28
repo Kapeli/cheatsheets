@@ -187,7 +187,7 @@ git checkout -b
     entry do
       name '
 ```
-git git config --list
+git config --list
 ```'
       command "gcf"
     end
