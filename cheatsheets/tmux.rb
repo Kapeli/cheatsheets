@@ -238,8 +238,13 @@ cheatsheet do
     end
 
     entry do
+      name 'Cursor up'
+      command 'k'
+    end
+
+    entry do
       name 'Cursor down'
-      command    'j'
+      command 'j'
     end
 
     entry do
@@ -265,11 +270,6 @@ cheatsheet do
     entry do
       name 'Cursor to top line'
       command 'H'
-    end
-
-    entry do
-      name 'Cursor up'
-      command 'k'
     end
 
     entry do
