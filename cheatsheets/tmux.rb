@@ -259,16 +259,6 @@ cheatsheet do
     end
 
     entry do
-      name 'Delete entire line'
-      command 'd'
-    end
-
-    entry do
-      name 'Delete to end of line'
-       command 'D'
-    end
-
-    entry do
       name 'End of line'
       command '$'
     end
