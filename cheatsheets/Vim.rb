@@ -559,7 +559,31 @@ cheatsheet do
             command 'gE'
             name 'Backward to the end of WORD [count]'
         end
-        
+        entry do
+            command 'H'
+            name 'Move to the top of the screen'
+        end
+        entry do
+            command 'M'
+            name 'Move to the middle of the screen'
+        end
+        entry do
+            command 'L'
+            name 'Move to the bottom of the screen'
+        end
+        entry do
+            command 'zz'
+            name 'Scroll the line with the cursor to the center of the screen'
+        end
+        entry do
+            command 'zt'
+            name 'Scroll the line with the cursor to the top'
+        end
+        entry do
+            command 'zb'
+            name 'Scroll the line with the cursor to the bottom'
+        end
+
         entry do
             notes <<-'END'
             The following commands move over words or WORDS.
