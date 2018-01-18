@@ -96,7 +96,6 @@ cheatsheet do
       name    'Archive'
       notes   'Save an archival copy of the repository.'
     end
-    notes  "[Mercurial](https://www.mercurial-scm.org) is a free distributed source control management system."
   end
 
   category do
