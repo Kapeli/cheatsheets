@@ -420,7 +420,7 @@ cheatsheet do
 
   notes  "
          * New user? Check out [Getting Started with Sourcetree](https://confluence.atlassian.com/get-started-with-sourcetree).
-	       * Need help? Join the [Atlassian Community](http://community.atlassian.com) today!
+	 * Need help? Join the [Atlassian Community](http://community.atlassian.com) today!
          * Created in January 2018 by [Brian Ganninger](https://github.com/bgannin).
          "
 end
