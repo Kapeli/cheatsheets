@@ -83,7 +83,6 @@ cheatsheet do
       name    'Unstage from index'
       notes   'Remove the selected item(s) from the staging area prior to committing.'
     end
-    notes  "[Git](https://git-scm.com) is a free distributed source control management system."
   end
 
   category do
@@ -337,7 +336,6 @@ cheatsheet do
       name    'Prune LFS content'
       notes   'Remove LFS item(s) that have been checked out into the current repository. This frees up space if they are unused.'
     end
-    notes  "[Git LFS](https://git-lfs.github.com) is an extension for storing large, typically static, files outside the repository."
   end
 
   category do
