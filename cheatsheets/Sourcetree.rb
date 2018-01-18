@@ -106,6 +106,7 @@ cheatsheet do
       name    'Migrate to Bitbucket Cloud...'
       notes   'Configure and migrate the current repository to Bitbucket Cloud.'
     end
+    entry do
       command 'CMD+SHIFT+,'
       name    'Repository settings...'
       notes   'Configure settings for the current repository.'
