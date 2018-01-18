@@ -9,7 +9,7 @@ cheatsheet do
     entry do
       command 'CMD+0'
       name    'Show repository browser'
-      notes   'Opens, or brings to foreground, the Repository Browser window.'
+      notes   'Opens the Repository Browser window.'
     end
     entry do
       command 'CMD+SHIFT+H'
@@ -27,12 +27,12 @@ cheatsheet do
     entry do
       command 'CMD+SHIFT+K'
       name    'Show/Hide sidebar'
-      notes   'Toggle the current repository window\'s sidebar (branches, tags, and more.)'
+      notes   'Toggle the current repository\'s sidebar (branches, tags, and more.)'
     end
     entry do
       command 'CMD+CTRL+W'
       name    'Show/Hide command history'
-      notes   'Toggle the current repository window\'s command history to view details.'
+      notes   'Toggle the current repository\'s command history to view details.'
     end
     entry do
       command 'CMD+1'
@@ -42,7 +42,7 @@ cheatsheet do
     entry do
       command 'CMD+2'
       name    'History view'
-      notes   'Switch to the primary commit graph/history browser area.'
+      notes   'Switch to the primary commit history browser area.'
     end
     entry do
       command 'CMD+3'
@@ -51,11 +51,11 @@ cheatsheet do
     end
     entry do
       name    'Show/Hide branch labels'
-      notes   'Toggle the visibility of branch labels in commit graphs for all repositories.'
+      notes   'Toggle the visibility of branch labels in commit history graphs for all repositories.'
     end
     entry do
       name    'Show/Hide tag labels'
-      notes   'Toggle the visibility of tag labels in commit graphs for all repositories.'
+      notes   'Toggle the visibility of tag labels in commit history graphs for all repositories.'
     end
     entry do
       name    'Show/Hide build status'
@@ -72,18 +72,18 @@ cheatsheet do
     end
     entry do
       name    'Interactive rebase...'
-      notes   'Start the process of interactively updating a branch\'s content to align with another.'
+      notes   'Start interactively updating a branch\'s content to align with another.'
     end
     entry do
       name    'Add/Link subtree...'
-      notes   'Connect another repository as if it was a descendent of the current repository instead of a remote dependency.'
+      notes   'Connect another repository to act like a descendent of the current repository, instead of a remote dependency.'
     end 
     entry do
       command 'CMD+SHIFT+-'
       name    'Unstage from index'
       notes   'Remove the selected item(s) from the staging area prior to committing.'
     end
-    notes  "[Git](https://git-scm.com) is a free, distributed source control management system."
+    notes  "[Git](https://git-scm.com) is a free distributed source control management system."
   end
 
   category do
@@ -97,7 +97,7 @@ cheatsheet do
       name    'Archive'
       notes   'Save an archival copy of the repository.'
     end
-    notes  "[Mercurial](https://www.mercurial-scm.org) is a free, distributed source control management system."
+    notes  "[Mercurial](https://www.mercurial-scm.org) is a free distributed source control management system."
   end
 
   category do
@@ -113,7 +113,7 @@ cheatsheet do
     entry do
       command 'CMD+R'
       name    'Refresh'
-      notes   'Reload the current repository\'s commit graph, file status, and build status.'
+      notes   'Reload the current repository\'s commit history graph, file status, and build status.'
     end
     entry do
       command 'CTRL+ALT+R'
@@ -123,8 +123,8 @@ cheatsheet do
     entry do
       command 'CMD+SHIFT+C'
       name    'Commit...'
-      notes   'Go to current repository\'s File Status view and focus the message editor, populating with a message template if available.'
-    end
+      notes   'Go to current repository\'s File Status view, focus the message editor, and populate with a message template if available.'
+    en
     entry do
       command 'CMD+SHIFT+R'
       name    'Revert... *or* Reset...'
@@ -138,7 +138,7 @@ cheatsheet do
     entry do
       command 'CMD+SHIFT+P'
       name    'Push...'
-      notes   'Send appropriate commits for the current repository to the remote server.'
+      notes   'Send local commits for the current repository to the remote server.'
     end
     entry do
       command 'CMD+SHIFT+L'
@@ -153,7 +153,7 @@ cheatsheet do
     entry do
       command 'CMD+SHIFT+B'
       name    'Branch...'
-      notes   'Create a new branch from the active one in the current repository.'
+      notes   'Create a new branch from the currently active branch.'
     end
     entry do
       command 'CMD+SHIFT+M'
@@ -181,7 +181,7 @@ cheatsheet do
     entry do
       command 'CMD+ALT+P'
       name    'Create pull request...'
-      notes   'Start a pull request on the remote server for the current repository\'s selected branch.'
+      notes   'Start a pull request on the remote server for the current active branch.'
     end
   end
 
@@ -190,7 +190,7 @@ cheatsheet do
     entry do
       command 'CMD+SHIFT+O'
       name    'Open'
-      notes   'Open the selected item(s) for the current repository in their respective apps.'
+      notes   'Open the selected item(s) for the current repository.'
     end
     entry do
       name    'Show in Finder'
@@ -199,7 +199,7 @@ cheatsheet do
     entry do
       command 'CMD+CTRL+T'
       name    'Open in Terminal'
-      notes   'Open a new Terminal window in the directory for the current repository.'
+      notes   'Open a new Terminal window to the directory for the current repository.'
     end
     entry do
       command 'Space'
@@ -208,7 +208,7 @@ cheatsheet do
     end
     entry do
       name    'External diff'
-      notes   'Open the appropriate application (see Preferences) with the item\'s changes to display.'
+      notes   'Open the assigned application (see Preferences) to display the item\'s changes.'
     end
     entry do
       name    'Create patch...'
@@ -221,7 +221,7 @@ cheatsheet do
     entry do
       command 'CMD+SHIFT+='
       name    'Add'
-      notes   'Add the selected untracked item(s) to the current repository\'s index to then commit them.'
+      notes   'Add the selected untracked item(s) to the current repository\'s index, making them available for commit.'
     end
     entry do
       command 'CMD+Delete'
@@ -239,7 +239,7 @@ cheatsheet do
     end
     entry do
       name    'Ignore...'
-      notes   'Configure entries for items to skip entirely in the current repository, basing it in part on the selected item(s) or pattern(s).'
+      notes   'Create entries (specific patterns, file types, or other designations) for items that should be ignored completely in the current repository.'
     end
     entry do
       name    'Commit...'
@@ -336,7 +336,7 @@ cheatsheet do
       name    'Prune LFS content'
       notes   'Remove LFS item(s) that have been checked out into the current repository. This frees up space if they are unused.'
     end
-    notes  "[Git LFS](https://git-lfs.github.com) is an extension for storing large, typically static files outside the repository."
+    notes  "[Git LFS](https://git-lfs.github.com) is an extension for storing large, typically static, files outside the repository."
   end
 
   category do
@@ -423,7 +423,7 @@ cheatsheet do
 
   notes  "
          * New user? Check out [Getting Started with Sourcetree](https://confluence.atlassian.com/get-started-with-sourcetree).
-		 * Need help? Join the [Atlassian Community](http://community.atlassian.com) today!
+	       * Need help? Join the [Atlassian Community](http://community.atlassian.com) today!
          * Created in January 2018 by [Brian Ganninger](https://github.com/bgannin).
          "
 end
