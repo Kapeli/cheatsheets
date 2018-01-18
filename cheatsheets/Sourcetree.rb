@@ -3,6 +3,7 @@ cheatsheet do
   docset_file_name 'Sourcetree'
   keyword 'sourcetree'
   source_url 'http://cheat.kapeli.com'
+  
   category do
     id 'Repository Management'
     entry do
@@ -20,6 +21,7 @@ cheatsheet do
       notes   'Prompts to add selected repositories to the Repository Browser.'
     end
   end  
+
   category do
     id 'UI Customization'
     entry do
@@ -60,6 +62,7 @@ cheatsheet do
       notes   'Toggle the visibility of the Build Status column in the History view for the current repository.'
     end
   end
+
   category do
     id 'Git Actions'
     entry do
@@ -82,6 +85,7 @@ cheatsheet do
     end
     notes  "[Git](https://git-scm.com) is a free distributed source control management system."
   end
+
   category do
     id 'Mercurial Actions'
     entry do
@@ -95,6 +99,7 @@ cheatsheet do
     end
     notes  "[Mercurial](https://www.mercurial-scm.org) is a free distributed source control management system."
   end
+
   category do
     id 'Repository Actions'
     entry do
@@ -119,7 +124,7 @@ cheatsheet do
       command 'CMD+SHIFT+C'
       name    'Commit...'
       notes   'Go to current repository\'s File Status view, focus the message editor, and populate with a message template if available.'
-    en
+    end
     entry do
       command 'CMD+SHIFT+R'
       name    'Revert... *or* Reset...'
@@ -179,6 +184,7 @@ cheatsheet do
       notes   'Start a pull request on the remote server for the current active branch.'
     end
   end
+
   category do
     id 'Item Actions'
     entry do
@@ -275,6 +281,7 @@ cheatsheet do
       notes   'Move the selected item(s) from one location to another (including renaming) in the current repository using appropriate source control mechanisms.'
     end
   end
+
   category do
     id 'Resolving Conflicts'
     entry do
@@ -302,6 +309,7 @@ cheatsheet do
       notes   'Update the selected item(s) to indicate a conflict or other problem exists still.'
     end
   end
+
   category do
     id 'Git LFS'
     entry do
@@ -330,6 +338,7 @@ cheatsheet do
     end
     notes  "[Git LFS](https://git-lfs.github.com) is an extension for storing large, typically static, files outside the repository."
   end
+
   category do
     id 'Git/Hg Flow'
     entry do
@@ -366,6 +375,7 @@ cheatsheet do
       notes   'Wrap up the in-progress Flow *hotfix* branch.'
     end
   end
+
   category do
     id 'Text Formatting'
     entry do
@@ -409,6 +419,7 @@ cheatsheet do
       notes   'Wraps the selected text in Markdown syntax for a link, focused to edit the URL portion.'
     end
   end
+
   notes  "
          * New user? Check out [Getting Started with Sourcetree](https://confluence.atlassian.com/get-started-with-sourcetree).
 	       * Need help? Join the [Atlassian Community](http://community.atlassian.com) today!
