@@ -6,5 +6,5 @@ git:
   submodules: false
 before_install:
   - git submodule update --init --recursive
-install: gem install cheatset --no-ri --no-rdoc
+install: sudo gem install cheatset --no-ri --no-rdoc
 script: find cheatsheets -name "*.rb" | xargs -n 1 cheatset generate
