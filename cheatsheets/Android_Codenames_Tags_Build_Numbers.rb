@@ -1,14 +1,13 @@
 cheatsheet do
-  title 'Android Codenames, Tags and Build Numbers'               # Will be displayed by Dash in the docset list
-  docset_file_name 'Android_Codenames_Tags_Build_Numbers'    # Used for the filename of the docset
-  keyword 'apisdk'             # Used as the initial search keyword (listed in Preferences > Docsets)
-  # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
+  title 'Android Codenames, Tags and Build Numbers'
+  docset_file_name 'Android_Codenames_Tags_Build_Numbers'
+  keyword 'apisdk'
+  source_url 'http://cheat.kapeli.com'
 
-  introduction 'At a high level, Android development happens around families of releases, which use code names ordered alphabetically after tasty treats.'  # Optional, can contain Markdown or HTML
+  introduction 'At a high level, Android development happens around families of releases, which use code names ordered alphabetically after tasty treats.'
 
-  # A cheat sheet must consist of categories
   category do
-    id 'API Levels'  # Must be unique and is used as title of the category
+    id 'API Levels'
 
     entry do
       command '26'
