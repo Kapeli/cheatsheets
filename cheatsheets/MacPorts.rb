@@ -1,3 +1,4 @@
+# coding: utf-8
 cheatsheet do
   title 'MacPorts'
   docset_file_name 'MacPorts'
@@ -164,7 +165,17 @@ cheatsheet do
       ```
       [sudo] port uninstall leaves
       ```
-      Note that uninstalling leaves may mark new ports as leaves, so you will have to repeat the process."
+      Note that the uninstallation can cause new ports to become leaves. To uninstall all leaves, you would have to repeat the process until port echo leaves comes back empty. To automate this, you can use ```--follow-dependencies``` when uninstalling.
+
+      ```
+      [sudo] port uninstall --follow-dependencies leaves
+      ```
+
+      To go through this process interactively so you can make sure you're not uninstalling anything you want to keep, you can install the port_cutleaves port. After installation, run it with
+
+      ```
+      [sudo] port_cutleaves
+      ```"
     end
 
   end
