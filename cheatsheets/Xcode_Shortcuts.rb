@@ -78,6 +78,14 @@ cheatsheet do
       command 'CTRL+6'
       name 'Show document items'
     end
+    entry do
+      command 'CTRL+`'
+      name 'Switch window in the same tab'
+    end
+    entry do
+      command 'CMD+SHIHT+['
+      name 'Switch tab'
+    end
   end
 
   category do
