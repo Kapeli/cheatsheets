@@ -95,7 +95,7 @@ cheatsheet do
       name 'Toggle completion'
     end
     entry do
-      command 'ESC'
+      command 'Esc'
       name 'Toggle auto completion'
     end
     entry do
