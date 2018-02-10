@@ -107,6 +107,19 @@ cheatsheet do
         ```
       END
     end
+    
+    entry do
+      name 'Create instance'
+      notes <<-'END'
+        ```javascript
+        var instance = axios.create({
+          baseURL: 'https://some-domain.com/api/',
+          timeout: 1000,
+          headers: {'X-Custom-Header': 'foobar'}
+        });
+        ```
+      END
+    end
   end
   
   category do
@@ -122,7 +135,7 @@ cheatsheet do
         ##### axios.options(url[, config])
         ##### axios.post(url[, data[, config]])
         ##### axios.put(url[, data[, config]])
-        ##### axios.patch(url[, data[, config]])        
+        ##### axios.patch(url[, data[, config]])
       END
     end
     
@@ -135,22 +148,9 @@ cheatsheet do
     end
     
     entry do
-      name 'Creating an instance'
-      notes <<-'END'
-        ##### axios.create([config])
-        ```javascript
-        var instance = axios.create({
-          baseURL: 'https://some-domain.com/api/',
-          timeout: 1000,
-          headers: {'X-Custom-Header': 'foobar'}
-        });
-        ```
-      END
-    end
-    
-    entry do
       name 'Instance methods'
       notes <<-'END'
+        ##### axios#create([config])
         ##### axios#request(config)
         ##### axios#get(url[, config])
         ##### axios#delete(url[, config])
@@ -343,6 +343,22 @@ cheatsheet do
           // and an XMLHttpRequest instance the browser
           request: {}
         }
+        ```
+      END
+    end
+  
+    entry do
+      name 'Response using `then`'
+      notes <<-'END'
+        ```javascript
+        axios.get('/user/12345')
+          .then(function(response) {
+            console.log(response.data);
+            console.log(response.status);
+            console.log(response.statusText);
+            console.log(response.headers);
+            console.log(response.config);
+          });
         ```
       END
     end
