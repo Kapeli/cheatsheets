@@ -73,13 +73,9 @@ cheatsheet do
         ```
       END
     end
-  end
-  
-  category do
-    id 'API'
     
     entry do
-      name 'Config for a GET request'
+      name 'POST request config'
       notes <<-'END'
         ```javascript
         // Send a POST request
@@ -96,7 +92,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Config for a POST request'
+      name 'GET request config'
       notes <<-'END'
         ```javascript
         // GET request for remote image
@@ -111,6 +107,10 @@ cheatsheet do
         ```
       END
     end
+  end
+  
+  category do
+    id 'API'
     
     entry do
       name 'Request method aliases'
@@ -167,7 +167,7 @@ cheatsheet do
     id 'Request config'
     
     entry do
-      name 'Config options for requests'
+      name 'Request options'
       notes <<-'END'
         ```javascript
         {
@@ -318,7 +318,7 @@ cheatsheet do
     id 'Response schema'
     
     entry do
-      name 'Response for a request'
+      name 'Request response'
       notes <<-'END'
         ```javascript
         {
@@ -393,6 +393,152 @@ cheatsheet do
         instance.get('/longRequest', {
           timeout: 5000
         });
+        ```
+      END
+    end
+  end
+  
+  category do
+    id 'Interceptors'
+    
+    entry do
+      name 'Intercept request/responses'
+      notes <<-'END'
+        ```javascript
+        // Add a request interceptor
+        axios.interceptors.request.use(function (config) {
+            // Do something before request is sent
+            return config;
+          }, function (error) {
+            // Do something with request error
+            return Promise.reject(error);
+          });
+
+        // Add a response interceptor
+        axios.interceptors.response.use(function (response) {
+            // Do something with response data
+            return response;
+          }, function (error) {
+            // Do something with response error
+            return Promise.reject(error);
+          });
+        ```
+      END
+    end
+    
+    entry do
+      name 'Remove interceptor'
+      notes <<-'END'
+        ```javascript
+        var myInterceptor = axios.interceptors.request.use(function () {/*...*/});
+        axios.interceptors.request.eject(myInterceptor);
+        ```
+      END
+    end
+    
+    entry do
+      name 'Custom instance interceptors'
+      notes <<-'END'
+        ```javascript
+        var instance = axios.create();
+        instance.interceptors.request.use(function () {/*...*/});
+        ```
+      END
+    end
+  end
+  
+  category do
+    id 'Handling errors'
+    
+    entry do
+      name 'Catch error'
+      notes <<-'END'
+        ```javascript
+        axios.get('/user/12345')
+          .catch(function (error) {
+            if (error.response) {
+              // The request was made and the server responded with a status code
+              // that falls out of the range of 2xx
+              console.log(error.response.data);
+              console.log(error.response.status);
+              console.log(error.response.headers);
+            } else if (error.request) {
+              // The request was made but no response was received
+              // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
+              // http.ClientRequest in node.js
+              console.log(error.request);
+            } else {
+              // Something happened in setting up the request that triggered an Error
+              console.log('Error', error.message);
+            }
+            console.log(error.config);
+          });
+        ```
+      END
+    end
+    
+    entry do
+      name 'Custom HTTP status code error'
+      notes <<-'END'
+        ```javascript
+        axios.get('/user/12345', {
+          validateStatus: function (status) {
+            return status < 500; // Reject only if the status code is greater than or equal to 500
+          }
+        })
+        ```
+      END
+    end
+  end
+  
+  category do
+    id 'Cancellation'
+    
+    entry do
+      name 'Cancel request with cancel token'
+      notes <<-'END'
+        ```javascript
+        var CancelToken = axios.CancelToken;
+        var source = CancelToken.source();
+
+        axios.get('/user/12345', {
+          cancelToken: source.token
+        }).catch(function(thrown) {
+          if (axios.isCancel(thrown)) {
+            console.log('Request canceled', thrown.message);
+          } else {
+            // handle error
+          }
+        });
+
+        axios.post('/user/12345', {
+          name: 'new name'
+        }, {
+          cancelToken: source.token
+        })
+
+        // cancel the request (the message parameter is optional)
+        source.cancel('Operation canceled by the user.');
+        ```
+      END
+    end
+    
+    entry do
+      name 'Create cancel token'
+      notes <<-'END'
+        ```javascript
+        var CancelToken = axios.CancelToken;
+        var cancel;
+
+        axios.get('/user/12345', {
+          cancelToken: new CancelToken(function executor(c) {
+            // An executor function receives a cancel function as a parameter
+            cancel = c;
+          })
+        });
+
+        // cancel the request
+        cancel();
         ```
       END
     end
