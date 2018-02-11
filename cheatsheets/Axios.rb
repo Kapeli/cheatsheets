@@ -164,7 +164,7 @@ cheatsheet do
   end
   
   category do
-    id 'Request config'
+    id 'Request Config'
     
     entry do
       name 'Request options'
@@ -315,7 +315,7 @@ cheatsheet do
   end
   
   category do
-    id 'Response schema'
+    id 'Response Schema'
     
     entry do
       name 'Request response'
@@ -365,7 +365,7 @@ cheatsheet do
   end
   
   category do
-    id 'Config defaults'
+    id 'Config Defaults'
     
     entry do
       name 'Global axios defaults'
@@ -464,7 +464,7 @@ cheatsheet do
   end
   
   category do
-    id 'Handling errors'
+    id 'Handling Errors'
     
     entry do
       name 'Catch error'
