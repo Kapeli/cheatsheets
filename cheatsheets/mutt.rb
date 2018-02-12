@@ -1,6 +1,8 @@
 cheatsheet do
-	title 'Mutt MUA Basics'
-	docset_file_name 'mutt'
+	title 'Mutt'
+	docset_file_name 'Mutt'
+    keyword 'mutt'
+    source_url 'http://cheat.kapeli.com'
 
 	introduction <<-'END'
 Mutt is a highly configurable, terminal-based MUA (mail user agent) for those with
@@ -50,7 +52,6 @@ Unless otherwise specified, all commands apply to the currently highlighted mess
 		id 'Composing Messages'
 
 		entry do
-			name ''
 			notes <<-'END'
 Once you enter a compose command and fill out the to, subject, etc. fields, you will be brought into your regular system text editor to compose your message. Once you are done, save
 the file and exit the editor. You will then be brought to another screen giving you a chance to add attachments or perform other operations on your message. Note that your message will
@@ -125,88 +126,87 @@ The following commands only work in this pre-sending screen:
 		id 'Status Flags'
 
 		entry do
-			name ''
 			notes 'In addition to who sent the message and the subject, a short summary of the disposition of each message is printed beside the message number. Zero or more of the following characters may appear.'
 		end
 
 		entry do
-			name 'D'
+			name '`D`'
 			notes 'Message is deleted (marked for deletion). Actual removal will happen when the mailbox is synced, or mutt is exited.'
 		end
 
 		entry do
-			name 'd'
+			name '`d`'
 			notes 'Message has attachments marked for deletion. Like message deletion, the files are not actually removed until sync or exist.'
 		end
 
 		entry do
-			name 'K'
-			notes 'Message contains a PGP public key'
+			name '`K`'
+			notes 'Message contains a PGP public key.'
 		end
 
 		entry do
-			name 'N'
-			notes 'Message is new (unread)'
+			name '`N`'
+			notes 'Message is new (unread).'
 		end
 
 		entry do
-			name 'O'
-			notes 'Message is old'
+			name '`O`'
+			notes 'Message is old.'
 		end
 
 		entry do
-			name 'P'
-			notes 'Message is PGP encrypted'
+			name '`P`'
+			notes 'Message is PGP encrypted.'
 		end
 
 		entry do
-			name 'r'
-			notes 'Message has been replied to'
+			name '`r`'
+			notes 'Message has been replied to.'
 		end
 
 		entry do
-			name 'S'
+			name '`S`'
 			notes 'Message is PGP signed, AND the signature has been verified.'
 		end
 
 		entry do
-			name 's'
+			name '`s`'
 			notes 'Message is PGP signed, but without verification. Verification problems will be visible when you open the message.'
 		end
 
 		entry do
-			name '!'
-			notes 'Message is flagged (equivalent to starred in Gmail or red flagged in Outlook)'
+			name '`!`'
+			notes 'Message is flagged (equivalent to starred in Gmail or red flagged in Outlook).'
 		end
 
 		entry do
-			name '*'
-			notes 'Message is tagged (selected for a multiple-message operation)'
+			name '`*`'
+			notes 'Message is tagged (selected for a multiple-message operation).'
 		end
 
 		entry do
-			name '+'
+			name '`+`'
 			notes 'Message is addressed to you, and only you.'
 		end
 
 		entry do
-			name 'T'
-			notes 'Message is addressed to you, but also others (either in the `to` or `cc` lines)'
+			name '`T`'
+			notes 'Message is addressed to you, but also others (either in the `to` or `cc` lines).'
 		end
 
 		entry do
-			name 'C'
-			notes 'Message is CC\'ed to you (your address is in the `cc` line)'
+			name '`C`'
+			notes 'Message is CC\'ed to you (your address is in the `cc` line).'
 		end
 
 		entry do
-			name 'F'
-			notes 'Message is from you'
+			name '`F`'
+			notes 'Message is from you.'
 		end
 
 		entry do
-			name 'L'
-			notes 'Message is from a mailing list you\'re subscribed to'
+			name '`L`'
+			notes 'Message is from a mailing list you\'re subscribed to.'
 		end
 	end
 
@@ -271,7 +271,7 @@ The following commands only work in this pre-sending screen:
 		entry do
 			command 'l'
 			name 'Limit display to subsequently entered pattern'
-			notes 'Run the command again, with `All` or `~A` as the pattern to return to the full display'
+			notes 'Run the command again, with `All` or `~A` as the pattern to return to the full display.'
 		end
 
 		entry do
@@ -281,10 +281,9 @@ The following commands only work in this pre-sending screen:
 	end
 
 	category do
-		id 'Search pattern syntax'
+		id 'Search Pattern Syntax'
 
 		entry do
-			name ''
 			notes <<-'END'
 When entering a search or limit command, the following syntax can be used.
 
@@ -298,7 +297,7 @@ Also, note that searches containing spaces must be enclosed in single or double 
 			name 'All messages'
 			command '~A'
 			command	'All'
-			notes 'Searching for all messages is the fastest way to clear the results of a previous limit (`L`) search'
+			notes 'Searching for all messages is the fastest way to clear the results of a previous limit (`L`) search.'
 		end
 
 		entry do
@@ -309,7 +308,7 @@ Also, note that searches containing spaces must be enclosed in single or double 
 		entry do
 			name 'Search in entire message'
 			command '~B `<expression>`'
-			notes 'Searches the subject, addresses, body, and unencoded attachments'
+			notes 'Searches the subject, addresses, body, and unencoded attachments.'
 		end
 
 		entry do
@@ -331,7 +330,7 @@ Also, note that searches containing spaces must be enclosed in single or double 
 		entry do
 			name 'Search for messages sent within a specific date range.'
 			command '~d `<date range>`'
-			notes 'Follow this expression with a date range delimited by minuses. Example: `~d 2017/01/01-2017/02/01`'
+			notes 'Follow this expression with a date range delimited by minuses. Example: `~d 2017/01/01-2017/02/01`.'
 		end
 
 		entry do
@@ -352,7 +351,7 @@ Also, note that searches containing spaces must be enclosed in single or double 
 		entry do
 			name 'Search for messages from a specific user'
 			command '~f `<username>`'
-			notes 'The user name can be an alias'
+			notes 'The user name can be an alias.'
 		end
 
 		entry do
@@ -378,7 +377,7 @@ Also, note that searches containing spaces must be enclosed in single or double 
 		entry do
 			name 'Search for specific message IDs'
 			command '~i `<id>`'
-			notes 'This references the contents of the `Message-ID` header'
+			notes 'This references the contents of the `Message-ID` header.'
 		end
 
 		entry do
@@ -394,13 +393,13 @@ Also, note that searches containing spaces must be enclosed in single or double 
 		entry do
 			name 'Search for messages in the message number range given'
 			command '~m `<range>`'
-			notes 'This command targets the message number as shown in the index. Give the number as a range delimited by a dash, example: `~m 1-5`'
+			notes 'This command targets the message number as shown in the index. Give the number as a range delimited by a dash, example: `~m 1-5`.'
 		end
 
 		entry do
 			name 'Search for messages with a score in the range given'
 			command '~n `<score range>`'
-			notes 'Give the score as a number range delimited by a dash, example: `~n 1.0-5.0`'
+			notes 'Give the score as a number range delimited by a dash, example: `~n 1.0-5.0`.'
 		end
 
 		entry do
@@ -436,7 +435,7 @@ Also, note that searches containing spaces must be enclosed in single or double 
 		entry do
 			name 'Search for messages with a recieved date in the given range'
 			command '~r `<date range>`'
-			notes 'Give the date as a range delimited by a dash. Example: `~r 2017/01/01-2017/02/01`'
+			notes 'Give the date as a range delimited by a dash. Example: `~r 2017/01/01-2017/02/01`.'
 		end
 
 		entry do
@@ -457,7 +456,7 @@ Also, note that searches containing spaces must be enclosed in single or double 
 		entry do
 			name 'Search for messages addressed to a specific user'
 			command '~t `<username>`'
-			notes 'Aliases will work here'
+			notes 'Aliases will work here.'
 		end
 
 		entry do
@@ -483,7 +482,7 @@ Also, note that searches containing spaces must be enclosed in single or double 
 		entry do
 			name 'Search for messages with a size in the given range'
 			command '~z `<byte range>`'
-			notes 'Give the range as a number of bytes, delimited by a dash. Example: `102400-409600`'
+			notes 'Give the range as a number of bytes, delimited by a dash. Example: `102400-409600`.'
 		end
 
 		entry do
@@ -497,7 +496,6 @@ Also, note that searches containing spaces must be enclosed in single or double 
 		id 'Aliases'
 
 		entry do
-			name ''
 			notes <<-'END'
 Aliases allow you to save short names for later use in searches, To/CC lines,
 etc. For example, you could alias `Tom Fubar <tom.fubar@example.com>` to

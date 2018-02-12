@@ -231,11 +231,11 @@ cheatsheet do
       name 'Delete to line end'
     end
     entry do
-      command 'CMD+CTRL+Arrow Up'
+      command 'CTRL+SHIFT+Arrow Up'
       name 'Move current line or selection up'
     end
     entry do
-      command 'CMD+CTRL+Arrow Down'
+      command 'CTRL+SHIFT+Arrow Down'
       name 'Move current line or selection down'
     end
     entry do
@@ -251,7 +251,7 @@ cheatsheet do
       name 'Toggle line comment'
     end
     entry do
-      command 'CMD+ALT+/'
+      command 'CMD+SHIFT+/'
       name 'Toggle block comment'
     end
   end

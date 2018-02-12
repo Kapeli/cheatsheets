@@ -95,6 +95,10 @@ cheatsheet do
       name 'Toggle completion'
     end
     entry do
+      command 'Esc'
+      name 'Toggle auto completion'
+    end
+    entry do
       command 'CMD+CTRL+E'
       name 'Edit all in scope'
     end
