@@ -268,7 +268,7 @@ cheatsheet do
     end
     entry do
       command 'CMD+ALT+B'
-      name    'Blame selected...'
+      name    'Annotate selected...'
       notes   'Display the contents of the selected item, as lines, with the latest commit\'s information (author, date, metadata) alongside.'
     end    
     entry do
