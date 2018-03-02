@@ -196,7 +196,12 @@ cheatsheet do
     entry do
       name 'Exceptions'
       notes <<-'CODE'
-        The `failwith` function throws an exception of type `Exception`.
+        Throw an exception using a built-in keyword:
+
+        * failwith throws a generic System.Exception
+        * invalidArg throws an ArgumentException
+        * nullArg throws a NullArgumentException
+        * invalidOp throws an InvalidOperationException
 
         ```fsharp
         let divideFailwith x y =
@@ -205,7 +210,7 @@ cheatsheet do
           else x / y
         ```
 
-        Exception handling is done via `try/with` expressions.
+        Exception handling is done via `try/with` expressions, using the pattern matching syntax. To catch a specific .Net exception, you have to match with the cast operator `:?`.
 
         ```fsharp
         let divide x y =
@@ -231,6 +236,13 @@ cheatsheet do
                printfn "Error1 %s" str
            finally
               printfn "Always print this."
+        ```
+
+        Raising an exception is done using the `raise` keyword:
+
+        ```fsharp
+        exception MyError of string
+        raise (MyError "my error")
         ```
       CODE
     end
