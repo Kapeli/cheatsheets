@@ -196,7 +196,12 @@ cheatsheet do
     entry do
       name 'Exceptions'
       notes <<-'CODE'
-        The `failwith` function throws an exception of type `Exception`.
+        Throw an exception using a built-in keyword:
+
+        * failwith throws a generic System.Exception
+        * invalidArg throws an ArgumentException
+        * nullArg throws a NullArgumentException
+        * invalidOp throws an InvalidOperationException
 
         ```fsharp
         let divideFailwith x y =
@@ -205,7 +210,7 @@ cheatsheet do
           else x / y
         ```
 
-        Exception handling is done via `try/with` expressions.
+        Exception handling is done via `try/with` expressions, using the pattern matching syntax. To catch a specific .Net exception, you have to match with the cast operator `:?`.
 
         ```fsharp
         let divide x y =
@@ -231,6 +236,13 @@ cheatsheet do
                printfn "Error1 %s" str
            finally
               printfn "Always print this."
+        ```
+
+        Raising an exception is done using the `raise` keyword:
+
+        ```fsharp
+        exception MyError of string
+        raise (MyError "my error")
         ```
       CODE
     end
@@ -539,47 +551,4 @@ cheatsheet do
       CODE
     end
   end
-  category do
-    id 'Ecosystem'
-    entry do
-      name 'Extended Library'
-      notes <<-'CODE'
-        * [fsprojects/Argu](https://github.com/fsprojects/Argu): A declarative CLI argument/XML configuration parser
-        * [mbraceproject/FsPickler](https://github.com/mbraceproject/FsPickler): A fast multi-format message serializer
-        * [jack-pappas/ExtCore](https://github.com/jack-pappas/ExtCore): An extended core library
-        * [Streams](http://nessos.github.io/Streams/)
-        * [Optics](https://xyncro.tech/aether/)
-        * [JSON manipulation](https://xyncro.tech/chiron/)
-      CODE
-    end
-    entry do
-      name 'Web'
-      notes <<-'CODE'
-        * [Suave](http://suave.io/): compositional web library with lightweight server
-        * [Freya](https://github.com/freya-fs/freya): functional monadic web library built on top of OWIN
-        * [Giraffe](https://github.com/dustinmoris/Giraffe): functional Suave-like library on top of ASP.net core - benefits from ASP.net ecosystem and middlewares
-      CODE
-    end
-    entry do
-      name 'Data Access & Manipulation'
-      notes <<-'CODE'
-        * [FsLab](http://fslab.org/)
-        * Vega (a visualization grammar on top of D3js) + VegaHub
-        * Machine Learning:
-          * Accord.net : machine learning framework combined with audio and image processing
-          * http://evelinag.com/Ariadne/ : Gauss regression
-        * Tesseract: OCR engine
-        * [rspeele/Rezoom.SQL](https://github.com/rspeele/Rezoom.SQL): Statically typechecks a common SQL dialect and translates it to various RDBMS backends
-        * [rspeele/Rezoom](https://github.com/rspeele/Rezoom): Implements a resumption monad for .NET targeting data access with automatic batching and caching
-      CODE
-    end
-    entry do
-      name 'Testing'
-      notes <<-'CODE'
-      * [Expecto](https://github.com/haf/expecto)
-      * [Canopy](http://lefthandedgoat.github.io/canopy/): acceptance UI tests
-      CODE
-    end
-  end
-
 end
