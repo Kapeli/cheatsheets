@@ -8,7 +8,7 @@ cheatsheet do
     id 'General'
     
     entry do
-      name 'POST request'
+      name 'GET request'
       notes <<-'END'
         ```javascript
         // Make a request for a user with a given ID
@@ -37,7 +37,7 @@ cheatsheet do
     end
     
     entry do
-      name 'GET request'
+      name 'POST request'
       notes <<-'END'
         ```javascript
         axios.post('/user', {
