@@ -126,6 +126,11 @@ cheatsheet do
       name 'Percentage'
       notes 'Output: `66.000000%`'
     end
+    entry do
+      command "'{:.3}'.format(0.214286)"
+      name 'Precision'
+      notes 'Output: `0.214`'
+    end
   end
   category do
     id 'Conversions'
