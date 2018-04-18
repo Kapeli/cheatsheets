@@ -144,7 +144,7 @@ cheatsheet do
     end
     entry do
       command '--------T'
-      name 'sticky bit is set, bot other execute permission is not set'
+      name 'sticky bit is set, but other execute permission is not set'
     end
     entry do
       command '--------t'
