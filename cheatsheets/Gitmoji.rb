@@ -1,4 +1,4 @@
-cheatsheet do
+ cheatsheet do
   title 'Gitmoji'
   docset_file_name 'Gitmoji'
   keyword 'gitmoji'
@@ -8,227 +8,227 @@ cheatsheet do
     id 'Gitmoji'
     entry do
         command ':art:'
-        name '🎨 Improving structure / format of the code.'
+        name '🎨 Improving structure / format of the code'
      end
      entry do
         command ':zap:'
-        name '⚡ Improving performance.'
+        name '⚡ Improving performance'
      end
      entry do
         command ':fire:'
-        name '🔥 Removing code or files.'
+        name '🔥 Removing code or files'
      end
      entry do
         command ':bug:'
-        name '🐛 Fixing a bug.'
+        name '🐛 Fixing a bug'
      end
      entry do
         command ':ambulance:'
-        name '🚑 Critical hotfix.'
+        name '🚑 Critical hotfix'
      end
      entry do
         command ':sparkles:'
-        name '✨ Introducing new features.'
+        name '✨ Introducing new features'
      end
      entry do
         command ':memo:'
-        name '📝 Writing docs.'
+        name '📝 Writing docs'
      end
      entry do
         command ':rocket:'
-        name '🚀 Deploying stuff.'
+        name '🚀 Deploying stuff'
      end
      entry do
         command ':lipstick:'
-        name '💄 Updating the UI and style files.'
+        name '💄 Updating the UI and style files'
      end
      entry do
         command ':tada:'
-        name '🎉 Initial commit.'
+        name '🎉 Initial commit'
      end
      entry do
         command ':white_check_mark:'
-        name '✅ Adding tests.'
+        name '✅ Adding tests'
      end
      entry do
         command ':lock:'
-        name '🔒 Fixing security issues.'
+        name '🔒 Fixing security issues'
      end
      entry do
         command ':apple:'
-        name '🍎 Fixing something on macOS.'
+        name '🍎 Fixing something on macOS'
      end
      entry do
         command ':penguin:'
-        name '🐧 Fixing something on Linux.'
+        name '🐧 Fixing something on Linux'
      end
      entry do
         command ':checkered_flag:'
-        name '🏁 Fixing something on Windows.'
+        name '🏁 Fixing something on Windows'
      end
      entry do
         command ':robot:'
-        name '🤖 Fixing something on Android.'
+        name '🤖 Fixing something on Android'
      end
      entry do
         command ':green_apple:'
-        name '🍏 Fixing something on iOS.'
+        name '🍏 Fixing something on iOS'
      end
      entry do
         command ':bookmark:'
-        name '🔖 Releasing / Version tags.'
+        name '🔖 Releasing / Version tags'
      end
      entry do
         command ':rotating_light:'
-        name '🚨 Removing linter warnings.'
+        name '🚨 Removing linter warnings'
      end
      entry do
         command ':construction:'
-        name '🚧 Work in progress.'
+        name '🚧 Work in progress'
      end
      entry do
         command ':green_heart:'
-        name '💚 Fixing CI Build.'
+        name '💚 Fixing CI Build'
      end
      entry do
         command ':arrow_down:'
-        name '⬇ Downgrading dependencies.'
+        name '⬇ Downgrading dependencies'
      end
      entry do
         command ':arrow_up:'
-        name '⬆ Upgrading dependencies.'
+        name '⬆ Upgrading dependencies'
      end
      entry do
         command ':pushpin:'
-        name '📌 Pinning dependencies to specific versions.'
+        name '📌 Pinning dependencies to specific versions'
      end
      entry do
         command ':construction_worker:'
-        name '👷 Adding CI build system.'
+        name '👷 Adding CI build system'
      end
      entry do
         command ':chart_with_upwards_trend:'
-        name '📈 Adding analytics or tracking code.'
+        name '📈 Adding analytics or tracking code'
      end
      entry do
         command ':recycle:'
-        name '♻ Refactoring code.'
+        name '♻ Refactoring code'
      end
      entry do
         command ':heavy_minus_sign:'
-        name '➖ Removing a dependency.'
+        name '➖ Removing a dependency'
      end
      entry do
         command ':whale:'
-        name '🐳 Work about Docker.'
+        name '🐳 Work about Docker'
      end
      entry do
         command ':heavy_plus_sign:'
-        name '➕ Adding a dependency.'
+        name '➕ Adding a dependency'
      end
      entry do
         command ':wrench:'
-        name '🔧 Changing configuration files.'
+        name '🔧 Changing configuration files'
      end
      entry do
         command ':globe_with_meridians:'
-        name '🌐 Internationalization and localization.'
+        name '🌐 Internationalization and localization'
      end
      entry do
         command ':pencil2:'
-        name '✏ Fixing typos.'
+        name '✏ Fixing typos'
      end
      entry do
         command ':hankey:'
-        name '💩 Writing bad code that needs to be improved.'
+        name '💩 Writing bad code that needs to be improved'
      end
      entry do
         command ':rewind:'
-        name '⏪ Reverting changes.'
+        name '⏪ Reverting changes'
      end
      entry do
         command ':twisted_rightwards_arrows:'
-        name '🔀 Merging branches.'
+        name '🔀 Merging branches'
      end
      entry do
         command ':package:'
-        name '📦 Updating compiled files or packages.'
+        name '📦 Updating compiled files or packages'
      end
      entry do
         command ':alien:'
-        name '👽 Updating code due to external API changes.'
+        name '👽 Updating code due to external API changes'
      end
      entry do
         command ':truck:'
-        name '🚚 Moving or renaming files.'
+        name '🚚 Moving or renaming files'
      end
      entry do
         command ':page_facing_up:'
-        name '📄 Adding or updating license.'
+        name '📄 Adding or updating license'
      end
      entry do
         command ':boom:'
-        name '💥 Introducing breaking changes.'
+        name '💥 Introducing breaking changes'
      end
      entry do
         command ':bento:'
-        name '🍱 Adding or updating assets.'
+        name '🍱 Adding or updating assets'
      end
      entry do
         command ':ok_hand:'
-        name '👌 Updating code due to code review changes.'
+        name '👌 Updating code due to code review changes'
      end
      entry do
         command ':wheelchair:'
-        name '♿ Improving accessibility.'
+        name '♿ Improving accessibility'
      end
      entry do
         command ':bulb:'
-        name '💡 Documenting source code.'
+        name '💡 Documenting source code'
      end
      entry do
         command ':beers:'
-        name '🍻 Writing code drunkenly.'
+        name '🍻 Writing code drunkenly'
      end
      entry do
         command ':speech_balloon:'
-        name '💬 Updating text and literals.'
+        name '💬 Updating text and literals'
      end
      entry do
         command ':card_file_box:'
-        name '🗃 Performing database related changes.'
+        name '🗃 Performing database related changes'
      end
      entry do
         command ':loud_sound:'
-        name '🔊 Adding logs.'
+        name '🔊 Adding logs'
      end
      entry do
         command ':mute:'
-        name '🔇 Removing logs.'
+        name '🔇 Removing logs'
      end
      entry do
         command ':busts_in_silhouette:'
-        name '👥 Adding contributor(s).'
+        name '👥 Adding contributor(s)'
      end
      entry do
         command ':children_crossing:'
-        name '🚸 Improving user experience / usability.'
+        name '🚸 Improving user experience / usability'
      end
      entry do
         command ':building_construction:'
-        name '🏗 Making architectural changes.'
+        name '🏗 Making architectural changes'
      end
      entry do
         command ':iphone:'
-        name '📱 Working on responsive design.'
+        name '📱 Working on responsive design'
      end
      entry do
         command ':clown_face:'
-        name '🤡 Mocking things.'
+        name '🤡 Mocking things'
      end
      entry do
         command ':egg:'
-        name '🥚 Adding an easter egg.'
+        name '🥚 Adding an easter egg'
      end
      entry do
         command ':see_no_evil:'
