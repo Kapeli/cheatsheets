@@ -26,7 +26,3 @@ Try to use [Title Case](http://en.wikipedia.org/wiki/Letter_case#Title_case) onl
 Try not to include really common keyboard shortcuts (e.g. Copy, Paste, Undo, Select All).
 
 Keyboard modifiers should be listed in this order: `CMD+CTRL+ALT+SHIFT`.
-
-**4. Generating code (if any)**
-
-If your cheatsheet is automatically generated from some net-available source, you can put your (Ruby) code into the `generators` directory, so that it's easy to regenerate it when the source changes.

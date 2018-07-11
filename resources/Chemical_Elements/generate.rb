@@ -1,10 +1,11 @@
-# This tool generates the Table_Of_Elements.rb cheatsheet. To run:
+# This tool generates the Chemical_Elements.rb cheatsheet. To run:
 #
-#  ruby gen_table_of_elements.rb > ../Table_Of_Elements.rb
+#  ruby generate.rb
 #
 # It downloads the periodic table data from Chris Andrejewski's project at
 # https://github.com/andrejewski/periodic-table, and then processes it into
-# a cheat sheet. 
+# a cheat sheet, writing it to Chemical_Elements.rb in the cheatsheets
+# directory.
 #
 # Enjoy,
 # Dan Griscom
@@ -14,11 +15,23 @@ require 'rubygems'
 require 'open-uri'
 require 'csv'
 
-puts <<-HEREDOC
+puts "Working..."
+
+$text = ""
+
+def addText(newText)
+   $text << newText
+end
+
+def addLine(newText)
+    addText newText + "\n"
+end
+
+addText <<-HEREDOC
 cheatsheet do
-  title 'Table of Elements'
-  docset_file_name 'Table_Of_Elements'
-  keyword 'greek'
+  title 'Chemical Elements'
+  docset_file_name 'Chemical_Elements'
+  keyword 'elements'
   source_url 'http://cheat.kapeli.com'
   
   style '
@@ -35,7 +48,7 @@ cheatsheet do
   '
   
   category do
-    id 'Table of Elements'
+    id 'Chemical Elements'
     
     header 'Atomic<br>number'
     header 'Symbol'
@@ -49,27 +62,29 @@ HEREDOC
 
 CSV.new(open('https://raw.githubusercontent.com/andrejewski/periodic-table/master/data.csv'), :headers => :first_row).each do |line|
   name = line[' name'].strip.downcase
-  puts '    entry do'
-  puts "      td_notes '#{line['atomicNumber']}'"
-  puts "      td_notes '#{line[' symbol'].strip}'"
-  puts "      td_notes '[#{name}](https://en.wikipedia.org/wiki/#{name.capitalize})'"
-  puts "      td_notes '#{line[' atomicMass'].strip}'"
+  addLine '    entry do'
+  addLine "      td_notes '#{line['atomicNumber']}'"
+  addLine "      td_notes '#{line[' symbol'].strip}'"
+  addLine "      td_notes '[#{name}](https://en.wikipedia.org/wiki/#{name.capitalize})'"
+  addLine "      td_notes '#{line[' atomicMass'].strip}'"
   if !line[' standardState']
-    puts "      td_notes '(unknown)'"
+    addLine "      td_notes '(unknown)'"
   else
-    puts "      td_notes '#{line[' standardState'].strip}'"
+    addLine "      td_notes '#{line[' standardState'].strip}'"
   end
   if !line['density']
-    puts "      td_notes '(unknown)'"
+    addLine "      td_notes '(unknown)'"
   else
-    puts "      td_notes '#{line['density'].strip}'"
+    addLine "      td_notes '#{line['density'].strip}'"
   end
-  puts "      td_notes '#{line[' yearDiscovered'].strip}'"
-  puts '    end'
-  puts ''
+  addLine "      td_notes '#{line[' yearDiscovered'].strip}'"
+  addLine "      index_name '#{name}'"
+  addLine "      index_name '#{line['atomicNumber']}'"
+  addLine '    end'
+  addLine ''
 end
 
-puts <<-HEREDOC
+addText <<-HEREDOC
   end
     notes "
         * Based on period table data by [Chris Andrejewski](https://github.com/andrejewski/periodic-table)
@@ -79,3 +94,7 @@ puts <<-HEREDOC
 end
 
 HEREDOC
+
+File.write('../../cheatsheets/Chemical_Elements.rb', $text)
+
+puts "Done"
