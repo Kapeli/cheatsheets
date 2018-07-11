@@ -198,10 +198,10 @@ cheatsheet do
       notes <<-'CODE'
         Throw an exception using a built-in keyword:
 
-        * failwith throws a generic System.Exception
-        * invalidArg throws an ArgumentException
-        * nullArg throws a NullArgumentException
-        * invalidOp throws an InvalidOperationException
+        * `failwith` throws a generic `System.Exception`
+        * `invalidArg` throws an `ArgumentException`
+        * `nullArg` throws a `NullArgumentException`
+        * `invalidOp` throws an `InvalidOperationException`
 
         ```fsharp
         let divideFailwith x y =
@@ -210,7 +210,7 @@ cheatsheet do
           else x / y
         ```
 
-        Exception handling is done via `try/with` expressions, using the pattern matching syntax. To catch a specific .Net exception, you have to match with the cast operator `:?`.
+        Exception handling is done via `try/with` expressions, using the pattern matching syntax. To catch a specific .NET exception, you have to match with the cast operator `:?`.
 
         ```fsharp
         let divide x y =
