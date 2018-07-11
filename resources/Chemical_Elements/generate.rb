@@ -36,10 +36,6 @@ cheatsheet do
   
   style '
     td.td_notes {
-      padding: 0px;
-      box-shadow: none;
-      border: none;
-      background: none;
       text-align: center;
     }
     th {
