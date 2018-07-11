@@ -37,7 +37,6 @@ cheatsheet do
       td_notes '0.0000899'
       td_notes '1766'
       index_name 'hydrogen'
-      index_name '1'
     end
 
     entry do
@@ -49,7 +48,6 @@ cheatsheet do
       td_notes '0.0001785'
       td_notes '1868'
       index_name 'helium'
-      index_name '2'
     end
 
     entry do
@@ -61,7 +59,6 @@ cheatsheet do
       td_notes '0.535'
       td_notes '1817'
       index_name 'lithium'
-      index_name '3'
     end
 
     entry do
@@ -73,7 +70,6 @@ cheatsheet do
       td_notes '1.848'
       td_notes '1798'
       index_name 'beryllium'
-      index_name '4'
     end
 
     entry do
@@ -85,7 +81,6 @@ cheatsheet do
       td_notes '2.46'
       td_notes '1807'
       index_name 'boron'
-      index_name '5'
     end
 
     entry do
@@ -97,7 +92,6 @@ cheatsheet do
       td_notes '2.26'
       td_notes 'Ancient'
       index_name 'carbon'
-      index_name '6'
     end
 
     entry do
@@ -109,7 +103,6 @@ cheatsheet do
       td_notes '0.001251'
       td_notes '1772'
       index_name 'nitrogen'
-      index_name '7'
     end
 
     entry do
@@ -121,7 +114,6 @@ cheatsheet do
       td_notes '0.001429'
       td_notes '1774'
       index_name 'oxygen'
-      index_name '8'
     end
 
     entry do
@@ -133,7 +125,6 @@ cheatsheet do
       td_notes '0.001696'
       td_notes '1670'
       index_name 'fluorine'
-      index_name '9'
     end
 
     entry do
@@ -145,7 +136,6 @@ cheatsheet do
       td_notes '0.0009'
       td_notes '1898'
       index_name 'neon'
-      index_name '10'
     end
 
     entry do
@@ -157,7 +147,6 @@ cheatsheet do
       td_notes '0.968'
       td_notes '1807'
       index_name 'sodium'
-      index_name '11'
     end
 
     entry do
@@ -169,7 +158,6 @@ cheatsheet do
       td_notes '1.738'
       td_notes '1808'
       index_name 'magnesium'
-      index_name '12'
     end
 
     entry do
@@ -181,7 +169,6 @@ cheatsheet do
       td_notes '2.7'
       td_notes 'Ancient'
       index_name 'aluminum'
-      index_name '13'
     end
 
     entry do
@@ -193,7 +180,6 @@ cheatsheet do
       td_notes '2.33'
       td_notes '1854'
       index_name 'silicon'
-      index_name '14'
     end
 
     entry do
@@ -205,7 +191,6 @@ cheatsheet do
       td_notes '1.823'
       td_notes '1669'
       index_name 'phosphorus'
-      index_name '15'
     end
 
     entry do
@@ -217,7 +202,6 @@ cheatsheet do
       td_notes '1.96'
       td_notes 'Ancient'
       index_name 'sulfur'
-      index_name '16'
     end
 
     entry do
@@ -229,7 +213,6 @@ cheatsheet do
       td_notes '0.003214'
       td_notes '1774'
       index_name 'chlorine'
-      index_name '17'
     end
 
     entry do
@@ -241,7 +224,6 @@ cheatsheet do
       td_notes '0.001784'
       td_notes '1894'
       index_name 'argon'
-      index_name '18'
     end
 
     entry do
@@ -253,7 +235,6 @@ cheatsheet do
       td_notes '0.856'
       td_notes '1807'
       index_name 'potassium'
-      index_name '19'
     end
 
     entry do
@@ -265,7 +246,6 @@ cheatsheet do
       td_notes '1.55'
       td_notes 'Ancient'
       index_name 'calcium'
-      index_name '20'
     end
 
     entry do
@@ -277,7 +257,6 @@ cheatsheet do
       td_notes '2.985'
       td_notes '1876'
       index_name 'scandium'
-      index_name '21'
     end
 
     entry do
@@ -289,7 +268,6 @@ cheatsheet do
       td_notes '4.507'
       td_notes '1791'
       index_name 'titanium'
-      index_name '22'
     end
 
     entry do
@@ -301,7 +279,6 @@ cheatsheet do
       td_notes '6.11'
       td_notes '1803'
       index_name 'vanadium'
-      index_name '23'
     end
 
     entry do
@@ -313,7 +290,6 @@ cheatsheet do
       td_notes '7.14'
       td_notes 'Ancient'
       index_name 'chromium'
-      index_name '24'
     end
 
     entry do
@@ -325,7 +301,6 @@ cheatsheet do
       td_notes '7.47'
       td_notes '1774'
       index_name 'manganese'
-      index_name '25'
     end
 
     entry do
@@ -337,7 +312,6 @@ cheatsheet do
       td_notes '7.874'
       td_notes 'Ancient'
       index_name 'iron'
-      index_name '26'
     end
 
     entry do
@@ -349,7 +323,6 @@ cheatsheet do
       td_notes '8.9'
       td_notes 'Ancient'
       index_name 'cobalt'
-      index_name '27'
     end
 
     entry do
@@ -361,7 +334,6 @@ cheatsheet do
       td_notes '8.908'
       td_notes '1751'
       index_name 'nickel'
-      index_name '28'
     end
 
     entry do
@@ -373,7 +345,6 @@ cheatsheet do
       td_notes '8.92'
       td_notes 'Ancient'
       index_name 'copper'
-      index_name '29'
     end
 
     entry do
@@ -385,7 +356,6 @@ cheatsheet do
       td_notes '7.14'
       td_notes '1746'
       index_name 'zinc'
-      index_name '30'
     end
 
     entry do
@@ -397,7 +367,6 @@ cheatsheet do
       td_notes '5.904'
       td_notes '1875'
       index_name 'gallium'
-      index_name '31'
     end
 
     entry do
@@ -409,7 +378,6 @@ cheatsheet do
       td_notes '5.323'
       td_notes '1886'
       index_name 'germanium'
-      index_name '32'
     end
 
     entry do
@@ -421,7 +389,6 @@ cheatsheet do
       td_notes '5.727'
       td_notes 'Ancient'
       index_name 'arsenic'
-      index_name '33'
     end
 
     entry do
@@ -433,7 +400,6 @@ cheatsheet do
       td_notes '4.819'
       td_notes '1817'
       index_name 'selenium'
-      index_name '34'
     end
 
     entry do
@@ -445,7 +411,6 @@ cheatsheet do
       td_notes '3.12'
       td_notes '1826'
       index_name 'bromine'
-      index_name '35'
     end
 
     entry do
@@ -457,7 +422,6 @@ cheatsheet do
       td_notes '0.00375'
       td_notes '1898'
       index_name 'krypton'
-      index_name '36'
     end
 
     entry do
@@ -469,7 +433,6 @@ cheatsheet do
       td_notes '1.532'
       td_notes '1861'
       index_name 'rubidium'
-      index_name '37'
     end
 
     entry do
@@ -481,7 +444,6 @@ cheatsheet do
       td_notes '2.63'
       td_notes '1790'
       index_name 'strontium'
-      index_name '38'
     end
 
     entry do
@@ -493,7 +455,6 @@ cheatsheet do
       td_notes '4.472'
       td_notes '1794'
       index_name 'yttrium'
-      index_name '39'
     end
 
     entry do
@@ -505,7 +466,6 @@ cheatsheet do
       td_notes '6.511'
       td_notes '1789'
       index_name 'zirconium'
-      index_name '40'
     end
 
     entry do
@@ -517,7 +477,6 @@ cheatsheet do
       td_notes '8.57'
       td_notes '1801'
       index_name 'niobium'
-      index_name '41'
     end
 
     entry do
@@ -529,7 +488,6 @@ cheatsheet do
       td_notes '10.28'
       td_notes '1778'
       index_name 'molybdenum'
-      index_name '42'
     end
 
     entry do
@@ -541,7 +499,6 @@ cheatsheet do
       td_notes '11.5'
       td_notes '1937'
       index_name 'technetium'
-      index_name '43'
     end
 
     entry do
@@ -553,7 +510,6 @@ cheatsheet do
       td_notes '12.37'
       td_notes '1827'
       index_name 'ruthenium'
-      index_name '44'
     end
 
     entry do
@@ -565,7 +521,6 @@ cheatsheet do
       td_notes '12.45'
       td_notes '1803'
       index_name 'rhodium'
-      index_name '45'
     end
 
     entry do
@@ -577,7 +532,6 @@ cheatsheet do
       td_notes '12.023'
       td_notes '1803'
       index_name 'palladium'
-      index_name '46'
     end
 
     entry do
@@ -589,7 +543,6 @@ cheatsheet do
       td_notes '10.49'
       td_notes 'Ancient'
       index_name 'silver'
-      index_name '47'
     end
 
     entry do
@@ -601,7 +554,6 @@ cheatsheet do
       td_notes '8.65'
       td_notes '1817'
       index_name 'cadmium'
-      index_name '48'
     end
 
     entry do
@@ -613,7 +565,6 @@ cheatsheet do
       td_notes '7.31'
       td_notes '1863'
       index_name 'indium'
-      index_name '49'
     end
 
     entry do
@@ -625,7 +576,6 @@ cheatsheet do
       td_notes '7.31'
       td_notes 'Ancient'
       index_name 'tin'
-      index_name '50'
     end
 
     entry do
@@ -637,7 +587,6 @@ cheatsheet do
       td_notes '6.697'
       td_notes 'Ancient'
       index_name 'antimony'
-      index_name '51'
     end
 
     entry do
@@ -649,7 +598,6 @@ cheatsheet do
       td_notes '6.24'
       td_notes '1782'
       index_name 'tellurium'
-      index_name '52'
     end
 
     entry do
@@ -661,7 +609,6 @@ cheatsheet do
       td_notes '4.94'
       td_notes '1811'
       index_name 'iodine'
-      index_name '53'
     end
 
     entry do
@@ -673,7 +620,6 @@ cheatsheet do
       td_notes '0.0059'
       td_notes '1898'
       index_name 'xenon'
-      index_name '54'
     end
 
     entry do
@@ -685,7 +631,6 @@ cheatsheet do
       td_notes '1.879'
       td_notes '1860'
       index_name 'cesium'
-      index_name '55'
     end
 
     entry do
@@ -697,7 +642,6 @@ cheatsheet do
       td_notes '3.51'
       td_notes '1808'
       index_name 'barium'
-      index_name '56'
     end
 
     entry do
@@ -709,7 +653,6 @@ cheatsheet do
       td_notes '6.146'
       td_notes '1839'
       index_name 'lanthanum'
-      index_name '57'
     end
 
     entry do
@@ -721,7 +664,6 @@ cheatsheet do
       td_notes '6.689'
       td_notes '1803'
       index_name 'cerium'
-      index_name '58'
     end
 
     entry do
@@ -733,7 +675,6 @@ cheatsheet do
       td_notes '6.64'
       td_notes '1885'
       index_name 'praseodymium'
-      index_name '59'
     end
 
     entry do
@@ -745,7 +686,6 @@ cheatsheet do
       td_notes '7.01'
       td_notes '1885'
       index_name 'neodymium'
-      index_name '60'
     end
 
     entry do
@@ -757,7 +697,6 @@ cheatsheet do
       td_notes '7.264'
       td_notes '1947'
       index_name 'promethium'
-      index_name '61'
     end
 
     entry do
@@ -769,7 +708,6 @@ cheatsheet do
       td_notes '7.353'
       td_notes '1853'
       index_name 'samarium'
-      index_name '62'
     end
 
     entry do
@@ -781,7 +719,6 @@ cheatsheet do
       td_notes '5.244'
       td_notes '1901'
       index_name 'europium'
-      index_name '63'
     end
 
     entry do
@@ -793,7 +730,6 @@ cheatsheet do
       td_notes '7.901'
       td_notes '1880'
       index_name 'gadolinium'
-      index_name '64'
     end
 
     entry do
@@ -805,7 +741,6 @@ cheatsheet do
       td_notes '8.219'
       td_notes '1843'
       index_name 'terbium'
-      index_name '65'
     end
 
     entry do
@@ -817,7 +752,6 @@ cheatsheet do
       td_notes '8.551'
       td_notes '1886'
       index_name 'dysprosium'
-      index_name '66'
     end
 
     entry do
@@ -829,7 +763,6 @@ cheatsheet do
       td_notes '8.795'
       td_notes '1878'
       index_name 'holmium'
-      index_name '67'
     end
 
     entry do
@@ -841,7 +774,6 @@ cheatsheet do
       td_notes '9.066'
       td_notes '1842'
       index_name 'erbium'
-      index_name '68'
     end
 
     entry do
@@ -853,7 +785,6 @@ cheatsheet do
       td_notes '9.321'
       td_notes '1879'
       index_name 'thulium'
-      index_name '69'
     end
 
     entry do
@@ -865,7 +796,6 @@ cheatsheet do
       td_notes '6.57'
       td_notes '1878'
       index_name 'ytterbium'
-      index_name '70'
     end
 
     entry do
@@ -877,7 +807,6 @@ cheatsheet do
       td_notes '9.841'
       td_notes '1907'
       index_name 'lutetium'
-      index_name '71'
     end
 
     entry do
@@ -889,7 +818,6 @@ cheatsheet do
       td_notes '13.31'
       td_notes '1923'
       index_name 'hafnium'
-      index_name '72'
     end
 
     entry do
@@ -901,7 +829,6 @@ cheatsheet do
       td_notes '16.65'
       td_notes '1802'
       index_name 'tantalum'
-      index_name '73'
     end
 
     entry do
@@ -913,7 +840,6 @@ cheatsheet do
       td_notes '19.25'
       td_notes '1783'
       index_name 'tungsten'
-      index_name '74'
     end
 
     entry do
@@ -925,7 +851,6 @@ cheatsheet do
       td_notes '21.02'
       td_notes '1925'
       index_name 'rhenium'
-      index_name '75'
     end
 
     entry do
@@ -937,7 +862,6 @@ cheatsheet do
       td_notes '22.61'
       td_notes '1803'
       index_name 'osmium'
-      index_name '76'
     end
 
     entry do
@@ -949,7 +873,6 @@ cheatsheet do
       td_notes '22.65'
       td_notes '1803'
       index_name 'iridium'
-      index_name '77'
     end
 
     entry do
@@ -961,7 +884,6 @@ cheatsheet do
       td_notes '21.09'
       td_notes 'Ancient'
       index_name 'platinum'
-      index_name '78'
     end
 
     entry do
@@ -973,7 +895,6 @@ cheatsheet do
       td_notes '19.3'
       td_notes 'Ancient'
       index_name 'gold'
-      index_name '79'
     end
 
     entry do
@@ -985,7 +906,6 @@ cheatsheet do
       td_notes '13.534'
       td_notes 'Ancient'
       index_name 'mercury'
-      index_name '80'
     end
 
     entry do
@@ -997,7 +917,6 @@ cheatsheet do
       td_notes '11.85'
       td_notes '1861'
       index_name 'thallium'
-      index_name '81'
     end
 
     entry do
@@ -1009,7 +928,6 @@ cheatsheet do
       td_notes '11.34'
       td_notes 'Ancient'
       index_name 'lead'
-      index_name '82'
     end
 
     entry do
@@ -1021,7 +939,6 @@ cheatsheet do
       td_notes '9.78'
       td_notes 'Ancient'
       index_name 'bismuth'
-      index_name '83'
     end
 
     entry do
@@ -1033,7 +950,6 @@ cheatsheet do
       td_notes '9.196'
       td_notes '1898'
       index_name 'polonium'
-      index_name '84'
     end
 
     entry do
@@ -1045,7 +961,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1940'
       index_name 'astatine'
-      index_name '85'
     end
 
     entry do
@@ -1057,7 +972,6 @@ cheatsheet do
       td_notes '0.00973'
       td_notes '1900'
       index_name 'radon'
-      index_name '86'
     end
 
     entry do
@@ -1069,7 +983,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1939'
       index_name 'francium'
-      index_name '87'
     end
 
     entry do
@@ -1081,7 +994,6 @@ cheatsheet do
       td_notes '5'
       td_notes '1898'
       index_name 'radium'
-      index_name '88'
     end
 
     entry do
@@ -1093,7 +1005,6 @@ cheatsheet do
       td_notes '10.07'
       td_notes '1899'
       index_name 'actinium'
-      index_name '89'
     end
 
     entry do
@@ -1105,7 +1016,6 @@ cheatsheet do
       td_notes '11.724'
       td_notes '1828'
       index_name 'thorium'
-      index_name '90'
     end
 
     entry do
@@ -1117,7 +1027,6 @@ cheatsheet do
       td_notes '15.37'
       td_notes '1913'
       index_name 'protactinium'
-      index_name '91'
     end
 
     entry do
@@ -1129,7 +1038,6 @@ cheatsheet do
       td_notes '19.05'
       td_notes '1789'
       index_name 'uranium'
-      index_name '92'
     end
 
     entry do
@@ -1141,7 +1049,6 @@ cheatsheet do
       td_notes '20.45'
       td_notes '1940'
       index_name 'neptunium'
-      index_name '93'
     end
 
     entry do
@@ -1153,7 +1060,6 @@ cheatsheet do
       td_notes '19.816'
       td_notes '1940'
       index_name 'plutonium'
-      index_name '94'
     end
 
     entry do
@@ -1165,7 +1071,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1944'
       index_name 'americium'
-      index_name '95'
     end
 
     entry do
@@ -1177,7 +1082,6 @@ cheatsheet do
       td_notes '13.51'
       td_notes '1944'
       index_name 'curium'
-      index_name '96'
     end
 
     entry do
@@ -1189,7 +1093,6 @@ cheatsheet do
       td_notes '14.78'
       td_notes '1949'
       index_name 'berkelium'
-      index_name '97'
     end
 
     entry do
@@ -1201,7 +1104,6 @@ cheatsheet do
       td_notes '15.1'
       td_notes '1950'
       index_name 'californium'
-      index_name '98'
     end
 
     entry do
@@ -1213,7 +1115,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1952'
       index_name 'einsteinium'
-      index_name '99'
     end
 
     entry do
@@ -1225,7 +1126,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1952'
       index_name 'fermium'
-      index_name '100'
     end
 
     entry do
@@ -1237,7 +1137,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1955'
       index_name 'mendelevium'
-      index_name '101'
     end
 
     entry do
@@ -1249,7 +1148,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1957'
       index_name 'nobelium'
-      index_name '102'
     end
 
     entry do
@@ -1261,7 +1159,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1961'
       index_name 'lawrencium'
-      index_name '103'
     end
 
     entry do
@@ -1273,7 +1170,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1969'
       index_name 'rutherfordium'
-      index_name '104'
     end
 
     entry do
@@ -1285,7 +1181,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1967'
       index_name 'dubnium'
-      index_name '105'
     end
 
     entry do
@@ -1297,7 +1192,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1974'
       index_name 'seaborgium'
-      index_name '106'
     end
 
     entry do
@@ -1309,7 +1203,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1976'
       index_name 'bohrium'
-      index_name '107'
     end
 
     entry do
@@ -1321,7 +1214,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1984'
       index_name 'hassium'
-      index_name '108'
     end
 
     entry do
@@ -1333,7 +1225,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1982'
       index_name 'meitnerium'
-      index_name '109'
     end
 
     entry do
@@ -1345,7 +1236,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1994'
       index_name 'darmstadtium'
-      index_name '110'
     end
 
     entry do
@@ -1357,7 +1247,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1994'
       index_name 'roentgenium'
-      index_name '111'
     end
 
     entry do
@@ -1369,7 +1258,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1996'
       index_name 'copernicium'
-      index_name '112'
     end
 
     entry do
@@ -1381,7 +1269,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '2003'
       index_name 'nihonium'
-      index_name '113'
     end
 
     entry do
@@ -1393,7 +1280,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '1998'
       index_name 'flerovium'
-      index_name '114'
     end
 
     entry do
@@ -1405,7 +1291,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '2003'
       index_name 'moscovium'
-      index_name '115'
     end
 
     entry do
@@ -1417,7 +1302,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '2000'
       index_name 'livermorium'
-      index_name '116'
     end
 
     entry do
@@ -1429,7 +1313,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '2010'
       index_name 'tennessine'
-      index_name '117'
     end
 
     entry do
@@ -1441,7 +1324,6 @@ cheatsheet do
       td_notes '(unknown)'
       td_notes '2002'
       index_name 'oganesson'
-      index_name '118'
     end
 
   end

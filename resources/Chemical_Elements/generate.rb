@@ -79,7 +79,7 @@ CSV.new(open('https://raw.githubusercontent.com/andrejewski/periodic-table/maste
   end
   addLine "      td_notes '#{line[' yearDiscovered'].strip}'"
   addLine "      index_name '#{name}'"
-  addLine "      index_name '#{line['atomicNumber']}'"
+#  addLine "      index_name '#{line['atomicNumber']}'"
   addLine '    end'
   addLine ''
 end
