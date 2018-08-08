@@ -184,6 +184,7 @@ cheatsheet do
     entry do
       command 'PREFIX-"Meta+{1..5}"'
       name 'Arrange panes in one of the five preset layouts: even-horizontal, even-vertical, main-horizontal, main-vertical, or tiled. Meta key defaults to Alt.'
+      notes 'See the Standard Layouts below'
     end
   end
 
@@ -415,6 +416,96 @@ cheatsheet do
     entry do
       command 'PREFIX-:'
       name 'Prompt'
+    end
+  end
+
+  category do
+    id 'Standard Layouts'
+
+    entry do
+      command 'PREFIX-"Meta+1"'
+      notes <<-'END'
+        ```
+        +-------------------+
+        |    |    |    |    |
+        |    |    |    |    |
+        |    |    |    |    |
+        |    |    |    |    |
+        |    |    |    |    |
+        |    |    |    |    |
+        |    |    |    |    |
+        +-------------------+
+        ```
+      END
+    end
+
+    entry do
+      command 'PREFIX-"Meta+2"'
+      notes <<-'END'
+        ```
+        +-------------------+
+        |                   |
+        +-------------------+
+        |                   |
+        +-------------------+
+        |                   |
+        +-------------------+
+        |                   |
+        +-------------------+
+        ```
+      END
+    end
+
+    entry do
+      command 'PREFIX-"Meta+3"'
+      notes <<-'END'
+        ```
+        +-------------------+
+        |                   |
+        |                   |
+        |                   |
+        |                   |
+        +------+------+-----+
+        |      |      |     |
+        |      |      |     |
+        +------+------+-----+
+        ```
+      END
+    end
+
+    entry do
+      command 'PREFIX-"Meta+4"'
+      notes <<-'END'
+        ```
+        +-------------+-----+
+        |             |     |
+        |             |     |
+        |             +-----+
+        |             |     |
+        |             |     |
+        |             +-----+
+        |             |     |
+        |             |     |
+        +-------------+-----+
+        ```
+      END
+    end
+
+    entry do
+      command 'PREFIX-"Meta+5"'
+      notes <<-'END'
+        ```
+        +---------+---------+
+        |         |         |
+        |         |         |
+        |         |         |
+        +---------+---------+
+        |         |         |
+        |         |         |
+        |         |         |
+        +---------+---------+
+        ```
+      END
     end
   end
 end
