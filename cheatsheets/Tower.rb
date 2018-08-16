@@ -24,11 +24,11 @@ cheatsheet do
       name 'Open external **diff tool** for current view'
     end
     entry do
-      command 'CTRL+CTRL+0'
+      command 'CMD+CTRL+0'
       name 'Show **Activity** window'
     end
     entry do
-      command 'CTRL+CTRL+F'
+      command 'CMD+CTRL+F'
       name 'Full screen mode'
     end
     entry do
