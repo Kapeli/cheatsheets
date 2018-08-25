@@ -23,6 +23,14 @@ cheatsheet do
       name 'Move focus to next editor'
     end
     entry do
+      command 'CMD+SHIFT+{`'
+      name 'Select previous tab'
+    end
+    entry do
+      command 'CMD+SHIFT+}`'
+      name 'Select next tab'
+    end
+    entry do
       command 'CMD+CTRL+Arrow Up'
       name 'Next counterpart'
     end
