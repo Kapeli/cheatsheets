@@ -23,6 +23,7 @@ cheatsheet do
                  }
                  script.parentElement.parentElement.style.backgroundColor = \"#\"+code;
                  script.parentElement.parentElement.style.width = \"50px\";
+                 script.parentElement.parentElement.className = \"dash-ignore-dark-mode\";
               </script>"
     end
   end
