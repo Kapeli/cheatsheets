@@ -10,6 +10,16 @@ cheatsheet do
     id 'API Levels'
 
     entry do
+      command '28'
+      name '9.0.0'
+      notes 'Pie'
+    end
+    entry do
+      command '27'
+      name '8.1.0'
+      notes 'Oreo'
+    end
+    entry do
       command '26'
       name '8.0.0'
       notes 'Oreo'
