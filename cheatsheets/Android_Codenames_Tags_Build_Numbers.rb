@@ -11,7 +11,7 @@ cheatsheet do
 
     entry do
       command '28'
-      name '9.0.0'
+      name '9'
       notes 'Pie'
     end
     entry do
