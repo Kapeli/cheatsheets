@@ -808,47 +808,48 @@ cheatsheet do
       name 'Tab bar icon labels'
       index_name 'iPhone X/XS/XS Max Tab Bar Icon Labels'
     end
+  end
 
-    category do
-      id 'Default Font Sizes iPhone XR'
-      header 'Label Type'
-      header 'Default Font Size'
-      header 'Default Font Weight'
-  
-      entry do
-        td_notes '34 px'
-        td_notes 'Medium'
-        name 'Navigation bar title'
-        index_name 'iPhone XR Navigation Bar Title'
-      end
-  
-      entry do
-        td_notes '34 px'
-        td_notes 'Light'
-        name 'Regular buttons'
-        index_name 'iPhone XR Regular Buttons'
-      end
-  
-      entry do
-        td_notes '34 px'
-        td_notes 'Light'
-        name 'Table header'
-        index_name 'iPhone XR Table Header'
-      end
-  
-      entry do
-        td_notes '28 px'
-        td_notes 'Regular'
-        name 'Table label'
-        index_name 'iPhone XR Table Label'
-      end
-  
-      entry do
-        td_notes '20 px'
-        td_notes 'Regular'
-        name 'Tab bar icon labels'
-        index_name 'iPhone XR Tab Bar Icon Labels'
-      end
+  category do
+    id 'Default Font Sizes iPhone XR'
+    header 'Label Type'
+    header 'Default Font Size'
+    header 'Default Font Weight'
+
+    entry do
+      td_notes '34 px'
+      td_notes 'Medium'
+      name 'Navigation bar title'
+      index_name 'iPhone XR Navigation Bar Title'
+    end
+
+    entry do
+      td_notes '34 px'
+      td_notes 'Light'
+      name 'Regular buttons'
+      index_name 'iPhone XR Regular Buttons'
+    end
+
+    entry do
+      td_notes '34 px'
+      td_notes 'Light'
+      name 'Table header'
+      index_name 'iPhone XR Table Header'
+    end
+
+    entry do
+      td_notes '28 px'
+      td_notes 'Regular'
+      name 'Table label'
+      index_name 'iPhone XR Table Label'
+    end
+
+    entry do
+      td_notes '20 px'
+      td_notes 'Regular'
+      name 'Tab bar icon labels'
+      index_name 'iPhone XR Tab Bar Icon Labels'
+    end
 
   end
 
