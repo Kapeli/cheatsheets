@@ -1,86 +1,13 @@
 require 'yaml'
 require 'fileutils'
 
-class Icon
-  attr_reader :name, :id, :unicode, :created, :categories, :aliases
-
-  def initialize(options={})
-    @name       = options['name']
-    @id         = options['id']
-    @unicode    = options['unicode']
-    @created    = options['created']
-    @categories = options['categories']
-    @aliases    = options['aliases'] || []
-  end
-end
-
-class Category
-  attr_reader :name, :icons
-
-  def initialize(name)
-    @name = name
-
-    @icons = []
-  end
-
-  def add(icon)
-    @icons << icon
-  end
-
-  class << self
-    def find(category_name)
-      @categories[category_name]
-    end
-
-    def import(icons)
-      @categories = {}
-
-      icons.each do |icon|
-        icon.categories.each do |category_name|
-          if @categories[category_name].nil?
-            @categories[category_name] = Category.new(category_name)
-          end
-
-          @categories[category_name].add icon
-        end
-      end
-
-      @categories
-    end
-  end
-end
-
-# path to resources
-RES_DIR = File.expand_path("../resources/Font_Awesome", File.dirname(__FILE__))
-
-# checkout dir of Font-Awesome official repository
-FA_SRC_DIR = File.join(RES_DIR, "Font-Awesome")
-
-# path to store assets
-ASSETS_DIR = File.join(RES_DIR, "assets")
-
-config = YAML.load_file File.join(FA_SRC_DIR, "_config.yml")
-icons = (YAML.load_file File.join(FA_SRC_DIR, config['icon_meta']))['icons']
-          .map { |icon| Icon.new(icon) }
-
-fontawesome = config['fontawesome']
-
-Category.import(icons)
-
-# Copy Assets to assets/
-FileUtils.cp File.join(FA_SRC_DIR, 'css', 'font-awesome.css'), File.join(ASSETS_DIR, 'css/')
-FileUtils.cp File.join(FA_SRC_DIR, 'fonts', 'fontawesome-webfont.woff'), File.join(ASSETS_DIR, 'fonts/')
-
 cheatsheet do
   title 'Keybase.io'
   docset_file_name 'Keybase.io'
   keyword 'keybase'
-  resources ASSETS_DIR
   source_url 'http://cheat.kapeli.com'
   
   style <<-EOS
-    @import 'assets/css/font-awesome.css';
-
     td.command {
       text-align: right;
       vertical-align:middle;
@@ -165,7 +92,7 @@ cheatsheet do
       ```terminal
       keybase prove twitter
       ```
-      <i class=\'fa fa-twitter fa-2x fa-fw\'></i> Prove you own a [Twitter](https://twitter.com) account.'
+      Prove you own a [Twitter](https://twitter.com) account.'
     end
 
     entry do
@@ -175,7 +102,7 @@ cheatsheet do
       ```terminal
       keybase prove github
       ```
-      <i class=\'fa fa-github fa-2x fa-fw\'></i> Prove you own a [GitHub](https://github.com) account.'
+      Prove you own a [GitHub](https://github.com) account.'
     end
 
     entry do
@@ -185,7 +112,7 @@ cheatsheet do
       ```terminal
       keybase prove reddit
       ```
-      <i class=\'fa fa-reddit fa-2x fa-fw\'></i> Prove you own a [Reddit](https://reddit.com) account.'
+      Prove you own a [Reddit](https://reddit.com) account.'
     end
 
     entry do
@@ -205,7 +132,7 @@ cheatsheet do
       ```terminal
       keybase prove hackernews
       ```
-      <i class=\'fa fa-hacker-news fa-2x fa-fw\'></i> Prove you own a [YCombinator - Hacker News](https://news.ycombinator.com/) account.'
+      Prove you own a [YCombinator - Hacker News](https://news.ycombinator.com/) account.'
     end
 
     entry do
@@ -215,7 +142,7 @@ cheatsheet do
       ```terminal
       keybase prove web you.com
       ```
-      <i class=\'fa fa-download fa-2x fa-fw\'></i> Prove you own the domain/website you are claiming via HTTP.'
+      Prove you own the domain/website you are claiming via HTTP.'
     end
 
     entry do
@@ -225,7 +152,7 @@ cheatsheet do
       ```terminal
       keybase prove dns you.com
       ```
-      <i class=\'fa fa-globe fa-2x fa-fw\'></i> Prove you own the domain/website you are claiming via DNS.'
+      Prove you own the domain/website you are claiming via DNS.'
     end
   end
 
@@ -307,7 +234,7 @@ cheatsheet do
       ```terminal
       keybase btc <bitcoin>
       ```
-      <i class=\'fa fa-bitcoin fa-2x fa-fw\'></i> Sign and set the [Bitcoin](https://bitcoin.org/en/) address on your profile.'
+      Sign and set the [Bitcoin](https://bitcoin.org/en/) address on your profile.'
     end
   end
 
