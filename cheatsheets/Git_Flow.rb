@@ -97,6 +97,50 @@ cheatsheet do
   end
 
   category do
+    id 'Bugfixes'
+
+    entry do
+      name 'Start a new bugfix'
+      notes "
+      ```
+      git flow bugfix start <bugfix_name>
+      ```"
+    end
+
+    entry do
+      name 'Finish up a bugfix'
+      notes "
+      ```
+      git flow bugfix finish <bugfix_name>
+      ```"
+    end
+
+    entry do
+      name 'Publish a bugfix'
+      notes "
+      ```
+      git flow bugfix publish <bugfix_name>
+      ```"
+    end
+
+    entry do
+      name 'Get a published bugfix'
+      notes "
+      ```
+      git flow bugfix pull origin <bugfix_name>
+      ```"
+    end
+
+    entry do
+      name 'Track a bugfix on origin'
+      notes "
+      ```
+      git flow bugfix track <bugfix_name>
+      ```"
+    end
+  end
+  
+  category do
     id 'Hotfixes'
 
     entry do
