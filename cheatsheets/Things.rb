@@ -38,7 +38,7 @@ cheatsheet do
     end
     entry do
       command 'CTRL+ALT+Space'
-      name 'Open Quick Entry with Autofill'
+      name 'Open Quick Entry with autofill'
     end
   end
 
