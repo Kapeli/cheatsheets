@@ -120,27 +120,27 @@ cheatsheet do
     id 'Move items'
 
     entry do
-      command 'CMD+SHIFT+M	'
+      command 'CMD+SHIFT+M'
       name 'Move selection to another list'
     end
     entry do
-      command 'CMD+ALT+V	'
+      command 'CMD+ALT+V'
       name 'Move copied to-dos and projects'
     end
     entry do
-      command 'CMD+Arrow Up	'
+      command 'CMD+Arrow Up'
       name 'Move selection up'
     end
     entry do
-      command 'CMD+Arrow Down	'
+      command 'CMD+Arrow Down'
       name 'Move selection down'
     end
     entry do
-      command 'CMD+ALT+Arrow Up	'
+      command 'CMD+ALT+Arrow Up'
       name 'Move selection to top of list'
     end
     entry do
-      command 'CMD+ALT+Arrow Down	'
+      command 'CMD+ALT+Arrow Down'
       name 'Move selection to bottom of list'
     end
   end
