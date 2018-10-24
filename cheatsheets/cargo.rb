@@ -10,39 +10,43 @@ cheatsheet do
         id 'Usage'
         entry do
           command '--version'
-          name ''
+          name 'Shows version information, hash and date'
         end
         entry do
             command '--list'
-            name ''
+            name 'Lists all available commands'
         end
         entry do
             command '--verbose'
-            name ''
+            name 'Enable verbose output. Shorthand -v and -vv very verbose output'
         end
         entry do
             command '--quiet'
-            name ''
+            name 'Disable output on STDOUT'
         end
         entry do
             command '--color WHEN'
-            name ''
+            name 'Enable colours, auto, always or never'
         end
         entry do
             command '--help'
-            name ''
+            name 'Shows help message'
         end
         entry do
             command '--locked'
-            name ''
+            name 'Require Cargo.lock is up to date'
         end
         entry do
-            command '-Z'
-            name ''
+            command '--frozen'
+            name 'Require Cargo.lock and cache are up to date is up to date'
+        end
+        entry do
+            command '-Z FLAG'
+            name 'Unstable (nightly-only) flags to Cargo, see "cargo -Z help" for details for further information on unstable flags'
         end
         entry do
             command '--explain CODE'
-            name ''
+            name 'Executes `rustc --explain CODE`'
         end
     end
 
@@ -78,23 +82,15 @@ cheatsheet do
         end
             entry do
             command 'bench'
-            name ''
-        end
-        entry do
-            command 'bench'
-            name ''
+            name 'Executes benchmark of project, requires tests'
         end
         entry do
             command 'check'
-            name ''
+            name 'Analyze the current project and report possible errors, but does not build object files'
         end
         entry do
             command 'test'
-            name ''
-        end
-        entry do
-            command 'bench'
-            name ''
+            name 'Executes project tests, requires tests'
         end
         entry do
             command 'clean'
@@ -126,10 +122,9 @@ cheatsheet do
         id 'Maintain a Rust crate'
         entry do
             command 'publish'
-            name ''
+            name 'Package and upload this project to the registry'
         end
     end
-
 
     notes 'For more information on `cargo` see the [official documentation](https://doc.rust-lang.org/stable/cargo/)'
   end
