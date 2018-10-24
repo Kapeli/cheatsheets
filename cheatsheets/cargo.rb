@@ -99,7 +99,7 @@ cheatsheet do
     end
 
     category do
-        id 'Maintain a Rust crate'
+        id 'Maintain a Rust project'
         entry do
             command 'search'
             name 'search from crates'
