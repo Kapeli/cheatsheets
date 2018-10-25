@@ -162,50 +162,38 @@ END
         end
         entry do
             command 'CARGO_TARGET_DIR'
-            name ''
+            name 'Location of where to place all generated artifacts, relative to the current working directory.'
         end
         entry do
             command 'RUSTC'
-            name ''
+            name 'Instead of running rustc, Cargo will execute this specified compiler instead.'
         end
         entry do
             command 'RUSTC_WRAPPER'
-            name ''
+            name 'Instead of simply running rustc, Cargo will execute this specified wrapper instead, passing as its commandline arguments the rustc invocation, with the first argument being rustc.'
         end
         entry do
             command 'RUSTDOC'
-            name ''
+            name 'Instead of running rustdoc, Cargo will execute this specified rustdoc instance instead.'
         end
         entry do
             command 'RUSTDOCFLAGS'
-            name ''
+            name 'A space-separated list of custom flags to pass to all rustdoc invocations that Cargo performs. In contrast with cargo rustdoc, this is useful for passing a flag to all rustdoc instances.'
         end
         entry do
             command 'RUSTFLAGS'
-            name ''
+            name 'A space-separated list of custom flags to pass to all compiler invocations that Cargo performs. In contrast with cargo rustc, this is useful for passing a flag to all compiler instances.'
         end
         entry do
             command 'CARGO_INCREMENTAL'
-            name ''
+            name 'If this is set to 1 then Cargo will force incremental compilation to be enabled for the current compilation, and when set to 0 it will force disabling it. If this env var isn't present then cargo's defaults will otherwise be used.'
         end
         entry do
             command 'CARGO_CACHE_RUSTC_INFO'
-            name ''
+            name 'If this is set to 0 then Cargo will not try to cache compiler version information.'
         end
 
     end
-
-
-    CARGO_HOME — Cargo maintains a local cache of the registry index and of git checkouts of crates. By default these are stored under $HOME/.cargo, but this variable overrides the location of this directory. Once a crate is cached it is not removed by the clean command.
-    CARGO_TARGET_DIR — Location of where to place all generated artifacts, relative to the current working directory.
-    RUSTC — Instead of running rustc, Cargo will execute this specified compiler instead.
-    RUSTC_WRAPPER — Instead of simply running rustc, Cargo will execute this specified wrapper instead, passing as its commandline arguments the rustc invocation, with the first argument being rustc.
-    RUSTDOC — Instead of running rustdoc, Cargo will execute this specified rustdoc instance instead.
-    RUSTDOCFLAGS — A space-separated list of custom flags to pass to all rustdoc invocations that Cargo performs. In contrast with cargo rustdoc, this is useful for passing a flag to all rustdoc instances.
-    RUSTFLAGS — A space-separated list of custom flags to pass to all compiler invocations that Cargo performs. In contrast with cargo rustc, this is useful for passing a flag to all compiler instances.
-    CARGO_INCREMENTAL — If this is set to 1 then Cargo will force incremental compilation to be enabled for the current compilation, and when set to 0 it will force disabling it. If this env var isn't present then cargo's defaults will otherwise be used.
-    CARGO_CACHE_RUSTC_INFO — If this is set to 0 then Cargo will not try to cache compiler version information.
-
 
     notes<<-'END'
         - For more information on Cargo see the [official documentation](https://doc.rust-lang.org/stable/cargo/)
