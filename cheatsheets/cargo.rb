@@ -192,12 +192,12 @@ END
             command 'CARGO_CACHE_RUSTC_INFO'
             name 'If set to 0 then Cargo will not attempt to cache compiler version information.'
         end
-
     end
 
-    notes<<-'END'
-        - For more information on Cargo see the [official documentation](https://doc.rust-lang.org/stable/cargo/)
-        - For more information on the Cargo environment variables see the [official documentation](https://doc.rust-lang.org/stable/cargo/reference/environment-variables.html)
-        - For access to the Cargo source code, visit [the repository on GitHub](https://github.com/rust-lang/cargo/)
-END
-  end
+    notes <<-'END'
+        * For more information on Cargo see the [official documentation](https://doc.rust-lang.org/stable/cargo/)
+        * For more information on the Cargo environment variables see the [official documentation](https://doc.rust-lang.org/stable/cargo/reference/environment-variables.html)
+        * For access to the Cargo source code, visit [the repository on GitHub](https://github.com/rust-lang/cargo/)
+    END
+
+end
