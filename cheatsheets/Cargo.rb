@@ -1,13 +1,14 @@
 cheatsheet do
-    title 'cargo'
-    docset_file_name 'cargo'
+    title 'Cargo'
+    docset_file_name 'Cargo'
     keyword 'cargo'
-    source_url 'https://doc.rust-lang.org/stable/cargo/'
+    source_url 'http://cheat.kapeli.com'
 
     introduction <<-'END'
-    Handy cheatsheet for Rust package manager Cargo (`cargo`)
+    Handy cheat sheet for Rust package manager Cargo (`cargo`)
 
-    Based on Cargo version
+    Based on Cargo version:
+
     ```bash
     $ cargo --version
     cargo 1.29.0 (524a578d7 2018-08-05)
@@ -59,7 +60,7 @@ END
     end
 
     category do
-      id 'Start a Rust project'
+      id 'Start a Rust Project'
       entry do
         command 'new --bin APPLICATIONNAME'
         name 'Create new application/executable based project'
@@ -79,7 +80,7 @@ END
     end
 
     category do
-        id 'Build a Rust project'
+        id 'Build a Rust Project'
         entry do
             command 'build'
             name 'Build a Rust project'
@@ -115,31 +116,31 @@ END
     end
 
     category do
-        id 'Maintain a Rust project'
+        id 'Maintain a Rust Project'
         entry do
             command 'search'
-            name 'search for crates'
+            name 'Search for crates'
         end
         entry do
             command 'install'
-            name 'install a Rust binary'
+            name 'Install a Rust binary'
         end
         entry do
             command 'install CREATENAME'
-            name 'install a named crate, see search above'
+            name 'Install a named crate, see search above'
         end
         entry do
             command 'fetch --list'
-            name 'lists installed crates'
+            name 'Lists installed crates'
         end
         entry do
             command 'install --list'
-            name 'lists installed crates'
+            name 'Lists installed crates'
         end
     end
 
     category do
-        id 'Maintain a Rust crate'
+        id 'Maintain a Rust Crate'
         entry do
             command 'package'
             name 'Package this project into a distributable tarball'
@@ -158,7 +159,7 @@ END
         id 'Environment Variables'
         entry do
             command 'CARGO_HOME'
-            name 'Cargo maintains a local cache of the registry index and of git checkouts of crates. By default these are stored under $HOME/.cargo, this variable overrides the location of this directory. Once a crate is cached it will not removed by the clean command'
+            name 'Cargo maintains a local cache of the registry index and of git checkouts of crates. By default these are stored under `$HOME/.cargo`, this variable overrides the location of this directory. Once a crate is cached it will not removed by the clean command'
         end
         entry do
             command 'CARGO_TARGET_DIR'

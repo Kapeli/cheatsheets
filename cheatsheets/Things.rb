@@ -3,6 +3,7 @@
 cheatsheet do
   title 'Things'               # Will be displayed by Dash in the docset list
   docset_file_name 'Things'    # Used for the filename of the docset
+  source_url 'http://cheat.kapeli.com'
   keyword 'things'             # Used as the initial search keyword (listed in Preferences > Docsets)
 
   category do
