@@ -42,122 +42,264 @@ cheatsheet do
     end
 
     category do
-        id 'Working With Distribution'
+        id 'Working With a Distribution'
 
         entry do
             command 'new'
             name 'Set up a new distribution'
-            notes <<-'END'
-            -p STR --profile STR   name of the profile to use
-            -P STR --provider STR  name of the profile provider to use
-            END
         end
+        entry do
+            command '-p STR --profile STR'
+            name 'Name of the profile to use'
+        end
+        entry do
+            command '-P STR --provider STR'
+            name 'Name of the profile provider to use'
+        end
+
         entry do
             command 'build'
             name 'Clean out the build'
-            notes <<-'END'
-            --trial   build a trial release that PAUSE will not index
-            --tgz     build a tarball (default behavior)
-            --in STR  the directory in which to build the distribution
-            END
         end
+        entry do
+            command '--trial'
+            name 'Build a trial release that PAUSE will not index'
+        end
+        entry do
+            command '--tgz'
+            name 'build a tarball (default behavior)'
+        end
+        entry do
+            command '--in STR'
+            name 'The directory in which to build the distribution'
+        end
+
         entry do
             command 'clean'
             name 'Clean out the build'
-            notes <<-'END'
-            -n --dry-run  do not remove anything, just show what would be done
-            END
         end
         entry do
-            command 'test'
-            name 'Clean out the build'
-            notes <<-'END'
-            --release                enables the RELEASE_TESTING env variable
-            --automated              enables the AUTOMATED_TESTING env variable
-            --extended               enables the EXTENDED_TESTING env variable
-            --author                 enables the AUTHOR_TESTING env variable
-                                     (default behavior)
-            --all                    enables the RELEASE_TESTING,
-                                     AUTOMATED_TESTING, EXTENDED_TESTING and
-                                     AUTHOR_TESTING env variables
-            --keep --keep-build-dir  keep the build directory even after a success
-            -j INT --jobs INT        number of parallel test jobs to run
-            --test-verbose           enables verbose testing (TEST_VERBOSE env
-                                     variable on Makefile.PL, --verbose on
-                                     Build.PL
-            END
-        end
-        entry do
-            command 'xtest'
-            name 'Clean out the build'
-            notes <<-'END'
-            --author           enables the AUTHOR_TESTING env variable (default behavior)
-            --release          enables the RELEASE_TESTING env variable (default behavior)
-            --automated        enables the AUTOMATED_TESTING env variable
-            --all              enables the RELEASE_TESTING, AUTOMATED_TESTING and AUTHOR_TESTING env variables
-            -j INT --jobs INT  number of parallel test jobs to run
-            END
-        end
-        entry do
-            command 'smoke'
-            name 'Clean out the build'
-            notes <<-'END'
-            --release    enables the RELEASE_TESTING env variable
-            --automated  enables the AUTOMATED_TESTING env variable (default
-                         behavior)
-            --author     enables the AUTHOR_TESTING env variable
-            END
-        end
-        entry do
-            command 'install'
-            name 'Install the distribution'
-            notes <<-'END'
-            --install-command STR    command to run to install (e.g. "cpan .")
-            --keep --keep-build-dir  keep the build directory even after a success
-            END
+            command '-n --dry-run'
+            name 'Do not remove anything, just show what would be done'
         end
     end
 
     category do
-        id 'Working With Dependencies'
+        id 'test'
+
+        entry do
+            command 'test'
+            name 'Clean out the build'
+        end
+        entry do
+            command '--release'
+            name 'Enables the `RELEASE_TESTING` environment variable'
+        end
+        entry do
+            command '--automated'
+            name 'Enables the `AUTOMATED_TESTING` environment variable'
+        end
+        entry do
+            command '--extended'
+            name 'Enables the `EXTENDED_TESTING` environment variable'
+        end
+        entry do
+            command '--author'
+            name 'Enables the `AUTHOR_TESTING` environment variable (default behavior)'
+        end
+        entry do
+            command '--all'
+            name 'Enables the `RELEASE_TESTING`, `AUTOMATED_TESTING`, `EXTENDED_TESTING` and `AUTHOR_TESTING` environment variables'
+        end
+        entry do
+            command '--keep --keep-build-dir'
+            name 'Keep the build directory even after a success'
+        end
+        entry do
+            command '-j INT --jobs INT'
+            name 'Number of parallel test jobs to run'
+        end
+        entry do
+            command '--test-verbose'
+            name 'Enables verbose testing (`TEST_VERBOSE` environment variable on `Makefile.PL`, `--verbose` on `Build.PL`'
+        end
+    end
+
+    category do
+        id 'xtest'
+
+        entry do
+            command 'xtest'
+            name 'Clean out the build'
+        end
+        entry do
+            command '--author'
+            name 'Enables the `AUTHOR_TESTING` environment variable (default behavior)'
+        end
+        entry do
+            command '--release'
+            name 'enables the `RELEASE_TESTING` environment variable (default behavior)'
+        end
+        entry do
+            command '--automated'
+            name 'Enables the `AUTOMATED_TESTING` environment variable'
+        end
+        entry do
+            command '--all'
+            name 'Enables the `RELEASE_TESTING`, `AUTOMATED_TESTING` and `AUTHOR_TESTING` environment variables'
+        end
+        entry do
+            command '-j INT --jobs INT'
+            name 'Number of parallel test jobs to run'
+        end
+    end
+
+    category do
+        id 'smoke'
+
+        entry do
+            command 'smoke'
+            name 'Clean out the build'
+        end
+
+        entry do
+            command '--release'
+            name 'Enables the `RELEASE_TESTING` environment variable'
+        end
+
+        entry do
+            command '--automated'
+            name 'Enables the `AUTOMATED_TESTING` environment variable (default behavior)'
+        end
+
+        entry do
+            command '--author'
+            name 'Enables the `AUTHOR_TESTING` environment variable'
+        end
+    end
+
+    category do
+        id 'install'
+
+        entry do
+            command 'install'
+            name 'Install the distribution'
+        end
+
+        entry do
+            command '--install-command STR'
+            name 'Command to run to install (e.g. `cpan .`)'
+        end
+
+        entry do
+            command '--keep --keep-build-dir'
+            name 'Keep the build directory even after a success'
+        end
+    end
+
+    category do
+        id 'add'
+
+        entry do
+            notes <<-'END'
+            Adds a new module to an existing distribution
+            END
+        end
 
         entry do
             command 'add'
             name 'Adds a new module to an existing distribution'
-            notes <<-'END'
-            -p STR --profile STR   name of the profile to use
-            -P STR --provider STR  name of the profile provider to use
-            END
         end
         entry do
-            command 'listdeps'
-            name 'Lists dependencies, can be piped to CPAN client for installation'
-            notes <<-'END'
-            --author --develop  include author/develop dependencies
-            --missing           list only the missing dependencies
-            --requires          list the required dependencies
-            --recommends        list the recommended dependencies
-            --suggests          list the suggested dependencies
-            --versions          include required version numbers in listing
-            --cpanm-versions    format versions for consumption by cpanm
-            --json              list dependencies by phase, in JSON format
-            --omit-core STR     Omit dependencies that are shipped with the
-                                specified version of perl
-            END
+            command '-p STR --profile STR'
+            name 'Name of the profile to use'
         end
         entry do
-            command 'authordeps'
-            name 'Lists author dependencies'
-            notes <<-'END'
-            --root STR  the root of the distribution; defaults to . (current directory)
-            --missing   list only the missing dependencies
-            --versions  include required version numbers in listing
-            END
+            command '-P STR --provider STR'
+            name 'Name of the profile provider to use'
         end
     end
 
     category do
-        id 'Diverse'
+        id 'listdeps'
+
+        entry do
+            notes <<-'END'
+            Working With Dependencies
+            END
+        end
+
+        entry do
+            command 'listdeps'
+            name 'Lists dependencies, can be piped to CPAN client for installation'
+        end
+        entry do
+            command '--author / --develop'
+            name 'Include author/develop dependencies'
+        end
+        entry do
+            command '--missing'
+            name 'List only the missing dependencies'
+        end
+        entry do
+            command '--requires'
+            name 'List the required dependencies'
+        end
+        entry do
+            command '--recommends'
+            name 'List the recommended dependencies'
+        end
+        entry do
+            command '--suggests'
+            name 'List the suggested dependencies'
+        end
+        entry do
+            command '--versions'
+            name 'Include required version numbers in the listing'
+        end
+        entry do
+            command '--cpanm-versions'
+            name 'format versions for consumption by `cpanm`'
+        end
+        entry do
+            command '--json'
+            name 'List dependencies by phase (build, develop, runtime, test) in JSON format'
+        end
+        entry do
+            command '--omit-core STR'
+            name 'Omit dependencies that are shipped with the specified version of Perl'
+        end
+    end
+
+    category do
+        id 'authordeps'
+
+        entry do
+            notes <<-'END'
+            Working with dependencies for Dist::Zilla
+            END
+        end
+
+        entry do
+            command 'authordeps'
+            name 'Lists author dependencies'
+        end
+        entry do
+            command '--root STR'
+            name 'The root of the distribution; defaults to current directory'
+        end
+        entry do
+            command '--missing'
+            name 'List only the missing dependencies'
+        end
+        entry do
+            command '--versions'
+            name 'Include required version numbers in listing'
+        end
+    end
+
+    category do
+        id 'Miscellaneous '
 
         entry do
             command 'run'
@@ -165,7 +307,7 @@ cheatsheet do
         end
         entry do
             command 'setup'
-            name 'Set up a basic global config file through a basic interactive proces in $HOME/.dzil/config.ini'
+            name 'Set up a basic global config file through a basic interactive proces in `$HOME/.dzil/config.ini`'
         end
         entry do
             command 'nop'
@@ -178,18 +320,22 @@ cheatsheet do
 
         entry do
             command 'RELEASE_TESTING'
-            name 'See also: smoke --release'
+            name 'See also: `smoke --release`'
         end
         entry do
             command 'AUTOMATED_TESTING'
-            name 'See also: smoke --automated'
+            name 'See also: `smoke --automated`'
         end
         entry do
             command 'AUTHOR_TESTING'
-            name 'See also: smoke --author'
+            name 'See also: `smoke --author`'
         end
     end
 
-    notes 'This cheatsheet is based on Dist::Zilla 6.009'
+    notes <<-'END'
+    This cheatsheet is based on Dist::Zilla 6.009
+    Visit http://dzil.org for more information.
+    See also the Dist::Zilla distribution documentation on [MetaCPAN](https://metacpan.org/pod/Dist::Zilla)
+    END
 
 end
