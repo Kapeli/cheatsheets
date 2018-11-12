@@ -138,7 +138,7 @@ cheatsheet do
         end
         entry do
             command '--release'
-            name 'enables the `RELEASE_TESTING` environment variable (default behavior)'
+            name 'Enables the `RELEASE_TESTING` environment variable (default behavior)'
         end
         entry do
             command '--automated'
