@@ -2,7 +2,7 @@ cheatsheet do
     title 'dzil'
     docset_file_name 'dzil'
     keyword 'dzil'
-    source_url 'http://dzil.org'
+    source_url 'http://cheat.kapeli.com'
 
     category do
         id 'Usage'
@@ -383,8 +383,10 @@ cheatsheet do
     end
 
     notes <<-'END'
-    This cheatsheet is based on Dist::Zilla 6.009
+    This cheatsheet is based on Dist::Zilla 6.009.
+
     Visit http://dzil.org for more information.
+    
     See also the Dist::Zilla distribution documentation on [MetaCPAN](https://metacpan.org/pod/Dist::Zilla)
     END
 
