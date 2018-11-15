@@ -42,7 +42,13 @@ cheatsheet do
     end
 
     category do
-        id 'Working With a Distribution'
+        id 'new'
+
+        entry do
+            notes <<-'END'
+            Set up a new distribution
+            END
+        end
 
         entry do
             command 'new'
@@ -56,10 +62,20 @@ cheatsheet do
             command '-P STR --provider STR'
             name 'Name of the profile provider to use'
         end
+    end
+
+    category do
+        id 'build'
+
+        entry do
+            notes <<-'END'
+            Build the distribution
+            END
+        end
 
         entry do
             command 'build'
-            name 'Clean out the build'
+            name 'Build the distribution'
         end
         entry do
             command '--trial'
@@ -72,6 +88,16 @@ cheatsheet do
         entry do
             command '--in STR'
             name 'The directory in which to build the distribution'
+        end
+    end
+
+    category do
+        id 'clean'
+
+        entry do
+            notes <<-'END'
+            Clean the build for the distribution
+            END
         end
 
         entry do
@@ -88,8 +114,14 @@ cheatsheet do
         id 'test'
 
         entry do
+            notes <<-'END'
+            Run the test suite for the distribution
+            END
+        end
+
+        entry do
             command 'test'
-            name 'Clean out the build'
+            name 'Test the distribution'
         end
         entry do
             command '--release'
@@ -129,8 +161,14 @@ cheatsheet do
         id 'xtest'
 
         entry do
+            notes <<-'END'
+            Run the extra tests for the distribution
+            END
+        end
+
+        entry do
             command 'xtest'
-            name 'Clean out the build'
+            name 'run xt tests for the distribution'
         end
         entry do
             command '--author'
@@ -158,6 +196,12 @@ cheatsheet do
         id 'smoke'
 
         entry do
+            notes <<-'END'
+            Run a smoke test
+            END
+        end
+
+        entry do
             command 'smoke'
             name 'Clean out the build'
         end
@@ -180,6 +224,12 @@ cheatsheet do
 
     category do
         id 'install'
+
+        entry do
+            notes <<-'END'
+            Install the distribution
+            END
+        end
 
         entry do
             command 'install'
