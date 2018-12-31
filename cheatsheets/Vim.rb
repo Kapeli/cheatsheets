@@ -5,7 +5,7 @@ cheatsheet do
     source_url 'http://cheat.kapeli.com'
 
     category do
-        id 'How to Exit'
+        id 'Exiting'
 
         entry do
             command ':q[uit]'
@@ -778,7 +778,7 @@ cheatsheet do
 
 
     category do
-        id 'How to Suspend'
+        id 'Suspending'
 
         entry do
             command 'CTRL-Z'
