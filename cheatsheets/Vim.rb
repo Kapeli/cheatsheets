@@ -808,12 +808,12 @@ cheatsheet do
         end
 
         entry do
-            command 'CTRL-WV'
+            command 'CTRL-W v'
             name 'Vertical split current window'
         end
 
         entry do
-            command 'CTRL-WS'
+            command 'CTRL-W s'
             name 'Horizontal split current window'
         end
 
