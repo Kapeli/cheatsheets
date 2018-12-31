@@ -3,10 +3,10 @@ cheatsheet do
     docset_file_name 'Vim'
     keyword 'vimc'
     source_url 'http://cheat.kapeli.com'
-    
+
     category do
         id 'How to Exit'
-        
+
         entry do
             command ':q[uit]'
             name 'Quit Vim'
@@ -16,7 +16,7 @@ cheatsheet do
             command ':q[uit]!'
             name 'Quit without writing'
         end
-        
+
         entry do
             command ':qa'
             name 'Quit all buffers / tabs'
@@ -59,12 +59,12 @@ cheatsheet do
             name 'Quit current file and exit'
             notes 'Same as `:q!`.'
         end
-        
+
     end
 
     category do
         id 'Editing a File'
-        
+
         entry do
             command ':e[dit]'
             name 'Edit the current file'
@@ -93,7 +93,7 @@ cheatsheet do
 
     category do
         id 'Inserting Text'
-        
+
         entry do
             command 'a'
             name 'Append text after the cursor [count] times'
@@ -257,7 +257,7 @@ cheatsheet do
             END
         end
     end
-    
+
     category do
         id 'Substituting'
         entry do
@@ -373,7 +373,7 @@ cheatsheet do
 
     category do
         id 'Undo, Redo and Repeat'
-        
+
         entry do
             command 'u'
             name 'Undo [count] changes'
@@ -402,7 +402,7 @@ cheatsheet do
 
     category do
         id 'Moving Around'
-        
+
         entry do
             name 'Basic motion commands'
             notes <<-'END'
@@ -461,14 +461,14 @@ cheatsheet do
         end
         entry do
             command 'g^'
-            name 'To the first non-blank character of the screen line (exclusive) when lines wrap (\'wrap\' on). Differs from `^` when a line is wider than the screen. 
+            name 'To the first non-blank character of the screen line (exclusive) when lines wrap (\'wrap\' on). Differs from `^` when a line is wider than the screen.
 
             To the leftmost non-blank character of the current line that is on the screen when lines don\'t wrap (\'wrap\' off). Differs from `^` when the first non-blank character of the line is not on the screen'
         end
         entry do
             command 'g$'
             command 'g<End>'
-            name 'To the last character of the screen line and [count - 1] screen lines downward (inclusive) when lines wrap (\'wrap\' on). Differs from `$` when a line is wider than the screen. 
+            name 'To the last character of the screen line and [count - 1] screen lines downward (inclusive) when lines wrap (\'wrap\' on). Differs from `$` when a line is wider than the screen.
 
             To the rightmost character of the current line that is visible on the screen when lines don\'t wrap (\'wrap\' off). Differs from `$` when the last character of the line is not on the screen or when a count is used'
         end
@@ -593,7 +593,7 @@ cheatsheet do
             A WORD consists of a sequence of non-blank characters, separated with white space. An empty line is also considered to be a word and a WORD.
             END
         end
-    
+
         entry do
             command '('
             name '[count] sentences backward'
@@ -727,7 +727,7 @@ cheatsheet do
             notes <<-'END'
             Results are put into "quickfix list" open with `:cw`
 
-            * 'g' return all matches not just one per line 
+            * 'g' return all matches not just one per line
             * 'j' don't jump to first match automatically
             * for recursive search use `**` file pattern like `**/*.c`
             END
@@ -736,7 +736,7 @@ cheatsheet do
 
     category do
         id 'Selecting Text (Visual Mode)'
-    
+
         entry do
             notes <<-'END'
             To select text, enter visual mode with one of the commands below, and use motion commands to highlight the text you are interested in. Then, use some command on the text.
@@ -779,7 +779,7 @@ cheatsheet do
 
     category do
         id 'How to Suspend'
-    
+
         entry do
             command 'CTRL-Z'
             name 'Suspend Vim'
@@ -791,12 +791,12 @@ cheatsheet do
             name 'Suspend Vim!'
             notes 'If the \'!\' is not given and \'autowrite\' is set, every buffer with changes and a file name is written out. If the \'!\' is given or \'autowrite\' is not set, changed buffers are not written, don\'t forget to bring Vim back to the foreground later!'
         end
-    
+
     end
 
     category do
         id 'Multiple Windows'
-        
+
         entry do
             command ':e filename'
             name 'Edit another file'
@@ -902,7 +902,7 @@ cheatsheet do
             notes 'Pops location to jump to from tag stack.'
         end
           entry do
-          	command ':tags'
+            command ':tags'
             name 'Show tag stack'
             notes 'List of return locations, used by `CTRL+t`.'
     end
