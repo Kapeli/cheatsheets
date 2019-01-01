@@ -283,10 +283,10 @@ cheatsheet do
               * `y`      to substitute this match
               * `n`      to skip this match
               * `<Esc>`   to skip this match
-              * `a`      to substitute this and all remaining matches {not in Vi}
-              * `q`      to quit substituting {not in Vi}
-              * `CTRL-E`  to scroll the screen up {not in Vi}
-              * `CTRL-Y`  to scroll the screen down {not in Vi}
+              * `a`      to substitute this and all remaining matches
+              * `q`      to quit substituting
+              * `CTRL-E`  to scroll the screen up
+              * `CTRL-Y`  to scroll the screen down
 
             * `[e]` When the search pattern fails, do not issue an error message and, in particular, continue in maps as if no error occurred
             * `[g]`  Replace all occurrences in the line. Without this argument, replacement occurs only for the first occurrence in each line
@@ -392,7 +392,7 @@ cheatsheet do
         end
         entry do
             command 'U'
-            name 'Undo all latest changes on one line. {Vi: while not moved off of it}'
+            name 'Undo all latest changes on one line.'
         end
         entry do
             command '.'
