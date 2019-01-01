@@ -512,24 +512,24 @@ cheatsheet do
             name '[count] - 1 lines downward, on the first non-blank character (linewise)'
         end
         entry do
-            command '<C-End>'
+            command 'CTRL-End'
             command 'G'
             name 'Goto line [count] on the first non-blank character'
             notes 'Default: last line.'
         end
         entry do
-            command '<C-Home>'
+            command 'CTRL-Home'
             command 'gg'
             name 'Goto line [count] on the first non-blank character'
             notes 'Default: first line.'
         end
         entry do
-            command '<S-Right>'
+            command 'SHIFT-Right'
             command 'w'
             name '[count] words forward'
         end
         entry do
-            command '<C-Right>'
+            command 'CTRL-Right'
             command 'W'
             name '[count] WORDS forward'
         end
@@ -542,12 +542,12 @@ cheatsheet do
             name 'Forward to the end of WORD [count]'
         end
         entry do
-            command '<S-Left>'
+            command 'SHIFT-Left'
             command 'b'
             name '[count] words backward'
         end
         entry do
-            command '<C-Left>'
+            command 'CTRL-Left'
             command 'B'
             name '[count] WORDS backward'
         end
