@@ -236,10 +236,6 @@ cheatsheet do
           command '*'
           name 'Highlight all occurrences of word under cursor'
         end
-        entry do
-          command 'ga'
-          name 'Show ASCII value of char under cursor'
-        end
     end
 
     category do
