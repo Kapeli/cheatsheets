@@ -278,7 +278,6 @@ cheatsheet do
             * `[c]` Confirm each substitution. Vim positions the cursor on the matching string. You can type:
               * `y`      to substitute this match
               * `n`      to skip this match
-              * `<Esc>`   to skip this match
               * `a`      to substitute this and all remaining matches
               * `q`      to quit substituting
               * `CTRL-E`  to scroll the screen up
