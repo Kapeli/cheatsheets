@@ -1,7 +1,7 @@
 os: osx
 language: ruby
 rvm:
-  - 2.2
+  - 2.3
 git:
   submodules: false
 before_install:
