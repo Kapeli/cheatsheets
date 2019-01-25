@@ -4,7 +4,6 @@ cheatsheet do
    keyword 'g'
    introduction 'Cheat sheet for [prezto git module](https://github.com/sorin-ionescu/prezto/blob/master/modules/git/README.md)'
    style '
-
      td.td_notes code {
        border: none;
        box-shadow: none;
@@ -14,14 +13,17 @@ cheatsheet do
        color: #666666;
      }
      td, th {
-       white-space:nowrap;
-       min-width:110px;
+       white-space: nowrap;
+       min-width: 110px;
      }
      .no-min-width td, .no-min-width th {
-       min-width:0;
+       min-width: 0;
      }
      td:last-child {
-       width:99%;
+       width: 99%;
+     }
+     .notes {
+       font-family: monospace;
      }
     '
 
@@ -29,352 +31,449 @@ cheatsheet do
         id 'Git'
 
         entry do
-            command 'g'
-            name  'is short for "git".'
+            td_command 'g'
+            name 'git'
+            notes 'is short for "git".'
         end
     end
 
     category do
-        id 'Branch'
+        id 'Branch (b)'
 
         entry do
-            command 'gb'
-            name  'lists, creates, renames, and deletes branches.'
-         end
-        entry do
-            command 'gbc'
-            name  'creates a new branch.'
+            td_command 'gb'
+            name 'lists, creates, renames, and deletes branches.'
+            notes 'git branch'
         end
         entry do
-            command 'gbl'
-            name  'lists branches and their commits. (also "gbv")'
+            td_command 'gba'
+            name 'creates a new branch.'
+            notes 'git branch --all --verbose'
         end
         entry do
-            command 'gbL'
-            name  'lists all local and remote branches and their commits.'
+            td_command 'gbc'
+            name 'creates a new branch.'
+            notes 'git checkout -b'
         end
         entry do
-            command 'gbr'
-            name  'renames a branch. (also "gbm")'
+            td_command 'gbd'
+            name 'deletes a branch.'
+            notes 'git branch --delete'
         end
         entry do
-            command 'gbR'
-            name  'renames a branch even if the new branch name already exists. (also "gbM")'
+            td_command 'gbD'
+            name 'deletes the branch regardless of its push and merge status, so be careful using this one. (also "gbd")'
+            notes 'git branch --delete --force'
         end
         entry do
-            command 'gbs'
-            name  'lists branches and their commits with ancestry graphs.'
+            td_command 'gbl'
+            name 'lists branches and their commits. (also "gbv")'
+            notes 'git branch --verbose'
         end
         entry do
-            command 'gbS'
-            name  'lists local and remote branches and their commits with ancestry graphs.'
+            td_command 'gbL'
+            name 'lists all local and remote branches and their commits.'
+            notes 'git branch --all --verbose'
         end
         entry do
-            command 'gbV'
-            name  'lists branches with more verbose information about their commits.'
+            td_command 'gbr'
+            name 'renames/moves a branch. (also "gbm")'
+            notes 'git branch --move'
         end
         entry do
-            command 'gbx'
-            name  'deletes a branch. (also "gbd")'
+            td_command 'gbR'
+            name 'renames/moves a branch even if the new branch name already exists. (also "gbM")'
+            notes 'git branch --move --force'
         end
         entry do
-            command 'gbX'
-            name  'deletes a branch irrespective of its merged status. (also "gbD")'
+            td_command 'gbs'
+            name 'lists branches and their commits with ancestry graphs.'
+            notes 'git show-branch'
+        end
+        entry do
+            td_command 'gbS'
+            name 'lists local and remote branches and their commits with ancestry graphs.'
+            notes 'git show-branch --all'
+        end
+        entry do
+            td_command 'gbv'
+            name 'lists branches with verbose information about their commits.'
+            notes 'git branch --verbose'
+        end
+        entry do
+            td_command 'gbV'
+            name 'lists branches with more verbose information about their commits.'
+            notes 'git branch --verbose --verbose'
+        end
+        entry do
+            td_command 'gbx'
+            name 'deletes a branch. (also "gbd")'
+            notes 'git branch --delete'
+        end
+        entry do
+            td_command 'gbX'
+            name 'deletes a branch irrespective of its merged status. (also "gbD")'
+            notes 'git branch --delete --force'
         end
     end
 
     category do
-        id 'Commit'
+        id 'Commit (c)'
 
         entry do
-            command 'gc'
-            name  'records changes to the repository.'
+            td_command 'gc'
+            name 'records changes to the repository.'
+            notes 'git commit --verbose'
         end
         entry do
-            command 'gca'
-            name  'stages all modified and deleted files.'
+            td_command 'gca'
+            name 'stages all modified and deleted files.'
+            notes 'git commit --verbose --all'
         end
         entry do
-            command 'gcm'
-            name  'records changes to the repository with the given message.'
+            td_command 'gcm'
+            name 'records changes to the repository with the given message.'
+            notes 'git commit --message'
         end
         entry do
-            command 'gcS'
-            name  'records changes to the repository. (Signed)'
+            td_command 'gcS'
+            name 'records changes to the repository. (Signed)'
+            notes 'git commit -S --verbose'
         end
         entry do
-            command 'gcSa'
-            name  'stages all modified and deleted files. (Signed)'
+            td_command 'gcSa'
+            name 'stages all modified and deleted files. (Signed)'
+            notes 'git commit -S --verbose --all'
         end
         entry do
-            command 'gcSm'
-            name  'records changes to the repository with the given message. (Signed)'
+            td_command 'gcSm'
+            name 'records changes to the repository with the given message. (Signed)'
+            notes 'git commit -S --message'
         end
         entry do
-            command 'gcam'
-            name  'stages all modified and deleted files, and records changes to the repository with the given message.'
+            td_command 'gcam'
+            name 'stages all modified and deleted files, and records changes to the repository with the given message.'
+            notes 'git commit --all --message'
         end
         entry do
-            command 'gco'
-            name  'checks out a branch or paths to work tree.'
+            td_command 'gco'
+            name 'checks out a branch or paths to work tree.'
+            notes 'git checkout'
         end
         entry do
-            command 'gcO'
-            name  'checks out hunks from the index or the tree interactively.'
+            td_command 'gcO'
+            name 'checks out hunks from the index or the tree interactively.'
+            notes 'git checkout --patch'
         end
         entry do
-            command 'gcf'
-            name  'amends the tip of the current branch using the same log message as *HEAD*.'
+            td_command 'gcf'
+            name 'amends the tip of the current branch using the same log message as *HEAD*.'
+            notes 'git commit --amend --reuse-message HEAD'
         end
         entry do
-            command 'gcSf'
-            name  'amends the tip of the current branch using the same log message as *HEAD*. (Signed)'
+            td_command 'gcSf'
+            name 'amends the tip of the current branch using the same log message as *HEAD*. (Signed)'
+            notes 'git commit -S --amend --reuse-message HEAD'
         end
         entry do
-            command 'gcF'
-            name  'amends the tip of the current branch.'
+            td_command 'gcF'
+            name 'amends the tip of the current branch.'
+            notes 'git commit --verbose --amend'
         end
         entry do
-            command 'gcSF'
-            name  'amends the tip of the current branch. (Signed)'
+            td_command 'gcSF'
+            name 'amends the tip of the current branch. (Signed)'
+            notes 'git commit -S --verbose --amend'
         end
         entry do
-            command 'gcp'
-            name  'applies changes introduced by existing commits.'
+            td_command 'gcp'
+            name 'applies changes introduced by existing commits.'
+            notes 'git cherry-pick --ff'
         end
         entry do
-            command 'gcP'
-            name  'applies changes introduced by existing commits without committing.'
+            td_command 'gcP'
+            name 'applies changes introduced by existing commits without committing.'
+            notes 'git cherry-pick --no-commit'
         end
         entry do
-            command 'gcr'
-            name  'reverts existing commits by reverting patches and recording new commits.'
+            td_command 'gcr'
+            name 'reverts existing commits by reverting patches and recording new commits.'
+            notes 'git revert'
         end
         entry do
-            command 'gcR'
-            name  'removes the *HEAD* commit.'
+            td_command 'gcR'
+            name 'removes the *HEAD* commit.'
+            notes 'git reset "HEAD^"'
         end
         entry do
-            command 'gcs'
-            name  'displays various types of objects.'
+            td_command 'gcs'
+            name 'displays various types of objects.'
+            notes 'git show'
         end
         entry do
-            command 'gcsS'
-            name  'displays commits with GPG signature.'
+            td_command 'gcsS'
+            name 'displays commits with GPG signature.'
+            notes 'git show --pretty=short --show-signature'
         end
         entry do
-            command 'gcl'
-            name  'lists lost commits.'
+            td_command 'gcl'
+            name 'lists lost commits.'
+            notes 'git-commit-lost'
         end
         entry do
-            command 'gcy'
-            name  'displays commits yet to be applied to upstream in the short format.'
+            td_command 'gcy'
+            name 'displays commits yet to be applied to upstream in the short format.'
+            notes 'git cherry -v --abbrev'
         end
         entry do
-            command 'gcY'
-            name  'displays commits yet to be applied to upstream.'
+            td_command 'gcY'
+            name 'displays commits yet to be applied to upstream.'
+            notes 'git cherry -v'
         end
     end
 
     category do
-        id 'Conflict'
+        id 'Conflict (C)'
 
         entry do
-            command 'gCl'
-            name  'lists unmerged files.'
+            td_command 'gCl'
+            name 'lists unmerged files.'
+            notes 'git --no-pager diff --name-only --diff-filter=U'
         end
         entry do
-            command 'gCa'
-            name  'adds unmerged file contents to the index.'
+            td_command 'gCa'
+            name 'adds unmerged file contents to the index.'
+            notes 'git add $(gCl)'
         end
         entry do
-            command 'gCe'
-            name  'executes merge-tool on all unmerged file.'
+            td_command 'gCe'
+            name 'executes merge-tool on all unmerged file.'
+            notes 'git mergetool $(gCl)'
         end
         entry do
-            command 'gCo'
-            name  'checks out our changes for unmerged paths.'
+            td_command 'gCo'
+            name 'checks out our changes for unmerged paths.'
+            notes 'git checkout --ours --'
         end
         entry do
-            command 'gCO'
-            name  'checks out our changes for all unmerged paths.'
+            td_command 'gCO'
+            name 'checks out our changes for all unmerged paths.'
+            notes 'gCo $(gCl)'
         end
         entry do
-            command 'gCt'
-            name  'checks out their changes for unmerged paths.'
+            td_command 'gCt'
+            name 'checks out their changes for unmerged paths.'
+            notes 'git checkout --theirs --'
         end
         entry do
-            command 'gCT'
-            name  'checks out their changes for all unmerged paths.'
+            td_command 'gCT'
+            name 'checks out their changes for all unmerged paths.'
+            notes 'gCt $(gCl)'
         end
     end
 
     category do
-        id 'Data'
+        id 'Data (d)'
 
         entry do
-            command 'gd'
-            name  'displays information about files in the index and the work tree.'
+            td_command 'gd'
+            name 'displays information about files in the index and the work tree.'
+            notes 'git ls-files'
         end
         entry do
-            command 'gdc'
-            name  'lists cached files.'
+            td_command 'gdc'
+            name 'lists cached files.'
+            notes 'git ls-files --cached'
         end
         entry do
-            command 'gdx'
-            name  'lists deleted files.'
+            td_command 'gdx'
+            name 'lists deleted files.'
+            notes 'git ls-files --deleted'
         end
         entry do
-            command 'gdm'
-            name  'lists modified files.'
+            td_command 'gdm'
+            name 'lists modified files.'
+            notes 'git ls-files --modified'
         end
         entry do
-            command 'gdu'
-            name  'lists untracked files.'
+            td_command 'gdu'
+            name 'lists untracked files.'
+            notes 'git ls-files --other --exclude-standard'
         end
         entry do
-            command 'gdk'
-            name  'lists killed files.'
+            td_command 'gdk'
+            name 'lists killed files.'
+            notes 'git ls-files --killed'
         end
         entry do
-            command 'gdi'
-            name  'lists ignored files.'
+            td_command 'gdi'
+            name 'lists ignored files.'
+            notes 'git status --porcelain --short --ignored | sed -n "s/^!! //p"'
         end
     end
 
     category do
-        id 'Fetch'
+        id 'Fetch (f)'
 
         entry do
-            command 'gf'
-            name  'downloads objects and references from another repository.'
+            td_command 'gf'
+            name 'downloads objects and references from another repository.'
+            notes 'git fetch'
         end
         entry do
-            command 'gfa'
-            name  'downloads objects and references from all remote repositories.'
+            td_command 'gfa'
+            name 'downloads objects and references from all remote repositories.'
+            notes 'git fetch --all'
         end
         entry do
-            command 'gfc'
-            name  'clones a repository into a new directory.'
+            td_command 'gfc'
+            name 'clones a repository into a new directory.'
+            notes 'git clone'
         end
         entry do
-            command 'gfcr'
-            name  'clones a repository into a new directory including all submodules.'
+            td_command 'gfcr'
+            name 'clones a repository into a new directory including all submodules.'
+            notes 'git clone --recurse-submodules'
         end
         entry do
-            command 'gfm'
-            name  'fetches from and merges with another repository or local branch.'
+            td_command 'gfm'
+            name 'fetches from and merges with another repository or local branch.'
+            notes 'git pull'
         end
         entry do
-            command 'gfr'
-            name  'fetches from and rebases on another repository or local branch.'
+            td_command 'gfr'
+            name 'fetches from and rebases on another repository or local branch.'
+            notes 'git pull --rebase'
         end
     end
 
     category do
-        id 'Flow'
+        id 'Flow (F)'
 
         entry do
-            command 'gFi'
-            name  'is short for "git flow init"'
+            td_command 'gFi'
+            name 'is short for "git flow init"'
+            notes 'git flow init'
         end
     end
 
     category do
-        id 'Feature'
+        id 'Flow Feature (Ff)'
 
         entry do
-            command 'gFf'
-            name  'is short for "git flow feature"'
+            td_command 'gFf'
+            name 'is short for "git flow feature"'
+            notes 'git flow feature'
         end
         entry do
-            command 'gFfl'
-            name  'is short for "git flow feature list"'
+            td_command 'gFfl'
+            name 'is short for "git flow feature list"'
+            notes 'git flow feature list'
         end
         entry do
-            command 'gFfs'
-            name  'is short for "git flow feature start"'
+            td_command 'gFfs'
+            name 'is short for "git flow feature start"'
+            notes 'git flow feature start'
         end
         entry do
-            command 'gFff'
-            name  'is short for "git flow feature finish"'
+            td_command 'gFff'
+            name 'is short for "git flow feature finish"'
+            notes 'git flow feature finish'
         end
         entry do
-            command 'gFfp'
-            name  'is short for "git flow feature publish"'
+            td_command 'gFfp'
+            name 'is short for "git flow feature publish"'
+            notes 'git flow feature publish'
         end
         entry do
-            command 'gFft'
-            name  'is short for "git flow feature track"'
+            td_command 'gFft'
+            name 'is short for "git flow feature track"'
+            notes 'git flow feature track'
         end
         entry do
-            command 'gFfd'
-            name  'is short for "git flow feature diff"'
+            td_command 'gFfd'
+            name 'is short for "git flow feature diff"'
+            notes 'git flow feature diff'
         end
         entry do
-            command 'gFfr'
-            name  'is short for "git flow feature rebase"'
+            td_command 'gFfr'
+            name 'is short for "git flow feature rebase"'
+            notes 'git flow feature rebase'
         end
         entry do
-            command 'gFfc'
-            name  'is short for "git flow feature checkout"'
+            td_command 'gFfc'
+            name 'is short for "git flow feature checkout"'
+            notes 'git flow feature checkout'
         end
         entry do
-            command 'gFfm'
-            name  'is short for "git flow feature pull"'
+            td_command 'gFfm'
+            name 'is short for "git flow feature pull"'
+            notes 'git flow feature pull'
         end
         entry do
-            command 'gFfx'
-            name  'is short for "git flow feature delete"'
+            td_command 'gFfx'
+            name 'is short for "git flow feature delete"'
+            notes 'git flow feature delete'
         end
     end
 
     category do
-        id 'Bugfix'
+        id 'Flow Bugfix (Fb)'
 
         entry do
-            command 'gFb'
-            name  'is short for "git flow bugfix"'
+            td_command 'gFb'
+            name 'is short for "git flow bugfix"'
+            notes 'git flow bugfix'
         end
         entry do
-            command 'gFbl'
-            name  'is short for "git flow bugfix list"'
+            td_command 'gFbl'
+            name 'is short for "git flow bugfix list"'
+            notes 'git flow bugfix list'
         end
         entry do
-            command 'gFbs'
-            name  'is short for "git flow bugfix start"'
+            td_command 'gFbs'
+            name 'is short for "git flow bugfix start"'
+            notes 'git flow bugfix start'
         end
         entry do
-            command 'gFbf'
-            name  'is short for "git flow bugfix finish"'
+            td_command 'gFbf'
+            name 'is short for "git flow bugfix finish"'
+            notes 'git flow bugfix finish'
         end
         entry do
-            command 'gFbp'
-            name  'is short for "git flow bugfix publish"'
+            td_command 'gFbp'
+            name 'is short for "git flow bugfix publish"'
+            notes 'git flow bugfix publish'
         end
         entry do
-            command 'gFbt'
-            name  'is short for "git flow bugfix track"'
+            td_command 'gFbt'
+            name 'is short for "git flow bugfix track"'
+            notes 'git flow bugfix track'
         end
         entry do
-            command 'gFbd'
-            name  'is short for "git flow bugfix diff"'
+            td_command 'gFbd'
+            name 'is short for "git flow bugfix diff"'
+            notes 'git flow bugfix diff'
         end
         entry do
-            command 'gFbr'
-            name  'is short for "git flow bugfix rebase"'
+            td_command 'gFbr'
+            name 'is short for "git flow bugfix rebase"'
+            notes 'git flow bugfix rebase'
         end
         entry do
-            command 'gFbc'
-            name  'is short for "git flow bugfix checkout"'
+            td_command 'gFbc'
+            name 'is short for "git flow bugfix checkout"'
+            notes 'git flow bugfix checkout'
         end
         entry do
-            command 'gFbm'
-            name  'is short for "git flow bugfix pull"'
+            td_command 'gFbm'
+            name 'is short for "git flow bugfix pull"'
+            notes 'git flow bugfix pull'
         end
         entry do
-            command 'gFbx'
-            name  'is short for "git flow bugfix delete"'
+            td_command 'gFbx'
+            name 'is short for "git flow bugfix delete"'
+            notes 'git flow bugfix delete'
         end
     end
 
@@ -382,553 +481,674 @@ cheatsheet do
         id 'Release'
 
         entry do
-            command 'gFl'
-            name  'is short for "git flow release"'
+            td_command 'gFr'
+            name 'is short for "git flow release"'
+            notes 'git flow release'
         end
         entry do
-            command 'gFll'
-            name  'is short for "git flow release list"'
+            td_command 'gFrl'
+            name 'is short for "git flow release list"'
+            notes 'git flow release list'
         end
         entry do
-            command 'gFls'
-            name  'is short for "git flow release start"'
+            td_command 'gFrs'
+            name 'is short for "git flow release start"'
+            notes 'git flow release start'
         end
         entry do
-            command 'gFlf'
-            name  'is short for "git flow release finish"'
+            td_command 'gFrf'
+            name 'is short for "git flow release finish"'
+            notes 'git flow release finish'
         end
         entry do
-            command 'gFlp'
-            name  'is short for "git flow release publish"'
+            td_command 'gFrp'
+            name 'is short for "git flow release publish"'
+            notes 'git flow release publish'
         end
         entry do
-            command 'gFlt'
-            name  'is short for "git flow release track"'
+            td_command 'gFrt'
+            name 'is short for "git flow release track"'
+            notes 'git flow release track'
         end
         entry do
-            command 'gFld'
-            name  'is short for "git flow release diff"'
+            td_command 'gFrd'
+            name 'is short for "git flow release diff"'
+            notes 'git flow release diff'
         end
         entry do
-            command 'gFlr'
-            name  'is short for "git flow release rebase"'
+            td_command 'gFrr'
+            name 'is short for "git flow release rebase"'
+            notes 'git flow release rebase'
         end
         entry do
-            command 'gFlc'
-            name  'is short for "git flow release checkout"'
+            td_command 'gFrc'
+            name 'is short for "git flow release checkout"'
+            notes 'git flow release checkout'
         end
         entry do
-            command 'gFlm'
-            name  'is short for "git flow release pull"'
+            td_command 'gFrm'
+            name 'is short for "git flow release pull"'
+            notes 'git flow release pull'
         end
         entry do
-            command 'gFlx'
-            name  'is short for "git flow release delete"'
-        end
-    end
-
-    category do
-        id 'Hotfix'
-
-        entry do
-            command 'gFh'
-            name  'is short for "git flow hotfix"'
-        end
-        entry do
-            command 'gFhl'
-            name  'is short for "git flow hotfix list"'
-        end
-        entry do
-            command 'gFhs'
-            name  'is short for "git flow hotfix start"'
-        end
-        entry do
-            command 'gFhf'
-            name  'is short for "git flow hotfix finish"'
-        end
-        entry do
-            command 'gFhp'
-            name  'is short for "git flow hotfix publish"'
-        end
-        entry do
-            command 'gFht'
-            name  'is short for "git flow hotfix track"'
-        end
-        entry do
-            command 'gFhd'
-            name  'is short for "git flow hotfix diff"'
-        end
-        entry do
-            command 'gFhr'
-            name  'is short for "git flow hotfix rebase"'
-        end
-        entry do
-            command 'gFhc'
-            name  'is short for "git flow hotfix checkout"'
-        end
-        entry do
-            command 'gFhm'
-            name  'is short for "git flow hotfix pull"'
-        end
-        entry do
-            command 'gFhx'
-            name  'is short for "git flow hotfix delete"'
+            td_command 'gFrx'
+            name 'is short for "git flow release delete"'
+            notes 'git flow release delete'
         end
     end
 
     category do
-        id 'Support'
+        id 'Flow Hotfix (Fh)'
 
         entry do
-            command 'gFs'
-            name  'is short for "git flow support"'
+            td_command 'gFh'
+            name 'is short for "git flow hotfix"'
+            notes 'git flow hotfix'
         end
         entry do
-            command 'gFsl'
-            name  'is short for "git flow support list"'
+            td_command 'gFhl'
+            name 'is short for "git flow hotfix list"'
+            notes 'git flow hotfix list'
         end
         entry do
-            command 'gFss'
-            name  'is short for "git flow support start"'
+            td_command 'gFhs'
+            name 'is short for "git flow hotfix start"'
+            notes 'git flow hotfix start'
         end
         entry do
-            command 'gFsf'
-            name  'is short for "git flow support finish"'
+            td_command 'gFhf'
+            name 'is short for "git flow hotfix finish"'
+            notes 'git flow hotfix finish'
         end
         entry do
-            command 'gFsp'
-            name  'is short for "git flow support publish"'
+            td_command 'gFhp'
+            name 'is short for "git flow hotfix publish"'
+            notes 'git flow hotfix publish'
         end
         entry do
-            command 'gFst'
-            name  'is short for "git flow support track"'
+            td_command 'gFht'
+            name 'is short for "git flow hotfix track"'
+            notes 'git flow hotfix track'
         end
         entry do
-            command 'gFsd'
-            name  'is short for "git flow support diff"'
+            td_command 'gFhd'
+            name 'is short for "git flow hotfix diff"'
+            notes 'git flow hotfix diff'
         end
         entry do
-            command 'gFsr'
-            name  'is short for "git flow support rebase"'
+            td_command 'gFhr'
+            name 'is short for "git flow hotfix rebase"'
+            notes 'git flow hotfix rebase'
         end
         entry do
-            command 'gFsc'
-            name  'is short for "git flow support checkout"'
+            td_command 'gFhc'
+            name 'is short for "git flow hotfix checkout"'
+            notes 'git flow hotfix checkout'
         end
         entry do
-            command 'gFsm'
-            name  'is short for "git flow support pull"'
+            td_command 'gFhm'
+            name 'is short for "git flow hotfix pull"'
+            notes 'git flow hotfix pull'
         end
         entry do
-            command 'gFsx'
-                    name  'is short for "git flow support delete"'
+            td_command 'gFhx'
+            name 'is short for "git flow hotfix delete"'
+            notes 'git flow hotfix delete'
         end
     end
 
     category do
-        id 'Grep'
+        id 'Flow Support (Fs)'
 
         entry do
-            command 'gg'
-            name  'displays lines matching a pattern.'
+            td_command 'gFs'
+            name 'is short for "git flow support"'
+            notes 'git flow support'
         end
         entry do
-            command 'ggi'
-            name  'displays lines matching a pattern ignoring case.'
+            td_command 'gFsl'
+            name 'is short for "git flow support list"'
+            notes 'git flow support list'
         end
         entry do
-            command 'ggl'
-            name  'lists files matching a pattern.'
+            td_command 'gFss'
+            name 'is short for "git flow support start"'
+            notes 'git flow support start'
         end
         entry do
-            command 'ggL'
-            name  'lists files that are not matching a pattern.'
+            td_command 'gFsf'
+            name 'is short for "git flow support finish"'
+            notes 'git flow support finish'
         end
         entry do
-            command 'ggv'
-            name  'displays lines not matching a pattern.'
+            td_command 'gFsp'
+            name 'is short for "git flow support publish"'
+            notes 'git flow support publish'
         end
         entry do
-            command 'ggw'
-            name  'displays lines matching a pattern at word boundary.'
+            td_command 'gFst'
+            name 'is short for "git flow support track"'
+            notes 'git flow support track'
+        end
+        entry do
+            td_command 'gFsd'
+            name 'is short for "git flow support diff"'
+            notes 'git flow support diff'
+        end
+        entry do
+            td_command 'gFsr'
+            name 'is short for "git flow support rebase"'
+            notes 'git flow support rebase'
+        end
+        entry do
+            td_command 'gFsc'
+            name 'is short for "git flow support checkout"'
+            notes 'git flow support checkout'
+        end
+        entry do
+            td_command 'gFsm'
+            name 'is short for "git flow support pull"'
+            notes 'git flow support pull'
+        end
+        entry do
+            td_command 'gFsx'
+            name 'is short for "git flow support delete"'
+            notes 'git flow support delete'
         end
     end
 
     category do
-        id 'Index'
+        id 'Grep (g)'
 
         entry do
-            command 'gia'
-            name  'adds file contents to the index.'
+            td_command 'gg'
+            name 'displays lines matching a pattern.'
+            notes 'git grep'
         end
         entry do
-            command 'giA'
-            name  'adds file contents to the index interactively.'
+            td_command 'ggi'
+            name 'displays lines matching a pattern ignoring case.'
+            notes 'git grep --ignore-case'
         end
         entry do
-            command 'giu'
-            name  'adds file contents to the index (updates only known files).'
+            td_command 'ggl'
+            name 'lists files matching a pattern.'
+            notes 'git grep --files-with-matches'
         end
         entry do
-            command 'gid'
-            name  'displays changes between the index and a named commit (diff).'
+            td_command 'ggL'
+            name 'lists files that are not matching a pattern.'
+            notes 'git grep --files-without-matches'
         end
         entry do
-            command 'giD'
-            name  'displays changes between the index and a named commit (word diff).'
+            td_command 'ggv'
+            name 'displays lines not matching a pattern.'
+            notes 'git grep --invert-match'
         end
         entry do
-            command 'gii'
-            name  'temporarily ignore differences in a given file.'
-        end
-        entry do
-            command 'giI'
-            name  'unignore differences in a given file.'
-        end
-        entry do
-            command 'gir'
-            name  'resets the current HEAD to the specified state.'
-        end
-        entry do
-            command 'giR'
-            name  'resets the current index interactively.'
-        end
-        entry do
-            command 'gix'
-            name  'removes files/directories from the index (recursively).'
-        end
-        entry do
-            command 'giX'
-            name  'removes files/directories from the index (recursively and forced).'
+            td_command 'ggw'
+            name 'displays lines matching a pattern at word boundary.'
+            notes 'git grep --word-regexp'
         end
     end
 
     category do
-        id 'Log'
+        id 'Index (i)'
 
         entry do
-            command 'gl'
-            name  'displays the log.'
+            td_command 'gia'
+            name 'adds file contents to the index.'
+            notes 'git add'
         end
         entry do
-            command 'gls'
-            name  'displays the stats log.'
+            td_command 'giA'
+            name 'adds file contents to the index interactively.'
+            notes 'git add --patch'
         end
         entry do
-            command 'gld'
-            name  'displays the diff log.'
+            td_command 'giu'
+            name 'adds file contents to the index (updates only known files).'
+            notes 'git add --update'
         end
         entry do
-            command 'glo'
-            name  'displays the one line log.'
+            td_command 'gid'
+            name 'displays changes between the index and a named commit (diff).'
+            notes 'git diff --no-ext-diff --cached'
         end
         entry do
-            command 'glg'
-            name  'displays the graph log.'
+            td_command 'giD'
+            name 'displays changes between the index and a named commit (word diff).'
+            notes 'git diff --no-ext-diff --cached --word-diff'
         end
         entry do
-            command 'glb'
-            name  'displays the brief commit log.'
+            td_command 'gii'
+            name 'temporarily ignore differences in a given file.'
+            notes 'git update-index --assume-unchanged'
         end
         entry do
-            command 'glc'
-            name  'displays the commit count for each contributor in descending order.'
+            td_command 'giI'
+            name 'unignore differences in a given file.'
+            notes 'git update-index --no-assume-unchanged'
         end
         entry do
-            command 'glS'
-            name  'displays the log and checks the validity of signed commits.'
+            td_command 'gir'
+            name 'resets the current HEAD to the specified state.'
+            notes 'git reset'
+        end
+        entry do
+            td_command 'giR'
+            name 'resets the current index interactively.'
+            notes 'git reset --patch'
+        end
+        entry do
+            td_command 'gix'
+            name 'removes files/directories from the index (recursively).'
+            notes 'git rm -r --cached'
+        end
+        entry do
+            td_command 'giX'
+            name 'removes files/directories from the index (recursively and forced).'
+            notes 'git rm -rf --cached'
         end
     end
 
     category do
-        id 'Merge'
+        id 'Log (l)'
 
         entry do
-            command 'gm'
-            name  'joins two or more development histories together.'
+            td_command 'gl'
+            name 'displays the log.'
+            notes 'git log --topo-order --pretty=format:"${_git_log_medium_format}"'
         end
         entry do
-            command 'gmC'
-            name  'joins two or more development histories together but does not commit.'
+            td_command 'gls'
+            name 'displays the stats log.'
+            notes 'git log --topo-order --stat --pretty=format:"${_git_log_medium_format}"'
         end
         entry do
-            command 'gmF'
-            name  'joins two or more development histories together but does not commit generating a merge commit even if the merge resolved as a fast-forward.'
+            td_command 'gld'
+            name 'displays the diff log.'
+            notes 'git log --topo-order --stat --patch --full-diff --pretty=format:"${_git_log_medium_format}"'
         end
         entry do
-            command 'gma'
-            name  'aborts the conflict resolution, and reconstructs the pre-merge state.'
+            td_command 'glo'
+            name 'displays the one line log.'
+            notes 'git log --topo-order --pretty=format:"${_git_log_oneline_format}"'
         end
         entry do
-            command 'gmt'
-            name  'runs the merge conflict resolution tools to resolve conflicts.'
+            td_command 'glg'
+            name 'displays the graph log.'
+            notes 'git log --topo-order --all --graph --pretty=format:"${_git_log_oneline_format}"'
+        end
+        entry do
+            td_command 'glb'
+            name 'displays the brief commit log.'
+            notes 'git log --topo-order --pretty=format:"${_git_log_brief_format}"'
+        end
+        entry do
+            td_command 'glc'
+            name 'displays the commit count for each contributor in descending order.'
+            notes 'git shortlog --summary --numbered'
+        end
+        entry do
+            td_command 'glS'
+            name 'displays the log and checks the validity of signed commits.'
+            notes 'git log --show-signature'
         end
     end
 
     category do
-        id 'Push'
+        id 'Merge (m)'
 
         entry do
-            command 'gp'
-            name  'updates remote refs along with associated objects.'
+            td_command 'gm'
+            name 'joins two or more development histories together.'
+            notes 'git merge'
         end
         entry do
-            command 'gpf'
-            name  'forcefully updates remote refs along with associated objects using the safer "--force-with-lease" option.'
+            td_command 'gmC'
+            name 'joins two or more development histories together but does not commit.'
+            notes 'git merge --no-commit'
         end
         entry do
-            command 'gpF'
-            name  'forcefully updates remote refs along with associated objects using the riskier "--force" option.'
+            td_command 'gmF'
+            name 'joins two or more development histories together but does not commit generating a merge commit even if the merge resolved as a fast-forward.'
+            notes 'git merge --no-ff'
         end
         entry do
-            command 'gpa'
-            name  'updates remote branches along with associated objects.'
+            td_command 'gma'
+            name 'aborts the conflict resolution, and reconstructs the pre-merge state.'
+            notes 'git merge --abort'
         end
         entry do
-            command 'gpA'
-            name  'updates remote branches and tags along with associated objects.'
-        end
-        entry do
-            command 'gpt'
-            name  'updates remote tags along with associated objects.'
-        end
-        entry do
-            command 'gpc'
-            name  'updates remote refs along with associated objects and adds *origin* as an upstream reference for the current branch.'
-        end
-        entry do
-            command 'gpp'
-            name  'pulls and pushes from origin to origin.'
+            td_command 'gmt'
+            name 'runs the merge conflict resolution tools to resolve conflicts.'
+            notes 'git mergetool'
         end
     end
 
     category do
-        id 'Rebase'
+        id 'Push (p)'
 
         entry do
-            command 'gr'
-            name  'forward-ports local commits to the updated upstream head.'
+            td_command 'gp'
+            name 'updates remote refs along with associated objects.'
+            notes 'git push'
         end
         entry do
-            command 'gra'
-            name  'aborts the rebase.'
+            td_command 'gpf'
+            name 'forcefully updates remote refs along with associated objects using the safer "--force-with-lease" option.'
+            notes 'git push --force-with-lease'
         end
         entry do
-            command 'grc'
-            name  'continues the rebase after merge conflicts are resolved.'
+            td_command 'gpF'
+            name 'forcefully updates remote refs along with associated objects using the riskier "--force" option.'
+            notes 'git push --force'
         end
         entry do
-            command 'gri'
-            name  'makes a list of commits to be rebased and opens the editor.'
+            td_command 'gpa'
+            name 'updates remote branches along with associated objects.'
+            notes 'git push --all'
         end
         entry do
-            command 'grs'
-            name  'skips the current patch.'
+            td_command 'gpA'
+            name 'updates remote branches and tags along with associated objects.'
+            notes 'git push --all && git push --tags'
+        end
+        entry do
+            td_command 'gpt'
+            name 'updates remote tags along with associated objects.'
+            notes 'git push --tags'
+        end
+        entry do
+            td_command 'gpc'
+            name 'updates remote refs along with associated objects and adds *origin* as an upstream reference for the current branch.'
+            notes 'git push --set-upstream origin "$(git-branch-current 2> /dev/null)"'
+        end
+        entry do
+            td_command 'gpp'
+            name 'pulls and pushes from origin to origin.'
+            notes 'git pull origin "$(git-branch-current 2> /dev/null)" && git push origin "$(git-branch-current 2> /dev/null)"'
         end
     end
 
     category do
-        id 'Remote'
+        id 'Rebase (r)'
 
         entry do
-            command 'gR'
-            name  'manages tracked repositories.'
+            td_command 'gr'
+            name 'forward-ports local commits to the updated upstream head.'
+            notes 'git rebase'
         end
         entry do
-            command 'gRl'
-            name  'lists remote             names and their URLs.'
+            td_command 'gra'
+            name 'aborts the rebase.'
+            notes 'git rebase --abort'
         end
         entry do
-            command 'gRa'
-            name  'adds a new remote.'
+            td_command 'grc'
+            name 'continues the rebase after merge conflicts are resolved.'
+            notes 'git rebase --continue'
         end
         entry do
-            command 'gRx'
-            name  'removes a remote.'
+            td_command 'gri'
+            name 'makes a list of commits to be rebased and opens the editor.'
+            notes 'git rebase --interactive'
         end
         entry do
-            command 'gRm'
-            name  're           names a remote.'
-        end
-        entry do
-            command 'gRu'
-            name  'fetches remotes updates.'
-        end
-        entry do
-            command 'gRp'
-            name  'prunes all stale remote tracking branches.'
-        end
-        entry do
-            command 'gRs'
-            name  'displays information about a given remote.'
-        end
-        entry do
-            command 'gRb'
-            name  'opens a remote on [GitHub][3] in the default browser.'
+            td_command 'grs'
+            name 'skips the current patch.'
+            notes 'git rebase --skip'
         end
     end
 
     category do
-        id 'Stash'
+        id 'Remote (R)'
 
         entry do
-            command 'gs'
-            name  'stashes the changes of the dirty working directory.'
+            td_command 'gR'
+            name 'manages tracked repositories.'
+            notes 'git remote'
         end
         entry do
-            command 'gsa'
-            name  'applies the changes recorded in a stash to the working directory.'
+            td_command 'gRl'
+            name 'lists remote             names and their URLs.'
+            notes 'git remote --verbose'
         end
         entry do
-            command 'gsx'
-            name  'drops a stashed state.'
+            td_command 'gRa'
+            name 'adds a new remote.'
+            notes 'git remote add'
         end
         entry do
-            command 'gsX'
-            name  'drops all the stashed states.'
+            td_command 'gRx'
+            name 'removes a remote.'
+            notes 'git remote rm'
         end
         entry do
-            command 'gsl'
-            name  'lists stashed states.'
+            td_command 'gRm'
+            name 'renames a remote.'
+            notes 'git remote rename'
         end
         entry do
-            command 'gsL'
-            name  'lists dropped stashed states.'
+            td_command 'gRu'
+            name 'fetches remotes updates.'
+            notes 'git remote update'
         end
         entry do
-            command 'gsd'
-            name  'displays changes between the stash and its original parent.'
+            td_command 'gRp'
+            name 'prunes all stale remote tracking branches.'
+            notes 'git remote prune'
         end
         entry do
-            command 'gsp'
-            name  'removes and applies a single stashed state from the stash list.'
+            td_command 'gRs'
+            name 'displays information about a given remote.'
+            notes 'git remote show'
         end
         entry do
-            command 'gsr'
-            name  'recovers a given stashed state.'
-        end
-        entry do
-            command 'gss'
-            name  'stashes the changes of the dirty working directory, including untracked.'
-        end
-        entry do
-            command 'gsS'
-            name  'stashes the changes of the dirty working directory interactively.'
-        end
-        entry do
-            command 'gsw'
-            name  'stashes the changes of the dirty working directory retaining the index.'
+            td_command 'gRb'
+            name 'opens a remote on [GitHub][3] in the default browser.'
+            notes 'git-hub-browse'
         end
     end
 
     category do
-        id 'Submodule'
+        id 'Stash (s)'
 
         entry do
-            command 'gS'
-            name  'initializes, updates, or inspects submodules.'
+            td_command 'gs'
+            name 'stashes the changes of the dirty working directory.'
+            notes 'git stash'
         end
         entry do
-            command 'gSa'
-            name  'adds given a repository as a submodule.'
+            td_command 'gsa'
+            name 'applies the changes recorded in a stash to the working directory.'
+            notes 'git stash apply'
         end
         entry do
-            command 'gSf'
-            name  'evaluates a shell command in each of checked out submodules.'
+            td_command 'gsx'
+            name 'drops a stashed state.'
+            notes 'git stash drop'
         end
         entry do
-            command 'gSi'
-            name  'initializes submodules.'
+            td_command 'gsX'
+            name 'drops all the stashed states.'
+            notes 'git-stash-clear-interactive'
         end
         entry do
-            command 'gSI'
-            name  'initializes and clones submodules recursively.'
+            td_command 'gsl'
+            name 'lists stashed states.'
+            notes 'git stash list'
         end
         entry do
-            command 'gSl'
-            name  'lists the commits of all submodules.'
+            td_command 'gsL'
+            name 'lists dropped stashed states.'
+            notes 'git-stash-dropped'
         end
         entry do
-            command 'gSm'
-            name  'moves a submodule.'
+            td_command 'gsd'
+            name 'displays changes between the stash and its original parent.'
+            notes 'git stash show --patch --stat'
         end
         entry do
-            command 'gSs'
-            name  'synchronizes submodules remote URL to the value specified in .gitmodules.'
+            td_command 'gsp'
+            name 'removes and applies a single stashed state from the stash list.'
+            notes 'git stash pop'
         end
         entry do
-            command 'gSu'
-            name  'fetches and merges the latest changes for all submodule.'
+            td_command 'gsr'
+            name 'recovers a given stashed state.'
+            notes 'git-stash-recover'
         end
         entry do
-            command 'gSx'
-            name  'removes a submodule.'
+            td_command 'gss'
+            name 'stashes the changes of the dirty working directory, including untracked.'
+            notes 'git stash save --include-untracked'
+        end
+        entry do
+            td_command 'gsS'
+            name 'stashes the changes of the dirty working directory interactively.'
+            notes 'git stash save --patch --no-keep-index'
+        end
+        entry do
+            td_command 'gsw'
+            name 'stashes the changes of the dirty working directory retaining the index.'
+            notes 'git stash save --include-untracked --keep-index'
         end
     end
 
     category do
-        id 'Tag'
+        id 'Submodule (S)'
 
         entry do
-            command 'gt'
-            name  'lists tags or creates tag.'
+            td_command 'gS'
+            name 'initializes, updates, or inspects submodules.'
+            notes 'git submodule'
         end
         entry do
-            command 'gtl'
-            name  'lists tags matching pattern.'
+            td_command 'gSa'
+            name 'adds given a repository as a submodule.'
+            notes 'git submodule add'
         end
         entry do
-            command 'gts'
-            name  'creates a signed tag.'
+            td_command 'gSf'
+            name 'evaluates a shell command in each of checked out submodules.'
+            notes 'git submodule foreach'
         end
         entry do
-            command 'gtv'
-            name  'validate a signed tag.'
+            td_command 'gSi'
+            name 'initializes submodules.'
+            notes 'git submodule init'
+        end
+        entry do
+            td_command 'gSI'
+            name 'initializes and clones submodules recursively.'
+            notes 'git submodule update --init --recursive'
+        end
+        entry do
+            td_command 'gSl'
+            name 'lists the commits of all submodules.'
+            notes 'git submodule status'
+        end
+        entry do
+            td_command 'gSm'
+            name 'moves a submodule.'
+            notes 'git-submodule-move'
+        end
+        entry do
+            td_command 'gSs'
+            name 'synchronizes submodules remote URL to the value specified in .gitmodules.'
+            notes 'git submodule sync'
+        end
+        entry do
+            td_command 'gSu'
+            name 'fetches and merges the latest changes for all submodule.'
+            notes 'git submodule foreach git pull origin master'
+        end
+        entry do
+            td_command 'gSx'
+            name 'removes a submodule.'
+            notes 'git-submodule-remove'
         end
     end
 
     category do
-        id 'Working directory'
+        id 'Tag (t)'
 
         entry do
-            command 'gws'
-            name  'displays working-tree status in the short format.'
+            td_command 'gt'
+            name 'lists tags or creates tag.'
+            notes 'git tag'
         end
         entry do
-            command 'gwS'
-            name  'displays working-tree status.'
+            td_command 'gtl'
+            name 'lists tags matching pattern.'
+            notes 'git tag -l'
         end
         entry do
-            command 'gwd'
-            name  'displays changes between the working tree and the index (diff).'
+            td_command 'gts'
+            name 'creates a signed tag.'
+            notes 'git tag -s'
         end
         entry do
-            command 'gwD'
-            name  'displays changes between the working tree and the index (word diff).'
+            td_command 'gtv'
+            name 'validate a signed tag.'
+            notes 'git verify-tag'
+        end
+    end
+
+    category do
+        id 'Working directory (w)'
+
+        entry do
+            td_command 'gws'
+            name 'displays working-tree status in the short format.'
+            notes 'git status --ignore-submodules=${_git_status_ignore_submodules} --short'
         end
         entry do
-            command 'gwr'
-            name  'resets the current HEAD to the specified state, does not touch the index nor the working tree.'
+            td_command 'gwS'
+            name 'displays working-tree status.'
+            notes 'git status --ignore-submodules=${_git_status_ignore_submodules}'
         end
         entry do
-            command 'gwR'
-            name  'resets the current HEAD, index and working tree to the specified state.'
+            td_command 'gwd'
+            name 'displays changes between the working tree and the index (diff).'
+            notes 'git diff --no-ext-diff'
         end
         entry do
-            command 'gwc'
-            name  'removes untracked files from the working tree (dry-run).'
+            td_command 'gwD'
+            name 'displays changes between the working tree and the index (word diff).'
+            notes 'git diff --no-ext-diff --word-diff'
         end
         entry do
-            command 'gwC'
-            name  'removes untracked files from the working tree.'
+            td_command 'gwr'
+            name 'resets the current HEAD to the specified state, does not touch the index nor the working tree.'
+            notes 'git reset --soft'
         end
         entry do
-            command 'gwx'
-            name  'removes files from the working tree and from the index recursively.'
+            td_command 'gwR'
+            name 'resets the current HEAD, index and working tree to the specified state.'
+            notes 'git reset --hard'
         end
         entry do
-            command 'gwX'
-            name  'removes files from the working tree and from the index recursively and forcefully.'
+            td_command 'gwc'
+            name 'removes untracked files from the working tree (dry-run).'
+            notes 'git clean -n'
+        end
+        entry do
+            td_command 'gwC'
+            name 'removes untracked files from the working tree.'
+            notes 'git clean -f'
+        end
+        entry do
+            td_command 'gwx'
+            name 'removes files from the working tree and from the index recursively.'
+            notes 'git rm -r'
+        end
+        entry do
+            td_command 'gwX'
+            name 'removes files from the working tree and from the index recursively and forcefully.'
+            notes 'git rm -rf'
         end
     end
 end
