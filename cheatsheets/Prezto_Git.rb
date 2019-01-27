@@ -2,6 +2,7 @@ cheatsheet do
    title 'Prezto Git'
    docset_file_name 'Prezto_Git'
    keyword 'g'
+   source_url 'http://cheat.kapeli.com'
    style '
      td.td_notes code {
        border: none;
@@ -1097,7 +1098,7 @@ cheatsheet do
     end
 
     category do
-        id 'Working directory (w)'
+        id 'Working Directory (w)'
 
         entry do
             td_command 'gws'
