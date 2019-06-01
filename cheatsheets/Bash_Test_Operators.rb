@@ -1,17 +1,17 @@
 cheatsheet do
   title 'Bash Test Operators'
-  docset_file_name 'Bash_Tests'
+  docset_file_name 'Bash_Test_Operators'
   keyword 'bashtests'
   source_url 'http://cheat.kapeli.com'
 
   introduction <<-'END'
     Everything that can be useful in test constructs (if statements) in a bash environment.
 
-    This cheatsheet is based on the [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/tests.html) by Mendel Cooper.
+    This cheat sheet is based on the [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/tests.html) by Mendel Cooper.
   END
 
   category do
-    id 'Compound comparison'
+    id 'Compound Comparison'
 
     entry do
       command '-a'
@@ -26,7 +26,7 @@ cheatsheet do
   end
 
   category do
-    id 'Integer comparison'
+    id 'Integer Comparison'
 
     entry do
       command '-eq'
@@ -98,7 +98,7 @@ cheatsheet do
 
 
   category do
-    id 'String comparison'
+    id 'String Comparison'
 
     entry do
       command '='

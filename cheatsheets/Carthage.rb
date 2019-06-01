@@ -2,7 +2,8 @@ cheatsheet do
   title 'Carthage'
   docset_file_name 'Carthage'
   keyword 'carthage'
-  
+  source_url 'http://cheat.kapeli.com'
+
   # A cheat sheet must consist of categories
   category do
     id 'Downloading Libraries'  # Must be unique and is used as title of the category
