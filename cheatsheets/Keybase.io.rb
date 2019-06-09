@@ -340,11 +340,11 @@ cheatsheet do
     end
 
     entry do
-      command 'sign --clearsign -m'
+      command 'pgp sign --clearsign -m'
       name 'Sign message without encoding'
       notes '
       ```terminal
-      keybase sign --clearsign -m <message>
+      keybase pgp sign --clearsign -m <message>
       ```
       Sign, but don\'t encode contents.'
     end
