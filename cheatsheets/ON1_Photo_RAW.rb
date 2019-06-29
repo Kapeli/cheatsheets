@@ -1,18 +1,15 @@
 cheatsheet do
-  title 'ON1 PHOTO RAW'               # Will be displayed by Dash in the docset list
-  docset_file_name 'ON1PhotoRaw'    # Used for the filename of the docset
-  keyword 'on1'             # Used as the initial search keyword (listed in Preferences > Docsets)
-  # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
-  
-  # introduction '**ON1 PHOTO RAW** cheat sheet'  # Optional, can contain Markdown or HTML
+  title 'ON1 Photo RAW'
+  docset_file_name 'ON1_Photo_RAW'
+  keyword 'on1'
+  source_url 'http://cheat.kapeli.com'
 
-  # A cheat sheet must consist of categories
   category do
-    id 'Change Modules/Tabs'  # Must be unique and is used as title of the category
+    id 'Change Modules/Tabs'
 
     entry do
-      command 'G'         # Optional
-      name 'Browse'    # A short name, can contain Markdown or HTML
+      command 'G'
+      name 'Browse'
     end
     entry do
       command 'D'
@@ -56,7 +53,7 @@ cheatsheet do
       name 'Zoom to 100%'
     end
     entry do
-      command 'Hold space'
+      command 'Hold Space'
       name 'Pan photo'
     end
   end
@@ -114,7 +111,7 @@ cheatsheet do
       name 'Show Mask'
     end
     entry do
-      command 'hold J'
+      command 'Hold J'
       name 'Show Clipping'
     end
     entry do
@@ -188,7 +185,7 @@ cheatsheet do
       name 'Open Quick View Browser'
     end
     entry do
-      command 'CMD+click'
+      command 'CMD+Click'
       name 'Insert Preset'
     end
   end
@@ -259,7 +256,7 @@ cheatsheet do
     end
     entry do
       command 'SHIFT+X'
-      command 'hold ALT'
+      command 'Hold ALT'
       name 'Toggle Paint-in/Paint-out'
     end
     entry do
@@ -267,7 +264,7 @@ cheatsheet do
       name 'Invert Mask'
     end
     entry do
-      command 'SHIFT+click'
+      command 'SHIFT+Click'
       name 'Draw Straight Line'
     end
   end
