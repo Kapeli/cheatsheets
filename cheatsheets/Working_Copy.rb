@@ -1,10 +1,9 @@
 cheatsheet do
   title 'Working Copy'
-  docset_file_name 'workingcopy.rb'
+  docset_file_name 'Working_Copy'
   keyword 'workingcopy'
   source_url 'http://cheat.kapeli.com'
   introduction 'Keyboard shortcuts for **Working Copy**, the **best Git client for iOS**.'
-
 
   category do
     id 'General'
@@ -15,11 +14,11 @@ cheatsheet do
     end
     entry do
       command 'CMD+CTRL+ALT+T'
-      name 'Toggle Light/Dark Mode'
+      name 'Toggle light/dark mode'
     end
     entry do
       command 'CMD+.'
-      name 'Dismiss View'
+      name 'Dismiss view'
       notes 'Used in logs, settings and other similar views.'
     end
     entry do
@@ -32,7 +31,7 @@ cheatsheet do
     id 'Logs'
     entry do
       command 'CMD+L'
-      name 'View Logs'
+      name 'View logs'
     end
   end
 
@@ -48,15 +47,15 @@ cheatsheet do
     end
     entry do
       command 'CMD+ALT+F'
-      name 'Search Files in Current Repository'
+      name 'Search files in current repository'
     end
     entry do
       command 'CMD+SHIFT+R'
-      name 'View Repository List'
+      name 'View repository list'
     end
     entry do
       command 'CMD+SHIFT+S'
-      name 'View Repository Status'
+      name 'View repository status'
     end
   end
 
