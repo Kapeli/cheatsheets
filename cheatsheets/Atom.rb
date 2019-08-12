@@ -24,7 +24,7 @@ cheatsheet do
     end
     entry do
       command 'CMD+,'
-      name 'Open Settings view'
+      name 'Open settings'
     end
   end
 
