@@ -22,6 +22,10 @@ cheatsheet do
       command 'CTRL+SHIFT+L'
       name 'Select grammar (set/change syntax)'
     end
+    entry do
+      command 'CMD+,'
+      name 'Open Settings view'
+    end
   end
 
   category do
