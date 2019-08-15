@@ -113,7 +113,7 @@ cheatsheet do
     end
     entry do
       command 'CMD+8'
-      name 'Show eigth tab'
+      name 'Show eighth tab'
     end
     entry do
       command 'CMD+9'
