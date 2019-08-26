@@ -166,19 +166,18 @@ cheatsheet do
   
   category do
     id 'encode / decode'
-    
     entry do
-      name 'to encode to base64 '
+      name 'to encode to base64'
       notes '
       ```
-      openssl enc -base64 <<< 'Hello, World!'
+      openssl enc -base64 <<< "Hello, World!"
       openssl base64 -in <infile> -out <outfile>
       ```
       '
     end
     
     entry do
-      name 'to decode from base64 '
+      name 'to decode from base64'
       notes '
       ```
       openssl enc -base64 -d <<< SGVsbG8sIFdvcmxkIQo=
