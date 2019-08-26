@@ -163,6 +163,48 @@ cheatsheet do
       '
     end
   end
+  
+  category do
+    id 'encode / decode'
+    entry do
+      name 'to encode to base64'
+      notes '
+      ```
+      openssl enc -base64 <<< "Hello, World!"
+      openssl base64 -in <infile> -out <outfile>
+      ```
+      '
+    end
+    
+    entry do
+      name 'to decode from base64'
+      notes '
+      ```
+      openssl enc -base64 -d <<< SGVsbG8sIFdvcmxkIQo=
+      openssl base64 -d -in <infile> -out <outfile>
+      ```
+      '
+    end
+    
+    entry do
+      name 'to generate rand'
+      notes '
+      ```
+      openssl rand -base 10
+      openssl rand -hex 10
+      ```
+      '
+    end
+    
+    entry do
+      name 'to get a list of available ciphers'
+      notes '
+      ```
+      openssl list-cipher-algorithms
+      ```
+      '
+    end
+  end
 
   notes <<-'END'
     * Created by [Greg Bataille](http://www.github.com/gbataille)
