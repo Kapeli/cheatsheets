@@ -142,5 +142,33 @@ cheatsheet do
       notes 'Highlight selected text.'
     end
   end
+  category do
+    id 'Structuring Text'
+    entry do
+      command 'CMD+CTRL+RightArrow'
+      name 'group text under parent'
+      notes 'Make selected text(s) children of text or folder above.'
+    end
+    entry do
+      command 'CMD+CTRL+LeftArrow'
+      name 'ungroup text from parent'
+      notes 'Bring selected text(s) on same hierarchy level as their current parent.'
+    end
+    entry do
+      command 'CMD+SHIFT+M'
+      name 'merge selected texts'
+      notes 'Merge selected texts into a single document.'
+    end
+    entry do
+      command 'CMD+ALT+K'
+      name 'split at selection'
+      notes 'Split the text at selection and create a new text with the part below the split.'
+    end
+    entry do
+      command 'CMD+ALT+SHIFT+K'
+      name 'split with selection as title'
+      notes 'Like split a selection, but sets the selected text as title of the newly created split.'
+    end
+  end
   notes 'Find the manual in *Help/Scrivener Manual* or using *CMD+?*'
 end
