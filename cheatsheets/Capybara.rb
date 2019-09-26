@@ -4,7 +4,7 @@ cheatsheet do
   keyword 'capybara'
   source_url 'http://cheat.kapeli.com'
 
-  
+
   category do
       id 'Navigation'
       entry do
@@ -68,7 +68,7 @@ cheatsheet do
           Returns an array of Capybara::Node::Element instance from the page.'
       end
   end
-  
+
   category do
       id 'Page Assertions'
       entry do
@@ -87,6 +87,14 @@ cheatsheet do
           expect(page).to have_content(\'What are you looking for?\')
           ```
           Asserts that certain text is present on the page.'
+      end
+      entry do
+          name 'Current URL path comparison'
+          notes '
+          ```ruby
+          expect(page).to have_current_path(prefix_path)
+          ```
+          '
       end
   end
   category do
@@ -147,7 +155,7 @@ cheatsheet do
           name 'Uncheck'
           notes '
           ```ruby
-          uncheck \'Admin access?\' 
+          uncheck \'Admin access?\'
           ```
           Unchecks a checkbox. Pass the label text.'
       end
@@ -158,6 +166,14 @@ cheatsheet do
           select \'MA\', from: \'State\'
           ```
           Selects an option from a select tag.'
+      end
+      entry do
+          name 'Attach file'
+          notes '
+          ```ruby
+          attach_file \'Image\', \'path/to/image.jpg\'
+          ```
+          Attaches a file.'
       end
       entry do
           name 'Click button'
@@ -187,8 +203,40 @@ cheatsheet do
           Save a screenshot of the current page and open in the default image viewer.'
       end
   end
+  category do
+      id 'Waiting...'
+      entry do
+          name "Capybara automatically waits for asynchronous operations to complete.
+          When you try to find an element that isn't on the page, it waits and retries until it is there, or a timeout duration elapses.
+          The wait time is defined at ```Capybara.default_max_wait_time```."
+          notes 'Thanks to [this gist](https://gist.github.com/zhengjia/428105#gistcomment-1413436) and [this presentation](https://speakerdeck.com/timmoore/embracing-capybara)'
+      end
+      entry do
+          name 'Methods that wait'
+          notes '
+          - ```find(selector)```, ```find_field```, ```find_link```
+          - ```within(selector)(scoping)```
+          - ```has_selector?```, ```has_no_selector?``` & assertions
+          - form & link actions
+            - ```click_link```, ```click_button```
+            - ```fill_in```
+            - ```check/uncheck```, ```select```, ```choose```
+          '
+      end
+      entry do
+          name "Methods that don't wait"
+          notes '
+          - ```visit```
+          - ```current_path```
+          - ```all(selector)```
+          - ```first(selector)```
+          - ```execute_script```
+          - simple accessors: ```text```, ```value```, ```title```, etc.
+          '
+      end
+  end
   notes <<-'END'
-  * Based on a [cheat sheet](https://learn.thoughtbot.com/test-driven-rails-resources/capybara.pdf) by [thoughtbot](http://thoughtbot.com/)
+  * Based on a [cheat sheet](https://learn.thoughtbot.com/test-driven-rails-resources/capybara.pdf) by [thoughtbot](http://thoughtbot.com/).
   END
-  
+
 end

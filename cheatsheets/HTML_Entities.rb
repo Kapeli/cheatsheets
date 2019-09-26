@@ -4329,5 +4329,13 @@ cheatsheet do
       td_command ''
       name 'Latin small letter y with stroke'
     end
+
+    entry do
+      td_command '™'
+      td_command '&#8482'
+      td_command '&#x2122'
+      td_command '&trade;'
+      name 'Trademark symbol'
+    end
   end
 end

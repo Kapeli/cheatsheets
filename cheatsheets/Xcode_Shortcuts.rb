@@ -19,6 +19,18 @@ cheatsheet do
       name 'Select current file in project navigator'
     end
     entry do
+      command 'CTRL+`'
+      name 'Move focus to next editor'
+    end
+    entry do
+      command 'CMD+SHIFT+{`'
+      name 'Select previous tab'
+    end
+    entry do
+      command 'CMD+SHIFT+}`'
+      name 'Select next tab'
+    end
+    entry do
       command 'CMD+CTRL+Arrow Up'
       name 'Next counterpart'
     end
@@ -51,7 +63,7 @@ cheatsheet do
       name 'Fold section'
     end
     entry do
-      command 'CMD+CTRL+Arrow Right'
+      command 'CMD+ALT+Arrow Right'
       name 'Unfold section'
     end
     entry do
@@ -93,6 +105,10 @@ cheatsheet do
     entry do
       command 'CTRL+Space'
       name 'Toggle completion'
+    end
+    entry do
+      command 'Esc'
+      name 'Toggle auto completion'
     end
     entry do
       command 'CMD+CTRL+E'

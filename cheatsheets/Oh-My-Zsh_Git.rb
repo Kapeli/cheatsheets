@@ -59,9 +59,73 @@ git branch -a
     entry do
       name '
 ```
+git branch --merged | command grep -vE "^(*|\smaster\s$)" | command xargs -n 1 git branch -d
+```'
+      command "gbda"
+    end
+
+    entry do
+      name '
+```
+git blame -b -w
+```'
+      command "gbl"
+    end
+
+    entry do
+      name '
+```
+git branch --no-merged
+```'
+      command "gbnm"
+    end
+
+    entry do
+      name '
+```
 git branch --remote
 ```'
       command "gbr"
+    end
+
+    entry do
+      name '
+```
+git bisect
+```'
+      command "gbs"
+    end
+
+    entry do
+      name '
+```
+git gbsb
+```'
+      command "git bisect bad"
+    end
+
+    entry do
+      name '
+```
+git gbsg
+```'
+      command "git bisect good"
+    end
+
+    entry do
+      name '
+```
+git gbsr
+```'
+      command "git bisect reset"
+    end
+
+    entry do
+      name '
+```
+git bisect start
+```'
+      command "gbss"
     end
 
     entry do
@@ -91,9 +155,41 @@ git commit -v -a
     entry do
       name '
 ```
+git commit -a -m
+```'
+      command "gcam"
+    end
+
+    entry do
+      name '
+```
 git commit -v -a --amend
 ```'
       command "gca!"
+    end
+
+    entry do
+      name '
+```
+git commit -v -a -s --no-edit --amend
+```'
+      command "gcan!"
+    end
+
+    entry do
+      name '
+```
+git checkout -b
+```'
+      command "gcb"
+    end
+
+    entry do
+      name '
+```
+git config --list
+```'
+      command "gcf"
     end
 
     entry do
@@ -115,17 +211,17 @@ git clean -fd
     entry do
       name '
 ```
-git reset --hard && git clean -dfx
+git checkout master
 ```'
-      command "gpristine"
+      command "gcm"
     end
 
     entry do
       name '
 ```
-git checkout master
+git checkout develop
 ```'
-      command "gcm"
+      command "gcd"
     end
 
     entry do
@@ -163,6 +259,22 @@ git cherry-pick
     entry do
       name '
 ```
+git cherry-pick --abort
+```'
+      command "gcpa"
+    end
+
+    entry do
+      name '
+```
+git cherry-pick --continue
+```'
+      command "gcpc"
+    end
+
+    entry do
+      name '
+```
 git commit -S
 ```'
       command "gcs"
@@ -195,9 +307,17 @@ git diff-tree --no-commit-id --name-only -r
     entry do
       name '
 ```
-git difftool
+git diff --word-diff
 ```'
-      command "gdt"
+      command "gdw"
+    end
+
+    entry do
+      name '
+```
+git fetch
+```'
+      command "gf"
     end
 
     entry do
@@ -206,6 +326,14 @@ git difftool
 git fetch --all --prune
 ```'
       command "gfa"
+    end
+
+    entry do
+      name '
+```
+git fetch origin
+```'
+      command "gfo"
     end
 
     entry do
@@ -227,9 +355,9 @@ git gui citool --amend
     entry do
       name '
 ```
-git pull origin $(current_branch) && git push origin $(current_branch)
+git help
 ```'
-      command "ggpnp"
+      command "ghh"
     end
 
     entry do
@@ -271,7 +399,7 @@ git push origin $(current_branch)
 ```'
       command "ggpush"
     end
-
+    
     entry do
       name '
 ```
@@ -286,6 +414,14 @@ git push origin $(current_branch)
 git branch --set-upstream-to=origin/$(current_branch)
 ```'
       command "ggsup"
+    end
+
+    entry do
+      name '
+```
+git push --set-upstream origin $(current_branch)
+```'
+      command "gpsup"
     end
 
     entry do
@@ -315,9 +451,17 @@ git svn dcommit && git push github master:svntrunk
     entry do
       name '
 ```
-gitk --all --branches
+\gitk --all --branches
 ```'
       command "gk"
+    end
+
+    entry do
+      name '
+```
+\gitk --all $(git log -g --pretty = format:\%h)
+```'
+      command "gke"
     end
 
     entry do
@@ -331,7 +475,7 @@ git pull
     entry do
       name '
 ```
-git log --stat --max-count = 10
+git log --stat --color
 ```'
       command "glg"
     end
@@ -339,7 +483,7 @@ git log --stat --max-count = 10
     entry do
       name '
 ```
-git log --graph --max-count = 10
+git log --graph --color
 ```'
       command "glgg"
     end
@@ -350,6 +494,22 @@ git log --graph --max-count = 10
 git log --graph --decorate --all
 ```'
       command "glgga"
+    end
+
+    entry do
+      name '
+```
+git log --graph --max-count = 10
+```'
+      command "glgm"
+    end
+
+    entry do
+      name '
+```
+git log --stat --color -p
+```'
+      command "glgp"
     end
 
     entry do
@@ -371,7 +531,23 @@ git log --oneline --decorate --color --graph
     entry do
       name '
 ```
-_git_log_prettily (git log --pretty=$1)
+git log --graph --pretty = format:\'\%Cred\%h\%Creset -\%C(yellow)\%d\%Creset \%s \%Cgreen(\%cr) \%C(bold blue)<\%an>\%Creset\' --abbrev-commit
+```'
+      command "glol"
+    end
+
+    entry do
+      name '
+```
+git log --graph --pretty = format:\'\%Cred\%h\%Creset -\%C(yellow)\%d\%Creset \%s \%Cgreen(\%cr) \%C(bold blue)<\%an>\%Creset\' --abbrev-commit --all
+```'
+      command "glola"
+    end
+
+    entry do
+      name '
+```
+_git_log_prettily
 ```'
       command "glp"
     end
@@ -387,9 +563,33 @@ git merge
     entry do
       name '
 ```
+git merge origin/master
+```'
+      command "gmom"
+    end
+
+    entry do
+      name '
+```
 git mergetool --no-prompt
 ```'
       command "gmt"
+    end
+
+    entry do
+      name '
+```
+git mergetool --no-prompt --tool = vimdiff
+```'
+      command "gmtvim"
+    end
+
+    entry do
+      name '
+```
+git merge upstream/master
+```'
+      command "gmum"
     end
 
     entry do
@@ -403,6 +603,14 @@ git push
     entry do
       name '
 ```
+git push --dry-run
+```'
+      command "gpd"
+    end
+
+    entry do
+      name '
+```
 git push origin --all && git push origin --tags
 ```'
       command "gpoat"
@@ -411,9 +619,49 @@ git push origin --all && git push origin --tags
     entry do
       name '
 ```
+git reset --hard && git clean -dfx
+```'
+      command "gpristine"
+    end
+
+    entry do
+      name '
+```
+git push upstream
+```'
+      command "gpu"
+    end
+
+    entry do
+      name '
+```
+git push -v
+```'
+      command "gpv"
+    end
+
+    entry do
+      name '
+```
 git remote
 ```'
       command "gr"
+    end
+
+    entry do
+      name '
+```
+git remote add
+```'
+      command "gra"
+    end
+
+    entry do
+      name '
+```
+git rebase
+```'
+      command "grb"
     end
 
     entry do
@@ -438,6 +686,22 @@ git rebase --continue
 git rebase -i
 ```'
       command "grbi"
+    end
+
+    entry do
+      name '
+```
+git rebase master
+```'
+      command "grbm"
+    end
+
+    entry do
+      name '
+```
+git rebase --skip
+```'
+      command "grbs"
     end
 
     entry do
@@ -491,6 +755,14 @@ cd $(git rev-parse --show-toplevel
     entry do
       name '
 ```
+git reset --
+```'
+      command "gru"
+    end
+
+    entry do
+      name '
+```
 git remote update
 ```'
       command "grup"
@@ -507,9 +779,25 @@ git remote -v
     entry do
       name '
 ```
+git status -sb
+```'
+      command "gsb"
+    end
+
+    entry do
+      name '
+```
 git svn dcommit
 ```'
       command "gsd"
+    end
+
+    entry do
+      name '
+```
+git submodule init
+```'
+      command "gsi"
     end
 
     entry do
@@ -547,9 +835,17 @@ git status
     entry do
       name '
 ```
-git stash
+git stash save
 ```'
       command "gsta"
+    end
+
+    entry do
+      name '
+```
+git stash apply
+```'
+      command "gstaa"
     end
 
     entry do
@@ -563,6 +859,14 @@ git stash drop
     entry do
       name '
 ```
+git stash list
+```'
+      command "gstl"
+    end
+
+    entry do
+      name '
+```
 git stash pop
 ```'
       command "gstp"
@@ -571,9 +875,25 @@ git stash pop
     entry do
       name '
 ```
+git stash clear
+```'
+      command "gstc"
+    end
+
+    entry do
+      name '
+```
 git stash show --text
 ```'
       command "gsts"
+    end
+
+    entry do
+      name '
+```
+git submodule update
+```'
+      command "gsu"
     end
 
     entry do
@@ -595,7 +915,7 @@ git update-index --no-assume-unchanged
     entry do
       name '
 ```
-git log -n 1
+git log -n 1 | grep -q -c "--wip--" && git reset HEAD~1
 ```'
       command "gunwip"
     end
@@ -611,6 +931,14 @@ git pull --rebase
     entry do
       name '
 ```
+git pull --rebase -v
+```'
+      command "gupv"
+    end
+
+    entry do
+      name '
+```
 git verify-tag
 ```'
       command "gvt"
@@ -621,13 +949,13 @@ git verify-tag
 ```
 git whatchanged -p --abbrev-commit --pretty = medium
 ```'
-      command "gwc"
+      command "gwch"
     end
 
     entry do
       name '
 ```
-git add -A; git ls-files --deleted -z
+git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit -m "--wip--"
 ```'
       command "gwip"
     end
@@ -635,7 +963,6 @@ git add -A; git ls-files --deleted -z
 
   notes <<-'END'
   * Based on the oh-my-zsh [Wiki Page](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet#helpful-aliases-for-common-git-tasks)
-  * Converted by [Carsten] (https://github.com/BanditsBacon)
-  * Converted by [ftwbzhao] (https://github.com/ftwbzhao)
+  * Converted by [Carsten](https://github.com/BanditsBacon) and [ftwbzhao](https://github.com/ftwbzhao)
   END
 end

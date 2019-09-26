@@ -19,7 +19,7 @@ cheatsheet do
       name 'Clone an existing repository and all its sub-modules recursively'
       notes "
         ```
-        git clone --recursive ssh://user@domain.tld/repo.git
+        git clone --recurse-submodules ssh://user@domain.tld/repo.git
         ```"
     end
 
@@ -187,6 +187,14 @@ cheatsheet do
       git log --author=<committer name>
       ```
       Note: `<committer name>` is a pattern, so `Ed` will match `Edward Smith`. Quotes are optional if the pattern doesn't contain spaces."
+    end
+    
+    entry do
+      name 'Search (grep) commit messages for the given string'
+      notes "
+      ```
+      git log --grep=<string>
+      ```"
     end
 
     entry do
@@ -546,11 +554,12 @@ cheatsheet do
     entry do
       name 'Remove a submodule'
       notes "
-      1. Delete the relevant line from the `.gitmodules` file
-      2. Delete the relevant section from `.git/config`
-      3. Run `git rm --cached <submodule-path>` (no trailing slash)
-      4. Commit the superproject
-      5. Delete the now untracked submodule files"
+      1. `git submodule deinit -f <submodule_path>`
+      2. `rm -rf .git/modules/<submodule_path>`
+      3. `git rm -f <submodule_path>`
+      
+      ([Details](https://stackoverflow.com/a/36593218/514210))
+      "
     end
 
     entry do
@@ -562,7 +571,7 @@ cheatsheet do
       
       or 
       
-      Run `git clone --recursive ssh://user@domain.tld/repo.git`
+      Run `git clone --recurse-submodules ssh://user@domain.tld/repo.git`
       "
     end
 

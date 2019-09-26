@@ -3,19 +3,25 @@ cheatsheet do
     docset_file_name 'Vim'
     keyword 'vimc'
     source_url 'http://cheat.kapeli.com'
-    
+
     category do
-        id 'How to Exit'
-        
+        id 'Exiting'
+
         entry do
             command ':q[uit]'
             name 'Quit Vim'
-            notes 'This fails when changes have been made'
+            notes 'This fails when changes have been made.'
         end
         entry do
             command ':q[uit]!'
             name 'Quit without writing'
         end
+
+        entry do
+            command ':qa'
+            name 'Quit all buffers / tabs'
+        end
+
         entry do
             command ':cq[uit]'
             name 'Quit always, without writing'
@@ -23,6 +29,10 @@ cheatsheet do
         entry do
             command ':wq'
             name 'Write the current file and exit'
+        end
+        entry do
+            command ':wqa'
+            name 'Quit and write all buffers / tabs'
         end
         entry do
             command ':wq!'
@@ -47,23 +57,23 @@ cheatsheet do
         entry do
             command 'ZQ'
             name 'Quit current file and exit'
-            notes 'Same as `:q!`'
+            notes 'Same as `:q!`.'
         end
-        
+
     end
 
     category do
         id 'Editing a File'
-        
+
         entry do
             command ':e[dit]'
             name 'Edit the current file'
-            notes 'This is useful to re-edit the current file, when it has been changed outside of Vim'
+            notes 'This is useful to re-edit the current file, when it has been changed outside of Vim.'
         end
         entry do
             command ':e[dit]!'
             name 'Edit the current file always'
-            notes 'Discard any changes to the current buffer. This is useful if you want to start all over again'
+            notes 'Discard any changes to the current buffer. This is useful if you want to start all over again.'
         end
         entry do
             command ':e[dit] {file}'
@@ -72,18 +82,18 @@ cheatsheet do
         entry do
             command ':e[dit]! {file}'
             name 'Edit {file} always'
-            notes 'Discard any changes to the current buffer'
+            notes 'Discard any changes to the current buffer.'
         end
         entry do
             command 'gf'
             name 'Edit the file whose name is under or after the cursor'
-            notes 'Mnemonic: `goto file`'
+            notes 'Mnemonic: `goto file`.'
         end
     end
 
     category do
         id 'Inserting Text'
-        
+
         entry do
             command 'a'
             name 'Append text after the cursor [count] times'
@@ -153,7 +163,7 @@ cheatsheet do
             command '{Visual}x'
             command '{Visual}d'
             name 'Delete the highlighted text'
-            notes 'For {Visual} see Selecting Text'
+            notes 'For {Visual} see Selecting Text.'
         end
         entry do
             command '{Visual}CTRL-H'
@@ -168,7 +178,7 @@ cheatsheet do
         entry do
             command ':[range]d[elete]'
             name 'Delete [range] lines'
-            notes 'Default: current line'
+            notes 'Default: current line.'
         end
         entry do
             command ':[range]d[elete] {count}'
@@ -189,15 +199,42 @@ cheatsheet do
         entry do
             command '~'
             name 'Switch case of the character under the cursor and move the cursor to the right'
-            notes 'If a [count] is given, do that many characters'
+            notes 'If a [count] is given, do that many characters.'
         end
         entry do
-            command '~{motion}'
+            command 'g~{motion}'
             name 'Switch case of {motion} text'
         end
         entry do
             command '{Visual}~'
             name 'Switch case of highlighted text'
+        end
+        entry do
+            command '{Visual}U'
+            name 'Uppercase highlighted text'
+    end
+        entry do
+              command 'SHIFT+I<comment-char>ESC'
+              name 'Comment vertical selection'
+              notes 'Select range in column where comment char should appear with `CTRL+V`.'
+        end
+        entry do
+              command 'x'
+              name 'Uncomment vertical selection'
+              notes 'Select range in column where comment char should be removed with `CTRL+V`.'
+        end
+    end
+
+    category do
+        id 'Information'
+
+        entry do
+          command '%'
+          name 'Jump to matching brace'
+        end
+        entry do
+          command '*'
+          name 'Highlight all occurrences of word under cursor'
         end
     end
 
@@ -216,7 +253,7 @@ cheatsheet do
             END
         end
     end
-    
+
     category do
         id 'Substituting'
         entry do
@@ -232,7 +269,7 @@ cheatsheet do
             ```
             :[range]s[ubstitute] [c][e][g][r][i][I] [count] :[range]&[c][e][g][r][i][I] [count]
             ```
-            You may add extra flags'
+            You may add extra flags.'
         end
         entry do
             notes <<-'END'
@@ -241,11 +278,10 @@ cheatsheet do
             * `[c]` Confirm each substitution. Vim positions the cursor on the matching string. You can type:
               * `y`      to substitute this match
               * `n`      to skip this match
-              * `<Esc>`   to skip this match
-              * `a`      to substitute this and all remaining matches {not in Vi}
-              * `q`      to quit substituting {not in Vi}
-              * `CTRL-E`  to scroll the screen up {not in Vi}
-              * `CTRL-Y`  to scroll the screen down {not in Vi}
+              * `a`      to substitute this and all remaining matches
+              * `q`      to quit substituting
+              * `CTRL-E`  to scroll the screen up
+              * `CTRL-Y`  to scroll the screen down
 
             * `[e]` When the search pattern fails, do not issue an error message and, in particular, continue in maps as if no error occurred
             * `[g]`  Replace all occurrences in the line. Without this argument, replacement occurs only for the first occurrence in each line
@@ -261,7 +297,7 @@ cheatsheet do
         entry do
             command '"{a-zA-Z0-9.%#:-"}'
             name 'Use register {a-zA-Z0-9.%#:-"} for next delete, yank or put'
-            notes 'Use uppercase character to append with delete and yank. {.%#:} only work with put'
+            notes 'Use uppercase character to append with delete and yank. {.%#:} only work with put.'
         end
         entry do
             command ':reg[isters]'
@@ -285,7 +321,7 @@ cheatsheet do
         entry do
             command '{Visual}["x]y'
             name 'Yank the highlighted text \[into register x\]'
-            notes 'For {Visual} see Selecting Text'
+            notes 'For {Visual} see Selecting Text.'
         end
         entry do
             command '{Visual}["x]Y'
@@ -298,7 +334,7 @@ cheatsheet do
         entry do
             command ':[range]y[ank] [x] {count}'
             name 'Yank {count} lines, starting with last line number in \[range\], [into register x]'
-            notes 'Default: current line'
+            notes 'Default: current line.'
         end
         entry do
             command '["x]p'
@@ -319,12 +355,12 @@ cheatsheet do
         entry do
             command ':[line]pu[t] [x]'
             name 'Put the text [from register x] after \[line\]'
-            notes 'Default: current line'
+            notes 'Default: current line.'
         end
         entry do
             command ':[line]pu[t]! [x]'
             name 'Put the text [from register x] before \[line\]'
-            notes 'Default: current line'
+            notes 'Default: current line.'
         end
     end
 
@@ -332,7 +368,7 @@ cheatsheet do
 
     category do
         id 'Undo, Redo and Repeat'
-        
+
         entry do
             command 'u'
             name 'Undo [count] changes'
@@ -351,7 +387,7 @@ cheatsheet do
         end
         entry do
             command 'U'
-            name 'Undo all latest changes on one line. {Vi: while not moved off of it}'
+            name 'Undo all latest changes on one line.'
         end
         entry do
             command '.'
@@ -361,7 +397,7 @@ cheatsheet do
 
     category do
         id 'Moving Around'
-        
+
         entry do
             name 'Basic motion commands'
             notes <<-'END'
@@ -420,14 +456,14 @@ cheatsheet do
         end
         entry do
             command 'g^'
-            name 'To the first non-blank character of the screen line (exclusive) when lines wrap (\'wrap\' on). Differs from `^` when a line is wider than the screen. 
+            name 'To the first non-blank character of the screen line (exclusive) when lines wrap (\'wrap\' on). Differs from `^` when a line is wider than the screen.
 
             To the leftmost non-blank character of the current line that is on the screen when lines don\'t wrap (\'wrap\' off). Differs from `^` when the first non-blank character of the line is not on the screen'
         end
         entry do
             command 'g$'
             command 'g<End>'
-            name 'To the last character of the screen line and [count - 1] screen lines downward (inclusive) when lines wrap (\'wrap\' on). Differs from `$` when a line is wider than the screen. 
+            name 'To the last character of the screen line and [count - 1] screen lines downward (inclusive) when lines wrap (\'wrap\' on). Differs from `$` when a line is wider than the screen.
 
             To the rightmost character of the current line that is visible on the screen when lines don\'t wrap (\'wrap\' off). Differs from `$` when the last character of the line is not on the screen or when a count is used'
         end
@@ -471,24 +507,24 @@ cheatsheet do
             name '[count] - 1 lines downward, on the first non-blank character (linewise)'
         end
         entry do
-            command '<C-End>'
+            command 'CTRL-End'
             command 'G'
             name 'Goto line [count] on the first non-blank character'
-            notes 'Default: last line'
+            notes 'Default: last line.'
         end
         entry do
-            command '<C-Home>'
+            command 'CTRL-Home'
             command 'gg'
             name 'Goto line [count] on the first non-blank character'
-            notes 'Default: first line'
+            notes 'Default: first line.'
         end
         entry do
-            command '<S-Right>'
+            command 'SHIFT-Right'
             command 'w'
             name '[count] words forward'
         end
         entry do
-            command '<C-Right>'
+            command 'CTRL-Right'
             command 'W'
             name '[count] WORDS forward'
         end
@@ -501,12 +537,12 @@ cheatsheet do
             name 'Forward to the end of WORD [count]'
         end
         entry do
-            command '<S-Left>'
+            command 'SHIFT-Left'
             command 'b'
             name '[count] words backward'
         end
         entry do
-            command '<C-Left>'
+            command 'CTRL-Left'
             command 'B'
             name '[count] WORDS backward'
         end
@@ -518,7 +554,31 @@ cheatsheet do
             command 'gE'
             name 'Backward to the end of WORD [count]'
         end
-        
+        entry do
+            command 'H'
+            name 'Move to the top of the screen'
+        end
+        entry do
+            command 'M'
+            name 'Move to the middle of the screen'
+        end
+        entry do
+            command 'L'
+            name 'Move to the bottom of the screen'
+        end
+        entry do
+            command 'zz'
+            name 'Scroll the line with the cursor to the center of the screen'
+        end
+        entry do
+            command 'zt'
+            name 'Scroll the line with the cursor to the top'
+        end
+        entry do
+            command 'zb'
+            name 'Scroll the line with the cursor to the bottom'
+        end
+
         entry do
             notes <<-'END'
             The following commands move over words or WORDS.
@@ -528,7 +588,7 @@ cheatsheet do
             A WORD consists of a sequence of non-blank characters, separated with white space. An empty line is also considered to be a word and a WORD.
             END
         end
-    
+
         entry do
             command '('
             name '[count] sentences backward'
@@ -548,7 +608,7 @@ cheatsheet do
         entry do
             command ']]'
             name '[count] sections forward or to the next \'{\' in the first column'
-            notes 'When used after an operator, then the \'}\' in the first column'
+            notes 'When used after an operator, then the \'}\' in the first column.'
         end
         entry do
             command ']['
@@ -571,19 +631,19 @@ cheatsheet do
         entry do
             command 'm{a-zA-Z}'
             name 'Set mark {a-zA-Z} at cursor position'
-            notes 'Does not move the cursor, this is not a motion command'
+            notes 'Does not move the cursor, this is not a motion command.'
         end
         entry do
             command 'm\''
             command 'm\`'
             name 'Set the previous context mark'
-            notes 'This can be jumped to with the `\'\'` or ``` `` ``` command. Does not move the cursor, this is not a motion command'
+            notes 'This can be jumped to with the `\'\'` or ``` `` ``` command. Does not move the cursor, this is not a motion command.'
         end
         entry do
             command ':[range]ma[rk] {a-zA-Z}'
             command ':[range]k{a-zA-Z}'
             name 'Set mark {a-zA-Z} at last line number in [range], column 0'
-            notes 'Default is cursor line'
+            notes 'Default is cursor line.'
         end
         entry do
             command '\'{a-z}'
@@ -629,7 +689,7 @@ cheatsheet do
         entry do
             command '//{offset}<CR>'
             name 'Search forward for the [count]\'th latest used pattern with new'
-            notes 'If {offset} is empty no offset is used'
+            notes 'If {offset} is empty no offset is used.'
         end
         entry do
             command '?{pattern}[?]<CR>'
@@ -646,7 +706,7 @@ cheatsheet do
         entry do
             command '??{offset}<CR>'
             name 'Search backward for the [count]\'th latest used pattern with new {offset}'
-            notes 'If {offset} is empty no offset is used'
+            notes 'If {offset} is empty no offset is used.'
         end
         entry do
             command 'n'
@@ -656,11 +716,22 @@ cheatsheet do
             command 'N'
             name 'Repeat the latest `/` or `?` [count] times in opposite direction'
         end
+        entry do
+            command ':lv {pattern} [g][j] {file(s)}'
+            name 'Search in files with internal grep'
+            notes <<-'END'
+            Results are put into "quickfix list" open with `:cw`
+
+            * 'g' return all matches not just one per line
+            * 'j' don't jump to first match automatically
+            * for recursive search use `**` file pattern like `**/*.c`
+            END
+        end
     end
 
     category do
         id 'Selecting Text (Visual Mode)'
-    
+
         entry do
             notes <<-'END'
             To select text, enter visual mode with one of the commands below, and use motion commands to highlight the text you are interested in. Then, use some command on the text.
@@ -694,16 +765,20 @@ cheatsheet do
             command '<Esc>'
             name 'Exit Visual mode without making any changes'
         end
+        entry do
+              command 'viw'
+              name 'Visually select inner word (where the cursor is positioned)'
+    end
     end
 
 
     category do
-        id 'How to Suspend'
-    
+        id 'Suspending'
+
         entry do
             command 'CTRL-Z'
             name 'Suspend Vim'
-            notes 'Like `:stop`. Works in Normal and in Visual mode. In Insert and Command-line mode, the CTRL-Z is inserted as a normal character'
+            notes 'Like `:stop`. Works in Normal and in Visual mode. In Insert and Command-line mode, the CTRL-Z is inserted as a normal character.'
         end
         entry do
             command ':sus[pend][!]'
@@ -711,12 +786,12 @@ cheatsheet do
             name 'Suspend Vim!'
             notes 'If the \'!\' is not given and \'autowrite\' is set, every buffer with changes and a file name is written out. If the \'!\' is given or \'autowrite\' is not set, changed buffers are not written, don\'t forget to bring Vim back to the foreground later!'
         end
-    
+
     end
 
     category do
         id 'Multiple Windows'
-        
+
         entry do
             command ':e filename'
             name 'Edit another file'
@@ -728,17 +803,17 @@ cheatsheet do
         end
 
         entry do
-            command 'CTRL-WV'
+            command 'CTRL-W v'
             name 'Vertical split current window'
         end
 
         entry do
-            command 'CTRL-WS'
+            command 'CTRL-W s'
             name 'Horizontal split current window'
         end
 
         entry do
-            command 'CTRL-W Up Arrow'
+            command 'CTRL-W Arrow Up'
             name 'Move cursor up a window'
         end
 
@@ -790,6 +865,63 @@ cheatsheet do
         entry do
             command ':b 2'
             name 'Open buffer #2 in this window'
+        end
+
+        entry do
+            command ':bd[n]'
+            name 'Close current buffer'
+            notes 'If `[n]` is given close buffer `#n`. `#n` can be gathered with `:ls`.'
+        end
+    end
+
+    category do
+        id 'Browsing with Tags'
+        entry do
+            notes <<-'END'
+                When editing programs, there is often a need to jump to another location. Vim uses a tags file that lists each word and
+                location. The tags file has to be created by a utility able to handle the syntax of your files, and has to be updated after significant editing has occurred.
+            END
+        end
+
+        entry do
+            command 'CTRL-]'
+            command 'LMB-on-tag+CTRL'
+            command 'g LMB-on-tag'
+            name 'Jump to tag'
+            notes 'Postion the cursor over a tag name, visually select text, use the left-mouse-button (LMB). Pushes current location to tag stack for later return.'
+        end
+
+        entry do
+            command 'CTRL+t'
+            name 'Return after jump'
+            notes 'Pops location to jump to from tag stack.'
+        end
+          entry do
+            command ':tags'
+            name 'Show tag stack'
+            notes 'List of return locations, used by `CTRL+t`.'
+    end
+    end
+
+    category do
+        id 'Internal Lists'
+        entry do
+            notes <<-'END'
+              * Vim has one global quickfix list. The list contains file positions filled by other commands.
+              * Vim has one location list per window. The list is similar to a quickfix list and contains a list of positions in filesi.
+            END
+          end
+        entry do
+            command ':cw'
+            name 'Open "quickfix list" (one global list)'
+        end
+        entry do
+          command ':ccl'
+          name 'Close "quickfix list"'
+        end
+        entry do
+            command ':lw'
+            name 'Open "location list" (one per window)'
         end
     end
 

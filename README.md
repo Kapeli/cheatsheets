@@ -3,6 +3,8 @@ Dash Cheat Sheets
 
 All the [Dash](https://kapeli.com/dash) cheat sheets that can be installed from Preferences > Downloads > Cheat Sheets can be found in this repo. You can modify them or add new ones using pull requests.
 
+The cheat sheets are also available online at https://kapeli.com/cheatsheets.
+
 # Make Your Own
 
 Cheat sheets are generated using [cheatset](https://github.com/Kapeli/cheatset#readme). Check out cheatset's [README](https://github.com/Kapeli/cheatset#readme) for instructions on how to make your own cheat sheet.
@@ -10,8 +12,6 @@ Cheat sheets are generated using [cheatset](https://github.com/Kapeli/cheatset#r
 To modify an existing cheet sheet, simply fork this repo and look inside the "cheatsheets" folder. The [format](https://github.com/Kapeli/cheatset#readme) used to define a cheat sheet is quite simple, so don't be afraid to jump right in.
 
 # Guidelines
-
-Important: don't let guidelines stop you from contributing a cheat sheet. Even if your cheat sheet does not follow the guidelines, it will be accepted and then modified/improved later on by me.
 
 **1. Naming**
 

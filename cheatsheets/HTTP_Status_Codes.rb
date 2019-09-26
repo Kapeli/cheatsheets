@@ -147,7 +147,7 @@ cheatsheet do
 
     entry do
       name '401 Unauthorized'
-      notes 'The requestor is not authorized to access the resource. This is similar to `403` but is used in cases where authentication is expected but has failed or has not been provided.'
+      notes 'The requester is not authorized to access the resource. This is similar to `403` but is used in cases where authentication is expected but has failed or has not been provided.'
     end
 
     entry do
@@ -229,6 +229,13 @@ cheatsheet do
       name '417 Expectation failed'
       notes "The server cannot meet the requirements of the Expect request-header field."
     end
+    
+    entry do
+      name '418 I\'m a teapot'
+      notes "Any attempt to brew coffee with a teapot should result in the error code \"418 I'm a teapot\". The resulting entity body MAY be short and stout.
+
+      HTCPCP - [RFC 2324](https://tools.ietf.org/html/rfc2324#section-2.3.2)"
+    end
 
     entry do
       name '421 Misdirected request'
@@ -305,8 +312,12 @@ cheatsheet do
     end
 
     entry do
-      name '451 Unavailable For Legal Reasons (Internet draft)'
-      notes "Defined in the internet draft [\"A New HTTP Status Code for Legally-restricted Resources\"](http://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-05). Intended to be used when resource access is denied for legal reasons, e.g. censorship or government-mandated blocked access. A reference to the 1953 dystopian novel Fahrenheit 451, where books are outlawed."
+      name '451 Unavailable For Legal Reasons'
+      notes "A server operator has received a legal demand to deny access to a resource or to a set of resources that includes the requested resource.
+
+      The code 451 was chosen as a reference to the 1953 dystopian novel *Fahrenheit 451*, where books are outlawed.
+
+      An HTTP Status Code to Report Legal Obstacles - [RFC 7725](https://tools.ietf.org/html/rfc7725)"
     end
 
     entry do
@@ -318,26 +329,32 @@ cheatsheet do
       name '494 Request Header Too Large (Nginx)'
       notes "Nginx internal code similar to 431 but it was introduced earlier in version 0.9.4 (on January 21, 2011)."
     end
+
     entry do
       name '495 Cert Error (Nginx)'
       notes "Nginx internal code used when SSL client certificate error occurred to distinguish it from 4XX in a log and an error page redirection."
     end
+
     entry do
       name '496 No Cert (Nginx)'
       notes "Nginx internal code used when client didn't provide certificate to distinguish it from 4XX in a log and an error page redirection."
     end
+
     entry do
       name '497 HTTP to HTTPS (Nginx)'
       notes "Nginx internal code used for the plain HTTP requests that are sent to HTTPS port to distinguish it from 4XX in a log and an error page redirection."
     end
+
     entry do
       name '498 Token expired/invalid (Esri)'
       notes "Returned by ArcGIS for Server. A code of 498 indicates an expired or otherwise invalid token."
     end
+
     entry do
       name '499 Client Closed Request (Nginx)'
       notes "Used in Nginx logs to indicate when the connection has been closed by client while the server is still processing its request, making server unable to send a status code back."
     end
+
     entry do
       name '499 Token required (Esri)'
       notes "Returned by ArcGIS for Server. A code of 499 indicates that a token is required (if no token was submitted)."
@@ -414,8 +431,43 @@ cheatsheet do
     end
 
     entry do
-      name '520 Unknown Error (Microsoft / Cloudflare)'
-      notes "This status code is not specified in any RFC and is returned by certain services, for instance Microsoft Azure and Cloudflare servers: \"The 520 error is essentially a \"catch-all\" response for when the origin server returns something unexpected or something that is not tolerated/interpreted (protocol violation or empty response).\""
+      name '520 Unknown Error (Microsoft / CloudFlare)'
+      notes "This status code is not specified in any RFC and is returned by certain services, for instance Microsoft Azure and CloudFlare servers: \"The 520 error is essentially a \"catch-all\" response for when the origin server returns something unexpected or something that is not tolerated/interpreted (protocol violation or empty response).\""
+    end
+    
+    entry do
+      name '521 Web Server Is Down (CloudFlare)'
+      notes "The origin server has refused the connection from CloudFlare."
+    end
+    
+    entry do
+      name '522 Connection Timed Out (CloudFlare)'
+      notes "CloudFlare could not negotiate a TCP handshake with the origin server."
+    end
+
+    entry do
+      name '523 Origin Is Unreachable (CloudFlare)'
+      notes "CloudFlare could not reach the origin server; for example, if the DNS records for the origin server are incorrect."
+    end
+
+    entry do
+      name '524 A Timeout Occurred (CloudFlare)'
+      notes "CloudFlare was able to complete a TCP connection to the origin server, but did not receive a timely HTTP response."
+    end
+
+    entry do
+      name '525 SSL Handshake Failed (CloudFlare)'
+      notes "CloudFlare could not negotiate a SSL/TLS handshake with the origin server."
+    end
+
+    entry do
+      name '526 Invalid SSL Certificate (CloudFlare)'
+      notes "CloudFlare could not validate the SSL/TLS certificate that the origin server presented."
+    end
+
+    entry do
+      name '527 Railgun Error (CloudFlare)'
+      notes "The request timed out or failed after the WAN connection has been established."
     end
   end
 

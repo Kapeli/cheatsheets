@@ -253,36 +253,35 @@ cheatsheet do
   category do
     id 'Assertions'    
     entry do
-      command '?='
-      name 'Lookahead assertion'
+      command '(?=…)'
+      name 'Positive lookahead'
     end    
     entry do
-      command '?!'
+      command '(?!…)'
       name 'Negative lookahead'
     end    
     entry do
-      command '?<=' 
-      name 'Lookbehind assertion'
+      command '(?<=…)' 
+      name 'Positive lookbehind'
     end
     entry do
-      command '?!=' 
-      command '?<!'
+      command '(?<!…)'
       name 'Negative lookbehind'
     end    
     entry do
-      command '?>'
-      name 'Once-only subexp­ression'
+      command '(?>…)'
+      name 'Atomic (once-only) group'
     end    
     entry do
-      command '?()' 
-      name 'Condition if-then'
+      command '(?(a)b)' 
+      name 'Conditional (if a then match b)'
     end
     entry do
-      command '?()|'
-      name 'Condition if-then-else'
+      command '(?(a)b|c)'
+      name 'Conditional (if a then match b, else match c)'
     end    
     entry do
-      command '?#'
+      command '(?#…)'
       name 'Comment'
     end
   end

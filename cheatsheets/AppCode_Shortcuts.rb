@@ -215,6 +215,25 @@ cheatsheet do
     end
   end
 
+  category do
+    id 'Multi-Cursor Editing'
+    entry do
+      command 'CTRL+G'
+      name 'Select next occurrence'
+    end
+    entry do
+      command 'CTRL+SHIFT+G'
+      name 'Unselect last selected occurrence'
+    end
+    entry do
+      command 'CMD+CTRL+G'
+      name 'Select all occurrences'
+    end
+    entry do
+      command 'ALT+Left Click'
+      name 'Add new cursor'
+    end
+  end
 
   category do
     id 'Search / Replace'

@@ -75,13 +75,6 @@ cheatsheet do
       # "
     end
     entry do
-      name '[square](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_the_2D_Subsystem#square) ([width, height], center)'
-      # notes "
-      # Creates a square at the origin of the coordinate system. When center is true the square will be centered on the origin,
-      # otherwise it is created in the first quadrant.
-      # "
-    end
-    entry do
       name '[polygon](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_the_2D_Subsystem#polygon) ([points])'
       # notes "
       # "
@@ -97,16 +90,28 @@ cheatsheet do
       # "
     end
     entry do
-      name '[text](http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Text) (text, size, font, halign, valign, spacing, direction, language, script)'
+      name '[square](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_the_2D_Subsystem#square) ([width, height], center)'
+      # notes "
+      # Creates a square at the origin of the coordinate system. When center is true the square will be centered on the origin,
+      # otherwise it is created in the first quadrant.
+      # "
+    end
+    entry do
+      name '[text](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Text) (text, size, font, halign, valign, spacing, direction, language, script)'
+      # notes "
+      # [Note: Requires version 2015.03]
+      # Create text using fonts installed on the local system or provided as separate font file.
+      #
+      # ```
+      # text(t, size, font, halign, valign, spacing, direction, language, script);
+      # ```
+      # "
     end
   end
 
   category do
     id '3D'
 
-    entry do
-      name '[sphere](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Primitive_Solids#sphere) (radius | d=diameter)'
-    end
     entry do
       name '[cube](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Primitive_Solids#cube) (size)'
     end
@@ -121,6 +126,9 @@ cheatsheet do
     end
     entry do
       name '[polyhedron](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Primitive_Solids#polyhedron) (points, triangles, convexity)'
+    end
+    entry do
+      name '[sphere](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Primitive_Solids#sphere) (radius | d=diameter)'
     end
   end
 
@@ -163,7 +171,7 @@ cheatsheet do
   end
 
   category do
-    id 'Boolean Operations'
+    id 'Boolean operations'
 
     entry do
       name '[union](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/CSG_Modelling#union)()'
@@ -181,19 +189,19 @@ cheatsheet do
 
     entry do
       name '[*](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Modifier_Characters#Disable_Modifier)'
-      td_notes "disable"
+      td_notes "Disable"
     end
     entry do
       name '[!](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Modifier_Characters#Root_Modifier)'
-      td_notes "show only"
+      td_notes "Show only"
     end
     entry do
       name '[#](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Modifier_Characters#Debug_Modifier)'
-      td_notes "highlight"
+      td_notes "Highlight / debug"
     end
     entry do
       name '[%](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Modifier_Characters#Background_Modifier)'
-      td_notes "transparent"
+      td_notes "Transparent / background"
     end
   end
 
@@ -202,18 +210,6 @@ cheatsheet do
 
     entry do
       name '[abs](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#abs)'
-    end
-    entry do
-      name '[sign](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#sign)'
-    end
-    entry do
-      name '[sin](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#sin)'
-    end
-    entry do
-      name '[cos](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#cos)'
-    end
-    entry do
-      name '[tan](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#tan)'
     end
     entry do
       name '[acos](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#acos)'
@@ -228,40 +224,55 @@ cheatsheet do
       name '[atan2](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#atan2)'
     end
     entry do
-      name '[floor](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#floor)'
-    end
-    entry do
-      name '[round](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#round)'
-    end
-    entry do
       name '[ceil](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#ceil)'
     end
     entry do
-      name '[ln](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#ln)'
-    end
-    entry do
-      name '[len](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#len)'
-    end
-    entry do
-      name '[log](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#log)'
-    end
-    entry do
-      name '[pow](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#pow)'
-    end
-    entry do
-      name '[sqrt](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#sqrt)'
+      name '[cos](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#cos)'
     end
     entry do
       name '[exp](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#exp)'
     end
     entry do
-      name '[rands](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#rands)'
+      name '[floor](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#floor)'
+    end
+    entry do
+      name '[len](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#len)'
+    end
+    entry do
+      name '[let](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#let)'
+    end
+    entry do
+      name '[ln](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#ln)'
+    end
+    entry do
+      name '[log](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#log)'
+    end
+    entry do
+      name '[max](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#max)'
     end
     entry do
       name '[min](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#min)'
     end
     entry do
-      name '[max](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#max)'
+      name '[pow](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#pow)'
+    end
+    entry do
+      name '[rands](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#rands)'
+    end
+    entry do
+      name '[round](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#round)'
+    end
+    entry do
+      name '[sign](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#sign)'
+    end
+    entry do
+      name '[sin](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#sin)'
+    end
+    entry do
+      name '[sqrt](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#sqrt)'
+    end
+    entry do
+      name '[tan](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#tan)'
     end
   end
   
@@ -269,22 +280,28 @@ cheatsheet do
     id 'Functions'
     
     entry do
-      name '[lookup](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#lookup)'
-    end
-    entry do
-      name '[let](http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#let)'
-    end
-    entry do
-      name '[str](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/String_Functions#str)'
-    end
-    entry do
       name '[chr](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/String_Functions#chr)'
     end
     entry do
       name '[concat](http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#concat)'
     end
     entry do
+      name '[cross](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#cross)'
+    end
+    entry do
+      name '[lookup](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#lookup)'
+    end
+    entry do
+      name '[norm](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#norm)'
+    end
+    entry do
+      name '[parent_module](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#parent_module.28n.29_and_.24parent_modules) (idx)'
+    end
+    entry do
       name '[search](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#Search)'
+    end
+    entry do
+      name '[str](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/String_Functions#str)'
     end
     entry do
       name '[version](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#OpenSCAD_Version)'
@@ -292,20 +309,14 @@ cheatsheet do
     entry do
       name '[version_num](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#OpenSCAD_Version)'
     end
-    entry do
-      name '[norm](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#norm)'
-    end
-    entry do
-      name '[cross](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Mathematical_Functions#cross)'
-    end
-    entry do
-      name '[parent_module](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#parent_module.28n.29_and_.24parent_modules) (idx)'
-    end
   end
   
   category do
     id 'Other'
     
+    entry do
+      name '[children](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Modules#children) ([idx])'
+    end
     entry do
       name '[echo](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#Echo_Statements) (...)'
     end
@@ -319,6 +330,12 @@ cheatsheet do
       name '[for](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Conditional_and_Iterator_Functions#For_Loop) (i = [..., ..., ...]) { ... }'
     end
     entry do
+      name '[if](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Conditional_and_Iterator_Functions#If_Statement) (...) { ... }'
+    end
+    entry do
+      name '[import](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Importing_Geometry#import) ("....stl")'
+    end
+    entry do
       name '[intersection_for](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Conditional_and_Iterator_Functions#Intersection_For_Loop) (i = [start:end]) { ... }'
     end
     entry do
@@ -328,22 +345,7 @@ cheatsheet do
       name '[intersection_for](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Conditional_and_Iterator_Functions#Intersection_For_Loop) (i = [..., ..., ...]) { ... }'
     end
     entry do
-      name '[if](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Conditional_and_Iterator_Functions#If_Statement) (...) { ... }'
-    end
-    entry do
-      name '[assign](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Conditional_and_Iterator_Functions#Assign_Statement) (...) { ... }'
-    end
-    entry do
-      name '[import](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Importing_Geometry#import) ("....stl")'
-    end
-    entry do
       name '[linear_extrude](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_the_2D_Subsystem#Linear_Extrude) (height, center, convexity, twist, slices)'
-    end
-    entry do
-      name '[rotate_extrude](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_the_2D_Subsystem#Rotate_Extrude) (convexity)'
-    end
-    entry do
-      name '[surface](http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#Surface) (file, center, invert, convexity)'
     end
     entry do
       name '[projection](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_the_2D_Subsystem#3D_to_2D_Projection) (cut)'
@@ -352,40 +354,64 @@ cheatsheet do
       name '[render](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#Render) (convexity)'
     end
     entry do
-      name '[children](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Modules#children) ([idx])'
+      name '[rotate_extrude](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Using_the_2D_Subsystem#Rotate_Extrude) (convexity)'
+    end
+    entry do
+      name '[surface](http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#Surface) (file, center, invert, convexity)'
     end
   end
   
   category do
+    id 'List Comprehensions'
+
+    entry do
+      name '[Generate](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/List_Comprehensions#for)'
+      td_notes "[ for (i = range|list) i ]"
+    end
+    entry do
+      name '[Conditions](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/List_Comprehensions#if)'
+      td_notes "[ for (i = …) if (condition(i)) i ]"
+    end
+    entry do
+      name '[Assignments](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/List_Comprehensions#let)'
+      td_notes "[ for (i = …) let (assignments) a ]"
+    end
+  end
+
+  category do
     id 'Special Variables'
 
     entry do
+      name '[$children](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/User-Defined_Functions_and_Modules#children)'
+      td_notes "Number of module children"
+    end
+    entry do
       name '[$fa](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24fa.2C_.24fs_and_.24fn)'
-      td_notes "minimum angle"
+      td_notes "Minimum angle"
     end
     entry do
       name '[$fs](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24fa.2C_.24fs_and_.24fn)'
-      td_notes "minimum size"
+      td_notes "Minimum size"
     end
     entry do
       name '[$fn](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24fa.2C_.24fs_and_.24fn)'
-      td_notes "number of fragments"
+      td_notes "Number of fragments"
     end
     entry do
       name '[$t](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24t)'
-      td_notes "animation step"
+      td_notes "Animation step"
     end
     entry do
       name '[$vpr](http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24vpr.2C_.24vpt_and_.24vpd)'
-      td_notes "viewport rotation"
+      td_notes "Viewport rotation"
     end
     entry do
       name '[$vpt](http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24vpr.2C_.24vpt_and_.24vpd)'
-      td_notes "viewport translation"
+      td_notes "Viewport translation"
     end
     entry do
       name '[$vpd](http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Other_Language_Features#.24vpr.2C_.24vpt_and_.24vpd)'
-      td_notes "viewport camera distance"
+      td_notes "Viewport camera distance"
     end
   end
 
@@ -396,5 +422,6 @@ cheatsheet do
   * [MCAD library](https://github.com/openscad/MCAD)
   * [Other links](http://fablabamersfoort.nl/book/openscad)
   * Cheatset created by [Hejki](https://github.com/Hejki/dash-docsets) based by [OpenSCAD CheatSheet](http://www.openscad.org/cheatsheet/index.html)
+  * Thanks to [Matt Sephton](https://github.com/gingerbeardman) for update
   "
 end

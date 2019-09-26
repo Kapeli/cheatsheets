@@ -122,27 +122,13 @@ cheatsheet do
 
     entry do
       command 'PREFIX-%'
-      name 'Vertical split (Standard)'
-    end
-
-    entry do
-      command 'PREFIX-|'
-      name 'Vertical split (Personal)'
-      notes 'In tmux.conf: `bind-key | split-window -v`'
+      name 'Vertical split'
     end
 
     entry do
       command 'PREFIX-"'
-      name 'Horizontal split (Standard)'
+      name 'Horizontal split'
     end
-
-    entry do
-      command 'PREFIX- -'
-      name 'Horizontal split (Personal)'
-      notes 'In tmux.conf: `bind-key | split-window -h`'
-    end
-
-
 
     entry do
       command 'PREFIX-o'
@@ -157,6 +143,11 @@ cheatsheet do
     entry do
       command 'PREFIX-x'
       name 'Kill pane'
+    end
+
+    entry do
+      command 'PREFIX-z'
+      name 'Toggle active pane between zoomed and unzoomed'
     end
 
     entry do
@@ -193,6 +184,7 @@ cheatsheet do
     entry do
       command 'PREFIX-"Meta+{1..5}"'
       name 'Arrange panes in one of the five preset layouts: even-horizontal, even-vertical, main-horizontal, main-vertical, or tiled. Meta key defaults to Alt.'
+      notes 'See the Standard Layouts below'
     end
   end
 
@@ -233,8 +225,13 @@ cheatsheet do
     end
 
     entry do
+      name 'Cursor up'
+      command 'k'
+    end
+
+    entry do
       name 'Cursor down'
-      command    'j'
+      command 'j'
     end
 
     entry do
@@ -260,21 +257,6 @@ cheatsheet do
     entry do
       name 'Cursor to top line'
       command 'H'
-    end
-
-    entry do
-      name 'Cursor up'
-      command 'k'
-    end
-
-    entry do
-      name 'Delete entire line'
-      command 'd'
-    end
-
-    entry do
-      name 'Delete to end of line'
-       command 'D'
     end
 
     entry do
@@ -367,25 +349,25 @@ cheatsheet do
 
   category do
     id 'Resizing Panes'
-    
+
     entry do
       notes <<-'END'
         With most of these the number (`##`) is optional and can be omitted to resize one line.
-        
+
         All of these can be bound to keys:
-        
+
         * `bind H resize-pane -L 5`
         * `bind J resize-pane -D 5`
         * `bind K resize-pane -U 5`
         * `bind L resize-pane -R 5`
       END
     end
-    
+
     entry do
       command 'PREFIX-: resize-pane -D ##'
       name 'Resize the current pane down by `##` lines. The `-D` is optional since by default it moves down'
     end
-    
+
     entry do
       command 'PREFIX-: resize-pane -U ##'
       name 'Resize the current pane up `##` lines'
@@ -400,40 +382,130 @@ cheatsheet do
       command 'PREFIX-: resize-pane -R ##'
       name 'Resize the current pane right `##` lines'
     end
-    
+
     entry do
       command 'PREFIX-: resize-pane -y ##'
       name 'Resize the current pane to `##` lines tall'
     end
-    
+
     entry do
-      command 'PREFIX-: resize pane -x ##'
+      command 'PREFIX-: resize-pane -x ##'
       name 'Resize the current pane to `##` lines wide'
     end
-    
+
   end
 
   category do
     id 'Miscellaneous'
 
     entry do
-      command 'd'
+      command 'PREFIX-d'
       name 'Detach'
     end
 
     entry do
-      command 't'
+      command 'PREFIX-t'
       name 'Big clock'
     end
 
     entry do
-      command '?'
+      command 'PREFIX-?'
       name 'List shortcuts'
     end
 
     entry do
-      command ':'
+      command 'PREFIX-:'
       name 'Prompt'
+    end
+  end
+
+  category do
+    id 'Standard Layouts'
+
+    entry do
+      command 'PREFIX-"Meta+1"'
+      notes <<-'END'
+        ```
+        +-------------------+
+        |    |    |    |    |
+        |    |    |    |    |
+        |    |    |    |    |
+        |    |    |    |    |
+        |    |    |    |    |
+        |    |    |    |    |
+        |    |    |    |    |
+        +-------------------+
+        ```
+      END
+    end
+
+    entry do
+      command 'PREFIX-"Meta+2"'
+      notes <<-'END'
+        ```
+        +-------------------+
+        |                   |
+        +-------------------+
+        |                   |
+        +-------------------+
+        |                   |
+        +-------------------+
+        |                   |
+        +-------------------+
+        ```
+      END
+    end
+
+    entry do
+      command 'PREFIX-"Meta+3"'
+      notes <<-'END'
+        ```
+        +-------------------+
+        |                   |
+        |                   |
+        |                   |
+        |                   |
+        +------+------+-----+
+        |      |      |     |
+        |      |      |     |
+        +------+------+-----+
+        ```
+      END
+    end
+
+    entry do
+      command 'PREFIX-"Meta+4"'
+      notes <<-'END'
+        ```
+        +-------------+-----+
+        |             |     |
+        |             |     |
+        |             +-----+
+        |             |     |
+        |             |     |
+        |             +-----+
+        |             |     |
+        |             |     |
+        +-------------+-----+
+        ```
+      END
+    end
+
+    entry do
+      command 'PREFIX-"Meta+5"'
+      notes <<-'END'
+        ```
+        +---------+---------+
+        |         |         |
+        |         |         |
+        |         |         |
+        +---------+---------+
+        |         |         |
+        |         |         |
+        |         |         |
+        +---------+---------+
+        ```
+      END
     end
   end
 end

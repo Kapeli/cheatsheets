@@ -861,18 +861,18 @@ cheatsheet do
     end
 
     entry do
+      command 'brewo'
+      name 'Lists brews which have an update available'
+    end
+    
+    entry do
       command 'brews'
       name 'Searches for a formula'
     end
 
     entry do
-      command 'brewU'
-      name 'Upgrades Homebrew and outdated brews'
-    end
-
-    entry do
       command 'brewu'
-      name 'Upgrades Homebrew'
+      name 'Updates and upgrades Homebrew packages and formulae'
     end
 
     entry do
@@ -907,6 +907,11 @@ cheatsheet do
     entry do
       command 'caskl'
       name 'Lists installed casks'
+    end
+
+    entry do
+      command 'casko'
+      name 'Lists casks which have an update available'
     end
 
     entry do
@@ -1023,12 +1028,12 @@ cheatsheet do
 
     entry do
       command 'osx-ls-download-history'
-      name 'Displays the Mac OS X download history'
+      name 'Displays the macOS download history'
     end
 
     entry do
       command 'osx-rm-download-history'
-      name 'Deletes the Mac OS X download history'
+      name 'Deletes the macOS download history'
     end
   end
 

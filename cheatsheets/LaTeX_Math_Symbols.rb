@@ -27,7 +27,7 @@ cheatsheet do
       filename.gsub! "/", "slash_sign"
       filename.gsub! "'", "apostrophe_sign"
       filename += suffix
-      %[<img src="media/#{filename}.png" height="20pt"></img>]
+      %[<img style="filter:none !important" src="media/#{filename}.png" height="20pt"></img>]
     end
 
     def self.entry(scope, tex, note=nil)
