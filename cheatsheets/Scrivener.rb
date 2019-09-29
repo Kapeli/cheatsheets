@@ -143,12 +143,12 @@ cheatsheet do
     category do
     id 'Structuring Text'
     entry do
-      command 'CMD+CTRL+RightArrow'
+      command 'CMD+CTRL+Arrow Right'
       name 'Group text'
       notes 'Make selected text(s) children of text or folder above.'
     end
     entry do
-      command 'CMD+CTRL+LeftArrow'
+      command 'CMD+CTRL+Arrow Left'
       name 'Ungroup text'
       notes 'Bring selected text(s) on same hierarchy level as their current parent.'
     end

@@ -165,9 +165,9 @@ cheatsheet do
   end
   
   category do
-    id 'encode / decode'
+    id 'Encode or Decode'
     entry do
-      name 'to encode to base64'
+      name 'Encode to base64'
       notes '
       ```
       openssl enc -base64 <<< "Hello, World!"
@@ -177,7 +177,7 @@ cheatsheet do
     end
     
     entry do
-      name 'to decode from base64'
+      name 'Decode from base64'
       notes '
       ```
       openssl enc -base64 -d <<< SGVsbG8sIFdvcmxkIQo=
@@ -185,19 +185,24 @@ cheatsheet do
       ```
       '
     end
+  end
+
+  category do
+    id 'Utilities'
+
     
     entry do
-      name 'to generate rand'
+      name 'Generate random'
       notes '
       ```
-      openssl rand -base 10
+      openssl rand -base64 10
       openssl rand -hex 10
       ```
       '
     end
     
     entry do
-      name 'to get a list of available ciphers'
+      name 'Get a list of available ciphers'
       notes '
       ```
       openssl list-cipher-algorithms
