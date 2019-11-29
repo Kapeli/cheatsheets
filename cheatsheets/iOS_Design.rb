@@ -44,7 +44,7 @@ cheatsheet do
       td_notes '896 x 414 points'
       name 'iPhone 6.5-inch'
       index_name 'iPhone 6.5-inch Resolution'
-      notes 'iPhone XS Max'
+      notes 'iPhone XS Max, iPhone 11 Pro Max'
     end
 
     entry do
@@ -54,7 +54,7 @@ cheatsheet do
       td_notes '896 x 414 points'
       name 'iPhone 6.1-inch'
       index_name 'iPhone 6.1-inch Resolution'
-      notes 'iPhone XR'
+      notes 'iPhone XR, iPhone 11'
     end
 
     entry do
@@ -64,7 +64,7 @@ cheatsheet do
       td_notes '812 x 375 points'
       name 'iPhone 5.8-inch'
       index_name 'iPhone 5.8-inch Resolution'
-      notes 'iPhone X, iPhone XS'
+      notes 'iPhone X, iPhone XS, iPhone 11 Pro'
     end
 
     entry do
@@ -134,17 +134,27 @@ cheatsheet do
       td_notes '1366 x 1024 points'
       name 'iPad Pro 12.9-inch'
       index_name 'iPad Pro 12.9-inch Resolution'
-      notes 'iPad Pro 12.9 1st and iPad Pro 12.9 2nd'
+      notes 'iPad Pro 12.9-inch 1st, 2nd and 3rd Generation'
     end
 
     entry do
       td_notes '1668 x 2224 px'
       td_notes '2224 x 1668 px'
-      td_notes '834 x 1,112 points'
+      td_notes '834 x 1112 points'
       td_notes '1112 x 834 points'
-      name 'iPad Pro 10.5-inch'
-      index_name 'iPad Pro 10.5-inch Resolution'
-      notes 'iPad Pro 10.5'
+      name 'iPad 10.5-inch'
+      index_name 'iPad 10.5-inch Resolution'
+      notes 'iPad Pro 10.5, iPad Air 10.5'
+    end
+
+    entry do
+      td_notes '1620 x 2160 px'
+      td_notes '2160 x 1620 px'
+      td_notes '810 x 1080 points'
+      td_notes '1080 x 810 points'
+      name 'iPad 10.2-inch'
+      index_name 'iPad 10.2-inch Resolution'
+      notes 'iPad 10.2'
     end
 
     entry do
@@ -174,7 +184,7 @@ cheatsheet do
       td_notes '1024 x 768 points'
       name 'iPad Mini Retina'
       index_name 'iPad Mini Retina Resolution'
-      notes '2nd, 3rd, 4th Generation'
+      notes 'iPad Mini 2nd, 3rd, 4th and 5th Generation'
     end
 
     entry do
@@ -184,7 +194,7 @@ cheatsheet do
       td_notes '1024 x 768 points'
       name 'iPad Mini'
       index_name 'iPad Mini Resolution'
-      notes '1st Generation'
+      notes 'iPad Mini 1st Generation'
     end
 
   end
@@ -206,7 +216,7 @@ cheatsheet do
       td_notes  'Warm'
       name 'iPhone 6.5-inch'
       index_name 'iPhone 6.5-inch Display'
-      notes 'iPhone XS Max'
+      notes 'iPhone XS Max, iPhone 11 Pro Max'
     end
 
     entry do
@@ -217,7 +227,7 @@ cheatsheet do
       td_notes  'Warm'
       name 'iPhone 6.1-inch'
       index_name 'iPhone 6.1-inch Display'
-      notes 'iPhone XR'
+      notes 'iPhone XR, iPhone 11'
     end
 
     entry do
@@ -228,7 +238,7 @@ cheatsheet do
       td_notes  'Warm'
       name 'iPhone 5.8-inch'
       index_name 'iPhone 5.8-inch Display'
-      notes 'iPhone X, iPhone XS'
+      notes 'iPhone X, iPhone XS, iPhone 11 Pro'
     end
 
     entry do
@@ -294,7 +304,7 @@ cheatsheet do
       td_notes 'Warm'
       name 'iPad Pro 12.9-inch'
       index_name 'iPad Pro 12.9-inch Display'
-      notes 'iPad Pro 12.9 1st and iPad Pro 12.9 2nd'
+      notes '1st, 2nd, 3rd Generation'
     end
 
     entry do
@@ -303,9 +313,20 @@ cheatsheet do
       td_notes '`@2x`'
       td_notes '8bit RGB'
       td_notes 'Warm'
-      name 'iPad Pro 10.5-inch'
-      index_name 'iPad Pro 10.5-inch Display'
-      notes 'iPad Pro 10.5'
+      name 'iPad 10.5-inch'
+      index_name 'iPad 10.5-inch Display'
+      notes 'iPad Pro 10.5, iPad Air 10.5'
+    end
+
+    entry do
+      td_notes '10.5"'
+      td_notes '264'
+      td_notes '`@2x`'
+      td_notes '8bit RGB'
+      td_notes 'Warm'
+      name 'iPad 10.2-inch'
+      index_name 'iPad 10.2-inch Display'
+      notes 'iPad 10.2-inch'
     end
 
     entry do
@@ -338,7 +359,7 @@ cheatsheet do
       td_notes  'Warm'
       name 'iPad Mini Retina'
       index_name 'iPad Mini Retina Display'
-      notes '2nd, 3rd, 4th Generation'
+      notes 'iPad Mini 2nd, 3rd, 4th, 5th Generation'
     end
 
     entry do
@@ -349,7 +370,7 @@ cheatsheet do
       td_notes  'Warm'
       name 'iPad Mini'
       index_name 'iPad Mini Display'
-      notes '1st Generation'
+      notes 'iPad Mini 1st Generation'
     end
 
   end
@@ -369,7 +390,7 @@ cheatsheet do
       td_notes '87 x 87 px'
       name 'iPhone 6.5-inch'
       index_name 'iPhone 6.5-inch Dimensions'
-      notes 'iPhone XS Max'
+      notes 'iPhone XS Max, iPhone 11 Pro Max'
     end
 
     entry do
@@ -379,7 +400,7 @@ cheatsheet do
       td_notes '58 x 58 px'
       name 'iPhone 6.1-inch'
       index_name 'iPhone 6.1-inch Dimensions'
-      notes 'iPhone XR'
+      notes 'iPhone XR, iPhone 11'
     end
 
     entry do
@@ -389,7 +410,7 @@ cheatsheet do
       td_notes '87 x 87 px'
       name 'iPhone 5.8-inch'
       index_name 'iPhone 5.8-inch Dimensions'
-      notes 'iPhone X, iPhone XS'
+      notes 'iPhone X, iPhone XS, iPhone 11 Pro'
     end
 
     entry do
@@ -439,7 +460,7 @@ cheatsheet do
       td_notes '58 x 58 px'
       name 'iPad Pro 12.9-inch'
       index_name 'iPad Pro 12.9-inch Dimensions'
-      notes 'iPad Pro 12.9 1st and iPad Pro 12.9 2nd'
+      notes 'iPad Pro 12.9-inch 1st, 2nd, 3rd Generation'
     end
 
     entry do
@@ -447,9 +468,9 @@ cheatsheet do
       td_notes '1024 x 1024 px'
       td_notes '80 x 80 px'
       td_notes '58 x 58 px'
-      name 'iPad Pro 10.5-inch'
-      index_name 'iPad Pro 10.5-inch Dimensions'
-      notes 'iPad Pro 10.5'
+      name 'iPad 10.5-inch'
+      index_name 'iPad 10.5-inch Dimensions'
+      notes 'iPad Pro 10.5, iPad Air 10.5'
     end
 
     entry do
@@ -479,7 +500,7 @@ cheatsheet do
       td_notes '58 x 58 px'
       name 'iPad Mini Retina'
       index_name 'iPad Mini Retina Dimensions'
-      notes '2nd, 3rd, 4th Generation'
+      notes 'iPad Mini 2nd, 3rd, 4th and 5th Generation'
     end
 
     entry do
@@ -489,7 +510,7 @@ cheatsheet do
       td_notes '29 x 29 px'
       name 'iPad Mini'
       index_name 'iPad Mini Dimensions'
-      notes '1st Generation'
+      notes 'iPad Mini 1st Generation'
     end
 
   end
@@ -510,7 +531,7 @@ cheatsheet do
       td_notes '1242 / 2688 px'
       name 'iPhone 6.5-inch'
       index_name 'iPhone 6.5-inch Design Elements'
-      notes 'iPhone XS Max'
+      notes 'iPhone XS Max, iPhone 11 Pro Max'
     end
 
     entry do
@@ -520,7 +541,7 @@ cheatsheet do
       td_notes '828 / 1792 px'
       name 'iPhone 6.1-inch'
       index_name 'iPhone 6.1-inch Design Elements'
-      notes 'iPhone XR'
+      notes 'iPhone XR, iPhone 11'
     end
 
     entry do
@@ -530,7 +551,7 @@ cheatsheet do
       td_notes '1125 / 2436 px'
       name 'iPhone 5.8-inch'
       index_name 'iPhone 5.8-inch Design Elements'
-      notes 'iPhone X, iPhone XS'
+      notes 'iPhone X, iPhone XS, iPhone 11 Pro'
     end
 
     entry do
@@ -617,21 +638,21 @@ cheatsheet do
       td_notes '75 x 75 px (max 144 x 96 px)'
       name 'iPhone 6.5-inch'
       index_name 'iPhone 6.5-inch Icons'
-      notes 'iPhone XS Max'
+      notes 'iPhone XS Max, iPhone 11 Pro Max'
     end
     entry do
       td_notes '44 x 44 px'
       td_notes '50 x 50 px (max 96 x 64 px)'
       name 'iPhone 6.1-inch'
       index_name 'iPhone 6.1-inch Icons'
-      notes 'iPhone XR'
+      notes 'iPhone XR, iPhone 11'
     end
     entry do
       td_notes '66 x 66 px'
       td_notes '75 x 75 px (max 144 x 96 px)'
       name 'iPhone 5.8-inch'
       index_name 'iPhone 5.8-inch Icons'
-      notes 'iPhone X, iPhone XS'
+      notes 'iPhone X, iPhone XS, iPhone 11 Pro'
     end
     entry do
       td_notes '66 x 66 px'
@@ -769,7 +790,7 @@ cheatsheet do
   end
 
   category do
-    id 'Default Font Sizes iPhone X/XS/XS Max'
+    id 'Default Font Sizes iPhone X/XS/11 Pro/XS Max/11 Pro Max'
     header 'Label Type'
     header 'Default Font Size'
     header 'Default Font Weight'
@@ -778,78 +799,78 @@ cheatsheet do
       td_notes '48 px'
       td_notes 'Medium'
       name 'Navigation bar title'
-      index_name 'iPhone X/XS/XS Max Navigation Bar Title'
+      index_name 'iPhone X/XS/11 Pro/XS Max/11 Pro Max Navigation Bar Title'
     end
 
     entry do
       td_notes '48 px'
       td_notes 'Light'
       name 'Regular buttons'
-      index_name 'iPhone X/XS/XS Max Regular Buttons'
+      index_name 'iPhone X/XS/11 Pro/XS Max/11 Pro Max Regular Buttons'
     end
 
     entry do
       td_notes '48 px'
       td_notes 'Light'
       name 'Table header'
-      index_name 'iPhone X/XS/XS Max Table Header'
+      index_name 'iPhone X/XS/11 Pro/XS Max/11 Pro Max Table Header'
     end
 
     entry do
       td_notes '44 px'
       td_notes 'Regular'
       name 'Table label'
-      index_name 'iPhone X/XS/XS Max Table Label'
+      index_name 'iPhone X/XS/11 Pro/XS Max/11 Pro Max Table Label'
     end
 
     entry do
       td_notes '30 px'
       td_notes 'Regular'
       name 'Tab bar icon labels'
-      index_name 'iPhone X/XS/XS Max Tab Bar Icon Labels'
+      index_name 'iPhone X/XS/11 Pro/XS Max/11 Pro Max Tab Bar Icon Labels'
     end
   end
 
-  category do
-    id 'Default Font Sizes iPhone XR'
-    header 'Label Type'
-    header 'Default Font Size'
-    header 'Default Font Weight'
-
-    entry do
-      td_notes '34 px'
-      td_notes 'Medium'
-      name 'Navigation bar title'
-      index_name 'iPhone XR Navigation Bar Title'
-    end
-
-    entry do
-      td_notes '34 px'
-      td_notes 'Light'
-      name 'Regular buttons'
-      index_name 'iPhone XR Regular Buttons'
-    end
-
-    entry do
-      td_notes '34 px'
-      td_notes 'Light'
-      name 'Table header'
-      index_name 'iPhone XR Table Header'
-    end
-
-    entry do
-      td_notes '28 px'
-      td_notes 'Regular'
-      name 'Table label'
-      index_name 'iPhone XR Table Label'
-    end
-
-    entry do
-      td_notes '20 px'
-      td_notes 'Regular'
-      name 'Tab bar icon labels'
-      index_name 'iPhone XR Tab Bar Icon Labels'
-    end
+    category do
+      id 'Default Font Sizes iPhone XR/11'
+      header 'Label Type'
+      header 'Default Font Size'
+      header 'Default Font Weight'
+  
+      entry do
+        td_notes '34 px'
+        td_notes 'Medium'
+        name 'Navigation bar title'
+        index_name 'iPhone XR/11 Navigation Bar Title'
+      end
+  
+      entry do
+        td_notes '34 px'
+        td_notes 'Light'
+        name 'Regular buttons'
+        index_name 'iPhone XR/11 Regular Buttons'
+      end
+  
+      entry do
+        td_notes '34 px'
+        td_notes 'Light'
+        name 'Table header'
+        index_name 'iPhone XR/11 Table Header'
+      end
+  
+      entry do
+        td_notes '28 px'
+        td_notes 'Regular'
+        name 'Table label'
+        index_name 'iPhone XR/11 Table Label'
+      end
+  
+      entry do
+        td_notes '20 px'
+        td_notes 'Regular'
+        name 'Tab bar icon labels'
+        index_name 'iPhone XR/11 Tab Bar Icon Labels'
+      end
 
   end
 
@@ -896,14 +917,14 @@ cheatsheet do
 
     entry do
       td_notes 'Height: Regular | Width: Compact'
-      name 'iPhone X/XS/XR/XS Max - Portrait'
-      index_name 'iPhone X/XS/XR/XS Max Portrait Size Class'
+      name 'iPhone X/XS/11 Pro/XR/XS Max/11 Pro Max - Portrait'
+      index_name 'iPhone X/XS/11 Pro/XR/XS Max/11 Pro Max Portrait Size Class'
     end
 
     entry do
       td_notes 'Height: Compact | Width: Compact'
-      name 'iPhone X/XS/XR/XS Max - Landscape'
-      index_name 'iPhone X/XS/XR/XS Max Landscape Size Class'
+      name 'iPhone X/XS/XR/11/11 Pro/XS Max/11 Pro Max - Landscape'
+      index_name 'iPhone X/XS/XR/11/11 Pro/XS Max/11 Pro Max Landscape Size Class'
     end
   end
 
