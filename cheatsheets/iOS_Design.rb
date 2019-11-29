@@ -122,8 +122,8 @@ cheatsheet do
       td_notes '480 x 320 px'
       td_notes '320 x 480 points'
       td_notes '480 x 320 points'
-      name 'iPhone(Legacy) & iPod Touch'
-      index_name 'iPhone(Legacy) & iPod Touch Resolution'
+      name 'iPhone (Legacy) & iPod Touch'
+      index_name 'iPhone (Legacy) & iPod Touch Resolution'
       notes '1st, 2nd and 3rd Generation'
     end
     
@@ -291,8 +291,8 @@ cheatsheet do
       td_notes '`@1x`'
       td_notes '8bit RGB'
       td_notes  'Warm'
-      name 'iPhone(Legacy) & iPod Touch'
-      index_name 'iPhone(Legacy) & iPod Touch Display'
+      name 'iPhone (Legacy) & iPod Touch'
+      index_name 'iPhone (Legacy) & iPod Touch Display'
       notes '1st, 2nd and 3rd Generation'
     end
 
