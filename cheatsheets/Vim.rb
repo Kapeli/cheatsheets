@@ -3,10 +3,10 @@ cheatsheet do
     docset_file_name 'Vim'
     keyword 'vimc'
     source_url 'http://cheat.kapeli.com'
-    
+
     category do
-        id 'How to Exit'
-        
+        id 'Exiting'
+
         entry do
             command ':q[uit]'
             name 'Quit Vim'
@@ -16,7 +16,7 @@ cheatsheet do
             command ':q[uit]!'
             name 'Quit without writing'
         end
-        
+
         entry do
             command ':qa'
             name 'Quit all buffers / tabs'
@@ -59,12 +59,12 @@ cheatsheet do
             name 'Quit current file and exit'
             notes 'Same as `:q!`.'
         end
-        
+
     end
 
     category do
         id 'Editing a File'
-        
+
         entry do
             command ':e[dit]'
             name 'Edit the current file'
@@ -93,7 +93,7 @@ cheatsheet do
 
     category do
         id 'Inserting Text'
-        
+
         entry do
             command 'a'
             name 'Append text after the cursor [count] times'
@@ -236,10 +236,6 @@ cheatsheet do
           command '*'
           name 'Highlight all occurrences of word under cursor'
         end
-        entry do
-          command 'ga'
-          name 'Show ASCII value of char under cursor'
-        end
     end
 
     category do
@@ -257,7 +253,7 @@ cheatsheet do
             END
         end
     end
-    
+
     category do
         id 'Substituting'
         entry do
@@ -282,11 +278,10 @@ cheatsheet do
             * `[c]` Confirm each substitution. Vim positions the cursor on the matching string. You can type:
               * `y`      to substitute this match
               * `n`      to skip this match
-              * `<Esc>`   to skip this match
-              * `a`      to substitute this and all remaining matches {not in Vi}
-              * `q`      to quit substituting {not in Vi}
-              * `CTRL-E`  to scroll the screen up {not in Vi}
-              * `CTRL-Y`  to scroll the screen down {not in Vi}
+              * `a`      to substitute this and all remaining matches
+              * `q`      to quit substituting
+              * `CTRL-E`  to scroll the screen up
+              * `CTRL-Y`  to scroll the screen down
 
             * `[e]` When the search pattern fails, do not issue an error message and, in particular, continue in maps as if no error occurred
             * `[g]`  Replace all occurrences in the line. Without this argument, replacement occurs only for the first occurrence in each line
@@ -373,7 +368,7 @@ cheatsheet do
 
     category do
         id 'Undo, Redo and Repeat'
-        
+
         entry do
             command 'u'
             name 'Undo [count] changes'
@@ -392,7 +387,7 @@ cheatsheet do
         end
         entry do
             command 'U'
-            name 'Undo all latest changes on one line. {Vi: while not moved off of it}'
+            name 'Undo all latest changes on one line.'
         end
         entry do
             command '.'
@@ -402,7 +397,7 @@ cheatsheet do
 
     category do
         id 'Moving Around'
-        
+
         entry do
             name 'Basic motion commands'
             notes <<-'END'
@@ -461,14 +456,14 @@ cheatsheet do
         end
         entry do
             command 'g^'
-            name 'To the first non-blank character of the screen line (exclusive) when lines wrap (\'wrap\' on). Differs from `^` when a line is wider than the screen. 
+            name 'To the first non-blank character of the screen line (exclusive) when lines wrap (\'wrap\' on). Differs from `^` when a line is wider than the screen.
 
             To the leftmost non-blank character of the current line that is on the screen when lines don\'t wrap (\'wrap\' off). Differs from `^` when the first non-blank character of the line is not on the screen'
         end
         entry do
             command 'g$'
             command 'g<End>'
-            name 'To the last character of the screen line and [count - 1] screen lines downward (inclusive) when lines wrap (\'wrap\' on). Differs from `$` when a line is wider than the screen. 
+            name 'To the last character of the screen line and [count - 1] screen lines downward (inclusive) when lines wrap (\'wrap\' on). Differs from `$` when a line is wider than the screen.
 
             To the rightmost character of the current line that is visible on the screen when lines don\'t wrap (\'wrap\' off). Differs from `$` when the last character of the line is not on the screen or when a count is used'
         end
@@ -512,24 +507,24 @@ cheatsheet do
             name '[count] - 1 lines downward, on the first non-blank character (linewise)'
         end
         entry do
-            command '<C-End>'
+            command 'CTRL-End'
             command 'G'
             name 'Goto line [count] on the first non-blank character'
             notes 'Default: last line.'
         end
         entry do
-            command '<C-Home>'
+            command 'CTRL-Home'
             command 'gg'
             name 'Goto line [count] on the first non-blank character'
             notes 'Default: first line.'
         end
         entry do
-            command '<S-Right>'
+            command 'SHIFT-Right'
             command 'w'
             name '[count] words forward'
         end
         entry do
-            command '<C-Right>'
+            command 'CTRL-Right'
             command 'W'
             name '[count] WORDS forward'
         end
@@ -542,12 +537,12 @@ cheatsheet do
             name 'Forward to the end of WORD [count]'
         end
         entry do
-            command '<S-Left>'
+            command 'SHIFT-Left'
             command 'b'
             name '[count] words backward'
         end
         entry do
-            command '<C-Left>'
+            command 'CTRL-Left'
             command 'B'
             name '[count] WORDS backward'
         end
@@ -593,7 +588,7 @@ cheatsheet do
             A WORD consists of a sequence of non-blank characters, separated with white space. An empty line is also considered to be a word and a WORD.
             END
         end
-    
+
         entry do
             command '('
             name '[count] sentences backward'
@@ -727,7 +722,7 @@ cheatsheet do
             notes <<-'END'
             Results are put into "quickfix list" open with `:cw`
 
-            * 'g' return all matches not just one per line 
+            * 'g' return all matches not just one per line
             * 'j' don't jump to first match automatically
             * for recursive search use `**` file pattern like `**/*.c`
             END
@@ -736,7 +731,7 @@ cheatsheet do
 
     category do
         id 'Selecting Text (Visual Mode)'
-    
+
         entry do
             notes <<-'END'
             To select text, enter visual mode with one of the commands below, and use motion commands to highlight the text you are interested in. Then, use some command on the text.
@@ -778,8 +773,8 @@ cheatsheet do
 
 
     category do
-        id 'How to Suspend'
-    
+        id 'Suspending'
+
         entry do
             command 'CTRL-Z'
             name 'Suspend Vim'
@@ -791,12 +786,12 @@ cheatsheet do
             name 'Suspend Vim!'
             notes 'If the \'!\' is not given and \'autowrite\' is set, every buffer with changes and a file name is written out. If the \'!\' is given or \'autowrite\' is not set, changed buffers are not written, don\'t forget to bring Vim back to the foreground later!'
         end
-    
+
     end
 
     category do
         id 'Multiple Windows'
-        
+
         entry do
             command ':e filename'
             name 'Edit another file'
@@ -808,12 +803,12 @@ cheatsheet do
         end
 
         entry do
-            command 'CTRL-WV'
+            command 'CTRL-W v'
             name 'Vertical split current window'
         end
 
         entry do
-            command 'CTRL-WS'
+            command 'CTRL-W s'
             name 'Horizontal split current window'
         end
 
@@ -902,7 +897,7 @@ cheatsheet do
             notes 'Pops location to jump to from tag stack.'
         end
           entry do
-          	command ':tags'
+            command ':tags'
             name 'Show tag stack'
             notes 'List of return locations, used by `CTRL+t`.'
     end

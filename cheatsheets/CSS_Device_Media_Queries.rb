@@ -701,7 +701,7 @@ end
       
 
   
-  notes "* Based on a blog post from [css-tricks.com](http://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+  notes "* Based on a blog post from [css-tricks.com](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 * Converted by [@joelash](https://twitter.com/joelash)"
 
 end

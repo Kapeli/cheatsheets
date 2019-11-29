@@ -554,11 +554,12 @@ cheatsheet do
     entry do
       name 'Remove a submodule'
       notes "
-      1. Delete the relevant line from the `.gitmodules` file
-      2. Delete the relevant section from `.git/config`
-      3. Run `git rm --cached <submodule-path>` (no trailing slash)
-      4. Commit the superproject
-      5. Delete the now untracked submodule files"
+      1. `git submodule deinit -f <submodule_path>`
+      2. `rm -rf .git/modules/<submodule_path>`
+      3. `git rm -f <submodule_path>`
+      
+      ([Details](https://stackoverflow.com/a/36593218/514210))
+      "
     end
 
     entry do

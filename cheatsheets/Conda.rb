@@ -40,12 +40,12 @@ cheatsheet do
 
     entry do
       name 'Activate the new environment to use it'
-      command 'source activate snowflakes'
+      command 'conda activate snowflakes'
     end
 
     entry do
       name 'Deactivate the environment'
-      command 'source deactivate'
+      command 'conda deactivate'
     end
 
     entry do

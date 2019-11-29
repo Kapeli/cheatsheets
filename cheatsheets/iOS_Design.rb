@@ -829,6 +829,7 @@ cheatsheet do
       name 'Tab bar icon labels'
       index_name 'iPhone X/XS/11 Pro/XS Max/11 Pro Max Tab Bar Icon Labels'
     end
+  end
 
     category do
       id 'Default Font Sizes iPhone XR/11'
