@@ -10,6 +10,10 @@ cheatsheet do
     id 'API Levels'
 
     entry do
+      command '29'
+      name '10'
+    end
+    entry do
       command '28'
       name '9'
       notes 'Pie'
