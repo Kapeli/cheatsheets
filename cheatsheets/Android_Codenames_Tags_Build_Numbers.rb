@@ -12,7 +12,6 @@ cheatsheet do
     entry do
       command '29'
       name '10'
-      notes ''
     end
     entry do
       command '28'
