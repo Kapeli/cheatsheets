@@ -91,6 +91,15 @@ cheatsheet do
     id 'Viewing and Finding Resources'
 
     entry do
+      name 'List all namespaces in the cluster'
+      notes '
+      ```
+      kubectl get namespaces
+      ```
+      '
+    end
+
+    entry do
       name 'List all services in the namespace'
       notes '
       ```
