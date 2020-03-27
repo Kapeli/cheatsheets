@@ -126,15 +126,26 @@ cheatsheet do
       index_name 'iPhone(Legacy) & iPod Touch Resolution'
       notes '1st, 2nd and 3rd Generation'
     end
-    
+
+
     entry do
       td_notes '2048 x 2732 px'
       td_notes '2732 x 2048 px'
       td_notes '1024 x 1366 points'
       td_notes '1366 x 1024 points'
-      name 'iPad Pro 12.9-inch'
+      name 'iPad Pro 12.9-inch Series'
       index_name 'iPad Pro 12.9-inch Resolution'
-      notes 'iPad Pro 12.9-inch 1st, 2nd and 3rd Generation'
+      notes 'iPad Pro 12.9-inch 1st, 2nd, 3rd and 4th Generation'
+    end
+
+    entry do
+      td_notes '1668 x 2388 px'
+      td_notes '2388 x 1668 px'
+      td_notes '834 x 1194 points'
+      td_notes '1194 x 834 points'
+      name 'iPad Pro 11-inch Series'
+      index_name 'iPad Pro 11-inch Resolution'
+      notes 'iPad Pro 11-inch 1st and 2nd Generation'
     end
 
     entry do
@@ -142,9 +153,9 @@ cheatsheet do
       td_notes '2224 x 1668 px'
       td_notes '834 x 1112 points'
       td_notes '1112 x 834 points'
-      name 'iPad 10.5-inch'
+      name 'iPad 10.5-inch Series'
       index_name 'iPad 10.5-inch Resolution'
-      notes 'iPad Pro 10.5, iPad Air 10.5'
+      notes 'iPad Pro 10.5, iPad Air 3rd Generation'
     end
 
     entry do
@@ -152,9 +163,9 @@ cheatsheet do
       td_notes '2160 x 1620 px'
       td_notes '810 x 1080 points'
       td_notes '1080 x 810 points'
-      name 'iPad 10.2-inch'
+      name 'iPad 10.2-inch Series'
       index_name 'iPad 10.2-inch Resolution'
-      notes 'iPad 10.2'
+      notes 'iPad 7th Generation'
     end
 
     entry do
@@ -162,9 +173,9 @@ cheatsheet do
       td_notes '2048 x 1536 px'
       td_notes '768 x 1024 points'
       td_notes '1024 x 768 points'
-      name 'iPad 9.7-inch Retina'
+      name 'iPad 9.7-inch Retina Series'
       index_name 'iPad 9.7-inch Retina Resolution'
-      notes 'iPad 3, iPad 4, iPad Air, iPad Air 2, iPad Pro 9.7-inch, iPad 5th, iPad 6th'
+      notes 'iPad 3rd, iPad 4th, iPad Air 1st, iPad Air 2nd, iPad Pro 9.7-inch, iPad 5th, iPad 6th Generation'
     end
 
     entry do
@@ -172,7 +183,7 @@ cheatsheet do
       td_notes '1024 x 768 px'
       td_notes '768 x 1024 points'
       td_notes '1024 x 768 points'
-      name 'iPad'
+      name 'iPad(Legacy) Series'
       index_name 'iPad Resolution'
       notes '1st and 2nd Generation'
     end
@@ -182,17 +193,17 @@ cheatsheet do
       td_notes '2048 x 1536 px'
       td_notes '768 x 1024 points'
       td_notes '1024 x 768 points'
-      name 'iPad Mini Retina'
+      name 'iPad Mini Retina Series'
       index_name 'iPad Mini Retina Resolution'
       notes 'iPad Mini 2nd, 3rd, 4th and 5th Generation'
     end
-
+    
     entry do
       td_notes '768 x 1024 px'
       td_notes '1024 x 768 px'
       td_notes '768 x 1024 points'
       td_notes '1024 x 768 points'
-      name 'iPad Mini'
+      name 'iPad Mini(Legacy)'
       index_name 'iPad Mini Resolution'
       notes 'iPad Mini 1st Generation'
     end
@@ -302,9 +313,20 @@ cheatsheet do
       td_notes '`@2x`'
       td_notes '8bit RGB'
       td_notes 'Warm'
-      name 'iPad Pro 12.9-inch'
+      name 'iPad Pro 12.9-inch Series'
       index_name 'iPad Pro 12.9-inch Display'
-      notes '1st, 2nd, 3rd Generation'
+      notes '1st, 2nd, 3rd, 4th Generation'
+    end
+
+    entry do
+      td_notes '11"'
+      td_notes '264'
+      td_notes '`@2x`'
+      td_notes '8bit RGB'
+      td_notes 'Warm'
+      name 'iPad Pro 11-inch Series'
+      index_name 'iPad Pro 11-inch Display'
+      notes '1st, 2nd Generation'
     end
 
     entry do
@@ -313,9 +335,9 @@ cheatsheet do
       td_notes '`@2x`'
       td_notes '8bit RGB'
       td_notes 'Warm'
-      name 'iPad 10.5-inch'
+      name 'iPad 10.5-inch Series'
       index_name 'iPad 10.5-inch Display'
-      notes 'iPad Pro 10.5, iPad Air 10.5'
+      notes 'iPad Pro 10.5, iPad Air 3rd Generation'
     end
 
     entry do
@@ -324,9 +346,9 @@ cheatsheet do
       td_notes '`@2x`'
       td_notes '8bit RGB'
       td_notes 'Warm'
-      name 'iPad 10.2-inch'
+      name 'iPad 10.2-inch Series'
       index_name 'iPad 10.2-inch Display'
-      notes 'iPad 10.2-inch'
+      notes 'iPad Air 7th Generation'
     end
 
     entry do
@@ -335,9 +357,9 @@ cheatsheet do
       td_notes '`@2x`'
       td_notes '8bit RGB'
       td_notes  'Warm'
-      name 'iPad 9.7 Retina'
+      name 'iPad 9.7 Retina Series'
       index_name 'iPad 9.7 Retina Display'
-      notes 'iPad 3, iPad 4, iPad Air, iPad Air 2, iPad Pro 9.7-inch, iPad 5th, iPad 6th'
+      notes 'iPad 3rd, iPad 4th, iPad Air 1st, iPad Air 2nd, iPad Pro 9.7-inch, iPad 5th, iPad 6th'
     end
 
     entry do
@@ -346,7 +368,7 @@ cheatsheet do
       td_notes '`@1x`'
       td_notes '8bit RGB'
       td_notes  'Warm'
-      name 'iPad'
+      name 'iPad(Legacy) Series'
       index_name 'iPad Display'
       notes '1st and 2nd Generation'
     end
@@ -357,7 +379,7 @@ cheatsheet do
       td_notes '`@2x`'
       td_notes '8bit RGB'
       td_notes  'Warm'
-      name 'iPad Mini Retina'
+      name 'iPad Mini Retina Series'
       index_name 'iPad Mini Retina Display'
       notes 'iPad Mini 2nd, 3rd, 4th, 5th Generation'
     end
@@ -368,7 +390,7 @@ cheatsheet do
       td_notes '`@1x`'
       td_notes '8bit RGB'
       td_notes  'Warm'
-      name 'iPad Mini'
+      name 'iPad Mini(Legacy) Series'
       index_name 'iPad Mini Display'
       notes 'iPad Mini 1st Generation'
     end
@@ -458,9 +480,9 @@ cheatsheet do
       td_notes '1024 x 1024 px'
       td_notes '80 x 80 px'
       td_notes '58 x 58 px'
-      name 'iPad Pro 12.9-inch'
+      name 'iPad Pro 12.9-inch Series'
       index_name 'iPad Pro 12.9-inch Dimensions'
-      notes 'iPad Pro 12.9-inch 1st, 2nd, 3rd Generation'
+      notes 'iPad Pro 12.9-inch 1st, 2nd, 3rd, 4th Generation'
     end
 
     entry do
@@ -468,9 +490,19 @@ cheatsheet do
       td_notes '1024 x 1024 px'
       td_notes '80 x 80 px'
       td_notes '58 x 58 px'
-      name 'iPad 10.5-inch'
+      name 'iPad Pro 11-inch Series'
+      index_name 'iPad Pro 11-inch Dimensions'
+      notes 'iPad Pro 11-inch 1st, 2nd Generation'
+    end
+
+    entry do
+      td_notes '167 x 167 px'
+      td_notes '1024 x 1024 px'
+      td_notes '80 x 80 px'
+      td_notes '58 x 58 px'
+      name 'iPad 10.5-inch Series'
       index_name 'iPad 10.5-inch Dimensions'
-      notes 'iPad Pro 10.5, iPad Air 10.5'
+      notes 'iPad Pro 10.5, iPad Air 3th Generation'
     end
 
     entry do
@@ -478,9 +510,9 @@ cheatsheet do
       td_notes '1024 x 1024 px'
       td_notes '80 x 80 px'
       td_notes '58 x 58 px'
-      name 'iPad 9.7 Retina'
+      name 'iPad 9.7 Retina Series'
       index_name 'iPad 9.7 Retina Dimensions'
-      notes 'iPad 3, iPad 4, iPad Air, iPad Air2, iPad Pro 9.7-inch, iPad 5th, iPad 6th'
+      notes 'iPad 3rd, iPad 4th, iPad Air 1st, iPad Air 2nd, iPad Pro 9.7-inch, iPad 5th, iPad 6th Generation'
     end
 
     entry do
@@ -488,9 +520,9 @@ cheatsheet do
       td_notes '512 x 512 px'
       td_notes '40 x 40 px'
       td_notes '29 x 29 px'
-      name 'iPad'
+      name 'iPad(Legacy) Series'
       index_name 'iPad Dimensions'
-      notes '1st and 2nd Generation'
+      notes 'iPad 1st, 2nd Generation'
     end
 
     entry do
@@ -498,7 +530,7 @@ cheatsheet do
       td_notes '1024 x 1024 px'
       td_notes '80 x 80 px'
       td_notes '58 x 58 px'
-      name 'iPad Mini Retina'
+      name 'iPad Mini Retina Series'
       index_name 'iPad Mini Retina Dimensions'
       notes 'iPad Mini 2nd, 3rd, 4th and 5th Generation'
     end
@@ -508,7 +540,7 @@ cheatsheet do
       td_notes '512 x 512 px'
       td_notes '40 x 40 px'
       td_notes '29 x 29 px'
-      name 'iPad Mini'
+      name 'iPad Mini(Legacy) Series'
       index_name 'iPad Mini Dimensions'
       notes 'iPad Mini 1st Generation'
     end
@@ -600,9 +632,9 @@ cheatsheet do
       td_notes '88 px'
       td_notes '112 px'
       td_notes 'dynamic'
-      name 'iPad Retina'
+      name 'iPad Retina Series'
       index_name 'iPad Retina Design Elements'
-      notes 'iPad 3, 4, 5, 6, Air 1, Air 2, Pro, Mini Retina'
+      notes 'iPad 3, 4, 5, 6, 7, Air 1, Air 2, Air 3, Pro, Mini 2, 3, 4, 5'
     end
 
     entry do
@@ -610,7 +642,7 @@ cheatsheet do
       td_notes '44 px'
       td_notes '56 px'
       td_notes 'dynamic'
-      name 'iPad Mini'
+      name 'iPad Mini(Legacy) Series'
       index_name 'iPad Mini Design Elements'
       notes ''
     end
@@ -620,7 +652,7 @@ cheatsheet do
       td_notes '44 px'
       td_notes '56 px'
       td_notes 'dynamic'
-      name 'iPad'
+      name 'iPad(Legacy) Series'
       index_name 'iPad Design Elements'
       notes '1st and 2nd Generation'
     end
