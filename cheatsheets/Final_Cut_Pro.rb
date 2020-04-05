@@ -491,17 +491,17 @@ cheatsheet do
     end
     entry do
       name 'Select Right Audio Edge'
-      command 'SHIFT+Right Bracket (])'
+      command 'SHIFT+]'
       notes 'For audio/video clips in expanded view, select the right edge of the audio edit point'
     end
     entry do
       name 'Select Right Edge'
-      command 'Right Bracket (])'
+      command ']'
       notes 'Select the right edge of the edit point'
     end
     entry do
       name 'Select Right Video Edge'
-      command 'CTRL+Right Bracket (])'
+      command 'CTRL+]'
       notes 'For audio/video clips in expanded view, select the right edge of the video edit point'
     end
     entry do
@@ -601,7 +601,7 @@ cheatsheet do
     end
     entry do
       name 'Trim End'
-      command 'ALT+Right Bracket (])'
+      command 'ALT+]'
       notes 'Trim the end of the selected or topmost clip to the skimmer or playhead position'
     end
     entry do
@@ -1286,7 +1286,7 @@ cheatsheet do
     end
     entry do
       name 'Play Selection'
-      command 'Slash (/)'
+      command '/'
       notes 'Play the selection'
     end
     entry do
@@ -1351,7 +1351,7 @@ cheatsheet do
     end
     entry do
       name 'Timeline History Forward'
-      command 'CMD+Right Bracket (])'
+      command 'CMD+]'
       notes 'Go forward one level in the timeline history'
     end
     entry do
