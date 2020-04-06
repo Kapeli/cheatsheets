@@ -4,7 +4,7 @@ cheatsheet do
   keyword 'ohmyzsh'
   source_url 'http://cheat.kapeli.com'
   style 'td.command, td.td_command {padding: 13px 8px 0px 8px}'
-  
+
   category do
     id 'Aliases'
 
@@ -399,7 +399,7 @@ git push origin $(current_branch)
 ```'
       command "ggpush"
     end
-    
+
     entry do
       name '
 ```
@@ -595,7 +595,7 @@ git merge upstream/master
     entry do
       name '
 ```
-git push 
+git push
 ```'
       command "gp"
     end
