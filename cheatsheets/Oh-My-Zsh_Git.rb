@@ -75,8 +75,8 @@ git branch -d
     entry do
       name '
 ```
-(Not in README)
 git branch --no-color --merged | command grep -vE "^(\+|\*|\s*(master|develop|dev)\s*$)" | command xargs -n 1 git branch -d
+(Not in README)
 ```'
       command "gbda"
     end
