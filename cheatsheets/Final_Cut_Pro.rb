@@ -6,6 +6,7 @@ cheatsheet do
   title 'Final Cut Pro'
   docset_file_name 'Final_Cut_Pro'
   keyword 'fcp'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Application'
