@@ -361,7 +361,7 @@ cheatsheet do
         end
         entry do
             command 'nop'
-            name 'This command will initialize Dist::Zilla and exit, can be useful of dianostic purposes'
+            name 'This command will initialize Dist::Zilla and exit, can be useful for diagnostic purposes'
         end
     end
 
@@ -386,7 +386,7 @@ cheatsheet do
     This cheatsheet is based on Dist::Zilla 6.009.
 
     Visit http://dzil.org for more information.
-    
+
     See also the Dist::Zilla distribution documentation on [MetaCPAN](https://metacpan.org/pod/Dist::Zilla)
     END
 
