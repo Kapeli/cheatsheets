@@ -248,6 +248,31 @@ cheatsheet do
     end
 
     category do
+        id 'release'
+
+        entry do
+            notes <<-'END'
+            Release the distribution to PAUSE/CPAN
+            END
+        end
+
+        entry do
+            command 'release'
+            name 'Release the distribution'
+        end
+
+        entry do
+            command '--trial'
+            name 'Build a trial release that PAUSE will not index'
+        end
+
+        entry do
+            command '-j INT'
+            name 'Number of test jobs to run in parallel'
+        end
+    end
+
+    category do
         id 'add'
 
         entry do
