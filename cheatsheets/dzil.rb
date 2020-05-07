@@ -405,6 +405,11 @@ cheatsheet do
             command 'AUTHOR_TESTING'
             name 'See also: `smoke --author`'
         end
+        entry do
+            command 'HARNESS_OPTIONS'
+            name 'Similar to the: `--jobs` option supported by several commands. Allows for specification of number of test jobs to run in parallel, e.g. `HARNESS_OPTIONS=j9`'
+        end
+
     end
 
     notes <<-'END'
