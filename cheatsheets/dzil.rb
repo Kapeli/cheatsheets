@@ -408,7 +408,7 @@ cheatsheet do
     end
 
     notes <<-'END'
-    This cheatsheet is based on Dist::Zilla 6.009.
+    This cheatsheet is based on Dist::Zilla 6.014.
 
     Visit http://dzil.org for more information.
 
