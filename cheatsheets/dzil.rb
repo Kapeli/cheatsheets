@@ -163,6 +163,9 @@ cheatsheet do
         entry do
             notes <<-'END'
             Run the extra tests for the distribution
+
+            Requires: Dist::Zilla::Plugin::CheckExtraTests
+
             END
         end
 
