@@ -226,6 +226,28 @@ cheatsheet do
     end
 
     category do
+        id 'cover'
+
+        entry do
+            notes <<-'END'
+            Generate test coverage reports for the distribution
+
+            Requires: Dist::Zilla::App::Command::cover
+
+            END
+        end
+
+        entry do
+            command 'cover'
+            name 'generate coverage report for the distribution'
+        end
+        entry do
+            command '--output STR'
+            name 'Specifies the directory for where to output the coverage report, inside the `.build` directory structure'
+        end
+    end
+
+    category do
         id 'install'
 
         entry do
