@@ -163,6 +163,9 @@ cheatsheet do
         entry do
             notes <<-'END'
             Run the extra tests for the distribution
+
+            Requires: Dist::Zilla::Plugin::CheckExtraTests
+
             END
         end
 
@@ -219,6 +222,28 @@ cheatsheet do
         entry do
             command '--author'
             name 'Enables the `AUTHOR_TESTING` environment variable'
+        end
+    end
+
+    category do
+        id 'cover'
+
+        entry do
+            notes <<-'END'
+            Generate test coverage reports for the distribution
+
+            Requires: Dist::Zilla::App::Command::cover
+
+            END
+        end
+
+        entry do
+            command 'cover'
+            name 'generate coverage report for the distribution'
+        end
+        entry do
+            command '--output STR'
+            name 'Specifies the directory for where to output the coverage report, inside the `.build` directory structure'
         end
     end
 
@@ -405,10 +430,15 @@ cheatsheet do
             command 'AUTHOR_TESTING'
             name 'See also: `smoke --author`'
         end
+        entry do
+            command 'HARNESS_OPTIONS'
+            name 'Similar to the: `--jobs` option supported by several commands. Allows for specification of number of test jobs to run in parallel, e.g. `HARNESS_OPTIONS=j9`'
+        end
+
     end
 
     notes <<-'END'
-    This cheatsheet is based on Dist::Zilla 6.009.
+    This cheatsheet is based on Dist::Zilla 6.014.
 
     Visit http://dzil.org for more information.
 
