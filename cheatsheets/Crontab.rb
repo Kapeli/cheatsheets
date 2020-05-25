@@ -1,7 +1,8 @@
 cheatsheet do
   title "Crontab"
-  docset_file_name "crontab"
+  docset_file_name "Crontab"
   keyword "cron"
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id "Editing Crontab"
