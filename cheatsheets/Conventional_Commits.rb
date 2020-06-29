@@ -2,62 +2,63 @@ cheatsheet do
   title 'Conventional Commits'
   docset_file_name 'Conventional_Commits'
   keyword 'conventional'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Types'
     entry do
       td_command 'feat'
-      td_notes 'Features'
+      name 'Features'
       td_notes 'A new feature'
     end
     entry do
       td_command 'fix'
-      td_notes 'Bug Fixes'
+      name 'Bug Fixes'
       td_notes 'A bug fix'
     end
     entry do
       td_command 'docs'
-      td_notes 'Documentation'
+      name 'Documentation'
       td_notes 'Documentation only changes'
     end
     entry do
       td_command 'style'
-      td_notes 'Styles'
+      name 'Styles'
       td_notes 'Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)'
     end
     entry do
       td_command 'refactor'
-      td_notes 'Code Refactoring'
+      name 'Code Refactoring'
       td_notes 'A code change that neither fixes a bug nor adds a feature'
     end
     entry do
       td_command 'perf'
-      td_notes 'Performance Improvements'
+      name 'Performance Improvements'
       td_notes 'A code change that improves performance'
     end
     entry do
       td_command 'test'
-      td_notes 'Tests'
+      name 'Tests'
       td_notes 'Adding missing tests or correcting existing tests'
     end
     entry do
       td_command 'build'
-      td_notes 'Builds'
+      name 'Builds'
       td_notes 'Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)'
     end
     entry do
       td_command 'ci'
-      td_notes 'Continuous Integrations'
+      name 'Continuous Integrations'
       td_notes 'Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)'
     end
     entry do
       td_command 'chore'
-      td_notes 'Chores'
+      name 'Chores'
       td_notes 'Other changes that don\'t modify src or test files'
     end
     entry do
       td_command 'revert'
-      td_notes 'Reverts'
+      name 'Reverts'
       td_notes 'Reverts a previous commit'
     end
   end
