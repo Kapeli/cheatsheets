@@ -8,19 +8,19 @@
     id 'Gitmoji'
     entry do
         command ':art:'
-        name '🎨 Improving structure / format of the code'
+        name '🎨 Improve structure / format of the code'
      end
      entry do
         command ':zap:'
-        name '⚡ Improving performance'
+        name '⚡ Improve performance'
      end
      entry do
         command ':fire:'
-        name '🔥 Removing code or files'
+        name '🔥 Remove code or files'
      end
      entry do
         command ':bug:'
-        name '🐛 Fixing a bug'
+        name '🐛 Fix a bug'
      end
      entry do
         command ':ambulance:'
@@ -28,59 +28,39 @@
      end
      entry do
         command ':sparkles:'
-        name '✨ Introducing new features'
+        name '✨ Introduce new features'
      end
      entry do
         command ':memo:'
-        name '📝 Writing docs'
+        name '📝 Add or update documentation'
      end
      entry do
         command ':rocket:'
-        name '🚀 Deploying stuff'
+        name '🚀 Deploy stuff'
      end
      entry do
         command ':lipstick:'
-        name '💄 Updating the UI and style files'
+        name '💄 Add or update the UI and style files'
      end
      entry do
         command ':tada:'
-        name '🎉 Initial commit'
+        name '🎉 Begin a project'
      end
      entry do
         command ':white_check_mark:'
-        name '✅ Adding tests'
+        name '✅ Add or update tests'
      end
      entry do
         command ':lock:'
-        name '🔒 Fixing security issues'
-     end
-     entry do
-        command ':apple:'
-        name '🍎 Fixing something on macOS'
-     end
-     entry do
-        command ':penguin:'
-        name '🐧 Fixing something on Linux'
-     end
-     entry do
-        command ':checkered_flag:'
-        name '🏁 Fixing something on Windows'
-     end
-     entry do
-        command ':robot:'
-        name '🤖 Fixing something on Android'
-     end
-     entry do
-        command ':green_apple:'
-        name '🍏 Fixing something on iOS'
+        name '🔒 Fix security issues'
      end
      entry do
         command ':bookmark:'
-        name '🔖 Releasing / Version tags'
+        name '🔖 Release / Version tags'
      end
      entry do
         command ':rotating_light:'
-        name '🚨 Removing linter warnings'
+        name '🚨 Remove linter warnings'
      end
      entry do
         command ':construction:'
@@ -88,47 +68,47 @@
      end
      entry do
         command ':green_heart:'
-        name '💚 Fixing CI Build'
+        name '💚 Fix CI Build'
      end
      entry do
         command ':arrow_down:'
-        name '⬇ Downgrading dependencies'
+        name '⬇ Downgrade dependencies'
      end
      entry do
         command ':arrow_up:'
-        name '⬆ Upgrading dependencies'
+        name '⬆ Upgrade dependencies'
      end
      entry do
         command ':pushpin:'
-        name '📌 Pinning dependencies to specific versions'
+        name '📌 Pin dependencies to specific versions'
      end
      entry do
         command ':construction_worker:'
-        name '👷 Adding CI build system'
+        name '👷 Add or update CI build system'
      end
      entry do
         command ':chart_with_upwards_trend:'
-        name '📈 Adding analytics or tracking code'
+        name '📈 Add or update analytics or track code'
      end
      entry do
         command ':recycle:'
-        name '♻ Refactoring code'
+        name '♻ Refactor code'
      end
      entry do
         command ':heavy_minus_sign:'
-        name '➖ Removing a dependency'
-     end
-     entry do
-        command ':whale:'
-        name '🐳 Work about Docker'
+        name '➖ Remove a dependency'
      end
      entry do
         command ':heavy_plus_sign:'
-        name '➕ Adding a dependency'
+        name '➕ Add a dependency'
      end
      entry do
         command ':wrench:'
-        name '🔧 Changing configuration files'
+        name '🔧 Add or update configuration files'
+     end
+     entry do
+        command ':hammer:'
+        name '🔨 Add or update build scripts'
      end
      entry do
         command ':globe_with_meridians:'
@@ -136,114 +116,138 @@
      end
      entry do
         command ':pencil2:'
-        name '✏ Fixing typos'
+        name '✏️ Fix typos'
      end
      entry do
-        command ':hankey:'
-        name '💩 Writing bad code that needs to be improved'
+        command ':poop:'
+        name '💩 Write bad code that needs to be improved'
      end
      entry do
         command ':rewind:'
-        name '⏪ Reverting changes'
+        name '⏪ Revert changes'
      end
      entry do
         command ':twisted_rightwards_arrows:'
-        name '🔀 Merging branches'
+        name '🔀 Merge branches'
      end
      entry do
         command ':package:'
-        name '📦 Updating compiled files or packages'
+        name '📦 Add or update compiled files or packages'
      end
      entry do
         command ':alien:'
-        name '👽 Updating code due to external API changes'
+        name '👽 Update code due to external API changes'
      end
      entry do
         command ':truck:'
-        name '🚚 Moving or renaming files'
+        name '🚚 Move or rename resources (e.g.: files, paths, routes)'
      end
      entry do
         command ':page_facing_up:'
-        name '📄 Adding or updating license'
+        name '📄 Add or update license'
      end
      entry do
         command ':boom:'
-        name '💥 Introducing breaking changes'
+        name '💥 Introduce breaking changes'
      end
      entry do
         command ':bento:'
-        name '🍱 Adding or updating assets'
-     end
-     entry do
-        command ':ok_hand:'
-        name '👌 Updating code due to code review changes'
+        name '🍱 Add or update assets'
      end
      entry do
         command ':wheelchair:'
-        name '♿ Improving accessibility'
+        name '♿ Improve accessibility'
      end
      entry do
         command ':bulb:'
-        name '💡 Documenting source code'
+        name '💡 Add or update comments in source code'
      end
      entry do
         command ':beers:'
-        name '🍻 Writing code drunkenly'
+        name '🍻 Write code drunkenly'
      end
      entry do
         command ':speech_balloon:'
-        name '💬 Updating text and literals'
+        name '💬 Add or update text and literals'
      end
      entry do
         command ':card_file_box:'
-        name '🗃 Performing database related changes'
+        name '🗃 Perform database related changes'
      end
      entry do
         command ':loud_sound:'
-        name '🔊 Adding logs'
+        name '🔊 Add or update logs'
      end
      entry do
         command ':mute:'
-        name '🔇 Removing logs'
+        name '🔇 Remove logs'
      end
      entry do
         command ':busts_in_silhouette:'
-        name '👥 Adding contributor(s)'
+        name '👥 Add or update contributor(s)'
      end
      entry do
         command ':children_crossing:'
-        name '🚸 Improving user experience / usability'
+        name '🚸 Improve user experience / usability'
      end
      entry do
         command ':building_construction:'
-        name '🏗 Making architectural changes'
+        name '🏗 Make architectural changes'
      end
      entry do
         command ':iphone:'
-        name '📱 Working on responsive design'
+        name '📱 Work on responsive design'
      end
      entry do
         command ':clown_face:'
-        name '🤡 Mocking things'
+        name '🤡 Mock things'
      end
      entry do
         command ':egg:'
-        name '🥚 Adding an easter egg'
+        name '🥚 Add or update an easter egg'
      end
      entry do
         command ':see_no_evil:'
-        name '🙈 Adding or updating a .gitignore file'
+        name '🙈 Add or update a .gitignore file'
      end
      entry do
         command ':camera_flash:'
-        name '📸 Adding or updating snapshots'
-   end
+        name '📸 Add or update snapshots'
+     end
+     entry do
+        command ':alembic:'
+        name '⚗ Perform experiments'
+     end
+     entry do
+        command ':mag:'
+        name '🔍 Improve SEO'
+     end
+     entry do
+        command ':seedling:'
+        name '🌱 Add or update seed files'
+     end
+     entry do
+        command ':triangular_flag_on_post:'
+        name '🚩 Add, update, or remove feature flags'
+     end
+     entry do
+        command ':goal_net:'
+        name '🥅 Catch errors'
+     end
+     entry do
+        command ':dizzy:'
+        name '💫 Add or update animations and transitions'
+     end
+     entry do
+        command ':wastebasket:'
+        name '🗑 Deprecate code that needs to be cleaned up'
+     end
     end
 
 
   notes '* Based on https://gitmoji.carloscuesta.me and https://github.com/carloscuesta/gitmoji
   * Available as CLI: https://github.com/carloscuesta/gitmoji-cli
-  * Updated from https://github.com/carloscuesta/gitmoji/blob/22d3bf07452ad5d6865b2e5820e4b4ec20054958/src/data/gitmojis.json on the 2018-04-17.
+  * Updated from https://github.com/carloscuesta/gitmoji/blob/28f626e21d20511339aa51e970482ff65373114a/src/data/gitmojis.json on the 2020-09-08.
   '
 
 end
