@@ -34,13 +34,13 @@ cheatsheet do
             func doIt(a: Int) -> Int {
                 return a
             }
-            func doIt(a: Int, b: Int) -> Int {
+            func doIt(_ a: Int, b: Int) -> Int {
                 return a + b
             }
         }
         var instance = MyClass()
         let variable1 = instance.doIt()
-        let variable2 = instance.doIt(1)
+        let variable2 = instance.doIt(a: 1)
         let variable3 = instance.doIt(1, b: 2)
         ```
       END
@@ -112,7 +112,7 @@ cheatsheet do
             }
         }
         
-        let el = HTMLElement()
+        var el = HTMLElement()
         print(el["id"])     // prints "hello"
         el["style"] = "float: left;"
         print(el["style"])  // prints "float: left;"
@@ -136,7 +136,7 @@ cheatsheet do
       notes <<-'END'
         ``` swift
         extension Double {
-            var isNegative: Bool { return isSignMinus }
+            var isNegative: Bool { return sign == .minus }
         }
         let myDouble = -2.0
         myDouble.isNegative
@@ -152,17 +152,19 @@ cheatsheet do
         func myclosure(number: Int) -> Int {
           return number + 1
         }
-        numbers.map(myclosure)
+        [1, 2, 3, 4].map(myclosure)
         // returns [2, 3, 4, 5]
 
         let animals = ["fish", "cat", "elephant", "dog", "minion"]
         let sortedAnimals = animals.sorted { (first, second) in first > second }
         sortedAnimals = animals.sorted { $0 > $1 } // $0 and $1 mean first and second params respectively
 
-        let evenCheckFunction = isEven
-        let odds = Array(1...10).filter(!isEven)
-        odds = Array(1...10).filter { (number) in number % 2 != 0 }
-        odds = Array(1...10).filter { $0 % 2 == 0 }
+        let isEven = { (number: Int) -> Bool in
+            number % 2 == 0
+        }
+        var evens = Array(1...10).filter(isEven)
+        var odds = Array(1...10).filter { (number) in number % 2 != 0 }
+        odds = Array(1...10).filter { $0 % 2 != 0 }
         ```
       END
     end
@@ -344,8 +346,8 @@ cheatsheet do
       name 'Error Handling'
       notes <<-'END'
         ``` swift
-        // ErrorType
-        enum MyError : ErrorType {
+        // Error
+        enum MyError : Error {
             case Err1
             case Err2(errDesc: String)
         }
@@ -392,7 +394,7 @@ cheatsheet do
         let personTwo = "Brian"
         let combinedString = "\(personOne): Hello, \(personTwo)!"
         var tipString = "2499"
-        let tipInt = tipString.toInt()
+        let tipInt = Int(tipString)
 
         extension Double {
             init (string: String) {
