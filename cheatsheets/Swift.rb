@@ -78,7 +78,7 @@ cheatsheet do
             }
             didSet { // never set greater than 10
                 if myOutput > 10 {
-                    myOutput = 10
+                    myOutput = oldValue
                 }
             }
         }
@@ -271,13 +271,13 @@ cheatsheet do
 
         let forced: String = s! // error if nil
 
-        if let forced = s {
-          print(forced)
+        if let notForced = s {
+          print(notForced)
         } else {
           print("not found")
         }
 
-        let forced:String = s ?? "default value" //if (s == nil) use default value
+        let nilCoalescing:String = s ?? "default value" //if (s == nil) use default value
         ```
       END
     end
