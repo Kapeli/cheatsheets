@@ -28,6 +28,10 @@ cheatsheet do
       notes <<-'END'
         ``` swift
         class MyClass {
+            // Class Methods
+            static func course() -> String { return "Swift!" }
+
+            // Instance Methods
             func doIt() -> Int {
                 return 0
             }
@@ -37,11 +41,23 @@ cheatsheet do
             func doIt(_ a: Int, b: Int) -> Int {
                 return a + b
             }
+            func doIt(_ a: Int, b: Int, argLabel c: Int) -> Int {
+                return a + b + c
+            }
+            func variadic(_ args: Int...) -> Int {
+                var total = 0
+                for x in args {
+                    total += x
+                }
+                return total
+            }
         }
         var instance = MyClass()
         let variable1 = instance.doIt()
         let variable2 = instance.doIt(a: 1)
         let variable3 = instance.doIt(1, b: 2)
+        let variable4 = instance.doIt(1, b: 2, argLabel: 3)
+        let variable5 = instance.variadic(1, 2, 3, 4)
         ```
       END
     end
@@ -51,6 +67,7 @@ cheatsheet do
       notes <<-'END'
         ```swift
         // Properties
+        static var sharedProperty = "default value"
         var myProperty: String
         var myOptionalProperty: String?
         
@@ -278,6 +295,11 @@ cheatsheet do
         }
 
         let nilCoalescing:String = s ?? "default value" //if (s == nil) use default value
+
+        // Safely loop over [Int?] array
+        for case let x? in [1, nil, 3] {
+            print(x) // 1, 3
+        }
         ```
       END
     end
@@ -433,6 +455,9 @@ cheatsheet do
         for (type, muppet) in dict {
             print("type: \(type), muppet: \(muppet)")
         }
+
+        // Forgo the optional
+        let notFound: String = dict["Bear", default: "Fozzie"]
         ```
       END
     end
