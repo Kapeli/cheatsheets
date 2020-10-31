@@ -29,21 +29,13 @@ cheatsheet do
         ``` swift
         class MyClass {
             // Class Methods
-            static func course() -> String { return "Swift!" }
+            class func course() -> String { "Swift!" }
 
             // Instance Methods
-            func doIt() -> Int {
-                return 0
-            }
-            func doIt(a: Int) -> Int {
-                return a
-            }
-            func doIt(_ a: Int, b: Int) -> Int {
-                return a + b
-            }
-            func doIt(_ a: Int, b: Int, argLabel c: Int) -> Int {
-                return a + b + c
-            }
+            func doIt() -> Int { 0 }
+            func doIt(a: Int) -> Int { a }
+            func doIt(_ a: Int, b: Int) -> Int { a + b }
+            func doIt(_ a: Int, b: Int, argLabel c: Int) -> Int { a + b + c }
             func variadic(_ args: Int...) -> Int {
                 var total = 0
                 for x in args {
@@ -79,21 +71,19 @@ cheatsheet do
         // Computed Properties
         var myInt: Int = 1
         var doubleInt: Int {
-            get { return myInt * 2 }
+            get { myInt * 2 }
             set { myInt = newValue / 2 }
         }
         
         // Read-Only Computed Properties
-        var tripleInt: Int {
-            return myInt * 3
-        }
+        var tripleInt: Int { myInt * 3 }
         
         // Property Observers
         var myOutput = 0 {
             willSet {
                 print("setting myOutput to \(newValue)")
             }
-            didSet { // never set greater than 10
+            didSet { // ignore new value if greater than 10
                 if myOutput > 10 {
                     myOutput = oldValue
                 }
@@ -153,7 +143,7 @@ cheatsheet do
       notes <<-'END'
         ``` swift
         extension Double {
-            var isNegative: Bool { return sign == .minus }
+            var isNegative: Bool { sign == .minus }
         }
         let myDouble = -2.0
         myDouble.isNegative
@@ -166,14 +156,12 @@ cheatsheet do
       name 'Closures'
       notes <<-'END'
         ``` swift
-        func myclosure(number: Int) -> Int {
-          return number + 1
-        }
+        func myclosure(number: Int) -> Int { number + 1 }
         [1, 2, 3, 4].map(myclosure)
         // returns [2, 3, 4, 5]
 
         let animals = ["fish", "cat", "elephant", "dog", "minion"]
-        let sortedAnimals = animals.sorted { (first, second) in first > second }
+        var sortedAnimals = animals.sorted { (first, second) in first > second }
         sortedAnimals = animals.sorted { $0 > $1 } // $0 and $1 mean first and second params respectively
 
         let isEven = { (number: Int) -> Bool in
@@ -368,10 +356,17 @@ cheatsheet do
       name 'Error Handling'
       notes <<-'END'
         ``` swift
-        // Error
-        enum MyError : Error {
+        // LocalizedError
+        enum MyError : LocalizedError {
             case Err1
             case Err2(errDesc: String)
+
+            var errorDescription: String? {
+            switch self {
+                case .Err1: return "Error 1 occurred"
+                case let .Err2(errDesc): return "Error 2 occurred: \(errDesc)"
+                }
+            }
         }
 
         // Throwing
@@ -394,7 +389,7 @@ cheatsheet do
             print(desc)
         } catch {
             // Catch anything that the above catches didn't catch
-            print("Some Error")
+            print(error.localizedDescription)
         }
 
         // try!, try?
