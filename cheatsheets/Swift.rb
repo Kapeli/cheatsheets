@@ -28,20 +28,28 @@ cheatsheet do
       notes <<-'END'
         ``` swift
         class MyClass {
-            func doIt() -> Int {
-                return 0
-            }
-            func doIt(a: Int) -> Int {
-                return a
-            }
-            func doIt(a: Int, b: Int) -> Int {
-                return a + b
+            // Class Methods
+            class func course() -> String { "Swift!" }
+
+            // Instance Methods
+            func doIt() -> Int { 0 }
+            func doIt(a: Int) -> Int { a }
+            func doIt(_ a: Int, b: Int) -> Int { a + b }
+            func doIt(_ a: Int, b: Int, argLabel c: Int) -> Int { a + b + c }
+            func variadic(_ args: Int...) -> Int {
+                var total = 0
+                for x in args {
+                    total += x
+                }
+                return total
             }
         }
         var instance = MyClass()
         let variable1 = instance.doIt()
-        let variable2 = instance.doIt(1)
+        let variable2 = instance.doIt(a: 1)
         let variable3 = instance.doIt(1, b: 2)
+        let variable4 = instance.doIt(1, b: 2, argLabel: 3)
+        let variable5 = instance.variadic(1, 2, 3, 4)
         ```
       END
     end
@@ -51,6 +59,7 @@ cheatsheet do
       notes <<-'END'
         ```swift
         // Properties
+        static var sharedProperty = "default value"
         var myProperty: String
         var myOptionalProperty: String?
         
@@ -62,23 +71,21 @@ cheatsheet do
         // Computed Properties
         var myInt: Int = 1
         var doubleInt: Int {
-            get { return myInt * 2 }
+            get { myInt * 2 }
             set { myInt = newValue / 2 }
         }
         
         // Read-Only Computed Properties
-        var tripleInt: Int {
-            return myInt * 3
-        }
+        var tripleInt: Int { myInt * 3 }
         
         // Property Observers
         var myOutput = 0 {
             willSet {
                 print("setting myOutput to \(newValue)")
             }
-            didSet { // never set greater than 10
+            didSet { // ignore new value if greater than 10
                 if myOutput > 10 {
-                    myOutput = 10
+                    myOutput = oldValue
                 }
             }
         }
@@ -112,7 +119,7 @@ cheatsheet do
             }
         }
         
-        let el = HTMLElement()
+        var el = HTMLElement()
         print(el["id"])     // prints "hello"
         el["style"] = "float: left;"
         print(el["style"])  // prints "float: left;"
@@ -136,7 +143,7 @@ cheatsheet do
       notes <<-'END'
         ``` swift
         extension Double {
-            var isNegative: Bool { return isSignMinus }
+            var isNegative: Bool { sign == .minus }
         }
         let myDouble = -2.0
         myDouble.isNegative
@@ -149,20 +156,20 @@ cheatsheet do
       name 'Closures'
       notes <<-'END'
         ``` swift
-        func myclosure(number: Int) -> Int {
-          return number + 1
-        }
-        numbers.map(myclosure)
+        func myclosure(number: Int) -> Int { number + 1 }
+        [1, 2, 3, 4].map(myclosure)
         // returns [2, 3, 4, 5]
 
         let animals = ["fish", "cat", "elephant", "dog", "minion"]
-        let sortedAnimals = animals.sorted { (first, second) in first > second }
+        var sortedAnimals = animals.sorted { (first, second) in first > second }
         sortedAnimals = animals.sorted { $0 > $1 } // $0 and $1 mean first and second params respectively
 
-        let evenCheckFunction = isEven
-        let odds = Array(1...10).filter(!isEven)
-        odds = Array(1...10).filter { (number) in number % 2 != 0 }
-        odds = Array(1...10).filter { $0 % 2 == 0 }
+        let isEven = { (number: Int) -> Bool in
+            number % 2 == 0
+        }
+        var evens = Array(1...10).filter(isEven)
+        var odds = Array(1...10).filter { (number) in number % 2 != 0 }
+        odds = Array(1...10).filter { $0 % 2 != 0 }
         ```
       END
     end
@@ -269,13 +276,18 @@ cheatsheet do
 
         let forced: String = s! // error if nil
 
-        if let forced = s {
-          print(forced)
+        if let notForced = s {
+          print(notForced)
         } else {
           print("not found")
         }
 
-        let forced:String = s ?? "default value" //if (s == nil) use default value
+        let nilCoalescing:String = s ?? "default value" //if (s == nil) use default value
+
+        // Safely loop over [Int?] array
+        for case let x? in [1, nil, 3] {
+            print(x) // 1, 3
+        }
         ```
       END
     end
@@ -344,10 +356,17 @@ cheatsheet do
       name 'Error Handling'
       notes <<-'END'
         ``` swift
-        // ErrorType
-        enum MyError : ErrorType {
+        // LocalizedError
+        enum MyError : LocalizedError {
             case Err1
             case Err2(errDesc: String)
+
+            var errorDescription: String? {
+            switch self {
+                case .Err1: return "Error 1 occurred"
+                case let .Err2(errDesc): return "Error 2 occurred: \(errDesc)"
+                }
+            }
         }
 
         // Throwing
@@ -370,7 +389,7 @@ cheatsheet do
             print(desc)
         } catch {
             // Catch anything that the above catches didn't catch
-            print("Some Error")
+            print(error.localizedDescription)
         }
 
         // try!, try?
@@ -392,7 +411,7 @@ cheatsheet do
         let personTwo = "Brian"
         let combinedString = "\(personOne): Hello, \(personTwo)!"
         var tipString = "2499"
-        let tipInt = tipString.toInt()
+        let tipInt = Int(tipString)
 
         extension Double {
             init (string: String) {
@@ -431,6 +450,9 @@ cheatsheet do
         for (type, muppet) in dict {
             print("type: \(type), muppet: \(muppet)")
         }
+
+        // Forgo the optional
+        let notFound: String = dict["Bear", default: "Fozzie"]
         ```
       END
     end
