@@ -38,6 +38,16 @@ cheatsheet do
     header 'Landscape Logical Resolution'
 
     entry do
+      td_notes '1284 x 2778 px'
+      td_notes '2778 x 1284 px'
+      td_notes '428 x 926 points'
+      td_notes '926 x 428 points'
+      name 'iPhone 6.7-inch'
+      index_name 'iPhone 6.7-inch Resolution'
+      notes 'iPhone 12 Pro Max'
+    end
+
+    entry do
       td_notes '1242 x 2688 px'
       td_notes '2688 x 1242 px'
       td_notes '414 x 896 points'
@@ -45,6 +55,16 @@ cheatsheet do
       name 'iPhone 6.5-inch'
       index_name 'iPhone 6.5-inch Resolution'
       notes 'iPhone XS Max, iPhone 11 Pro Max'
+    end
+
+    entry do
+      td_notes '1170 x 2532 px'
+      td_notes '2532 x 1170 px'
+      td_notes '390 x 844 points'
+      td_notes '844 x 390 points'
+      name 'iPhone 6.1-inch'
+      index_name 'iPhone 6.1-inch Resolution'
+      notes 'iPhone 12, iPhone 12 Pro'
     end
 
     entry do
@@ -78,6 +98,16 @@ cheatsheet do
     end
 
     entry do
+      td_notes '1080 x 2340 px'
+      td_notes '2340 x 1080 px'
+      td_notes '375 x 812 points'
+      td_notes '812 x 375 points'
+      name 'iPhone 5.4-inch'
+      index_name 'iPhone 5.4-inch Resolution'
+      notes 'iPhone 12 Mini'
+    end
+
+    entry do
       td_notes '1242 x 2208 px'
       td_notes '2208 x 1242 px'
       td_notes '414 x 736 points'
@@ -94,7 +124,7 @@ cheatsheet do
       td_notes '667 x 375 points'
       name 'iPhone 4.7-inch'
       index_name 'iPhone 4.7-inch Resolution'
-      notes 'iPhone 6, iPhone 6S, iPhone 7, iPhone 8'
+      notes 'iPhone 6, iPhone 6S, iPhone 7, iPhone 8, iPhone SE2'
     end
 
     entry do
