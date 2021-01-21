@@ -14,6 +14,14 @@ cheatsheet do
         git clone ssh://user@domain.tld/repo.git
         ```"
     end
+    
+    entry do
+      name 'Clone a unique branch form an existing repository'
+      notes "
+         ```
+        git clone -b <branchname> --single-branch ssh://user@domain.tld/repo.git
+        ```"
+    end
 
     entry do
       name 'Clone an existing repository and all its sub-modules recursively'
