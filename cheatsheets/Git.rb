@@ -16,7 +16,7 @@ cheatsheet do
     end
     
     entry do
-      name 'Clone a unique branch form an existing repository'
+      name 'Clone a unique branch from an existing repository'
       notes "
          ```
         git clone -b <branchname> --single-branch ssh://user@domain.tld/repo.git
