@@ -932,7 +932,7 @@ git status
     entry do
       name '
 ```
-git stash save
+git stash push
 ```'
       command "gsta"
     end
