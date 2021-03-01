@@ -115,7 +115,7 @@ cheatsheet do
       notes   'Reload the current repository\'s commit history graph, file status, and build status.'
     end
     entry do
-      command 'CTRL+ALT+R'
+      command 'CTRL+OPTION+R'
       name    'Refresh remote status'
       notes   'Reload the current repository\'s status from the remote server.'
     end
@@ -145,7 +145,7 @@ cheatsheet do
       notes   'Retrieve any new commits for the current repository from the remote server.'
     end
     entry do
-      command 'CMD+ALT+U'
+      command 'CMD+OPTION+U'
       name    'Update to... *or* Checkout...'
       notes   'Switch to a particular branch or revision in the current repository.'
     end
@@ -178,7 +178,7 @@ cheatsheet do
       notes   'Open the remote server\'s website (if available) for the current repository.'
     end
     entry do
-      command 'CMD+ALT+P'
+      command 'CMD+OPTION+P'
       name    'Create pull request...'
       notes   'Start a pull request on the remote server for the current active branch.'
     end
@@ -228,7 +228,7 @@ cheatsheet do
       notes   'Remove the selected item(s) from the current repository\'s index and on-disk; requires a commit to save.'
     end
     entry do
-      command 'CMD+ALT+SHIFT+='
+      command 'CMD+OPTION+SHIFT+='
       name    'Add / Remove'
       notes   'Combines the Add and Remove actions (see their entries) into a single task for all the selected item(s).'
     end
@@ -245,7 +245,7 @@ cheatsheet do
       notes   'Ensure the selected item(s) are included in the current commit and focus the message editor, populating with a message template if available.'
     end
     entry do
-      command 'CMD+ALT+R'
+      command 'CMD+OPTION+R'
       name    'Reset... *or* Revert...'
       notes   'Begin reverting in-progress changes for the selected item(s).'
     end
@@ -262,12 +262,12 @@ cheatsheet do
       notes   'Stop an in-progress action such as rebasing or grafting.'
     end
     entry do
-      command 'CMD+ALT+L'
+      command 'CMD+OPTION+L'
       name    'Log selected...'
       notes   'Show a list of commits specific to the selected item in reverse chronological order.'
     end
     entry do
-      command 'CMD+ALT+B'
+      command 'CMD+OPTION+B'
       name    'Annotate selected...'
       notes   'Display the contents of the selected item, as lines, with the latest commit\'s information (author, date, metadata) alongside.'
     end    
@@ -344,7 +344,7 @@ cheatsheet do
       notes   'Configure Flow prefixes for the current repository.'
     end
     entry do
-      command 'CMD+ALT+F'
+      command 'CMD+OPTION+F'
       name    'Next action...'
       notes   'Begin the next Flow action based on what\'s currently in progress for the current repository.'
     end
@@ -377,12 +377,12 @@ cheatsheet do
   category do
     id 'Text Formatting'
     entry do
-      command 'CMD+ALT+-'
+      command 'CMD+OPTION+-'
       name    'Header'
       notes   'Wraps the selected text in Markdown syntax for a header.'
     end
     entry do
-      command 'CMD+ALT+SHIFT+-'
+      command 'CMD+OPTION+SHIFT+-'
       name    'Horizontal rule'
       notes   'Inserts the Markdown syntax for a single line.'
     end
@@ -402,7 +402,7 @@ cheatsheet do
       notes   'Inserts the Markdown syntax for a bullet at the start of selected text.'
     end
     entry do
-      command 'CMD+ALT+O'
+      command 'CMD+OPTION+O'
       name    'Numbered list'
       notes   'Inserts the Markdown syntax for a number sequence at the start of selected text.'
     end
@@ -412,7 +412,7 @@ cheatsheet do
       notes   'Wraps the selected text in Markdown syntax to be formatted as code.'
     end
     entry do
-      command 'CMD+ALT+K'
+      command 'CMD+OPTION+K'
       name    'Link'
       notes   'Wraps the selected text in Markdown syntax for a link, focused to edit the URL portion.'
     end

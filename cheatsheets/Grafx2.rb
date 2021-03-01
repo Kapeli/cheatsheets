@@ -56,25 +56,25 @@ cheatsheet do
     end
 
     entry do
-      command 'ALT+Arrow Up'
+      command 'OPTION+Arrow Up'
       name 'Slower scroll up'
       notes 'Used to scroll upwards in the picture pixel by pixel, either in magnify and normal mode.'
     end
 
     entry do
-      command 'ALT+Arrow Down'
+      command 'OPTION+Arrow Down'
       name 'Slower scroll down'
       notes 'Used to scroll downwards in the picture pixel by pixel, either in magnify andnormal mode. normal mode.'
     end
 
     entry do
-      command 'ALT+Arrow Left'
+      command 'OPTION+Arrow Left'
       name 'Slower scroll left'
       notes 'Used to scroll to the left in the picture pixel by pixel, either in magnify and normal mode.'
     end
 
     entry do
-      command 'ALT+Arrow Right'
+      command 'OPTION+Arrow Right'
       name 'Slower scroll right'
       notes 'Used to scroll to the right in the picture pixel by pixel, either in magnify and normal mode.'
     end
@@ -322,25 +322,25 @@ cheatsheet do
     end
 
     entry do
-      command 'ALT+R'
+      command 'OPTION+R'
       name 'Rectangle with gradation'
       notes 'Allows you to draw a rectangle with a color gradation.'
     end
 
     entry do
-      command 'ALT+G'
+      command 'OPTION+G'
       name 'Gradation menu'
       notes 'Allows you to configure the way color gradations are calculated.'
     end
 
     entry do
-      command 'ALT+C'
+      command 'OPTION+C'
       name 'Sphere with gradation'
       notes 'Allows you to draw a rectangle with a color gradation.'
     end
 
     entry do
-      command 'ALT+SHIFT+C'
+      command 'OPTION+SHIFT+C'
       name 'Ellipse with gradation'
       notes 'Allows you to draw an ellipse filled with a color gradation.'
     end
@@ -428,13 +428,13 @@ cheatsheet do
     end
 
     entry do
-      command 'ALT+F6'
+      command 'OPTION+F6'
       name 'Mask mode'
       notes 'Allows you to mask colors of the spare page that will keep you from drawing. This mode should be called "True stencil".'
     end
 
     entry do
-      command 'ALT+SHIFT+F6'
+      command 'OPTION+SHIFT+F6'
       name 'Mask menu'
       notes 'Opens a menu where you can choose colors for the Mask mode.'
     end
@@ -464,7 +464,7 @@ cheatsheet do
     end
 
     entry do
-      command 'CTRL+ALT+G'
+      command 'CTRL+OPTION+G'
       name 'Invert sieve'
       notes 'Inverts the pattern defined in the Sieve menu.'
     end
@@ -494,19 +494,19 @@ cheatsheet do
     end
 
     entry do
-      command 'ALT+F8'
+      command 'OPTION+F8'
       name 'Smear mode'
       notes 'Smears the pixels when you move your brush on the picture.'
     end
 
     entry do
-      command 'ALT+B'
+      command 'OPTION+B'
       name 'Tiling mode'
       notes 'Puts parts of the brush where you draw.'
     end
 
     entry do
-      command 'ALT+SHIFT+B'
+      command 'OPTION+SHIFT+B'
       name 'Tiling menu'
       notes 'Opens a menu where you can configure the origin of the tiling.'
     end
@@ -601,7 +601,7 @@ cheatsheet do
     end
 
     entry do
-      command 'CTRL+ALT+B'
+      command 'CTRL+OPTION+B'
       name 'Brush effects menu'
       notes 'Opens a menu which proposes different effects on the user-defined brush.'
     end

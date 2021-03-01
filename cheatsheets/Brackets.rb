@@ -29,7 +29,7 @@ cheatsheet do
       name 'Open file'
     end
     entry do
-      command 'CMD+ALT+O'
+      command 'CMD+OPTION+O'
       name 'Open folder'
     end
     entry do
@@ -78,15 +78,15 @@ cheatsheet do
       name 'Toggle quick edit'
     end
     entry do
-      command 'ALT+Arrow Up'
+      command 'OPTION+Arrow Up'
       name 'Previous match'
     end
     entry do
-      command 'ALT+Arrow Down'
+      command 'OPTION+Arrow Down'
       name 'Next match'
     end
     entry do
-      command 'CMD+ALT+N'
+      command 'CMD+OPTION+N'
       name 'New rule'
     end
     entry do
@@ -144,11 +144,11 @@ cheatsheet do
   category do
     id 'Replace'
     entry do
-      command 'CMD+ALT+F'
+      command 'CMD+OPTION+F'
       name 'Replace'
     end
     entry do
-      command 'CMD+ALT+SHIFT+F'
+      command 'CMD+OPTION+SHIFT+F'
       name 'Replace in project'
     end
   end
@@ -157,19 +157,19 @@ cheatsheet do
   category do
     id 'Folding'
     entry do
-      command 'ALT+1'
+      command 'OPTION+1'
       name 'Collapse all'
     end
     entry do
-      command 'ALT+SHIFT+1'
+      command 'OPTION+SHIFT+1'
       name 'Expand all'
     end
     entry do
-      command 'CMD+ALT+['
+      command 'CMD+OPTION+['
       name 'Collapse current'
     end
     entry do
-      command 'CMD+ALT+]'
+      command 'CMD+OPTION+]'
       name 'Expand current'
     end
   end
@@ -243,7 +243,7 @@ cheatsheet do
       name 'Duplicate current line or selection'
     end
     entry do
-      command 'CMD+ALT+L'
+      command 'CMD+OPTION+L'
       name 'Split selection into lines'
     end
     entry do
@@ -264,11 +264,11 @@ cheatsheet do
       name 'Transpose characters either side of the cursor'
     end
     entry do
-      command 'ALT+Backspace'
+      command 'OPTION+Backspace'
       name 'Delete text to beginning of word'
     end
     entry do
-      command 'ALT+Delete'
+      command 'OPTION+Delete'
       name 'Delete text to end of word'
     end
   end
@@ -277,11 +277,11 @@ cheatsheet do
   category do
     id 'Cursors'
     entry do
-      command 'ALT+SHIFT+Arrow Down'
+      command 'OPTION+SHIFT+Arrow Down'
       name 'Add cursor to next line'
     end
     entry do
-      command 'ALT+SHIFT+Arrow Up'
+      command 'OPTION+SHIFT+Arrow Up'
       name 'Add cursor to previous line'
     end
   end
@@ -298,11 +298,11 @@ cheatsheet do
       name 'Select current line'
     end
     entry do
-      command 'ALT+SHIFT+Arrow Left'
+      command 'OPTION+SHIFT+Arrow Left'
       name 'Select to beginning of word'
     end
     entry do
-      command 'ALT+SHIFT+Arrow Right'
+      command 'OPTION+SHIFT+Arrow Right'
       name 'Select to end of word'
     end
     entry do
@@ -348,7 +348,7 @@ cheatsheet do
   category do
     id 'Live Preview'
     entry do
-      command 'CMD+ALT+P'
+      command 'CMD+OPTION+P'
       name 'Enable live preview'
     end
     entry do
@@ -365,7 +365,7 @@ cheatsheet do
   category do
     id 'Debugging'
     entry do
-      command 'CMD+ALT+I'
+      command 'CMD+OPTION+I'
       name 'Show developer tools'
     end
     entry do

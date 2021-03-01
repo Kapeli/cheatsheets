@@ -16,7 +16,7 @@ cheatsheet do
 			name 'Run cell and select cell below'
 		end
 		entry do
-			command 'ALT+Enter'
+			command 'OPTION+Enter'
 			name 'Run cell and insert new cell below'
 		end
 		entry do
@@ -35,7 +35,7 @@ cheatsheet do
 			name 'Command mode'
 		end
 		entry do
-			command 'ALT+"-"'
+			command 'OPTION+"-"'
 			name 'Split Cell'
 		end
 	end

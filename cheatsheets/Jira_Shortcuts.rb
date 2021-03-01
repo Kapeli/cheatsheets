@@ -53,7 +53,7 @@ cheatsheet do
     end
 
     entry do
-      command 'CTRL+ALT+S'
+      command 'CTRL+OPTION+S'
       name 'Form submit'
     end
   end

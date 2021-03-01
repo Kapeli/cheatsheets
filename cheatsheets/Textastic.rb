@@ -8,19 +8,19 @@ cheatsheet do
   category do
     id 'General'
     entry do
-      command 'CMD+ALT+B'
+      command 'CMD+OPTION+B'
       name 'Toggle sidebar'
     end
     entry do
-      command 'CMD+ALT+P'
+      command 'CMD+OPTION+P'
       name 'Toggle preview'
     end
     entry do
-      command 'CMD+CTRL+ALT+P'
+      command 'CMD+CTRL+OPTION+P'
       name 'Preview in Safari'
     end
     entry do
-      command 'CMD+ALT+T'
+      command 'CMD+OPTION+T'
       name 'Toggle symbol list'
     end
   end
@@ -40,15 +40,15 @@ cheatsheet do
       name 'Toggle find/replace'
     end
     entry do
-      command 'CMD+ALT+Arrow Up'
+      command 'CMD+OPTION+Arrow Up'
       name 'Upload file'
     end
     entry do
-      command 'CMD+ALT+Arrow Down'
+      command 'CMD+OPTION+Arrow Down'
       name 'Download file'
     end
     entry do
-      command 'CMD+ALT+I'
+      command 'CMD+OPTION+I'
       name 'Toggle file properties'
     end
   end

@@ -39,7 +39,7 @@ cheatsheet do
       name 'Previous counterpart'
     end
     entry do
-      command 'CMD+ALT+SHIFT+Z'
+      command 'CMD+OPTION+SHIFT+Z'
       name 'View counterpart in assistant editor'
     end
     entry do
@@ -59,11 +59,11 @@ cheatsheet do
       name 'Go to line'
     end
     entry do
-      command 'CMD+ALT+Arrow Left'
+      command 'CMD+OPTION+Arrow Left'
       name 'Fold section'
     end
     entry do
-      command 'CMD+ALT+Arrow Right'
+      command 'CMD+OPTION+Arrow Right'
       name 'Unfold section'
     end
     entry do
@@ -95,7 +95,7 @@ cheatsheet do
   category do
     id 'Editing'
     entry do
-      command 'CMD+ALT+Return'
+      command 'CMD+OPTION+Return'
       name 'Show assistant editor'
     end
     entry do
@@ -131,11 +131,11 @@ cheatsheet do
       name 'Comment or uncomment'
     end
     entry do
-      command 'CMD+ALT+['
+      command 'CMD+OPTION+['
       name 'Move line up'
     end
     entry do
-      command 'CMD+ALT+]'
+      command 'CMD+OPTION+]'
       name 'Move line down'
     end
   end
@@ -148,7 +148,7 @@ cheatsheet do
       name 'Find in file'
     end
     entry do
-      command 'CMD+ALT+F'
+      command 'CMD+OPTION+F'
       name 'Find and replace in file'
     end
     entry do
@@ -156,7 +156,7 @@ cheatsheet do
       name 'Find in project'
     end
     entry do
-      command 'CMD+ALT+SHIFT+F'
+      command 'CMD+OPTION+SHIFT+F'
       name 'Find and replace in project'
     end
   end
@@ -201,11 +201,11 @@ cheatsheet do
       name 'Log navigator'
     end
     entry do
-      command 'ALT+Click'
+      command 'OPTION+Click'
       name 'Open in assistant navigator'
     end
     entry do
-      command 'ALT+SHIFT+Click'
+      command 'OPTION+SHIFT+Click'
       name 'Decide where to open'
     end
   end
@@ -242,17 +242,17 @@ cheatsheet do
   category do
     id 'Documentation'
     entry do
-      command 'CMD+ALT+?'
+      command 'CMD+OPTION+?'
       name 'Show documentation'
     end
     entry do
-      command 'ALT+Click'
+      command 'OPTION+Click'
       command 'CMD+CTRL+?'
       name 'Show quick help for symbol'
     end
     entry do
-      command 'ALT+Double Click'
-      command 'CMD+CTRL+ALT+/'
+      command 'OPTION+Double Click'
+      command 'CMD+CTRL+OPTION+/'
       name 'Show documentation for symbol'
     end
   end
@@ -294,47 +294,47 @@ cheatsheet do
   category do
     id 'Utilities'
     entry do
-      command 'CMD+ALT+0'
+      command 'CMD+OPTION+0'
       name 'Show or hide'
     end
     entry do
-      command 'CMD+ALT+1'
+      command 'CMD+OPTION+1'
       name 'File inspector'
     end
     entry do
-      command 'CMD+ALT+2'
+      command 'CMD+OPTION+2'
       name 'Quick help inspector'
     end
     entry do
-      command 'CMD+ALT+3'
+      command 'CMD+OPTION+3'
       name 'Identity inspector'
     end
     entry do
-      command 'CMD+ALT+4'
+      command 'CMD+OPTION+4'
       name 'Attributes inspector'
     end
     entry do
-      command 'CMD+ALT+5'
+      command 'CMD+OPTION+5'
       name 'Size inspector'
     end
     entry do
-      command 'CMD+ALT+6'
+      command 'CMD+OPTION+6'
       name 'Connections inspector'
     end
     entry do
-      command 'CMD+CTRL+ALT+1'
+      command 'CMD+CTRL+OPTION+1'
       name 'File template library'
     end
     entry do
-      command 'CMD+CTRL+ALT+2'
+      command 'CMD+CTRL+OPTION+2'
       name 'Code snippet library'
     end
     entry do
-      command 'CMD+CTRL+ALT+3'
+      command 'CMD+CTRL+OPTION+3'
       name 'Object library'
     end
     entry do
-      command 'CMD+CTRL+ALT+4'
+      command 'CMD+CTRL+OPTION+4'
       name 'Media library'
     end
   end

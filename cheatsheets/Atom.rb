@@ -107,15 +107,15 @@ cheatsheet do
       name 'Git status list'
     end
     entry do
-      command 'CMD+ALT+Z'
+      command 'CMD+OPTION+Z'
       name 'Checkout head revision'
     end
     entry do
-      command 'ALT+G+Arrow Down'
+      command 'OPTION+G+Arrow Down'
       name 'Move to next diff'
     end
     entry do
-      command 'ALT+G+Arrow Up'
+      command 'OPTION+G+Arrow Up'
       name 'Move to previous diff'
     end
   end
@@ -123,19 +123,19 @@ cheatsheet do
   category do
     id 'Folding'
     entry do
-      command 'CMD+ALT+['
+      command 'CMD+OPTION+['
       name 'Fold current code block'
     end
     entry do
-      command 'CMD+ALT+]'
+      command 'CMD+OPTION+]'
       name 'Unfold current code block'
     end
     entry do
-      command 'CMD+ALT+SHIFT+['
+      command 'CMD+OPTION+SHIFT+['
       name 'Fold all code blocks'
     end
     entry do
-      command 'CMD+ALT+SHIFT+]'
+      command 'CMD+OPTION+SHIFT+]'
       name 'Unfold all code blocks'
     end
     entry do
@@ -151,11 +151,11 @@ cheatsheet do
       name 'Transpose characters either side of cursor'
     end
     entry do
-      command 'ALT+Backspace'
+      command 'OPTION+Backspace'
       name 'Delete text to beginning of word'
     end
     entry do
-      command 'ALT+Delete'
+      command 'OPTION+Delete'
       name 'Delete text to end of word'
     end
   end
@@ -211,11 +211,11 @@ cheatsheet do
       name 'Select current line'
     end
     entry do
-      command 'ALT+SHIFT+Arrow Left'
+      command 'OPTION+SHIFT+Arrow Left'
       name 'Select to beginning of word'
     end
     entry do
-      command 'ALT+SHIFT+Arrow Right'
+      command 'OPTION+SHIFT+Arrow Right'
       name 'Select to end of word'
     end
     entry do

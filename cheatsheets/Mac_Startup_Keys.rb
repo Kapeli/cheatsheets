@@ -15,12 +15,12 @@ cheatsheet do
 			name 'Start up in [Apple Hardware Test](http://support.apple.com/kb/HT1509) (AHT).'
 		end
 		entry do
-			command 'CMD+ALT+P+R'
+			command 'CMD+OPTION+P+R'
 			name '[Reset NVRAM](http://support.apple.com/kb/HT1379)'
 			notes 'Press until you hear startup sound a second time.'
 		end
 		entry do
-			command 'ALT'
+			command 'OPTION'
 			name 'Start up in [Startup Manager](http://support.apple.com/kb/HT1310), where you can select an macOS volume or network volume to start from. '
 		end
 		entry do
@@ -50,7 +50,7 @@ cheatsheet do
 			name 'Start up in [Single-User mode](http://support.apple.com/kb/HT1492).'
 		end
 		entry do
-			command 'ALT+N'
+			command 'OPTION+N'
 			name 'Start from a NetBoot server using the default boot image.'
 		end
 		entry do
@@ -59,7 +59,7 @@ cheatsheet do
 			notes 'Available on Macs that ship with macOS Lion or newer. Some CPUs require an [EFI BootROM update to support this feature](http://support.apple.com/kb/HT4904).'
 		end
 		entry do
-			command 'CMD+ALT+R'
+			command 'CMD+OPTION+R'
 			name 'Download and start macOS Recovery System'
 			notes 'A network connection is required for this to work.'
 		end

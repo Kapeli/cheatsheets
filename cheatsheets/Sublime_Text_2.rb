@@ -63,7 +63,7 @@ cheatsheet do
       name 'Transpose'
     end
     entry do
-      command 'CMD+ALT+.'
+      command 'CMD+OPTION+.'
       name 'Close tag'
     end
     entry do
@@ -75,7 +75,7 @@ cheatsheet do
       name 'Wrap selection with tag'
     end
     entry do
-      command 'CMD+ALT+Q'
+      command 'CMD+OPTION+Q'
       name 'Wrap paragraph at ruler'
     end
     entry do
@@ -87,7 +87,7 @@ cheatsheet do
       name 'Sort lines (case sensitive)'
     end
     entry do
-      command 'CMD+ALT+T'
+      command 'CMD+OPTION+T'
       name 'Special characters'
     end
 
@@ -155,15 +155,15 @@ cheatsheet do
       name 'Incremental find'
     end
     entry do
-      command 'CMD+ALT+F'
+      command 'CMD+OPTION+F'
       name 'Replace'
     end
     entry do
-      command 'CMD+ALT+E'
+      command 'CMD+OPTION+E'
       name 'Replace next'
     end
     entry do
-      command 'CMD+ALT+G'
+      command 'CMD+OPTION+G'
       name 'Quick find'
     end
     entry do
@@ -203,19 +203,19 @@ cheatsheet do
       name 'Enter distraction free mode'
     end
     entry do
-      command 'CMD+ALT+1-4'
+      command 'CMD+OPTION+1-4'
       name 'Single layout'
     end
     entry do
-      command 'CMD+ALT+2-4'
+      command 'CMD+OPTION+2-4'
       name '2-4 column layout'
     end
     entry do
-      command 'CMD+ALT+SHIFT+2-3'
+      command 'CMD+OPTION+SHIFT+2-3'
       name '2-3 row layout'
     end
     entry do
-      command 'CMD+ALT+5'
+      command 'CMD+OPTION+5'
       name 'Grid layout'
     end
     entry do
@@ -247,15 +247,15 @@ cheatsheet do
       name 'Go to line'
     end
     entry do
-      command 'CMD+ALT+Arrow Right'
+      command 'CMD+OPTION+Arrow Right'
       name 'Next file'
     end
     entry do
-      command 'CMD+ALT+Arrow Left'
+      command 'CMD+OPTION+Arrow Left'
       name 'Previous file'
     end
     entry do
-      command 'CMD+ALT+Arrow Up'
+      command 'CMD+OPTION+Arrow Up'
       name 'Switch header / implementation'
     end
     entry do
@@ -267,11 +267,11 @@ cheatsheet do
       name 'Scroll to selection'
     end
     entry do
-      command 'CTRL+ALT+Arrow Up'
+      command 'CTRL+OPTION+Arrow Up'
       name 'Scroll line up'
     end
     entry do
-      command 'CTRL+ALT+Arrow Down'
+      command 'CTRL+OPTION+Arrow Down'
       name 'Scroll line down'
     end
     entry do
@@ -303,7 +303,7 @@ cheatsheet do
       name 'Command palette'
     end
     entry do
-      command 'CTRL+ALT+V'
+      command 'CTRL+OPTION+V'
       name 'View in browser'
     end
     entry do
@@ -319,7 +319,7 @@ cheatsheet do
       name 'Run'
     end
     entry do
-      command 'CTRL+ALT+R'
+      command 'CTRL+OPTION+R'
       name 'Run with arguments'
     end
     entry do
@@ -327,7 +327,7 @@ cheatsheet do
       name 'Debug'
     end
     entry do
-      command 'CTRL+ALT+D'
+      command 'CTRL+OPTION+D'
       name 'Debug with arguments'
     end
   end

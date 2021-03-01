@@ -17,12 +17,12 @@ cheatsheet do
     end
     entry do
       name 'Hide Other Applications'
-      command 'CMD+ALT+H'
+      command 'CMD+OPTION+H'
       notes 'Hide all applications except Final Cut Pro'
     end
     entry do
       name 'Keyboard Customization'
-      command 'CMD+ALT+K'
+      command 'CMD+OPTION+K'
       notes 'Open the Command Editor'
     end
     entry do
@@ -61,7 +61,7 @@ cheatsheet do
     id 'Editing'
     entry do
       name 'Adjust Volume Absolute'
-      command 'CTRL+ALT+L'
+      command 'CTRL+OPTION+L'
       notes 'Adjust the audio volume across all selected clips to a specific dB value'
     end
     entry do
@@ -81,7 +81,7 @@ cheatsheet do
     end
     entry do
       name 'Audition: Duplicate as Audition'
-      command 'ALT+Y'
+      command 'OPTION+Y'
       notes 'Create an audition with a timeline clip and a duplicate version of the clip, including applied effects'
     end
     entry do
@@ -196,7 +196,7 @@ cheatsheet do
     end
     entry do
       name 'Delete Selection Only'
-      command 'CMD+ALT+Delete'
+      command 'CMD+OPTION+Delete'
       notes 'Delete the selection and attach the connected clip or clips to the resulting gap clip'
     end
     entry do
@@ -221,7 +221,7 @@ cheatsheet do
     end
     entry do
       name 'Expand/Collapse Audio Components'
-      command 'CTRL+ALT+S'
+      command 'CTRL+OPTION+S'
       notes 'Expand or collapse audio components for the selection in the timeline'
     end
     entry do
@@ -246,7 +246,7 @@ cheatsheet do
     end
     entry do
       name 'Finalize Audition'
-      command 'ALT+SHIFT+Y'
+      command 'OPTION+SHIFT+Y'
       notes 'Dissolve the audition and replace it with the audition pick'
     end
     entry do
@@ -256,22 +256,22 @@ cheatsheet do
     end
     entry do
       name 'Insert/Connect Freeze Frame'
-      command 'ALT+F'
+      command 'OPTION+F'
       notes 'Insert a freeze frame at the playhead or skimmer location in the timeline, or connect a freeze frame from the skimmer or playhead location in the event to the playhead location in the timeline'
     end
     entry do
       name 'Insert Gap'
-      command 'ALT+W'
+      command 'OPTION+W'
       notes 'Insert a gap clip at the skimmer or playhead position'
     end
     entry do
       name 'Insert Default Generator'
-      command 'CMD+ALT+W'
+      command 'CMD+OPTION+W'
       notes 'Insert the default generator at the skimmer or playhead position'
     end
     entry do
       name 'Lift from Storyline'
-      command 'CMD+ALT+Up Arrow'
+      command 'CMD+OPTION+Up Arrow'
       notes 'Lift the selection from the storyline and connect it to the resulting gap clips'
     end
     entry do
@@ -286,32 +286,32 @@ cheatsheet do
     end
     entry do
       name 'New Compound Clip'
-      command 'ALT+G'
+      command 'OPTION+G'
       notes 'Create a new compound clip (if there’s no selection, create an empty compound clip)'
     end
     entry do
       name 'Nudge Audio Subframe Left'
-      command 'ALT+,'
+      command 'OPTION+,'
       notes 'Nudge the selected audio edit point left by one subframe, creating a split edit'
     end
     entry do
       name 'Nudge Audio Subframe Left Many'
-      command 'ALT+SHIFT+,'
+      command 'OPTION+SHIFT+,'
       notes 'Nudge the selected audio edit point left by 10 subframes, creating a split edit'
     end
     entry do
       name 'Nudge Audio Subframe Right'
-      command 'ALT+.'
+      command 'OPTION+.'
       notes 'Nudge the selected audio edit point right by one subframe, creating a split edit'
     end
     entry do
       name 'Nudge Audio Subframe Right Many'
-      command 'ALT+SHIFT+.'
+      command 'OPTION+SHIFT+.'
       notes 'Nudge the selected audio edit point right by 10 subframes, creating a split edit'
     end
     entry do
       name 'Nudge Down'
-      command 'ALT+Down Arrow'
+      command 'OPTION+Down Arrow'
       notes 'Nudge down the value of the selected keyframe in the animation editor'
     end
     entry do
@@ -336,7 +336,7 @@ cheatsheet do
     end
     entry do
       name 'Nudge Up'
-      command 'ALT+Up Arrow'
+      command 'OPTION+Up Arrow'
       notes 'Nudge up the value of the selected keyframe in the animation editor'
     end
     entry do
@@ -361,12 +361,12 @@ cheatsheet do
     end
     entry do
       name 'Overwrite to Primary Storyline'
-      command 'CMD+ALT+Down Arrow'
+      command 'CMD+OPTION+Down Arrow'
       notes 'Overwrite at the skimmer or playhead position in the primary storyline'
     end
     entry do
       name 'Paste as Connected'
-      command 'ALT+V'
+      command 'OPTION+V'
       notes 'Paste the selection and connect it to the primary storyline'
     end
     entry do
@@ -381,7 +381,7 @@ cheatsheet do
     end
     entry do
       name 'Previous Audio Angle'
-      command 'ALT+SHIFT+Left Arrow'
+      command 'OPTION+SHIFT+Left Arrow'
       notes 'Switch to the previous audio angle in the multicam clip'
     end
     entry do
@@ -406,7 +406,7 @@ cheatsheet do
     end
     entry do
       name 'Replace from Start'
-      command 'ALT+R'
+      command 'OPTION+R'
       notes 'Replace the selected clip in the timeline with the browser selection, starting from its start point'
     end
     entry do
@@ -471,7 +471,7 @@ cheatsheet do
     end
     entry do
       name 'Select Next Audio Angle'
-      command 'ALT+SHIFT+Right Arrow'
+      command 'OPTION+SHIFT+Right Arrow'
       notes 'Switch to the next audio angle in the multicam clip'
     end
     entry do
@@ -531,7 +531,7 @@ cheatsheet do
     end
     entry do
       name 'Solo'
-      command 'ALT+S'
+      command 'OPTION+S'
       notes 'Solo the selected items in the timeline'
     end
     entry do
@@ -551,52 +551,52 @@ cheatsheet do
     end
     entry do
       name 'Split Caption'
-      command 'CMD+CTRL+ALT+C'
+      command 'CMD+CTRL+OPTION+C'
       notes 'Replace the selected captions with abutting single-line captions, one for each line of text in the original captions.'
     end
     entry do
       name 'Switch to Viewer Angle 1'
-      command 'ALT+1'
+      command 'OPTION+1'
       notes 'Switch the multicam clip to angle 1 of the current bank'
     end
     entry do
       name 'Switch to Viewer Angle 2'
-      command 'ALT+2'
+      command 'OPTION+2'
       notes 'Switch the multicam clip to angle 2 of the current bank'
     end
     entry do
       name 'Switch to Viewer Angle 3'
-      command 'ALT+3'
+      command 'OPTION+3'
       notes 'Switch the multicam clip to angle 3 of the current bank'
     end
     entry do
       name 'Switch to Viewer Angle 4'
-      command 'ALT+4'
+      command 'OPTION+4'
       notes 'Switch the multicam clip to angle 4 of the current bank'
     end
     entry do
       name 'Switch to Viewer Angle 5'
-      command 'ALT+5'
+      command 'OPTION+5'
       notes 'Switch the multicam clip to angle 5 of the current bank'
     end
     entry do
       name 'Switch to Viewer Angle 6'
-      command 'ALT+6'
+      command 'OPTION+6'
       notes 'Switch the multicam clip to angle 6 of the current bank'
     end
     entry do
       name 'Switch to Viewer Angle 7'
-      command 'ALT+7'
+      command 'OPTION+7'
       notes 'Switch the multicam clip to angle 7 of the current bank'
     end
     entry do
       name 'Switch to Viewer Angle 8'
-      command 'ALT+8'
+      command 'OPTION+8'
       notes 'Switch the multicam clip to angle 8 of the current bank'
     end
     entry do
       name 'Switch to Viewer Angle 9'
-      command 'ALT+9'
+      command 'OPTION+9'
       notes 'Switch the multicam clip to angle 9 of the current bank'
     end
     entry do
@@ -606,17 +606,17 @@ cheatsheet do
     end
     entry do
       name 'Trim End'
-      command 'ALT+]'
+      command 'OPTION+]'
       notes 'Trim the end of the selected or topmost clip to the skimmer or playhead position'
     end
     entry do
       name 'Trim Start'
-      command 'ALT+['
+      command 'OPTION+['
       notes 'Trim the clip start point to the skimmer or playhead position'
     end
     entry do
       name 'Trim to Selection'
-      command 'ALT+\\'
+      command 'OPTION+\\'
       notes 'Trim clip start and end points to the range selection'
     end
   end
@@ -635,7 +635,7 @@ cheatsheet do
     end
     entry do
       name 'Add Default Audio Effect'
-      command 'CMD+ALT+E'
+      command 'CMD+OPTION+E'
       notes 'Add the default audio effect to the selection'
     end
     entry do
@@ -645,12 +645,12 @@ cheatsheet do
     end
     entry do
       name 'Add Default Video Effect'
-      command 'ALT+E'
+      command 'OPTION+E'
       notes 'Add the default video effect to the selection'
     end
     entry do
       name 'Color Board: Reset Current Board Controls'
-      command 'ALT+Delete'
+      command 'OPTION+Delete'
       notes 'Reset the controls in the current Color Board pane'
     end
     entry do
@@ -670,22 +670,22 @@ cheatsheet do
     end
     entry do
       name 'Copy Effects'
-      command 'CMD+ALT+C'
+      command 'CMD+OPTION+C'
       notes 'Copy the selected effects and their settings'
     end
     entry do
       name 'Copy Keyframes'
-      command 'ALT+SHIFT+C'
+      command 'OPTION+SHIFT+C'
       notes 'Copy the selected keyframes and their settings'
     end
     entry do
       name 'Cut Keyframes'
-      command 'ALT+SHIFT+X'
+      command 'OPTION+SHIFT+X'
       notes 'Cut the selected keyframes and their settings'
     end
     entry do
       name 'Enable/Disable Balance Color'
-      command 'CMD+ALT+B'
+      command 'CMD+OPTION+B'
       notes 'Turn Balance Color corrections on or off'
     end
     entry do
@@ -695,12 +695,12 @@ cheatsheet do
     end
     entry do
       name 'Match Color'
-      command 'CMD+ALT+M'
+      command 'CMD+OPTION+M'
       notes 'Match color between clips'
     end
     entry do
       name 'Next Text'
-      command 'ALT+Tab'
+      command 'OPTION+Tab'
       notes 'Navigate to the next text item'
     end
     entry do
@@ -710,17 +710,17 @@ cheatsheet do
     end
     entry do
       name 'Paste Effects'
-      command 'CMD+ALT+V'
+      command 'CMD+OPTION+V'
       notes 'Paste effects and their settings to the selection'
     end
     entry do
       name 'Paste Keyframes'
-      command 'ALT+SHIFT+V'
+      command 'OPTION+SHIFT+V'
       notes 'Paste keyframes and their settings to the selection'
     end
     entry do
       name 'Previous Text'
-      command 'ALT+SHIFT+Tab'
+      command 'OPTION+SHIFT+Tab'
       notes 'Navigate to the previous text item'
     end
     entry do
@@ -730,7 +730,7 @@ cheatsheet do
     end
     entry do
       name 'Remove Effects'
-      command 'CMD+ALT+X'
+      command 'CMD+OPTION+X'
       notes 'Remove all effects from the selection'
     end
     entry do
@@ -750,7 +750,7 @@ cheatsheet do
     end
     entry do
       name 'Retime: Reset'
-      command 'CMD+ALT+R'
+      command 'CMD+OPTION+R'
       notes 'Reset the selection to play forward at normal (100 percent) speed'
     end
     entry do
@@ -774,7 +774,7 @@ cheatsheet do
     end
     entry do
       name 'Go to Event Viewer'
-      command 'CMD+ALT+3'
+      command 'CMD+OPTION+3'
       notes 'Make the event viewer active'
     end
     entry do
@@ -823,7 +823,7 @@ cheatsheet do
     id 'Marking'
     entry do
       name 'Add Caption'
-      command 'ALT+C'
+      command 'OPTION+C'
       notes 'Add a caption to the active language subrole at the playhead location'
     end
     entry do
@@ -838,7 +838,7 @@ cheatsheet do
     end
     entry do
       name 'Add Marker and Modify'
-      command 'ALT+M'
+      command 'OPTION+M'
       notes 'Add a marker and edit the marker’s text'
     end
     entry do
@@ -888,17 +888,17 @@ cheatsheet do
     end
     entry do
       name 'Clear Selected Ranges'
-      command 'ALT+X'
+      command 'OPTION+X'
       notes 'Clear the range selection'
     end
     entry do
       name 'Clear Range End'
-      command 'ALT+O'
+      command 'OPTION+O'
       notes 'Clear the range’s end point'
     end
     entry do
       name 'Clear Range Start'
-      command 'ALT+I'
+      command 'OPTION+I'
       notes 'Clear the range’s start point'
     end
     entry do
@@ -943,7 +943,7 @@ cheatsheet do
     end
     entry do
       name 'New Smart Collection'
-      command 'CMD+ALT+N'
+      command 'CMD+OPTION+N'
       notes 'Create a new Smart Collection'
     end
     entry do
@@ -968,27 +968,27 @@ cheatsheet do
     end
     entry do
       name 'Roles: Apply Dialogue Role'
-      command 'CTRL+ALT+D'
+      command 'CTRL+OPTION+D'
       notes 'Apply Dialogue subroles to the selected clip’s components'
     end
     entry do
       name 'Roles: Apply Effects Role'
-      command 'CTRL+ALT+E'
+      command 'CTRL+OPTION+E'
       notes 'Apply Effects subroles to the selected clip’s components'
     end
     entry do
       name 'Roles: Apply Music Role'
-      command 'CTRL+ALT+M'
+      command 'CTRL+OPTION+M'
       notes 'Apply Music subroles to the selected clip’s components'
     end
     entry do
       name 'Roles: Apply Titles Role'
-      command 'CTRL+ALT+T'
+      command 'CTRL+OPTION+T'
       notes 'Apply the Titles role to the selected clip'
     end
     entry do
       name 'Roles: Apply Video Role'
-      command 'CTRL+ALT+V'
+      command 'CTRL+OPTION+V'
       notes 'Apply the Video role to the selected clip'
     end
     entry do
@@ -1042,7 +1042,7 @@ cheatsheet do
     id 'Organization'
     entry do
       name 'New Event'
-      command 'ALT+N'
+      command 'OPTION+N'
       notes 'Create a new event'
     end
     entry do
@@ -1057,12 +1057,12 @@ cheatsheet do
     end
     entry do
       name 'Reveal Project in Browser'
-      command 'CMD+ALT+SHIFT+F'
+      command 'CMD+OPTION+SHIFT+F'
       notes 'Reveal the open project in the browser'
     end
     entry do
       name 'Synchronize Clips'
-      command 'CMD+ALT+G'
+      command 'CMD+OPTION+G'
       notes 'Sync the selected event clips'
     end
   end
@@ -1081,22 +1081,22 @@ cheatsheet do
     end
     entry do
       name 'Clip Skimming'
-      command 'CMD+ALT+S'
+      command 'CMD+OPTION+S'
       notes 'Turn clip skimming on or off'
     end
     entry do
       name 'Cut/Switch Multicam Audio Only'
-      command 'ALT+SHIFT+3'
+      command 'OPTION+SHIFT+3'
       notes 'Turn on audio-only mode for multicam cutting and switching'
     end
     entry do
       name 'Cut/Switch Multicam Audio and Video'
-      command 'ALT+SHIFT+1'
+      command 'OPTION+SHIFT+1'
       notes 'Turn on audio/video mode for multicam cutting and switching'
     end
     entry do
       name 'Cut/Switch Multicam Video Only'
-      command 'ALT+SHIFT+2'
+      command 'OPTION+SHIFT+2'
       notes 'Turn on video-only mode for multicam cutting and switching'
     end
     entry do
@@ -1131,7 +1131,7 @@ cheatsheet do
     end
     entry do
       name 'Go to Next Bank'
-      command 'ALT+SHIFT+’'
+      command 'OPTION+SHIFT+’'
       notes 'Display the next bank of angles in the current multicam clip'
     end
     entry do
@@ -1141,7 +1141,7 @@ cheatsheet do
     end
     entry do
       name 'Go to Next Field'
-      command 'ALT+Right Arrow'
+      command 'OPTION+Right Arrow'
       notes 'Move the playhead to the next field in an interlaced clip'
     end
     entry do
@@ -1151,12 +1151,12 @@ cheatsheet do
     end
     entry do
       name 'Go to Next Subframe'
-      command 'ALT+Right Arrow'
+      command 'OPTION+Right Arrow'
       notes 'Move the playhead to the next audio subframe'
     end
     entry do
       name 'Go to Previous Bank'
-      command 'ALT+SHIFT+;'
+      command 'OPTION+SHIFT+;'
       notes 'Display the previous bank of angles in the current multicam clip'
     end
     entry do
@@ -1166,7 +1166,7 @@ cheatsheet do
     end
     entry do
       name 'Go to Previous Field'
-      command 'ALT+Left Arrow'
+      command 'OPTION+Left Arrow'
       notes 'Move the playhead to the previous field in an interlaced clip'
     end
     entry do
@@ -1176,7 +1176,7 @@ cheatsheet do
     end
     entry do
       name 'Go to Previous Subframe'
-      command 'ALT+Left Arrow'
+      command 'OPTION+Left Arrow'
       notes 'Move the playhead to the previous audio subframe'
     end
     entry do
@@ -1191,32 +1191,32 @@ cheatsheet do
     end
     entry do
       name 'Look Clockwise'
-      command 'CMD+CTRL+ALT+Right Bracket'
+      command 'CMD+CTRL+OPTION+Right Bracket'
       notes 'Roll the 360° viewer clockwise'
     end
     entry do
       name 'Look Counterclockwise'
-      command 'CMD+CTRL+ALT+Left Bracket'
+      command 'CMD+CTRL+OPTION+Left Bracket'
       notes 'Roll the 360° viewer counterclockwise'
     end
     entry do
       name 'Look Down'
-      command 'CMD+CTRL+ALT+Down Arrow'
+      command 'CMD+CTRL+OPTION+Down Arrow'
       notes 'Tilt the 360° viewer down'
     end
     entry do
       name 'Look Left'
-      command 'CMD+CTRL+ALT+Left Arrow'
+      command 'CMD+CTRL+OPTION+Left Arrow'
       notes 'Pan the 360° viewer to the left'
     end
     entry do
       name 'Look Right'
-      command 'CMD+CTRL+ALT+Right Arrow'
+      command 'CMD+CTRL+OPTION+Right Arrow'
       notes 'Pan the 360° viewer to the right'
     end
     entry do
       name 'Look Up'
-      command 'CMD+CTRL+ALT+Up Arrow'
+      command 'CMD+CTRL+OPTION+Up Arrow'
       notes 'Pan the 360° viewer up'
     end
     entry do
@@ -1226,7 +1226,7 @@ cheatsheet do
     end
     entry do
       name 'Mirror VR Headset'
-      command 'CMD+CTRL+ALT+9'
+      command 'CMD+CTRL+OPTION+9'
       notes 'Mirror the display of the connected VR headset in the 360° viewer'
     end
     entry do
@@ -1251,7 +1251,7 @@ cheatsheet do
     end
     entry do
       name 'Output to VR Headset'
-      command 'CMD+CTRL+ALT+7'
+      command 'CMD+CTRL+OPTION+7'
       notes 'Send 360° video to the connected VR headset'
     end
     entry do
@@ -1266,7 +1266,7 @@ cheatsheet do
     end
     entry do
       name 'Play from Playhead'
-      command 'ALT+Space bar'
+      command 'OPTION+Space bar'
       notes 'Play from the playhead position'
     end
     entry do
@@ -1336,7 +1336,7 @@ cheatsheet do
     end
     entry do
       name 'Start/Stop Voiceover Recording'
-      command 'ALT+SHIFT+A'
+      command 'OPTION+SHIFT+A'
       notes 'Start or stop recording audio from the Record Voiceover window'
     end
     entry do
@@ -1395,7 +1395,7 @@ cheatsheet do
     end
     entry do
       name 'Distort Tool'
-      command 'ALT+D'
+      command 'OPTION+D'
       notes 'Make the Distort tool active and display onscreen controls for the selected clip or the topmost clip under the playhead'
     end
     entry do
@@ -1429,42 +1429,42 @@ cheatsheet do
     id 'View'
     entry do
       name 'Clip Appearance: Clip Labels Only'
-      command 'CTRL+ALT+6'
+      command 'CTRL+OPTION+6'
       notes 'Depending on the clip name setting, display timeline clips with clip names, role names, or active angle names only'
     end
     entry do
       name 'Clip Appearance: Decrease Waveform Size'
-      command 'CTRL+ALT+Down Arrow'
+      command 'CTRL+OPTION+Down Arrow'
       notes 'Decrease the size of audio waveforms for timeline clips'
     end
     entry do
       name 'Clip Appearance: Filmstrips Only'
-      command 'CTRL+ALT+5'
+      command 'CTRL+OPTION+5'
       notes 'Display timeline clips with large filmstrips only'
     end
     entry do
       name 'Clip Appearance: Increase Waveform Size'
-      command 'CTRL+ALT+Up Arrow'
+      command 'CTRL+OPTION+Up Arrow'
       notes 'Increase the size of audio waveforms for timeline clips'
     end
     entry do
       name 'Clip Appearance: Large Filmstrips'
-      command 'CTRL+ALT+4'
+      command 'CTRL+OPTION+4'
       notes 'Display timeline clips with small audio waveforms and large filmstrips'
     end
     entry do
       name 'Clip Appearance: Large Waveforms'
-      command 'CTRL+ALT+2'
+      command 'CTRL+OPTION+2'
       notes 'Display timeline clips with large audio waveforms and small filmstrips'
     end
     entry do
       name 'Clip Appearance: Waveforms and Filmstrips'
-      command 'CTRL+ALT+3'
+      command 'CTRL+OPTION+3'
       notes 'Display timeline clips with audio waveforms and video filmstrips of equal size'
     end
     entry do
       name 'Clip Appearance: Waveforms Only'
-      command 'CTRL+ALT+1'
+      command 'CTRL+OPTION+1'
       notes 'Display timeline clips with large audio waveforms only'
     end
     entry do
@@ -1504,17 +1504,17 @@ cheatsheet do
     end
     entry do
       name 'Show One Frame per Filmstrip'
-      command 'CMD+ALT+SHIFT+,'
+      command 'CMD+OPTION+SHIFT+,'
       notes 'Show one frame per filmstrip'
     end
     entry do
       name 'Toggle Filmstrip/List View'
-      command 'CMD+ALT+2'
+      command 'CMD+OPTION+2'
       notes 'Switch the browser between filmstrip view and list view'
     end
     entry do
       name 'View Clip Names'
-      command 'ALT+SHIFT+N'
+      command 'OPTION+SHIFT+N'
       notes 'Show or hide clip names in the browser'
     end
     entry do
@@ -1563,7 +1563,7 @@ cheatsheet do
     end
     entry do
       name 'Go to Inspector'
-      command 'CMD+ALT+4'
+      command 'CMD+OPTION+4'
       notes 'Make the current inspector active'
     end
     entry do
@@ -1588,7 +1588,7 @@ cheatsheet do
     end
     entry do
       name 'Record Voiceover'
-      command 'CMD+ALT+8'
+      command 'CMD+OPTION+8'
       notes 'Show or hide the Record Voiceover window'
     end
     entry do
@@ -1668,7 +1668,7 @@ cheatsheet do
     end
     entry do
       name 'Show/Hide 360° Viewer'
-      command 'CMD+ALT+7'
+      command 'CMD+OPTION+7'
       notes 'Show or hide the 360° viewer'
     end
     entry do
@@ -1683,7 +1683,7 @@ cheatsheet do
     end
     entry do
       name 'Show/Hide Titles and Generators Sidebar'
-      command 'CMD+ALT+1'
+      command 'CMD+OPTION+1'
       notes 'Show or hide the Titles and Generators sidebar'
     end
     entry do

@@ -13,7 +13,7 @@ cheatsheet do
       name 'Settings'
     end
     entry do
-      command 'CMD+CTRL+ALT+T'
+      command 'CMD+CTRL+OPTION+T'
       name 'Toggle light/dark mode'
     end
     entry do
@@ -46,7 +46,7 @@ cheatsheet do
       name 'Pull'
     end
     entry do
-      command 'CMD+ALT+F'
+      command 'CMD+OPTION+F'
       name 'Search files in current repository'
     end
     entry do

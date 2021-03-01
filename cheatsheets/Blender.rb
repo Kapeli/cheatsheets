@@ -91,11 +91,11 @@ cheatsheet do
       name 'Hide'
     end
     entry do
-      command 'ALT+H'
+      command 'OPTION+H'
       name 'Unhide'
     end
     entry do
-      command 'CTRL+ALT+SHIFT+C'
+      command 'CTRL+OPTION+SHIFT+C'
       name 'Move to origin point'
     end
     entry do
@@ -103,7 +103,7 @@ cheatsheet do
       name 'Parent to'
     end
     entry do
-      command 'ALT+P'
+      command 'OPTION+P'
       name 'Clear parent'
     end
     entry do
@@ -111,7 +111,7 @@ cheatsheet do
       name 'Track to'
     end
     entry do
-      command 'ALT+T'
+      command 'OPTION+T'
       name 'Clear track'
     end
     entry do
@@ -208,7 +208,7 @@ cheatsheet do
       name 'Select/deselect all'
     end
     entry do
-      command 'ALT+Right Click'
+      command 'OPTION+Right Click'
       name 'Select object behind'
     end
     entry do
@@ -240,11 +240,11 @@ cheatsheet do
   category do
     id 'Animation'
     entry do
-      command 'ALT+A'
+      command 'OPTION+A'
       name 'Play/stop animation'
     end
     entry do
-      command 'ALT+SHIFT+A'
+      command 'OPTION+SHIFT+A'
       name 'Play animation in reverse'
     end
     entry do
@@ -272,7 +272,7 @@ cheatsheet do
       name 'Jump to end point'
     end
     entry do
-      command 'ALT+Mouse Wheel'
+      command 'OPTION+Mouse Wheel'
       name 'Scroll through frames'
     end
     entry do
@@ -280,7 +280,7 @@ cheatsheet do
       name 'Insert keyframe'
     end
     entry do
-      command 'ALT+I'
+      command 'OPTION+I'
       name 'Remove keyframe'
     end
     entry do
@@ -309,7 +309,7 @@ cheatsheet do
       name 'Recalculate roll'
     end
     entry do
-      command 'CTRL+ALT+A'
+      command 'CTRL+OPTION+A'
       name 'Align bones'
     end
     entry do
@@ -325,7 +325,7 @@ cheatsheet do
       name 'Set bone flag'
     end
     entry do
-      command 'ALT+F'
+      command 'OPTION+F'
       name 'Switch bone direction'
     end
     entry do
@@ -351,15 +351,15 @@ cheatsheet do
       name 'Apply pose'
     end
     entry do
-      command 'ALT+R'
+      command 'OPTION+R'
       name 'Clear pose rotation'
     end
     entry do
-      command 'ALT+L'
+      command 'OPTION+L'
       name 'Clear pose location'
     end
     entry do
-      command 'ALT+S'
+      command 'OPTION+S'
       name 'Clear pose scale'
     end
     entry do
@@ -375,7 +375,7 @@ cheatsheet do
       name 'Add ik'
     end
     entry do
-      command 'CTRL+ALT+I'
+      command 'CTRL+OPTION+I'
       name 'Remove ik'
     end
     entry do
@@ -383,7 +383,7 @@ cheatsheet do
       name 'Add to bone group'
     end
     entry do
-      command 'ALT+E'
+      command 'OPTION+E'
       name 'Relax pose'
     end
   end
@@ -439,7 +439,7 @@ cheatsheet do
       name 'Lock strip'
     end
     entry do
-      command 'SHIFT+ALT+L'
+      command 'SHIFT+OPTION+L'
       name 'Unlock strip'
     end
     entry do
@@ -479,7 +479,7 @@ cheatsheet do
       name 'Make group'
     end
     entry do
-      command 'ALT+G'
+      command 'OPTION+G'
       name 'Ungroup'
     end
     entry do
@@ -487,7 +487,7 @@ cheatsheet do
       name 'Edit group'
     end
     entry do
-      command 'ALT+Middle Click'
+      command 'OPTION+Middle Click'
       name 'Move background'
     end
     entry do
@@ -495,7 +495,7 @@ cheatsheet do
       name 'Zoom in background'
     end
     entry do
-      command 'ALT+V'
+      command 'OPTION+V'
       name 'Zoom out background'
     end
     entry do
@@ -535,7 +535,7 @@ cheatsheet do
       name 'Proportional editing'
     end
     entry do
-      command 'ALT+Right Click'
+      command 'OPTION+Right Click'
       name 'Select edge loop'
     end
     entry do
@@ -543,7 +543,7 @@ cheatsheet do
       name 'Make seam/sharp'
     end
     entry do
-      command 'ALT+M'
+      command 'OPTION+M'
       name 'Merge vertices'
     end
     entry do
@@ -551,7 +551,7 @@ cheatsheet do
       name 'Mirror'
     end
     entry do
-      command 'ALT+S'
+      command 'OPTION+S'
       name 'Shrink/fatten'
     end
     entry do
@@ -559,11 +559,11 @@ cheatsheet do
       name 'Knife'
     end
     entry do
-      command 'ALT+F'
+      command 'OPTION+F'
       name 'Fill'
     end
     entry do
-      command 'SHIFT+ALT+F'
+      command 'SHIFT+OPTION+F'
       name 'Beauty fill'
     end
     entry do
@@ -575,7 +575,7 @@ cheatsheet do
   category do
     id 'Editing Curves'
     entry do
-      command 'ALT+C'
+      command 'OPTION+C'
       name 'Close path'
     end
     entry do
@@ -591,7 +591,7 @@ cheatsheet do
       name 'Tilt'
     end
     entry do
-      command 'ALT+T'
+      command 'OPTION+T'
       name 'Clear tilt'
     end
     entry do
@@ -692,7 +692,7 @@ cheatsheet do
       name 'Append file'
     end
     entry do
-      command 'ALT+F11'
+      command 'OPTION+F11'
       name 'Fullscreen mode'
     end
     entry do

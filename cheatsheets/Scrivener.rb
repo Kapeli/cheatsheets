@@ -19,16 +19,16 @@ cheatsheet do
       name 'Outline view'
     end
     entry do
-      command 'CMD+ALT+F'
+      command 'CMD+OPTION+F'
       name 'Toggle view mode'
       notes 'Toggle between normal view and focused view.'
     end
     entry do
-      command 'CMD+ALT+I'
+      command 'CMD+OPTION+I'
       name 'Toggle inspector'
     end
     entry do
-      command 'CMD+ALT+B'
+      command 'CMD+OPTION+B'
       name 'Toggle binder'
     end
     entry do
@@ -36,17 +36,17 @@ cheatsheet do
       name 'Hide format bar'
     end
     entry do
-      command 'CMD+ALT+SHIFT+H'
+      command 'CMD+OPTION+SHIFT+H'
       name 'Project keywords'
       notes 'Toggle project keywords.'
     end
     entry do
-      command 'CMD+ALT+SHIFT+P'
+      command 'CMD+OPTION+SHIFT+P'
       name 'Page view'
       notes 'Toggle page view.'
     end
     entry do
-      command 'CMD+ALT+P'
+      command 'CMD+OPTION+P'
       name 'Project notes'
       notes 'Open project notes.'
     end
@@ -59,12 +59,12 @@ cheatsheet do
   category do
     id 'Navigation'
     entry do
-      command 'CMD+ALT+Arrow Up'
+      command 'CMD+OPTION+Arrow Up'
       name 'Previous item'
       notes 'Go to previous binder item'
     end
     entry do
-      command 'CMD+ALT+Arrow Down'
+      command 'CMD+OPTION+Arrow Down'
       name 'Next item'
       notes 'Go to next binder item'
     end
@@ -74,7 +74,7 @@ cheatsheet do
       notes 'Go to enclosing group'
     end
     entry do
-      command 'CMD+ALT+R'
+      command 'CMD+OPTION+R'
       name 'Reveal in binder'
       notes 'Select edited text in binder. Especially handy if binder window is closed.'
     end
@@ -158,12 +158,12 @@ cheatsheet do
       notes 'Merge selected texts into a single document.'
     end
     entry do
-      command 'CMD+ALT+K'
+      command 'CMD+OPTION+K'
       name 'Split at selection'
       notes 'Split the text at selection and create a new text with the part below the split.'
     end
     entry do
-      command 'CMD+ALT+SHIFT+K'
+      command 'CMD+OPTION+SHIFT+K'
       name 'Split with selection as title'
       notes 'Like `Split at selection`, but sets the selected text as title of the newly created split.'
     end

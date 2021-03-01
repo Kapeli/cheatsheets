@@ -49,7 +49,7 @@ cheatsheet do
       name 'Fit to Screen'
     end
     entry do
-      command 'CMD+ALT+0'
+      command 'CMD+OPTION+0'
       name 'Zoom to 100%'
     end
     entry do
@@ -115,7 +115,7 @@ cheatsheet do
       name 'Show Clipping'
     end
     entry do
-      command 'ALT+S'
+      command 'OPTION+S'
       name 'Enable Soft Proof'
     end
   end
@@ -214,7 +214,7 @@ cheatsheet do
       name 'Paste Settings'
     end
     entry do
-      command 'ALT+SHIFT+S'
+      command 'OPTION+SHIFT+S'
       name 'Sync Settings'
     end
     entry do
@@ -235,15 +235,15 @@ cheatsheet do
       name 'Smaller Brush'
     end
     entry do
-      command 'ALT+]'
+      command 'OPTION+]'
       name 'Increase Brush Opacity'
     end
     entry do
-      command 'ALT+['
+      command 'OPTION+['
       name 'Decrease Brush Opacity'
     end
     entry do
-      command 'ALT+1 - 0'
+      command 'OPTION+1 - 0'
       name 'Set Brush Opacity'
     end
     entry do
@@ -256,7 +256,7 @@ cheatsheet do
     end
     entry do
       command 'SHIFT+X'
-      command 'Hold ALT'
+      command 'Hold OPTION'
       name 'Toggle Paint-in/Paint-out'
     end
     entry do

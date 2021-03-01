@@ -94,7 +94,7 @@ cheatsheet do
     end
 
     entry do
-      command 'ALT+Enter'
+      command 'OPTION+Enter'
       name 'Toggle fullscreen mode'
     end
 

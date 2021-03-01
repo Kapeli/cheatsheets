@@ -39,7 +39,7 @@ cheatsheet do
 
         entry do
             name 'Save all'
-            command 'CMD+ALT+S'
+            command 'CMD+OPTION+S'
         end
 
         entry do
@@ -184,7 +184,7 @@ cheatsheet do
 
         entry do
             name 'Toggle block comment'
-            command 'CMD+ALT+/'
+            command 'CMD+OPTION+/'
         end
 
         entry do
@@ -245,7 +245,7 @@ cheatsheet do
 
         entry do
             name 'Close tag'
-            command 'CMD+ALT+.'
+            command 'CMD+OPTION+.'
         end
 
         entry do
@@ -265,7 +265,7 @@ cheatsheet do
 
         entry do
             name 'Wrap paragraph at ruler'
-            command 'CMD+ALT+Q'
+            command 'CMD+OPTION+Q'
         end
 
         entry do
@@ -295,12 +295,12 @@ cheatsheet do
 
         entry do
             name 'Scroll line up'
-            command 'CTRL+ALT+Arrow Up'
+            command 'CTRL+OPTION+Arrow Up'
         end
 
         entry do
             name 'Scroll line down'
-            command 'CTRL+ALT+Arrow Down'
+            command 'CTRL+OPTION+Arrow Down'
         end
 
         entry do
@@ -409,17 +409,17 @@ cheatsheet do
 
         entry do
             name 'Replace'
-            command 'CMD+ALT+F'
+            command 'CMD+OPTION+F'
         end
 
         entry do
             name 'Replace next'
-            command 'CMD+ALT+E'
+            command 'CMD+OPTION+E'
         end
 
         entry do
             name 'Quick find'
-            command 'CMD+ALT+G'
+            command 'CMD+OPTION+G'
             notes 'Searches for the word under the cursor'
         end
 
@@ -460,12 +460,12 @@ cheatsheet do
 
         entry do
             name 'Fold selec­tion'
-            command 'CMD+ALT+['
+            command 'CMD+OPTION+['
         end
 
         entry do
             name 'Unfold'
-            command 'CMD+ALT+]'
+            command 'CMD+OPTION+]'
         end
 
         entry do
@@ -543,37 +543,37 @@ cheatsheet do
 
         entry do
             name 'Single'
-            command 'CMD+ALT+1'
+            command 'CMD+OPTION+1'
         end
 
         entry do
             name 'Columns: 2'
-            command 'CMD+ALT+2'
+            command 'CMD+OPTION+2'
         end
 
         entry do
             name 'Columns: 3'
-            command 'CMD+ALT+3'
+            command 'CMD+OPTION+3'
         end
 
         entry do
             name 'Columns: 4'
-            command 'CMD+ALT+4'
+            command 'CMD+OPTION+4'
         end
 
         entry do
             name 'Rows: 2'
-            command 'CMD+SHIFT+ALT+2'
+            command 'CMD+SHIFT+OPTION+2'
         end
 
         entry do
             name 'Rows: 3'
-            command 'CMD+SHIFT+ALT+3'
+            command 'CMD+SHIFT+OPTION+3'
         end
 
         entry do
             name 'Grid: 3'
-            command 'CMD+ALT+5'
+            command 'CMD+OPTION+5'
         end
 
         entry do
@@ -617,7 +617,7 @@ cheatsheet do
 
         entry do
             name 'Special characters'
-            command 'CMD+ALT+T'
+            command 'CMD+OPTION+T'
         end
     end
 

@@ -9,17 +9,17 @@ cheatsheet do
 
         entry do
             name 'View source'
-            command 'CMD+ALT+U'
+            command 'CMD+OPTION+U'
         end
 
         entry do
             name 'Developers tools'
-            command 'CMD+ALT+I'
+            command 'CMD+OPTION+I'
         end
 
         entry do
             name 'Command palette'
-            command 'CMD+ALT+J'
+            command 'CMD+OPTION+J'
         end
     end
 
@@ -38,12 +38,12 @@ cheatsheet do
 
         entry do
             name 'Go back in panel history'
-            command 'CMD+ALT+['
+            command 'CMD+OPTION+['
         end
 
         entry do
             name 'Go forward in panel history'
-            command 'CMD+ALT+]'
+            command 'CMD+OPTION+]'
         end
 
         entry do
@@ -73,7 +73,7 @@ cheatsheet do
 
         entry do
             name 'Search across all sources'
-            command 'CMD+ALT+F'
+            command 'CMD+OPTION+F'
         end
 
         entry do
@@ -145,12 +145,12 @@ cheatsheet do
 
         entry do
             name 'Next command'
-            command 'ALT+N'
+            command 'OPTION+N'
         end
     
         entry do
             name 'Previous command'
-            command 'ALT+P'
+            command 'OPTION+P'
         end
 
         entry do
@@ -255,12 +255,12 @@ cheatsheet do
     
         entry do
             name 'Increment value by 0.1'
-            command 'ALT+Arrow Up'
+            command 'OPTION+Arrow Up'
         end
 
         entry do
             name 'Decrement value by 0.1'
-            command 'ALT+Arrow Down'
+            command 'OPTION+Arrow Down'
         end
 
     end
@@ -332,22 +332,22 @@ cheatsheet do
 
         entry do
             name 'Increment CSS unit by 1'
-            command 'ALT+Arrow Up'
+            command 'OPTION+Arrow Up'
         end
 
         entry do
             name 'Decrement CSS unit by 1'
-            command 'ALT+Arrow Down'
+            command 'OPTION+Arrow Down'
         end
 
         entry do
             name 'Increment CSS unit by 10'
-            command 'ALT+Page Up'
+            command 'OPTION+Page Up'
         end
 
         entry do
             name 'Decrement CSS unit by 10'
-            command 'ALT+Page Down'
+            command 'OPTION+Page Down'
         end
     end
 

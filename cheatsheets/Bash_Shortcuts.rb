@@ -19,7 +19,7 @@ cheatsheet do
     end
     entry do
       command 'CTRL+W'
-      command 'ALT+D'
+      command 'OPTION+D'
       name 'Delete from cursor to start/end of word (whole word if at the boundary)'
     end
     entry do
@@ -31,24 +31,24 @@ cheatsheet do
       name 'Move between start of command line and current cursor position (and back again)'
     end
     entry do
-      command 'ALT+B'
-      command 'ALT+F'
+      command 'OPTION+B'
+      command 'OPTION+F'
       name 'Move backward/forward one word (or go to start of word the cursor is currently on)'
     end
     entry do
-      command 'ALT+C'
+      command 'OPTION+C'
       name 'Capitalize to end of word starting at cursor (whole word if cursor is at the beginning of word)'
     end
     entry do
-      command 'ALT+U'
+      command 'OPTION+U'
       name 'Make uppercase from cursor to end of word'
     end
     entry do
-      command 'ALT+L'
+      command 'OPTION+L'
       name 'Make lowercase from cursor to end of word'
     end
     entry do
-      command 'ALT+T'
+      command 'OPTION+T'
       name 'Swap current word with previous'
     end
     entry do
@@ -86,7 +86,7 @@ cheatsheet do
       name 'Next command in history (i.e., walk forward through the command history)'
     end
     entry do
-      command 'ALT+.'
+      command 'OPTION+.'
       name 'Use the last word of the previous command'
     end
   end
@@ -133,7 +133,7 @@ cheatsheet do
     end
     entry do
       command '!$'
-      name 'The last word of the previous command (same as `ALT+.`)'
+      name 'The last word of the previous command (same as `OPTION+.`)'
     end
     entry do
       command '!$:p'

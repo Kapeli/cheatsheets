@@ -15,11 +15,11 @@ cheatsheet do
       name   'Search room history'
     end
     entry do
-      command 'CMD+ALT+Arrow Down'
+      command 'CMD+OPTION+Arrow Down'
       name   'Next room or 1-1 chat'
     end
     entry do
-      command 'CMD+ALT+Arrow Up'
+      command 'CMD+OPTION+Arrow Up'
       name   'Previous room or 1-1 chat'
     end
     entry do

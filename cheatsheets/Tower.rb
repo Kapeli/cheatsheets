@@ -96,7 +96,7 @@ cheatsheet do
       name '**Stage** all current changes'
     end
     entry do
-      command 'CMD+SHIFT+ALT+E'
+      command 'CMD+SHIFT+OPTION+E'
       name '**Unstage** all current changes'
     end
     entry do
@@ -104,7 +104,7 @@ cheatsheet do
       name '**Save to Stash**'
     end
     entry do
-      command 'CMD+SHIFT+ALT+S'
+      command 'CMD+SHIFT+OPTION+S'
       name '**Apply Stash**'
     end
     entry do

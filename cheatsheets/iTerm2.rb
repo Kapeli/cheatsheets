@@ -16,7 +16,7 @@ cheatsheet do
       name 'Paste history'
     end
     entry do
-      command 'CMD+ALT+B'
+      command 'CMD+OPTION+B'
       name 'Instant replay'
     end
     entry do
@@ -90,7 +90,7 @@ cheatsheet do
       name 'Previous tab'
     end
     entry do
-      command 'CMD+ALT+E'
+      command 'CMD+OPTION+E'
       name 'Expose feature, showing all tabs'
     end
   end
@@ -107,11 +107,11 @@ cheatsheet do
       name 'Split pane top-bottom'
     end
     entry do
-      command 'CMD+ALT+H'
+      command 'CMD+OPTION+H'
       name 'Split pane left-right with new profile'
     end
     entry do
-      command 'CMD+ALT+V'
+      command 'CMD+OPTION+V'
       name 'Split pane top-bottom with new profile'
     end
     entry do
@@ -127,7 +127,7 @@ cheatsheet do
       name 'Previous pane'
     end
     entry do
-      command 'CMD+ALT+I'
+      command 'CMD+OPTION+I'
       name 'Input to all panes in current tab'
     end
   end
@@ -175,7 +175,7 @@ cheatsheet do
     id 'Font Resizing & Zooming'
 
     entry do
-      command 'CMD+ALT+='
+      command 'CMD+OPTION+='
       name 'Toggle maximize window'
     end
     entry do
@@ -208,7 +208,7 @@ cheatsheet do
       name 'Broadcast input to all panes in all tabs'
     end
     entry do
-      command 'CMD+ALT+I'
+      command 'CMD+OPTION+I'
       name 'Broadcast input to all panes in current tab'
     end
   end
@@ -227,7 +227,7 @@ cheatsheet do
     end
 
     entry do
-      command 'CMD+ALT+A'
+      command 'CMD+OPTION+A'
       name 'Alert on next mark'
     end
 
@@ -237,7 +237,7 @@ cheatsheet do
     end
 
     entry do
-      command 'CMD+ALT+/'
+      command 'CMD+OPTION+/'
       name 'Show recent directories'
     end
   end

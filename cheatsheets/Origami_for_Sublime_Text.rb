@@ -19,7 +19,7 @@ cheatsheet do
 
         entry do
             name 'Clone current file to adjacent pane'
-            command 'CMD+K ALT-Arrow'
+            command 'CMD+K OPTION-Arrow'
         end
 
         entry do

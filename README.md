@@ -25,4 +25,4 @@ Try to use [Title Case](http://en.wikipedia.org/wiki/Letter_case#Title_case) onl
 
 Try not to include really common keyboard shortcuts (e.g. Copy, Paste, Undo, Select All).
 
-Keyboard modifiers should be listed in this order: `CMD+CTRL+ALT+SHIFT`.
+Keyboard modifiers should be listed in this order: `CMD+CTRL+OPTION+SHIFT`.

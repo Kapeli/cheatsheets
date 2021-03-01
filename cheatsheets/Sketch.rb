@@ -73,22 +73,22 @@ cheatsheet do
 
     entry do
       name 'Increase font size'
-      command 'CMD+ALT+(+)'
+      command 'CMD+OPTION+(+)'
     end
 
     entry do
       name 'Decrease font size'
-      command 'CMD+ALT+(-)'
+      command 'CMD+OPTION+(-)'
     end
 
     entry do
       name 'Increase character spacing'
-      command 'ALT+CTRL+L'
+      command 'OPTION+CTRL+L'
     end
 
     entry do
       name 'Decrease character spacing'
-      command 'ALT+CTRL+T'
+      command 'OPTION+CTRL+T'
     end
 
     entry do
@@ -162,7 +162,7 @@ cheatsheet do
 
     entry do
       name 'Focus on first input field'
-      command 'ALT+Tab'
+      command 'OPTION+Tab'
     end
 
     entry do
@@ -211,22 +211,22 @@ cheatsheet do
 
     entry do
       name 'Toggle layers list'
-      command 'CMD+ALT+1'
+      command 'CMD+OPTION+1'
     end
 
     entry do
       name 'Toggle inpector'
-      command 'CMD+ALT+2'
+      command 'CMD+OPTION+2'
     end
 
     entry do
       name 'Toggle layers, inspector'
-      command 'CMD+ALT+3'
+      command 'CMD+OPTION+3'
     end
 
     entry do
       name 'Toggle toolbar'
-      command 'CMD+ALT+T'
+      command 'CMD+OPTION+T'
     end
 
     entry do
@@ -245,7 +245,7 @@ cheatsheet do
 
     entry do
       name 'Keep current selection'
-      command 'CMD+ALT'
+      command 'CMD+OPTION'
     end
 
     entry do
@@ -256,22 +256,22 @@ cheatsheet do
 
     entry do
       name 'Union'
-      command 'CMD+ALT+U'
+      command 'CMD+OPTION+U'
     end
 
     entry do
       name 'Substract'
-      command 'CMD+ALT+S'
+      command 'CMD+OPTION+S'
     end
 
     entry do
       name 'Intersect'
-      command 'CMD+ALT+I'
+      command 'CMD+OPTION+I'
     end
 
     entry do
       name 'Difference'
-      command 'CMD+ALT+X'
+      command 'CMD+OPTION+X'
     end
 
     entry do
@@ -295,28 +295,28 @@ cheatsheet do
 
     entry do
       name 'Show distance to other layers'
-      command 'ALT'
+      command 'OPTION'
     end
 
     entry do
       name 'Show distance to other layers inside group'
-      command 'CMD+ALT'
+      command 'CMD+OPTION'
     end
 
     entry do
       name 'Duplicate'
-      command 'ALT+Drag'
+      command 'OPTION+Drag'
       notes 'Repeat with `CMD+D`.'
     end
 
     entry do
       name 'Copy style'
-      command 'CMD+ALT+C'
+      command 'CMD+OPTION+C'
     end
 
     entry do
       name 'Paste style'
-      command 'CMD+ALT+V'
+      command 'CMD+OPTION+V'
     end
 
     entry do
@@ -350,22 +350,22 @@ cheatsheet do
 
     entry do
       name 'Bring forward'
-      command 'CMD+ALT+Arrow Up'
+      command 'CMD+OPTION+Arrow Up'
     end
 
     entry do
       name 'Bring to front'
-      command 'CMD+CTRL+ALT+Arrow Up'
+      command 'CMD+CTRL+OPTION+Arrow Up'
     end
 
     entry do
       name 'Send backward'
-      command 'CMD+ALT+Arrow Down'
+      command 'CMD+OPTION+Arrow Down'
     end
 
     entry do
       name 'Send to back'
-      command 'CMD+CTRL+ALT+Arrow Down'
+      command 'CMD+CTRL+OPTION+Arrow Down'
     end
 
     entry do
