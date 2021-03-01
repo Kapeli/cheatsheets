@@ -27,10 +27,14 @@ cheatsheet do
     end
     entry do
       command 'CMD+SHIFT+N'
-      name 'Create a new heading in a project'
+      name 'Create a new heading'
     end
     entry do
-      command 'CMD+ALT+N'
+      command 'CMD+OPTION+SHIFT+N'
+      name 'New heading for selected to-dos'
+    end
+    entry do
+      command 'CMD+OPTION+N'
       name 'Create a new project'
     end
     entry do
@@ -38,8 +42,8 @@ cheatsheet do
       name 'Open Quick Entry'
     end
     entry do
-      command 'CTRL+ALT+Space'
-      name 'Open Quick Entry with autofill'
+      command 'CTRL+OPTION+Space'
+      name 'Open Quick Entry with Autofill'
     end
   end
 
@@ -67,11 +71,11 @@ cheatsheet do
       name 'Paste a to-do or project'
     end
     entry do
-      command 'CMD+.'
+      command 'CMD+K'
       name 'Complete selected items'
     end
     entry do
-      command 'CMD+ALT+.'
+      command 'CMD+OPTION+K'
       name 'Cancel selected items'
     end
     entry do
@@ -104,11 +108,11 @@ cheatsheet do
       name 'Extend selection downwards'
     end
     entry do
-      command 'ALT+SHIFT+Arrow Up'
+      command 'OPTION+SHIFT+Arrow Up'
       name 'Extend selection to the top'
     end
     entry do
-      command 'ALT+SHIFT+Arrow Down'
+      command 'OPTION+SHIFT+Arrow Down'
       name 'Extend selection to the bottom'
     end
     entry do
@@ -125,7 +129,7 @@ cheatsheet do
       name 'Move selection to another list'
     end
     entry do
-      command 'CMD+ALT+V'
+      command 'CMD+OPTION+V'
       name 'Move copied to-dos and projects'
     end
     entry do
@@ -137,11 +141,11 @@ cheatsheet do
       name 'Move selection down'
     end
     entry do
-      command 'CMD+ALT+Arrow Up'
+      command 'CMD+OPTION+Arrow Up'
       name 'Move selection to top of list'
     end
     entry do
-      command 'CMD+ALT+Arrow Down'
+      command 'CMD+OPTION+Arrow Down'
       name 'Move selection to bottom of list'
     end
   end
@@ -151,7 +155,7 @@ cheatsheet do
 
     entry do
       command 'CMD+S'
-      name 'Show Jump Start'
+      name 'Show When'
     end
     entry do
       command 'CMD+T'
@@ -179,15 +183,15 @@ cheatsheet do
     end
     entry do
       command 'CTRL+SHIFT+]'
-      name 'Start date + 1 week'
+      name 'Start date +1 week'
     end
     entry do
       command 'CTRL+SHIFT+['
-      name 'Start date - 1 week'
+      name 'Start date -1 week'
     end
     entry do
       command 'CMD+SHIFT+D'
-      name 'Direct access to set a Deadline'
+      name 'Add a Deadline'
     end
     entry do
       command 'CTRL+.'
@@ -219,7 +223,7 @@ cheatsheet do
       name 'Open new window'
     end
     entry do
-      command 'CMD+SHIFT+`'
+      command 'CMD+`'
       name 'Cycle through open windows'
     end
     entry do
@@ -227,7 +231,7 @@ cheatsheet do
       name 'Close current window'
     end
     entry do
-      command 'CMD+ALT+W'
+      command 'CMD+OPTION+W'
       name 'Close all windows'
     end
     entry do
@@ -235,12 +239,42 @@ cheatsheet do
       name 'Hide or show sidebar'
     end
     entry do
-      command 'CMD+ALT+T'
+      command 'CMD+OPTION+T'
       name 'Hide or show toolbar'
     end
     entry do
       command 'CMD+CTRL+F'
       name 'Full screen'
+    end
+  end
+
+  category do
+    id 'Open in new window'
+
+    entry do
+      command 'CMD+Return'
+      name 'Selected project'
+    end
+    entry do
+      command 'CMD+double-click'
+      name 'Clicked project'
+    end
+    entry do
+      command 'OPTION+click'
+      command 'CMD+click'
+      name 'Clicked list when Today is grouped'
+    end
+    entry do
+      command 'CMD+click Things URL'
+      name 'A Things URL'
+    end
+    entry do
+      command 'CMD+Open New Window'
+      name 'Current list'
+    end
+    entry do
+      command 'CMD+F+CMD+Return'
+      name 'Any list'
     end
   end
 
@@ -273,7 +307,7 @@ cheatsheet do
     end
     entry do
       command 'CMD+SHIFT+L'
-      name 'Show to-do in list'
+      name 'Show to-do or project in context'
     end
     entry do
       command '→'
@@ -284,19 +318,19 @@ cheatsheet do
       name 'Return to previous list'
     end
     entry do
-      command 'ALT+Arrow Up'
+      command 'OPTION+Arrow Up'
       name 'Scroll to top'
     end
     entry do
-      command 'ALT+Arrow Down'
+      command 'OPTION+Arrow Down'
       name 'Scroll to bottom'
     end
     entry do
-      command 'CMD+CTRL+ALT+Arrow Up'
+      command 'CMD+OPTION+CTRL+Arrow Up'
       name 'Navigate up in the sidebar'
     end
     entry do
-      command 'CMD+CTRL+ALT+Arrow Down'
+      command 'CMD+OPTION+CTRL+Arrow Down'
       name 'Navigate down in the sidebar'
     end
   end
@@ -311,6 +345,26 @@ cheatsheet do
     entry do
       command 'CMD+F'
       name 'Find'
+    end
+    entry do
+      command 'Tomorrow'
+      name 'Quick Find list for tomorrow’s to-dos'
+    end
+    entry do
+      command 'Deadlines'
+      name 'Quick Find list for all deadlines'
+    end
+    entry do
+      command 'Repeating'
+      name 'Quick Find list for repeating to-dos'
+    end
+    entry do
+      command 'Projects'
+      name 'Quick Find list for all projects'
+    end
+    entry do
+      command 'Logged Projects'
+      name 'Quick Find for completed projects'
     end
   end
 
@@ -327,14 +381,14 @@ cheatsheet do
     end
     entry do
       command 'CMD+SHIFT+T'
-      name 'Direct access to add a tag'
+      name 'Access tag picker for selected to-dos'
     end
     entry do
       command 'CTRL+shortcut'
       name 'Toggle a tag for selected to-do'
     end
     entry do
-      command 'CTRL+ALT+shortcut'
+      command 'OPTION+CTRL+shortcut'
       name 'Filter for a tag'
     end
     entry do
@@ -351,8 +405,12 @@ cheatsheet do
     id 'Links'
 
     entry do
-      command 'CMD+ALT+Return'
+      command 'CMD+OPTION+Return'
       name 'Open a link'
+    end
+    entry do
+      command 'CMD+click'
+      name 'Open link in background'
     end
   end
 end
