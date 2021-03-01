@@ -249,27 +249,27 @@ cheatsheet do
   end
 
   category do
-    id 'Open in new window'
+    id 'Open in New Window'
 
     entry do
       command 'CMD+Return'
       name 'Selected project'
     end
     entry do
-      command 'CMD+double-click'
+      command 'CMD+Double Click'
       name 'Clicked project'
     end
     entry do
-      command 'OPTION+click'
-      command 'CMD+click'
+      command 'OPTION+Click'
+      command 'CMD+Click'
       name 'Clicked list when Today is grouped'
     end
     entry do
-      command 'CMD+click Things URL'
+      command 'CMD+Click Things URL'
       name 'A Things URL'
     end
     entry do
-      command 'CMD+Open New Window'
+      command 'CMD+Open new window'
       name 'Current list'
     end
     entry do
@@ -388,11 +388,11 @@ cheatsheet do
       name 'Toggle a tag for selected to-do'
     end
     entry do
-      command 'OPTION+CTRL+shortcut'
+      command 'CTRL+OPTION+shortcut'
       name 'Filter for a tag'
     end
     entry do
-      command 'CMD+click any tag'
+      command 'CMD+Click any tag'
       name 'Select multiple tags'
     end
     entry do
@@ -409,7 +409,7 @@ cheatsheet do
       name 'Open a link'
     end
     entry do
-      command 'CMD+click'
+      command 'CMD+Click'
       name 'Open link in background'
     end
   end
