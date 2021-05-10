@@ -77,6 +77,16 @@ cheatsheet do
 			name 'Move cell down'
 		end
 		entry do
+			command 'SHIFT+Arrow Up'
+			command 'SHIFT+K'
+			name 'Extend selection up'
+		end
+		entry do
+			command 'SHIFT+Arrow Down'
+			command 'SHIFT+J'
+			name 'Extend selection down'
+		end
+		entry do
 			command 'A'
 			name 'Insert cell above'
 		end
@@ -106,18 +116,34 @@ cheatsheet do
 			name 'Undo delete'
 		end
 		entry do
+			command 'CTRL+SHIFT+-'
+			name 'Split cell at cursor'
+		end
+		entry do
 			command 'SHIFT+='
 			name 'Merge with cell below'
+		end
+		entry do
+			command 'SHIFT+M'
+			name 'Merge selected cells'
 		end
 		entry do
 			command 'L'
 			name 'Toggle line numbers'
 		end
 		entry do
+			command 'SHIFT+L'
+			name 'Toggle all cell line numbers'
+		end
+		entry do
 			command 'O'
 			command 'SHIFT+O'
 			name 'Toggle output'
 		end
+	end
+	
+	category do
+		id 'Kernel'
 		entry do
 			command 'I'
 			name 'Interrupt kernel'
@@ -125,6 +151,14 @@ cheatsheet do
 		entry do
 			command '.'
 			name 'Restart kernel'
+		end
+	end
+
+	category do
+		id 'Inspector'
+		entry do
+			command 'CTRL+I'
+			name 'Open in new tab'
 		end
 	end
 end
