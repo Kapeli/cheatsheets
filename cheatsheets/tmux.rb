@@ -186,6 +186,19 @@ cheatsheet do
       name 'Arrange panes in one of the five preset layouts: even-horizontal, even-vertical, main-horizontal, main-vertical, or tiled. Meta key defaults to Alt.'
       notes 'See the Standard Layouts below'
     end
+    
+    entry do
+      command 'PREFIX-:'
+      command 'swap-panes -s {0..n} -t {0..n}'
+      name 'Swap Source and Target panes'
+    end
+
+    entry do
+      command 'PREFIX-m'
+      command 'PREFIX-: swap-panes'
+      name 'Swap 2 panes'
+      notes 'Select the first pane then go the second pane to execute swap-panes command at the prompt'
+    end
   end
 
 
