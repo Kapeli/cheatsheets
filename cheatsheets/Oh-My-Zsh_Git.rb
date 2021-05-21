@@ -472,10 +472,18 @@ git push origin $(current_branch)
       command "ggp"
     end
 
+        entry do
+      name '
+```
+git push --force origin $(current_branch)
+```'
+      command "ggf"
+    end
+
     entry do
       name '
 ```
-git push --force-with-lease origin <your_argument>/$(current_branch)
+git push --force-with-lease origin $(current_branch)
 ```'
       command "ggfl"
     end
@@ -694,6 +702,22 @@ git push
 git push --dry-run
 ```'
       command "gpd"
+    end
+
+    entry do
+      name '
+```
+git push --force-with-lease
+```'
+      command "gpf"
+    end
+
+    entry do
+      name '
+```
+git push --force
+```'
+      command "gpf!"
     end
 
     entry do
