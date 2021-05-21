@@ -75,8 +75,7 @@ git branch -d
     entry do
       name '
 ```
-git branch --no-color --merged | command grep -vE "^(\+|\*|\s*(master|develop|dev)\s*$)" | command xargs -n 1 git branch -d
-(Not in README)
+git branch --no-color --merged | command grep -vE "^(+|*|\s*($(git_main_branch)|development|develop|devel|dev)\s*$)" | command xargs -n 1 git branch -d
 ```'
       command "gbda"
     end
@@ -252,7 +251,7 @@ git reset --hard && git clean -dffx
     entry do
       name '
 ```
-git checkout master
+git checkout $(git_main_branch)
 ```'
       command "gcm"
     end
@@ -452,7 +451,7 @@ git pull --rebase origin $(current_branch)
     entry do
       name '
 ```
-git pull upstream master
+git pull upstream $(git_main_branch)
 ```'
       command "glum"
     end
@@ -524,7 +523,7 @@ git ls-files -v | grep "^[[:lower:]]"
     entry do
       name '
 ```
-git svn dcommit && git push github master:svntrunk
+git svn dcommit && git push github $(git_main_branch):svntrunk
 ```'
       command "git-svn-dcommit-push"
     end
@@ -652,7 +651,7 @@ git merge --abort
     entry do
       name '
 ```
-git merge origin/master
+git merge origin/$(git_main_branch)
 ```'
       command "gmom"
     end
@@ -676,7 +675,7 @@ git mergetool --no-prompt --tool=vimdiff
     entry do
       name '
 ```
-git merge upstream/master
+git merge upstream/$(git_main_branch)
 ```'
       command "gmum"
     end
@@ -780,7 +779,7 @@ git rebase -i
     entry do
       name '
 ```
-git rebase master
+git rebase $(git_main_branch)
 ```'
       command "grbm"
     end
@@ -1059,6 +1058,10 @@ git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verif
   end
 
   notes <<-'END'
+  Main branch preference
+
+  Following the recent push for removing racially-charged words from our technical vocabulary, the git plugin favors using a branch name other than `master`. In this case, we favor the shorter, neutral and descriptive term `main`. This means that any aliases and functions that previously used `master`, will use `main` if that branch exists. We do this via the function `git_main_branch`.
+
   * Based on the oh-my-zsh [Wiki Page](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet#helpful-aliases-for-common-git-tasks)
   * Converted by [Carsten](https://github.com/BanditsBacon) and [ftwbzhao](https://github.com/ftwbzhao)
   END
