@@ -867,6 +867,22 @@ git remote set-url
     entry do
       name '
 ```
+git restore --source
+```'
+      command "grss"
+    end
+
+    entry do
+      name '
+```
+git restore --staged
+```'
+      command "grst"
+    end
+
+    entry do
+      name '
+```
 cd "$(git rev-parse --show-toplevel || echo .)"
 ```'
       command "grt"
