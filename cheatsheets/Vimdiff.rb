@@ -81,11 +81,11 @@ cheatsheet do
     end
     entry do
       command 'zm'
-      name 'Fold more (foldlevel += 1)'
+      name 'Fold more (`foldlevel += 1`)'
     end
     entry do
       command 'zr'
-      name 'Fold less (foldlevel -= 1)'
+      name 'Fold less (`foldlevel -= 1`)'
     end
     entry do
       command 'zx'
