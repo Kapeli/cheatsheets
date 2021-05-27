@@ -1,20 +1,15 @@
 cheatsheet do
-  title 'vimdiff'               # Will be displayed by Dash in the docset list
-  docset_file_name 'vimdiff'    # Used for the filename of the docset
-  keyword 'vimdiff'             # Used as the initial search keyword (listed in Preferences > Docsets)
-  # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
+  title 'Vimdiff'
+  docset_file_name 'Vimdiff'
+  keyword 'vimdiff'
+  source_url 'http://cheat.kapeli.com'
 
-  introduction 'Vimdiff cheat sheet'  # Optional, can contain Markdown or HTML
-
-  # A cheat sheet must consist of categories
   category do
-    id 'Navigating'  # Must be unique and is used as title of the category
+    id 'Navigating'
 
     entry do
-      command ']c'         # Optional
-      #command ''   # Multiple commands are supported
-      name 'Next difference'    # A short name, can contain Markdown or HTML
-      #notes 'Some notes'      # Optional longer explanation, can contain Markdown or HTML
+      command ']c'
+      name 'Next difference'
     end
     entry do
       command '[c'
