@@ -39,7 +39,7 @@ cheatsheet do
     entry do
       command 'do'
       name 'Diff obtain'
-      notes 'Pull the changes to the currentl file.'
+      notes 'Pull the changes to the current file.'
     end
     entry do
       command 'dp'
