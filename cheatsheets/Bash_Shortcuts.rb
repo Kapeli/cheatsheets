@@ -74,6 +74,10 @@ cheatsheet do
       name 'Search the history backwards'
     end
     entry do
+      command 'CTRL+J'
+      name 'End the search at current history entry'
+    end
+    entry do
       command 'CTRL+G'
       name 'Escape from history searching mode'
     end
