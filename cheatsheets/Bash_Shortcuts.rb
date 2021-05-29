@@ -90,6 +90,10 @@ cheatsheet do
       name 'Next command in history (i.e., walk forward through the command history)'
     end
     entry do
+      command 'CTRL+_'
+      name 'Undo last command'
+    end
+    entry do
       command 'OPTION+.'
       name 'Use the last word of the previous command'
     end
