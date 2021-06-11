@@ -74,6 +74,10 @@ cheatsheet do
       name 'Search the history backwards'
     end
     entry do
+      command 'CTRL+J'
+      name 'End the search at current history entry'
+    end
+    entry do
       command 'CTRL+G'
       name 'Escape from history searching mode'
     end
@@ -84,6 +88,10 @@ cheatsheet do
     entry do
       command 'CTRL+N'
       name 'Next command in history (i.e., walk forward through the command history)'
+    end
+    entry do
+      command 'CTRL+_'
+      name 'Undo last command'
     end
     entry do
       command 'OPTION+.'
