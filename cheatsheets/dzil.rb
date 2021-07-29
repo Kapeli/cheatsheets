@@ -83,7 +83,7 @@ cheatsheet do
         end
         entry do
             command '--tgz'
-            name 'build a tarball (default behavior)'
+            name 'Build a tarball (default behavior)'
         end
         entry do
             command '--in STR'
@@ -171,7 +171,7 @@ cheatsheet do
 
         entry do
             command 'xtest'
-            name 'run xt tests for the distribution'
+            name 'Run xt tests for the distribution'
         end
         entry do
             command '--author'
@@ -239,7 +239,7 @@ cheatsheet do
 
         entry do
             command 'cover'
-            name 'generate coverage report for the distribution'
+            name 'Generate coverage report for the distribution'
         end
         entry do
             command '--outputdir STR'
