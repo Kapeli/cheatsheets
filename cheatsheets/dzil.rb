@@ -242,8 +242,8 @@ cheatsheet do
             name 'generate coverage report for the distribution'
         end
         entry do
-            command '--output STR'
-            name 'Specifies the directory for where to output the coverage report, inside the `.build` directory structure'
+            command '--outputdir STR'
+            name 'Specifies the directory for where to output the coverage report elements, default is inside the `.build` directory structure'
         end
     end
 
