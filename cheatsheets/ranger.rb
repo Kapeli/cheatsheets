@@ -4,8 +4,6 @@ cheatsheet do
   keyword "ranger"
   source_url 'http://cheat.kapeli.com'
 
-  introduction "[ranger file manager](https://ranger.github.io/)"
-
   category do
     id "Navigation"
     entry do
