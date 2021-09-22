@@ -1,9 +1,10 @@
 cheatsheet do
-  title "Ranger file manager"
-  docset_file_name "Ranger"
+  title "ranger file manager"
+  docset_file_name "ranger"
   keyword "ranger"
+  source_url 'http://cheat.kapeli.com'
 
-  introduction "[Ranger file manager](https://ranger.github.io/)"
+  introduction "[ranger file manager](https://ranger.github.io/)"
 
   category do
     id "Navigation"
