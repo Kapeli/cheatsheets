@@ -54,7 +54,11 @@ cheatsheet do
             name 'Launch a process for with arguments `a.out 1 2 3` without having to supply the args every time'
             notes '
             ```
-            n/a
+            % gdb --args a.out 1 2 3
+            (gdb) run
+            ...
+            (gdb) run
+            ...
             ```
             ```
             % lldb -- a.out 1 2 3
