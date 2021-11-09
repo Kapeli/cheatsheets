@@ -2,6 +2,7 @@ cheatsheet do
   title 'AsciiDoctor'
   docset_file_name 'AsciiDoctor'
   keyword 'adoc'
+  source_url 'http://cheat.kapeli.com'
   # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
   style '
     div.name p {font-weight: bold}
