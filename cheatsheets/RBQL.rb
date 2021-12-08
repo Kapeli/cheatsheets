@@ -2,7 +2,7 @@ cheatsheet do
   title 'RBQL'
   docset_file_name 'RBQL'
   keyword 'rbql'
-  source_url 'https://github.com/mechatroner/RBQL/blob/master/README.md'
+  source_url 'https://cheat.kapeli.com'
 
   category do
     id 'Supported SQL Keywords'
