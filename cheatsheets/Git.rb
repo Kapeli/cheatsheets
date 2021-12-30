@@ -243,7 +243,23 @@ cheatsheet do
     id 'Branches & Tags'
 
     entry do
-      name 'List all existing branches'
+      name 'List all local and remote branches'
+      notes "
+      ```
+      git branch -a
+      ```"
+    end
+    
+    entry do
+      name 'List all remote branches'
+      notes "
+      ```
+      git branch -r
+      ```"
+    end
+    
+    entry do
+      name 'List all local branches'
       notes "
       ```
       git branch
