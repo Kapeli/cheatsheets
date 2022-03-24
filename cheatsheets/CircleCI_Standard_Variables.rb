@@ -2,6 +2,7 @@ cheatsheet do
   title 'CircleCI Standard Variables'
   docset_file_name 'CircleCI_Standard_Variables'
   keyword 'circleci'
+  source_url 'http://cheat.kapeli.com'
 
   introduction 'Contains standard environment variables and pipeline variables that CircleCI injects into your job'
 
