@@ -1,14 +1,12 @@
 cheatsheet do
-  title 'CircleCI Standard Variables'               # Will be displayed by Dash in the docset list
-  docset_file_name 'CircleCI'    # Used for the filename of the docset
-  keyword 'circleci'             # Used as the initial search keyword (listed in Preferences > Docsets)
-  # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
+  title 'CircleCI Standard Variables'
+  docset_file_name 'CircleCI_Standard_Variables'
+  keyword 'circleci'
 
   introduction 'Contains standard enviromental variables and pipeline variables that CircleCI injects into your job'
 
-  # A cheat sheet must consist of categories
  category do
-   id 'Enviromental Variables'  # Must be unique and is used as title of the category
+   id 'Enviromental Variables'
  
    entry do
      name 'CI'
