@@ -3,7 +3,6 @@ cheatsheet do
   docset_file_name 'Obsidian'
   keyword 'obsidian'
   source_url 'http://cheat.kapeli.com'
-  introduction 'Obsidian cheat sheet'
 
   category do
     id 'Default Keyboard Shortcuts'
