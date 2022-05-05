@@ -1,6 +1,6 @@
 cheatsheet do
   title 'WebSocket Status Codes'
-  docset_file_name 'WS_Status_Codes'
+  docset_file_name 'WebSocket_Status_Codes'
   keyword 'ws'
   source_url 'http://cheat.kapeli.com'
 
