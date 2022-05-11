@@ -10,11 +10,7 @@ cheatsheet do
         entry do
             name 'Start pdb inside a python script'
             command 'import pdb;pdb.set_trace()'
-        end
-
-        entry do
-            name 'Same as `import pdb;pdb.set_trace()` (New in Python 3.7)'
-            command 'breakpoint()'
+            command 'breakpoint() (New in Python 3.7)'
         end
 
         entry do
@@ -48,7 +44,7 @@ cheatsheet do
         end
 
         entry do
-            name 'Continue until a specific line is encountered. Or continue until a larger line number is reached if no line_number is set.'
+            name 'Continue until a specific line is encountered. Or continue until a larger line number is reached if no line_number is set'
             command 'unt(il) line_number'
         end
 
