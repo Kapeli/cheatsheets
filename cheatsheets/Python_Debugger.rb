@@ -9,7 +9,12 @@ cheatsheet do
 
         entry do
             name 'Start pdb inside a python script'
-            command 'import pdb;pdb.set_trace() '
+            command 'import pdb;pdb.set_trace()'
+        end
+
+        entry do
+            name 'Same as `import pdb;pdb.set_trace()` (New in Python 3.7)'
+            command 'breakpoint()'
         end
 
         entry do
@@ -43,15 +48,20 @@ cheatsheet do
         end
 
         entry do
+            name 'Continue until a specific line is encountered. Or continue until a larger line number is reached if no line_number is set.'
+            command 'unt(il) line_number'
+        end
+
+        entry do
             name 'Up one level in the stack trace'
             command 'u(p)'
         end
-        
+
         entry do
             name 'Down one level in the stack trace'
             command 'd(own)'
         end
-        
+
         entry do
             name 'Show help'
             command 'h(elp)'
@@ -62,7 +72,7 @@ cheatsheet do
             name 'Quit debugger'
             command 'q(uit)'
         end
-        
+
     end
 
     category do
@@ -92,17 +102,17 @@ cheatsheet do
             name 'Set a breakpoint at the first line of a function'
             command 'b(reak) func'
         end
-    
+
         entry do
             name 'Disable breakpoint number'
             command 'disable number'
         end
-        
+
         entry do
             name 'Enable breakpoint number'
             command 'enable number'
         end        
-        
+
         entry do
             name 'Remove breakpoint number'
             command 'clear number'
