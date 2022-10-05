@@ -146,6 +146,7 @@ cheatsheet do
       `hd(list)`,
       `length(list)`,
       `map_size(map)`,
+      `is_map_key(map, key)`,
       `node()`, `node(pid | ref | port)`,
       `rem(integer, integer)`,
       `round(number)`,
