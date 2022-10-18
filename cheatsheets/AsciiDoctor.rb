@@ -2,7 +2,7 @@ cheatsheet do
   title 'AsciiDoctor'
   docset_file_name 'AsciiDoctor'
   keyword 'adoc'
-  source_url 'http://cheat.kapeli.com'
+  source_url 'https://github.com/holyjak/dash-asciidoc-cheatsheet'
   # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
   style '
     div.name p {font-weight: bold}
@@ -577,10 +577,10 @@ Example of all, using the shorthand forms: <code>[quote#roads.movie.class2%fakeO
 <div class="content">
 <pre>[source]
 ----
-clojure, SQL     ;  <b class="conum">(1)</b>
-C-like           // <b class="conum">(2)</b>
-Python etc.      #  <b class="conum">(3)</b>
-XML              &lt;!--<b class="conum">(4)</b>--&gt;
+clojure, SQL     ;  &lt;1&gt;
+C-like           // &lt;2&gt;
+Python etc.      #  &lt;3&gt;
+XML              &lt;!--4--&gt;
 # Include from a file, specific lines only (-1 = until the end):
 include::filename.txt[lines=7;14..25;30..-1]
 
