@@ -51,6 +51,10 @@
         name '✅ Add or update tests'
      end
      entry do
+        command ':negative_squared_cross_mark'
+        name '❎ Remove or failed tests'
+     end
+     entry do
         command ':lock:'
         name '🔒 Fix security issues'
      end
