@@ -1,5 +1,5 @@
 cheatsheet do
-	title 'Oh-My-Zsh Kubectl'
+  title 'Oh-My-Zsh Kubectl'
   docset_file_name 'Oh-My-Zsh_Kubectl'
   keyword 'ohmyzsh'
   source_url 'http://cheat.kapeli.com'
