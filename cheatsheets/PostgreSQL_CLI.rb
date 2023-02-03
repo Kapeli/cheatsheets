@@ -52,6 +52,10 @@ cheatsheet do
       notes 'Think "describe users"'
     end
     entry do
+      command '\dn'
+      name 'List schemas in a connected DB'
+
+    entry do
       command '\dt'
       name 'List tables in a connected DB'
       notes 'Think "describe tables"'
