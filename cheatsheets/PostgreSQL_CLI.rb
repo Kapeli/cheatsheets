@@ -54,7 +54,7 @@ cheatsheet do
     entry do
       command '\dn'
       name 'List schemas in a connected DB'
-
+    end
     entry do
       command '\dt'
       name 'List tables in a connected DB'
