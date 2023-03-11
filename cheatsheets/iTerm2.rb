@@ -133,6 +133,30 @@ cheatsheet do
   end
 
   category do
+    id 'Pane Sizing'
+    
+    entry do
+      command 'CMD-CTRL-UP'
+      name 'Move top pane splitter up'
+    end
+    
+    entry do
+      command 'CMD-CTRL-DOWN'
+      name 'Move bottom pane splitter down'
+    end
+    
+    entry do
+      command 'CMD-CTRL-LEFT'
+      name 'Move left pane splitter left'
+    end
+    
+    entry do
+      command 'CMD-CTRL-RIGHT'
+      name 'Move right pane splitter right'
+    end
+  end
+  
+  category do
     id 'Search'
 
     entry do
