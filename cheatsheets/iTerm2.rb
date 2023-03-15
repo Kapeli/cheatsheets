@@ -136,22 +136,22 @@ cheatsheet do
     id 'Pane Sizing'
     
     entry do
-      command 'CMD-CTRL-UP'
+      command 'CMD+CTRL+Arrow Up'
       name 'Move top pane splitter up'
     end
     
     entry do
-      command 'CMD-CTRL-DOWN'
+      command 'CMD+CTRL+Arrow Down'
       name 'Move bottom pane splitter down'
     end
     
     entry do
-      command 'CMD-CTRL-LEFT'
+      command 'CMD+CTRL+Arrow Left'
       name 'Move left pane splitter left'
     end
     
     entry do
-      command 'CMD-CTRL-RIGHT'
+      command 'CMD+CTRL+Arrow Right'
       name 'Move right pane splitter right'
     end
   end
