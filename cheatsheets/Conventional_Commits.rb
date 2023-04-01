@@ -72,8 +72,6 @@ cheatsheet do
       [optional body]
 
       [optional footer]
-
-      A commit that has the text BREAKING CHANGE: at the beginning of its optional body or footer section introduces a breaking API change
       ```
       END
     end
@@ -91,7 +89,7 @@ cheatsheet do
         <li>A description MUST immediately follow the type/scope prefix. The description is a short description of the code changes, e.g., fix: array parsing issue when multiple spaces were contained in string.</li>
         <li>A longer commit body MAY be provided after the short description, providing additional contextual information about the code changes. The body MUST begin one blank line after the description.</li>
         <li>A footer MAY be provided one blank line after the body. The footer SHOULD contain additional issue references about the code changes (such as the issues it fixes, e.g., Fixes #13).</li>
-        <li>Breaking changes MUST be indicated at the very beginning of the footer or body section of a commit. A breaking change MUST consist of the uppercase text BREAKING CHANGE, followed by a colon and a space.</li>
+        <li>Breaking changes MUST be indicated in the footer AND by appending a ! after the type/scope. A BREAKING CHANGE introduces a breaking API change (correlating with MAJOR in Semantic Versioning). A BREAKING CHANGE can be part of commits of any type.</li>
         <li>A description MUST be provided after the BREAKING CHANGE:, describing what has changed about the API, e.g., BREAKING CHANGE: environment variables now take precedence over config files.</li>
         <li>The footer MUST only contain BREAKING CHANGE, external links, issue references, and other meta-information.</li>
         <li>Types other than feat and fix MAY be used in your commit messages.</li>
