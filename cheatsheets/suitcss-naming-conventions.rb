@@ -9,7 +9,7 @@ cheatsheet do
     id 'Naming conventions'
 
     entry do
-      name 'Utility Syntax'
+      name 'Utilities'
       notes '`u-[sm-|md-|lg-]<utilityName>`'
     end
 
@@ -24,8 +24,13 @@ cheatsheet do
     end
 
     entry do
-      name 'Variable Syntax'
+      name 'Variables'
       notes '`--ComponentName[-descendant|--modifier][-onState]-(cssProperty|variableName)`'
+    end
+
+    entry do
+      name 'Theme Variables'
+      notes '`--variableName`'
     end
   end
 end
