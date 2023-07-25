@@ -1,9 +1,8 @@
 cheatsheet do
   title 'SUIT CSS Naming Conventions'
-  docset_file_name 'suitcss-naming-conventions'
+  docset_file_name 'SUIT_CSS_Naming_Conventions'
   keyword 'suitcss'
-
-  introduction '*SUIT CSS naming conventions, from [the official repo](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md).'
+  source_url 'http://cheat.kapeli.com'
 
   category do
     id 'Naming conventions'
