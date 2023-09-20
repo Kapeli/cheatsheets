@@ -377,19 +377,23 @@ cheatsheet do
       name 'Comment/uncomment the selections'
     end
     entry do
-      command 'Alt-o, Alt-up'
+      command 'Alt-o'
+      command 'Alt-up'
       name 'Expand selection to parent syntax node (TS)'
     end
     entry do
-      command 'Alt-i, Alt-down'
+      command 'Alt-i'
+      command 'Alt-down'
       name 'Shrink syntax tree object selection (TS)'
     end
     entry do
-      command 'Alt-p, Alt-left'
+      command 'Alt-p'
+      command 'Alt-left'
       name 'Select previous sibling node in syntax tree (TS)'
     end
     entry do
-      command 'Alt-n, Alt-right'
+      command 'Alt-n'
+      command 'Alt-right'
       name 'Select next sibling node in syntax tree (TS)'
     end
   end
@@ -460,7 +464,8 @@ cheatsheet do
     id 'View Mode'
 
     entry do
-      command 'z, c'
+      command 'z'
+      command 'c'
       name 'Vertically center the line'
     end
     entry do
@@ -476,19 +481,23 @@ cheatsheet do
       name 'Align the line to the middle of the screen (horizontally)'
     end
     entry do
-      command 'j, down'
+      command 'j'
+      command 'down'
       name 'Scroll the view downwards'
     end
     entry do
-      command 'k, up'
+      command 'k'
+      command 'up'
       name 'Scroll the view upwards'
     end
     entry do
-      command 'Ctrl-f, PageDown'
+      command 'Ctrl-f'
+      command 'PageDown'
       name 'Move page down'
     end
     entry do
-      command 'Ctrl-b, PageUp'
+      command 'Ctrl-b'
+      command 'PageUp'
       name 'Move page up'
     end
     entry do
@@ -619,15 +628,18 @@ cheatsheet do
     id 'Window mode'
 
     entry do
-      command 'w, Ctrl-w'
+      command 'w'
+      command 'Ctrl-w'
       name 'Switch to next window'
     end
     entry do
-      command 'v, Ctrl-v'
+      command 'v'
+      command 'Ctrl-v'
       name 'Vertical right split'
     end
     entry do
-      command 's, Ctrl-s'
+      command 's'
+      command 'Ctrl-s'
       name 'Horizontal bottom split'
     end
     entry do
@@ -639,27 +651,37 @@ cheatsheet do
       name 'Go to files in the selection in vertical splits'
     end
     entry do
-      command 'h, Ctrl-h, Left'
+      command 'h'
+      command 'Ctrl-h'
+      command 'Left'
       name 'Move to left split'
     end
     entry do
-      command 'j, Ctrl-j, Down'
+      command 'j'
+      command 'Ctrl-j'
+      command 'Down'
       name 'Move to split below'
     end
     entry do
-      command 'k, Ctrl-k, Up'
+      command 'k'
+      command 'Ctrl-k'
+      command 'Up'
       name 'Move to split above'
     end
     entry do
-      command 'l, Ctrl-l, Right'
+      command 'l'
+      command 'Ctrl-l'
+      command 'Right'
       name 'Move to right split'
     end
     entry do
-      command 'q, Ctrl-q'
+      command 'q'
+      command 'Ctrl-q'
       name 'Close current window'
     end
     entry do
-      command 'o, Ctrl-o'
+      command 'o'
+      command 'Ctrl-o'
       name 'Only keep the current window, closing all the others'
     end
     entry do
@@ -899,11 +921,13 @@ cheatsheet do
       name 'Insert a register content'
     end
     entry do
-      command 'Ctrl-w, Alt-Backspace'
+      command 'Ctrl-w'
+      command 'Alt-Backspace'
       name 'Delete previous word'
     end
     entry do
-      command 'Alt-d, Alt-Delete'
+      command 'Alt-d'
+      command 'Alt-Delete'
       name 'Delete next word'
     end
     entry do
@@ -915,15 +939,19 @@ cheatsheet do
       name 'Delete to end of line'
     end
     entry do
-      command 'Ctrl-h, Backspace, Shift-Backspace'
+      command 'Ctrl-h'
+      command 'Backspace'
+      command 'Shift-Backspace'
       name 'Delete previous char'
     end
     entry do
-      command 'Ctrl-d, Delete'
+      command 'Ctrl-d'
+      command 'Delete'
       name 'Delete next char'
     end
     entry do
-      command 'Ctrl-j, Enter'
+      command 'Ctrl-j'
+      command 'Enter'
       name 'Insert new line'
     end
     entry do
@@ -964,19 +992,25 @@ cheatsheet do
     id 'Picker'
 
     entry do
-      command 'Shift-Tab, Up, Ctrl-p'
+      command 'Shift-Tab'
+      command 'Up'
+      command 'Ctrl-p'
       name 'Previous entry'
     end
     entry do
-      command 'Tab, Down, Ctrl-n'
+      command 'Tab'
+      command 'Down'
+      command 'Ctrl-n'
       name 'Next entry'
     end
     entry do
-      command 'PageUp, Ctrl-u'
+      command 'PageUp'
+      command 'Ctrl-u'
       name 'Page up'
     end
     entry do
-      command 'PageDown, Ctrl-d'
+      command 'PageDown'
+      command 'Ctrl-d'
       name 'Page down'
     end
     entry do
@@ -1004,7 +1038,8 @@ cheatsheet do
       name 'Toggle preview'
     end
     entry do
-      command 'Escape, Ctrl-c'
+      command 'Escape'
+      command 'Ctrl-c'
       name 'Close picker'
     end
   end
@@ -1013,39 +1048,50 @@ cheatsheet do
     id 'Prompt'
 
     entry do
-      command 'Escape, Ctrl-c'
+      command 'Escape'
+      command 'Ctrl-c'
       name 'Close prompt'
     end
     entry do
-      command 'Alt-b, Ctrl-Left'
+      command 'Alt-b'
+      command 'Ctrl-Left'
       name 'Backward a word'
     end
     entry do
-      command 'Ctrl-b, Left'
+      command 'Ctrl-b'
+      command 'Left'
       name 'Backward a char'
     end
     entry do
-      command 'Alt-f, Ctrl-Right'
+      command 'Alt-f'
+      command 'Ctrl-Right'
       name 'Forward a word'
     end
     entry do
-      command 'Ctrl-f, Right'
+      command 'Ctrl-f'
+      command 'Right'
       name 'Forward a char'
     end
     entry do
-      command 'Ctrl-e, End'
+      command 'Ctrl-e'
+      command 'End'
       name 'Move prompt end'
     end
     entry do
-      command 'Ctrl-a, Home'
+      command 'Ctrl-a'
+      command 'Home'
       name 'Move prompt start'
     end
     entry do
-      command 'Ctrl-w, Alt-Backspace, Ctrl-Backspace'
+      command 'Ctrl-w'
+      command 'Alt-Backspace'
+      command 'Ctrl-Backspace'
       name 'Delete previous word'
     end
     entry do
-      command 'Alt-d, Alt-Delete, Ctrl-Delete'
+      command 'Alt-d'
+      command 'Alt-Delete'
+      command 'Ctrl-Delete'
       name 'Delete next word'
     end
     entry do
@@ -1057,11 +1103,14 @@ cheatsheet do
       name 'Delete to end of line'
     end
     entry do
-      command 'Backspace, Ctrl-h, Shift-Backspace'
+      command 'Backspace'
+      command 'Ctrl-h'
+      command 'Shift-Backspace'
       name 'Delete previous char'
     end
     entry do
-      command 'Delete, Ctrl-d'
+      command 'Delete'
+      command 'Ctrl-d'
       name 'Delete next char'
     end
     entry do
@@ -1069,11 +1118,13 @@ cheatsheet do
       name 'Insert a word under doc cursor, may be changed to Ctrl-r Ctrl-w later'
     end
     entry do
-      command 'Ctrl-p, Up'
+      command 'Ctrl-p'
+      command 'Up'
       name 'Select previous history'
     end
     entry do
-      command 'Ctrl-n, Down'
+      command 'Ctrl-n'
+      command 'Down'
       name 'Select next history'
     end
     entry do
