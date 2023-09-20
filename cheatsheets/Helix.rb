@@ -1149,71 +1149,96 @@ cheatsheet do
     id 'Commands'
 
     entry do
-      command ':quit, :q'
+      command ':quit'
+      command ':q'
       name 'Close the current view.'
     end
     entry do
-      command ':quit!, :q!'
+      command ':quit!'
+      command ':q!'
       name 'Force close the current view, ignoring unsaved changes.'
     end
     entry do
-      command ':open, :o'
+      command ':open'
+      command ':o'
       name 'Open a file from disk into the current view.'
     end
     entry do
-      command ':buffer-close, :bc, :bclose'
+      command ':buffer-close'
+      command ':bc'
+      command ':bclose'
       name 'Close the current buffer.'
     end
     entry do
-      command ':buffer-close!, :bc!, :bclose!'
+      command ':buffer-close!'
+      command ':bc!'
+      command ':bclose!'
       name 'Close the current buffer forcefully, ignoring unsaved changes.'
     end
     entry do
-      command ':buffer-close-others, :bco, :bcloseother'
+      command ':buffer-close-others'
+      command ':bco'
+      command ':bcloseother'
       name 'Close all buffers but the currently focused one.'
     end
     entry do
-      command ':buffer-close-others!, :bco!, :bcloseother!'
+      command ':buffer-close-others!'
+      command ':bco!'
+      command ':bcloseother!'
       name 'Force close all buffers but the currently focused one.'
     end
     entry do
-      command ':buffer-close-all, :bca, :bcloseall'
+      command ':buffer-close-all'
+      command ':bca'
+      command ':bcloseall'
       name 'Close all buffers without quitting.'
     end
     entry do
-      command ':buffer-close-all!, :bca!, :bcloseall!'
+      command ':buffer-close-all!'
+      command ':bca!'
+      command ':bcloseall!'
       name 'Force close all buffers ignoring unsaved changes without quitting.'
     end
     entry do
-      command ':buffer-next, :bn, :bnext'
+      command ':buffer-next'
+      command ':bn'
+      command ':bnext'
       name 'Goto next buffer.'
     end
     entry do
-      command ':buffer-previous, :bp, :bprev'
+      command ':buffer-previous'
+      command ':bp'
+      command ':bprev'
       name 'Goto previous buffer.'
     end
     entry do
-      command ':write, :w'
+      command ':write'
+      command ':w'
       name 'Write changes to disk. Accepts an optional path (:write some/path.txt)'
     end
     entry do
-      command ':write!, :w!'
+      command ':write!'
+      command ':w!'
       name 'Force write changes to disk creating necessary subdirectories. Accepts an optional path (:write! some/path.txt)'
     end
     entry do
-      command ':write-buffer-close, :wbc'
+      command ':write-buffer-close'
+      command ':wbc'
       name 'Write changes to disk and closes the buffer. Accepts an optional path (:write-buffer-close some/path.txt)'
     end
     entry do
-      command ':write-buffer-close!, :wbc!'
+      command ':write-buffer-close!'
+      command ':wbc!'
       name 'Force write changes to disk creating necessary subdirectories and closes the buffer. Accepts an optional path (:write-buffer-close! some/path.txt)'
     end
     entry do
-      command ':new, :n'
+      command ':new'
+      command ':n'
       name 'Create a new scratch buffer.'
     end
     entry do
-      command ':format, :fmt'
+      command ':format'
+      command ':fmt'
       name 'Format the file using the LSP formatter.'
     end
     entry do
@@ -1225,47 +1250,62 @@ cheatsheet do
       name 'Set the document\'s default line ending. Options: crlf, lf.'
     end
     entry do
-      command ':earlier, :ear'
+      command ':earlier'
+      command ':ear'
       name 'Jump back to an earlier point in edit history. Accepts a number of steps or a time span.'
     end
     entry do
-      command ':later, :lat'
+      command ':later'
+      command ':lat'
       name 'Jump to a later point in edit history. Accepts a number of steps or a time span.'
     end
     entry do
-      command ':write-quit, :wq, :x'
+      command ':write-quit'
+      command ':wq'
+      command ':x'
       name 'Write changes to disk and close the current view. Accepts an optional path (:wq some/path.txt)'
     end
     entry do
-      command ':write-quit!, :wq!, :x!'
+      command ':write-quit!'
+      command ':wq!'
+      command ':x!'
       name 'Write changes to disk and close the current view forcefully. Accepts an optional path (:wq! some/path.txt)'
     end
     entry do
-      command ':write-all, :wa'
+      command ':write-all'
+      command ':wa'
       name 'Write changes from all buffers to disk.'
     end
     entry do
-      command ':write-quit-all, :wqa, :xa'
+      command ':write-quit-all'
+      command ':wqa'
+      command ':xa'
       name 'Write changes from all buffers to disk and close all views.'
     end
     entry do
-      command ':write-quit-all!, :wqa!, :xa!'
+      command ':write-quit-all!'
+      command ':wqa!'
+      command ':xa!'
       name 'Write changes from all buffers to disk and close all views forcefully (ignoring unsaved changes).'
     end
     entry do
-      command ':quit-all, :qa'
+      command ':quit-all'
+      command ':qa'
       name 'Close all views.'
     end
     entry do
-      command ':quit-all!, :qa!'
+      command ':quit-all!'
+      command ':qa!'
       name 'Force close all views ignoring unsaved changes.'
     end
     entry do
-      command ':cquit, :cq'
+      command ':cquit'
+      command ':cq'
       name 'Quit with exit code (default 1). Accepts an optional integer exit code (:cq 2).'
     end
     entry do
-      command ':cquit!, :cq!'
+      command ':cquit!'
+      command ':cq!'
       name 'Force quit with exit code (default 1) ignoring unsaved changes. Accepts an optional integer exit code (:cq! 2).'
     end
     entry do
@@ -1317,11 +1357,13 @@ cheatsheet do
       name 'Show clipboard provider name in status bar.'
     end
     entry do
-      command ':change-current-directory, :cd'
+      command ':change-current-directory'
+      command ':cd'
       name 'Change the current working directory.'
     end
     entry do
-      command ':show-directory, :pwd'
+      command ':show-directory'
+      command ':pwd'
       name 'Show the current working directory.'
     end
     entry do
@@ -1329,7 +1371,8 @@ cheatsheet do
       name 'Set encoding. Based on https://encoding.spec.whatwg.org.'
     end
     entry do
-      command ':character-info, :char'
+      command ':character-info'
+      command ':char'
       name 'Get info about the character under the primary cursor.'
     end
     entry do
@@ -1341,7 +1384,8 @@ cheatsheet do
       name 'Discard changes and reload all documents from the source files.'
     end
     entry do
-      command ':update, :u'
+      command ':update'
+      command ':u'
       name 'Write changes only if the file has been modified.'
     end
     entry do
@@ -1361,11 +1405,13 @@ cheatsheet do
       name 'Display tree sitter scopes, primarily for theming and development.'
     end
     entry do
-      command ':debug-start, :dbg'
+      command ':debug-start'
+      command ':dbg'
       name 'Start a debug session from a given template with given parameters.'
     end
     entry do
-      command ':debug-remote, :dbg-tcp'
+      command ':debug-remote'
+      command ':dbg-tcp'
       name 'Connect to a debug adapter by TCP address and start a debugging session from a given template with given parameters.'
     end
     entry do
@@ -1373,19 +1419,24 @@ cheatsheet do
       name 'Evaluate expression in current debug context.'
     end
     entry do
-      command ':vsplit, :vs'
+      command ':vsplit'
+      command ':vs'
       name 'Open the file in a vertical split.'
     end
     entry do
-      command ':vsplit-new, :vnew'
+      command ':vsplit-new'
+      command ':vnew'
       name 'Open a scratch buffer in a vertical split.'
     end
     entry do
-      command ':hsplit, :hs, :sp'
+      command ':hsplit'
+      command ':hs'
+      command ':sp'
       name 'Open the file in a horizontal split.'
     end
     entry do
-      command ':hsplit-new, :hnew'
+      command ':hsplit-new'
+      command ':hnew'
       name 'Open a scratch buffer in a horizontal split.'
     end
     entry do
@@ -1393,23 +1444,28 @@ cheatsheet do
       name 'Open the tutorial.'
     end
     entry do
-      command ':goto, :g'
+      command ':goto'
+      command ':g'
       name 'Goto line number.'
     end
     entry do
-      command ':set-language, :lang'
+      command ':set-language'
+      command ':lang'
       name 'Set the language of current buffer (show current language if no value specified).'
     end
     entry do
-      command ':set-option, :set'
-      name 'Set a config option at runtime.For example to disable smart case search, use :set search.smart-case false.'
+      command ':set-option'
+      command ':set'
+      name 'Set a config option at runtime. For example to disable smart case search, use :set search.smart-case false.'
     end
     entry do
-      command ':toggle-option, :toggle'
-      name 'Toggle a boolean config option at runtime.For example to toggle smart case search, use :toggle search.smart-case.'
+      command ':toggle-option'
+      command ':toggle'
+      name 'Toggle a boolean config option at runtime. For example to toggle smart case search, use :toggle search.smart-case.'
     end
     entry do
-      command ':get-option, :get'
+      command ':get-option'
+      command ':get'
       name 'Get the current value of a config option.'
     end
     entry do
@@ -1425,7 +1481,8 @@ cheatsheet do
       name 'Hard-wrap the current selection of lines to a given width.'
     end
     entry do
-      command ':tree-sitter-subtree, :ts-subtree'
+      command ':tree-sitter-subtree'
+      command ':ts-subtree'
       name 'Display tree sitter subtree under cursor, primarily for debugging queries.'
     end
     entry do
@@ -1461,7 +1518,8 @@ cheatsheet do
       name 'Pipe each selection to the shell command, ignoring output.'
     end
     entry do
-      command ':run-shell-command, :sh'
+      command ':run-shell-command'
+      command ':sh'
       name 'Run a shell command'
     end
     entry do
