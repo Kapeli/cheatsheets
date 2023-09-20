@@ -1144,4 +1144,333 @@ cheatsheet do
       name 'Open selected'
     end
   end
+
+  category do
+    id 'Commands'
+
+    entry do
+      command ':quit, :q'
+      name 'Close the current view.'
+    end
+    entry do
+      command ':quit!, :q!'
+      name 'Force close the current view, ignoring unsaved changes.'
+    end
+    entry do
+      command ':open, :o'
+      name 'Open a file from disk into the current view.'
+    end
+    entry do
+      command ':buffer-close, :bc, :bclose'
+      name 'Close the current buffer.'
+    end
+    entry do
+      command ':buffer-close!, :bc!, :bclose!'
+      name 'Close the current buffer forcefully, ignoring unsaved changes.'
+    end
+    entry do
+      command ':buffer-close-others, :bco, :bcloseother'
+      name 'Close all buffers but the currently focused one.'
+    end
+    entry do
+      command ':buffer-close-others!, :bco!, :bcloseother!'
+      name 'Force close all buffers but the currently focused one.'
+    end
+    entry do
+      command ':buffer-close-all, :bca, :bcloseall'
+      name 'Close all buffers without quitting.'
+    end
+    entry do
+      command ':buffer-close-all!, :bca!, :bcloseall!'
+      name 'Force close all buffers ignoring unsaved changes without quitting.'
+    end
+    entry do
+      command ':buffer-next, :bn, :bnext'
+      name 'Goto next buffer.'
+    end
+    entry do
+      command ':buffer-previous, :bp, :bprev'
+      name 'Goto previous buffer.'
+    end
+    entry do
+      command ':write, :w'
+      name 'Write changes to disk. Accepts an optional path (:write some/path.txt)'
+    end
+    entry do
+      command ':write!, :w!'
+      name 'Force write changes to disk creating necessary subdirectories. Accepts an optional path (:write! some/path.txt)'
+    end
+    entry do
+      command ':write-buffer-close, :wbc'
+      name 'Write changes to disk and closes the buffer. Accepts an optional path (:write-buffer-close some/path.txt)'
+    end
+    entry do
+      command ':write-buffer-close!, :wbc!'
+      name 'Force write changes to disk creating necessary subdirectories and closes the buffer. Accepts an optional path (:write-buffer-close! some/path.txt)'
+    end
+    entry do
+      command ':new, :n'
+      name 'Create a new scratch buffer.'
+    end
+    entry do
+      command ':format, :fmt'
+      name 'Format the file using the LSP formatter.'
+    end
+    entry do
+      command ':indent-style'
+      name 'Set the indentation style for editing. (\'t\' for tabs or 1-8 for number of spaces.)'
+    end
+    entry do
+      command ':line-ending'
+      name 'Set the document\'s default line ending. Options: crlf, lf.'
+    end
+    entry do
+      command ':earlier, :ear'
+      name 'Jump back to an earlier point in edit history. Accepts a number of steps or a time span.'
+    end
+    entry do
+      command ':later, :lat'
+      name 'Jump to a later point in edit history. Accepts a number of steps or a time span.'
+    end
+    entry do
+      command ':write-quit, :wq, :x'
+      name 'Write changes to disk and close the current view. Accepts an optional path (:wq some/path.txt)'
+    end
+    entry do
+      command ':write-quit!, :wq!, :x!'
+      name 'Write changes to disk and close the current view forcefully. Accepts an optional path (:wq! some/path.txt)'
+    end
+    entry do
+      command ':write-all, :wa'
+      name 'Write changes from all buffers to disk.'
+    end
+    entry do
+      command ':write-quit-all, :wqa, :xa'
+      name 'Write changes from all buffers to disk and close all views.'
+    end
+    entry do
+      command ':write-quit-all!, :wqa!, :xa!'
+      name 'Write changes from all buffers to disk and close all views forcefully (ignoring unsaved changes).'
+    end
+    entry do
+      command ':quit-all, :qa'
+      name 'Close all views.'
+    end
+    entry do
+      command ':quit-all!, :qa!'
+      name 'Force close all views ignoring unsaved changes.'
+    end
+    entry do
+      command ':cquit, :cq'
+      name 'Quit with exit code (default 1). Accepts an optional integer exit code (:cq 2).'
+    end
+    entry do
+      command ':cquit!, :cq!'
+      name 'Force quit with exit code (default 1) ignoring unsaved changes. Accepts an optional integer exit code (:cq! 2).'
+    end
+    entry do
+      command ':theme'
+      name 'Change the editor theme (show current theme if no name specified).'
+    end
+    entry do
+      command ':clipboard-yank'
+      name 'Yank main selection into system clipboard.'
+    end
+    entry do
+      command ':clipboard-yank-join'
+      name 'Yank joined selections into system clipboard. A separator can be provided as first argument. Default value is newline.'
+    end
+    entry do
+      command ':primary-clipboard-yank'
+      name 'Yank main selection into system primary clipboard.'
+    end
+    entry do
+      command ':primary-clipboard-yank-join'
+      name 'Yank joined selections into system primary clipboard. A separator can be provided as first argument. Default value is newline.'
+    end
+    entry do
+      command ':clipboard-paste-after'
+      name 'Paste system clipboard after selections.'
+    end
+    entry do
+      command ':clipboard-paste-before'
+      name 'Paste system clipboard before selections.'
+    end
+    entry do
+      command ':clipboard-paste-replace'
+      name 'Replace selections with content of system clipboard.'
+    end
+    entry do
+      command ':primary-clipboard-paste-after'
+      name 'Paste primary clipboard after selections.'
+    end
+    entry do
+      command ':primary-clipboard-paste-before'
+      name 'Paste primary clipboard before selections.'
+    end
+    entry do
+      command ':primary-clipboard-paste-replace'
+      name 'Replace selections with content of system primary clipboard.'
+    end
+    entry do
+      command ':show-clipboard-provider'
+      name 'Show clipboard provider name in status bar.'
+    end
+    entry do
+      command ':change-current-directory, :cd'
+      name 'Change the current working directory.'
+    end
+    entry do
+      command ':show-directory, :pwd'
+      name 'Show the current working directory.'
+    end
+    entry do
+      command ':encoding'
+      name 'Set encoding. Based on https://encoding.spec.whatwg.org.'
+    end
+    entry do
+      command ':character-info, :char'
+      name 'Get info about the character under the primary cursor.'
+    end
+    entry do
+      command ':reload'
+      name 'Discard changes and reload from the source file.'
+    end
+    entry do
+      command ':reload-all'
+      name 'Discard changes and reload all documents from the source files.'
+    end
+    entry do
+      command ':update, :u'
+      name 'Write changes only if the file has been modified.'
+    end
+    entry do
+      command ':lsp-workspace-command'
+      name 'Open workspace command picker'
+    end
+    entry do
+      command ':lsp-restart'
+      name 'Restarts the Language Server that is in use by the current doc'
+    end
+    entry do
+      command ':lsp-stop'
+      name 'Stops the Language Server that is in use by the current doc'
+    end
+    entry do
+      command ':tree-sitter-scopes'
+      name 'Display tree sitter scopes, primarily for theming and development.'
+    end
+    entry do
+      command ':debug-start, :dbg'
+      name 'Start a debug session from a given template with given parameters.'
+    end
+    entry do
+      command ':debug-remote, :dbg-tcp'
+      name 'Connect to a debug adapter by TCP address and start a debugging session from a given template with given parameters.'
+    end
+    entry do
+      command ':debug-eval'
+      name 'Evaluate expression in current debug context.'
+    end
+    entry do
+      command ':vsplit, :vs'
+      name 'Open the file in a vertical split.'
+    end
+    entry do
+      command ':vsplit-new, :vnew'
+      name 'Open a scratch buffer in a vertical split.'
+    end
+    entry do
+      command ':hsplit, :hs, :sp'
+      name 'Open the file in a horizontal split.'
+    end
+    entry do
+      command ':hsplit-new, :hnew'
+      name 'Open a scratch buffer in a horizontal split.'
+    end
+    entry do
+      command ':tutor'
+      name 'Open the tutorial.'
+    end
+    entry do
+      command ':goto, :g'
+      name 'Goto line number.'
+    end
+    entry do
+      command ':set-language, :lang'
+      name 'Set the language of current buffer (show current language if no value specified).'
+    end
+    entry do
+      command ':set-option, :set'
+      name 'Set a config option at runtime.For example to disable smart case search, use :set search.smart-case false.'
+    end
+    entry do
+      command ':toggle-option, :toggle'
+      name 'Toggle a boolean config option at runtime.For example to toggle smart case search, use :toggle search.smart-case.'
+    end
+    entry do
+      command ':get-option, :get'
+      name 'Get the current value of a config option.'
+    end
+    entry do
+      command ':sort'
+      name 'Sort ranges in selection.'
+    end
+    entry do
+      command ':rsort'
+      name 'Sort ranges in selection in reverse order.'
+    end
+    entry do
+      command ':reflow'
+      name 'Hard-wrap the current selection of lines to a given width.'
+    end
+    entry do
+      command ':tree-sitter-subtree, :ts-subtree'
+      name 'Display tree sitter subtree under cursor, primarily for debugging queries.'
+    end
+    entry do
+      command ':config-reload'
+      name 'Refresh user config.'
+    end
+    entry do
+      command ':config-open'
+      name 'Open the user config.toml file.'
+    end
+    entry do
+      command ':config-open-workspace'
+      name 'Open the workspace config.toml file.'
+    end
+    entry do
+      command ':log-open'
+      name 'Open the helix log file.'
+    end
+    entry do
+      command ':insert-output'
+      name 'Run shell command, inserting output before each selection.'
+    end
+    entry do
+      command ':append-output'
+      name 'Run shell command, appending output after each selection.'
+    end
+    entry do
+      command ':pipe'
+      name 'Pipe each selection to the shell command.'
+    end
+    entry do
+      command ':pipe-to'
+      name 'Pipe each selection to the shell command, ignoring output.'
+    end
+    entry do
+      command ':run-shell-command, :sh'
+      name 'Run a shell command'
+    end
+    entry do
+      command ':reset-diff-change, :diffget, :diffg'
+      name 'Reset the diff change at the cursor position.'
+    end
+    entry do
+      command ':clear-register'
+      name 'Clear given register. If no argument is provided, clear all registers.'
+    end
+  end
 end
