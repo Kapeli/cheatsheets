@@ -1531,4 +1531,11 @@ cheatsheet do
       name 'Clear given register. If no argument is provided, clear all registers.'
     end
   end
+
+  notes <<-END
+    ***References***
+
+    * https://docs.helix-editor.com/keymap.html
+    * https://docs.helix-editor.com/commands.html
+  END
 end
