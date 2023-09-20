@@ -113,6 +113,11 @@ cheatsheet do
       command 'Ctrl-s'
       name 'Save the current selection to the jumplist'
     end
+  end
+
+  category do
+    id 'Changes'
+
     entry do
       command 'r'
       name 'Replace with a character'
@@ -237,6 +242,11 @@ cheatsheet do
       command 'q'
       name 'Play back a recorded macro from the selected register (experimental)'
     end
+  end
+
+  category do
+    id 'Shell'
+
     entry do
       command '|'
       name 'Pipe each selection through shell command, replacing with output'
@@ -257,6 +267,11 @@ cheatsheet do
       command '$'
       name 'Pipe each selection into shell command, keep selections where command returned 0'
     end
+  end
+
+  category do
+    id 'Selection manipulation'
+
     entry do
       command 's'
       name 'Select all regex matches inside selections'
@@ -377,6 +392,11 @@ cheatsheet do
       command 'Alt-n, Alt-right'
       name 'Select next sibling node in syntax tree (TS)'
     end
+  end
+
+  category do
+    id 'Search'
+
     entry do
       command '/'
       name 'Search for regex pattern'
@@ -397,6 +417,11 @@ cheatsheet do
       command '*'
       name 'Use current selection as the search pattern'
     end
+  end
+
+  category do
+    id 'Minor modes'
+
     entry do
       command 'v'
       name 'Enter select (extend) mode'
@@ -429,6 +454,11 @@ cheatsheet do
       command 'Space'
       name 'Enter space mode'
     end
+  end
+
+  category do
+    id 'View Mode'
+
     entry do
       command 'z, c'
       name 'Vertically center the line'
@@ -469,6 +499,11 @@ cheatsheet do
       command 'Ctrl-u'
       name 'Move half page up'
     end
+  end
+
+  category do
+    id 'Goto mode'
+
     entry do
       command 'g'
       name 'Go to line number <n> else start of file'
@@ -549,6 +584,11 @@ cheatsheet do
       command 'k'
       name 'Move up textual (instead of visual) line'
     end
+  end
+
+  category do
+    id 'Match mode'
+
     entry do
       command 'm'
       name 'Goto matching bracket (TS)'
@@ -573,6 +613,11 @@ cheatsheet do
       command 'i <object>'
       name 'Select inside textobject'
     end
+  end
+
+  category do
+    id 'Window mode'
+
     entry do
       command 'w, Ctrl-w'
       name 'Switch to next window'
@@ -633,6 +678,11 @@ cheatsheet do
       command 'L'
       name 'Swap window to the right'
     end
+  end
+
+  category do
+    id 'Space mode'
+
     entry do
       command 'f'
       name 'Open file picker'
@@ -721,6 +771,11 @@ cheatsheet do
       command '?'
       name 'Open command palette'
     end
+  end
+
+  category do
+    id 'Popup'
+
     entry do
       command 'Ctrl-u'
       name 'Scroll up'
@@ -729,6 +784,11 @@ cheatsheet do
       command 'Ctrl-d'
       name 'Scroll down'
     end
+  end
+
+  category do
+    id 'Unimpaired'
+
     entry do
       command ']d'
       name 'Go to next diagnostic (LSP)'
@@ -817,6 +877,11 @@ cheatsheet do
       command '[Space'
       name 'Add newline above'
     end
+  end
+
+  category do
+    id 'Insert mode'
+
     entry do
       command 'Escape'
       name 'Switch to normal mode'
@@ -893,6 +958,11 @@ cheatsheet do
       command 'End'
       name 'Move to line end'
     end
+  end
+
+  category do
+    id 'Picker'
+
     entry do
       command 'Shift-Tab, Up, Ctrl-p'
       name 'Previous entry'
@@ -937,6 +1007,11 @@ cheatsheet do
       command 'Escape, Ctrl-c'
       name 'Close picker'
     end
+  end
+
+  category do
+    id 'Prompt'
+
     entry do
       command 'Escape, Ctrl-c'
       name 'Close prompt'
