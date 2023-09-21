@@ -10,6 +10,18 @@ cheatsheet do
     id 'API Levels'
 
     entry do
+      command '34'
+      name '14'
+    end
+    entry do
+      command '33'
+      name '13'
+    end
+    entry do
+      command '32'
+      name '12L feature drop'
+    end
+    entry do
       command '31'
       name '12'
     end
