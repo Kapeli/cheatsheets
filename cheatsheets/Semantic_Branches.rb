@@ -74,7 +74,7 @@ EOF
     end
 
     entry do
-      name 'Chore'
+      name 'chore'
       notes 'updating grunt tasks etc; no production code change'
     end
   end
