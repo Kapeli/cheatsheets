@@ -326,6 +326,24 @@ cheatsheet do
       ```
       '
     end
+
+    entry do
+      name 'Get a list of secrets for a specific namespace'
+      notes '
+      ```
+      kubectl get secrets --namespace <namespace>
+      ```
+      '
+    end
+
+    entry do
+      name 'Get a specific secret and decode the password in it'
+      notes '
+      ```
+      kubectl get secrets/<secret-name> --template=\'{{.data.password | base64decode}}\'
+      ```
+      '
+    end
   end
 
   notes '* Adapted from the official Kubernetes documentation cheatsheet: http://kubernetes.io/docs/user-guide/kubectl-cheatsheet/.'
