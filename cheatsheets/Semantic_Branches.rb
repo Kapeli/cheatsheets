@@ -45,37 +45,37 @@ EOF
     id 'More Examples'
     entry do
       name 'feat or feature'
-      notes 'new feature for the user, not a new feature for build script'
+      notes 'New feature for the user, not a new feature for build script'
     end
 
     entry do
       name 'fix'
-      notes 'bug fix for the user, not a fix to a build script'
+      notes 'Bug fix for the user, not a fix to a build script'
     end
 
     entry do
       name 'docs'
-      notes 'changes to the documentation'
+      notes 'Changes to the documentation'
     end
 
     entry do
       name 'style'
-      notes 'formatting, missing semi colons, etc; no production code change'
+      notes 'Formatting, missing semi colons, etc; no production code change'
     end
 
     entry do
       name 'refactor'
-      notes 'refactoring production code, eg. renaming a variable'
+      notes 'Refactoring production code, eg. renaming a variable'
     end
 
     entry do
       name 'test'
-      notes 'adding missing tests, refactoring tests; no production code change'
+      notes 'Adding missing tests, refactoring tests; no production code change'
     end
 
     entry do
       name 'chore'
-      notes 'updating grunt tasks etc; no production code change'
+      notes 'Updating grunt tasks etc; no production code change'
     end
   end
 end
