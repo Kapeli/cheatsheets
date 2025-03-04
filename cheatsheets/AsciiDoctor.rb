@@ -24,7 +24,7 @@ cheatsheet do
     }
   '
 
-  introduction '<p>On opinionated AsciiDoctor cheat sheet for authoring HTML, by 
+  introduction '<p>An opinionated AsciiDoctor cheat sheet for authoring HTML, by 
   <a onclick="window.dash.openExternal_(this.href); return false;" href="https://holyjak.cz">Jakub Holý</a></p>'
 
   
