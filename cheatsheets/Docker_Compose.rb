@@ -4,6 +4,18 @@ cheatsheet do
   keyword 'compose'
   source_url 'http://cheat.kapeli.com'
 
+  style <<-'END'
+    pre code {
+      display: block;
+      white-space: pre-wrap;
+      border: 0;
+      background: transparent;
+    }
+    pre code:before, pre code:after {
+      content: none;
+    }
+  END
+
   introduction <<-'END'
     A quick reference for writing `compose.yaml` with the current
     [Compose Specification](https://docs.docker.com/reference/compose-file/).
@@ -120,7 +132,7 @@ cheatsheet do
     end
 
     entry do
-      name 'init, stop_grace_period'
+      name '`init`, `stop_grace_period`'
       notes <<-'END'
         ```yaml
         init: true
@@ -580,7 +592,7 @@ cheatsheet do
     id 'Runtime Settings'
 
     entry do
-      name 'cpus, mem_limit, pids_limit'
+      name '`cpus`, `mem_limit`, `pids_limit`'
       notes <<-'END'
         ```yaml
         cpus: 1.5
@@ -611,7 +623,7 @@ cheatsheet do
     end
 
     entry do
-      name 'cap_drop, security_opt'
+      name '`cap_drop`, `security_opt`'
       notes <<-'END'
         ```yaml
         cap_drop:
